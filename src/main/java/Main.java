@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         MoveZeroesToEnd object = new MoveZeroesToEnd();
-        int[] input = {1,0};
+        int[] input = {0, 1, 0, 3, 12};
         System.out.println("Output: -> " + Arrays.toString(object.moveZeroes(input)));
     }
 }
