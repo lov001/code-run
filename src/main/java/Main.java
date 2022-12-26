@@ -1,8 +1,11 @@
-package org.example;
+import java.util.Arrays;
+import leetcode.MoveZeroesToEnd;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MoveZeroesToEnd object = new MoveZeroesToEnd();
+        int[] input = {1,0};
+        System.out.println("Output: -> " + Arrays.toString(object.moveZeroes(input)));
     }
 }
