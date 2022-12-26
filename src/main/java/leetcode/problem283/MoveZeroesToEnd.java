@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.problem283;
 
 public class MoveZeroesToEnd {
 

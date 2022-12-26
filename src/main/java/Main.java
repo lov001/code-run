@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import leetcode.MoveZeroesToEnd;
+import leetcode.problem283.MoveZeroesToEnd;
 
 public class Main {
 
