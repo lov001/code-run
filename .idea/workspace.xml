@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="Added utils package for common operations&#10;Moved swap logic to utils">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="removed redundant check for array length">
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem283/MoveZeroesToEndTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem283/MoveZeroesToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem283/MoveZeroesToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MoveZeroesToEndTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -94,6 +94,113 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoveZeroesToEndTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem283.MoveZeroesToEndTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem283.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem283.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when10&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoveZeroesToEndTest.test_moveZeroesToEnd_expect1_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem283.MoveZeroesToEndTest.test_moveZeroesToEnd_expect1_when1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MoveZeroesToEndTest" />
+      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when01" />
+      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when10" />
+      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect1_when1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MoveZeroesToEndTest" />
+        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when10" />
+        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect10_when01" />
+        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZeroesToEnd_expect1_when1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672072963446</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed redundant check for array length">
+      <created>1672073307540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672073307540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +257,7 @@
     <MESSAGE value="Moving Zeroes to End" />
     <MESSAGE value="moved the problem to its own package" />
     <MESSAGE value="Added utils package for common operations&#10;Moved swap logic to utils" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added utils package for common operations&#10;Moved swap logic to utils" />
+    <MESSAGE value="removed redundant check for array length" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed redundant check for array length" />
   </component>
 </project>
