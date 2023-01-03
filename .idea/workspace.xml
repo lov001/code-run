@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="Added unit tests for moving zeroes problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem27/RemoveElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="Added Remove Element from array problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem1480/RunningSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +52,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1672071700" />
+                    <option name="branchName" value="PROBLEM-1480" />
+                    <option name="lastUsedInstant" value="1672760466" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1672071699" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1672071700" />
                   </RecentBranch>
                 </list>
               </option>
@@ -89,7 +91,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -108,52 +110,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="RemoveElementTest.test_moveZeroesToEnd_expect0_when0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem27.RemoveElementTest.test_moveZeroesToEnd_expect0_when0&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RemoveElementTest.test_moveZeroesToEnd_expect1_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem27.RemoveElementTest.test_moveZeroesToEnd_expect1_when1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -201,7 +157,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveElementTest.test_removeElement_expectEmptyArray_whenOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -214,7 +170,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem27.RemoveElementTest.test_removeElement_expectEmptyArray_whenOneElement&quot;" />
+            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -226,19 +228,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RemoveElementTest.test_moveZeroesToEnd_expect0_when0" />
-      <item itemvalue="Gradle.RemoveElementTest.test_moveZeroesToEnd_expect1_when1" />
       <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" />
       <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement" />
-      <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expectEmptyArray_whenOneElement" />
+      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
+      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" />
+      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
+        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" />
+        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" />
         <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement" />
         <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" />
-        <item itemvalue="Gradle.RemoveElementTest.test_moveZeroesToEnd_expect0_when0" />
-        <item itemvalue="Gradle.RemoveElementTest.test_moveZeroesToEnd_expect1_when1" />
-        <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expectEmptyArray_whenOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672114052928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Remove Element from array problem">
+      <created>1672746655509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672746655509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +315,8 @@
     <MESSAGE value="Added utils package for common operations&#10;Moved swap logic to utils" />
     <MESSAGE value="removed redundant check for array length" />
     <MESSAGE value="Added unit tests for moving zeroes problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unit tests for moving zeroes problem" />
+    <MESSAGE value="Added Remove Element from array problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Remove Element from array problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
