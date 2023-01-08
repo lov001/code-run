@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="Added Remove Element from array problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem1480/RunningSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="WIP Find Pivot Index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem724/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem724/PivotIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-724" />
+                    <option name="lastUsedInstant" value="1672768023" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-1480" />
                     <option name="lastUsedInstant" value="1672760466" />
                   </RecentBranch>
@@ -91,7 +91,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coding Problems">
+  <component name="RunManager" selected="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -111,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PivotIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem27.RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements&quot;" />
+            <option value="&quot;leetcode.problem724.PivotIndexTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +134,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +147,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem27.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement&quot;" />
+            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,67 +226,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" />
-      <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement" />
+      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" />
+      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" />
+      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" />
+      <item itemvalue="Gradle.PivotIndexTest" />
       <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
-      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" />
-      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" />
+        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" />
+        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" />
+        <item itemvalue="Gradle.PivotIndexTest" />
         <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
-        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllSameInput" />
-        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInSortedOrder" />
-        <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect5_when5NonMatchingElement" />
-        <item itemvalue="Gradle.RemoveElementTest.test_removeElement_expect2_whenTwoNonMatchingElements" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672746655509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Running Sum problem">
+      <created>1672760585961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672760585962</updated>
+    </task>
+    <task id="LOCAL-00008" summary="WIP Find Pivot Index">
+      <created>1672768177205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672768177205</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +330,9 @@
     <MESSAGE value="removed redundant check for array length" />
     <MESSAGE value="Added unit tests for moving zeroes problem" />
     <MESSAGE value="Added Remove Element from array problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Remove Element from array problem" />
+    <MESSAGE value="Added Running Sum problem" />
+    <MESSAGE value="WIP Find Pivot Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP Find Pivot Index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
