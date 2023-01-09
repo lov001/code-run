@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class IsomorphicString {
 
     public boolean isIsomorphic(String s, String t) {
+        if(s.length() != t.length())
+            return false;
         int[] mappingStoT = new int[256];
         Arrays.fill(mappingStoT, -1);
 
