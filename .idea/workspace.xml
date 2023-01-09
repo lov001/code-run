@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="WIP Find Pivot Index">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-724]: Fixed Pivot Index Problem with test cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem205/IsomorphicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem205/IsomorphicStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem724/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem724/PivotIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-205" />
+                    <option name="lastUsedInstant" value="1673187359" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-724" />
                     <option name="lastUsedInstant" value="1672768023" />
@@ -91,7 +96,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput">
+  <component name="RunManager" selected="Gradle.IsomorphicStringTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -111,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PivotIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsomorphicStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem724.PivotIndexTest&quot;" />
+            <option value="&quot;leetcode.problem205.IsomorphicStringTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +139,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +152,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput&quot;" />
+            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,7 +162,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +175,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput&quot;" />
+            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,7 +185,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +198,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem724.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput&quot;" />
+            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,7 +208,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectTrue_whenTowStringsAreIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -216,7 +221,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem1480.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder&quot;" />
+            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenTowStringsAreIsomorphic&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,19 +233,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" />
-      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" />
-      <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" />
-      <item itemvalue="Gradle.PivotIndexTest" />
-      <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
+      <item itemvalue="Gradle.IsomorphicStringTest" />
+      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
+      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" />
+      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" />
+      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenTowStringsAreIsomorphic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect0_whenGivenInput" />
-        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expectMinus1_whenGivenInput" />
-        <item itemvalue="Gradle.PivotIndexTest.test_pivotIndex_expect3_whenGivenInput (1)" />
-        <item itemvalue="Gradle.PivotIndexTest" />
-        <item itemvalue="Gradle.RunningSumTest.test_runningSum_expectRunningSum_whenAllDifferentInputInAnyOrder" />
+        <item itemvalue="Gradle.IsomorphicStringTest" />
+        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" />
+        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" />
+        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenTowStringsAreIsomorphic" />
+        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672768177205</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[PROBLEM-724]: Fixed Pivot Index Problem with test cases">
+      <created>1673186779907</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673186779907</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +344,8 @@
     <MESSAGE value="Added Remove Element from array problem" />
     <MESSAGE value="Added Running Sum problem" />
     <MESSAGE value="WIP Find Pivot Index" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP Find Pivot Index" />
+    <MESSAGE value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -346,6 +359,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem205/IsomorphicString.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
