@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-206]: Reversing a Linked List">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem392/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem392/IsSubsequenceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-392]: IsSubsequence problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem21/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem21/MergeTwoSortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-21" />
+                    <option name="lastUsedInstant" value="1673319637" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-392" />
                     <option name="lastUsedInstant" value="1673284201" />
                   </RecentBranch>
@@ -63,10 +68,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-724" />
                     <option name="lastUsedInstant" value="1672768023" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1480" />
-                    <option name="lastUsedInstant" value="1672760466" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,7 +101,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IsSubsequenceTest">
+  <component name="RunManager" selected="Gradle.MergeTwoSortedLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem392.IsSubsequenceTest&quot;" />
+            <option value="&quot;leetcode.problem21.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoSortedLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic&quot;" />
+            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput&quot;" />
+            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,7 +190,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -202,7 +203,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1&quot;" />
+            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,7 +213,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -225,7 +226,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic&quot;" />
+            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,19 +238,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.IsSubsequenceTest" />
-      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
-      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" />
-      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" />
-      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" />
+      <item itemvalue="Gradle.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
+      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest" />
+      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" />
+      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" />
+      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.IsSubsequenceTest" />
-        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" />
-        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" />
-        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" />
-        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
+        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest" />
+        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" />
+        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" />
+        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" />
+        <item itemvalue="Gradle.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673283912648</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[PROBLEM-392]: IsSubsequence problem">
+      <created>1673319227895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673319227896</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,7 +381,8 @@
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
     <MESSAGE value="[PROBLEM-206]: Reversing a Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-206]: Reversing a Linked List" />
+    <MESSAGE value="[PROBLEM-392]: IsSubsequence problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-392]: IsSubsequence problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,6 +406,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem392/IsSubsequence.java</url>
           <line>5</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
