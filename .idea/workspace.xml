@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-205]: Isomorphic strings - Transformation Approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem206/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem206/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem206/ReverseLinkedListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-206]: Reversing a Linked List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem392/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem392/IsSubsequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-392" />
+                    <option name="lastUsedInstant" value="1673284201" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-206" />
+                    <option name="lastUsedInstant" value="1673283892" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-205" />
                     <option name="lastUsedInstant" value="1673187359" />
                   </RecentBranch>
@@ -60,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1480" />
                     <option name="lastUsedInstant" value="1672760466" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1672071700" />
                   </RecentBranch>
                 </list>
               </option>
@@ -97,7 +100,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReverseLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven">
+  <component name="RunManager" selected="Gradle.IsSubsequenceTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -117,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStringByTransformationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -130,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem205.IsomorphicStringByTransformationTest&quot;" />
+            <option value="&quot;leetcode.problem392.IsSubsequenceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsomorphicStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem205.IsomorphicStringTest&quot;" />
+            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -176,7 +179,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput&quot;" />
+            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,7 +189,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -199,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem205.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic&quot;" />
+            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,7 +212,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReverseLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -222,7 +225,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem206.ReverseLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven&quot;" />
+            <option value="&quot;leetcode.problem392.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,19 +237,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.IsomorphicStringByTransformationTest" />
-      <item itemvalue="Gradle.IsomorphicStringTest" />
-      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" />
-      <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" />
-      <item itemvalue="Gradle.ReverseLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
+      <item itemvalue="Gradle.IsSubsequenceTest" />
+      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
+      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" />
+      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" />
+      <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ReverseLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
-        <item itemvalue="Gradle.IsomorphicStringByTransformationTest" />
-        <item itemvalue="Gradle.IsomorphicStringTest" />
-        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectFalse_whenRandomInput" />
-        <item itemvalue="Gradle.IsomorphicStringTest.test_isIsomorphic_expectTrue_whenInputIsIsomorphic" />
+        <item itemvalue="Gradle.IsSubsequenceTest" />
+        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput1" />
+        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenRandomInput" />
+        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectTrue_whenTwoStringsAreIsomorphic" />
+        <item itemvalue="Gradle.IsSubsequenceTest.test_isIsomorphic_expectFalse_whenInputIsNotIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673275912039</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[PROBLEM-206]: Reversing a Linked List">
+      <created>1673283912647</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673283912648</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +372,8 @@
     <MESSAGE value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
+    <MESSAGE value="[PROBLEM-206]: Reversing a Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-206]: Reversing a Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,9 +394,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem206/ReverseLinkedListTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem392/IsSubsequence.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
