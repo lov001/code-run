@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-392]: IsSubsequence problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem21/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem21/MergeTwoSortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-876]: WIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem876/MiddleElementOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem876/MiddleElementOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-876" />
+                    <option name="lastUsedInstant" value="1673370741" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-21" />
                     <option name="lastUsedInstant" value="1673319637" />
                   </RecentBranch>
@@ -64,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-205" />
                     <option name="lastUsedInstant" value="1673187359" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-724" />
-                    <option name="lastUsedInstant" value="1672768023" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,7 +100,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergeTwoSortedLinkedListTest">
+  <component name="RunManager" selected="Gradle.MiddleElementOfLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -121,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MiddleElementOfLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem21.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven&quot;" />
+            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeTwoSortedLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest&quot;" />
+            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +179,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven&quot;" />
+            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,7 +189,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -203,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven&quot;" />
+            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,7 +212,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -226,7 +225,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem21.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue&quot;" />
+            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,19 +237,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
-      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest" />
-      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" />
-      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" />
-      <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" />
+      <item itemvalue="Gradle.MiddleElementOfLinkedListTest" />
+      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" />
+      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" />
+      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" />
+      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest" />
-        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectTwoListAreOfSameSize_whenInputContainsNegativeValue" />
-        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectOneEmptyListOneNonEmptyList_whenInputGiven" />
-        <item itemvalue="Gradle.MergeTwoSortedLinkedListTest.test_mergeTwoLists_expectBothAreEmptyLists_whenInputGiven" />
-        <item itemvalue="Gradle.MergeTwoLinkedListTest.test_reversedList_expectReversedLinkedList_whenInputGiven" />
+        <item itemvalue="Gradle.MiddleElementOfLinkedListTest" />
+        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" />
+        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" />
+        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" />
+        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +353,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673319227896</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[PROBLEM-21]: Merge Two Sorted Linked List">
+      <created>1673370340270</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673370340271</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[PROBLEM-876]: WIP Finding Middle Node of a linked list">
+      <created>1673371314799</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673371314799</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[PROBLEM-876]: WIP">
+      <created>1673456834906</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456834907</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +402,10 @@
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
     <MESSAGE value="[PROBLEM-206]: Reversing a Linked List" />
     <MESSAGE value="[PROBLEM-392]: IsSubsequence problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-392]: IsSubsequence problem" />
+    <MESSAGE value="[PROBLEM-21]: Merge Two Sorted Linked List" />
+    <MESSAGE value="[PROBLEM-876]: WIP Finding Middle Node of a linked list" />
+    <MESSAGE value="[PROBLEM-876]: WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-876]: WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +439,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java</url>
           <line>53</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
