@@ -43,4 +43,24 @@ public class MiddleElementOfLinkedListTest {
         assertEquals(5, result.next.val);
         assertEquals(6, result.next.next.val);
     }
+
+    @Test
+    void test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes() {
+        ListNode list1 = new ListNode(1);
+        list1.next = new ListNode(2);
+        ListNode result = classObj.middleNode(list1);
+        assertEquals(2, result.val);
+    }
+
+    @Test
+    void test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes() {
+        ListNode list1 = new ListNode(1);
+        ListNode val1 = new ListNode(2);
+        ListNode val2 = new ListNode(3);
+        list1.next = val1;
+        val1.next = val2;
+        ListNode result = classObj.middleNode(list1);
+        assertEquals(2, result.val);
+        assertEquals(3, result.next.val);
+    }
 }
