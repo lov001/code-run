@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-876]: WIP">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-142]: WIP - Circular linked list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem876/MiddleElementOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem876/MiddleElementOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-142" />
+                    <option name="lastUsedInstant" value="1673517648" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-876" />
                     <option name="lastUsedInstant" value="1673370741" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-206" />
                     <option name="lastUsedInstant" value="1673283892" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-205" />
-                    <option name="lastUsedInstant" value="1673187359" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,7 +99,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MiddleElementOfLinkedListTest">
+  <component name="RunManager" selected="Gradle.CircularLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleElementOfLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CircularLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest&quot;" />
+            <option value="&quot;leetcode.problem142.CircularLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +142,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes&quot;" />
+            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +165,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,7 +178,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes&quot;" />
+            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,7 +188,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -202,7 +201,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes&quot;" />
+            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,7 +211,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -225,7 +224,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem876.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes&quot;" />
+            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,19 +236,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MiddleElementOfLinkedListTest" />
-      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" />
-      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" />
-      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" />
-      <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" />
+      <item itemvalue="Gradle.CircularLinkedListTest" />
+      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" />
+      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" />
+      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" />
+      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MiddleElementOfLinkedListTest" />
-        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHas3Nodes" />
-        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasTwoNodes" />
-        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectSecondMiddleNode_whenInputHasEvenNodes" />
-        <item itemvalue="Gradle.MiddleElementOfLinkedListTest.test_mergeTwoLists_expectMiddleNode_whenInputHasOddNodes" />
+        <item itemvalue="Gradle.CircularLinkedListTest" />
+        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
+        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" />
+        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" />
+        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673456834907</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[PROBLEM-876]: Completed finding middle node">
+      <created>1673458734799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458734799</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[PROBLEM-142]: WIP - Circular linked list">
+      <created>1673519738966</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673519738966</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +418,9 @@
     <MESSAGE value="[PROBLEM-21]: Merge Two Sorted Linked List" />
     <MESSAGE value="[PROBLEM-876]: WIP Finding Middle Node of a linked list" />
     <MESSAGE value="[PROBLEM-876]: WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-876]: WIP" />
+    <MESSAGE value="[PROBLEM-876]: Completed finding middle node" />
+    <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-142]: WIP - Circular linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,6 +464,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java</url>
           <line>61</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
