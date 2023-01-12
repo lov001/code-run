@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-142]: WIP - Circular linked list">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-142]: Circular linked list 2 - solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedListApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem142/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem142/CircularLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673519738966</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[PROBLEM-142]: Circular linked list 2 - solved">
+      <created>1673521987344</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673521987344</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +429,8 @@
     <MESSAGE value="[PROBLEM-876]: WIP" />
     <MESSAGE value="[PROBLEM-876]: Completed finding middle node" />
     <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-142]: WIP - Circular linked list" />
+    <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-142]: Circular linked list 2 - solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
