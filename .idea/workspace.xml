@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-142]: Circular linked list 2 - solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedListApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-142]: Approach 2 - By modifying the property of linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem141/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem141/LinkedListCycleSetApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem141/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem141/LinkedListCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem142/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem142/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem142/CircularLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-141" />
+                    <option name="lastUsedInstant" value="1673584981" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-142" />
                     <option name="lastUsedInstant" value="1673517648" />
                   </RecentBranch>
@@ -64,10 +69,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-392" />
                     <option name="lastUsedInstant" value="1673284201" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-206" />
-                    <option name="lastUsedInstant" value="1673283892" />
                   </RecentBranch>
                 </list>
               </option>
@@ -98,10 +99,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.problem141" />
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CircularLinkedListTest">
+  <component name="RunManager" selected="Gradle.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedList">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -144,75 +146,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem142.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,21 +169,90 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LinkedListCycleTest.test_hasCycle_expectFalse_whenOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem141.LinkedListCycleTest.test_hasCycle_expectFalse_whenOnlyOneElement&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem141.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedList&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedListAtFirstIndex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem141.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedListAtFirstIndex&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CircularLinkedListTest" />
-      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" />
-      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" />
-      <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" />
       <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
+      <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectFalse_whenOnlyOneElement" />
+      <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedList" />
+      <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedListAtFirstIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedList" />
+        <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectTrue_whenCycleExistsInALinkedListAtFirstIndex" />
+        <item itemvalue="Gradle.LinkedListCycleTest.test_hasCycle_expectFalse_whenOnlyOneElement" />
         <item itemvalue="Gradle.CircularLinkedListTest" />
         <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
-        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectOne_whenCycleBeginsFromSecondNode" />
-        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasTwoNodesAndNoCycleExists" />
-        <item itemvalue="Gradle.CircularLinkedListTest.test_detectCycle_expectMinusOne_whenInputHasNoCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673521987344</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[PROBLEM-142]: Approach 2 - By modifying the property of linked list">
+      <created>1673526012731</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673526012732</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +439,8 @@
     <MESSAGE value="[PROBLEM-876]: Completed finding middle node" />
     <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
     <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-142]: Circular linked list 2 - solved" />
+    <MESSAGE value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
