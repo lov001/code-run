@@ -3,6 +3,22 @@ package leetcode.problem121;
 public class MaximiseStockProfit {
 
     public int maxProfit(int[] prices) {
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+        for (int price : prices) {
+            if (price < minPrice) {
+                minPrice = price;
+            } else if (price - minPrice > maxProfit) {
+                maxProfit = price - minPrice;
+            }
+        }
+        return maxProfit;
+    }
+
+
+    /*
+    Failing for few scenarios 200/213 passed
+    public int maxProfit(int[] prices) {
         int profit = 0, buy = 0, sell = 1;
         if (prices.length == 2 && prices[sell] - prices[buy] > 0) {
             return prices[sell] - prices[buy];
@@ -19,7 +35,7 @@ public class MaximiseStockProfit {
             }
         }
         return Math.max(profit, 0);
-    }
+    }*/
 
 
     /*

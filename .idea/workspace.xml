@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem121/MaximiseStockProfitTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-121]: Max Profit by performing a Trade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximiseStockProfitTest">
+  <component name="RunManager" selected="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -190,7 +189,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect3_whenInputSizeIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -203,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect3_whenInputSizeIs3&quot;" />
+            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -241,16 +240,16 @@
       <item itemvalue="Gradle.MaximiseStockProfitTest" />
       <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" />
       <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect3_whenInputSizeIs3" />
+      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
       <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaximiseStockProfitTest" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect3_whenInputSizeIs3" />
+        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
         <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2" />
+        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" />
+        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" />
+        <item itemvalue="Gradle.MaximiseStockProfitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673586276030</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[PROBLEM-121]: Max Profit by performing a Trade">
+      <created>1673708913523</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673708913526</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +452,8 @@
     <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
     <MESSAGE value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
     <MESSAGE value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
+    <MESSAGE value="[PROBLEM-121]: Max Profit by performing a Trade" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-121]: Max Profit by performing a Trade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,17 +505,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
-          <line>5</line>
+          <line>21</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
-          <line>10</line>
+          <line>26</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
-          <line>12</line>
+          <line>28</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
