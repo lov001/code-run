@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-121]: Complete Solution Maximum Stock Profit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect1_whenInputGivenIsOfLength1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +157,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect1_whenInputGivenIsOfLength1&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsSameOneLetterOnly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsSameOneLetterOnly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,67 +236,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.LongestPalindromeTest" />
-      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect1_whenInputGivenIsOfLength1" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsSameOneLetterOnly" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
       <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LongestPalindromeTest" />
         <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
-        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect1_whenInputGivenIsOfLength1" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsSameOneLetterOnly" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673710040854</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests">
+      <created>1673711663994</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673711663994</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +469,8 @@
     <MESSAGE value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
     <MESSAGE value="[PROBLEM-121]: Max Profit by performing a Trade" />
     <MESSAGE value="[PROBLEM-121]: Complete Solution Maximum Stock Profit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-121]: Complete Solution Maximum Stock Profit" />
+    <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,8 +537,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="31" />
+          <line>28</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

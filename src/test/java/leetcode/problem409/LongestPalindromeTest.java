@@ -18,4 +18,34 @@ public class LongestPalindromeTest {
         String input = "a";
         Assertions.assertEquals(1, classObj.longestPalindrome(input));
     }
+
+    @Test
+    void test_longestPalindrome_expect2_whenInputGivenIsOfLength2() {
+        String input = "bb";
+        Assertions.assertEquals(2, classObj.longestPalindrome(input));
+    }
+
+    @Test
+    void test_longestPalindrome_expect3_whenInputConsistsSameOneLetterOnly() {
+        String input = "ccc";
+        Assertions.assertEquals(3, classObj.longestPalindrome(input));
+    }
+
+    @Test
+    void test_longestPalindrome_expect3_whenInputConsistsDifferentLetter() {
+        String input = "abb";
+        Assertions.assertEquals(3, classObj.longestPalindrome(input));
+    }
+
+    @Test
+    void test_longestPalindrome_expect5_whenInputIsBananas() {
+        String input = "bananas";
+        Assertions.assertEquals(5, classObj.longestPalindrome(input));
+    }
+
+    @Test
+    void test_longestPalindrome_expect3_whenGivenInput() {
+        String input = "abcbe";
+        Assertions.assertEquals(3, classObj.longestPalindrome(input));
+    }
 }
