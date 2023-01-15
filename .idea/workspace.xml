@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: WIP with failing tests">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: Greedy Approach as per leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindromeSetBasedApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestPalindromeTest">
+  <component name="RunManager" selected="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -245,9 +246,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
         <item itemvalue="Gradle.LongestPalindromeTest" />
         <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" />
-        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
         <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
         <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
       </list>
@@ -437,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673712855265</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[PROBLEM-409]: Greedy Approach as per leetcode">
+      <created>1673769546669</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673769546669</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moving Zeroes to End" />
     <MESSAGE value="moved the problem to its own package" />
     <MESSAGE value="Added utils package for common operations&#10;Moved swap logic to utils" />
     <MESSAGE value="removed redundant check for array length" />
@@ -477,7 +484,8 @@
     <MESSAGE value="[PROBLEM-121]: Complete Solution Maximum Stock Profit" />
     <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
     <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: WIP with failing tests" />
+    <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: Greedy Approach as per leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
