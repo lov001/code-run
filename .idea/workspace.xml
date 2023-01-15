@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-121]: Max Profit by performing a Trade">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: WIP with failing tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-409" />
+                    <option name="lastUsedInstant" value="1673710186" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-121" />
                     <option name="lastUsedInstant" value="1673701788" />
                   </RecentBranch>
@@ -62,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-876" />
                     <option name="lastUsedInstant" value="1673370741" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-21" />
-                    <option name="lastUsedInstant" value="1673319637" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,7 +100,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven">
+  <component name="RunManager" selected="Gradle.LongestPalindromeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximiseStockProfitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -179,7 +179,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,7 +189,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -202,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,7 +212,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -225,7 +225,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.problem121.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit&quot;" />
+            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,19 +237,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
-      <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" />
+      <item itemvalue="Gradle.LongestPalindromeTest" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
+      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect4_whenInputGiven" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect1_whenInputSizeIs2" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect0_whenOnGivenInputTraderCannotBookProfit" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest.test_maxProfit_expect5_whenOnGivenInputTraderBooksProfit" />
-        <item itemvalue="Gradle.MaximiseStockProfitTest" />
+        <item itemvalue="Gradle.LongestPalindromeTest" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
+        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +416,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673708913526</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[PROBLEM-121]: Complete Solution Maximum Stock Profit">
+      <created>1673710040853</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673710040854</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests">
+      <created>1673711663994</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673711663994</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[PROBLEM-409]: WIP with failing tests">
+      <created>1673712855264</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673712855265</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +474,10 @@
     <MESSAGE value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
     <MESSAGE value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
     <MESSAGE value="[PROBLEM-121]: Max Profit by performing a Trade" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-121]: Max Profit by performing a Trade" />
+    <MESSAGE value="[PROBLEM-121]: Complete Solution Maximum Stock Profit" />
+    <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
+    <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: WIP with failing tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
