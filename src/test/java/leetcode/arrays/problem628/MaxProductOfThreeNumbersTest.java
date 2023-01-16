@@ -7,12 +7,14 @@ public class MaxProductOfThreeNumbersTest {
 
     MaxProductOfThreeNumbers classObj = new MaxProductOfThreeNumbers();
     MaxProductOfThreeNumbersBySortingArray classObj2 = new MaxProductOfThreeNumbersBySortingArray();
+    MaxProductOfThreeNumbersByMinMaxValues classObj3 = new MaxProductOfThreeNumbersByMinMaxValues();
 
     @Test
     void test_maximumProduct_expect6_whenOnly3NumbersInInput() {
         int[] input = {1, 2, 3};
         Assertions.assertEquals(6, classObj.maximumProduct(input));
         Assertions.assertEquals(6, classObj2.maximumProduct(input));
+        Assertions.assertEquals(6, classObj3.maximumProduct(input));
     }
 
     @Test
@@ -20,6 +22,7 @@ public class MaxProductOfThreeNumbersTest {
         int[] input = {1, 2, 3, 4};
         Assertions.assertEquals(24, classObj.maximumProduct(input));
         Assertions.assertEquals(24, classObj2.maximumProduct(input));
+        Assertions.assertEquals(24, classObj3.maximumProduct(input));
     }
 
     @Test
@@ -27,6 +30,7 @@ public class MaxProductOfThreeNumbersTest {
         int[] input = {-1, -2, -3};
         Assertions.assertEquals(-6, classObj.maximumProduct(input));
         Assertions.assertEquals(-6, classObj2.maximumProduct(input));
+        Assertions.assertEquals(-6, classObj3.maximumProduct(input));
     }
 
     @Test
@@ -34,6 +38,7 @@ public class MaxProductOfThreeNumbersTest {
         int[] input = {-1, -2, -3, -4};
         Assertions.assertEquals(-6, classObj.maximumProduct(input));
         Assertions.assertEquals(-6, classObj2.maximumProduct(input));
+        Assertions.assertEquals(-6, classObj3.maximumProduct(input));
     }
 
     @Test
@@ -41,6 +46,7 @@ public class MaxProductOfThreeNumbersTest {
         int[] input = {-100, -98, -1, 2, 3, 4};
         Assertions.assertEquals(39200, classObj.maximumProduct(input));
         Assertions.assertEquals(39200, classObj2.maximumProduct(input));
+        Assertions.assertEquals(39200, classObj3.maximumProduct(input));
     }
 
     @Test
@@ -54,5 +60,6 @@ public class MaxProductOfThreeNumbersTest {
             -13, 115, -732, 525, -939, -787};
         Assertions.assertEquals(972256230, classObj.maximumProduct(input));
         Assertions.assertEquals(972256230, classObj2.maximumProduct(input));
+        Assertions.assertEquals(972256230, classObj3.maximumProduct(input));
     }
 }

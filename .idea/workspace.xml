@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-628]: Most non-optimal solution using 3 for loops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersBySortingArray.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-628]: approach 2- Sorting the input array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersByMinMaxValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersApproach.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,29 +145,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,6 +159,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -240,18 +240,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
-      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" />
       <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" />
+      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" />
       <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput" />
       <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
+        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" />
         <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" />
         <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput" />
         <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
-        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673888077146</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[PROBLEM-628]: approach 2- Sorting the input array">
+      <created>1673891746636</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891746636</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Remove Element from array problem" />
     <MESSAGE value="Added Running Sum problem" />
     <MESSAGE value="WIP Find Pivot Index" />
     <MESSAGE value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
@@ -514,7 +520,8 @@
     <MESSAGE value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
     <MESSAGE value="[PROBLEM-628]: Refactoring into arrays package" />
     <MESSAGE value="[PROBLEM-628]: Most non-optimal solution using 3 for loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-628]: Most non-optimal solution using 3 for loops" />
+    <MESSAGE value="[PROBLEM-628]: approach 2- Sorting the input array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-628]: approach 2- Sorting the input array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,6 +590,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersBySortingArray.java</url>
           <line>8</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersByMinMaxValues.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersByMinMaxValues.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
