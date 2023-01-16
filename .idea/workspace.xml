@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: Set based approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem589/TreePreOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-589]: WIP- To be picked later Pre order traversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1480/RunningSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem1480/RunningSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1480/RunningSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem27/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem283/MoveZeroesToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem283/MoveZeroesToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem724/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem724/PivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem121/MaximiseStockProfitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem121/MaximiseStockProfitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem1480/RunningSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1480/RunningSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem27/RemoveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem27/RemoveElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem283/MoveZeroesToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem283/MoveZeroesToEndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem724/PivotIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem724/PivotIndexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +60,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-628" />
+                    <option name="lastUsedInstant" value="1673884706" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-589" />
                     <option name="lastUsedInstant" value="1673771338" />
                   </RecentBranch>
@@ -65,10 +78,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-141" />
                     <option name="lastUsedInstant" value="1673584981" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-142" />
-                    <option name="lastUsedInstant" value="1673517648" />
                   </RecentBranch>
                 </list>
               </option>
@@ -454,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673770465507</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[PROBLEM-589]: WIP- To be picked later Pre order traversal">
+      <created>1673884405534</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673884405534</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added utils package for common operations&#10;Moved swap logic to utils" />
     <MESSAGE value="removed redundant check for array length" />
     <MESSAGE value="Added unit tests for moving zeroes problem" />
     <MESSAGE value="Added Remove Element from array problem" />
@@ -494,18 +509,19 @@
     <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
     <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
     <MESSAGE value="[PROBLEM-409]: Set based approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: Set based approach" />
+    <MESSAGE value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem27/RemoveElement.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem27/RemoveElement.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -545,17 +561,17 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>21</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>26</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>28</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>

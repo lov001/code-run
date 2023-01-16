@@ -1,4 +1,4 @@
-package leetcode.problem121;
+package leetcode.arrays.problem121;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

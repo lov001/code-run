@@ -1,4 +1,4 @@
-package leetcode.problem724;
+package leetcode.arrays.problem724;
 
 public class PivotIndex {
 

@@ -1,4 +1,4 @@
-package leetcode.problem121;
+package leetcode.arrays.problem121;
 
 public class MaximiseStockProfit {
 
