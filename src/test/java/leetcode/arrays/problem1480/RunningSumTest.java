@@ -1,4 +1,4 @@
-package leetcode.problem1480;
+package leetcode.arrays.problem1480;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

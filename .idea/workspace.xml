@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-409]: Greedy Approach as per leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindromeSetBasedApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-628]: Refactoring into arrays package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-628" />
+                    <option name="lastUsedInstant" value="1673884706" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-589" />
+                    <option name="lastUsedInstant" value="1673771338" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-409" />
                     <option name="lastUsedInstant" value="1673710186" />
                   </RecentBranch>
@@ -59,14 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-141" />
                     <option name="lastUsedInstant" value="1673584981" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-142" />
-                    <option name="lastUsedInstant" value="1673517648" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-876" />
-                    <option name="lastUsedInstant" value="1673370741" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,7 +101,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven">
+  <component name="RunManager" selected="Gradle.MaxProductOfThreeNumbersTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,98 +120,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LongestPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem409.LongestPalindromeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.problem409.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -236,21 +144,113 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MaxProductOfThreeNumbersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expect6_whenOnly3NumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expect6_whenOnly3NumbersInInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LongestPalindromeTest" />
-      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" />
-      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
-      <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
+      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
+      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" />
+      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect6_whenOnly3NumbersInInput" />
+      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
       <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
+        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
+        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect24_whenOnly4NumbersInInput" />
+        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect6_whenOnly3NumbersInInput" />
         <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect7_whenInputGiven" />
-        <item itemvalue="Gradle.LongestPalindromeTest" />
-        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenGivenInput" />
-        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect5_whenInputIsBananas" />
-        <item itemvalue="Gradle.LongestPalindromeTest.test_longestPalindrome_expect3_whenInputConsistsDifferentLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +445,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673769546669</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="[PROBLEM-409]: Set based approach">
+      <created>1673770465506</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673770465507</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[PROBLEM-589]: WIP- To be picked later Pre order traversal">
+      <created>1673884405534</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673884405534</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[PROBLEM-628]: Refactoring into arrays package">
+      <created>1673885355872</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673885355872</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,9 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="moved the problem to its own package" />
-    <MESSAGE value="Added utils package for common operations&#10;Moved swap logic to utils" />
-    <MESSAGE value="removed redundant check for array length" />
     <MESSAGE value="Added unit tests for moving zeroes problem" />
     <MESSAGE value="Added Remove Element from array problem" />
     <MESSAGE value="Added Running Sum problem" />
@@ -485,18 +503,21 @@
     <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
     <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
     <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-409]: Greedy Approach as per leetcode" />
+    <MESSAGE value="[PROBLEM-409]: Set based approach" />
+    <MESSAGE value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
+    <MESSAGE value="[PROBLEM-628]: Refactoring into arrays package" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-628]: Refactoring into arrays package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem27/RemoveElement.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem27/RemoveElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem27/RemoveElement.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -536,19 +557,24 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>21</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>26</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/problem121/MaximiseStockProfit.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem121/MaximiseStockProfit.java</url>
           <line>28</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbers.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

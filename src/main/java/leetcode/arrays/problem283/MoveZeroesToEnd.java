@@ -1,4 +1,4 @@
-package leetcode.problem283;
+package leetcode.arrays.problem283;
 
 import utils.SwapNumbersInArray;
 
