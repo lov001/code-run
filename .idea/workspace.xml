@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctStringApproachHashMap.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2053]: Approach 2 using Linked HashMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem744/NextGreatestLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem744/NextGreatestLetterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-744" />
+                    <option name="lastUsedInstant" value="1673976176" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-2053" />
                     <option name="lastUsedInstant" value="1673930254" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-409" />
                     <option name="lastUsedInstant" value="1673710186" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-121" />
-                    <option name="lastUsedInstant" value="1673701788" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,7 +101,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -494,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673931902587</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[PROBLEM-2053]: Approach 2 using Linked HashMap">
+      <created>1673975787479</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1673975787479</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
     <MESSAGE value="[PROBLEM-206]: Reversing a Linked List" />
@@ -534,7 +540,8 @@
     <MESSAGE value="[PROBLEM-628]: approach 2- Sorting the input array" />
     <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String" />
     <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach" />
+    <MESSAGE value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,19 +622,9 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctStringApproachHashMap.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctStringApproachHashMap.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
