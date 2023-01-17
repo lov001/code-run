@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-628]: approach 2- Sorting the input array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersByMinMaxValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersApproach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-2053" />
+                    <option name="lastUsedInstant" value="1673930254" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-628" />
                     <option name="lastUsedInstant" value="1673884706" />
                   </RecentBranch>
@@ -64,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-121" />
                     <option name="lastUsedInstant" value="1673701788" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-141" />
-                    <option name="lastUsedInstant" value="1673584981" />
                   </RecentBranch>
                 </list>
               </option>
