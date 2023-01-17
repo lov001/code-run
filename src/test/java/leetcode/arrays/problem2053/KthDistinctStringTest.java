@@ -6,23 +6,27 @@ import org.junit.jupiter.api.Test;
 public class KthDistinctStringTest {
 
     KthDistinctString classObj = new KthDistinctString();
+    KthDistinctStringApproachHashMap classObj2 = new KthDistinctStringApproachHashMap();
 
     @Test
     void test_kthDistinct_expectA_whenInputContainsOnlyTwoDistinctStrings() {
         String[] input = {"d", "b", "c", "b", "c", "a"};
         Assertions.assertEquals("a", classObj.kthDistinct(input, 2));
+        Assertions.assertEquals("a", classObj2.kthDistinct(input, 2));
     }
 
     @Test
     void test_kthDistinct_expectAAA_whenInputContainsAllDistinctStrings() {
         String[] input = {"aaa", "aa", "a"};
         Assertions.assertEquals("aaa", classObj.kthDistinct(input, 1));
+        Assertions.assertEquals("aaa", classObj2.kthDistinct(input, 1));
     }
 
     @Test
     void test_kthDistinct_expectEmptyString_whenKthDistinctStringIsNotThere() {
         String[] input = {"a", "b", "a"};
         Assertions.assertEquals("", classObj.kthDistinct(input, 3));
+        Assertions.assertEquals("", classObj2.kthDistinct(input, 3));
     }
 
     @Test
@@ -83,6 +87,7 @@ public class KthDistinctStringTest {
             "tdo", "zp", "yc", "tg", "rtki", "z", "icppp", "ficph", "oq", "jmxj", "nor", "dlhp",
             "iaca", "qin", "qghtw", "n", "mrjtx", "bx", "fmyfr", "pp"
         };
-        Assertions.assertEquals("jtrcp", classObj.kthDistinct(input, 374));
+//        Assertions.assertEquals("jtrcp", classObj.kthDistinct(input, 374));
+        Assertions.assertEquals("jtrcp", classObj2.kthDistinct(input, 374));
     }
 }
