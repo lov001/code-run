@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-628]: approach 2- Sorting the input array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2053]: WIP Kth Distinct String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxProductOfThreeNumbersTest">
+  <component name="RunManager" selected="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,6 +120,98 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="KthDistinctStringTest.test_kthDistinct_expectAAA_whenInputContainsAllDistinctStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem2053.KthDistinctStringTest.test_kthDistinct_expectAAA_whenInputContainsAllDistinctStrings&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KthDistinctStringTest.test_kthDistinct_expectA_whenInputContainsOnlyTwoDistinctStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem2053.KthDistinctStringTest.test_kthDistinct_expectA_whenInputContainsOnlyTwoDistinctStrings&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KthDistinctStringTest.test_kthDistinct_expectEmptyString_whenKthDistinctStringIsNotThere" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem2053.KthDistinctStringTest.test_kthDistinct_expectEmptyString_whenKthDistinctStringIsNotThere&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem2053.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="MaxProductOfThreeNumbersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -144,113 +236,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem628.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectAAA_whenInputContainsAllDistinctStrings" />
+      <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectA_whenInputContainsOnlyTwoDistinctStrings" />
+      <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectEmptyString_whenKthDistinctStringIsNotThere" />
+      <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" />
       <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
-      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" />
-      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" />
-      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput" />
-      <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" />
+        <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectEmptyString_whenKthDistinctStringIsNotThere" />
+        <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectAAA_whenInputContainsAllDistinctStrings" />
+        <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectA_whenInputContainsOnlyTwoDistinctStrings" />
         <item itemvalue="Gradle.MaxProductOfThreeNumbersTest" />
-        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus39200_whenLeftMostTwoNumbersAreNegativeAndLastIsPositive" />
-        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expect972256230_whenRandomInput" />
-        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenAllNegativeNumbersInInput" />
-        <item itemvalue="Gradle.MaxProductOfThreeNumbersTest.test_maximumProduct_expectMinus6_whenOnly3NegativeNumbersInInput" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673891746636</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[PROBLEM-2053]: WIP Kth Distinct String">
+      <created>1673930835476</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673930835476</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Running Sum problem" />
     <MESSAGE value="WIP Find Pivot Index" />
     <MESSAGE value="[PROBLEM-724]: Fixed Pivot Index Problem with test cases" />
     <MESSAGE value="[PROBLEM-205]: Isomorphic strings" />
@@ -520,7 +526,8 @@
     <MESSAGE value="[PROBLEM-628]: Refactoring into arrays package" />
     <MESSAGE value="[PROBLEM-628]: Most non-optimal solution using 3 for loops" />
     <MESSAGE value="[PROBLEM-628]: approach 2- Sorting the input array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-628]: approach 2- Sorting the input array" />
+    <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2053]: WIP Kth Distinct String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,6 +606,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem628/MaxProductOfThreeNumbersByMinMaxValues.java</url>
           <line>25</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2053/KthDistinctString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
