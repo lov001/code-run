@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-744]: Approach 2 using Linked HashMap">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-11]: WIP - Container with most water">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem744/NextGreatestLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem744/NextGreatestLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem11/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem11/ContainerWithMostWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-11" />
+                    <option name="lastUsedInstant" value="1674127829" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-4" />
+                    <option name="lastUsedInstant" value="1674062071" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-744" />
                     <option name="lastUsedInstant" value="1673976176" />
                   </RecentBranch>
@@ -58,14 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-628" />
                     <option name="lastUsedInstant" value="1673884706" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-589" />
-                    <option name="lastUsedInstant" value="1673771338" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-409" />
-                    <option name="lastUsedInstant" value="1673710186" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,12 +85,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
@@ -100,7 +104,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NextGreatestLetterTest">
+  <component name="RunManager" selected="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +137,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2053.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge&quot;" />
+            <option value="&quot;leetcode.arrays.problem11.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem11.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2Point5_whenTwoGivenArrays" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem4.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2Point5_whenTwoGivenArrays&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2_whenTwoGivenArrays" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem4.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2_whenTwoGivenArrays&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,90 +239,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectC_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectC_whenGivenInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectFirstCharacter_whenInputDoesNotHaveGreaterThanTarget" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectFirstCharacter_whenInputDoesNotHaveGreaterThanTarget&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" />
+      <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" />
+      <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" />
+      <item itemvalue="Gradle.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2Point5_whenTwoGivenArrays" />
+      <item itemvalue="Gradle.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2_whenTwoGivenArrays" />
       <item itemvalue="Gradle.NextGreatestLetterTest" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectC_whenGivenInput" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectFirstCharacter_whenInputDoesNotHaveGreaterThanTarget" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" />
+        <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" />
+        <item itemvalue="Gradle.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2_whenTwoGivenArrays" />
+        <item itemvalue="Gradle.MedianOfSortedArraysTest.test_findMedianSortedArrays_expect2Point5_whenTwoGivenArrays" />
         <item itemvalue="Gradle.NextGreatestLetterTest" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectFirstCharacter_whenInputDoesNotHaveGreaterThanTarget" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectC_whenGivenInput" />
-        <item itemvalue="Gradle.KthDistinctStringTest.test_kthDistinct_expectJTRCP_whenInputSizeIsLarge" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +511,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673976618688</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[PROBLEM-744]: Complete solution">
+      <created>1674061875347</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674061875347</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[PROBLEM-4]: Complete solution with basic tests">
+      <created>1674065284137</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674065284137</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[PROBLEM-11]: WIP - Container with most water">
+      <created>1674128521639</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674128521639</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,9 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-205]: Isomorphic strings - Transformation Approach" />
-    <MESSAGE value="[PROBLEM-206]: Reversing a Linked List" />
-    <MESSAGE value="[PROBLEM-392]: IsSubsequence problem" />
     <MESSAGE value="[PROBLEM-21]: Merge Two Sorted Linked List" />
     <MESSAGE value="[PROBLEM-876]: WIP Finding Middle Node of a linked list" />
     <MESSAGE value="[PROBLEM-876]: WIP" />
@@ -547,7 +569,10 @@
     <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach" />
     <MESSAGE value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
+    <MESSAGE value="[PROBLEM-744]: Complete solution" />
+    <MESSAGE value="[PROBLEM-4]: Complete solution with basic tests" />
+    <MESSAGE value="[PROBLEM-11]: WIP - Container with most water" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-11]: WIP - Container with most water" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
