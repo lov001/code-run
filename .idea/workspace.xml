@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-15]: WIP - 3 sum problem">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-15]: WIP - 3 sum problem - brute force approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem15/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem15/ThreeSum.java" afterDir="false" />
     </list>
@@ -104,7 +104,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThreeSumTest.test_threeSum_expect_when">
+  <component name="RunManager" selected="Gradle.ThreeSumTest.test_threeSum_expect_when2">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -249,9 +249,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when" />
         <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when2" />
         <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when1" />
+        <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when" />
         <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" />
         <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" />
       </list>
@@ -546,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674130336402</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="[PROBLEM-15]: WIP - 3 sum problem - brute force approach">
+      <created>1674148074586</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674148074586</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-876]: WIP" />
     <MESSAGE value="[PROBLEM-876]: Completed finding middle node" />
     <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
     <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
@@ -586,7 +592,8 @@
     <MESSAGE value="[PROBLEM-11]: WIP - Container with most water" />
     <MESSAGE value="[PROBLEM-11]: Completed - Container with most water" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-15]: WIP - 3 sum problem" />
+    <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
