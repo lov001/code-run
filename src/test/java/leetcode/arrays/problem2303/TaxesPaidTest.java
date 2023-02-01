@@ -27,4 +27,11 @@ public class TaxesPaidTest {
         int income = 0;
         Assertions.assertEquals(0.00, classObj.calculateTax(brackets, income));
     }
+
+    @Test
+    void test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5() {
+        int[][] brackets = {{10, 10}};
+        int income = 5;
+        Assertions.assertEquals(0.5, classObj.calculateTax(brackets, income));
+    }
 }
