@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-15]: WIP - 3 sum problem - brute force approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2303]: WIP tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem15/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem15/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2303/TaxesPaid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2303/TaxesPaid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-2303" />
+                    <option name="lastUsedInstant" value="1674191789" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-15" />
                     <option name="lastUsedInstant" value="1674129822" />
                   </RecentBranch>
@@ -62,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-744" />
                     <option name="lastUsedInstant" value="1673976176" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-2053" />
-                    <option name="lastUsedInstant" value="1673930254" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,12 +85,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
@@ -104,7 +104,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThreeSumTest.test_threeSum_expect_when2">
+  <component name="RunManager" selected="Gradle.TaxesPaidTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -124,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxesPaidTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem11.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes&quot;" />
+            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +147,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +160,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem11.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput&quot;" />
+            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +170,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ThreeSumTest.test_threeSum_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxesPaidTest.test_calculateTax_expectZeroPointTwoFive_whenIncomeIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +183,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem15.ThreeSumTest.test_threeSum_expect_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest.test_calculateTax_expectZeroPointTwoFive_whenIncomeIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +193,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ThreeSumTest.test_threeSum_expect_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxesPaidTest.test_calculateTax_expectZeroPointZero_whenIncomeIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +206,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem15.ThreeSumTest.test_threeSum_expect_when1&quot;" />
+            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest.test_calculateTax_expectZeroPointZero_whenIncomeIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,7 +216,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ThreeSumTest.test_threeSum_expect_when2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ThreeSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -229,7 +229,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem15.ThreeSumTest.test_threeSum_expect_when2&quot;" />
+            <option value="&quot;leetcode.arrays.problem15.ThreeSumTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -241,19 +241,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" />
-      <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" />
-      <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when" />
-      <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when1" />
-      <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when2" />
+      <item itemvalue="Gradle.TaxesPaidTest" />
+      <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" />
+      <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointTwoFive_whenIncomeIs2" />
+      <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointZero_whenIncomeIs0" />
+      <item itemvalue="Gradle.ThreeSumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when2" />
-        <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when1" />
-        <item itemvalue="Gradle.ThreeSumTest.test_threeSum_expect_when" />
-        <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect1_whenInputContainsTwoOnes" />
-        <item itemvalue="Gradle.ContainerWithMostWaterTest.test_maxArea_expect49_whenGivenInput" />
+        <item itemvalue="Gradle.TaxesPaidTest" />
+        <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointZero_whenIncomeIs0" />
+        <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointTwoFive_whenIncomeIs2" />
+        <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" />
+        <item itemvalue="Gradle.ThreeSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +553,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674148074586</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="[PROBLEM-15]: Complete solution">
+      <created>1674191322854</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1674191322855</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[PROBLEM-2303]: WIP">
+      <created>1674225662757</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1674225662757</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[PROBLEM-2303]: WIP tests">
+      <created>1675272409914</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675272409914</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,9 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-876]: Completed finding middle node" />
-    <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
-    <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
     <MESSAGE value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
     <MESSAGE value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
     <MESSAGE value="[PROBLEM-121]: Max Profit by performing a Trade" />
@@ -593,7 +611,10 @@
     <MESSAGE value="[PROBLEM-11]: Completed - Container with most water" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
+    <MESSAGE value="[PROBLEM-15]: Complete solution" />
+    <MESSAGE value="[PROBLEM-2303]: WIP" />
+    <MESSAGE value="[PROBLEM-2303]: WIP tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2303]: WIP tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,6 +698,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2053/KthDistinctStringTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2303/TaxesPaid.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
