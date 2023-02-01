@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-15]: Complete solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2303/TaxesPaid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2303/TaxesPaidTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2303]: WIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2303/TaxesPaidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2303/TaxesPaidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +85,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
@@ -561,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674191322855</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[PROBLEM-2303]: WIP">
+      <created>1674225662757</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1674225662757</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-142]: WIP - Circular linked list" />
     <MESSAGE value="[PROBLEM-142]: Circular linked list 2 - solved" />
     <MESSAGE value="[PROBLEM-142]: Approach 2 - By modifying the property of linked list" />
     <MESSAGE value="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach" />
@@ -601,7 +606,8 @@
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
     <MESSAGE value="[PROBLEM-15]: Complete solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-15]: Complete solution" />
+    <MESSAGE value="[PROBLEM-2303]: WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2303]: WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
