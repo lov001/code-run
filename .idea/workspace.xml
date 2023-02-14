@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2218]: WIP max Value of coins from a pile">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem448/DisappearedNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem448/DisappearedNumbersTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-448]: Disappearing numbers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem448/DisappearedNumbersWithoutExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2218/MaxValueOfCoinsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2218/MaxValueOfCoinsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem448/DisappearedNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem448/DisappearedNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect2_whenSameElementsInArray">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -253,8 +252,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect2_whenSameElementsInArray" />
         <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect_when" />
+        <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect2_whenSameElementsInArray" />
         <item itemvalue="Gradle.TaxesPaidTest" />
         <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5" />
         <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" />
@@ -599,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675277865812</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[PROBLEM-448]: Disappearing numbers">
+      <created>1676395940854</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1676395940854</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-121]: Complete Solution Maximum Stock Profit" />
     <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
     <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
     <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
@@ -639,7 +644,8 @@
     <MESSAGE value="[PROBLEM-2303]: Working solution with basic tests" />
     <MESSAGE value="[PROBLEM-2303]: More optimised solution with all tests passing" />
     <MESSAGE value="[PROBLEM-2218]: WIP max Value of coins from a pile" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2218]: WIP max Value of coins from a pile" />
+    <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-448]: Disappearing numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,6 +734,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2303/TaxesPaid.java</url>
           <line>10</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem448/DisappearedNumbersWithoutExtraSpace.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
