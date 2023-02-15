@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1679]: WIP max number of K-sum pairs">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1679]: basic solution using sorting and two pointer approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairsWithHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00002" summary="moved the problem to its own package">
-      <created>1672072418386</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1672072418386</updated>
     </task>
     <task id="LOCAL-00003" summary="Added utils package for common operations&#10;Moved swap logic to utils">
       <created>1672072963446</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676397651380</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="[PROBLEM-1679]: basic solution using sorting and two pointer approach">
+      <created>1676477723783</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1676477723783</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
     <MESSAGE value="[PROBLEM-409]: Set based approach" />
     <MESSAGE value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
     <MESSAGE value="[PROBLEM-628]: Refactoring into arrays package" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers without using extra space" />
     <MESSAGE value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
+    <MESSAGE value="[PROBLEM-1679]: basic solution using sorting and two pointer approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1679]: basic solution using sorting and two pointer approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,6 +747,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem448/DisappearedNumbersWithoutExtraSpace.java</url>
           <line>8</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairsWithHashMap.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
