@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-448]: Disappearing numbers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem448/DisappearedNumbersWithoutExtraSpace.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1679]: WIP max number of K-sum pairs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem448/DisappearedNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem448/DisappearedNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-1679" />
+                    <option name="lastUsedInstant" value="1676397414" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-448" />
                     <option name="lastUsedInstant" value="1676394907" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-15" />
                     <option name="lastUsedInstant" value="1674129822" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-11" />
-                    <option name="lastUsedInstant" value="1674127829" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,13 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem1679" />
       <recent name="leetcode.arrays.problem448" />
       <recent name="leetcode.arrays.problem2218" />
       <recent name="leetcode.problem141" />
       <recent name="leetcode.problem27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coding Problems">
+  <component name="RunManager" selected="Gradle.MaxNumberOfKSumPairsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -173,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxesPaidTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxNumberOfKSumPairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -186,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem1679.MaxNumberOfKSumPairsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -209,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10&quot;" />
+            <option value="&quot;leetcode.arrays.problem1679.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxesPaidTest.test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxNumberOfKSumPairsTest.test_maxOperations_expect2_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -232,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2303.TaxesPaidTest.test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5&quot;" />
+            <option value="&quot;leetcode.arrays.problem1679.MaxNumberOfKSumPairsTest.test_maxOperations_expect2_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -246,17 +246,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect2_whenSameElementsInArray" />
       <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect_when" />
-      <item itemvalue="Gradle.TaxesPaidTest" />
-      <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" />
-      <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5" />
+      <item itemvalue="Gradle.MaxNumberOfKSumPairsTest" />
+      <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" />
+      <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect2_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxNumberOfKSumPairsTest" />
+        <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" />
+        <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect2_when" />
         <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect_when" />
         <item itemvalue="Gradle.DisappearedNumbersTest.test_findDisappearedNumbers_expect2_whenSameElementsInArray" />
-        <item itemvalue="Gradle.TaxesPaidTest" />
-        <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectZeroPointZeroFive_whenIncomeIs5" />
-        <item itemvalue="Gradle.TaxesPaidTest.test_calculateTax_expectTwoPointSixFive_whenIncomeIs10" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Moving Zeroes to End">
-      <created>1672071838379</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672071838379</updated>
     </task>
     <task id="LOCAL-00002" summary="moved the problem to its own package">
       <created>1672072418386</created>
@@ -605,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676395940854</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="[PROBLEM-448]: Disappearing numbers without using extra space">
+      <created>1676396936832</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1676396936832</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[PROBLEM-1679]: WIP max number of K-sum pairs">
+      <created>1676397651379</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1676397651380</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -620,8 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests" />
-    <MESSAGE value="[PROBLEM-409]: WIP with failing tests" />
     <MESSAGE value="[PROBLEM-409]: Greedy Approach as per leetcode" />
     <MESSAGE value="[PROBLEM-409]: Set based approach" />
     <MESSAGE value="[PROBLEM-589]: WIP- To be picked later Pre order traversal" />
@@ -645,7 +650,9 @@
     <MESSAGE value="[PROBLEM-2303]: More optimised solution with all tests passing" />
     <MESSAGE value="[PROBLEM-2218]: WIP max Value of coins from a pile" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-448]: Disappearing numbers" />
+    <MESSAGE value="[PROBLEM-448]: Disappearing numbers without using extra space" />
+    <MESSAGE value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
