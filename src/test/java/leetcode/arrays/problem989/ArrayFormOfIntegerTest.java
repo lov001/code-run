@@ -34,14 +34,26 @@ public class ArrayFormOfIntegerTest {
     }
 
     @Test
-    void test_addToArrayForm_expect_whenArraysContains0AndKIs23() {
+    void test_addToArrayForm_expect23_whenArraysContains0AndKIs23() {
         int[] input = {0};
-        Assertions.assertEquals(Arrays.asList(2,3), classObj.addToArrayForm(input, 23));
+        Assertions.assertEquals(Arrays.asList(2, 3), classObj.addToArrayForm(input, 23));
     }
 
     @Test
-    void test_addToArrayForm_expect_whenArraysContains0AndKIs1000() {
+    void test_addToArrayForm_expect1000_whenArraysContains0AndKIs1000() {
         int[] input = {0};
-        Assertions.assertEquals(Arrays.asList(1,0,0,0), classObj.addToArrayForm(input, 1000));
+        Assertions.assertEquals(Arrays.asList(1, 0, 0, 0), classObj.addToArrayForm(input, 1000));
+    }
+
+    @Test
+    void test_addToArrayForm_expect815_whenArraysContains6AndKIs809() {
+        int[] input = {6};
+        Assertions.assertEquals(Arrays.asList(8, 1, 5), classObj.addToArrayForm(input, 809));
+    }
+
+    @Test
+    void test_addToArrayForm_expect1000_whenArraysContains7AndKIs993() {
+        int[] input = {7};
+        Assertions.assertEquals(Arrays.asList(1, 0, 0, 0), classObj.addToArrayForm(input, 993));
     }
 }

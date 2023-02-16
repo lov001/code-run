@@ -24,16 +24,25 @@ public class ArrayFormOfInteger {
                 carryForward = sum > 9 ? 1 : 0;
             }
         }
-        if (carryForward > 0) {
-            output.add(carryForward);
+        if (carryForward > 0 && k > 0) {
+            int remainder = k % 10;
+            int sum = remainder + carryForward;
+            output.add(sum > 9 ? 0 : sum);
+            carryForward = sum > 9 ? 1 : 0;
+            k /= 10;
         }
         while (k > 0) {
             int remainder = k % 10;
-            output.add(remainder);
+            int sum = remainder + carryForward;
+            output.add(sum > 9 ? 0 : sum);
+            carryForward = sum > 9 ? 1 : 0;
             k = k / 10;
         }
         while (end >= 0) {
             output.add(num[end--]);
+        }
+        if (carryForward > 0) {
+            output.add(carryForward);
         }
         Collections.reverse(output);
         return output;
