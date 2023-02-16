@@ -10,30 +10,31 @@ public class ArrayFormOfInteger {
         int end = num.length - 1;
         List<Integer> output = new ArrayList<>();
         int carryForward = 0;
+        int remainder, sum;
         while (k != 0 && end >= 0) {
-            int remainder = k % 10;
-            int sum = num[end--] + remainder + carryForward;
+            remainder = k % 10;
+            sum = num[end--] + remainder + carryForward;
             output.add(sum > 9 ? sum % 10 : sum);
             carryForward = sum > 9 ? 1 : 0;
             k = k / 10;
         }
         if (carryForward > 0 && end >= 0) {
             while (end >= 0) {
-                int sum = num[end--] + carryForward;
+                sum = num[end--] + carryForward;
                 output.add(sum > 9 ? sum % 10 : sum);
                 carryForward = sum > 9 ? 1 : 0;
             }
         }
         if (carryForward > 0 && k > 0) {
-            int remainder = k % 10;
-            int sum = remainder + carryForward;
+            remainder = k % 10;
+            sum = remainder + carryForward;
             output.add(sum > 9 ? 0 : sum);
             carryForward = sum > 9 ? 1 : 0;
             k /= 10;
         }
         while (k > 0) {
-            int remainder = k % 10;
-            int sum = remainder + carryForward;
+            remainder = k % 10;
+            sum = remainder + carryForward;
             output.add(sum > 9 ? 0 : sum);
             carryForward = sum > 9 ? 1 : 0;
             k = k / 10;

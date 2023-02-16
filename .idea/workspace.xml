@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: Fixed for failed test cases">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: All test cases passed now, optimization left">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00008" summary="WIP Find Pivot Index">
-      <created>1672768177205</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1672768177205</updated>
     </task>
     <task id="LOCAL-00009" summary="[PROBLEM-724]: Fixed Pivot Index Problem with test cases">
       <created>1673186779907</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676567382918</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="[PROBLEM-989]: All test cases passed now, optimization left">
+      <created>1676569841375</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676569841375</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String" />
     <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach" />
     <MESSAGE value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-989]: Brute force approach" />
     <MESSAGE value="[PROBLEM-989]: Edge case scenario handled" />
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: Fixed for failed test cases" />
+    <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: All test cases passed now, optimization left" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,7 +754,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
