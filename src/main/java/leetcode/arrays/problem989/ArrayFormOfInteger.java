@@ -17,12 +17,20 @@ public class ArrayFormOfInteger {
             carryForward = sum > 9 ? 1 : 0;
             k = k / 10;
         }
-        while (end >= 0) {
-            output.add(num[end--]);
+        if (carryForward == 1 && end >= 0) {
+            while (end >= 0) {
+                int sum = num[end--] + carryForward;
+                output.add(sum > 9 ? sum % 10 : sum);
+                carryForward = sum > 9 ? 1 : 0;
+            }
         }
         if (carryForward == 1) {
             output.add(1);
         }
+        while (end >= 0) {
+            output.add(num[end--]);
+        }
+
         Collections.reverse(output);
         return output;
     }

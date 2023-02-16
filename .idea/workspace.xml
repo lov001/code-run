@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: WIP array from integer">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: Brute force approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" afterDir="false" />
@@ -108,7 +108,7 @@
       <recent name="leetcode.problem141" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806">
+  <component name="RunManager" selected="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1AndAll9_whenInputIsAll9">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +127,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ArrayFormOfIntegerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -174,6 +197,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect1AndAll9_whenInputIsAll9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest.test_addToArrayForm_expect1AndAll9_whenInputIsAll9&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,67 +243,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxNumberOfKSumPairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1679.MaxNumberOfKSumPairsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1679.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
       <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" />
       <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1234_whenKIs34" />
+      <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1AndAll9_whenInputIsAll9" />
       <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" />
-      <item itemvalue="Gradle.MaxNumberOfKSumPairsTest" />
-      <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1AndAll9_whenInputIsAll9" />
         <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" />
         <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" />
         <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1234_whenKIs34" />
-        <item itemvalue="Gradle.MaxNumberOfKSumPairsTest" />
-        <item itemvalue="Gradle.MaxNumberOfKSumPairsTest.test_maxOperations_expect1_when" />
+        <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added unit tests for moving zeroes problem">
-      <created>1672114052928</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1672114052928</updated>
     </task>
     <task id="LOCAL-00006" summary="Added Remove Element from array problem">
       <created>1672746655509</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676483755120</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="[PROBLEM-989]: Brute force approach">
+      <created>1676484570038</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676484570038</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-628]: Refactoring into arrays package" />
     <MESSAGE value="[PROBLEM-628]: Most non-optimal solution using 3 for loops" />
     <MESSAGE value="[PROBLEM-628]: approach 2- Sorting the input array" />
     <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-1679]: basic solution using sorting and two pointer approach" />
     <MESSAGE value="[PROBLEM-1679]: using hashmap approach" />
     <MESSAGE value="[PROBLEM-989]: WIP array from integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: WIP array from integer" />
+    <MESSAGE value="[PROBLEM-989]: Brute force approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: Brute force approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -752,6 +752,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1679/MaxNumberOfKSumPairsWithHashMap.java</url>
           <line>8</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

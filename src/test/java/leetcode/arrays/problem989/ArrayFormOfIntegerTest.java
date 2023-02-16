@@ -25,4 +25,11 @@ public class ArrayFormOfIntegerTest {
         int[] input = {2, 1, 5};
         Assertions.assertEquals(Arrays.asList(1, 0, 2, 1), classObj.addToArrayForm(input, 806));
     }
+
+    @Test
+    void test_addToArrayForm_expect1AndAll9_whenInputIsAll9() {
+        int[] input = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+        Assertions.assertEquals(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+            classObj.addToArrayForm(input, 1));
+    }
 }
