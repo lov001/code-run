@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: All test cases passed now, optimization left">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: optimised space by declaring variables at the start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfIntegerApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00009" summary="[PROBLEM-724]: Fixed Pivot Index Problem with test cases">
-      <created>1673186779907</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673186779907</updated>
     </task>
     <task id="LOCAL-00010" summary="[PROBLEM-205]: Isomorphic strings">
       <created>1673262007281</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676569841375</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="[PROBLEM-989]: optimised space by declaring variables at the start">
+      <created>1676570152022</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1676570152022</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach" />
     <MESSAGE value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Complete solution" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-989]: Edge case scenario handled" />
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: All test cases passed now, optimization left" />
+    <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: optimised space by declaring variables at the start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
