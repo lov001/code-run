@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: optimised space by declaring variables at the start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfIntegerApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: alternative and cleaner approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem995/ConsecutiveBitFlipsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem989/ArrayFormOfIntegerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-995" />
+                    <option name="lastUsedInstant" value="1676643119" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-989" />
                     <option name="lastUsedInstant" value="1676483400" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-2218" />
                     <option name="lastUsedInstant" value="1675277636" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-2303" />
-                    <option name="lastUsedInstant" value="1674191789" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem995" />
       <recent name="leetcode.arrays.problem989" />
       <recent name="leetcode.arrays.problem1679" />
       <recent name="leetcode.arrays.problem448" />
       <recent name="leetcode.arrays.problem2218" />
-      <recent name="leetcode.problem141" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ArrayFormOfIntegerTest">
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00010" summary="[PROBLEM-205]: Isomorphic strings">
-      <created>1673262007281</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1673262007281</updated>
     </task>
     <task id="LOCAL-00011" summary="[PROBLEM-205]: Isomorphic strings - Transformation Approach">
       <created>1673275912038</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676570152022</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="[PROBLEM-989]: alternative and cleaner approach">
+      <created>1676570750855</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676570750855</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-2053]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Complete solution" />
     <MESSAGE value="[PROBLEM-4]: Complete solution with basic tests" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
     <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: optimised space by declaring variables at the start" />
+    <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: alternative and cleaner approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
