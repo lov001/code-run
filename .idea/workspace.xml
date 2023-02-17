@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-989]: alternative and cleaner approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem995/ConsecutiveBitFlipsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-995]: WIP for k-consecutive bit flips">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.arrays.problem2218" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayFormOfIntegerTest">
+  <component name="RunManager" selected="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -174,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806&quot;" />
+            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181&quot;" />
+            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayFormOfIntegerTest.test_addToArrayForm_expect815_whenArraysContains6AndKIs809" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest.test_addToArrayForm_expect815_whenArraysContains6AndKIs809&quot;" />
+            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" />
+      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" />
+      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" />
       <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
       <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1000_whenArraysContains7AndKIs993" />
-      <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" />
-      <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" />
-      <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect815_whenArraysContains6AndKIs809" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" />
+        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" />
+        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" />
         <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
         <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1000_whenArraysContains7AndKIs993" />
-        <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect815_whenArraysContains6AndKIs809" />
-        <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect1021_whenKIs806" />
-        <item itemvalue="Gradle.ArrayFormOfIntegerTest.test_addToArrayForm_expect455_whenKIs181" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00011" summary="[PROBLEM-205]: Isomorphic strings - Transformation Approach">
-      <created>1673275912038</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1673275912039</updated>
     </task>
     <task id="LOCAL-00012" summary="[PROBLEM-206]: Reversing a Linked List">
       <created>1673283912647</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676570750855</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="[PROBLEM-995]: WIP for k-consecutive bit flips">
+      <created>1676643549835</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676643549836</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-744]: Approach 2 using Linked HashMap" />
     <MESSAGE value="[PROBLEM-744]: Complete solution" />
     <MESSAGE value="[PROBLEM-4]: Complete solution with basic tests" />
     <MESSAGE value="[PROBLEM-11]: WIP - Container with most water" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
     <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
     <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-989]: alternative and cleaner approach" />
+    <MESSAGE value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,6 +756,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem989/ArrayFormOfInteger.java</url>
           <line>20</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
