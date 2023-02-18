@@ -7,7 +7,6 @@ public class ConsecutiveBitFlips {
         int[] flipped = new int[n];
         int flipCount = 0;
         int result = 0;
-
         for (int i = 0; i < n; i++) {
             if (i >= k) {
                 flipCount -= flipped[i - k];
@@ -21,8 +20,6 @@ public class ConsecutiveBitFlips {
                 result++;
             }
         }
-
         return result;
-
     }
 }
