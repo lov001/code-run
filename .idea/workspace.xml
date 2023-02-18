@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-995]: online solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-995]: complete solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2529/MaxCountOfPositiveAndNegativeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2529/MaxCountOfPositiveAndNegativeIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem995/ConsecutiveBitFlips.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-2529" />
+                    <option name="lastUsedInstant" value="1676714359" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-995" />
                     <option name="lastUsedInstant" value="1676643119" />
                   </RecentBranch>
@@ -62,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-448" />
                     <option name="lastUsedInstant" value="1676394907" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-2218" />
-                    <option name="lastUsedInstant" value="1675277636" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem2529" />
       <recent name="leetcode.arrays.problem995" />
       <recent name="leetcode.arrays.problem989" />
       <recent name="leetcode.arrays.problem1679" />
       <recent name="leetcode.arrays.problem448" />
-      <recent name="leetcode.arrays.problem2218" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3">
+  <component name="RunManager" selected="Gradle.MaxCountOfPositiveAndNegativeIntegerTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayFormOfIntegerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem989.ArrayFormOfIntegerTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConsecutiveBitFlipsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -186,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1&quot;" />
+            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when0IsAlsoInInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -209,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3&quot;" />
+            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when0IsAlsoInInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +220,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect4_whenOnlyPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -232,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem995.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2&quot;" />
+            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect4_whenOnlyPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ConsecutiveBitFlipsTest" />
-      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" />
-      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" />
-      <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" />
-      <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
+      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest" />
+      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" />
+      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when" />
+      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when0IsAlsoInInput" />
+      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect4_whenOnlyPositive" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect3_whenKIs3" />
-        <item itemvalue="Gradle.ConsecutiveBitFlipsTest" />
-        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expectMinus1_whenKIs2" />
-        <item itemvalue="Gradle.ConsecutiveBitFlipsTest.test_minKBitFlips_expect2_whenKIs1" />
-        <item itemvalue="Gradle.ArrayFormOfIntegerTest" />
+        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest" />
+        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" />
+        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect4_whenOnlyPositive" />
+        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when0IsAlsoInInput" />
+        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect3_when" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00013" summary="[PROBLEM-392]: IsSubsequence problem">
-      <created>1673319227895</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673319227896</updated>
     </task>
     <task id="LOCAL-00014" summary="[PROBLEM-21]: Merge Two Sorted Linked List">
       <created>1673370340270</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676655214173</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="[PROBLEM-995]: complete solution">
+      <created>1676713695557</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676713695557</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-4]: Complete solution with basic tests" />
     <MESSAGE value="[PROBLEM-11]: WIP - Container with most water" />
     <MESSAGE value="[PROBLEM-11]: Completed - Container with most water" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
     <MESSAGE value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
     <MESSAGE value="[PROBLEM-995]: online solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-995]: online solution" />
+    <MESSAGE value="[PROBLEM-995]: complete solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-995]: complete solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
