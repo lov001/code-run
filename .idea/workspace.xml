@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-995]: complete solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2529/MaxCountOfPositiveAndNegativeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2529/MaxCountOfPositiveAndNegativeIntegerTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2529]: complete solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem57/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem57/InsertIntervalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-57" />
+                    <option name="lastUsedInstant" value="1676717401" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-2529" />
                     <option name="lastUsedInstant" value="1676714359" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1679" />
                     <option name="lastUsedInstant" value="1676397414" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-448" />
-                    <option name="lastUsedInstant" value="1676394907" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem57" />
       <recent name="leetcode.arrays.problem2529" />
       <recent name="leetcode.arrays.problem995" />
       <recent name="leetcode.arrays.problem989" />
       <recent name="leetcode.arrays.problem1679" />
-      <recent name="leetcode.arrays.problem448" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxCountOfPositiveAndNegativeIntegerTest">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00014" summary="[PROBLEM-21]: Merge Two Sorted Linked List">
-      <created>1673370340270</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1673370340271</updated>
     </task>
     <task id="LOCAL-00015" summary="[PROBLEM-876]: WIP Finding Middle Node of a linked list">
       <created>1673371314799</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676713695557</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[PROBLEM-2529]: complete solution">
+      <created>1676717113361</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676717113362</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-11]: WIP - Container with most water" />
     <MESSAGE value="[PROBLEM-11]: Completed - Container with most water" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
     <MESSAGE value="[PROBLEM-995]: online solution" />
     <MESSAGE value="[PROBLEM-995]: complete solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-995]: complete solution" />
+    <MESSAGE value="[PROBLEM-2529]: complete solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2529]: complete solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
