@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[main]: added workspace to gitIgnore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1122/RelativeArraySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1122/RelativeArraySortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1122]: working solution - non optimized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1122/RelativeArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1122/RelativeArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1122/RelativeArraySortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1122/RelativeArraySortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,52 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2529.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="RelativeArraySortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -221,6 +174,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -244,21 +220,44 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.RelativeArraySortTest" />
       <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsent" />
+      <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" />
       <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" />
-      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest" />
-      <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" />
+      <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RelativeArraySortTest" />
+        <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" />
+        <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" />
         <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsent" />
         <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" />
-        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest" />
-        <item itemvalue="Gradle.MaxCountOfPositiveAndNegativeIntegerTest.test_maximumCount_expect1_whenInputIsOnlyMinus1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00015" summary="[PROBLEM-876]: WIP Finding Middle Node of a linked list">
-      <created>1673371314799</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1673371314799</updated>
     </task>
     <task id="LOCAL-00016" summary="[PROBLEM-876]: WIP">
       <created>1673456834906</created>
@@ -614,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676819906106</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="[PROBLEM-1122]: working solution - non optimized">
+      <created>1676823434904</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1676823434905</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-11]: Completed - Container with most water" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem" />
     <MESSAGE value="[PROBLEM-15]: WIP - 3 sum problem - brute force approach" />
     <MESSAGE value="[PROBLEM-15]: Complete solution" />
@@ -654,7 +652,8 @@
     <MESSAGE value="[PROBLEM-995]: online solution" />
     <MESSAGE value="[PROBLEM-995]: complete solution" />
     <MESSAGE value="[main]: added workspace to gitIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="[main]: added workspace to gitIgnore" />
+    <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1122]: working solution - non optimized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

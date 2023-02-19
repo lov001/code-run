@@ -25,4 +25,22 @@ public class RelativeArraySortTest {
         Assertions.assertEquals(Arrays.toString(output),
             Arrays.toString(classObj.relativeSortArray(array1, array2)));
     }
+
+    @Test
+    void test_relativeSortArray_expect_whenDuplicatesPresentAndTC13() {
+        int[] array1 = {2, 21, 43, 38, 0, 42, 33, 7, 24, 13, 12, 27, 12, 24, 5, 23, 29, 48, 30, 31};
+        int[] array2 = {2, 42, 38, 0, 43, 21};
+        int[] output = {2, 42, 38, 0, 43, 21, 5, 7, 12, 12, 13, 23, 24, 24, 27, 29, 30, 31, 33, 48};
+        Assertions.assertEquals(Arrays.toString(output),
+            Arrays.toString(classObj.relativeSortArray(array1, array2)));
+    }
+
+    @Test
+    void test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16() {
+        int[] array1 = {1, 2, 3, 4, 5, 0};
+        int[] array2 = {4, 1, 3};
+        int[] output = {4, 1, 3, 0, 2, 5};
+        Assertions.assertEquals(Arrays.toString(output),
+            Arrays.toString(classObj.relativeSortArray(array1, array2)));
+    }
 }

@@ -1,11 +1,9 @@
 package leetcode.arrays.problem1122;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class RelativeArraySort {
 
@@ -13,21 +11,25 @@ public class RelativeArraySort {
         Map<Integer, Integer> countMap = new LinkedHashMap<>();
         int index = 0;
         for (int number : arr1) {
-            if (countMap.containsKey(number)) {
-                countMap.put(number, countMap.get(number) + 1);
-            } else {
-                countMap.put(number, 1);
-            }
+            countMap.put(number, countMap.getOrDefault(number, 0) + 1);
         }
         for (int key : arr2) {
             Arrays.fill(arr1, index, index + countMap.get(key), key);
             index += countMap.get(key);
             countMap.remove(key);
         }
-        List<Integer> sortedList = new ArrayList<>(countMap.keySet());
-        Collections.sort(sortedList);
-        for (int element : sortedList) {
-            arr1[index++] = element;
+        int[] remainingArray = new int[arr1.length];
+        int preIndex = index;
+        for (Entry<Integer, Integer> map : countMap.entrySet()) {
+            Arrays.fill(remainingArray, index, index + map.getValue(),
+                map.getKey() != 0 ? map.getKey() : -1);
+            index += map.getValue();
+        }
+        Arrays.sort(remainingArray);
+        for (int element : remainingArray) {
+            if (element != 0 && preIndex < arr1.length) {
+                arr1[preIndex++] = element == -1 ? 0 : element;
+            }
         }
         return arr1;
     }
