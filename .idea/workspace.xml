@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1122]: optimised one with counting sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1154/DayOfTheYearTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1154]: days between two string dates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYearWithoutPredefinedFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1154/DayOfTheYearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1154/DayOfTheYearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <recent name="leetcode.arrays.problem989" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DayOfTheYearTest.test_dayOfYear_expect9_whenDateIs09012019">
+  <component name="RunManager" selected="Gradle.DayOfTheYearTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +128,98 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DayOfTheYearTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="DayOfTheYearTest.test_dayOfYear_expect9_whenDateIs09012019" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -151,113 +244,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RelativeArraySortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1122.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.DayOfTheYearTest" />
+      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" />
+      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" />
+      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" />
       <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect9_whenDateIs09012019" />
-      <item itemvalue="Gradle.RelativeArraySortTest" />
-      <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" />
-      <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" />
-      <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DayOfTheYearTest" />
+        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" />
+        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" />
+        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" />
         <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect9_whenDateIs09012019" />
-        <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresent" />
-        <item itemvalue="Gradle.RelativeArraySortTest" />
-        <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesAbsentAndTC16" />
-        <item itemvalue="Gradle.RelativeArraySortTest.test_relativeSortArray_expect_whenDuplicatesPresentAndTC13" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00018" summary="[PROBLEM-142]: WIP - Circular linked list">
-      <created>1673519738966</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1673519738966</updated>
     </task>
     <task id="LOCAL-00019" summary="[PROBLEM-142]: Circular linked list 2 - solved">
       <created>1673521987344</created>
@@ -613,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676827611602</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="[PROBLEM-1154]: days between two string dates">
+      <created>1676904599076</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1676904599076</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-15]: Complete solution" />
     <MESSAGE value="[PROBLEM-2303]: WIP" />
     <MESSAGE value="[PROBLEM-2303]: WIP tests" />
     <MESSAGE value="[PROBLEM-2303]: Working solution with basic tests" />
@@ -653,7 +653,8 @@
     <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
     <MESSAGE value="[PROBLEM-1122]: working solution with all test case passing" />
     <MESSAGE value="[PROBLEM-1122]: optimised one with counting sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1122]: optimised one with counting sort" />
+    <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1154]: days between two string dates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,6 +773,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1122/RelativeArraySortApproach2.java</url>
           <line>6</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYear.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYearWithoutPredefinedFunction.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
