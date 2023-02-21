@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1154]: days between two string dates, without using any api method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem796/RotateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem796/RotateStringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1790]: not so optimal solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-1790" />
+                    <option name="lastUsedInstant" value="1676990649" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-796" />
                     <option name="lastUsedInstant" value="1676915506" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1676819844" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-2529" />
-                    <option name="lastUsedInstant" value="1676714359" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem1790" />
       <recent name="leetcode.strings.problem796" />
       <recent name="leetcode.strings.problem1154" />
       <recent name="leetcode.arrays.problem1122" />
       <recent name="leetcode.arrays.problem2529" />
-      <recent name="leetcode.arrays.problem995" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RotateStringTest">
+  <component name="RunManager" selected="Gradle.SingleSwapTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayOfTheYearTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingleSwapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest&quot;" />
+            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016&quot;" />
+            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019&quot;" />
+            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1154.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008&quot;" />
+            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RotateStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem796.RotateStringTest&quot;" />
+            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.DayOfTheYearTest" />
-      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" />
-      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" />
-      <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" />
-      <item itemvalue="Gradle.RotateStringTest" />
+      <item itemvalue="Gradle.SingleSwapTest" />
+      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" />
+      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" />
+      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" />
+      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RotateStringTest" />
-        <item itemvalue="Gradle.DayOfTheYearTest" />
-        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect40_whenDateIs09022016" />
-        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10102008" />
-        <item itemvalue="Gradle.DayOfTheYearTest.test_dayOfYear_expect41_whenDateIs10022019" />
+        <item itemvalue="Gradle.SingleSwapTest" />
+        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame" />
+        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" />
+        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" />
+        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" />
       </list>
     </recent_temporary>
   </component>
@@ -269,27 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00020" summary="[PROBLEM-142]: Approach 2 - By modifying the property of linked list">
-      <created>1673526012731</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673526012732</updated>
-    </task>
-    <task id="LOCAL-00021" summary="[PROBLEM-141]: Does a linked list has a cycle or not.&#10;Fast and Slow pointer approach&#10;HashSet approach">
-      <created>1673586276030</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1673586276030</updated>
-    </task>
-    <task id="LOCAL-00022" summary="[PROBLEM-121]: Max Profit by performing a Trade">
-      <created>1673708913523</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1673708913526</updated>
     </task>
     <task id="LOCAL-00023" summary="[PROBLEM-121]: Complete Solution Maximum Stock Profit">
       <created>1673710040853</created>
@@ -613,7 +591,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676915338933</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="[PROBLEM-796]: rotate strings">
+      <created>1676916160624</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1676916160624</updated>
+    </task>
+    <task id="LOCAL-00070" summary="[PROBLEM-1790]: one string swap equivalent">
+      <created>1676991129099</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1676991129100</updated>
+    </task>
+    <task id="LOCAL-00071" summary="[PROBLEM-1790]: not so optimal solution">
+      <created>1676996862452</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1676996862452</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,9 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-2303]: WIP tests" />
-    <MESSAGE value="[PROBLEM-2303]: Working solution with basic tests" />
-    <MESSAGE value="[PROBLEM-2303]: More optimised solution with all tests passing" />
     <MESSAGE value="[PROBLEM-2218]: WIP max Value of coins from a pile" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers without using extra space" />
@@ -653,7 +649,10 @@
     <MESSAGE value="[PROBLEM-1122]: optimised one with counting sort" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates, without using any api method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1154]: days between two string dates, without using any api method" />
+    <MESSAGE value="[PROBLEM-796]: rotate strings" />
+    <MESSAGE value="[PROBLEM-1790]: one string swap equivalent" />
+    <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1790]: not so optimal solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,6 +781,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1154/DayOfTheYearWithoutPredefinedFunction.java</url>
           <line>7</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
