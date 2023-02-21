@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1790]: one string swap equivalent">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1790]: not so optimal solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1790/SingleSwapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1790/SingleSwapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00022" summary="[PROBLEM-121]: Max Profit by performing a Trade">
-      <created>1673708913523</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1673708913526</updated>
     </task>
     <task id="LOCAL-00023" summary="[PROBLEM-121]: Complete Solution Maximum Stock Profit">
       <created>1673710040853</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676991129100</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="[PROBLEM-1790]: not so optimal solution">
+      <created>1676996862452</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1676996862452</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-2303]: More optimised solution with all tests passing" />
     <MESSAGE value="[PROBLEM-2218]: WIP max Value of coins from a pile" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers without using extra space" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-1154]: days between two string dates, without using any api method" />
     <MESSAGE value="[PROBLEM-796]: rotate strings" />
     <MESSAGE value="[PROBLEM-1790]: one string swap equivalent" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1790]: one string swap equivalent" />
+    <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1790]: not so optimal solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,7 +784,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java</url>
-          <line>24</line>
+          <line>20</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
