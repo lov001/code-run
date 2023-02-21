@@ -27,4 +27,25 @@ public class SingleSwapTest {
         String swapStr = "kelb";
         Assertions.assertTrue(classObj.areAlmostEqual(input, swapStr));
     }
+
+    @Test
+    void test_areAlmostEqual_expectFalse_whenAbcdAndDcba() {
+        String input = "abcd";
+        String swapStr = "dcba";
+        Assertions.assertFalse(classObj.areAlmostEqual(input, swapStr));
+    }
+
+    @Test
+    void test_areAlmostEqual_expectFalse_whenLongStrings() {
+        String input = "cwywcvxpxcwxngreogncptlsxicwbjudtkuezcpvwcunxhqteiuooytvgycldbpwevqguqpqtxuxhyzshr";
+        String swapStr = "hduwpirvtlnycycpwjbtrsdwwqctwxoohxuuuohupcezzxvtqgwcpgcxuvxexxeevsbkpgitcqcynqglny";
+        Assertions.assertFalse(classObj.areAlmostEqual(input, swapStr));
+    }
+
+    @Test
+    void test_areAlmostEqual_expectFalse_whenCaaAndAaz() {
+        String input = "caa";
+        String swapStr = "aaz";
+        Assertions.assertFalse(classObj.areAlmostEqual(input, swapStr));
+    }
 }
