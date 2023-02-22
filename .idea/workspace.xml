@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1790]: optimal solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem844/BackspaceStringsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-844]: WIP backspace string compare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.arrays.problem1122" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SingleSwapTest">
+  <component name="RunManager" selected="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +126,52 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem844.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem844.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SingleSwapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -151,29 +196,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,29 +210,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" />
+      <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" />
       <item itemvalue="Gradle.SingleSwapTest" />
-      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" />
       <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" />
-      <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" />
       <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" />
+        <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" />
         <item itemvalue="Gradle.SingleSwapTest" />
         <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBothStringsExactlySame" />
         <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenNotEqual" />
-        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectTrue_whenBankAndKanb" />
-        <item itemvalue="Gradle.SingleSwapTest.test_areAlmostEqual_expectFalse_whenCaaAndAaz" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00024" summary="[PROBLEM-409]: Longest Palindrome which can be formed by a string with basic tests">
-      <created>1673711663994</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1673711663994</updated>
     </task>
     <task id="LOCAL-00025" summary="[PROBLEM-409]: WIP with failing tests">
       <created>1673712855264</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676997325214</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="[PROBLEM-844]: WIP backspace string compare">
+      <created>1677000073503</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1677000073503</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-448]: Disappearing numbers" />
     <MESSAGE value="[PROBLEM-448]: Disappearing numbers without using extra space" />
     <MESSAGE value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
     <MESSAGE value="[PROBLEM-1679]: basic solution using sorting and two pointer approach" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-1790]: one string swap equivalent" />
     <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
     <MESSAGE value="[PROBLEM-1790]: optimal solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1790]: optimal solution" />
+    <MESSAGE value="[PROBLEM-844]: WIP backspace string compare" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-844]: WIP backspace string compare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
