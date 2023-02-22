@@ -27,4 +27,11 @@ public class BackspaceStringsTest {
         String str2 = "b";
         Assertions.assertFalse(classObj.backspaceCompare(str1, str2));
     }
+
+    @Test
+    void test_backspaceCompare_expectTrue_when() {
+        String str1 = "a##c";
+        String str2 = "#a#c";
+        Assertions.assertTrue(classObj.backspaceCompare(str1, str2));
+    }
 }

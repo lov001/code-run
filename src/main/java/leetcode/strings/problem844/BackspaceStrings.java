@@ -12,18 +12,20 @@ public class BackspaceStrings {
             if (s.charAt(i) != '#') {
                 stack1.push(s.charAt(i));
             } else {
-                stack1.pop();
+                if (stack1.size() > 0) {
+                    stack1.pop();
+                }
             }
         }
         for (int i = 0; i < t.length(); i++) {
             if (t.charAt(i) != '#') {
                 stack2.push(t.charAt(i));
             } else {
-                stack2.pop();
+                if (stack2.size() > 0) {
+                    stack2.pop();
+                }
             }
         }
-        System.out.println("Stack 1 : " + Arrays.toString(stack1.toArray()));
-        System.out.println("Stack 2 : " + Arrays.toString(stack2.toArray()));
         return Arrays.toString(stack1.toArray()).equals(Arrays.toString(stack2.toArray()));
     }
 }
