@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-844]: Working solution using stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStringsApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem844/BackspaceStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem844/BackspaceStringsTest.java" afterDir="false" />
@@ -269,13 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00026" summary="[PROBLEM-409]: Greedy Approach as per leetcode">
-      <created>1673769546669</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1673769546669</updated>
     </task>
     <task id="LOCAL-00027" summary="[PROBLEM-409]: Set based approach">
       <created>1673770465506</created>
@@ -613,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677078863954</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="[PROBLEM-844]: Working solution using stack">
+      <created>1677086730898</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677086730898</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -787,6 +788,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem1790/SingleSwap.java</url>
           <line>20</line>
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStringsApproach2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
