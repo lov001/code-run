@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-844]: Working solution using stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStringsApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem844/BackspaceStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem844/BackspaceStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem944/MakeColumnsSortedByDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem944/MakeColumnsSortedByDeletion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-944" />
+                    <option name="lastUsedInstant" value="1677089028" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-844" />
                     <option name="lastUsedInstant" value="1676999761" />
                   </RecentBranch>
@@ -64,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1154" />
                     <option name="lastUsedInstant" value="1676903214" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1122" />
-                    <option name="lastUsedInstant" value="1676819947" />
                   </RecentBranch>
                 </list>
               </option>
@@ -102,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem944" />
       <recent name="leetcode.strings.problem844" />
       <recent name="leetcode.strings.problem1790" />
       <recent name="leetcode.strings.problem796" />
       <recent name="leetcode.strings.problem1154" />
-      <recent name="leetcode.arrays.problem1122" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_when">
+  <component name="RunManager" selected="Gradle.MakeColumnsSortedByDeletionTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -152,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BackspaceStringsTest.test_backspaceCompare_expectTrue_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MakeColumnsSortedByDeletionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -165,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem844.BackspaceStringsTest.test_backspaceCompare_expectTrue_when&quot;" />
+            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect0_whenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -188,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem844.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC&quot;" />
+            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect0_whenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect1_whenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -211,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem844.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty&quot;" />
+            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect1_whenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -221,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingleSwapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -234,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1790.SingleSwapTest&quot;" />
+            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,18 +245,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectFalse_when" />
-      <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_when" />
-      <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" />
-      <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" />
-      <item itemvalue="Gradle.SingleSwapTest" />
+      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest" />
+      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect0_whenInput" />
+      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect1_whenInput" />
+      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_when" />
+        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest" />
+        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" />
+        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect1_whenInput" />
+        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect0_whenInput" />
         <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectFalse_when" />
-        <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeEmpty" />
-        <item itemvalue="Gradle.BackspaceStringsTest.test_backspaceCompare_expectTrue_whenStringBecomeAC" />
-        <item itemvalue="Gradle.SingleSwapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,20 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00027" summary="[PROBLEM-409]: Set based approach">
-      <created>1673770465506</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1673770465507</updated>
-    </task>
-    <task id="LOCAL-00028" summary="[PROBLEM-589]: WIP- To be picked later Pre order traversal">
-      <created>1673884405534</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1673884405534</updated>
     </task>
     <task id="LOCAL-00029" summary="[PROBLEM-628]: Refactoring into arrays package">
       <created>1673885355872</created>
@@ -614,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677086730898</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="[PROBLEM-844]: Optimized solution using O(1)">
+      <created>1677088186858</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677088186858</updated>
+    </task>
+    <task id="LOCAL-00077" summary="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted">
+      <created>1677089327121</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677089327121</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,8 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1679]: WIP max number of K-sum pairs" />
-    <MESSAGE value="[PROBLEM-1679]: basic solution using sorting and two pointer approach" />
     <MESSAGE value="[PROBLEM-1679]: using hashmap approach" />
     <MESSAGE value="[PROBLEM-989]: WIP array from integer" />
     <MESSAGE value="[PROBLEM-989]: Brute force approach" />
@@ -654,7 +650,9 @@
     <MESSAGE value="[PROBLEM-1790]: optimal solution" />
     <MESSAGE value="[PROBLEM-844]: WIP backspace string compare" />
     <MESSAGE value="[PROBLEM-844]: Working solution using stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-844]: Working solution using stack" />
+    <MESSAGE value="[PROBLEM-844]: Optimized solution using O(1)" />
+    <MESSAGE value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,6 +791,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem844/BackspaceStringsApproach2.java</url>
           <line>6</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem944/MakeColumnsSortedByDeletion.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
