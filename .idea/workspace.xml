@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-944]: working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1614/MaxDepthOfParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1614/MaxDepthOfParenthesesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1614]: max depth of parentheses working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1078/OccurrencesAfterBigram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1078/OccurrencesAfterBigramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-1078" />
+                    <option name="lastUsedInstant" value="1677165935" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-1614" />
                     <option name="lastUsedInstant" value="1677164206" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1790" />
                     <option name="lastUsedInstant" value="1676990649" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-796" />
-                    <option name="lastUsedInstant" value="1676915506" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem1078" />
       <recent name="leetcode.strings.problem1614" />
       <recent name="leetcode.strings.problem944" />
       <recent name="leetcode.strings.problem844" />
       <recent name="leetcode.strings.problem1790" />
-      <recent name="leetcode.strings.problem796" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxDepthOfParenthesesTest">
+  <component name="RunManager" selected="Gradle.OccurrencesAfterBigramTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,52 +127,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="MakeColumnsSortedByDeletionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem944.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="MaxDepthOfParenthesesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -243,21 +197,67 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="OccurrencesAfterBigramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1078.OccurrencesAfterBigramTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem1078.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest" />
-      <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" />
       <item itemvalue="Gradle.MaxDepthOfParenthesesTest" />
       <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_when" />
       <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3" />
+      <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
+      <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
+        <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
         <item itemvalue="Gradle.MaxDepthOfParenthesesTest" />
         <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_when" />
         <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3" />
-        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest" />
-        <item itemvalue="Gradle.MakeColumnsSortedByDeletionTest.test_minDeletionSize_expect3_whenInput" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00030" summary="[PROBLEM-628]: Most non-optimal solution using 3 for loops">
-      <created>1673888077146</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1673888077146</updated>
     </task>
     <task id="LOCAL-00031" summary="[PROBLEM-628]: approach 2- Sorting the input array">
       <created>1673891746636</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677163429664</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="[PROBLEM-1614]: max depth of parentheses working solution">
+      <created>1677164921041</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677164921042</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: WIP array from integer" />
     <MESSAGE value="[PROBLEM-989]: Brute force approach" />
     <MESSAGE value="[PROBLEM-989]: Edge case scenario handled" />
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-844]: Optimized solution using O(1)" />
     <MESSAGE value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
     <MESSAGE value="[PROBLEM-944]: working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-944]: working solution" />
+    <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1614]: max depth of parentheses working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
