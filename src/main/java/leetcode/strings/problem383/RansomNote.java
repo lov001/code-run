@@ -13,7 +13,8 @@ public class RansomNote {
             magazineArray[ch - 'a']++;
         }
         for (char ch : ransomNote.toCharArray()) {
-            if(ransomArray[ch - 'a'] != magazineArray[ch - 'a']){
+            if (ransomArray[ch - 'a'] != magazineArray[ch - 'a']
+                && ransomArray[ch - 'a'] > magazineArray[ch - 'a']) {
                 return false;
             }
         }
