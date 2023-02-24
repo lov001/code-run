@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1614]: max depth of parentheses working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem1078/OccurrencesAfterBigram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem1078/OccurrencesAfterBigramTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1078]: occurrences after a bigram working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-830" />
+                    <option name="lastUsedInstant" value="1677247309" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-1078" />
                     <option name="lastUsedInstant" value="1677165935" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-844" />
                     <option name="lastUsedInstant" value="1676999761" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1790" />
-                    <option name="lastUsedInstant" value="1676990649" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem830" />
       <recent name="leetcode.strings.problem1078" />
       <recent name="leetcode.strings.problem1614" />
       <recent name="leetcode.strings.problem944" />
       <recent name="leetcode.strings.problem844" />
-      <recent name="leetcode.strings.problem1790" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.OccurrencesAfterBigramTest">
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00031" summary="[PROBLEM-628]: approach 2- Sorting the input array">
-      <created>1673891746636</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1673891746636</updated>
     </task>
     <task id="LOCAL-00032" summary="[PROBLEM-2053]: WIP Kth Distinct String">
       <created>1673930835476</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677164921042</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="[PROBLEM-1078]: occurrences after a bigram working solution">
+      <created>1677166749419</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1677166749419</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: Brute force approach" />
     <MESSAGE value="[PROBLEM-989]: Edge case scenario handled" />
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
     <MESSAGE value="[PROBLEM-944]: working solution" />
     <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1614]: max depth of parentheses working solution" />
+    <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1078]: occurrences after a bigram working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
