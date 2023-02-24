@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-830]: working solution with passing tests">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-383]: random note in a magazine working solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem383/RansomNoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem383/RansomNoteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-383" />
+                    <option name="lastUsedInstant" value="1677261180" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-830" />
                     <option name="lastUsedInstant" value="1677247309" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-944" />
                     <option name="lastUsedInstant" value="1677089028" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-844" />
-                    <option name="lastUsedInstant" value="1676999761" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem383" />
       <recent name="leetcode.strings.problem830" />
       <recent name="leetcode.strings.problem1078" />
       <recent name="leetcode.strings.problem1614" />
       <recent name="leetcode.strings.problem944" />
-      <recent name="leetcode.strings.problem844" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PositionOfLargeGroupTest">
+  <component name="RunManager" selected="Gradle.RansomNoteTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionOfLargeGroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RansomNoteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest&quot;" />
+            <option value="&quot;leetcode.strings.problem383.RansomNoteTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup&quot;" />
+            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup&quot;" />
+            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter&quot;" />
+            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +220,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString&quot;" />
+            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" />
+      <item itemvalue="Gradle.RansomNoteTest" />
+      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" />
+      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb" />
+      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab" />
+      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PositionOfLargeGroupTest" />
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" />
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" />
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
+        <item itemvalue="Gradle.RansomNoteTest" />
+        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab" />
+        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb" />
+        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" />
+        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" />
       </list>
     </recent_temporary>
   </component>
@@ -269,20 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00034" summary="[PROBLEM-2053]: Approach 2 using Linked HashMap">
-      <created>1673975787479</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1673975787479</updated>
-    </task>
-    <task id="LOCAL-00035" summary="[PROBLEM-744]: Approach 2 using Linked HashMap">
-      <created>1673976618688</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1673976618688</updated>
     </task>
     <task id="LOCAL-00036" summary="[PROBLEM-744]: Complete solution">
       <created>1674061875347</created>
@@ -613,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677249729524</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="[PROBLEM-830]: working solution with all test cases passing">
+      <created>1677250563837</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1677250563837</updated>
+    </task>
+    <task id="LOCAL-00084" summary="[PROBLEM-383]: random note in a magazine working solution">
+      <created>1677262514108</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1677262514108</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,8 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
-    <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
     <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
     <MESSAGE value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
     <MESSAGE value="[PROBLEM-995]: online solution" />
@@ -653,7 +651,9 @@
     <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
     <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
     <MESSAGE value="[PROBLEM-830]: working solution with passing tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-830]: working solution with passing tests" />
+    <MESSAGE value="[PROBLEM-830]: working solution with all test cases passing" />
+    <MESSAGE value="[PROBLEM-383]: random note in a magazine working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-383]: random note in a magazine working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,6 +802,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java</url>
           <line>10</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
