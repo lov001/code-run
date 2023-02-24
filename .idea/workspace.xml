@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1078]: occurrences after a bigram working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-830]: problem to give large string group positions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.strings.problem844" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OccurrencesAfterBigramTest">
+  <component name="RunManager" selected="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,75 +126,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="MaxDepthOfParenthesesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1614.MaxDepthOfParenthesesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxDepthOfParenthesesTest.test_maxDepth_expect3_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1614.MaxDepthOfParenthesesTest.test_maxDepth_expect3_when&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1614.MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="OccurrencesAfterBigramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -243,21 +173,90 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MaxDepthOfParenthesesTest" />
-      <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_when" />
-      <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3" />
       <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
       <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
         <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
         <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
-        <item itemvalue="Gradle.MaxDepthOfParenthesesTest" />
-        <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_when" />
-        <item itemvalue="Gradle.MaxDepthOfParenthesesTest.test_maxDepth_expect3_whenMaxDepthIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00032" summary="[PROBLEM-2053]: WIP Kth Distinct String">
-      <created>1673930835476</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1673930835476</updated>
     </task>
     <task id="LOCAL-00033" summary="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach">
       <created>1673931902587</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677166749419</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="[PROBLEM-830]: problem to give large string group positions">
+      <created>1677248272393</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677248272394</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: Edge case scenario handled" />
     <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
     <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-944]: working solution" />
     <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
     <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1078]: occurrences after a bigram working solution" />
+    <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-830]: problem to give large string group positions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,6 +796,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem944/MakeColumnsSortedByDeletion.java</url>
           <line>7</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
