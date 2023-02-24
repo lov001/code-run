@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-830]: problem to give large string group positions">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-830]: working solution with passing tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem830/PositionOfLargeGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem830/PositionOfLargeGroupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <recent name="leetcode.strings.problem844" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup">
+  <component name="RunManager" selected="Gradle.PositionOfLargeGroupTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurrencesAfterBigramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PositionOfLargeGroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,30 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1078.OccurrencesAfterBigramTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem1078.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences&quot;" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -232,7 +210,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup&quot;" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem830.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
-      <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest" />
       <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
       <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
-      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" />
+      <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize3_whenStringContainsThreeLargeGroup" />
-        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize2_whenRandomString" />
         <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroup" />
-        <item itemvalue="Gradle.OccurrencesAfterBigramTest" />
-        <item itemvalue="Gradle.OccurrencesAfterBigramTest.test_findOccurrences_expectArrayOfLength2_when2Occurrences" />
+        <item itemvalue="Gradle.PositionOfLargeGroupTest.test_largeGroupPositions_expectListOfSize0_whenStringContainsNoLargeGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00033" summary="[PROBLEM-2053]: WIP Kth Distinct String - LinkedHashSet Approach">
-      <created>1673931902587</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1673931902587</updated>
     </task>
     <task id="LOCAL-00034" summary="[PROBLEM-2053]: Approach 2 using Linked HashMap">
       <created>1673975787479</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677248272394</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="[PROBLEM-830]: working solution with passing tests">
+      <created>1677249729524</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1677249729524</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: Fixed for failed test cases" />
     <MESSAGE value="[PROBLEM-989]: All test cases passed now, optimization left" />
     <MESSAGE value="[PROBLEM-989]: optimised space by declaring variables at the start" />
     <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
     <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
     <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-830]: problem to give large string group positions" />
+    <MESSAGE value="[PROBLEM-830]: working solution with passing tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-830]: working solution with passing tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

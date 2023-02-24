@@ -22,6 +22,9 @@ public class PositionOfLargeGroup {
                 count++;
             }
         }
+        if (count >= 3) {
+            output.add(Arrays.asList(start, start + count - 1));
+        }
         return output;
     }
 }

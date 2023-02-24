@@ -34,4 +34,21 @@ public class PositionOfLargeGroupTest {
         output.add(Arrays.asList(12, 14));
         Assertions.assertEquals(output, classObj.largeGroupPositions(input));
     }
+
+    @Test
+    void test_largeGroupPositions_expectListOfSize1_whenStringContainsOneLargeGroupOfAllSameCharacter() {
+        String input = "aaa";
+        List<List<Integer>> output = new ArrayList<>();
+        output.add(Arrays.asList(0, 2));
+        Assertions.assertEquals(output, classObj.largeGroupPositions(input));
+    }
+
+    @Test
+    void test_largeGroupPositions_expectListOfSize2_whenRandomString() {
+        String input = "babaaaabbb";
+        List<List<Integer>> output = new ArrayList<>();
+        output.add(Arrays.asList(3, 6));
+        output.add(Arrays.asList(7, 9));
+        Assertions.assertEquals(output, classObj.largeGroupPositions(input));
+    }
 }
