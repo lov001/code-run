@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-383]: random note in a magazine working solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-953]: WIP alien dictionary problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem383/RansomNoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem383/RansomNoteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem953/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem953/AlienDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-953" />
+                    <option name="lastUsedInstant" value="1677318987" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-383" />
                     <option name="lastUsedInstant" value="1677261180" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1614" />
                     <option name="lastUsedInstant" value="1677164206" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-944" />
-                    <option name="lastUsedInstant" value="1677089028" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem953" />
       <recent name="leetcode.strings.problem383" />
       <recent name="leetcode.strings.problem830" />
       <recent name="leetcode.strings.problem1078" />
       <recent name="leetcode.strings.problem1614" />
-      <recent name="leetcode.strings.problem944" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RansomNoteTest">
+  <component name="RunManager" selected="Gradle.AlienDictionaryTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,6 +127,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlienDictionaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem953.AlienDictionaryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlienDictionaryTest.test_isAlienSorted_expectFalse_whenSequenceIsNotSorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem953.AlienDictionaryTest.test_isAlienSorted_expectFalse_whenSequenceIsNotSorted&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RansomNoteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,29 +187,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.strings.problem383.RansomNoteTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,44 +242,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem383.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.AlienDictionaryTest" />
+      <item itemvalue="Gradle.AlienDictionaryTest.test_isAlienSorted_expectFalse_whenSequenceIsNotSorted" />
       <item itemvalue="Gradle.RansomNoteTest" />
-      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" />
       <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb" />
       <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab" />
-      <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlienDictionaryTest" />
+        <item itemvalue="Gradle.AlienDictionaryTest.test_isAlienSorted_expectFalse_whenSequenceIsNotSorted" />
         <item itemvalue="Gradle.RansomNoteTest" />
         <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsAaAndAab" />
         <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAaAndAb" />
-        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectFalse_whenInputIsAAndB" />
-        <item itemvalue="Gradle.RansomNoteTest.test_canConstruct_expectTrue_whenInputIsRandomString" />
       </list>
     </recent_temporary>
   </component>
@@ -269,20 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00036" summary="[PROBLEM-744]: Complete solution">
-      <created>1674061875347</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1674061875347</updated>
-    </task>
-    <task id="LOCAL-00037" summary="[PROBLEM-4]: Complete solution with basic tests">
-      <created>1674065284137</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1674065284137</updated>
     </task>
     <task id="LOCAL-00038" summary="[PROBLEM-11]: WIP - Container with most water">
       <created>1674128521639</created>
@@ -613,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677262514108</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[PROBLEM-383]: working solution with all the tests passing">
+      <created>1677264039642</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1677264039642</updated>
+    </task>
+    <task id="LOCAL-00086" summary="[PROBLEM-953]: WIP alien dictionary problem">
+      <created>1677319012508</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1677319012508</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,8 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-989]: alternative and cleaner approach" />
-    <MESSAGE value="[PROBLEM-995]: WIP for k-consecutive bit flips" />
     <MESSAGE value="[PROBLEM-995]: online solution" />
     <MESSAGE value="[PROBLEM-995]: complete solution" />
     <MESSAGE value="[main]: added workspace to gitIgnore" />
@@ -653,7 +650,9 @@
     <MESSAGE value="[PROBLEM-830]: working solution with passing tests" />
     <MESSAGE value="[PROBLEM-830]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-383]: random note in a magazine working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-383]: random note in a magazine working solution" />
+    <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
+    <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-953]: WIP alien dictionary problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,6 +806,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem383/RansomNote.java</url>
           <line>14</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem953/AlienDictionary.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
