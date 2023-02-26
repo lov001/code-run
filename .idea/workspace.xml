@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-953]: WIP alien dictionary problem">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-953]: All tests passing for alien dictionary">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem953/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem953/AlienDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-20" />
+                    <option name="lastUsedInstant" value="1677420351" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-953" />
                     <option name="lastUsedInstant" value="1677318987" />
                   </RecentBranch>
@@ -62,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1078" />
                     <option name="lastUsedInstant" value="1677165935" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1614" />
-                    <option name="lastUsedInstant" value="1677164206" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem20" />
       <recent name="leetcode.strings.problem953" />
       <recent name="leetcode.strings.problem383" />
       <recent name="leetcode.strings.problem830" />
       <recent name="leetcode.strings.problem1078" />
-      <recent name="leetcode.strings.problem1614" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.AlienDictionaryTest">
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00038" summary="[PROBLEM-11]: WIP - Container with most water">
-      <created>1674128521639</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1674128521639</updated>
     </task>
     <task id="LOCAL-00039" summary="[PROBLEM-11]: Completed - Container with most water">
       <created>1674129287329</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677319012508</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="[PROBLEM-953]: All tests passing for alien dictionary">
+      <created>1677420115634</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1677420115634</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-995]: online solution" />
     <MESSAGE value="[PROBLEM-995]: complete solution" />
     <MESSAGE value="[main]: added workspace to gitIgnore" />
     <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-383]: random note in a magazine working solution" />
     <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
     <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-953]: WIP alien dictionary problem" />
+    <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-953]: All tests passing for alien dictionary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
