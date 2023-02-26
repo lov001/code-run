@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-953]: All tests passing for alien dictionary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-20]: Valid Parentheses WIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00039" summary="[PROBLEM-11]: Completed - Container with most water">
-      <created>1674129287329</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1674129287329</updated>
     </task>
     <task id="LOCAL-00040" summary="[PROBLEM-15]: WIP - 3 sum problem">
       <created>1674130336402</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677420115634</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="[PROBLEM-20]: Valid Parentheses WIP">
+      <created>1677420559356</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1677420559356</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-995]: complete solution" />
     <MESSAGE value="[main]: added workspace to gitIgnore" />
     <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
     <MESSAGE value="[PROBLEM-1122]: working solution with all test case passing" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
     <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
     <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-953]: All tests passing for alien dictionary" />
+    <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-20]: Valid Parentheses WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
