@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-20]: solution with basic tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParenthesesWithStringBuilder.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-20]: approach with string builder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelSheetColumnTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-168" />
+                    <option name="lastUsedInstant" value="1677422996" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-20" />
                     <option name="lastUsedInstant" value="1677420351" />
                   </RecentBranch>
@@ -64,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-830" />
                     <option name="lastUsedInstant" value="1677247309" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1078" />
-                    <option name="lastUsedInstant" value="1677165935" />
                   </RecentBranch>
                 </list>
               </option>
@@ -102,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
       <recent name="leetcode.strings.problem953" />
       <recent name="leetcode.strings.problem383" />
       <recent name="leetcode.strings.problem830" />
-      <recent name="leetcode.strings.problem1078" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ValidParenthesesTest">
@@ -270,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00041" summary="[PROBLEM-15]: WIP - 3 sum problem - brute force approach">
-      <created>1674148074586</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1674148074586</updated>
     </task>
     <task id="LOCAL-00042" summary="[PROBLEM-15]: Complete solution">
       <created>1674191322854</created>
@@ -614,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677421176036</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="[PROBLEM-20]: approach with string builder">
+      <created>1677422200299</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1677422200299</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
     <MESSAGE value="[PROBLEM-1122]: working solution with all test case passing" />
     <MESSAGE value="[PROBLEM-1122]: optimised one with counting sort" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
@@ -654,7 +652,8 @@
     <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
     <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-20]: solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-20]: approach with string builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-20]: approach with string builder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
