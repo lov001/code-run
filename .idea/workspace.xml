@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-168]: placeholder for excel sheet column tile">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-168]: working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelColumnTileUsingRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelSheetColumnTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelSheetColumnTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00043" summary="[PROBLEM-2303]: WIP">
-      <created>1674225662757</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1674225662757</updated>
     </task>
     <task id="LOCAL-00044" summary="[PROBLEM-2303]: WIP tests">
       <created>1675272409914</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677494890417</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="[PROBLEM-168]: working solution">
+      <created>1677497797154</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1677497797154</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1122]: optimised one with counting sort" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates, without using any api method" />
     <MESSAGE value="[PROBLEM-796]: rotate strings" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-20]: approach with string builder" />
     <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-168]: placeholder for excel sheet column tile" />
+    <MESSAGE value="[PROBLEM-168]: working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-168]: working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
