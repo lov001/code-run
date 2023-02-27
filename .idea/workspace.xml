@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-20]: solution with basic tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParenthesesWithStringBuilder.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-168]: working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelColumnTileUsingRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem20/ValidParenthesesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-168" />
+                    <option name="lastUsedInstant" value="1677422996" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-20" />
                     <option name="lastUsedInstant" value="1677420351" />
                   </RecentBranch>
@@ -64,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-830" />
                     <option name="lastUsedInstant" value="1677247309" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1078" />
-                    <option name="lastUsedInstant" value="1677165935" />
                   </RecentBranch>
                 </list>
               </option>
@@ -102,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
       <recent name="leetcode.strings.problem953" />
       <recent name="leetcode.strings.problem383" />
       <recent name="leetcode.strings.problem830" />
-      <recent name="leetcode.strings.problem1078" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidParenthesesTest">
+  <component name="RunManager" selected="Gradle.ExcelSheetColumnTileTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -129,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlienDictionaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ExcelSheetColumnTileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -142,7 +141,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem953.AlienDictionaryTest&quot;" />
+            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,90 +243,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidParenthesesTest.test_isValid_expectFalse_whenStringIsNotValidParentheses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem20.ValidParenthesesTest.test_isValid_expectFalse_whenStringIsNotValidParentheses&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParentheses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem20.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParentheses&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParenthesesOfLength2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem20.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParenthesesOfLength2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.AlienDictionaryTest" />
+      <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
+      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
+      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" />
+      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" />
       <item itemvalue="Gradle.ValidParenthesesTest" />
-      <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectFalse_whenStringIsNotValidParentheses" />
-      <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParentheses" />
-      <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParenthesesOfLength2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
+        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
+        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" />
+        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" />
         <item itemvalue="Gradle.ValidParenthesesTest" />
-        <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParentheses" />
-        <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectTrue_whenStringIsValidParenthesesOfLength2" />
-        <item itemvalue="Gradle.ValidParenthesesTest.test_isValid_expectFalse_whenStringIsNotValidParentheses" />
-        <item itemvalue="Gradle.AlienDictionaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,27 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00041" summary="[PROBLEM-15]: WIP - 3 sum problem - brute force approach">
-      <created>1674148074586</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1674148074586</updated>
-    </task>
-    <task id="LOCAL-00042" summary="[PROBLEM-15]: Complete solution">
-      <created>1674191322854</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1674191322855</updated>
-    </task>
-    <task id="LOCAL-00043" summary="[PROBLEM-2303]: WIP">
-      <created>1674225662757</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1674225662757</updated>
     </task>
     <task id="LOCAL-00044" summary="[PROBLEM-2303]: WIP tests">
       <created>1675272409914</created>
@@ -614,7 +592,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677421176036</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="[PROBLEM-20]: approach with string builder">
+      <created>1677422200299</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1677422200299</updated>
+    </task>
+    <task id="LOCAL-00091" summary="[PROBLEM-168]: placeholder for excel sheet column tile">
+      <created>1677494890417</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1677494890417</updated>
+    </task>
+    <task id="LOCAL-00092" summary="[PROBLEM-168]: working solution">
+      <created>1677497797154</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1677497797154</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,9 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1122]: working solution - non optimized" />
-    <MESSAGE value="[PROBLEM-1122]: working solution with all test case passing" />
-    <MESSAGE value="[PROBLEM-1122]: optimised one with counting sort" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
     <MESSAGE value="[PROBLEM-1154]: days between two string dates, without using any api method" />
     <MESSAGE value="[PROBLEM-796]: rotate strings" />
@@ -654,7 +650,10 @@
     <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
     <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-20]: solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-20]: approach with string builder" />
+    <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
+    <MESSAGE value="[PROBLEM-168]: working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-168]: working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,6 +817,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem20/ValidParentheses.java</url>
           <line>10</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelSheetColumnTile.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
