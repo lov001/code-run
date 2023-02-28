@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-168]: working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelColumnTileUsingRecursion.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: working solution with basic tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem168/ExcelSheetColumnTileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-14" />
+                    <option name="lastUsedInstant" value="1677498387" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-168" />
                     <option name="lastUsedInstant" value="1677422996" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-383" />
                     <option name="lastUsedInstant" value="1677261180" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-830" />
-                    <option name="lastUsedInstant" value="1677247309" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem14" />
       <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
       <recent name="leetcode.strings.problem953" />
       <recent name="leetcode.strings.problem383" />
-      <recent name="leetcode.strings.problem830" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ExcelSheetColumnTileTest">
+  <component name="RunManager" selected="Gradle.LongestCommonPrefixTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -174,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonPrefixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1&quot;" />
+            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701&quot;" />
+            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidParenthesesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem20.ValidParenthesesTest&quot;" />
+            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,17 +246,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
       <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
-      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" />
-      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" />
-      <item itemvalue="Gradle.ValidParenthesesTest" />
+      <item itemvalue="Gradle.LongestCommonPrefixTest" />
+      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
+      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestCommonPrefixTest" />
+        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
+        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
         <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
         <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
-        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectZY_whenInputIs701" />
-        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectA_whenInputIs1" />
-        <item itemvalue="Gradle.ValidParenthesesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,27 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00044" summary="[PROBLEM-2303]: WIP tests">
-      <created>1675272409914</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1675272409914</updated>
-    </task>
-    <task id="LOCAL-00045" summary="[PROBLEM-2303]: Working solution with basic tests">
-      <created>1675275736893</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1675275736893</updated>
-    </task>
-    <task id="LOCAL-00046" summary="[PROBLEM-2303]: More optimised solution with all tests passing">
-      <created>1675276477777</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1675276477777</updated>
     </task>
     <task id="LOCAL-00047" summary="[PROBLEM-2218]: WIP max Value of coins from a pile">
       <created>1675277865812</created>
@@ -613,7 +591,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677497797154</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="[PROBLEM-168]: using recursive approach">
+      <created>1677498125149</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1677498125150</updated>
+    </task>
+    <task id="LOCAL-00094" summary="[PROBLEM-14]: WIP - longest common prefix">
+      <created>1677498596577</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1677498596577</updated>
+    </task>
+    <task id="LOCAL-00095" summary="[PROBLEM-14]: working solution with basic tests passing">
+      <created>1677591536298</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1677591536298</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,9 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1154]: days between two string dates" />
-    <MESSAGE value="[PROBLEM-1154]: days between two string dates, without using any api method" />
-    <MESSAGE value="[PROBLEM-796]: rotate strings" />
     <MESSAGE value="[PROBLEM-1790]: one string swap equivalent" />
     <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
     <MESSAGE value="[PROBLEM-1790]: optimal solution" />
@@ -653,7 +649,10 @@
     <MESSAGE value="[PROBLEM-20]: approach with string builder" />
     <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
     <MESSAGE value="[PROBLEM-168]: working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-168]: working solution" />
+    <MESSAGE value="[PROBLEM-168]: using recursive approach" />
+    <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
+    <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: working solution with basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
