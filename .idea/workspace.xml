@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: optimised solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefixApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: approach 2, comparison after sorting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem14/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem14/LongestCommonPrefixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-58" />
+                    <option name="lastUsedInstant" value="1677594662" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-14" />
                     <option name="lastUsedInstant" value="1677498387" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-953" />
                     <option name="lastUsedInstant" value="1677318987" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-383" />
-                    <option name="lastUsedInstant" value="1677261180" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem58" />
       <recent name="leetcode.strings.problem14" />
       <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
       <recent name="leetcode.strings.problem953" />
-      <recent name="leetcode.strings.problem383" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestCommonPrefixTest">
+  <component name="RunManager" selected="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelSheetColumnTileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +141,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,44 +243,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" />
       <item itemvalue="Gradle.LongestCommonPrefixTest" />
       <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
       <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
-      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" />
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" />
         <item itemvalue="Gradle.LongestCommonPrefixTest" />
         <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
         <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
-        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
-        <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00048" summary="[PROBLEM-448]: Disappearing numbers">
-      <created>1676395940854</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1676395940854</updated>
     </task>
     <task id="LOCAL-00049" summary="[PROBLEM-448]: Disappearing numbers without using extra space">
       <created>1676396936832</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677592019096</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="[PROBLEM-14]: approach 2, comparison after sorting">
+      <created>1677592895997</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592895997</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
     <MESSAGE value="[PROBLEM-1790]: optimal solution" />
     <MESSAGE value="[PROBLEM-844]: WIP backspace string compare" />
     <MESSAGE value="[PROBLEM-844]: Working solution using stack" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
     <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-14]: optimised solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: optimised solution" />
+    <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: approach 2, comparison after sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,6 +827,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefixApproach2.java</url>
           <line>11</line>
           <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
