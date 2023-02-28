@@ -14,15 +14,13 @@ public class LongestCommonPrefix {
     }
 
     private String commonPrefix(String prevLongestPrefix, String currentWord) {
-        StringBuilder prefix = new StringBuilder();
-        for (int i = 0, j = 0; i < prevLongestPrefix.length() && j < currentWord.length();
-            i++, j++) {
-            if (prevLongestPrefix.charAt(i) == currentWord.charAt(j)) {
-                prefix.append(prevLongestPrefix.charAt(i));
-            } else {
+        int i;
+        for (i = 0; i < prevLongestPrefix.length(); i++) {
+            if (i >= currentWord.length() || !(prevLongestPrefix.charAt(i) == currentWord.charAt(
+                i))) {
                 break;
             }
         }
-        return prefix.toString();
+        return prevLongestPrefix.substring(0, i);
     }
 }
