@@ -17,6 +17,6 @@ public class LengthOfLastWord {
                 break;
             }
         }
-        return s.substring(start, end).length();
+        return start == -1 ? s.substring(0, end).length() + 1 : s.substring(start, end).length();
     }
 }

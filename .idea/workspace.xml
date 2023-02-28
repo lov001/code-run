@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: approach 2, comparison after sorting">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-58]: basic solution with all test case passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <recent name="leetcode.strings.problem953" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld">
+  <component name="RunManager" selected="Gradle.LengthOfLastWordTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonPrefixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +220,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix&quot;" />
+            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" />
-      <item itemvalue="Gradle.LongestCommonPrefixTest" />
-      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
-      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
+      <item itemvalue="Gradle.LengthOfLastWordTest" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" />
+      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect4_whenLastWordIsWorld" />
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect5_whenLastWordIsWorld" />
-        <item itemvalue="Gradle.LongestCommonPrefixTest" />
-        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
-        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
+        <item itemvalue="Gradle.LengthOfLastWordTest" />
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" />
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" />
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" />
+        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00049" summary="[PROBLEM-448]: Disappearing numbers without using extra space">
-      <created>1676396936832</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1676396936832</updated>
     </task>
     <task id="LOCAL-00050" summary="[PROBLEM-1679]: WIP max number of K-sum pairs">
       <created>1676397651379</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677592895997</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="[PROBLEM-58]: basic solution with all test case passing">
+      <created>1677595656964</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595656965</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1790]: optimal solution" />
     <MESSAGE value="[PROBLEM-844]: WIP backspace string compare" />
     <MESSAGE value="[PROBLEM-844]: Working solution using stack" />
     <MESSAGE value="[PROBLEM-844]: Optimized solution using O(1)" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-14]: optimised solution" />
     <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: approach 2, comparison after sorting" />
+    <MESSAGE value="[PROBLEM-58]: basic solution with all test case passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-58]: basic solution with all test case passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,12 +831,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java</url>
           <line>6</line>
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWord.java</url>
           <line>14</line>
-          <option name="timeStamp" value="88" />
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
