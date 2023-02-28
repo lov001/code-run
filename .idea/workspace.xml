@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: working solution with basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-14]: optimised solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefixApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem14/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem14/LongestCommonPrefixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,29 +151,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem168.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="LongestCommonPrefixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,6 +165,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem14.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,18 +246,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
-      <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
       <item itemvalue="Gradle.LongestCommonPrefixTest" />
+      <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
       <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
       <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LongestCommonPrefixTest" />
+        <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyAA_whenInputHasOnlyAs" />
         <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectEmptyString_whenInputHasNoPrefix" />
         <item itemvalue="Gradle.LongestCommonPrefixTest.test_longestCommonPrefix_expectFL_whenInputHasFlAsPrefix" />
         <item itemvalue="Gradle.ExcelSheetColumnTileTest" />
-        <item itemvalue="Gradle.ExcelSheetColumnTileTest.test_convertToTitle_expectAB_whenInputIs28" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00047" summary="[PROBLEM-2218]: WIP max Value of coins from a pile">
-      <created>1675277865812</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1675277865812</updated>
     </task>
     <task id="LOCAL-00048" summary="[PROBLEM-448]: Disappearing numbers">
       <created>1676395940854</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677591536298</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="[PROBLEM-14]: optimised solution">
+      <created>1677592019095</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1677592019096</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1790]: one string swap equivalent" />
     <MESSAGE value="[PROBLEM-1790]: not so optimal solution" />
     <MESSAGE value="[PROBLEM-1790]: optimal solution" />
     <MESSAGE value="[PROBLEM-844]: WIP backspace string compare" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-168]: using recursive approach" />
     <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
     <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: working solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-14]: optimised solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-14]: optimised solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,6 +822,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem168/ExcelSheetColumnTile.java</url>
           <line>9</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefixApproach2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
