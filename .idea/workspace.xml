@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-58]: solution with all the edge cases covered">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWordApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-58]: another approach with single loop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem125/ValidPalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-125" />
+                    <option name="lastUsedInstant" value="1677646331" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-58" />
                     <option name="lastUsedInstant" value="1677594662" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-20" />
                     <option name="lastUsedInstant" value="1677420351" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-953" />
-                    <option name="lastUsedInstant" value="1677318987" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem125" />
       <recent name="leetcode.strings.problem58" />
       <recent name="leetcode.strings.problem14" />
       <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
-      <recent name="leetcode.strings.problem953" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LengthOfLastWordTest">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00051" summary="[PROBLEM-1679]: basic solution using sorting and two pointer approach">
-      <created>1676477723783</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1676477723783</updated>
     </task>
     <task id="LOCAL-00052" summary="[PROBLEM-1679]: using hashmap approach">
       <created>1676483121334</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677596550661</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="[PROBLEM-58]: another approach with single loop">
+      <created>1677597387136</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1677597387136</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-844]: Working solution using stack" />
     <MESSAGE value="[PROBLEM-844]: Optimized solution using O(1)" />
     <MESSAGE value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
     <MESSAGE value="[PROBLEM-944]: working solution" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
     <MESSAGE value="[PROBLEM-58]: basic solution with all test case passing" />
     <MESSAGE value="[PROBLEM-58]: solution with all the edge cases covered" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-58]: solution with all the edge cases covered" />
+    <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-58]: another approach with single loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
