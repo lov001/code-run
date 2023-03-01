@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-125]: solution with basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-125]: solution with 462/485 test cases passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindromeByRemovingCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem125/ValidPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem125/ValidPalindromeTest.java" afterDir="false" />
@@ -174,7 +175,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsOnlySpecialCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsOnlySpecialCharacters&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,17 +248,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ValidPalindromeTest" />
       <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P" />
-      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsOnlySpecialCharacters" />
+      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
       <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot" />
       <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ValidPalindromeTest" />
+        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
         <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P" />
         <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot" />
         <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome" />
-        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsOnlySpecialCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00054" summary="[PROBLEM-989]: Brute force approach">
-      <created>1676484570038</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1676484570038</updated>
     </task>
     <task id="LOCAL-00055" summary="[PROBLEM-989]: Edge case scenario handled">
       <created>1676566921325</created>
@@ -613,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677648298927</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="[PROBLEM-125]: solution with 462/485 test cases passing">
+      <created>1677651400117</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1677651400117</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-944]: working solution" />
     <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
     <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
     <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
@@ -653,7 +653,8 @@
     <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
     <MESSAGE value="[PROBLEM-125]: WIP - Valid Palindrome" />
     <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-125]: solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-125]: solution with 462/485 test cases passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,7 +831,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
