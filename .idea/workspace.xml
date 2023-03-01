@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-58]: solution with all the edge cases covered">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem58/LengthOfLastWordApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-125]: solution with 462/485 test cases passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindromeByRemovingCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem58/LengthOfLastWordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem125/ValidPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem125/ValidPalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-125" />
+                    <option name="lastUsedInstant" value="1677646331" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-58" />
                     <option name="lastUsedInstant" value="1677594662" />
                   </RecentBranch>
@@ -63,10 +68,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-20" />
                     <option name="lastUsedInstant" value="1677420351" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-953" />
-                    <option name="lastUsedInstant" value="1677318987" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +102,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem125" />
       <recent name="leetcode.strings.problem58" />
       <recent name="leetcode.strings.problem14" />
       <recent name="leetcode.strings.problem168" />
       <recent name="leetcode.strings.problem20" />
-      <recent name="leetcode.strings.problem953" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LengthOfLastWordTest">
+  <component name="RunManager" selected="Gradle.ValidPalindromeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +152,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +175,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +198,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +211,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +221,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +234,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem58.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay&quot;" />
+            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +246,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LengthOfLastWordTest" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" />
-      <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" />
+      <item itemvalue="Gradle.ValidPalindromeTest" />
+      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P" />
+      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
+      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot" />
+      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LengthOfLastWordTest" />
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA_" />
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect3_whenLastWordIsDay" />
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect2_whenLastWordIsA_" />
-        <item itemvalue="Gradle.LengthOfLastWordTest.test_lengthOfLastWord_expect1_whenLastWordIsA" />
+        <item itemvalue="Gradle.ValidPalindromeTest" />
+        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
+        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIs0P" />
+        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsADot" />
+        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectTrue_whenInputStringIsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -269,34 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00051" summary="[PROBLEM-1679]: basic solution using sorting and two pointer approach">
-      <created>1676477723783</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1676477723783</updated>
-    </task>
-    <task id="LOCAL-00052" summary="[PROBLEM-1679]: using hashmap approach">
-      <created>1676483121334</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1676483121334</updated>
-    </task>
-    <task id="LOCAL-00053" summary="[PROBLEM-989]: WIP array from integer">
-      <created>1676483755120</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1676483755120</updated>
-    </task>
-    <task id="LOCAL-00054" summary="[PROBLEM-989]: Brute force approach">
-      <created>1676484570038</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1676484570038</updated>
     </task>
     <task id="LOCAL-00055" summary="[PROBLEM-989]: Edge case scenario handled">
       <created>1676566921325</created>
@@ -613,7 +586,35 @@
       <option name="project" value="LOCAL" />
       <updated>1677596550661</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="[PROBLEM-58]: another approach with single loop">
+      <created>1677597387136</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1677597387136</updated>
+    </task>
+    <task id="LOCAL-00101" summary="[PROBLEM-125]: WIP - Valid Palindrome">
+      <created>1677646909172</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1677646909172</updated>
+    </task>
+    <task id="LOCAL-00102" summary="[PROBLEM-125]: solution with basic tests passing">
+      <created>1677648298927</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1677648298927</updated>
+    </task>
+    <task id="LOCAL-00103" summary="[PROBLEM-125]: solution with 462/485 test cases passing">
+      <created>1677651400117</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1677651400117</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,10 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-844]: Working solution using stack" />
-    <MESSAGE value="[PROBLEM-844]: Optimized solution using O(1)" />
-    <MESSAGE value="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted" />
-    <MESSAGE value="[PROBLEM-944]: working solution" />
     <MESSAGE value="[PROBLEM-1614]: max depth of parentheses working solution" />
     <MESSAGE value="[PROBLEM-1078]: occurrences after a bigram working solution" />
     <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
@@ -653,7 +650,11 @@
     <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
     <MESSAGE value="[PROBLEM-58]: basic solution with all test case passing" />
     <MESSAGE value="[PROBLEM-58]: solution with all the edge cases covered" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-58]: solution with all the edge cases covered" />
+    <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
+    <MESSAGE value="[PROBLEM-125]: WIP - Valid Palindrome" />
+    <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-125]: solution with 462/485 test cases passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,6 +828,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem14/LongestCommonPrefixApproach2.java</url>
           <line>11</line>
           <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem125/ValidPalindrome.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
