@@ -16,12 +16,12 @@ public class StringCompressionTest {
     @Test
     void test_compress_expect1_whenLengthIs1() {
         char[] input = {'a'};
-        Assertions.assertEquals(6, classObj.compress(input));
+        Assertions.assertEquals(1, classObj.compress(input));
     }
 
     @Test
     void test_compress_expect4_whenLengthIs4() {
-        char[] input = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
-        Assertions.assertEquals(6, classObj.compress(input));
+        char[] input = {'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'};
+        Assertions.assertEquals(4, classObj.compress(input));
     }
 }
