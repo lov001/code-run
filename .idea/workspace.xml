@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]:string compression - WIP">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]:all basic tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.strings.problem58" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6">
+  <component name="RunManager" selected="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -253,9 +252,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1" />
+        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
+        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
         <item itemvalue="Gradle.ValidAnagramTest" />
         <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" />
       </list>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00061" summary="[PROBLEM-995]: online solution">
-      <created>1676655214173</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1676655214173</updated>
     </task>
     <task id="LOCAL-00062" summary="[PROBLEM-995]: complete solution">
       <created>1676713695557</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677779334939</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="[PROBLEM-443]:all basic tests passing">
+      <created>1677780217480</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1677780217480</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
     <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
     <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
     <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-242]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-242]:additional test cases for hashmap approach" />
     <MESSAGE value="[PROBLEM-443]:string compression - WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]:string compression - WIP" />
+    <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]:all basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,8 +854,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="105" />
+          <line>23</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
