@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-242]: solution with basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-242]:additional test cases for hashmap approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem242/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem242/ValidAnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-443" />
+                    <option name="lastUsedInstant" value="1677779025" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="GALEDEV-242" />
                     <option name="lastUsedInstant" value="1677732989" />
                   </RecentBranch>
@@ -62,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-58" />
                     <option name="lastUsedInstant" value="1677594662" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-14" />
-                    <option name="lastUsedInstant" value="1677498387" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,11 +101,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem443" />
       <recent name="leetcode.strings.problem242" />
       <recent name="leetcode.arrays.problem912" />
       <recent name="leetcode.strings.problem125" />
       <recent name="leetcode.strings.problem58" />
-      <recent name="leetcode.strings.problem14" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ValidAnagramTest">
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00059" summary="[PROBLEM-989]: alternative and cleaner approach">
-      <created>1676570750855</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1676570750855</updated>
     </task>
     <task id="LOCAL-00060" summary="[PROBLEM-995]: WIP for k-consecutive bit flips">
       <created>1676643549835</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677733451186</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="[PROBLEM-242]:additional test cases for hashmap approach">
+      <created>1677734326197</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1677734326197</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-830]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-383]: random note in a magazine working solution" />
     <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
     <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-912]: working solution but with time exceeded error for few cases" />
     <MESSAGE value="[PROBLEM-912]: solution with quick sort" />
     <MESSAGE value="[PROBLEM-242]: solution with basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-242]: solution with basic tests passing" />
+    <MESSAGE value="[PROBLEM-242]:additional test cases for hashmap approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-242]:additional test cases for hashmap approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
