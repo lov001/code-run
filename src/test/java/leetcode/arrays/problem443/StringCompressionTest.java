@@ -24,4 +24,10 @@ public class StringCompressionTest {
         char[] input = {'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'};
         Assertions.assertEquals(4, classObj.compress(input));
     }
+
+    @Test
+    void test_compress_expect10_whenLengthIs10() {
+        char[] input = {'b','0','l','A',']','+','O','5','j','4'};
+        Assertions.assertEquals(10, classObj.compress(input));
+    }
 }

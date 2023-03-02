@@ -23,7 +23,6 @@ public class StringCompression {
         }
         int carry = 0;
         int index = 0;
-        chars = new char[str.length()];
         for (char ch : str.toString().toCharArray()) {
             if (carry != 0) {
                 chars[index++] = (char) (ch / 10);
@@ -32,7 +31,7 @@ public class StringCompression {
                 chars[index++] = ch;
             } else {
                 int num = ch - '0';
-                if (num > 9) {
+                if (num > 9 && ch >= 48 && ch <= 57) {
                     chars[index++] = (char) (num / 10);
                     carry = num % 10;
                 } else {

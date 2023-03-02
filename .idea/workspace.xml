@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]:all basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]: modified solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <recent name="leetcode.strings.problem58" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1">
+  <component name="RunManager" selected="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -126,6 +127,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="StringCompressionTest.test_compress_expect10_whenLengthIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem443.StringCompressionTest.test_compress_expect10_whenLengthIs10&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="StringCompressionTest.test_compress_expect1_whenLengthIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -219,44 +243,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10" />
       <item itemvalue="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1" />
       <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
       <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
       <item itemvalue="Gradle.ValidAnagramTest" />
-      <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
         <item itemvalue="Gradle.ValidAnagramTest" />
-        <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00062" summary="[PROBLEM-995]: complete solution">
-      <created>1676713695557</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1676713695557</updated>
     </task>
     <task id="LOCAL-00063" summary="[main]: added workspace to gitIgnore">
       <created>1676819906106</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677780217480</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="[PROBLEM-443]: modified solution">
+      <created>1677781912629</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1677781912629</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-953]: WIP alien dictionary problem" />
     <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
     <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-242]:additional test cases for hashmap approach" />
     <MESSAGE value="[PROBLEM-443]:string compression - WIP" />
     <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]:all basic tests passing" />
+    <MESSAGE value="[PROBLEM-443]: modified solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]: modified solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
