@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-912]: working solution but with time exceeded error for few cases">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-242]: solution with basic tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem912/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem912/ArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem242/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem242/ValidAnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="GALEDEV-242" />
+                    <option name="lastUsedInstant" value="1677732989" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-912" />
                     <option name="lastUsedInstant" value="1677670897" />
                   </RecentBranch>
@@ -62,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-14" />
                     <option name="lastUsedInstant" value="1677498387" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-168" />
-                    <option name="lastUsedInstant" value="1677422996" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem242" />
       <recent name="leetcode.arrays.problem912" />
       <recent name="leetcode.strings.problem125" />
       <recent name="leetcode.strings.problem58" />
       <recent name="leetcode.strings.problem14" />
-      <recent name="leetcode.strings.problem168" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArraySortTest">
+  <component name="RunManager" selected="Gradle.ValidAnagramTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -150,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArraySortTest.test_sortArray_expectSortedArray_whenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem912.ArraySortTest.test_sortArray_expectSortedArray_whenInput&quot;" />
+            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArraySortTest.test_sortArray_expectSortedArray_whenInputContainsDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagram" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -186,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem912.ArraySortTest.test_sortArray_expectSortedArray_whenInputContainsDuplicates&quot;" />
+            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagram&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagramWith2Characters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -209,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest&quot;" />
+            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagramWith2Characters&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -232,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem125.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb&quot;" />
+            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,18 +245,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ArraySortTest" />
-      <item itemvalue="Gradle.ArraySortTest.test_sortArray_expectSortedArray_whenInput" />
-      <item itemvalue="Gradle.ArraySortTest.test_sortArray_expectSortedArray_whenInputContainsDuplicates" />
-      <item itemvalue="Gradle.ValidPalindromeTest" />
-      <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
+      <item itemvalue="Gradle.ValidAnagramTest" />
+      <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagram" />
+      <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagramWith2Characters" />
+      <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ValidAnagramTest" />
+        <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectTrue_whenStringsAreAnagram" />
+        <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagramWith2Characters" />
+        <item itemvalue="Gradle.ValidAnagramTest.test_isAnagram_expectFalse_whenStringsAreNotAnagram" />
         <item itemvalue="Gradle.ArraySortTest" />
-        <item itemvalue="Gradle.ArraySortTest.test_sortArray_expectSortedArray_whenInput" />
-        <item itemvalue="Gradle.ArraySortTest.test_sortArray_expectSortedArray_whenInputContainsDuplicates" />
-        <item itemvalue="Gradle.ValidPalindromeTest" />
-        <item itemvalue="Gradle.ValidPalindromeTest.test_isPalindrome_expectFalse_whenInputStringIsAb" />
       </list>
     </recent_temporary>
   </component>
@@ -268,20 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00057" summary="[PROBLEM-989]: All test cases passed now, optimization left">
-      <created>1676569841375</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1676569841375</updated>
-    </task>
-    <task id="LOCAL-00058" summary="[PROBLEM-989]: optimised space by declaring variables at the start">
-      <created>1676570152022</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1676570152022</updated>
     </task>
     <task id="LOCAL-00059" summary="[PROBLEM-989]: alternative and cleaner approach">
       <created>1676570750855</created>
@@ -612,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677671918466</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="[PROBLEM-912]: solution with quick sort">
+      <created>1677693551148</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1677693551148</updated>
+    </task>
+    <task id="LOCAL-00107" summary="[PROBLEM-242]: solution with basic tests passing">
+      <created>1677733451186</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1677733451186</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,8 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-830]: problem to give large string group positions" />
-    <MESSAGE value="[PROBLEM-830]: working solution with passing tests" />
     <MESSAGE value="[PROBLEM-830]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-383]: random note in a magazine working solution" />
     <MESSAGE value="[PROBLEM-383]: working solution with all the tests passing" />
@@ -652,7 +650,9 @@
     <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
     <MESSAGE value="[PROBLEM-125]: all test cases passing" />
     <MESSAGE value="[PROBLEM-912]: working solution but with time exceeded error for few cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-912]: working solution but with time exceeded error for few cases" />
+    <MESSAGE value="[PROBLEM-912]: solution with quick sort" />
+    <MESSAGE value="[PROBLEM-242]: solution with basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-242]: solution with basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,6 +836,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem912/ArraySort.java</url>
           <line>7</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
