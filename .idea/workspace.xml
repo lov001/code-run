@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]: final working solution, all test cases passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem28/NeedleInHaystackTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystackUsingIndexOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem28/NeedleInHaystackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem28/NeedleInHaystackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <recent name="leetcode.strings.problem125" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coding Problems">
+  <component name="RunManager" selected="Gradle.NeedleInHaystackTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompressionTest.test_compress_expect10_whenLengthIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NeedleInHaystackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem443.StringCompressionTest.test_compress_expect10_whenLengthIs10&quot;" />
+            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +152,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StringCompressionTest.test_compress_expect1_whenLengthIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem443.StringCompressionTest.test_compress_expect1_whenLengthIs1&quot;" />
+            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +175,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StringCompressionTest.test_compress_expect4_whenLengthIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem443.StringCompressionTest.test_compress_expect4_whenLengthIs4&quot;" />
+            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +198,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StringCompressionTest.test_compress_expect6_whenLengthIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +211,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem443.StringCompressionTest.test_compress_expect6_whenLengthIs6&quot;" />
+            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +221,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +234,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest&quot;" />
+            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +246,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10" />
-      <item itemvalue="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1" />
-      <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
-      <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
-      <item itemvalue="Gradle.ValidAnagramTest" />
+      <item itemvalue="Gradle.NeedleInHaystackTest" />
+      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
+      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" />
+      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
+      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10" />
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect1_whenLengthIs1" />
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect4_whenLengthIs4" />
-        <item itemvalue="Gradle.StringCompressionTest.test_compress_expect6_whenLengthIs6" />
-        <item itemvalue="Gradle.ValidAnagramTest" />
+        <item itemvalue="Gradle.NeedleInHaystackTest" />
+        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
+        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
+        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" />
+        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00064" summary="[PROBLEM-1122]: working solution - non optimized">
-      <created>1676823434904</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1676823434905</updated>
     </task>
     <task id="LOCAL-00065" summary="[PROBLEM-1122]: working solution with all test case passing">
       <created>1676826624249</created>
@@ -613,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677782519133</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string">
+      <created>1677834620662</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1677834620663</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-20]: approach with string builder" />
     <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
@@ -653,7 +653,8 @@
     <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
     <MESSAGE value="[PROBLEM-443]: modified solution" />
     <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]: final working solution, all test cases passing" />
+    <MESSAGE value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,6 +858,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java</url>
           <line>23</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
