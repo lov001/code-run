@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]: modified solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-443]: final working solution, all test cases passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem28/NeedleInHaystackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem443/StringCompressionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-28" />
+                    <option name="lastUsedInstant" value="1677834315" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-443" />
                     <option name="lastUsedInstant" value="1677779025" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-125" />
                     <option name="lastUsedInstant" value="1677646331" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-58" />
-                    <option name="lastUsedInstant" value="1677594662" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem28" />
       <recent name="leetcode.arrays.problem443" />
       <recent name="leetcode.strings.problem242" />
       <recent name="leetcode.arrays.problem912" />
       <recent name="leetcode.strings.problem125" />
-      <recent name="leetcode.strings.problem58" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StringCompressionTest.test_compress_expect10_whenLengthIs10">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00063" summary="[main]: added workspace to gitIgnore">
-      <created>1676819906106</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1676819906106</updated>
     </task>
     <task id="LOCAL-00064" summary="[PROBLEM-1122]: working solution - non optimized">
       <created>1676823434904</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677781912629</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="[PROBLEM-443]: final working solution, all test cases passing">
+      <created>1677782519133</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1677782519133</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-953]: All tests passing for alien dictionary" />
     <MESSAGE value="[PROBLEM-20]: Valid Parentheses WIP" />
     <MESSAGE value="[PROBLEM-20]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-20]: approach with string builder" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-443]:string compression - WIP" />
     <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
     <MESSAGE value="[PROBLEM-443]: modified solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]: modified solution" />
+    <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-443]: final working solution, all test cases passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
