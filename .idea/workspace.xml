@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-28]: working solution with all test cases passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem821/ShortestDistanceToCharacterTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: WIP - shortest distance to character">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.arrays.problem912" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NeedleInHaystackTest">
+  <component name="RunManager" selected="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -174,29 +173,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -220,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +209,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4&quot;" />
+            <option value="&quot;leetcode.strings.problem821.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.strings.problem821.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,17 +246,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.NeedleInHaystackTest" />
       <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
-      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" />
       <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
-      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" />
+      <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
+      <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
+        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
         <item itemvalue="Gradle.NeedleInHaystackTest" />
         <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
         <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
-        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus4_whenStrOccurInHaystackAt4" />
-        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus1_whenStrDoesNotOccurInHaystack" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00066" summary="[PROBLEM-1122]: optimised one with counting sort">
-      <created>1676827611602</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1676827611602</updated>
     </task>
     <task id="LOCAL-00067" summary="[PROBLEM-1154]: days between two string dates">
       <created>1676904599076</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677838437926</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="[PROBLEM-821]: WIP - shortest distance to character">
+      <created>1677866987261</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1677866987261</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-20]: approach with string builder" />
     <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
     <MESSAGE value="[PROBLEM-168]: working solution" />
     <MESSAGE value="[PROBLEM-168]: using recursive approach" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
     <MESSAGE value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
     <MESSAGE value="[PROBLEM-28]: working solution with all test cases passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-28]: working solution with all test cases passing" />
+    <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: WIP - shortest distance to character" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,6 +861,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem28/NeedleInHaystack.java</url>
           <line>23</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
