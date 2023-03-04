@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: basic tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacterApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: more cleaner approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem657/RobotReturnToOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem657/RobotReturnToOriginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem821/ShortestDistanceToCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem821/ShortestDistanceToCharacterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-657" />
+                    <option name="lastUsedInstant" value="1677941565" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-821" />
                     <option name="lastUsedInstant" value="1677866661" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="GALEDEV-242" />
                     <option name="lastUsedInstant" value="1677732989" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-912" />
-                    <option name="lastUsedInstant" value="1677670897" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem657" />
       <recent name="leetcode.strings.problem821" />
       <recent name="leetcode.strings.problem28" />
       <recent name="leetcode.arrays.problem443" />
       <recent name="leetcode.strings.problem242" />
-      <recent name="leetcode.arrays.problem912" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE">
+  <component name="RunManager" selected="Gradle.RobotReturnToOriginTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeedleInHaystackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RobotReturnToOriginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest&quot;" />
+            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0&quot;" />
+            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem28.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2&quot;" />
+            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.NeedleInHaystackTest" />
-      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
-      <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
+      <item itemvalue="Gradle.RobotReturnToOriginTest" />
+      <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" />
+      <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" />
       <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
       <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
+        <item itemvalue="Gradle.RobotReturnToOriginTest" />
+        <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" />
+        <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" />
         <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
-        <item itemvalue="Gradle.NeedleInHaystackTest" />
-        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
-        <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
+        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00068" summary="[PROBLEM-1154]: days between two string dates, without using any api method">
-      <created>1676915338933</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1676915338933</updated>
     </task>
     <task id="LOCAL-00069" summary="[PROBLEM-796]: rotate strings">
       <created>1676916160624</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677939922525</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="[PROBLEM-821]: more cleaner approach">
+      <created>1677940569213</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1677940569213</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-168]: working solution" />
     <MESSAGE value="[PROBLEM-168]: using recursive approach" />
     <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
     <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-28]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
     <MESSAGE value="[PROBLEM-821]: basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: basic tests passing" />
+    <MESSAGE value="[PROBLEM-821]: more cleaner approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: more cleaner approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
