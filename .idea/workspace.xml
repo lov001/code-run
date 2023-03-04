@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: WIP - shortest distance to character">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: basic tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacterApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem821/ShortestDistanceToCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem821/ShortestDistanceToCharacterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <recent name="leetcode.arrays.problem912" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB">
+  <component name="RunManager" selected="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -252,8 +253,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
         <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
+        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
         <item itemvalue="Gradle.NeedleInHaystackTest" />
         <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus0_whenStrOccurInHaystackAt0" />
         <item itemvalue="Gradle.NeedleInHaystackTest.test_strStr_expectMinus2_whenStrOccurInHaystackAt2" />
@@ -268,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00067" summary="[PROBLEM-1154]: days between two string dates">
-      <created>1676904599076</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1676904599076</updated>
     </task>
     <task id="LOCAL-00068" summary="[PROBLEM-1154]: days between two string dates, without using any api method">
       <created>1676915338933</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677866987261</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="[PROBLEM-821]: basic tests passing">
+      <created>1677939922525</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1677939922525</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-168]: placeholder for excel sheet column tile" />
     <MESSAGE value="[PROBLEM-168]: working solution" />
     <MESSAGE value="[PROBLEM-168]: using recursive approach" />
     <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
@@ -652,7 +652,8 @@
     <MESSAGE value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
     <MESSAGE value="[PROBLEM-28]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: WIP - shortest distance to character" />
+    <MESSAGE value="[PROBLEM-821]: basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,9 +864,14 @@
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacter.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="116" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacterApproach2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacterApproach2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
