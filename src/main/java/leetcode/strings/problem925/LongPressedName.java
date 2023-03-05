@@ -18,9 +18,16 @@ public class LongPressedName {
                 return false;
             }
             if (i == name.length()) {
-                return true;
+                break;
             }
         }
-        return false;
+        while (j < typed.length()) {
+            if (name.charAt(name.length() - 1) == typed.charAt(j)) {
+                j++;
+            } else {
+                return false;
+            }
+        }
+        return j == typed.length() && i == name.length();
     }
 }

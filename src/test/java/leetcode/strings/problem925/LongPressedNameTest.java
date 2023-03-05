@@ -27,4 +27,25 @@ public class LongPressedNameTest {
         String typed = "lleeelee";
         Assertions.assertTrue(classObj.isLongPressedName(input, typed));
     }
+
+    @Test
+    void test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex() {
+        String input = "alex";
+        String typed = "aaleexa";
+        Assertions.assertFalse(classObj.isLongPressedName(input, typed));
+    }
+
+    @Test
+    void test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn() {
+        String input = "vtkgn";
+        String typed = "vttkgnn";
+        Assertions.assertTrue(classObj.isLongPressedName(input, typed));
+    }
+
+    @Test
+    void test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz() {
+        String input = "pyplrz";
+        String typed = "ppyypllr";
+        Assertions.assertFalse(classObj.isLongPressedName(input, typed));
+    }
 }
