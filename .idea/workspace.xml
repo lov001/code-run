@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-821]: more cleaner approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem657/RobotReturnToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem657/RobotReturnToOriginTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-925]: WIP - 90/94 tests passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem925/LongPressedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem925/LongPressedName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem925/LongPressedNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem925/LongPressedNameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-925" />
+                    <option name="lastUsedInstant" value="1678009556" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-657" />
                     <option name="lastUsedInstant" value="1677941565" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-443" />
                     <option name="lastUsedInstant" value="1677779025" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="GALEDEV-242" />
-                    <option name="lastUsedInstant" value="1677732989" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.strings.problem925" />
       <recent name="leetcode.strings.problem657" />
       <recent name="leetcode.strings.problem821" />
       <recent name="leetcode.strings.problem28" />
       <recent name="leetcode.arrays.problem443" />
-      <recent name="leetcode.strings.problem242" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RobotReturnToOriginTest">
+  <component name="RunManager" selected="Gradle.LongPressedNameTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotReturnToOriginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongPressedNameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest&quot;" />
+            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin&quot;" />
+            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem657.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin&quot;" />
+            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem821.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB&quot;" />
+            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +220,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem821.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE&quot;" />
+            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RobotReturnToOriginTest" />
-      <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" />
-      <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" />
-      <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
-      <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
+      <item itemvalue="Gradle.LongPressedNameTest" />
+      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz" />
+      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" />
+      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" />
+      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RobotReturnToOriginTest" />
-        <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectFalse_whenRobotDoesNotReturnToOrigin" />
-        <item itemvalue="Gradle.RobotReturnToOriginTest.test_judgeCircle_expectTrue_whenRobotReturnToOrigin" />
-        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsB" />
-        <item itemvalue="Gradle.ShortestDistanceToCharacterTest.test_shortestToChar_expect_whenLetterIsE" />
+        <item itemvalue="Gradle.LongPressedNameTest" />
+        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz" />
+        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" />
+        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" />
+        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" />
       </list>
     </recent_temporary>
   </component>
@@ -269,27 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00069" summary="[PROBLEM-796]: rotate strings">
-      <created>1676916160624</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1676916160624</updated>
-    </task>
-    <task id="LOCAL-00070" summary="[PROBLEM-1790]: one string swap equivalent">
-      <created>1676991129099</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1676991129100</updated>
-    </task>
-    <task id="LOCAL-00071" summary="[PROBLEM-1790]: not so optimal solution">
-      <created>1676996862452</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1676996862452</updated>
     </task>
     <task id="LOCAL-00072" summary="[PROBLEM-1790]: optimal solution">
       <created>1676997325214</created>
@@ -613,7 +592,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677940569213</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="[PROBLEM-657]: accepted solution for robot's return to origin">
+      <created>1677942950178</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1677942950178</updated>
+    </task>
+    <task id="LOCAL-00119" summary="[PROBLEM-925]: WIP - Long pressed name">
+      <created>1678009820098</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1678009820098</updated>
+    </task>
+    <task id="LOCAL-00120" summary="[PROBLEM-925]: WIP - 90/94 tests passed">
+      <created>1678013385322</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1678013385322</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,9 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-168]: using recursive approach" />
-    <MESSAGE value="[PROBLEM-14]: WIP - longest common prefix" />
-    <MESSAGE value="[PROBLEM-14]: working solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-14]: optimised solution" />
     <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
     <MESSAGE value="[PROBLEM-58]: basic solution with all test case passing" />
@@ -653,7 +650,10 @@
     <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
     <MESSAGE value="[PROBLEM-821]: basic tests passing" />
     <MESSAGE value="[PROBLEM-821]: more cleaner approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-821]: more cleaner approach" />
+    <MESSAGE value="[PROBLEM-657]: accepted solution for robot's return to origin" />
+    <MESSAGE value="[PROBLEM-925]: WIP - Long pressed name" />
+    <MESSAGE value="[PROBLEM-925]: WIP - 90/94 tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-925]: WIP - 90/94 tests passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,6 +872,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem821/ShortestDistanceToCharacterApproach2.java</url>
           <line>13</line>
           <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem925/LongPressedName.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem925/LongPressedName.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
