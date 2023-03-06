@@ -16,8 +16,8 @@ public class KthMissingNumber {
                 break;
             }
         }
-        if (number == 1 && (index + 1) == arr.length) {
-            number = index + k + 1;
+        if (k != 0 && (index + 1) == arr.length) {
+            number = arr[index] + k;
         }
         return number;
     }

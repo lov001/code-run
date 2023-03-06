@@ -18,4 +18,10 @@ public class KthMissingNumberTest {
         int[] input = {1, 2, 3, 4};
         Assertions.assertEquals(6, classObj.findKthPositive(input, 2));
     }
+
+    @Test
+    void test_findKthPositive_expect14_whenKIs9AndMissingNumberIs4() {
+        int[] input = {5, 6, 7, 8, 9};
+        Assertions.assertEquals(14, classObj.findKthPositive(input, 9));
+    }
 }
