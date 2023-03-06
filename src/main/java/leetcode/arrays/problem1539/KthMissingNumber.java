@@ -3,6 +3,22 @@ package leetcode.arrays.problem1539;
 public class KthMissingNumber {
 
     public int findKthPositive(int[] arr, int k) {
-        return 0;
+        int number = 1;
+        int index = 0;
+        for (int i = 1; i < arr[arr.length - 1]; i++) {
+            if (arr[index] != i) {
+                number = i;
+                k--;
+            } else {
+                index++;
+            }
+            if (k == 0 || index == arr.length) {
+                break;
+            }
+        }
+        if (number == 1 && (index + 1) == arr.length) {
+            number = index + k + 1;
+        }
+        return number;
     }
 }

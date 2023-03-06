@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-925]: all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1539/KthMissingNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1539]: WIP - Kth Missing number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.strings.problem28" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongPressedNameTest">
+  <component name="RunManager" selected="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +126,75 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="KthMissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="LongPressedNameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -174,90 +242,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem925.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.KthMissingNumberTest" />
+      <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" />
+      <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
       <item itemvalue="Gradle.LongPressedNameTest" />
       <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz" />
-      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" />
-      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" />
-      <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" />
+        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
+        <item itemvalue="Gradle.KthMissingNumberTest" />
         <item itemvalue="Gradle.LongPressedNameTest" />
         <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenLongPressedNameIsPyplrz" />
-        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectTrue_whenLongPressedNameIsVtkgn" />
-        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedNameIsAlex" />
-        <item itemvalue="Gradle.LongPressedNameTest.test_isLongPressedName_expectFalse_whenNotLongPressedName" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00073" summary="[PROBLEM-844]: WIP backspace string compare">
-      <created>1677000073503</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1677000073503</updated>
     </task>
     <task id="LOCAL-00074" summary="[PROBLEM-844]: Working solution using stack">
       <created>1677078863954</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678014308520</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="[PROBLEM-1539]: WIP - Kth Missing number">
+      <created>1678081202432</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1678081202432</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-14]: approach 2, comparison after sorting" />
     <MESSAGE value="[PROBLEM-58]: basic solution with all test case passing" />
     <MESSAGE value="[PROBLEM-58]: solution with all the edge cases covered" />
     <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-925]: WIP - Long pressed name" />
     <MESSAGE value="[PROBLEM-925]: WIP - 90/94 tests passed" />
     <MESSAGE value="[PROBLEM-925]: all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-925]: all tests passing" />
+    <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1539]: WIP - Kth Missing number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -877,6 +876,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem925/LongPressedName.java</url>
           <line>10</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="126" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
