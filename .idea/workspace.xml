@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1539]: WIP - basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1539]: working solution with all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumberUsingBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1539/KthMissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1539/KthMissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
       <recent name="leetcode.strings.problem28" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthMissingNumberTest">
+  <component name="RunManager" selected="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -253,10 +253,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
         <item itemvalue="Gradle.KthMissingNumberTest" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect14_whenKIs9AndMissingNumberIs4" />
-        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
         <item itemvalue="Gradle.LongPressedNameTest" />
       </list>
     </recent_temporary>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00075" summary="[PROBLEM-844]: Working solution using stack">
-      <created>1677086730898</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1677086730898</updated>
     </task>
     <task id="LOCAL-00076" summary="[PROBLEM-844]: Optimized solution using O(1)">
       <created>1677088186858</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678084197970</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="[PROBLEM-1539]: working solution with all tests passing">
+      <created>1678085667871</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1678085667871</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-58]: solution with all the edge cases covered" />
     <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
     <MESSAGE value="[PROBLEM-125]: WIP - Valid Palindrome" />
     <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-925]: all tests passing" />
     <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1539]: WIP - basic tests passing" />
+    <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1539]: working solution with all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,9 +879,9 @@
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumberUsingBinarySearch.java</url>
           <line>7</line>
-          <option name="timeStamp" value="126" />
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
