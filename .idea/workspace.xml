@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-704]: WIP - binary search">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-704]: complete solution all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearchRecursiveApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +108,7 @@
       <recent name="leetcode.strings.problem657" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement">
+  <component name="RunManager" selected="Gradle.BinarySearchTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,6 +127,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.sorting.problem704.BinarySearchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -197,29 +220,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="KthMissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BinarySearchTest" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
-      <item itemvalue="Gradle.KthMissingNumberTest" />
       <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTest" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
-        <item itemvalue="Gradle.KthMissingNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00077" summary="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted">
-      <created>1677089327121</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1677089327121</updated>
     </task>
     <task id="LOCAL-00078" summary="[PROBLEM-944]: working solution">
       <created>1677163429664</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678206234715</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="[PROBLEM-704]: complete solution all tests passing">
+      <created>1678206985152</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1678206985154</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-125]: WIP - Valid Palindrome" />
     <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
     <MESSAGE value="[PROBLEM-125]: all test cases passing" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
     <MESSAGE value="[PROBLEM-704]: WIP - binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-704]: WIP - binary search" />
+    <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-704]: complete solution all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
