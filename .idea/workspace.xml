@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1539]: working solution with all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem1539/KthMissingNumberUsingBinarySearch.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1539]:binary search solution with O(logn)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTripsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1539/KthMissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem1539/KthMissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-2187" />
+                    <option name="lastUsedInstant" value="1678187915" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-1539" />
                     <option name="lastUsedInstant" value="1678080983" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-821" />
                     <option name="lastUsedInstant" value="1677866661" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-28" />
-                    <option name="lastUsedInstant" value="1677834315" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem2187" />
       <recent name="leetcode.arrays.problem1539" />
       <recent name="leetcode.strings.problem925" />
       <recent name="leetcode.strings.problem657" />
       <recent name="leetcode.strings.problem821" />
-      <recent name="leetcode.strings.problem28" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -269,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00076" summary="[PROBLEM-844]: Optimized solution using O(1)">
-      <created>1677088186858</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1677088186858</updated>
     </task>
     <task id="LOCAL-00077" summary="[PROBLEM-944]: WIP minimum number of column deletions to make sthe string sorted">
       <created>1677089327121</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678085667871</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="[PROBLEM-1539]:binary search solution with O(logn)">
+      <created>1678187423449</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1678187423450</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-58]: another approach with single loop" />
     <MESSAGE value="[PROBLEM-125]: WIP - Valid Palindrome" />
     <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
@@ -653,7 +652,8 @@
     <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1539]: working solution with all tests passing" />
+    <MESSAGE value="[PROBLEM-1539]:binary search solution with O(logn)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1539]:binary search solution with O(logn)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
