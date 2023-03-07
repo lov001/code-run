@@ -18,4 +18,10 @@ public class BinarySearchTest {
         int[] input = {-1, 0, 3, 5, 9, 12};
         Assertions.assertEquals(-1, classObj.search(input, 2));
     }
+
+    @Test
+    void test_search_expect0_whenElement5IsTheOnlyElement() {
+        int[] input = {5};
+        Assertions.assertEquals(0, classObj.search(input, 5));
+    }
 }
