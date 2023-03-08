@@ -1,4 +1,4 @@
-package leetcode.sorting.problem704;
+package leetcode.searching.problem704;
 
 public class BinarySearchRecursiveApproach {
 
