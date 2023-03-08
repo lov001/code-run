@@ -24,4 +24,10 @@ public class MinimumTimeToCompleteTripsTest {
         int[] time = {5, 10, 10};
         Assertions.assertEquals(25, classObj.minimumTime(time, 9));
     }
+
+    @Test
+    void test_minimumTime_expect5_whenMinimumTripsRequiredIs2() {
+        int[] time = {9, 3, 10, 5};
+        Assertions.assertEquals(5, classObj.minimumTime(time, 2));
+    }
 }

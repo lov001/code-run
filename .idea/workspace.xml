@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-704]: complete solution all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearchRecursiveApproach.java" afterDir="false" />
+    <list default="true" id="684847c0-d9a4-464c-8b67-3c589da60c5a" name="Changes" comment="[PROBLEM-704]: complete solution all tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTripsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTripsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <recent name="leetcode.strings.problem657" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest">
+  <component name="RunManager" selected="Gradle.MinimumTimeToCompleteTripsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -220,7 +220,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumTimeToCompleteTripsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9&quot;" />
+            <option value="&quot;leetcode.arrays.problem2187.MinimumTimeToCompleteTripsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest" />
       <item itemvalue="Gradle.BinarySearchTest" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
       <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
-      <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest" />
         <item itemvalue="Gradle.BinarySearchTest" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
         <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
-        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
       </list>
     </recent_temporary>
   </component>
