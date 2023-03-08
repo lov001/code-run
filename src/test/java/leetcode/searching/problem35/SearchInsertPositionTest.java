@@ -24,4 +24,10 @@ public class SearchInsertPositionTest {
         int[] input = {1, 3, 5, 6};
         Assertions.assertEquals(4, classObj.searchInsert(input, 7));
     }
+
+    @Test
+    void test_searchInsert_expect0_whenElement1IsToBeInsertedAtIndex0() {
+        int[] input = {2, 3, 5, 6};
+        Assertions.assertEquals(0, classObj.searchInsert(input, 1));
+    }
 }
