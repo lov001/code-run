@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-704]: complete solution all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearchRecursiveApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2187]:WIP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/problem35/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/problem35/SearchInsertPositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/problem704/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearchRecursiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/problem704/BinarySearchRecursiveApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/problem704/BinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +52,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="PROBLEM-704" />
-                    <option name="lastUsedInstant" value="1678205835" />
+                    <option name="branchName" value="PROBLEM-35" />
+                    <option name="lastUsedInstant" value="1678264723" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1678205827" />
+                    <option name="lastUsedInstant" value="1678261477" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-704" />
+                    <option name="lastUsedInstant" value="1678205835" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-2187" />
@@ -63,10 +70,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1539" />
                     <option name="lastUsedInstant" value="1678080983" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-925" />
-                    <option name="lastUsedInstant" value="1678009556" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,11 +104,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.problem35" />
       <recent name="leetcode.sorting.problem704" />
       <recent name="leetcode.arrays.problem704" />
       <recent name="leetcode.arrays.problem1539" />
       <recent name="leetcode.strings.problem925" />
-      <recent name="leetcode.strings.problem657" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BinarySearchTest">
@@ -269,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00078" summary="[PROBLEM-944]: working solution">
-      <created>1677163429664</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1677163429664</updated>
     </task>
     <task id="LOCAL-00079" summary="[PROBLEM-1614]: max depth of parentheses working solution">
       <created>1677164921041</created>
@@ -613,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678206985154</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="[PROBLEM-2187]:WIP">
+      <created>1678261390459</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1678261390459</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-125]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-125]: solution with 462/485 test cases passing" />
     <MESSAGE value="[PROBLEM-125]: all test cases passing" />
     <MESSAGE value="[PROBLEM-912]: working solution but with time exceeded error for few cases" />
@@ -653,7 +655,8 @@
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
     <MESSAGE value="[PROBLEM-704]: WIP - binary search" />
     <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-704]: complete solution all tests passing" />
+    <MESSAGE value="[PROBLEM-2187]:WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2187]:WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,7 +887,7 @@
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/problem704/BinarySearch.java</url>
           <line>6</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
