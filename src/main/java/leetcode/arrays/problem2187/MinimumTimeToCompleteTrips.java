@@ -5,18 +5,24 @@ import java.util.Arrays;
 public class MinimumTimeToCompleteTrips {
 
     public long minimumTime(int[] time, int totalTrips) {
-        long[] minimumTime = new long[time.length];
-        for (int i = 0; i < time.length; i++) {
-            minimumTime[i] = findIthTime(time[i], time[time.length - 1], totalTrips);
-        }
-        return Arrays.stream(minimumTime).max().getAsLong();
-    }
+        int minTime = Arrays.stream(time).max().getAsInt();
+        int maxTime = Arrays.stream(time).sum();
 
-    private long findIthTime(long time, long maxTime, int totalTrips) {
-        long iThTime = maxTime / time;
-        while (iThTime > totalTrips) {
-            iThTime -= time;
+        while (minTime < maxTime) {
+            int mid = (minTime + maxTime) / 2;
+            int trips = 0;
+            for (int iThTime : time) {
+                trips += mid / iThTime;
+                if (trips >= totalTrips) {
+                    break;
+                }
+            }
+            if (trips >= totalTrips) {
+                maxTime = mid;
+            } else {
+                minTime = mid + 1;
+            }
         }
-        return iThTime;
+        return minTime;
     }
 }

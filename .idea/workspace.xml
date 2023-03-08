@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-2187]: WIP - minimum time to complete trips">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-704]: complete solution all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearchRecursiveApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/sorting/problem704/BinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-704" />
+                    <option name="lastUsedInstant" value="1678205835" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1678205827" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-2187" />
                     <option name="lastUsedInstant" value="1678187915" />
                   </RecentBranch>
@@ -58,14 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-925" />
                     <option name="lastUsedInstant" value="1678009556" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-657" />
-                    <option name="lastUsedInstant" value="1677941565" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-821" />
-                    <option name="lastUsedInstant" value="1677866661" />
                   </RecentBranch>
                 </list>
               </option>
@@ -100,14 +101,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.arrays.problem2187" />
+      <recent name="leetcode.sorting.problem704" />
+      <recent name="leetcode.arrays.problem704" />
       <recent name="leetcode.arrays.problem1539" />
       <recent name="leetcode.strings.problem925" />
       <recent name="leetcode.strings.problem657" />
-      <recent name="leetcode.strings.problem821" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumTimeToCompleteTripsTest.test_minimumTime_expect2_whenMinimumTripsRequiredIs2">
+  <component name="RunManager" selected="Gradle.BinarySearchTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthMissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest&quot;" />
+            <option value="&quot;leetcode.sorting.problem704.BinarySearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,7 +164,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem1539.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6&quot;" />
+            <option value="&quot;leetcode.sorting.problem704.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.sorting.problem704.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.sorting.problem704.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,67 +243,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumTimeToCompleteTripsTest.test_minimumTime_expect2_whenMinimumTripsRequiredIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2187.MinimumTimeToCompleteTripsTest.test_minimumTime_expect2_whenMinimumTripsRequiredIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumTimeToCompleteTripsTest.test_minimumTime_expect3_whenMinimumTripsRequiredIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem2187.MinimumTimeToCompleteTripsTest.test_minimumTime_expect3_whenMinimumTripsRequiredIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest.test_minimumTime_expect2_whenMinimumTripsRequiredIs2" />
-      <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest.test_minimumTime_expect3_whenMinimumTripsRequiredIs3" />
-      <item itemvalue="Gradle.KthMissingNumberTest" />
-      <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" />
+      <item itemvalue="Gradle.BinarySearchTest" />
+      <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
+      <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
+      <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
       <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest.test_minimumTime_expect2_whenMinimumTripsRequiredIs2" />
-        <item itemvalue="Gradle.MinimumTimeToCompleteTripsTest.test_minimumTime_expect3_whenMinimumTripsRequiredIs3" />
+        <item itemvalue="Gradle.BinarySearchTest" />
+        <item itemvalue="Gradle.BinarySearchTest.test_search_expect0_whenElement5IsTheOnlyElement" />
+        <item itemvalue="Gradle.BinarySearchTest.test_search_expectMinus2_whenElement2IsNotPresent" />
+        <item itemvalue="Gradle.BinarySearchTest.test_search_expect4_whenElement9IsAtIndex4" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect9_whenKIs5AndMissingNumberIs9" />
-        <item itemvalue="Gradle.KthMissingNumberTest" />
-        <item itemvalue="Gradle.KthMissingNumberTest.test_findKthPositive_expect6_whenKIs2AndMissingNumberIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -598,19 +599,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678085667871</updated>
     </task>
-    <task id="LOCAL-00125" summary="[PROBLEM-1539]:binary search solution with O(logn)">
-      <created>1678187423449</created>
+    <task id="LOCAL-00125" summary="[PROBLEM-704]: WIP - binary search">
+      <created>1678206234715</created>
       <option name="number" value="00125" />
       <option name="presentableId" value="LOCAL-00125" />
       <option name="project" value="LOCAL" />
-      <updated>1678187423450</updated>
+      <updated>1678206234715</updated>
     </task>
-    <task id="LOCAL-00126" summary="[PROBLEM-2187]: WIP - minimum time to complete trips">
-      <created>1678188209748</created>
+    <task id="LOCAL-00126" summary="[PROBLEM-704]: complete solution all tests passing">
+      <created>1678206985152</created>
       <option name="number" value="00126" />
       <option name="presentableId" value="LOCAL-00126" />
       <option name="project" value="LOCAL" />
-      <updated>1678188209748</updated>
+      <updated>1678206985154</updated>
     </task>
     <option name="localTasksCounter" value="127" />
     <servers />
@@ -650,9 +651,9 @@
     <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
-    <MESSAGE value="[PROBLEM-1539]:binary search solution with O(logn)" />
-    <MESSAGE value="[PROBLEM-2187]: WIP - minimum time to complete trips" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-2187]: WIP - minimum time to complete trips" />
+    <MESSAGE value="[PROBLEM-704]: WIP - binary search" />
+    <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-704]: complete solution all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,14 +884,9 @@
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem2187/MinimumTimeToCompleteTrips.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="127" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/sorting/problem704/BinarySearch.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
