@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-268]: WIP- missing number">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-268]: brute force solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem268/MissingNumberUsingBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem268/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem268/MissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem268/MissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem268.MissingNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,44 +244,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInsertPositionTest.test_searchInsert_expect1_whenElement3IsToBeInsertedAtIndex2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.problem35.SearchInsertPositionTest.test_searchInsert_expect1_whenElement3IsToBeInsertedAtIndex2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MissingNumberTest" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect8_when8IsMissingNumber" />
       <item itemvalue="Gradle.SearchInsertPositionTest" />
-      <item itemvalue="Gradle.SearchInsertPositionTest.test_searchInsert_expect1_whenElement3IsToBeInsertedAtIndex2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect8_when8IsMissingNumber" />
-        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" />
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber" />
+        <item itemvalue="Gradle.MissingNumberTest" />
+        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" />
         <item itemvalue="Gradle.SearchInsertPositionTest" />
-        <item itemvalue="Gradle.SearchInsertPositionTest.test_searchInsert_expect1_whenElement3IsToBeInsertedAtIndex2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00083" summary="[PROBLEM-830]: working solution with all test cases passing">
-      <created>1677250563837</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1677250563837</updated>
     </task>
     <task id="LOCAL-00084" summary="[PROBLEM-383]: random note in a magazine working solution">
       <created>1677262514108</created>
@@ -612,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678340441132</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="[PROBLEM-268]: brute force solution">
+      <created>1678340870887</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1678340870887</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-242]: solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-242]:additional test cases for hashmap approach" />
     <MESSAGE value="[PROBLEM-443]:string compression - WIP" />
     <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
@@ -652,7 +653,8 @@
     <MESSAGE value="[PROBLEM-35]: all basic tests passing" />
     <MESSAGE value="[PROBLEM-35]: final accepted solution" />
     <MESSAGE value="[PROBLEM-268]: WIP- missing number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-268]: WIP- missing number" />
+    <MESSAGE value="[PROBLEM-268]: brute force solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-268]: brute force solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,14 +895,9 @@
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/MissingNumber.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/MissingNumber.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="135" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem268/MissingNumberUsingBinarySearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
