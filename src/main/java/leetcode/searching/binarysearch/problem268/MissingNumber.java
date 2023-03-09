@@ -1,4 +1,4 @@
-package leetcode.searching.binarysearch;
+package leetcode.searching.binarysearch.problem268;
 
 public class MissingNumber {
 
