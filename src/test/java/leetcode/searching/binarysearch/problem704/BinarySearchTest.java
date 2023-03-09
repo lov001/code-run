@@ -1,5 +1,7 @@
-package leetcode.searching.problem704;
+package leetcode.searching.binarysearch.problem704;
 
+import leetcode.searching.binarysearch.problem704.BinarySearch;
+import leetcode.searching.binarysearch.problem704.BinarySearchRecursiveApproach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

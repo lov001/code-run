@@ -1,4 +1,4 @@
-package leetcode.searching.problem35;
+package leetcode.searching.binarysearch.problem35;
 
 public class SearchInsertPosition {
 
