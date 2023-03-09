@@ -1,5 +1,6 @@
-package leetcode.searching.problem35;
+package leetcode.searching.binarysearch.problem35;
 
+import leetcode.searching.binarysearch.problem35.SearchInsertPosition;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
