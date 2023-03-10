@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-268]: missing number using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem441/ArrangingCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem441/ArrangingCoinsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-441]: WIP - arranging coins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem441/ArrangingCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem441/ArrangingCoins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.arrays.problem704" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coding Problems">
+  <component name="RunManager" selected="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +140,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem268.MissingNumberTest&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem441.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem441.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,29 +187,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.searching.binarysearch.problem268.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem268.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MissingNumberTest" />
+      <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" />
+      <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber" />
-      <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect8_when8IsMissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" />
+        <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" />
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber" />
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect8_when8IsMissingNumber" />
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumber" />
-        <item itemvalue="Gradle.MissingNumberTest" />
-        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect2_when2IsMissingNumberFromAnArrayOfSize2" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00085" summary="[PROBLEM-383]: working solution with all the tests passing">
-      <created>1677264039642</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1677264039642</updated>
     </task>
     <task id="LOCAL-00086" summary="[PROBLEM-953]: WIP alien dictionary problem">
       <created>1677319012508</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678342183450</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="[PROBLEM-441]: WIP - arranging coins">
+      <created>1678421758239</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1678421758239</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-443]:string compression - WIP" />
     <MESSAGE value="[PROBLEM-443]:all basic tests passing" />
     <MESSAGE value="[PROBLEM-443]: modified solution" />
     <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-268]: WIP- missing number" />
     <MESSAGE value="[PROBLEM-268]: brute force solution" />
     <MESSAGE value="[PROBLEM-268]: missing number using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-268]: missing number using binary search" />
+    <MESSAGE value="[PROBLEM-441]: WIP - arranging coins" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-441]: WIP - arranging coins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
