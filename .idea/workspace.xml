@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-441]: working solution with all test cases passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem441/ArrangingCoinsApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-278]: first bad version - all basic tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem441/ArrangingCoinsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem441/ArrangingCoinsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-278" />
+                    <option name="lastUsedInstant" value="1678514593" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-441" />
                     <option name="lastUsedInstant" value="1678343579" />
                   </RecentBranch>
@@ -63,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1678261477" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-704" />
-                    <option name="lastUsedInstant" value="1678205835" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,14 +100,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem278" />
       <recent name="leetcode.searching.binarysearch.problem441" />
       <recent name="leetcode.searching.binarysearch.problem268" />
       <recent name="leetcode.searching.problem35" />
       <recent name="leetcode.sorting.problem704" />
-      <recent name="leetcode.arrays.problem704" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrangingCoinsTest">
+  <component name="RunManager" selected="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -174,29 +173,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem441.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="ArrangingCoinsTest.test_arrangeCoins_expect60070_whenInputIs1804289383" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -220,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -233,7 +209,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem268.MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem278.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem278.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,17 +246,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ArrangingCoinsTest" />
       <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" />
-      <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" />
       <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect60070_whenInputIs1804289383" />
-      <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber" />
+      <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" />
+      <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" />
+        <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4" />
         <item itemvalue="Gradle.ArrangingCoinsTest" />
         <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect60070_whenInputIs1804289383" />
         <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" />
-        <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect3_whenInputIs8" />
-        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect3_when3IsMissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -269,20 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00087" summary="[PROBLEM-953]: All tests passing for alien dictionary">
-      <created>1677420115634</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1677420115634</updated>
-    </task>
-    <task id="LOCAL-00088" summary="[PROBLEM-20]: Valid Parentheses WIP">
-      <created>1677420559356</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1677420559356</updated>
     </task>
     <task id="LOCAL-00089" summary="[PROBLEM-20]: solution with basic tests passing">
       <created>1677421176036</created>
@@ -613,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678422243768</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="[PROBLEM-441]: more optimal solution using binary search">
+      <created>1678423973065</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1678423973065</updated>
+    </task>
+    <task id="LOCAL-00137" summary="[PROBLEM-278]: first bad version - all basic tests passing">
+      <created>1678516168289</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1678516168289</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,8 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-443]: modified solution" />
-    <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
     <MESSAGE value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
     <MESSAGE value="[PROBLEM-28]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
@@ -653,7 +650,9 @@
     <MESSAGE value="[PROBLEM-268]: missing number using binary search" />
     <MESSAGE value="[PROBLEM-441]: WIP - arranging coins" />
     <MESSAGE value="[PROBLEM-441]: working solution with all test cases passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-441]: working solution with all test cases passing" />
+    <MESSAGE value="[PROBLEM-441]: more optimal solution using binary search" />
+    <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-278]: first bad version - all basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,6 +896,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem268/MissingNumberUsingBinarySearch.java</url>
           <line>9</line>
           <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
