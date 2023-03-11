@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-441]: more optimal solution using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem278/FirstBadVersionTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-278]: first bad version - all basic tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem278/FirstBadVersion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <recent name="leetcode.sorting.problem704" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4">
+  <component name="RunManager" selected="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -253,8 +252,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4" />
         <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" />
+        <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect4_whenFirstBadVersionIs4" />
         <item itemvalue="Gradle.ArrangingCoinsTest" />
         <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect60070_whenInputIs1804289383" />
         <item itemvalue="Gradle.ArrangingCoinsTest.test_arrangeCoins_expect2_whenInputIs5" />
@@ -269,13 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00088" summary="[PROBLEM-20]: Valid Parentheses WIP">
-      <created>1677420559356</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1677420559356</updated>
     </task>
     <task id="LOCAL-00089" summary="[PROBLEM-20]: solution with basic tests passing">
       <created>1677421176036</created>
@@ -613,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678423973065</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="[PROBLEM-278]: first bad version - all basic tests passing">
+      <created>1678516168289</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1678516168289</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-443]: final working solution, all test cases passing" />
     <MESSAGE value="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string" />
     <MESSAGE value="[PROBLEM-28]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
@@ -653,7 +651,8 @@
     <MESSAGE value="[PROBLEM-441]: WIP - arranging coins" />
     <MESSAGE value="[PROBLEM-441]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-441]: more optimal solution using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-441]: more optimal solution using binary search" />
+    <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-278]: first bad version - all basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
