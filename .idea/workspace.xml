@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-367]: Perfect Square all basic tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-367]: complete solution with all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem367/PerfectSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem367/PerfectSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem367/PerfectSquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem367/PerfectSquareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-374" />
+                    <option name="lastUsedInstant" value="1678606926" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-367" />
                     <option name="lastUsedInstant" value="1678517121" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-441" />
                     <option name="lastUsedInstant" value="1678343579" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-268" />
-                    <option name="lastUsedInstant" value="1678339798" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +104,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem374" />
       <recent name="leetcode.searching.binarysearch.problem367" />
       <recent name="leetcode.searching.binarysearch.problem278" />
       <recent name="leetcode.searching.binarysearch.problem441" />
       <recent name="leetcode.searching.binarysearch.problem268" />
-      <recent name="leetcode.searching.problem35" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PerfectSquareTest">
+  <component name="RunManager" selected="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GreatestNumberHigherOrLowerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +144,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem278.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem374.GreatestNumberHigherOrLowerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem374.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,29 +191,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.searching.binarysearch.problem367.PerfectSquareTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PerfectSquareTest.test_isPerfectSquare_expectFalse_whenNumberIs14" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem367.PerfectSquareTest.test_isPerfectSquare_expectFalse_whenNumberIs14&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,19 +248,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest" />
+      <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
       <item itemvalue="Gradle.PerfectSquareTest" />
-      <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectFalse_whenNumberIs14" />
       <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" />
       <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" />
-      <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
+        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest" />
         <item itemvalue="Gradle.PerfectSquareTest" />
         <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" />
         <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" />
-        <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectFalse_whenNumberIs14" />
-        <item itemvalue="Gradle.FirstBadVersionTest.test_firstBadVersion_expect1_whenFirstBadVersionIs1" />
       </list>
     </recent_temporary>
   </component>
@@ -272,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00091" summary="[PROBLEM-168]: placeholder for excel sheet column tile">
-      <created>1677494890417</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1677494890417</updated>
     </task>
     <task id="LOCAL-00092" summary="[PROBLEM-168]: working solution">
       <created>1677497797154</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678517697980</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="[PROBLEM-367]: complete solution with all tests passing">
+      <created>1678518697611</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1678518697611</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-821]: WIP - shortest distance to character" />
     <MESSAGE value="[PROBLEM-821]: basic tests passing" />
     <MESSAGE value="[PROBLEM-821]: more cleaner approach" />
     <MESSAGE value="[PROBLEM-657]: accepted solution for robot's return to origin" />
@@ -656,7 +655,8 @@
     <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
     <MESSAGE value="[PROBLEM-278]: refactored" />
     <MESSAGE value="[PROBLEM-367]: Perfect Square all basic tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-367]: Perfect Square all basic tests passing" />
+    <MESSAGE value="[PROBLEM-367]: complete solution with all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-367]: complete solution with all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,6 +910,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem367/PerfectSquare.java</url>
           <line>9</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
