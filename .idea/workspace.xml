@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-367]: complete solution with all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLowerTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1346]: brute force solution - all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleUsingBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-1346" />
+                    <option name="lastUsedInstant" value="1678608013" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-374" />
                     <option name="lastUsedInstant" value="1678606926" />
                   </RecentBranch>
@@ -63,10 +68,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-278" />
                     <option name="lastUsedInstant" value="1678514593" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-441" />
-                    <option name="lastUsedInstant" value="1678343579" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +105,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem1346" />
       <recent name="leetcode.searching.binarysearch.problem374" />
       <recent name="leetcode.searching.binarysearch.problem367" />
       <recent name="leetcode.searching.binarysearch.problem278" />
       <recent name="leetcode.searching.binarysearch.problem441" />
-      <recent name="leetcode.searching.binarysearch.problem268" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6">
+  <component name="RunManager" selected="Gradle.NumberAndItsDoubleTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestNumberHigherOrLowerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberAndItsDoubleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem374.GreatestNumberHigherOrLowerTest&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +155,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem374.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +178,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PerfectSquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +191,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem367.PerfectSquareTest&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,7 +201,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +214,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem367.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,7 +224,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -236,7 +237,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem367.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,19 +249,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest" />
-      <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
-      <item itemvalue="Gradle.PerfectSquareTest" />
-      <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" />
-      <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" />
+      <item itemvalue="Gradle.NumberAndItsDoubleTest" />
+      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" />
+      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" />
+      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" />
+      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
-        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest" />
-        <item itemvalue="Gradle.PerfectSquareTest" />
-        <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" />
-        <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" />
+        <item itemvalue="Gradle.NumberAndItsDoubleTest" />
+        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" />
+        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" />
+        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" />
+        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" />
       </list>
     </recent_temporary>
   </component>
@@ -272,27 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00092" summary="[PROBLEM-168]: working solution">
-      <created>1677497797154</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1677497797154</updated>
-    </task>
-    <task id="LOCAL-00093" summary="[PROBLEM-168]: using recursive approach">
-      <created>1677498125149</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1677498125150</updated>
-    </task>
-    <task id="LOCAL-00094" summary="[PROBLEM-14]: WIP - longest common prefix">
-      <created>1677498596577</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1677498596577</updated>
     </task>
     <task id="LOCAL-00095" summary="[PROBLEM-14]: working solution with basic tests passing">
       <created>1677591536298</created>
@@ -616,7 +596,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678518697611</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="[PROBLEM-374]: Find the picked number in minimum guesses">
+      <created>1678607716297</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1678607716297</updated>
+    </task>
+    <task id="LOCAL-00142" summary="[PROBLEM-1346]: WIP - check whether numbers double exists or not">
+      <created>1678608271408</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1678608271408</updated>
+    </task>
+    <task id="LOCAL-00143" summary="[PROBLEM-1346]: brute force solution - all tests passing">
+      <created>1678614712084</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1678614712084</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,9 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-821]: basic tests passing" />
-    <MESSAGE value="[PROBLEM-821]: more cleaner approach" />
-    <MESSAGE value="[PROBLEM-657]: accepted solution for robot's return to origin" />
     <MESSAGE value="[PROBLEM-925]: WIP - Long pressed name" />
     <MESSAGE value="[PROBLEM-925]: WIP - 90/94 tests passed" />
     <MESSAGE value="[PROBLEM-925]: all tests passing" />
@@ -656,7 +654,10 @@
     <MESSAGE value="[PROBLEM-278]: refactored" />
     <MESSAGE value="[PROBLEM-367]: Perfect Square all basic tests passing" />
     <MESSAGE value="[PROBLEM-367]: complete solution with all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-367]: complete solution with all tests passing" />
+    <MESSAGE value="[PROBLEM-374]: Find the picked number in minimum guesses" />
+    <MESSAGE value="[PROBLEM-1346]: WIP - check whether numbers double exists or not" />
+    <MESSAGE value="[PROBLEM-1346]: brute force solution - all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1346]: brute force solution - all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -912,9 +913,14 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="141" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
