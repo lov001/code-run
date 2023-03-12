@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-367]: complete solution with all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLowerTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-374]: Find the picked number in minimum guesses">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-1346" />
+                    <option name="lastUsedInstant" value="1678608013" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-374" />
                     <option name="lastUsedInstant" value="1678606926" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-278" />
                     <option name="lastUsedInstant" value="1678514593" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-441" />
-                    <option name="lastUsedInstant" value="1678343579" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +104,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem1346" />
       <recent name="leetcode.searching.binarysearch.problem374" />
       <recent name="leetcode.searching.binarysearch.problem367" />
       <recent name="leetcode.searching.binarysearch.problem278" />
       <recent name="leetcode.searching.binarysearch.problem441" />
-      <recent name="leetcode.searching.binarysearch.problem268" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6">
+  <component name="RunManager" selected="Gradle.GreatestNumberHigherOrLowerTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -256,8 +256,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
         <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest" />
+        <item itemvalue="Gradle.GreatestNumberHigherOrLowerTest.test_guessNumber_expect6_whenPickedNumberIs6" />
         <item itemvalue="Gradle.PerfectSquareTest" />
         <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs808201" />
         <item itemvalue="Gradle.PerfectSquareTest.test_isPerfectSquare_expectTrue_whenNumberIs16" />
@@ -272,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00092" summary="[PROBLEM-168]: working solution">
-      <created>1677497797154</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1677497797154</updated>
     </task>
     <task id="LOCAL-00093" summary="[PROBLEM-168]: using recursive approach">
       <created>1677498125149</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678518697611</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="[PROBLEM-374]: Find the picked number in minimum guesses">
+      <created>1678607716297</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1678607716297</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-821]: basic tests passing" />
     <MESSAGE value="[PROBLEM-821]: more cleaner approach" />
     <MESSAGE value="[PROBLEM-657]: accepted solution for robot's return to origin" />
     <MESSAGE value="[PROBLEM-925]: WIP - Long pressed name" />
@@ -656,7 +655,8 @@
     <MESSAGE value="[PROBLEM-278]: refactored" />
     <MESSAGE value="[PROBLEM-367]: Perfect Square all basic tests passing" />
     <MESSAGE value="[PROBLEM-367]: complete solution with all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-367]: complete solution with all tests passing" />
+    <MESSAGE value="[PROBLEM-374]: Find the picked number in minimum guesses" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-374]: Find the picked number in minimum guesses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,11 +910,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem367/PerfectSquare.java</url>
           <line>9</line>
           <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem374/GreatestNumberHigherOrLower.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
