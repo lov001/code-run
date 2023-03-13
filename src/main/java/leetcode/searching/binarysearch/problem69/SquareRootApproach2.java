@@ -3,20 +3,22 @@ package leetcode.searching.binarysearch.problem69;
 public class SquareRootApproach2 {
 
     public int mySqrt(int x) {
-        if (x == 0 || x == 1) {
-            return x;
+        if (x == 0) {
+            return 0;
         }
-        int left = 1, right = x;
-        while (true) {
-            int mid = left + (right - left) / 2;
-            if (mid > x / mid) {
-                right = mid - 1;
+        int start = 1, end = x;
+        while (start < end) {
+            int mid = start + (end - start) / 2;
+            if (mid <= x / mid && (mid + 1) > x / (mid + 1))// Found the result
+            {
+                return mid;
+            } else if (mid > x / mid)// Keep checking the left part
+            {
+                end = mid;
             } else {
-                if (mid + 1 > x / (mid + 1)) {
-                    return mid;
-                }
-                left = left + 1;
+                start = mid + 1;// Keep checking the right part
             }
         }
+        return start;
     }
 }

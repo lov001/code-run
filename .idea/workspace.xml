@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-69]: Square Root - WIP and java test class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-69]: optimal solution using binary search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem69/SquareRootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem69/SquareRootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,13 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00097" summary="[PROBLEM-14]: approach 2, comparison after sorting">
-      <created>1677592895997</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1677592895997</updated>
     </task>
     <task id="LOCAL-00098" summary="[PROBLEM-58]: basic solution with all test case passing">
       <created>1677595656964</created>
@@ -597,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678680401962</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="[PROBLEM-69]: optimal solution using binary search">
+      <created>1678682522756</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1678682522756</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -612,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-925]: all tests passing" />
     <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
@@ -637,7 +634,8 @@
     <MESSAGE value="[PROBLEM-1346]: brute force solution - all tests passing" />
     <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
     <MESSAGE value="[PROBLEM-69]: Square Root - WIP and java test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-69]: Square Root - WIP and java test class" />
+    <MESSAGE value="[PROBLEM-69]: optimal solution using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-69]: optimal solution using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
