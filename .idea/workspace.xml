@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-1346]: brute force solution - all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleUsingBinarySearch.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-69]: optimal solution using binary search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDoubleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-69" />
+                    <option name="lastUsedInstant" value="1678679941" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-1346" />
                     <option name="lastUsedInstant" value="1678608013" />
                   </RecentBranch>
@@ -64,10 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1678516779" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-278" />
-                    <option name="lastUsedInstant" value="1678514593" />
                   </RecentBranch>
                 </list>
               </option>
@@ -105,14 +103,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem69" />
       <recent name="leetcode.searching.binarysearch.problem1346" />
       <recent name="leetcode.searching.binarysearch.problem374" />
       <recent name="leetcode.searching.binarysearch.problem367" />
       <recent name="leetcode.searching.binarysearch.problem278" />
-      <recent name="leetcode.searching.binarysearch.problem441" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberAndItsDoubleTest">
+  <component name="RunManager" selected="Gradle.SquareRootTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,7 +130,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberAndItsDoubleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.javabasic.Program" />
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.javabasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.T1" />
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.javabasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +169,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +179,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquareRootTest.test_mySqrt_expect2_whenNumberIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest.test_mySqrt_expect2_whenNumberIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,7 +202,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquareRootTest.test_mySqrt_expect2_whenNumberIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -191,53 +215,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem1346.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest.test_mySqrt_expect2_whenNumberIs8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -249,19 +227,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.NumberAndItsDoubleTest" />
-      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" />
-      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" />
-      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" />
-      <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" />
+      <item itemvalue="Application.test.Program" />
+      <item itemvalue="Application.test.T1" />
+      <item itemvalue="Gradle.SquareRootTest" />
+      <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
+      <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NumberAndItsDoubleTest" />
-        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if0Double0Exists" />
-        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExistsInArrayHavingNegativeValues" />
-        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectTrue_if5Double10Exists" />
-        <item itemvalue="Gradle.NumberAndItsDoubleTest.test_checkIfExist_expectFalse_ifNoDoubleExists" />
+        <item itemvalue="Gradle.SquareRootTest" />
+        <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
+        <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs8" />
+        <item itemvalue="Application.test.Program" />
+        <item itemvalue="Application.test.T1" />
       </list>
     </recent_temporary>
   </component>
@@ -273,27 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00095" summary="[PROBLEM-14]: working solution with basic tests passing">
-      <created>1677591536298</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1677591536298</updated>
-    </task>
-    <task id="LOCAL-00096" summary="[PROBLEM-14]: optimised solution">
-      <created>1677592019095</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1677592019096</updated>
-    </task>
-    <task id="LOCAL-00097" summary="[PROBLEM-14]: approach 2, comparison after sorting">
-      <created>1677592895997</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1677592895997</updated>
     </task>
     <task id="LOCAL-00098" summary="[PROBLEM-58]: basic solution with all test case passing">
       <created>1677595656964</created>
@@ -617,7 +574,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678614712084</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="[PROBLEM-1346]: binary search solution - all tests passing">
+      <created>1678615621561</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615621563</updated>
+    </task>
+    <task id="LOCAL-00145" summary="[PROBLEM-69]: Square Root - WIP and java test class">
+      <created>1678680401962</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1678680401962</updated>
+    </task>
+    <task id="LOCAL-00146" summary="[PROBLEM-69]: optimal solution using binary search">
+      <created>1678682522756</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1678682522756</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,9 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-925]: WIP - Long pressed name" />
-    <MESSAGE value="[PROBLEM-925]: WIP - 90/94 tests passed" />
-    <MESSAGE value="[PROBLEM-925]: all tests passing" />
     <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
     <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
@@ -657,7 +632,10 @@
     <MESSAGE value="[PROBLEM-374]: Find the picked number in minimum guesses" />
     <MESSAGE value="[PROBLEM-1346]: WIP - check whether numbers double exists or not" />
     <MESSAGE value="[PROBLEM-1346]: brute force solution - all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-1346]: brute force solution - all tests passing" />
+    <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
+    <MESSAGE value="[PROBLEM-69]: Square Root - WIP and java test class" />
+    <MESSAGE value="[PROBLEM-69]: optimal solution using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-69]: optimal solution using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,6 +899,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem1346/NumberAndItsDouble.java</url>
           <line>11</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRoot.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
