@@ -21,7 +21,7 @@ public class IntersectionOfTwoArraysTest {
     void test_intersection_expect4And9_whenIntersectionOccursAt4And9Only() {
         int[] arr1 = {4, 9, 5};
         int[] arr2 = {9, 4, 9, 8, 4};
-        int[] result = {9, 4};
+        int[] result = {4, 9};
         Assertions.assertEquals(Arrays.toString(result),
             Arrays.toString(classObj.intersection(arr1, arr2)));
     }
