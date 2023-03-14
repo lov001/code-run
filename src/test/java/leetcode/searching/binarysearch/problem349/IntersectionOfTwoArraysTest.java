@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 public class IntersectionOfTwoArraysTest {
 
     IntersectionOfTwoArrays classObj = new IntersectionOfTwoArrays();
+    IntersectionOfTwoArraysUsingBinarySearch classObj2 =
+        new IntersectionOfTwoArraysUsingBinarySearch();
+    IntersectionOfTwoArraysUsingTwoHashSet classObj3 = new IntersectionOfTwoArraysUsingTwoHashSet();
 
     @Test
     void test_intersection_expect2_whenIntersectionOccursAt2Only() {
@@ -15,6 +18,10 @@ public class IntersectionOfTwoArraysTest {
         int[] result = {2};
         Assertions.assertEquals(Arrays.toString(result),
             Arrays.toString(classObj.intersection(arr1, arr2)));
+        Assertions.assertEquals(Arrays.toString(result),
+            Arrays.toString(classObj2.intersection(arr1, arr2)));
+        Assertions.assertEquals(Arrays.toString(result),
+            Arrays.toString(classObj3.intersection(arr1, arr2)));
     }
 
     @Test
@@ -24,5 +31,9 @@ public class IntersectionOfTwoArraysTest {
         int[] result = {4, 9};
         Assertions.assertEquals(Arrays.toString(result),
             Arrays.toString(classObj.intersection(arr1, arr2)));
+        Assertions.assertEquals(Arrays.toString(result),
+            Arrays.toString(classObj2.intersection(arr1, arr2)));
+        Assertions.assertEquals(Arrays.toString(result),
+            Arrays.toString(classObj3.intersection(arr1, arr2)));
     }
 }
