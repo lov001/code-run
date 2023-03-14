@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-69]: optimal solution using binary search">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-349]: Two pointer solution using set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRootApproach2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-349" />
+                    <option name="lastUsedInstant" value="1678768103" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-69" />
                     <option name="lastUsedInstant" value="1678679941" />
                   </RecentBranch>
@@ -62,10 +68,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-367" />
                     <option name="lastUsedInstant" value="1678517121" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1678516779" />
                   </RecentBranch>
                 </list>
               </option>
@@ -103,14 +105,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.searching.binarysearch.problem349" />
       <recent name="leetcode.searching.binarysearch.problem69" />
       <recent name="leetcode.searching.binarysearch.problem1346" />
       <recent name="leetcode.searching.binarysearch.problem374" />
       <recent name="leetcode.searching.binarysearch.problem367" />
-      <recent name="leetcode.searching.binarysearch.problem278" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SquareRootTest">
+  <component name="RunManager" selected="Gradle.IntersectionOfTwoArraysTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -130,31 +132,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.javabasic.Program" />
-      <module name="Daily-Coding-Problems.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.javabasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="IntersectionOfTwoArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.T1" />
-      <module name="Daily-Coding-Problems.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.javabasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -202,44 +247,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SquareRootTest.test_mySqrt_expect2_whenNumberIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest.test_mySqrt_expect2_whenNumberIs8&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Application.test.Program" />
-      <item itemvalue="Application.test.T1" />
+      <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
+      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" />
+      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" />
       <item itemvalue="Gradle.SquareRootTest" />
       <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
-      <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
+        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" />
+        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" />
         <item itemvalue="Gradle.SquareRootTest" />
         <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
-        <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs8" />
-        <item itemvalue="Application.test.Program" />
-        <item itemvalue="Application.test.T1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,27 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00098" summary="[PROBLEM-58]: basic solution with all test case passing">
-      <created>1677595656964</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1677595656965</updated>
-    </task>
-    <task id="LOCAL-00099" summary="[PROBLEM-58]: solution with all the edge cases covered">
-      <created>1677596550661</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1677596550661</updated>
-    </task>
-    <task id="LOCAL-00100" summary="[PROBLEM-58]: another approach with single loop">
-      <created>1677597387136</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1677597387136</updated>
     </task>
     <task id="LOCAL-00101" summary="[PROBLEM-125]: WIP - Valid Palindrome">
       <created>1677646909172</created>
@@ -595,7 +596,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678682522756</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="[PROBLEM-69]: optimal solution using binary search">
+      <created>1678683056846</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1678683056846</updated>
+    </task>
+    <task id="LOCAL-00148" summary="[PROBLEM-349]: WIP - Intersection of two arrays">
+      <created>1678768465882</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1678768465882</updated>
+    </task>
+    <task id="LOCAL-00149" summary="[PROBLEM-349]: Two pointer solution using set">
+      <created>1678773325996</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1678773325996</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,8 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1539]: WIP - Kth Missing number" />
-    <MESSAGE value="[PROBLEM-1539]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-1539]: working solution with all tests passing" />
     <MESSAGE value="[PROBLEM-704]: WIP - binary search" />
     <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
@@ -635,7 +655,9 @@
     <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
     <MESSAGE value="[PROBLEM-69]: Square Root - WIP and java test class" />
     <MESSAGE value="[PROBLEM-69]: optimal solution using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-69]: optimal solution using binary search" />
+    <MESSAGE value="[PROBLEM-349]: WIP - Intersection of two arrays" />
+    <MESSAGE value="[PROBLEM-349]: Two pointer solution using set" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-349]: Two pointer solution using set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,6 +926,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem69/SquareRoot.java</url>
           <line>18</line>
           <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
