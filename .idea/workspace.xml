@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: WIP - finding intersection of two linked lists">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: complete solution with basic tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsApproach2WithoutExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <recent name="leetcode.searching.binarysearch.problem374" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8">
+  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -255,10 +256,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
         <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
       </list>
     </recent_temporary>
@@ -271,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00103" summary="[PROBLEM-125]: solution with 462/485 test cases passing">
-      <created>1677651400117</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1677651400117</updated>
     </task>
     <task id="LOCAL-00104" summary="[PROBLEM-125]: all test cases passing">
       <created>1677667841724</created>
@@ -615,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678886169818</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="[PROBLEM-160]: complete solution with basic tests passing">
+      <created>1678888345033</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1678888345033</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
     <MESSAGE value="[PROBLEM-2187]:WIP" />
     <MESSAGE value="[PROBLEM-35]: refactoring searching algorithms" />
     <MESSAGE value="[PROBLEM-35]: all basic tests passing" />
@@ -655,7 +655,8 @@
     <MESSAGE value="[PROBLEM-349]: Two pointer solution using set" />
     <MESSAGE value="[PROBLEM-349]: Using two hash set" />
     <MESSAGE value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
+    <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: complete solution with basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,11 +930,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java</url>
           <line>19</line>
           <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

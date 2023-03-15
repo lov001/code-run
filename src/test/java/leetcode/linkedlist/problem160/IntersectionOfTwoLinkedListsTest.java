@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 public class IntersectionOfTwoLinkedListsTest {
 
     IntersectionOfTwoLinkedLists classObj = new IntersectionOfTwoLinkedLists();
+    IntersectionOfTwoLinkedListsApproach2WithoutExtraSpace classObj2 =
+        new IntersectionOfTwoLinkedListsApproach2WithoutExtraSpace();
 
     @Test
     void test_getIntersectionNode_expect8_whenListsIntersectAt8() {
@@ -25,6 +27,7 @@ public class IntersectionOfTwoLinkedListsTest {
         val21.next = val22;
         val22.next = val2;
         Assertions.assertEquals(val2, classObj.getIntersectionNode(list1, list2));
+        Assertions.assertEquals(val2, classObj2.getIntersectionNode(list1, list2));
     }
 
     @Test
@@ -37,6 +40,7 @@ public class IntersectionOfTwoLinkedListsTest {
         ListNode list2 = new ListNode(1);
         list2.next = new ListNode(5);
         Assertions.assertNull(classObj.getIntersectionNode(list1, list2));
+        Assertions.assertNull(classObj2.getIntersectionNode(list1, list2));
     }
 
     @Test
@@ -53,5 +57,6 @@ public class IntersectionOfTwoLinkedListsTest {
         ListNode list2 = new ListNode(3);
         list2.next = val3;
         Assertions.assertEquals(val3, classObj.getIntersectionNode(list1, list2));
+        Assertions.assertEquals(val3, classObj2.getIntersectionNode(list1, list2));
     }
 }
