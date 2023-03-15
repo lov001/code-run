@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-349]: Using two hash set">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: WIP - finding intersection of two linked lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem141/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem141/LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem141/LinkedListCycleSetApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem141/LinkedListCycleSetApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem141/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem141/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/CircularLinkedListApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedListApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem142/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem205/IsomorphicString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem205/IsomorphicString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem205/IsomorphicStringByTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem205/IsomorphicStringByTransformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem206/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem206/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem206/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem206/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem21/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem21/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem21/MergeTwoSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem21/MergeTwoSortedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem392/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem392/IsSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem409/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem409/LongestPalindromeSetBasedApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem409/LongestPalindromeSetBasedApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem589/TreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/problem589/TreePreOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem876/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem876/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/problem876/MiddleElementOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem876/MiddleElementOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem141/LinkedListCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem141/LinkedListCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem142/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem142/CircularLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem205/IsomorphicStringByTransformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem205/IsomorphicStringByTransformationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem205/IsomorphicStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem205/IsomorphicStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem206/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem206/ReverseLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem21/MergeTwoSortedLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem21/MergeTwoSortedLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem392/IsSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem392/IsSubsequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem409/LongestPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem409/LongestPalindromeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem589/TreePreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/problem876/MiddleElementOfLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem876/MiddleElementOfLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +110,7 @@
       <recent name="leetcode.searching.binarysearch.problem374" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoArraysTest">
+  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -183,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntersectionOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,7 +176,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +189,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,7 +199,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -242,7 +212,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -252,7 +222,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SquareRootTest.test_mySqrt_expect2_whenNumberIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -265,7 +235,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem69.SquareRootTest.test_mySqrt_expect2_whenNumberIs4&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -278,18 +248,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
-      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" />
-      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" />
-      <item itemvalue="Gradle.SquareRootTest" />
-      <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" />
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" />
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
         <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
-        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect4And9_whenIntersectionOccursAt4And9Only" />
-        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_intersection_expect2_whenIntersectionOccursAt2Only" />
-        <item itemvalue="Gradle.SquareRootTest" />
-        <item itemvalue="Gradle.SquareRootTest.test_mySqrt_expect2_whenNumberIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -301,13 +271,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00102" summary="[PROBLEM-125]: solution with basic tests passing">
-      <created>1677648298927</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1677648298927</updated>
     </task>
     <task id="LOCAL-00103" summary="[PROBLEM-125]: solution with 462/485 test cases passing">
       <created>1677651400117</created>
@@ -645,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678774162474</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="[PROBLEM-160]: WIP - finding intersection of two linked lists">
+      <created>1678886169818</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1678886169818</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -660,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-704]: WIP - binary search" />
     <MESSAGE value="[PROBLEM-704]: complete solution all tests passing" />
     <MESSAGE value="[PROBLEM-2187]:WIP" />
     <MESSAGE value="[PROBLEM-35]: refactoring searching algorithms" />
@@ -685,7 +654,8 @@
     <MESSAGE value="[PROBLEM-349]: WIP - Intersection of two arrays" />
     <MESSAGE value="[PROBLEM-349]: Two pointer solution using set" />
     <MESSAGE value="[PROBLEM-349]: Using two hash set" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-349]: Using two hash set" />
+    <MESSAGE value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,6 +929,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java</url>
           <line>19</line>
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedLists.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
