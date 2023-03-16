@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsApproach3LengthDifference.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: approach 3, using the diffrence of length">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem160/IntersectionOfTwoLinkedListsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-202" />
+                    <option name="lastUsedInstant" value="1678938309" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="GALEDEV-160" />
                     <option name="lastUsedInstant" value="1678885230" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-1346" />
                     <option name="lastUsedInstant" value="1678608013" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-374" />
-                    <option name="lastUsedInstant" value="1678606926" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +104,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.math.problem202" />
       <recent name="leetcode.linkedlist.problem160" />
       <recent name="leetcode.searching.binarysearch.problem349" />
       <recent name="leetcode.searching.binarysearch.problem69" />
       <recent name="leetcode.searching.binarysearch.problem1346" />
-      <recent name="leetcode.searching.binarysearch.problem374" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListsTest">
+  <component name="RunManager" selected="Application.Coding Problems">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -272,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00105" summary="[PROBLEM-912]: working solution but with time exceeded error for few cases">
-      <created>1677671918466</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1677671918466</updated>
     </task>
     <task id="LOCAL-00106" summary="[PROBLEM-912]: solution with quick sort">
       <created>1677693551148</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678889031171</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="[PROBLEM-160]: approach 3, using the diffrence of length">
+      <created>1678889700624</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1678889700624</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-35]: refactoring searching algorithms" />
     <MESSAGE value="[PROBLEM-35]: all basic tests passing" />
     <MESSAGE value="[PROBLEM-35]: final accepted solution" />
     <MESSAGE value="[PROBLEM-268]: WIP- missing number" />
@@ -656,7 +655,8 @@
     <MESSAGE value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
     <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
+    <MESSAGE value="[PROBLEM-160]: approach 3, using the diffrence of length" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: approach 3, using the diffrence of length" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
