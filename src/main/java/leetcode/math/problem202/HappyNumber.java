@@ -1,21 +1,33 @@
 package leetcode.math.problem202;
 
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class HappyNumber {
 
     public boolean isHappy(int n) {
-        String[] numArray = String.valueOf(n).split("");
+        Set<Integer> set = new HashSet<>();
         int sum;
         while (true) {
-            sum = Arrays.stream(numArray)
-                .mapToInt(number -> Integer.parseInt(number) * Integer.parseInt(number)).sum();
-            if (sum > 6) {
-                numArray = String.valueOf(sum).split("");
+            sum = doSum(n);
+            if (sum == 1) {
+                return true;
+            } else if (set.contains(sum)) {
+                return false;
             } else {
-                break;
+                n = sum;
+                set.add(sum);
             }
         }
-        return sum == 1;
+    }
+
+    private int doSum(int n) {
+        int sum = 0;
+        while (n > 0) {
+            int remainder = n % 10;
+            sum += remainder * remainder;
+            n /= 10;
+        }
+        return sum;
     }
 }
