@@ -16,4 +16,9 @@ public class HappyNumberTest {
     void test_isHappy_expectFalse_whenNumberIs2() {
         Assertions.assertFalse(classObj.isHappy(2));
     }
+
+    @Test
+    void test_isHappy_expectTrue_whenNumberIs1111111() {
+        Assertions.assertTrue(classObj.isHappy(1111111));
+    }
 }

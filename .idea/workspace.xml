@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-160]: approach 3, using the diffrence of length">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-202]: WIP- check whether a number is a happy number or not">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="leetcode.searching.binarysearch.problem1346" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coding Problems">
+  <component name="RunManager" selected="Gradle.HappyNumberTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HappyNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +144,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem349.IntersectionOfTwoArraysTest&quot;" />
+            <option value="&quot;leetcode.math.problem202.HappyNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,90 +246,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
+      <item itemvalue="Gradle.HappyNumberTest" />
+      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" />
+      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
+      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" />
       <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HappyNumberTest" />
+        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
+        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" />
+        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect2_whenListsIntersectAt2" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect8_whenListsIntersectAt8" />
-        <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00106" summary="[PROBLEM-912]: solution with quick sort">
-      <created>1677693551148</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1677693551148</updated>
     </task>
     <task id="LOCAL-00107" summary="[PROBLEM-242]: solution with basic tests passing">
       <created>1677733451186</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678889700624</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="[PROBLEM-202]: WIP- check whether a number is a happy number or not">
+      <created>1678938515888</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1678938515888</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-35]: all basic tests passing" />
     <MESSAGE value="[PROBLEM-35]: final accepted solution" />
     <MESSAGE value="[PROBLEM-268]: WIP- missing number" />
     <MESSAGE value="[PROBLEM-268]: brute force solution" />
@@ -656,7 +655,8 @@
     <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
     <MESSAGE value="[PROBLEM-160]: approach 3, using the diffrence of length" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-160]: approach 3, using the diffrence of length" />
+    <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -930,6 +930,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java</url>
           <line>19</line>
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumber.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
