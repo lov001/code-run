@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-202]: optimised by removing string conversion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/math/problem202/HappyNumberUsingCycleDetectionAlgorithm.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-169]: Brute force approach will all test cases passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElementApproach2WithoutMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/math/problem202/HappyNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-169" />
+                    <option name="lastUsedInstant" value="1679029148" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-202" />
                     <option name="lastUsedInstant" value="1678938309" />
                   </RecentBranch>
@@ -63,10 +67,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-69" />
                     <option name="lastUsedInstant" value="1678679941" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-1346" />
-                    <option name="lastUsedInstant" value="1678608013" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +104,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem169" />
       <recent name="leetcode.math.problem202" />
       <recent name="leetcode.linkedlist.problem160" />
       <recent name="leetcode.searching.binarysearch.problem349" />
       <recent name="leetcode.searching.binarysearch.problem69" />
-      <recent name="leetcode.searching.binarysearch.problem1346" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HappyNumberTest">
+  <component name="RunManager" selected="Gradle.MajorityElementTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2&quot;" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111&quot;" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,7 +200,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +213,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19&quot;" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,7 +223,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -236,7 +236,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem160.IntersectionOfTwoLinkedListsTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,19 +248,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.HappyNumberTest" />
-      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" />
-      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
-      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
+      <item itemvalue="Gradle.MajorityElementTest" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HappyNumberTest" />
-        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
-        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectFalse_whenNumberIs2" />
-        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs19" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
+        <item itemvalue="Gradle.MajorityElementTest" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -272,27 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00109" summary="[PROBLEM-443]:string compression - WIP">
-      <created>1677779334937</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1677779334939</updated>
-    </task>
-    <task id="LOCAL-00110" summary="[PROBLEM-443]:all basic tests passing">
-      <created>1677780217480</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1677780217480</updated>
-    </task>
-    <task id="LOCAL-00111" summary="[PROBLEM-443]: modified solution">
-      <created>1677781912629</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1677781912629</updated>
     </task>
     <task id="LOCAL-00112" summary="[PROBLEM-443]: final working solution, all test cases passing">
       <created>1677782519133</created>
@@ -616,7 +595,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678942097902</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm">
+      <created>1678942600719</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1678942600719</updated>
+    </task>
+    <task id="LOCAL-00159" summary="[PROBLEM-169]: WIP - majority element">
+      <created>1679029757778</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1679029757778</updated>
+    </task>
+    <task id="LOCAL-00160" summary="[PROBLEM-169]: Brute force approach will all test cases passing">
+      <created>1679031036580</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1679031036580</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,9 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-268]: brute force solution" />
-    <MESSAGE value="[PROBLEM-268]: missing number using binary search" />
-    <MESSAGE value="[PROBLEM-441]: WIP - arranging coins" />
     <MESSAGE value="[PROBLEM-441]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-441]: more optimal solution using binary search" />
     <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
@@ -656,7 +653,10 @@
     <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
     <MESSAGE value="[PROBLEM-202]: complete solution with all test case passing" />
     <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-202]: optimised by removing string conversion" />
+    <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
+    <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
+    <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-169]: Brute force approach will all test cases passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
