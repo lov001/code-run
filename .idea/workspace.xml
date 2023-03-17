@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-169]: WIP - majority element">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-169]: Brute force approach will all test cases passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElementApproach2WithoutMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,52 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.math.problem202.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MajorityElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,6 +177,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,21 +223,44 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.HappyNumberTest" />
-      <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
       <item itemvalue="Gradle.MajorityElementTest" />
       <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
       <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
+      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MajorityElementTest" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
         <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
+        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
         <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIs2" />
-        <item itemvalue="Gradle.HappyNumberTest" />
-        <item itemvalue="Gradle.HappyNumberTest.test_isHappy_expectTrue_whenNumberIs1111111" />
       </list>
     </recent_temporary>
   </component>
@@ -271,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00111" summary="[PROBLEM-443]: modified solution">
-      <created>1677781912629</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1677781912629</updated>
     </task>
     <task id="LOCAL-00112" summary="[PROBLEM-443]: final working solution, all test cases passing">
       <created>1677782519133</created>
@@ -615,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679029757778</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="[PROBLEM-169]: Brute force approach will all test cases passing">
+      <created>1679031036580</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1679031036580</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-441]: WIP - arranging coins" />
     <MESSAGE value="[PROBLEM-441]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-441]: more optimal solution using binary search" />
     <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
@@ -655,7 +655,8 @@
     <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
     <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-169]: WIP - majority element" />
+    <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-169]: Brute force approach will all test cases passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
