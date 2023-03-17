@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-169]: Brute force approach will all test cases passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElementApproach2WithoutMap.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-169]: optimal solution with O(1) space">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem169/MajorityElementApproach3MooreVotingAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem169/MajorityElementTest.java" afterDir="false" />
     </list>
@@ -272,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00112" summary="[PROBLEM-443]: final working solution, all test cases passing">
-      <created>1677782519133</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1677782519133</updated>
     </task>
     <task id="LOCAL-00113" summary="[PROBLEM-28]: WIP - Needle in haystack - finding index of first occurrence of a string">
       <created>1677834620662</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679031036580</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="[PROBLEM-169]: optimal solution with O(1) space">
+      <created>1679032396589</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1679032396589</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-441]: working solution with all test cases passing" />
     <MESSAGE value="[PROBLEM-441]: more optimal solution using binary search" />
     <MESSAGE value="[PROBLEM-278]: first bad version - all basic tests passing" />
     <MESSAGE value="[PROBLEM-278]: refactored" />
@@ -656,7 +655,8 @@
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
     <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
     <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-169]: Brute force approach will all test cases passing" />
+    <MESSAGE value="[PROBLEM-169]: optimal solution with O(1) space" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-169]: optimal solution with O(1) space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
