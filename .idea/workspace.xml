@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-83]: complete working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem203/RemoveElementFromLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem203/RemoveElementFromLinkedListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-203]: complete working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem234/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem234/PalindromeLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,24 +320,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-234" />
+                    <option name="lastUsedInstant" value="1679146453" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-203" />
                     <option name="lastUsedInstant" value="1679140204" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-83" />
-                    <option name="lastUsedInstant" value="1679131185" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-290" />
-                    <option name="lastUsedInstant" value="1679127253" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-169" />
-                    <option name="lastUsedInstant" value="1679029148" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-202" />
-                    <option name="lastUsedInstant" value="1678938309" />
                   </RecentBranch>
                 </list>
               </option>
@@ -375,14 +363,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.linkedlist.problem234" />
       <recent name="leetcode.linkedlist.problem203" />
       <recent name="leetcode.linkedlist.problem83" />
       <recent name="leetcode.strings.problem290" />
       <recent name="leetcode.arrays.problem169" />
-      <recent name="leetcode.math.problem202" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveElementFromLinkedListTest">
+  <component name="RunManager" selected="Gradle.PalindromeLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -401,6 +389,75 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="PalindromeLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.linkedlist.problem234.PalindromeLinkedListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.linkedlist.problem234.PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.linkedlist.problem234.PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="RemoveElementFromLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -448,90 +505,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.PalindromeLinkedListTest" />
+      <item itemvalue="Gradle.PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement" />
+      <item itemvalue="Gradle.PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
       <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
       <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement" />
-      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
-      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" />
-      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PalindromeLinkedListTest" />
+        <item itemvalue="Gradle.PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
+        <item itemvalue="Gradle.PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement" />
         <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
         <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement" />
-        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
-        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" />
-        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +531,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00119" summary="[PROBLEM-925]: WIP - Long pressed name">
-      <created>1678009820098</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1678009820098</updated>
     </task>
     <task id="LOCAL-00120" summary="[PROBLEM-925]: WIP - 90/94 tests passed">
       <created>1678013385322</created>
@@ -887,7 +868,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679132410599</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="[PROBLEM-203]: complete working solution">
+      <created>1679146143876</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146143876</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +890,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1346]: WIP - check whether numbers double exists or not" />
     <MESSAGE value="[PROBLEM-1346]: brute force solution - all tests passing" />
     <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
     <MESSAGE value="[PROBLEM-69]: Square Root - WIP and java test class" />
@@ -927,7 +914,8 @@
     <MESSAGE value="[PROBLEM-290]: Approach 2 - using single HashMap" />
     <MESSAGE value="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list" />
     <MESSAGE value="[PROBLEM-83]: complete working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-83]: complete working solution" />
+    <MESSAGE value="[PROBLEM-203]: complete working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-203]: complete working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
