@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-83]: complete working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem203/RemoveElementFromLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem203/RemoveElementFromLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem83/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem83/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem83/RemoveDuplicatesFromSortedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem83/RemoveDuplicatesFromSortedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,277 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="branchesCleanupHistory">
+      <BranchesCleanupHistory>
+        <option name="history">
+          <list>
+            <BranchCleanupEntry>
+              <option name="deletions">
+                <list>
+                  <BranchDeletion>
+                    <option name="hash" value="2af1536451e33421b530314dc8b3d731b082a195" />
+                    <option name="name" value="PROBLEM-448" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="3ac9676645174e3d1d157182c7768190034bad79" />
+                    <option name="name" value="PROBLEM-2218" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="443b974e945a4c0edc8a186309d663a65c79f2a4" />
+                    <option name="name" value="PROBLEM-409" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="163f956025c2c166291dafb89614ed0cbf72734e" />
+                    <option name="name" value="PROBLEM-704" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="8a7fc4bd77e85a3dbdd0d581d69e84c8a493160b" />
+                    <option name="name" value="PROBLEM-443" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="57a3398b4f3e86c28cb0aa06f084458aa4cc3619" />
+                    <option name="name" value="PROBLEM-1346" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="17b8178d65c74285b61b315274f282674ed93316" />
+                    <option name="name" value="PROBLEM-168" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="1af3157843d65d5eb154d2f3645d277848ef2fad" />
+                    <option name="name" value="PROBLEM-844" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0339efffbe6f25b1ef073d6312bb85b9446ff3c3" />
+                    <option name="name" value="PROBLEM-141" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="c57eb5b2da7e5696e62be0824fecd6415f9697d5" />
+                    <option name="name" value="PROBLEM-121" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="f6a396977cd8ac5f7670adbb0b3770dcccc0eb43" />
+                    <option name="name" value="PROBLEM-374" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="1a30eebc8bee608a59ebab57f02e8936a8149955" />
+                    <option name="name" value="PROBLEM-28" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="e57789416785dfcb78389eda6c05fec41997f352" />
+                    <option name="name" value="PROBLEM-349" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="df1a049ac845aa4b2bbfabba7fbcb128d8445ee9" />
+                    <option name="name" value="PROBLEM-58" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="30e1e5449451e350baf81a170aca977cb3463b95" />
+                    <option name="name" value="PROBLEM-1154" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6e312db4e0583aaecb4b67262439cbd4646a9edc" />
+                    <option name="name" value="PROBLEM-206" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="e2b572a78731e189a309058b3f31c49489b63ce0" />
+                    <option name="name" value="PROBLEM-15" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="3f49c428b7303a089871f6b820695251b7599422" />
+                    <option name="name" value="PROBLEM-205" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6a83e6799fd8813a737d426e7f1fac66ce0b42a8" />
+                    <option name="name" value="PROBLEM-35" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0f452bb19bb1215aa4559bf25c5577dd056ebaec" />
+                    <option name="name" value="PROBLEM-290" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="ebb1879711c4c8f61640966cd2a93bcda517a4b4" />
+                    <option name="name" value="GALEDEV-242" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6d64523e865e9c94978dc612e19d76c2972e4d68" />
+                    <option name="name" value="PROBLEM-1122" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="727fff55de91713fc55f51d8430f60f637490c1f" />
+                    <option name="name" value="PROBLEM-1480" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="7048ce4ea2806a75db2c37cb1941b4ae21c6f476" />
+                    <option name="name" value="PROBLEM-169" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6bc1501739f8c2a66f36770015dcabcfbbabd9d6" />
+                    <option name="name" value="PROBLEM-830" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="02a656c54322e14ed7013819ed4587c381e74c88" />
+                    <option name="name" value="PROBLEM-20" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="362589a7beca5b3493bfa8889c477719139ff114" />
+                    <option name="name" value="PROBLEM-1614" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="41a9183f4d31f87b5811579aa18239f2549d8eb7" />
+                    <option name="name" value="PROBLEM-744" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0c7e4d7dd45116282baacf4b94be2832f870dd46" />
+                    <option name="name" value="PROBLEM-441" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d670ac0a32df3ece5ebaf44c53801141f2c6f352" />
+                    <option name="name" value="PROBLEM-724" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="a4e0bc6f646e8d4f5ad84dfbaa58c3b1c33724f6" />
+                    <option name="name" value="GALEDEV-160" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6e165495ce61c7817577200d5ca38df97b82ca32" />
+                    <option name="name" value="PROBLEM-796" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="7f849773f2e3c97dabd352b3eac2ea888531a291" />
+                    <option name="name" value="PROBLEM-989" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="18fd7285c4aa949201b5d544618c9ff8c63307b7" />
+                    <option name="name" value="PROBLEM-367" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d29c355b498387749119c749954b698bab69857b" />
+                    <option name="name" value="PROBLEM-1790" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="5f8f711e3bb61a68db9ecd82f00949fa8c36c48f" />
+                    <option name="name" value="PROBLEM-69" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="6ade8ae9d8f2221eca8dc121884d4280759971d1" />
+                    <option name="name" value="PROBLEM-912" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="f4a090b3459f3ab132c0a78746331ce4d90205b4" />
+                    <option name="name" value="PROBLEM-2303" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="c569df2ae0d7bcc6793f1b75bbc9182948252219" />
+                    <option name="name" value="PROBLEM-11" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="182a61397e05aa98a2c7afc38daf54c2318566e8" />
+                    <option name="name" value="PROBLEM-925" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="4500833d7f0914b7b1a91a4893735c00eb331752" />
+                    <option name="name" value="PROBLEM-268" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="9fe7e77dbffc799fd30ca3842924c51cdbaa729a" />
+                    <option name="name" value="PROBLEM-392" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="1c22b3c60bd59aa4780546e57cffb1db7f29e301" />
+                    <option name="name" value="PROBLEM-202" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="86b9785b49957d6aef799ae291d66e8bf692727f" />
+                    <option name="name" value="PROBLEM-14" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="9a09702e9dab0d1809cf980008b4b2aeb6a5a15c" />
+                    <option name="name" value="PROBLEM-628" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="c283e018939888396716ee51e3757b3f8f3da1b4" />
+                    <option name="name" value="PROBLEM-657" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="635712fc236342116f24b7977d75cf36f7a28fa0" />
+                    <option name="name" value="PROBLEM-83" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="445dd23394046b57cf69a61d9c6f0ba10fdc42d9" />
+                    <option name="name" value="PROBLEM-821" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="95960b1268e7003e7c210c274d522a63c776a068" />
+                    <option name="name" value="PROBLEM-383" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="829eb8470fe877ee8401969d6ffd4be1432c37d5" />
+                    <option name="name" value="PROBLEM-4" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="4824629380a66355bc38734f0ff2583100f8271c" />
+                    <option name="name" value="PROBLEM-278" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="dcd8830e4107f932ad83f9b11b2b5f83aae8488d" />
+                    <option name="name" value="PROBLEM-953" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d39bd1d6df68fefcc77ae3cd68b85cbb105bb268" />
+                    <option name="name" value="PROBLEM-876" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="f10ace72ac19b6172bc0de575913ebbcb4d40005" />
+                    <option name="name" value="PROBLEM-944" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0db2a5e3234a19d2ea9575e1a2f3458c43ccd975" />
+                    <option name="name" value="PROBLEM-1679" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0de3a3a9b29ff0ff4f7e680b94435f7810750a8d" />
+                    <option name="name" value="PROBLEM-589" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="c02beae5b8e3a22b21938c863e8448e40d123835" />
+                    <option name="name" value="PROBLEM-2529" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="4fe10346b4f9821e270e9b812d3f77642714b3ec" />
+                    <option name="name" value="PROBLEM-2053" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="55ba10b58babd43805c76d745f0685d5d3e8701a" />
+                    <option name="name" value="PROBLEM-125" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d1d58984af323426d5280f178d1594e6a450f131" />
+                    <option name="name" value="PROBLEM-142" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="0e3cc280765ed1b7fb92d22262053451e4d94e90" />
+                    <option name="name" value="PROBLEM-995" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="cabe89377c67eff9b013bca6bf93219a9c2f56cd" />
+                    <option name="name" value="PROBLEM-1539" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d166728ba8de8212c41fbd785dec8a9a00e84efb" />
+                    <option name="name" value="PROBLEM-21" />
+                  </BranchDeletion>
+                  <BranchDeletion>
+                    <option name="hash" value="d9e8ea462a8ba6f7d92faaf3d80ae29e57388316" />
+                    <option name="name" value="PROBLEM-1078" />
+                  </BranchDeletion>
+                </list>
+              </option>
+              <option name="timestamp" value="1679143195854" />
+            </BranchCleanupEntry>
+          </list>
+        </option>
+      </BranchesCleanupHistory>
+    </option>
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
@@ -48,6 +319,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-203" />
+                    <option name="lastUsedInstant" value="1679140204" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-83" />
                     <option name="lastUsedInstant" value="1679131185" />
@@ -63,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-202" />
                     <option name="lastUsedInstant" value="1678938309" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="GALEDEV-160" />
-                    <option name="lastUsedInstant" value="1678885230" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,14 +375,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.linkedlist.problem203" />
       <recent name="leetcode.linkedlist.problem83" />
       <recent name="leetcode.strings.problem290" />
       <recent name="leetcode.arrays.problem169" />
       <recent name="leetcode.math.problem202" />
-      <recent name="leetcode.linkedlist.problem160" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromSortedListTest">
+  <component name="RunManager" selected="Gradle.RemoveElementFromLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,7 +402,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveElementFromLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +415,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem83.RemoveDuplicatesFromSortedListTest&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +425,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectNewSortedListWithoutDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +438,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem83.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectNewSortedListWithoutDuplicates&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +448,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectSortedListWithoutDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +461,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem83.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectSortedListWithoutDuplicates&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,7 +471,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WordPatternTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem290.WordPatternTest&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,7 +494,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -236,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem290.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed&quot;" />
+            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,19 +519,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectNewSortedListWithoutDuplicates" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectSortedListWithoutDuplicates" />
-      <item itemvalue="Gradle.WordPatternTest" />
-      <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" />
+      <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
+      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement" />
+      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
+      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" />
+      <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectSortedListWithoutDuplicates" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedListTest.test_deleteDuplicates_expectNewSortedListWithoutDuplicates" />
-        <item itemvalue="Gradle.WordPatternTest" />
-        <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" />
+        <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
+        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsAllSameElement" />
+        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
+        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListIsEmpty" />
+        <item itemvalue="Gradle.RemoveElementFromLinkedListTest.test_removeElements_expectUpdateLinkedList_whenMatchingElementOccursTwice" />
       </list>
     </recent_temporary>
   </component>
@@ -272,13 +543,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00118" summary="[PROBLEM-657]: accepted solution for robot's return to origin">
-      <created>1677942950178</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1677942950178</updated>
     </task>
     <task id="LOCAL-00119" summary="[PROBLEM-925]: WIP - Long pressed name">
       <created>1678009820098</created>
@@ -616,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679131649223</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="[PROBLEM-83]: complete working solution">
+      <created>1679132410599</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1679132410599</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-374]: Find the picked number in minimum guesses" />
     <MESSAGE value="[PROBLEM-1346]: WIP - check whether numbers double exists or not" />
     <MESSAGE value="[PROBLEM-1346]: brute force solution - all tests passing" />
     <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
@@ -656,7 +926,8 @@
     <MESSAGE value="[PROBLEM-290]: basic tests passing" />
     <MESSAGE value="[PROBLEM-290]: Approach 2 - using single HashMap" />
     <MESSAGE value="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list" />
+    <MESSAGE value="[PROBLEM-83]: complete working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-83]: complete working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,6 +1206,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem83/RemoveDuplicatesFromSortedList.java</url>
           <line>12</line>
           <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem203/RemoveElementFromLinkedList.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="168" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
