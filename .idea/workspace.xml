@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-290]: WIP - Word Pattern">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-290]: basic tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem290/WordPatternUsingSingleHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem290/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem290/WordPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem290/WordPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/strings/problem290/WordPatternTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <recent name="leetcode.searching.binarysearch.problem349" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WordPatternTest.test_wordPattern_expectTrue_whenPatternIsFollowed">
+  <component name="RunManager" selected="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -176,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3&quot;" />
+            <option value="&quot;leetcode.strings.problem290.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,7 +200,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -212,7 +213,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem169.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3&quot;" />
+            <option value="&quot;leetcode.strings.problem290.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -249,17 +250,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.MajorityElementTest" />
       <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
-      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
-      <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
+      <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" />
+      <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed2" />
       <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectTrue_whenPatternIsFollowed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed" />
+        <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectFalse_whenPatternIsNotFollowed2" />
         <item itemvalue="Gradle.WordPatternTest.test_wordPattern_expectTrue_whenPatternIsFollowed" />
         <item itemvalue="Gradle.MajorityElementTest" />
         <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect2_whenMajorityElementIsOnly2" />
-        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIs3" />
-        <item itemvalue="Gradle.MajorityElementTest.test_majorityElement_expect3_whenMajorityElementIsOnly3" />
       </list>
     </recent_temporary>
   </component>
@@ -271,13 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00115" summary="[PROBLEM-821]: WIP - shortest distance to character">
-      <created>1677866987261</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1677866987261</updated>
     </task>
     <task id="LOCAL-00116" summary="[PROBLEM-821]: basic tests passing">
       <created>1677939922525</created>
@@ -615,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679127566968</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="[PROBLEM-290]: basic tests passing">
+      <created>1679129525377</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1679129525377</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-278]: refactored" />
     <MESSAGE value="[PROBLEM-367]: Perfect Square all basic tests passing" />
     <MESSAGE value="[PROBLEM-367]: complete solution with all tests passing" />
     <MESSAGE value="[PROBLEM-374]: Find the picked number in minimum guesses" />
@@ -655,7 +655,8 @@
     <MESSAGE value="[PROBLEM-169]: optimal solution with O(1) space" />
     <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
     <MESSAGE value="[PROBLEM-290]: WIP - Word Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-290]: WIP - Word Pattern" />
+    <MESSAGE value="[PROBLEM-290]: basic tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-290]: basic tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,16 +930,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem349/IntersectionOfTwoArraysUsingTwoHashSet.java</url>
           <line>19</line>
           <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem290/WordPattern.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem290/WordPattern.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

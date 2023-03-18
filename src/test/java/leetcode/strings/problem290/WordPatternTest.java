@@ -6,12 +6,14 @@ import org.junit.jupiter.api.Test;
 public class WordPatternTest {
 
     WordPattern classObj = new WordPattern();
+    WordPatternUsingSingleHashMap classObj2 = new WordPatternUsingSingleHashMap();
 
     @Test
     void test_wordPattern_expectTrue_whenPatternIsFollowed() {
         String pattern = "abba";
         String text = "dog cat cat dog";
         Assertions.assertTrue(classObj.wordPattern(pattern, text));
+        Assertions.assertTrue(classObj2.wordPattern(pattern, text));
     }
 
     @Test
@@ -19,6 +21,7 @@ public class WordPatternTest {
         String pattern = "abba";
         String text = "dog cat cat fish";
         Assertions.assertFalse(classObj.wordPattern(pattern, text));
+        Assertions.assertFalse(classObj2.wordPattern(pattern, text));
     }
 
     @Test
@@ -26,5 +29,6 @@ public class WordPatternTest {
         String pattern = "aaaa";
         String text = "dog cat cat dog";
         Assertions.assertFalse(classObj.wordPattern(pattern, text));
+        Assertions.assertFalse(classObj2.wordPattern(pattern, text));
     }
 }
