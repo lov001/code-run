@@ -26,4 +26,17 @@ public class DesignHashSetTest {
         classObj.print();
         Assertions.assertFalse(classObj.contains(2));
     }
+
+    @Test
+    void test_DesignHashSet_optimisedApproach() {
+        DesignHashSetOptimisedApproach classObj = new DesignHashSetOptimisedApproach();
+        classObj.add(1);
+        classObj.add(2);
+        Assertions.assertTrue(classObj.contains(1));
+        Assertions.assertFalse(classObj.contains(3));
+        classObj.add(2);
+        Assertions.assertTrue(classObj.contains(2));
+        classObj.remove(2);
+        Assertions.assertFalse(classObj.contains(2));
+    }
 }

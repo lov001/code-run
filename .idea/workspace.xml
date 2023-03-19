@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-234]: complete working solution - Palindrome linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem705/DesignHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem705/DesignHashSetTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-705]: complete working solution - implementing a hash set using linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem705/DesignHashSetOptimisedApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem705/DesignHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem705/DesignHashSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +374,7 @@
       <recent name="leetcode.strings.problem290" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DesignHashSetTest.test_DesignHashSet">
+  <component name="RunManager" selected="Gradle.DesignHashSetTest.test_DesignHashSet_optimisedApproach">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -409,6 +408,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.linkedlist.problem705.DesignHashSetTest.test_DesignHashSet&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DesignHashSetTest.test_DesignHashSet_optimisedApproach" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.linkedlist.problem705.DesignHashSetTest.test_DesignHashSet_optimisedApproach&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -487,44 +509,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveElementFromLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem203.RemoveElementFromLinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.DesignHashSetTest.test_DesignHashSet_optimisedApproach" />
       <item itemvalue="Gradle.DesignHashSetTest.test_DesignHashSet" />
       <item itemvalue="Gradle.PalindromeLinkedListTest" />
       <item itemvalue="Gradle.PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement" />
       <item itemvalue="Gradle.PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
-      <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DesignHashSetTest.test_DesignHashSet_optimisedApproach" />
         <item itemvalue="Gradle.DesignHashSetTest.test_DesignHashSet" />
         <item itemvalue="Gradle.PalindromeLinkedListTest" />
         <item itemvalue="Gradle.PalindromeLinkedListTest.test_removeElements_expectUpdateLinkedList_whenListContainsTwoElements" />
         <item itemvalue="Gradle.PalindromeLinkedListTest.test_isPalindrome_expectUpdateLinkedList_whenListContainsAllSameElement" />
-        <item itemvalue="Gradle.RemoveElementFromLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -536,13 +535,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00121" summary="[PROBLEM-925]: all tests passing">
-      <created>1678014308520</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1678014308520</updated>
     </task>
     <task id="LOCAL-00122" summary="[PROBLEM-1539]: WIP - Kth Missing number">
       <created>1678081202432</created>
@@ -880,7 +872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679151442563</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="[PROBLEM-705]: complete working solution - implementing a hash set using linked list">
+      <created>1679224262916</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1679224262917</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -895,7 +894,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-1346]: binary search solution - all tests passing" />
     <MESSAGE value="[PROBLEM-69]: Square Root - WIP and java test class" />
     <MESSAGE value="[PROBLEM-69]: optimal solution using binary search" />
     <MESSAGE value="[PROBLEM-349]: WIP - Intersection of two arrays" />
@@ -920,7 +918,8 @@
     <MESSAGE value="[PROBLEM-83]: complete working solution" />
     <MESSAGE value="[PROBLEM-203]: complete working solution" />
     <MESSAGE value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
+    <MESSAGE value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
