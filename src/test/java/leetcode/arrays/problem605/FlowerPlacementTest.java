@@ -18,4 +18,22 @@ public class FlowerPlacementTest {
         int[] flowerBed = {1, 0, 0, 0, 1};
         Assertions.assertFalse(classObj.canPlaceFlowers(flowerBed, 2));
     }
+
+    @Test
+    void test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced2() {
+        int[] flowerBed = {1, 0, 0, 0, 0, 1};
+        Assertions.assertFalse(classObj.canPlaceFlowers(flowerBed, 2));
+    }
+
+    @Test
+    void test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2() {
+        int[] flowerBed = {1, 0, 0, 0, 1, 0, 0};
+        Assertions.assertTrue(classObj.canPlaceFlowers(flowerBed, 2));
+    }
+
+    @Test
+    void test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3() {
+        int[] flowerBed = {1, 0};
+        Assertions.assertFalse(classObj.canPlaceFlowers(flowerBed, 1));
+    }
 }
