@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-605]: complete working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem605/FlowerPlacementApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-605]: cleaner solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/problem589/TreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem605/FlowerPlacementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem605/FlowerPlacementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/problem589/TreePreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,11 +377,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.inorderTraversal" />
+      <recent name="leetcode.tree.problem94" />
       <recent name="leetcode.arrays.problem605" />
       <recent name="leetcode.linkedlist.problem705" />
       <recent name="leetcode.linkedlist.problem234" />
-      <recent name="leetcode.linkedlist.problem203" />
-      <recent name="leetcode.linkedlist.problem83" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced">
@@ -398,7 +404,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowerPlacementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -411,7 +417,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem605.FlowerPlacementTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem605.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +521,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.FlowerPlacementTest" />
+      <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced2" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced" />
@@ -524,10 +530,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced" />
-        <item itemvalue="Gradle.FlowerPlacementTest" />
-        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" />
-        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2" />
+        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced" />
         <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced2" />
+        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2" />
+        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" />
       </list>
     </recent_temporary>
   </component>
@@ -539,13 +545,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00125" summary="[PROBLEM-704]: WIP - binary search">
-      <created>1678206234715</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1678206234715</updated>
     </task>
     <task id="LOCAL-00126" summary="[PROBLEM-704]: complete solution all tests passing">
       <created>1678206985152</created>
@@ -883,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679324200528</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="[PROBLEM-605]: cleaner solution">
+      <created>1679324891146</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1679324891146</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -898,7 +904,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-349]: Two pointer solution using set" />
     <MESSAGE value="[PROBLEM-349]: Using two hash set" />
     <MESSAGE value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
     <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
@@ -923,7 +928,8 @@
     <MESSAGE value="[PROBLEM-705]: optimised solution - implementing a hash set using linked list and array" />
     <MESSAGE value="[PROBLEM-605]: WIP - placing flowers in a flowerbed" />
     <MESSAGE value="[PROBLEM-605]: complete working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-605]: complete working solution" />
+    <MESSAGE value="[PROBLEM-605]: cleaner solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-605]: cleaner solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,7 +1242,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem605/FlowerPlacementApproach2.java</url>
           <line>12</line>
-          <option name="timeStamp" value="176" />
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
