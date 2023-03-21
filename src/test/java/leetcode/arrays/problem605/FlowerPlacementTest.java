@@ -11,8 +11,9 @@ public class FlowerPlacementTest {
     @Test
     void test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced() {
         int[] flowerBed = {1, 0, 0, 0, 1};
+        int[] flowerBed2 = {1, 0, 0, 0, 1, 0, 0};
         Assertions.assertTrue(classObj.canPlaceFlowers(flowerBed, 1));
-        Assertions.assertTrue(classObj2.canPlaceFlowers(flowerBed, 1));
+        Assertions.assertTrue(classObj2.canPlaceFlowers(flowerBed2, 1));
     }
 
     @Test
@@ -32,8 +33,9 @@ public class FlowerPlacementTest {
     @Test
     void test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2() {
         int[] flowerBed = {1, 0, 0, 0, 1, 0, 0};
+        int[] flowerBed2 = {1, 0, 0, 0, 1, 0, 0};
         Assertions.assertTrue(classObj.canPlaceFlowers(flowerBed, 2));
-        Assertions.assertTrue(classObj2.canPlaceFlowers(flowerBed, 2));
+        Assertions.assertTrue(classObj2.canPlaceFlowers(flowerBed2, 2));
     }
 
     @Test

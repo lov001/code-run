@@ -1,4 +1,4 @@
-package leetcode.tree.problem589;
+package leetcode.tree.binarysearchtree.problem589;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -6,7 +6,7 @@ import domain.Node;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import leetcode.tree.problem589.TreePreOrderTraversal;
+import leetcode.tree.binarysearchtree.problem589.TreePreOrderTraversal;
 import org.junit.Ignore;
 
 public class TreePreOrderTraversalTest {
