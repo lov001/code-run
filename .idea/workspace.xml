@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-605]: cleaner solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-589]: Preorder traversal working solution">
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -544,13 +544,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00126" summary="[PROBLEM-704]: complete solution all tests passing">
-      <created>1678206985152</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1678206985154</updated>
-    </task>
     <task id="LOCAL-00127" summary="[PROBLEM-2187]:WIP">
       <created>1678261390459</created>
       <option name="number" value="00127" />
@@ -887,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679324891146</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="[PROBLEM-589]: Preorder traversal working solution">
+      <created>1679493657269</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1679493657269</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-349]: Using two hash set" />
     <MESSAGE value="[PROBLEM-160]: WIP - finding intersection of two linked lists" />
     <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
@@ -927,7 +926,8 @@
     <MESSAGE value="[PROBLEM-605]: WIP - placing flowers in a flowerbed" />
     <MESSAGE value="[PROBLEM-605]: complete working solution" />
     <MESSAGE value="[PROBLEM-605]: cleaner solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-605]: cleaner solution" />
+    <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-589]: Preorder traversal working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
