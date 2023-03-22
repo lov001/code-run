@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-589]: Preorder traversal approach 2 using stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-100]: working solution 58/60 tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +382,7 @@
       <recent name="leetcode.linkedlist.problem705" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees">
+  <component name="RunManager" selected="Gradle.SameTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -401,6 +401,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SameTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -494,44 +517,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreePreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarysearchtree.problem589.TreePreOrderTraversalTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.SameTreeTest" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
-      <item itemvalue="Gradle.TreePreOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
+        <item itemvalue="Gradle.SameTreeTest" />
         <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
-        <item itemvalue="Gradle.TreePreOrderTraversalTest" />
+        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
+        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" />
+        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +543,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00128" summary="[PROBLEM-35]: refactoring searching algorithms">
-      <created>1678264960372</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1678264960372</updated>
     </task>
     <task id="LOCAL-00129" summary="[PROBLEM-35]: all basic tests passing">
       <created>1678266019643</created>
@@ -887,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679494342480</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="[PROBLEM-100]: working solution 58/60 tests passing">
+      <created>1679506934756</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1679506934756</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-160]: complete solution with basic tests passing" />
     <MESSAGE value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
     <MESSAGE value="[PROBLEM-160]: approach 3, using the diffrence of length" />
     <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
@@ -927,7 +926,8 @@
     <MESSAGE value="[PROBLEM-605]: cleaner solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
+    <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-100]: working solution 58/60 tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1241,6 +1241,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem605/FlowerPlacementApproach2.java</url>
           <line>12</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
