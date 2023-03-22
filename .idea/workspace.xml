@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-605]: cleaner solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/problem589/TreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem605/FlowerPlacementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem605/FlowerPlacementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/problem589/TreePreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem589/TreePreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-589" />
+                    <option name="lastUsedInstant" value="1679419088" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-605" />
                     <option name="lastUsedInstant" value="1679321441" />
                   </RecentBranch>
@@ -384,7 +382,7 @@
       <recent name="leetcode.linkedlist.problem234" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced">
+  <component name="RunManager" selected="Gradle.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput2">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -450,29 +448,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem605.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -496,7 +471,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -509,7 +484,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem605.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2&quot;" />
+            <option value="&quot;leetcode.tree.binarysearchtree.problem589.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarysearchtree.problem589.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -521,19 +519,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput" />
+      <item itemvalue="Gradle.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput2" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced2" />
-      <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" />
       <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced" />
-      <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput2" />
+        <item itemvalue="Gradle.TreePreOrderTraversalTest.test_preorder_expectOutput_whenGivenInput" />
         <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced" />
         <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced" />
         <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced2" />
-        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectTrue_whenFlowerCanBePlaced2" />
-        <item itemvalue="Gradle.FlowerPlacementTest.test_canPlaceFlowers_expectFalse_whenFlowerCannotBePlaced3" />
       </list>
     </recent_temporary>
   </component>
