@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-100]: working solution 58/60 tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-100]: complete working solution approach 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" afterDir="false" />
     </list>
@@ -544,13 +544,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00129" summary="[PROBLEM-35]: all basic tests passing">
-      <created>1678266019643</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1678266019643</updated>
-    </task>
     <task id="LOCAL-00130" summary="[PROBLEM-35]: final accepted solution">
       <created>1678268194196</created>
       <option name="number" value="00130" />
@@ -887,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679506934756</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="[PROBLEM-100]: complete working solution approach 2">
+      <created>1679508825404</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1679508825404</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively" />
     <MESSAGE value="[PROBLEM-160]: approach 3, using the diffrence of length" />
     <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
     <MESSAGE value="[PROBLEM-202]: complete solution with all test case passing" />
@@ -927,7 +926,8 @@
     <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-100]: working solution 58/60 tests passing" />
+    <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-100]: complete working solution approach 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

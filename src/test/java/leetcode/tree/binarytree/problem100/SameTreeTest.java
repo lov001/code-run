@@ -8,6 +8,7 @@ public class SameTreeTest {
 
     SameTree classObj = new SameTree();
     SameTreeApproach2 classObj2 = new SameTreeApproach2();
+    SameTreeApproach3 classObj3 = new SameTreeApproach3();
 
     @Test
     void test_isSameTree_expectTrue_whenSameTree() {
@@ -20,6 +21,7 @@ public class SameTreeTest {
         TreeNode tree2 = new TreeNode(1, left2, right2);
         Assertions.assertTrue(classObj.isSameTree(tree1, tree2));
         Assertions.assertTrue(classObj2.isSameTree(tree1, tree2));
+        Assertions.assertTrue(classObj3.isSameTree(tree1, tree2));
     }
 
     @Test
@@ -31,6 +33,7 @@ public class SameTreeTest {
         TreeNode tree2 = new TreeNode(1, null, right2);
         Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
+        Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));
     }
 
     @Test
@@ -44,6 +47,7 @@ public class SameTreeTest {
         TreeNode tree2 = new TreeNode(1, left2, right2);
         Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
+        Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));
     }
 
     @Test
@@ -55,5 +59,6 @@ public class SameTreeTest {
         TreeNode tree2 = new TreeNode(1, null, right2);
 //        Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
+        Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));
     }
 }
