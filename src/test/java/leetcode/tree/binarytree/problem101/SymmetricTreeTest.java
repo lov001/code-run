@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 public class SymmetricTreeTest {
 
     SymmetricTree classObj = new SymmetricTree();
+    SymmetricTreeIterativeSolutionUsingStack classObj2 =
+        new SymmetricTreeIterativeSolutionUsingStack();
 
     @Test
     void test_isSymmetric_expectTrue_whenTreesAreMirrorImages() {
@@ -19,6 +21,7 @@ public class SymmetricTreeTest {
         TreeNode tree = new TreeNode(1, left1, right1);
 
         Assertions.assertTrue(classObj.isSymmetric(tree));
+        Assertions.assertTrue(classObj2.isSymmetric(tree));
     }
 
     @Test
@@ -30,5 +33,6 @@ public class SymmetricTreeTest {
         TreeNode tree = new TreeNode(1, left1, right1);
 
         Assertions.assertFalse(classObj.isSymmetric(tree));
+        Assertions.assertFalse(classObj2.isSymmetric(tree));
     }
 }

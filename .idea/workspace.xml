@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-100]: complete working solution approach 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-101]: complete working solution - recursive approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,13 +544,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00131" summary="[PROBLEM-268]: WIP- missing number">
-      <created>1678340441132</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1678340441132</updated>
-    </task>
     <task id="LOCAL-00132" summary="[PROBLEM-268]: brute force solution">
       <created>1678340870887</created>
       <option name="number" value="00132" />
@@ -888,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679541801787</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="[PROBLEM-101]: complete working solution - recursive approach">
+      <created>1679577803390</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1679577803390</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
     <MESSAGE value="[PROBLEM-202]: complete solution with all test case passing" />
     <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
@@ -928,7 +926,8 @@
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-100]: complete working solution approach 3" />
+    <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-101]: complete working solution - recursive approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1252,6 +1251,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java</url>
           <line>25</line>
           <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="185" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
