@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-100]: complete working solution approach 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach3.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-101]: complete working solution - recursive approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-101" />
+                    <option name="lastUsedInstant" value="1679541910" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-100" />
                     <option name="lastUsedInstant" value="1679505867" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-705" />
                     <option name="lastUsedInstant" value="1679213790" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-234" />
-                    <option name="lastUsedInstant" value="1679146453" />
                   </RecentBranch>
                 </list>
               </option>
@@ -375,14 +375,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem101" />
       <recent name="leetcode.tree.binarytree.problem100" />
       <recent name="leetcode.tree.binarytree.inorderTraversal" />
       <recent name="leetcode.tree.problem94" />
       <recent name="leetcode.arrays.problem605" />
-      <recent name="leetcode.linkedlist.problem705" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SameTreeTest">
+  <component name="RunManager" selected="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -425,29 +425,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -462,29 +439,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -517,21 +471,67 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem101.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem101.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.SameTreeTest" />
-      <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
-      <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" />
       <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
+      <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
+      <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
+        <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
         <item itemvalue="Gradle.SameTreeTest" />
         <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
         <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenTreesAreMirrorImages" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenGivenTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -543,20 +543,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00130" summary="[PROBLEM-35]: final accepted solution">
-      <created>1678268194196</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1678268194196</updated>
-    </task>
-    <task id="LOCAL-00131" summary="[PROBLEM-268]: WIP- missing number">
-      <created>1678340441132</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1678340441132</updated>
     </task>
     <task id="LOCAL-00132" summary="[PROBLEM-268]: brute force solution">
       <created>1678340870887</created>
@@ -887,7 +873,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679508825404</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="[PROBLEM-100]: complete working solution approach 3">
+      <created>1679541801787</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1679541801787</updated>
+    </task>
+    <task id="LOCAL-00180" summary="[PROBLEM-101]: complete working solution - recursive approach">
+      <created>1679577803390</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1679577803390</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,8 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-160]: approach 3, using the diffrence of length" />
-    <MESSAGE value="[PROBLEM-202]: WIP- check whether a number is a happy number or not" />
     <MESSAGE value="[PROBLEM-202]: complete solution with all test case passing" />
     <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
@@ -927,7 +925,9 @@
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-100]: complete working solution approach 2" />
+    <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
+    <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-101]: complete working solution - recursive approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1251,6 +1251,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java</url>
           <line>25</line>
           <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="185" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
