@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-101]: complete working solution - recursive approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-101]: complete working solution - iterative approach using stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-104" />
+                    <option name="lastUsedInstant" value="1679583338" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-101" />
                     <option name="lastUsedInstant" value="1679541910" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-605" />
                     <option name="lastUsedInstant" value="1679321441" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-705" />
-                    <option name="lastUsedInstant" value="1679213790" />
                   </RecentBranch>
                 </list>
               </option>
@@ -375,14 +375,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
       <recent name="leetcode.tree.binarytree.problem100" />
       <recent name="leetcode.tree.binarytree.inorderTraversal" />
       <recent name="leetcode.tree.problem94" />
-      <recent name="leetcode.arrays.problem605" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages">
+  <component name="RunManager" selected="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -402,7 +402,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeDepthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -415,7 +415,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -425,7 +425,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -438,7 +438,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -448,7 +448,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SameTreeTest.test_isSameTree_expectTrue_whenSameTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -461,7 +461,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem100.SameTreeTest.test_isSameTree_expectTrue_whenSameTree&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,19 +519,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.SameTreeTest" />
-      <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
-      <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
+      <item itemvalue="Gradle.BinaryTreeDepthTest" />
+      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
+      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
       <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
       <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
+        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
+        <item itemvalue="Gradle.BinaryTreeDepthTest" />
         <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
         <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
-        <item itemvalue="Gradle.SameTreeTest" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectTrue_whenSameTree" />
-        <item itemvalue="Gradle.SameTreeTest.test_isSameTree_expectFalse_whenSameNodesButDifferentChild" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +543,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00132" summary="[PROBLEM-268]: brute force solution">
-      <created>1678340870887</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1678340870887</updated>
     </task>
     <task id="LOCAL-00133" summary="[PROBLEM-268]: missing number using binary search">
       <created>1678342183450</created>
@@ -887,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679577803390</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="[PROBLEM-101]: complete working solution - iterative approach using stack">
+      <created>1679582904696</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1679582904696</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-202]: complete solution with all test case passing" />
     <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
     <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
@@ -927,7 +926,8 @@
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-101]: complete working solution - recursive approach" />
+    <MESSAGE value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
