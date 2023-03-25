@@ -8,7 +8,8 @@ public class BalancedBinaryTree {
         if (root == null) {
             return true;
         }
-        return Math.abs(traverse(root.left) - traverse(root.right)) <= 1;
+        return Math.abs(traverse(root.left) - traverse(root.right)) <= 1 && isBalanced(root.left)
+            && isBalanced(root.right);
     }
 
     private int traverse(TreeNode root) {
