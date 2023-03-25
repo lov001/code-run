@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 public class BalancedBinaryTreeTest {
 
     BalancedBinaryTree classObj = new BalancedBinaryTree();
+    BalancedBinaryTreeApproach2 classObj2 = new BalancedBinaryTreeApproach2();
 
     @Test
     void test_isBalanced_expectTree_whenTreeIsBalanced() {
@@ -17,11 +18,13 @@ public class BalancedBinaryTreeTest {
         TreeNode tree = new TreeNode(3, left1, right1);
 
         Assertions.assertTrue(classObj.isBalanced(tree));
+        Assertions.assertTrue(classObj2.isBalanced(tree));
     }
 
     @Test
     void test_isBalanced_expectTrue_whenEmptyTree() {
         Assertions.assertTrue(classObj.isBalanced(null));
+        Assertions.assertTrue(classObj2.isBalanced(null));
     }
 
     @Test
@@ -35,6 +38,7 @@ public class BalancedBinaryTreeTest {
         TreeNode tree = new TreeNode(1, left1, right1);
 
         Assertions.assertFalse(classObj.isBalanced(tree));
+        Assertions.assertFalse(classObj2.isBalanced(tree));
     }
 
     @Test
@@ -48,5 +52,6 @@ public class BalancedBinaryTreeTest {
         TreeNode tree = new TreeNode(1, left1, right1);
 
         Assertions.assertFalse(classObj.isBalanced(tree));
+        Assertions.assertFalse(classObj2.isBalanced(tree));
     }
 }

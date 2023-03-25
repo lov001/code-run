@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: complete working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -544,13 +544,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00136" summary="[PROBLEM-441]: more optimal solution using binary search">
-      <created>1678423973065</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1678423973065</updated>
-    </task>
     <task id="LOCAL-00137" summary="[PROBLEM-278]: first bad version - all basic tests passing">
       <created>1678516168289</created>
       <option name="number" value="00137" />
@@ -887,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679731939379</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="[PROBLEM-110]: complete working solution">
+      <created>1679733763214</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1679733763214</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
     <MESSAGE value="[PROBLEM-169]: optimal solution with O(1) space" />
     <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
     <MESSAGE value="[PROBLEM-290]: WIP - Word Pattern" />
@@ -927,7 +926,8 @@
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions" />
     <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
+    <MESSAGE value="[PROBLEM-110]: complete working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: complete working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
