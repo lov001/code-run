@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: complete working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeOptimisedSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
     </list>
@@ -357,15 +357,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
@@ -543,13 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00137" summary="[PROBLEM-278]: first bad version - all basic tests passing">
-      <created>1678516168289</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1678516168289</updated>
     </task>
     <task id="LOCAL-00138" summary="[PROBLEM-278]: refactored">
       <created>1678516299783</created>
@@ -887,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679733763214</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree">
+      <created>1679734451564</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1679734451564</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-169]: optimal solution with O(1) space" />
     <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
     <MESSAGE value="[PROBLEM-290]: WIP - Word Pattern" />
     <MESSAGE value="[PROBLEM-290]: basic tests passing" />
@@ -927,7 +927,8 @@
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions" />
     <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
     <MESSAGE value="[PROBLEM-110]: complete working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: complete working solution" />
+    <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
