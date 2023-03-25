@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-104]: complete working solution - finding depth of a binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-110" />
+                    <option name="lastUsedInstant" value="1679728484" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-104" />
                     <option name="lastUsedInstant" value="1679583338" />
                   </RecentBranch>
@@ -335,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-589" />
                     <option name="lastUsedInstant" value="1679419088" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-605" />
-                    <option name="lastUsedInstant" value="1679321441" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,14 +375,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
       <recent name="leetcode.tree.binarytree.problem100" />
       <recent name="leetcode.tree.binarytree.inorderTraversal" />
-      <recent name="leetcode.tree.problem94" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_">
+  <component name="RunManager" selected="Gradle.BalancedBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -403,7 +402,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeDepthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BalancedBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -416,7 +415,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -426,7 +425,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -439,7 +438,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -449,7 +448,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -462,7 +461,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +471,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,7 +494,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem101.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,19 +519,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.BinaryTreeDepthTest" />
-      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
-      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
-      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" />
-      <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
+      <item itemvalue="Gradle.BalancedBinaryTreeTest" />
+      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" />
+      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" />
+      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" />
+      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" />
-        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
-        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
-        <item itemvalue="Gradle.BinaryTreeDepthTest" />
-        <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
+        <item itemvalue="Gradle.BalancedBinaryTreeTest" />
+        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" />
+        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" />
+        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" />
+        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -544,20 +543,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00134" summary="[PROBLEM-441]: WIP - arranging coins">
-      <created>1678421758239</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1678421758239</updated>
-    </task>
-    <task id="LOCAL-00135" summary="[PROBLEM-441]: working solution with all test cases passing">
-      <created>1678422243767</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1678422243768</updated>
     </task>
     <task id="LOCAL-00136" summary="[PROBLEM-441]: more optimal solution using binary search">
       <created>1678423973065</created>
@@ -888,7 +873,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679671647143</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions">
+      <created>1679727644802</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1679727644803</updated>
+    </task>
+    <task id="LOCAL-00184" summary="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing">
+      <created>1679731939379</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1679731939379</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,8 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
-    <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
     <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
     <MESSAGE value="[PROBLEM-169]: optimal solution with O(1) space" />
     <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
@@ -928,7 +925,9 @@
     <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
+    <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions" />
+    <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,6 +1261,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java</url>
           <line>17</line>
           <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="195" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
