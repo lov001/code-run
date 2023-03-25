@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-101]: complete working solution - iterative approach using stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-104]: complete working solution - finding depth of a binary tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +383,7 @@
       <recent name="leetcode.tree.problem94" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3">
+  <component name="RunManager" selected="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -471,7 +472,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -484,7 +485,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem101.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem104.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -522,16 +523,16 @@
       <item itemvalue="Gradle.BinaryTreeDepthTest" />
       <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
       <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
-      <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
+      <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" />
       <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3_" />
         <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect3_whenDepthIs3" />
         <item itemvalue="Gradle.BinaryTreeDepthTest.test_maxDepth_expect2_whenDepthIs2" />
         <item itemvalue="Gradle.BinaryTreeDepthTest" />
         <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectTrue_whenTreesAreMirrorImages" />
-        <item itemvalue="Gradle.SymmetricTreeTest.test_isSymmetric_expectFalse_whenTreesAreNotMirrorImages" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00133" summary="[PROBLEM-268]: missing number using binary search">
-      <created>1678342183450</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1678342183450</updated>
     </task>
     <task id="LOCAL-00134" summary="[PROBLEM-441]: WIP - arranging coins">
       <created>1678421758239</created>
@@ -887,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679582904696</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="[PROBLEM-104]: complete working solution - finding depth of a binary tree">
+      <created>1679671647143</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1679671647143</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -902,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-202]: optimised by removing string conversion" />
     <MESSAGE value="[PROBLEM-202]: approach 2 using floyd cycle detection algorithm" />
     <MESSAGE value="[PROBLEM-169]: WIP - majority element" />
     <MESSAGE value="[PROBLEM-169]: Brute force approach will all test cases passing" />
@@ -927,7 +927,8 @@
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
+    <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1256,6 +1257,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java</url>
           <line>14</line>
           <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
