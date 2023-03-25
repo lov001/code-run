@@ -8,6 +8,7 @@ public class BalancedBinaryTreeTest {
 
     BalancedBinaryTree classObj = new BalancedBinaryTree();
     BalancedBinaryTreeApproach2 classObj2 = new BalancedBinaryTreeApproach2();
+    BalancedBinaryTreeOptimisedSolution classObj3 = new BalancedBinaryTreeOptimisedSolution();
 
     @Test
     void test_isBalanced_expectTree_whenTreeIsBalanced() {
@@ -19,12 +20,14 @@ public class BalancedBinaryTreeTest {
 
         Assertions.assertTrue(classObj.isBalanced(tree));
         Assertions.assertTrue(classObj2.isBalanced(tree));
+        Assertions.assertTrue(classObj3.isBalanced(tree));
     }
 
     @Test
     void test_isBalanced_expectTrue_whenEmptyTree() {
         Assertions.assertTrue(classObj.isBalanced(null));
         Assertions.assertTrue(classObj2.isBalanced(null));
+        Assertions.assertTrue(classObj3.isBalanced(null));
     }
 
     @Test
@@ -39,6 +42,7 @@ public class BalancedBinaryTreeTest {
 
         Assertions.assertFalse(classObj.isBalanced(tree));
         Assertions.assertFalse(classObj2.isBalanced(tree));
+        Assertions.assertFalse(classObj3.isBalanced(tree));
     }
 
     @Test
@@ -53,5 +57,6 @@ public class BalancedBinaryTreeTest {
 
         Assertions.assertFalse(classObj.isBalanced(tree));
         Assertions.assertFalse(classObj2.isBalanced(tree));
+        Assertions.assertFalse(classObj3.isBalanced(tree));
     }
 }
