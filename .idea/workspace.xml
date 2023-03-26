@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeOptimisedSolution.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: approach 3 - in O(n) using recursion and array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-111" />
+                    <option name="lastUsedInstant" value="1679802241" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-110" />
                     <option name="lastUsedInstant" value="1679728484" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-100" />
                     <option name="lastUsedInstant" value="1679505867" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-589" />
-                    <option name="lastUsedInstant" value="1679419088" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,11 +376,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
       <recent name="leetcode.tree.binarytree.problem100" />
-      <recent name="leetcode.tree.binarytree.inorderTraversal" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BalancedBinaryTreeTest">
@@ -544,13 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00138" summary="[PROBLEM-278]: refactored">
-      <created>1678516299783</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1678516299783</updated>
     </task>
     <task id="LOCAL-00139" summary="[PROBLEM-367]: Perfect Square all basic tests passing">
       <created>1678517697980</created>
@@ -888,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679734451564</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="[PROBLEM-110]: approach 3 - in O(n) using recursion and array">
+      <created>1679756454197</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1679756454198</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
     <MESSAGE value="[PROBLEM-290]: WIP - Word Pattern" />
     <MESSAGE value="[PROBLEM-290]: basic tests passing" />
     <MESSAGE value="[PROBLEM-290]: Approach 2 - using single HashMap" />
@@ -928,7 +927,8 @@
     <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
     <MESSAGE value="[PROBLEM-110]: complete working solution" />
     <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
+    <MESSAGE value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
