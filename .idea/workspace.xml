@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: complete woring solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepthIterativeApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: WIP - Target sum of a path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-112" />
+                    <option name="lastUsedInstant" value="1679811310" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-111" />
                     <option name="lastUsedInstant" value="1679802241" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-101" />
                     <option name="lastUsedInstant" value="1679541910" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-100" />
-                    <option name="lastUsedInstant" value="1679505867" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,14 +376,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem112" />
       <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
-      <recent name="leetcode.tree.binarytree.problem100" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumDepthTest">
+  <component name="RunManager" selected="Gradle.PathSumTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -403,7 +403,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -416,7 +416,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -426,7 +426,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumDepthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -439,7 +439,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -449,7 +449,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -462,7 +462,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +472,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +485,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,7 +495,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +508,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,19 +520,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.BalancedBinaryTreeTest" />
-      <item itemvalue="Gradle.MinimumDepthTest" />
-      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" />
-      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" />
-      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" />
+      <item itemvalue="Gradle.PathSumTest" />
+      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" />
+      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
+      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" />
+      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinimumDepthTest" />
-        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" />
-        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" />
-        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" />
-        <item itemvalue="Gradle.BalancedBinaryTreeTest" />
+        <item itemvalue="Gradle.PathSumTest" />
+        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
+        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" />
+        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" />
+        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
       </list>
     </recent_temporary>
   </component>
@@ -544,20 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00143" summary="[PROBLEM-1346]: brute force solution - all tests passing">
-      <created>1678614712084</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1678614712084</updated>
-    </task>
-    <task id="LOCAL-00144" summary="[PROBLEM-1346]: binary search solution - all tests passing">
-      <created>1678615621561</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1678615621563</updated>
     </task>
     <task id="LOCAL-00145" summary="[PROBLEM-69]: Square Root - WIP and java test class">
       <created>1678680401962</created>
@@ -888,7 +874,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679806462979</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="[PROBLEM-111]: complete working solution - iterative approach">
+      <created>1679806698850</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1679806698850</updated>
+    </task>
+    <task id="LOCAL-00193" summary="[PROBLEM-112]: WIP - Target sum of a path">
+      <created>1679811876829</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1679811876830</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,8 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-83]: complete working solution" />
-    <MESSAGE value="[PROBLEM-203]: complete working solution" />
     <MESSAGE value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
     <MESSAGE value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
     <MESSAGE value="[PROBLEM-705]: optimised solution - implementing a hash set using linked list and array" />
@@ -928,7 +926,9 @@
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
     <MESSAGE value="[PROBLEM-111]: complete woring solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: complete woring solution" />
+    <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
+    <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: WIP - Target sum of a path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1267,6 +1267,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java</url>
           <line>15</line>
           <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
