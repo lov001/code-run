@@ -5,6 +5,9 @@ import leetcode.tree.TreeNode;
 public class MinimumDepth {
 
     public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
         int leftHeight = height(root.left);
         int rightHeight = height(root.right);
         if (leftHeight == 0 && rightHeight != 0) {
