@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 public class MinimumDepthTest {
 
     MinimumDepth classObj = new MinimumDepth();
+    MinimumDepthIterativeApproach classObj2 = new MinimumDepthIterativeApproach();
 
     @Test
     void test_minDepth_expect2_whenMinimumDepthIs2() {
@@ -17,6 +18,7 @@ public class MinimumDepthTest {
         TreeNode tree = new TreeNode(3, left1, right1);
 
         Assertions.assertEquals(2, classObj.minDepth(tree));
+        Assertions.assertEquals(2, classObj2.minDepth(tree));
     }
 
     @Test
@@ -28,6 +30,7 @@ public class MinimumDepthTest {
         TreeNode tree = new TreeNode(2, null, right1);
 
         Assertions.assertEquals(5, classObj.minDepth(tree));
+        Assertions.assertEquals(5, classObj2.minDepth(tree));
     }
 
     @Test
@@ -42,5 +45,6 @@ public class MinimumDepthTest {
         TreeNode tree = new TreeNode(-9, left1, right1);
 
         Assertions.assertEquals(3, classObj.minDepth(tree));
+        Assertions.assertEquals(3, classObj2.minDepth(tree));
     }
 }

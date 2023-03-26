@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: WIP - 41/52 tests passing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: complete woring solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepthIterativeApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -545,13 +545,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00142" summary="[PROBLEM-1346]: WIP - check whether numbers double exists or not">
-      <created>1678608271408</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1678608271408</updated>
-    </task>
     <task id="LOCAL-00143" summary="[PROBLEM-1346]: brute force solution - all tests passing">
       <created>1678614712084</created>
       <option name="number" value="00143" />
@@ -888,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679804502114</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="[PROBLEM-111]: complete woring solution">
+      <created>1679806462979</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1679806462979</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list" />
     <MESSAGE value="[PROBLEM-83]: complete working solution" />
     <MESSAGE value="[PROBLEM-203]: complete working solution" />
     <MESSAGE value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
@@ -928,7 +927,8 @@
     <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: WIP - 41/52 tests passing" />
+    <MESSAGE value="[PROBLEM-111]: complete woring solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: complete woring solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
