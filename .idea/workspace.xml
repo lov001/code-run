@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: WIP - Target sum of a path">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: complete working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSumIterativeSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -529,10 +529,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PathSumTest" />
+        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
         <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
         <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" />
         <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" />
-        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
       </list>
     </recent_temporary>
   </component>
@@ -544,13 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00145" summary="[PROBLEM-69]: Square Root - WIP and java test class">
-      <created>1678680401962</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1678680401962</updated>
     </task>
     <task id="LOCAL-00146" summary="[PROBLEM-69]: optimal solution using binary search">
       <created>1678682522756</created>
@@ -888,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679811876830</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="[PROBLEM-112]: complete working solution">
+      <created>1679814038764</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1679814038765</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
     <MESSAGE value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
     <MESSAGE value="[PROBLEM-705]: optimised solution - implementing a hash set using linked list and array" />
     <MESSAGE value="[PROBLEM-605]: WIP - placing flowers in a flowerbed" />
@@ -928,7 +927,8 @@
     <MESSAGE value="[PROBLEM-111]: complete woring solution" />
     <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
     <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: WIP - Target sum of a path" />
+    <MESSAGE value="[PROBLEM-112]: complete working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: complete working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1267,16 +1267,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java</url>
           <line>15</line>
           <option name="timeStamp" value="195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
