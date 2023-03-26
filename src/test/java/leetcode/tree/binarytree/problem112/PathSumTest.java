@@ -36,4 +36,12 @@ public class PathSumTest {
     void test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty() {
         Assertions.assertFalse(classObj.hasPathSum(null, 0));
     }
+
+    @Test
+    void test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists() {
+        TreeNode left1 = new TreeNode(2, null, null);
+        TreeNode tree = new TreeNode(1, left1, null);
+
+        Assertions.assertFalse(classObj.hasPathSum(tree, 1));
+    }
 }
