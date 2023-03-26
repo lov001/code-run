@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: complete woring solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepthIterativeApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: complete working solution - iterative approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-112" />
+                    <option name="lastUsedInstant" value="1679811310" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-111" />
                     <option name="lastUsedInstant" value="1679802241" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-101" />
                     <option name="lastUsedInstant" value="1679541910" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-100" />
-                    <option name="lastUsedInstant" value="1679505867" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,11 +376,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem112" />
       <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
-      <recent name="leetcode.tree.binarytree.problem100" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MinimumDepthTest">
@@ -544,13 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00143" summary="[PROBLEM-1346]: brute force solution - all tests passing">
-      <created>1678614712084</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1678614712084</updated>
     </task>
     <task id="LOCAL-00144" summary="[PROBLEM-1346]: binary search solution - all tests passing">
       <created>1678615621561</created>
@@ -888,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679806462979</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="[PROBLEM-111]: complete working solution - iterative approach">
+      <created>1679806698850</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1679806698850</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-83]: complete working solution" />
     <MESSAGE value="[PROBLEM-203]: complete working solution" />
     <MESSAGE value="[PROBLEM-234]: complete working solution - Palindrome linked list" />
     <MESSAGE value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
@@ -928,7 +927,8 @@
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
     <MESSAGE value="[PROBLEM-111]: complete woring solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: complete woring solution" />
+    <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: complete working solution - iterative approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
