@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeOptimisedSolution.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-111]: WIP - 41/52 tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-111" />
+                    <option name="lastUsedInstant" value="1679802241" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-110" />
                     <option name="lastUsedInstant" value="1679728484" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-100" />
                     <option name="lastUsedInstant" value="1679505867" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-589" />
-                    <option name="lastUsedInstant" value="1679419088" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,14 +376,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
       <recent name="leetcode.tree.binarytree.problem101" />
       <recent name="leetcode.tree.binarytree.problem100" />
-      <recent name="leetcode.tree.binarytree.inorderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BalancedBinaryTreeTest">
+  <component name="RunManager" selected="Gradle.MinimumDepthTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -426,7 +426,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumDepthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -439,7 +439,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -449,7 +449,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -462,7 +462,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +472,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +485,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,7 +495,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +508,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem110.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem111.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -521,18 +521,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BalancedBinaryTreeTest" />
-      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" />
-      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" />
-      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" />
-      <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" />
+      <item itemvalue="Gradle.MinimumDepthTest" />
+      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" />
+      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" />
+      <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumDepthTest" />
+        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect2_whenMinimumDepthIs2" />
+        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect5_whenMinimumDepthIs5" />
+        <item itemvalue="Gradle.MinimumDepthTest.test_minDepth_expect3_whenMinimumDepthIs3" />
         <item itemvalue="Gradle.BalancedBinaryTreeTest" />
-        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_isBalanced_expectFalse_whenDepthIs3_" />
-        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3_" />
-        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect3_whenDepthIs3" />
-        <item itemvalue="Gradle.BalancedBinaryTreeTest.test_maxDepth_expect2_whenDepthIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -544,34 +544,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00138" summary="[PROBLEM-278]: refactored">
-      <created>1678516299783</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1678516299783</updated>
-    </task>
-    <task id="LOCAL-00139" summary="[PROBLEM-367]: Perfect Square all basic tests passing">
-      <created>1678517697980</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1678517697980</updated>
-    </task>
-    <task id="LOCAL-00140" summary="[PROBLEM-367]: complete solution with all tests passing">
-      <created>1678518697611</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1678518697611</updated>
-    </task>
-    <task id="LOCAL-00141" summary="[PROBLEM-374]: Find the picked number in minimum guesses">
-      <created>1678607716297</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1678607716297</updated>
     </task>
     <task id="LOCAL-00142" summary="[PROBLEM-1346]: WIP - check whether numbers double exists or not">
       <created>1678608271408</created>
@@ -888,7 +860,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679734451564</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="[PROBLEM-110]: approach 3 - in O(n) using recursion and array">
+      <created>1679756454197</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1679756454198</updated>
+    </task>
+    <task id="LOCAL-00188" summary="[PROBLEM-111]: WIP - finding minimum depth of a binary tree">
+      <created>1679802656982</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1679802656982</updated>
+    </task>
+    <task id="LOCAL-00189" summary="[PROBLEM-111]: WIP - basic tests passing">
+      <created>1679804182751</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1679804182752</updated>
+    </task>
+    <task id="LOCAL-00190" summary="[PROBLEM-111]: WIP - 41/52 tests passing">
+      <created>1679804502114</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1679804502114</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,10 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-169]: optimal solution - Moore's Voting algorithm" />
-    <MESSAGE value="[PROBLEM-290]: WIP - Word Pattern" />
-    <MESSAGE value="[PROBLEM-290]: basic tests passing" />
-    <MESSAGE value="[PROBLEM-290]: Approach 2 - using single HashMap" />
     <MESSAGE value="[PROBLEM-83]: WIP - Remove Duplicates from sorted linked list" />
     <MESSAGE value="[PROBLEM-83]: complete working solution" />
     <MESSAGE value="[PROBLEM-203]: complete working solution" />
@@ -928,7 +924,11 @@
     <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
     <MESSAGE value="[PROBLEM-110]: complete working solution" />
     <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
+    <MESSAGE value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
+    <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
+    <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
+    <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-111]: WIP - 41/52 tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
