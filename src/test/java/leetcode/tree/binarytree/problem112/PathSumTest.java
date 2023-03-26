@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 public class PathSumTest {
 
     PathSum classObj = new PathSum();
+    PathSumIterativeSolution classObj2 = new PathSumIterativeSolution();
 
     @Test
     void test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists() {
@@ -21,6 +22,7 @@ public class PathSumTest {
         TreeNode tree = new TreeNode(5, left1, right1);
 
         Assertions.assertTrue(classObj.hasPathSum(tree, 22));
+        Assertions.assertTrue(classObj2.hasPathSum(tree, 22));
     }
 
     @Test
@@ -30,11 +32,13 @@ public class PathSumTest {
         TreeNode tree = new TreeNode(1, left1, right1);
 
         Assertions.assertFalse(classObj.hasPathSum(tree, 5));
+        Assertions.assertFalse(classObj2.hasPathSum(tree, 5));
     }
 
     @Test
     void test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty() {
         Assertions.assertFalse(classObj.hasPathSum(null, 0));
+        Assertions.assertFalse(classObj2.hasPathSum(null, 0));
     }
 
     @Test
@@ -43,5 +47,6 @@ public class PathSumTest {
         TreeNode tree = new TreeNode(1, left1, null);
 
         Assertions.assertFalse(classObj.hasPathSum(tree, 1));
+        Assertions.assertFalse(classObj2.hasPathSum(tree, 1));
     }
 }
