@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: iterative solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/basic/BasicThreadExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/basic/BasicThreadImplements.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-THREAD]: Thread learning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem144/PreOrderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-144" />
+                    <option name="lastUsedInstant" value="1679927436" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="threads/basic-run" />
                     <option name="lastUsedInstant" value="1679849907" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-110" />
                     <option name="lastUsedInstant" value="1679728484" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-104" />
-                    <option name="lastUsedInstant" value="1679583338" />
                   </RecentBranch>
                 </list>
               </option>
@@ -379,14 +379,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem144" />
       <recent name="leetcode.tree.binarytree.problem112" />
       <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
       <recent name="leetcode.tree.binarytree.problem104" />
-      <recent name="leetcode.tree.binarytree.problem101" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicThreadImplements">
+  <component name="RunManager" selected="Gradle.PreOrderTraversalTest">
     <configuration name="BasicThreadImplements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.basic.BasicThreadImplements" />
       <module name="Daily-Coding-Problems.main" />
@@ -455,7 +455,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -468,7 +468,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem144.PreOrderTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -478,7 +478,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -491,7 +491,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists&quot;" />
+            <option value="&quot;leetcode.tree.binarytree.problem144.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,16 +506,16 @@
       <item itemvalue="Application.BasicThreadImplements" />
       <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
       <item itemvalue="Gradle.PathSumTest" />
-      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
-      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
+      <item itemvalue="Gradle.PreOrderTraversalTest" />
+      <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PreOrderTraversalTest" />
+        <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
         <item itemvalue="Application.BasicThreadImplements" />
         <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
         <item itemvalue="Gradle.PathSumTest" />
-        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
-        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
       </list>
     </recent_temporary>
   </component>
@@ -527,13 +527,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00147" summary="[PROBLEM-69]: optimal solution using binary search">
-      <created>1678683056846</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1678683056846</updated>
     </task>
     <task id="LOCAL-00148" summary="[PROBLEM-349]: WIP - Intersection of two arrays">
       <created>1678768465882</created>
@@ -871,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679816106819</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="[PROBLEM-THREAD]: Thread learning">
+      <created>1679852361960</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1679852361960</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -886,7 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-705]: optimised solution - implementing a hash set using linked list and array" />
     <MESSAGE value="[PROBLEM-605]: WIP - placing flowers in a flowerbed" />
     <MESSAGE value="[PROBLEM-605]: complete working solution" />
     <MESSAGE value="[PROBLEM-605]: cleaner solution" />
@@ -911,7 +910,8 @@
     <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
     <MESSAGE value="[PROBLEM-112]: complete working solution" />
     <MESSAGE value="[PROBLEM-112]: iterative solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: iterative solution" />
+    <MESSAGE value="[PROBLEM-THREAD]: Thread learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-THREAD]: Thread learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
