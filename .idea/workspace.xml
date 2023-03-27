@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-144]: complete working solution - preorder traversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversalUsingIterativeApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversalUsingIterativeApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem145/PostOrderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem144/PreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem144/PreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-145" />
+                    <option name="lastUsedInstant" value="1679931602" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-144" />
                     <option name="lastUsedInstant" value="1679927436" />
                   </RecentBranch>
@@ -334,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-111" />
                     <option name="lastUsedInstant" value="1679802241" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-110" />
-                    <option name="lastUsedInstant" value="1679728484" />
                   </RecentBranch>
                 </list>
               </option>
@@ -379,27 +380,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem145" />
       <recent name="leetcode.tree.binarytree.problem144" />
       <recent name="leetcode.tree.binarytree.problem112" />
       <recent name="leetcode.tree.binarytree.problem111" />
       <recent name="leetcode.tree.binarytree.problem110" />
-      <recent name="leetcode.tree.binarytree.problem104" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PreOrderTraversalTest">
-    <configuration name="BasicThreadImplements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.basic.BasicThreadImplements" />
-      <module name="Daily-Coding-Problems.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,18 +407,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multithreading.basic.BasicThreadExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.basic.BasicThreadExtension" />
-      <module name="Daily-Coding-Problems.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem145.PostOrderTraversalTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem145.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -503,19 +524,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Application.BasicThreadImplements" />
-      <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
+      <item itemvalue="Gradle.PostOrderTraversalTest" />
+      <item itemvalue="Gradle.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
       <item itemvalue="Gradle.PreOrderTraversalTest" />
       <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes" />
       <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostOrderTraversalTest" />
+        <item itemvalue="Gradle.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
         <item itemvalue="Gradle.PreOrderTraversalTest" />
         <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes" />
         <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
-        <item itemvalue="Application.BasicThreadImplements" />
-        <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
       </list>
     </recent_temporary>
   </component>
@@ -527,13 +548,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00149" summary="[PROBLEM-349]: Two pointer solution using set">
-      <created>1678773325996</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1678773325996</updated>
     </task>
     <task id="LOCAL-00150" summary="[PROBLEM-349]: Using two hash set">
       <created>1678774162473</created>
@@ -871,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679927779351</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach">
+      <created>1679930370502</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1679930370502</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -886,7 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-605]: complete working solution" />
     <MESSAGE value="[PROBLEM-605]: cleaner solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
@@ -911,7 +931,8 @@
     <MESSAGE value="[PROBLEM-112]: iterative solution" />
     <MESSAGE value="[PROBLEM-THREAD]: Thread learning" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-144]: complete working solution - preorder traversal" />
+    <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
