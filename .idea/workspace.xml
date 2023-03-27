@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: complete working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSumIterativeSolution.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-112]: iterative solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/basic/BasicThreadExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/basic/BasicThreadImplements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="threads/basic-run" />
+                    <option name="lastUsedInstant" value="1679849907" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-112" />
                     <option name="lastUsedInstant" value="1679811310" />
                   </RecentBranch>
@@ -335,10 +339,6 @@
                     <option name="branchName" value="PROBLEM-104" />
                     <option name="lastUsedInstant" value="1679583338" />
                   </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-101" />
-                    <option name="lastUsedInstant" value="1679541910" />
-                  </RecentBranch>
                 </list>
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
@@ -347,6 +347,9 @@
         </option>
       </RecentBranches>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -383,7 +386,20 @@
       <recent name="leetcode.tree.binarytree.problem101" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PathSumTest">
+  <component name="RunManager" selected="Application.BasicThreadImplements">
+    <configuration name="BasicThreadImplements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.basic.BasicThreadImplements" />
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -398,6 +414,19 @@
         <ENTRIES>
           <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
         </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multithreading.basic.BasicThreadExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.basic.BasicThreadExtension" />
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -426,29 +455,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -463,29 +469,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem112.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,19 +503,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Application.BasicThreadImplements" />
+      <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
       <item itemvalue="Gradle.PathSumTest" />
-      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" />
       <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
-      <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" />
       <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicThreadImplements" />
+        <item itemvalue="Application.multithreading.basic.BasicThreadExtension" />
         <item itemvalue="Gradle.PathSumTest" />
         <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectTrue_whenTargetSumIs22AndItExists" />
         <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs1AndItDoesNotExists" />
-        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs5AndItDoesNotExists" />
-        <item itemvalue="Gradle.PathSumTest.test_hasPathSum_expectFalse_whenTargetSumIs0AndTreeIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -544,13 +527,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00146" summary="[PROBLEM-69]: optimal solution using binary search">
-      <created>1678682522756</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1678682522756</updated>
     </task>
     <task id="LOCAL-00147" summary="[PROBLEM-69]: optimal solution using binary search">
       <created>1678683056846</created>
@@ -888,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679814038765</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="[PROBLEM-112]: iterative solution">
+      <created>1679816106818</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1679816106819</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-705]: complete working solution - implementing a hash set using linked list" />
     <MESSAGE value="[PROBLEM-705]: optimised solution - implementing a hash set using linked list and array" />
     <MESSAGE value="[PROBLEM-605]: WIP - placing flowers in a flowerbed" />
     <MESSAGE value="[PROBLEM-605]: complete working solution" />
@@ -928,7 +910,8 @@
     <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
     <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
     <MESSAGE value="[PROBLEM-112]: complete working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: complete working solution" />
+    <MESSAGE value="[PROBLEM-112]: iterative solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-112]: iterative solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
