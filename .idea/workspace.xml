@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversalUsingIterativeApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem145/PostOrderTraversalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-145]: complete working solution - postorder traversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -321,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-226" />
+                    <option name="lastUsedInstant" value="1680019576" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-145" />
                     <option name="lastUsedInstant" value="1679931602" />
                   </RecentBranch>
@@ -335,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-112" />
                     <option name="lastUsedInstant" value="1679811310" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-111" />
-                    <option name="lastUsedInstant" value="1679802241" />
                   </RecentBranch>
                 </list>
               </option>
@@ -380,11 +379,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem226" />
       <recent name="leetcode.tree.binarytree.problem145" />
       <recent name="leetcode.tree.binarytree.problem144" />
       <recent name="leetcode.tree.binarytree.problem112" />
       <recent name="leetcode.tree.binarytree.problem111" />
-      <recent name="leetcode.tree.binarytree.problem110" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
@@ -548,13 +547,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00150" summary="[PROBLEM-349]: Using two hash set">
-      <created>1678774162473</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1678774162474</updated>
     </task>
     <task id="LOCAL-00151" summary="[PROBLEM-160]: WIP - finding intersection of two linked lists">
       <created>1678886169818</created>
@@ -892,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679930370502</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="[PROBLEM-145]: complete working solution - postorder traversal">
+      <created>1679936649537</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1679936649537</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -907,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-605]: cleaner solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
@@ -932,7 +930,8 @@
     <MESSAGE value="[PROBLEM-THREAD]: Thread learning" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
+    <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-145]: complete working solution - postorder traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
