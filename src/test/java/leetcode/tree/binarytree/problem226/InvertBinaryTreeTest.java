@@ -20,8 +20,9 @@ public class InvertBinaryTreeTest {
 
         TreeNode rightO1 = new TreeNode(2, right2, left2);
         TreeNode leftO1 = new TreeNode(7, right3, left3);
-        TreeNode output = new TreeNode(4, leftO1, rightO1);
-
+        TreeNode output = tree;
+        output.left = leftO1;
+        output.right = rightO1;
         Assertions.assertEquals(output, classObj.invertTree(tree));
     }
 
@@ -31,7 +32,9 @@ public class InvertBinaryTreeTest {
         TreeNode left1 = new TreeNode(1, null, null);
         TreeNode tree = new TreeNode(2, left1, right1);
 
-        TreeNode output = new TreeNode(2, right1, left1);
+        TreeNode output = tree;
+        output.left = right1;
+        output.right = left1;
 
         Assertions.assertEquals(output, classObj.invertTree(tree));
     }

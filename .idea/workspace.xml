@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-145]: complete working solution - postorder traversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-226]: WIP - Inverting a binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +386,7 @@
       <recent name="leetcode.tree.binarytree.problem111" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -405,6 +405,75 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="InvertBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem226.InvertBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem226.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem226.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -452,90 +521,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem144.PreOrderTraversalTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem144.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem144.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.InvertBinaryTreeTest" />
+      <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree" />
+      <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_" />
       <item itemvalue="Gradle.PostOrderTraversalTest" />
       <item itemvalue="Gradle.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
-      <item itemvalue="Gradle.PreOrderTraversalTest" />
-      <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes" />
-      <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_" />
+        <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree" />
+        <item itemvalue="Gradle.InvertBinaryTreeTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
-        <item itemvalue="Gradle.PreOrderTraversalTest" />
-        <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes" />
-        <item itemvalue="Gradle.PreOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -547,13 +547,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00151" summary="[PROBLEM-160]: WIP - finding intersection of two linked lists">
-      <created>1678886169818</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1678886169818</updated>
     </task>
     <task id="LOCAL-00152" summary="[PROBLEM-160]: complete solution with basic tests passing">
       <created>1678888345033</created>
@@ -891,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679936649537</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="[PROBLEM-226]: WIP - Inverting a binary tree">
+      <created>1680020110149</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1680020110149</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-589]: Preorder traversal working solution" />
     <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
@@ -931,7 +930,8 @@
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-145]: complete working solution - postorder traversal" />
+    <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-226]: WIP - Inverting a binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1275,6 +1275,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversalUsingIterativeApproach.java</url>
           <line>14</line>
           <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
