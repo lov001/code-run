@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-226]: WIP - Inverting a binary tree">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-226]: Complete working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeIterativeApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/javabasic/DemoRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/javabasic/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/javabasic/ClassA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -386,7 +388,7 @@
       <recent name="leetcode.tree.binarytree.problem111" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_">
+  <component name="RunManager" selected="Gradle.InvertBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -531,9 +533,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InvertBinaryTreeTest" />
         <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree_" />
         <item itemvalue="Gradle.InvertBinaryTreeTest.test_invertTree_expectInvertedTree_whenGivenTree" />
-        <item itemvalue="Gradle.InvertBinaryTreeTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest.test_preorderTraversal_expectOrderedList_whenTreeHasNodes" />
       </list>
@@ -547,13 +549,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00152" summary="[PROBLEM-160]: complete solution with basic tests passing">
-      <created>1678888345033</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1678888345033</updated>
     </task>
     <task id="LOCAL-00153" summary="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively">
       <created>1678889031170</created>
@@ -891,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680020110149</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="[PROBLEM-226]: Complete working solution">
+      <created>1680021062022</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1680021062022</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,7 +908,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-589]: Preorder traversal approach 2 using stack" />
     <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
@@ -931,7 +932,8 @@
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
     <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-226]: WIP - Inverting a binary tree" />
+    <MESSAGE value="[PROBLEM-226]: Complete working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-226]: Complete working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
