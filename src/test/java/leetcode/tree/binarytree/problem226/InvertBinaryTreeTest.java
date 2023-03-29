@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 public class InvertBinaryTreeTest {
 
     InvertBinaryTree classObj = new InvertBinaryTree();
+    InvertBinaryTreeIterativeApproach classObj2 = new InvertBinaryTreeIterativeApproach();
 
     @Test
     void test_invertTree_expectInvertedTree_whenGivenTree() {
@@ -24,6 +25,7 @@ public class InvertBinaryTreeTest {
         output.left = leftO1;
         output.right = rightO1;
         Assertions.assertEquals(output, classObj.invertTree(tree));
+        Assertions.assertEquals(output, classObj2.invertTree(tree));
     }
 
     @Test
@@ -37,10 +39,12 @@ public class InvertBinaryTreeTest {
         output.right = left1;
 
         Assertions.assertEquals(output, classObj.invertTree(tree));
+        Assertions.assertEquals(output, classObj2.invertTree(tree));
     }
 
     @Test
     void test_invertTree_expectInvertedTree_whenGivenTreeIsEmpty() {
         Assertions.assertNull(classObj.invertTree(null));
+        Assertions.assertNull(classObj2.invertTree(null));
     }
 }
