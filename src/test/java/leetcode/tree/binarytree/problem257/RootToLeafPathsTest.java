@@ -1,7 +1,6 @@
 package leetcode.tree.binarytree.problem257;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import leetcode.tree.TreeNode;
@@ -19,8 +18,8 @@ public class RootToLeafPathsTest {
         TreeNode left1 = new TreeNode(2, null, right2);
         TreeNode tree = new TreeNode(1, left1, right1);
         List<String> output = new ArrayList<>();
-        output.addAll(Arrays.asList("1", "2", "5"));
-        output.addAll(Arrays.asList("1", "3"));
+        output.add("1->2->5");
+        output.add("1->3");
         Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
     }
 
@@ -28,5 +27,16 @@ public class RootToLeafPathsTest {
     void test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot() {
         TreeNode tree = new TreeNode(1, null, null);
         Assertions.assertEquals(Collections.singletonList("1"), classObj.binaryTreePaths(tree));
+    }
+
+    @Test
+    void test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes() {
+        TreeNode right1 = new TreeNode(3, null, null);
+        TreeNode left1 = new TreeNode(2, null, null);
+        TreeNode tree = new TreeNode(1, left1, right1);
+        List<String> output = new ArrayList<>();
+        output.add("1->2");
+        output.add("1->3");
+        Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
     }
 }
