@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-257]: recursive approach all tests passing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsApproach2UsingDFS.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-257]: recursive approach all tests passing  - using dfs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsIterativeApproachUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" afterDir="false" />
     </list>
@@ -548,13 +548,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00156" summary="[PROBLEM-202]: complete solution with all test case passing">
-      <created>1678941117008</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1678941117008</updated>
-    </task>
     <task id="LOCAL-00157" summary="[PROBLEM-202]: optimised by removing string conversion">
       <created>1678942097902</created>
       <option name="number" value="00157" />
@@ -891,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680171037501</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="[PROBLEM-257]: recursive approach all tests passing  - using dfs">
+      <created>1680171327784</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1680171327784</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions" />
@@ -931,7 +930,8 @@
     <MESSAGE value="[PROBLEM-226]: Complete working solution - using stack" />
     <MESSAGE value="[PROBLEM-257]: WIP- Root to leaf paths" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-257]: recursive approach all tests passing" />
+    <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-257]: recursive approach all tests passing  - using dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,6 +11,8 @@ public class RootToLeafPathsTest {
 
     RootToLeafPaths classObj = new RootToLeafPaths();
     RootToLeafPathsApproach2UsingDFS classObj2 = new RootToLeafPathsApproach2UsingDFS();
+    RootToLeafPathsIterativeApproachUsingStack classObj3 =
+        new RootToLeafPathsIterativeApproachUsingStack();
 
     @Test
     void test_binaryTreePaths_expectTwoPaths_whenGivenTree() {
@@ -23,6 +25,7 @@ public class RootToLeafPathsTest {
         output.add("1->3");
         Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
         Assertions.assertEquals(output, classObj2.binaryTreePaths(tree));
+        Assertions.assertEquals(output, classObj3.binaryTreePaths(tree));
     }
 
     @Test
@@ -30,6 +33,7 @@ public class RootToLeafPathsTest {
         TreeNode tree = new TreeNode(1, null, null);
         Assertions.assertEquals(Collections.singletonList("1"), classObj.binaryTreePaths(tree));
         Assertions.assertEquals(Collections.singletonList("1"), classObj2.binaryTreePaths(tree));
+        Assertions.assertEquals(Collections.singletonList("1"), classObj3.binaryTreePaths(tree));
     }
 
     @Test
@@ -42,5 +46,6 @@ public class RootToLeafPathsTest {
         output.add("1->3");
         Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
         Assertions.assertEquals(output, classObj2.binaryTreePaths(tree));
+        Assertions.assertEquals(output, classObj3.binaryTreePaths(tree));
     }
 }
