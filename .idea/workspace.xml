@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-226]: Complete working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeIterativeApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/javabasic/DemoRunner.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-226]: Complete working solution - using stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/javabasic/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/javabasic/ClassA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-257" />
+                    <option name="lastUsedInstant" value="1680152584" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-226" />
                     <option name="lastUsedInstant" value="1680019576" />
                   </RecentBranch>
@@ -336,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="threads/basic-run" />
                     <option name="lastUsedInstant" value="1679849907" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-112" />
-                    <option name="lastUsedInstant" value="1679811310" />
                   </RecentBranch>
                 </list>
               </option>
@@ -381,11 +379,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem257" />
       <recent name="leetcode.tree.binarytree.problem226" />
       <recent name="leetcode.tree.binarytree.problem145" />
       <recent name="leetcode.tree.binarytree.problem144" />
       <recent name="leetcode.tree.binarytree.problem112" />
-      <recent name="leetcode.tree.binarytree.problem111" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.InvertBinaryTreeTest">
@@ -549,13 +547,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00153" summary="[PROBLEM-160]: approach 2, without extra space but traversing lists recursively">
-      <created>1678889031170</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1678889031171</updated>
     </task>
     <task id="LOCAL-00154" summary="[PROBLEM-160]: approach 3, using the diffrence of length">
       <created>1678889700624</created>
@@ -893,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680021062022</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="[PROBLEM-226]: Complete working solution - using stack">
+      <created>1680089554392</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1680089554392</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -908,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-100]: working solution 58/60 tests passing" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 2" />
     <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
@@ -933,7 +930,8 @@
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
     <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
     <MESSAGE value="[PROBLEM-226]: Complete working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-226]: Complete working solution" />
+    <MESSAGE value="[PROBLEM-226]: Complete working solution - using stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-226]: Complete working solution - using stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
