@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-257]: WIP- Root to leaf paths">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-257]: recursive approach all tests passing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsApproach2UsingDFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -548,13 +548,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00155" summary="[PROBLEM-202]: WIP- check whether a number is a happy number or not">
-      <created>1678938515888</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1678938515888</updated>
-    </task>
     <task id="LOCAL-00156" summary="[PROBLEM-202]: complete solution with all test case passing">
       <created>1678941117008</created>
       <option name="number" value="00156" />
@@ -891,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680153102611</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="[PROBLEM-257]: recursive approach all tests passing">
+      <created>1680171037501</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1680171037501</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-100]: complete working solution approach 3" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - recursive approach" />
     <MESSAGE value="[PROBLEM-101]: complete working solution - iterative approach using stack" />
     <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree" />
@@ -931,7 +930,8 @@
     <MESSAGE value="[PROBLEM-226]: Complete working solution" />
     <MESSAGE value="[PROBLEM-226]: Complete working solution - using stack" />
     <MESSAGE value="[PROBLEM-257]: WIP- Root to leaf paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-257]: WIP- Root to leaf paths" />
+    <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-257]: recursive approach all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

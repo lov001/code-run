@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 public class RootToLeafPathsTest {
 
     RootToLeafPaths classObj = new RootToLeafPaths();
+    RootToLeafPathsApproach2UsingDFS classObj2 = new RootToLeafPathsApproach2UsingDFS();
 
     @Test
     void test_binaryTreePaths_expectTwoPaths_whenGivenTree() {
@@ -21,12 +22,14 @@ public class RootToLeafPathsTest {
         output.add("1->2->5");
         output.add("1->3");
         Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
+        Assertions.assertEquals(output, classObj2.binaryTreePaths(tree));
     }
 
     @Test
     void test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot() {
         TreeNode tree = new TreeNode(1, null, null);
         Assertions.assertEquals(Collections.singletonList("1"), classObj.binaryTreePaths(tree));
+        Assertions.assertEquals(Collections.singletonList("1"), classObj2.binaryTreePaths(tree));
     }
 
     @Test
@@ -38,5 +41,6 @@ public class RootToLeafPathsTest {
         output.add("1->2");
         output.add("1->3");
         Assertions.assertEquals(output, classObj.binaryTreePaths(tree));
+        Assertions.assertEquals(output, classObj2.binaryTreePaths(tree));
     }
 }
