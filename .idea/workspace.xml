@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-404]: WIP - left leaves sum">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-404]: iterative approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +387,7 @@
       <recent name="leetcode.tree.binarytree.problem144" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24">
+  <component name="RunManager" selected="Gradle.LeftLeavesSumTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -404,6 +406,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="LeftLeavesSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem404.LeftLeavesSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -474,29 +499,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RootToLeafPathsTest.test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem257.RootToLeafPathsTest.test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -522,19 +524,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.LeftLeavesSumTest" />
       <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" />
       <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" />
       <item itemvalue="Gradle.RootToLeafPathsTest" />
-      <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot" />
       <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" />
+        <item itemvalue="Gradle.LeftLeavesSumTest" />
         <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" />
+        <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" />
         <item itemvalue="Gradle.RootToLeafPathsTest" />
         <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" />
-        <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectOnlyRoot_whenGivenTreeContainsOnlyRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -546,13 +548,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00159" summary="[PROBLEM-169]: WIP - majority element">
-      <created>1679029757778</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1679029757778</updated>
     </task>
     <task id="LOCAL-00160" summary="[PROBLEM-169]: Brute force approach will all test cases passing">
       <created>1679031036580</created>
@@ -890,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680271336845</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="[PROBLEM-404]: iterative approach">
+      <created>1680281523614</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1680281523614</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -905,7 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-104]: complete working solution - finding depth of a binary tree - two iterative solutions" />
     <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
     <MESSAGE value="[PROBLEM-110]: complete working solution" />
     <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
@@ -930,7 +931,8 @@
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using dfs" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using stack" />
     <MESSAGE value="[PROBLEM-404]: WIP - left leaves sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-404]: WIP - left leaves sum" />
+    <MESSAGE value="[PROBLEM-404]: iterative approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-404]: iterative approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1287,5 +1289,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Daily_Coding_Problems$LeftLeavesSumTest_test_sumOfLeftLeaves_expect0_whenOnlyRootNode.ic" NAME="LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode Coverage Results" MODIFIED="1680282221241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
