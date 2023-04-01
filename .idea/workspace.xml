@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-404]: iterative approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-543]: wip - 100/104 tests passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +319,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-543" />
+                    <option name="lastUsedInstant" value="1680329890" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-404" />
                     <option name="lastUsedInstant" value="1680270953" />
                   </RecentBranch>
@@ -335,10 +337,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-145" />
                     <option name="lastUsedInstant" value="1679931602" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-144" />
-                    <option name="lastUsedInstant" value="1679927436" />
                   </RecentBranch>
                 </list>
               </option>
@@ -380,14 +378,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.binarytree.problem543" />
       <recent name="leetcode.tree.binarytree.problem404" />
       <recent name="leetcode.tree.binarytree.problem257" />
       <recent name="leetcode.tree.binarytree.problem226" />
       <recent name="leetcode.tree.binarytree.problem145" />
-      <recent name="leetcode.tree.binarytree.problem144" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LeftLeavesSumTest">
+  <component name="RunManager" selected="Gradle.DiameterOfBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -406,6 +404,98 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DiameterOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="LeftLeavesSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -430,113 +520,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem404.LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem404.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RootToLeafPathsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem257.RootToLeafPathsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem257.RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
+      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" />
+      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" />
+      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" />
       <item itemvalue="Gradle.LeftLeavesSumTest" />
-      <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" />
-      <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" />
-      <item itemvalue="Gradle.RootToLeafPathsTest" />
-      <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" />
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" />
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" />
         <item itemvalue="Gradle.LeftLeavesSumTest" />
-        <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode" />
-        <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24" />
-        <item itemvalue="Gradle.RootToLeafPathsTest" />
-        <item itemvalue="Gradle.RootToLeafPathsTest.test_binaryTreePaths_expectTwoPaths_whenGivenTreeHas3Nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -548,27 +546,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00160" summary="[PROBLEM-169]: Brute force approach will all test cases passing">
-      <created>1679031036580</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1679031036580</updated>
-    </task>
-    <task id="LOCAL-00161" summary="[PROBLEM-169]: optimal solution with O(1) space">
-      <created>1679032396589</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1679032396589</updated>
-    </task>
-    <task id="LOCAL-00162" summary="[PROBLEM-169]: optimal solution - Moore's Voting algorithm">
-      <created>1679033814481</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1679033814481</updated>
     </task>
     <task id="LOCAL-00163" summary="[PROBLEM-290]: WIP - Word Pattern">
       <created>1679127566967</created>
@@ -892,7 +869,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680281523614</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="[PROBLEM-404]: recursive approach">
+      <created>1680283894969</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1680283894970</updated>
+    </task>
+    <task id="LOCAL-00210" summary="[PROBLEM-543]: wip - diameter of a binary tree">
+      <created>1680330120285</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1680330120285</updated>
+    </task>
+    <task id="LOCAL-00211" summary="[PROBLEM-543]: wip - 100/104 tests passed">
+      <created>1680332566577</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1680332566578</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -907,9 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-110]: basic tests passing and overall 203/228 tests passing" />
-    <MESSAGE value="[PROBLEM-110]: complete working solution" />
-    <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
     <MESSAGE value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
     <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
@@ -932,7 +927,10 @@
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using stack" />
     <MESSAGE value="[PROBLEM-404]: WIP - left leaves sum" />
     <MESSAGE value="[PROBLEM-404]: iterative approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-404]: iterative approach" />
+    <MESSAGE value="[PROBLEM-404]: recursive approach" />
+    <MESSAGE value="[PROBLEM-543]: wip - diameter of a binary tree" />
+    <MESSAGE value="[PROBLEM-543]: wip - 100/104 tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-543]: wip - 100/104 tests passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
