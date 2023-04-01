@@ -26,4 +26,11 @@ public class DiameterOfBinaryTreeTest {
 
         Assertions.assertEquals(1, classObj.diameterOfBinaryTree(tree));
     }
+
+    @Test
+    void test_diameterOfBinaryTree_expect0_whenOnlyRootNode() {
+        TreeNode tree = new TreeNode(1, null, null);
+
+        Assertions.assertEquals(0, classObj.diameterOfBinaryTree(tree));
+    }
 }
