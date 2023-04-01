@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-543]: wip - diameter of a binary tree">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-543]: wip - 100/104 tests passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +385,7 @@
       <recent name="leetcode.tree.binarytree.problem145" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode">
+  <component name="RunManager" selected="Gradle.DiameterOfBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -531,10 +530,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
         <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" />
         <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" />
         <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" />
-        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
         <item itemvalue="Gradle.LeftLeavesSumTest" />
       </list>
     </recent_temporary>
@@ -547,13 +546,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
-    </task>
-    <task id="LOCAL-00162" summary="[PROBLEM-169]: optimal solution - Moore's Voting algorithm">
-      <created>1679033814481</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1679033814481</updated>
     </task>
     <task id="LOCAL-00163" summary="[PROBLEM-290]: WIP - Word Pattern">
       <created>1679127566967</created>
@@ -891,7 +883,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680330120285</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="[PROBLEM-543]: wip - 100/104 tests passed">
+      <created>1680332566577</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1680332566578</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,7 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-110]: approach 2 - using DFS to calculate height of each subtree" />
     <MESSAGE value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
     <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
@@ -931,7 +929,8 @@
     <MESSAGE value="[PROBLEM-404]: iterative approach" />
     <MESSAGE value="[PROBLEM-404]: recursive approach" />
     <MESSAGE value="[PROBLEM-543]: wip - diameter of a binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-543]: wip - diameter of a binary tree" />
+    <MESSAGE value="[PROBLEM-543]: wip - 100/104 tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-543]: wip - 100/104 tests passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1285,15 +1284,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java</url>
           <line>23</line>
           <option name="timeStamp" value="208" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java</url>
-          <line>10</line>
-          <properties class="leetcode.tree.binarytree.problem543.DiameterOfBinaryTree" method="traverse">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="212" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

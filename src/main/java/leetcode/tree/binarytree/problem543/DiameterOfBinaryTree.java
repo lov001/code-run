@@ -5,7 +5,13 @@ import leetcode.tree.TreeNode;
 public class DiameterOfBinaryTree {
 
     public int diameterOfBinaryTree(TreeNode root) {
-        return traverse(root.left) + traverse(root.right);
+        if (root == null) {
+            return 0;
+        }
+        int left = diameterOfBinaryTree(root.left);
+        int right = diameterOfBinaryTree(root.right);
+        int diameter = traverse(root.left) + traverse(root.right);
+        return Math.max(diameter, Math.max(left, right));
     }
 
     private int traverse(TreeNode root) {
