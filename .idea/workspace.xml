@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-543]: wip - 100/104 tests passed">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-543]: working solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" afterDir="false" />
     </list>
@@ -547,13 +547,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672066947518</updated>
     </task>
-    <task id="LOCAL-00163" summary="[PROBLEM-290]: WIP - Word Pattern">
-      <created>1679127566967</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1679127566968</updated>
-    </task>
     <task id="LOCAL-00164" summary="[PROBLEM-290]: basic tests passing">
       <created>1679129525377</created>
       <option name="number" value="00164" />
@@ -890,7 +883,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680332566578</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="[PROBLEM-543]: working solution">
+      <created>1680333290198</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1680333290198</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -905,7 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-110]: approach 3 - in O(n) using recursion and array" />
     <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
@@ -930,7 +929,8 @@
     <MESSAGE value="[PROBLEM-404]: recursive approach" />
     <MESSAGE value="[PROBLEM-543]: wip - diameter of a binary tree" />
     <MESSAGE value="[PROBLEM-543]: wip - 100/104 tests passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-543]: wip - 100/104 tests passed" />
+    <MESSAGE value="[PROBLEM-543]: working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-543]: working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
