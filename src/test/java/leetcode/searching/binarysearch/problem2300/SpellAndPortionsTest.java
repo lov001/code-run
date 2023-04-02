@@ -1,6 +1,7 @@
-package leetcode.arrays.problem2300;
+package leetcode.searching.binarysearch.problem2300;
 
 import java.util.Arrays;
+import leetcode.searching.binarysearch.problem2300.SpellAndPortions;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
