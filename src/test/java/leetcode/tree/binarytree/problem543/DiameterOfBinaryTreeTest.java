@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 public class DiameterOfBinaryTreeTest {
 
     DiameterOfBinaryTree classObj = new DiameterOfBinaryTree();
+    DiameterOfBinaryTreeRecursiveApproach classObj2 = new DiameterOfBinaryTreeRecursiveApproach();
 
     @Test
     void test_diameterOfBinaryTree_expect3_whenDiameterIs3() {
@@ -25,6 +26,7 @@ public class DiameterOfBinaryTreeTest {
         TreeNode tree = new TreeNode(1, left1, null);
 
         Assertions.assertEquals(1, classObj.diameterOfBinaryTree(tree));
+        Assertions.assertEquals(1, classObj2.diameterOfBinaryTree(tree));
     }
 
     @Test
@@ -32,5 +34,6 @@ public class DiameterOfBinaryTreeTest {
         TreeNode tree = new TreeNode(1, null, null);
 
         Assertions.assertEquals(0, classObj.diameterOfBinaryTree(tree));
+        Assertions.assertEquals(0, classObj2.diameterOfBinaryTree(tree));
     }
 }
