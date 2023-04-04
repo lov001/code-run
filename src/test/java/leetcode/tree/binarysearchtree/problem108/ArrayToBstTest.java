@@ -16,7 +16,12 @@ public class ArrayToBstTest {
         TreeNode right1 = new TreeNode(5, null, right4);
         TreeNode left1 = new TreeNode(-10, null, right3);
         TreeNode tree = new TreeNode(0, left1, right1);
-        Assertions.assertEquals(tree, classObj.sortedArrayToBST(input));
+        TreeNode output = classObj.sortedArrayToBST(input);
+        Assertions.assertEquals(tree.val, output.val);
+        Assertions.assertEquals(tree.left.val, output.left.val);
+        Assertions.assertEquals(tree.right.val, output.right.val);
+        Assertions.assertEquals(tree.left.right.val, output.left.right.val);
+        Assertions.assertEquals(tree.right.right.val, output.right.right.val);
     }
 
     @Test
@@ -24,6 +29,8 @@ public class ArrayToBstTest {
         int[] input = {1, 3};
         TreeNode right1 = new TreeNode(3, null, null);
         TreeNode tree = new TreeNode(1, null, right1);
-        Assertions.assertEquals(tree, classObj.sortedArrayToBST(input));
+        TreeNode output = classObj.sortedArrayToBST(input);
+        Assertions.assertEquals(tree.val, output.val);
+        Assertions.assertEquals(tree.right.val, output.right.val);
     }
 }
