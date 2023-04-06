@@ -30,7 +30,7 @@ public class SearchTargetInBSTTest {
         TreeNode left1 = new TreeNode(2, left2, right2);
         TreeNode tree = new TreeNode(4, left1, right1);
 
-        TreeNode output = classObj.searchBST(tree, 2);
+        TreeNode output = classObj.searchBST(tree, 5);
         Assertions.assertNull(output);
     }
 }
