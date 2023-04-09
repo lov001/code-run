@@ -13,6 +13,7 @@ public class ModeInBST {
     public int[] findMode(TreeNode root) {
         Map<Integer, Integer> map = new HashMap<>();
         Stack<TreeNode> stack = new Stack<>();
+        List<Integer> result = new ArrayList<>();
         stack.push(root);
         while (!stack.isEmpty()) {
             TreeNode node = stack.pop();
@@ -29,14 +30,12 @@ public class ModeInBST {
             }
         }
         int max = Integer.MIN_VALUE;
-        List<Integer> result = new ArrayList<>();
         for (Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() >= max) {
+            if (entry.getValue() > max) {
                 max = entry.getValue();
-            }
-        }
-        for (Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == max) {
+                result.clear();
+                result.add(entry.getKey());
+            } else if (entry.getValue() == max) {
                 result.add(entry.getKey());
             }
         }
