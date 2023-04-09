@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 public class ModeInBSTTest {
 
     ModeInBST classObj = new ModeInBST();
+    ModeInBSTApproach2 classObj2 = new ModeInBSTApproach2();
 
 
     @Test
@@ -17,6 +18,7 @@ public class ModeInBSTTest {
         TreeNode tree = new TreeNode(1, null, right1);
         int[] output = {2};
         Assertions.assertEquals(Arrays.toString(output), Arrays.toString(classObj.findMode(tree)));
+        Assertions.assertEquals(Arrays.toString(output), Arrays.toString(classObj2.findMode(tree)));
     }
 
     @Test
@@ -24,5 +26,6 @@ public class ModeInBSTTest {
         TreeNode tree = new TreeNode(0, null, null);
         int[] output = {0};
         Assertions.assertEquals(Arrays.toString(output), Arrays.toString(classObj.findMode(tree)));
+        Assertions.assertEquals(Arrays.toString(output), Arrays.toString(classObj2.findMode(tree)));
     }
 }
