@@ -14,4 +14,14 @@ public class QueueUsingStackTest {
         Assertions.assertEquals(1, myQueue.pop());
         Assertions.assertFalse(myQueue.empty());
     }
+
+    @Test
+    void test_QueueUsingStack_() {
+        QueueUsingStackApproach2 myQueue = new QueueUsingStackApproach2();
+        myQueue.push(1);
+        myQueue.push(2);
+        Assertions.assertEquals(1, myQueue.peek());
+        Assertions.assertEquals(1, myQueue.pop());
+        Assertions.assertFalse(myQueue.empty());
+    }
 }
