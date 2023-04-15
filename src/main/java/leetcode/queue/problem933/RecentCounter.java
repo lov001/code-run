@@ -25,6 +25,8 @@ public class RecentCounter {
             int currentRequest = requests.get(i);
             if (currentRequest >= start && currentRequest <= end) {
                 count++;
+            } else {
+                break;
             }
         }
         return count;
