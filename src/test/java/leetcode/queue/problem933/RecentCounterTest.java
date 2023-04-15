@@ -13,4 +13,31 @@ public class RecentCounterTest {
         Assertions.assertEquals(3, counter.ping(3001));
         Assertions.assertEquals(3, counter.ping(3002));
     }
+
+    @Test
+    void test_noOfRequestsInLast3000_usingTreeMap() {
+        RecentCounterUsingTreeMap counter = new RecentCounterUsingTreeMap();
+        Assertions.assertEquals(1, counter.ping(1));
+        Assertions.assertEquals(2, counter.ping(100));
+        Assertions.assertEquals(3, counter.ping(3001));
+        Assertions.assertEquals(3, counter.ping(3002));
+    }
+
+    @Test
+    void test_noOfRequestsInLast3000_usingBinarySearch() {
+        RecentCounterUsingBinarySearch counter = new RecentCounterUsingBinarySearch();
+        Assertions.assertEquals(1, counter.ping(1));
+        Assertions.assertEquals(2, counter.ping(100));
+        Assertions.assertEquals(3, counter.ping(3001));
+        Assertions.assertEquals(3, counter.ping(3002));
+    }
+
+    @Test
+    void test_noOfRequestsInLast3000_usingQueue() {
+        RecentCounterUsingQueue counter = new RecentCounterUsingQueue();
+        Assertions.assertEquals(1, counter.ping(1));
+        Assertions.assertEquals(2, counter.ping(100));
+        Assertions.assertEquals(3, counter.ping(3001));
+        Assertions.assertEquals(3, counter.ping(3002));
+    }
 }
