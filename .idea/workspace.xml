@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="thread local test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/javabasic/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/narytree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/narytree/amazoncodingproblem/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -359,18 +361,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lovverma/Workspace/IntelliJ Workspace/Daily-Coding-Problems/src/test/java/leetcode/arrays&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
@@ -380,11 +383,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.tree.narytree" />
+      <recent name="leetcode.tree.narytree.amazoncodingproblem" />
       <recent name="leetcode.tree.binarytree.problem543" />
       <recent name="leetcode.tree.binarytree.problem404" />
       <recent name="leetcode.tree.binarytree.problem257" />
-      <recent name="leetcode.tree.binarytree.problem226" />
-      <recent name="leetcode.tree.binarytree.problem145" />
     </key>
   </component>
   <component name="RunManager" selected="Java Scratch.Scratch">
