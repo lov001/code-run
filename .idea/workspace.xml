@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-88]: problem statement for merge sorted array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-88]: brute force solution with additional space">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayOptimalSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayBruteForceWithExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -378,7 +378,7 @@
       <recent name="leetcode.tree.binarytree.problem404" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergeSortedArrayTest">
+  <component name="RunManager" selected="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenOneArrayIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3&quot;" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenOneArrayIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -524,15 +524,15 @@
       <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" />
       <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
       <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0" />
-      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
+      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenOneArrayIsEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" />
         <item itemvalue="Gradle.MergeSortedArrayTest" />
         <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
-        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
         <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0" />
-        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" />
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenOneArrayIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -888,7 +888,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-111]: complete woring solution" />
     <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
     <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
     <MESSAGE value="[PROBLEM-112]: complete working solution" />
@@ -928,7 +927,8 @@
     <MESSAGE value="thread local test" />
     <MESSAGE value="[amazon-interview-problem]: dummy commit" />
     <MESSAGE value="[PROBLEM-88]: problem statement for merge sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-88]: problem statement for merge sorted array" />
+    <MESSAGE value="[PROBLEM-88]: brute force solution with additional space" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-88]: brute force solution with additional space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1284,34 +1284,24 @@
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="209" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayBruteForceWithExtraSpace.java</url>
           <line>18</line>
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayBruteForceWithExtraSpace.java</url>
           <line>33</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayBruteForceWithExtraSpace.java</url>
           <line>8</line>
           <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayOptimalSolution.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

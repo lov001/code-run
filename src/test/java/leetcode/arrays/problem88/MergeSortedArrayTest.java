@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 public class MergeSortedArrayTest {
 
 
-   MergeSortedArrayApproach2 classObj = new MergeSortedArrayApproach2();
+   MergeSortedArrayBruteForceWithExtraSpace classObj = new MergeSortedArrayBruteForceWithExtraSpace();
+   MergeSortedArrayOptimalSolution classObj2 = new MergeSortedArrayOptimalSolution();
 
    @Test
    void test_merge_expectMergedSortedArray_whenTwoArraysOfSize3() {
@@ -14,7 +15,8 @@ public class MergeSortedArrayTest {
       int[] array2 = {2, 5, 6};
       int m = 3, n = 3;
       int[] expectedOutput = {1, 2, 2, 3, 5, 6};
-      classObj.merge(array1, m, array2, n);
+//      classObj.merge(array1, m, array2, n);
+      classObj2.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
 
@@ -24,7 +26,8 @@ public class MergeSortedArrayTest {
       int[] array2 = {};
       int m = 1, n = 0;
       int[] expectedOutput = {1};
-      classObj.merge(array1, m, array2, n);
+//      classObj.merge(array1, m, array2, n);
+      classObj2.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
 
@@ -34,7 +37,8 @@ public class MergeSortedArrayTest {
       int[] array2 = {1};
       int m = 0, n = 1;
       int[] expectedOutput = {1};
-      classObj.merge(array1, m, array2, n);
+//      classObj.merge(array1, m, array2, n);
+      classObj2.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
 
@@ -44,7 +48,8 @@ public class MergeSortedArrayTest {
       int[] array2 = {1, 2, 3};
       int m = 3, n = 3;
       int[] expectedOutput = {1, 2, 3, 4, 5, 6};
-      classObj.merge(array1, m, array2, n);
+//      classObj.merge(array1, m, array2, n);
+      classObj2.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
 
@@ -54,7 +59,8 @@ public class MergeSortedArrayTest {
       int[] array2 = {1, 2, 3, 5, 6};
       int m = 1, n = 5;
       int[] expectedOutput = {1, 2, 3, 4, 5, 6};
-      classObj.merge(array1, m, array2, n);
+//      classObj.merge(array1, m, array2, n);
+      classObj2.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
 }
