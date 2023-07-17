@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[amazon-interview-problem]: dummy commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-88]: problem statement for merge sorted array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +359,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -370,14 +371,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem88" />
       <recent name="leetcode.tree.narytree" />
       <recent name="leetcode.tree.narytree.amazoncodingproblem" />
       <recent name="leetcode.tree.binarytree.problem543" />
       <recent name="leetcode.tree.binarytree.problem404" />
-      <recent name="leetcode.tree.binarytree.problem257" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="Gradle.MergeSortedArrayTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -397,7 +398,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiameterOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -410,7 +411,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -418,10 +419,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode&quot;" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,10 +443,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -458,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1&quot;" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,10 +467,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.tree.binarytree.problem543.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3&quot;" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,31 +491,48 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
-      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" />
-      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" />
-      <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" />
-      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Gradle.MergeSortedArrayTest" />
+      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" />
+      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
+      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0" />
+      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
-        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect0_whenOnlyRootNode" />
-        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect1_whenDiameterIs1" />
-        <item itemvalue="Gradle.DiameterOfBinaryTreeTest.test_diameterOfBinaryTree_expect3_whenDiameterIs3" />
+        <item itemvalue="Gradle.MergeSortedArrayTest" />
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenMIs0" />
+        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray1ContainsOnly4" />
       </list>
     </recent_temporary>
   </component>
@@ -870,7 +888,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -885,8 +903,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
-    <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
     <MESSAGE value="[PROBLEM-111]: complete woring solution" />
     <MESSAGE value="[PROBLEM-111]: complete working solution - iterative approach" />
     <MESSAGE value="[PROBLEM-112]: WIP - Target sum of a path" />
@@ -911,7 +927,8 @@
     <MESSAGE value="[PROBLEM-543]: working solution" />
     <MESSAGE value="thread local test" />
     <MESSAGE value="[amazon-interview-problem]: dummy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[amazon-interview-problem]: dummy commit" />
+    <MESSAGE value="[PROBLEM-88]: problem statement for merge sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-88]: problem statement for merge sorted array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1266,8 +1283,42 @@
           <line>23</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArrayApproach2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Daily_Coding_Problems$LeftLeavesSumTest_test_sumOfLeftLeaves_expect0_whenOnlyRootNode.ic" NAME="LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode Coverage Results" MODIFIED="1680282221241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

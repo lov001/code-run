@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class MergeSortedArrayTest {
 
 
-   MergeSortedArray classObj = new MergeSortedArray();
+   MergeSortedArrayApproach2 classObj = new MergeSortedArrayApproach2();
 
    @Test
    void test_merge_expectMergedSortedArray_whenTwoArraysOfSize3() {
@@ -34,6 +34,26 @@ public class MergeSortedArrayTest {
       int[] array2 = {1};
       int m = 0, n = 1;
       int[] expectedOutput = {1};
+      classObj.merge(array1, m, array2, n);
+      Assertions.assertArrayEquals(expectedOutput, array1);
+   }
+
+   @Test
+   void test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1() {
+      int[] array1 = {4, 5, 6, 0, 0, 0};
+      int[] array2 = {1, 2, 3};
+      int m = 3, n = 3;
+      int[] expectedOutput = {1, 2, 3, 4, 5, 6};
+      classObj.merge(array1, m, array2, n);
+      Assertions.assertArrayEquals(expectedOutput, array1);
+   }
+
+   @Test
+   void test_merge_expectMergedSortedArray_whenArray1ContainsOnly4() {
+      int[] array1 = {4, 0, 0, 0, 0, 0};
+      int[] array2 = {1, 2, 3, 5, 6};
+      int m = 1, n = 5;
+      int[] expectedOutput = {1, 2, 3, 4, 5, 6};
       classObj.merge(array1, m, array2, n);
       Assertions.assertArrayEquals(expectedOutput, array1);
    }
