@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="thread local test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/narytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/narytree/amazoncodingproblem/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[amazon-interview-problem]: dummy commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem88/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem88/MergeSortedArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -321,24 +320,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="PROBLEM-543" />
-                    <option name="lastUsedInstant" value="1680329890" />
+                    <option name="branchName" value="PROBLEM-88" />
+                    <option name="lastUsedInstant" value="1689602039" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="PROBLEM-404" />
-                    <option name="lastUsedInstant" value="1680270953" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-257" />
-                    <option name="lastUsedInstant" value="1680152584" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-226" />
-                    <option name="lastUsedInstant" value="1680019576" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-145" />
-                    <option name="lastUsedInstant" value="1679931602" />
+                    <option name="branchName" value="amazon-interview-problem" />
+                    <option name="lastUsedInstant" value="1689356979" />
                   </RecentBranch>
                 </list>
               </option>
@@ -366,8 +353,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run",
+    "git-widget-placeholder": "PROBLEM-88",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -883,7 +870,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -898,7 +885,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-111]: WIP - finding minimum depth of a binary tree" />
     <MESSAGE value="[PROBLEM-111]: WIP - basic tests passing" />
     <MESSAGE value="[PROBLEM-111]: WIP - 41/52 tests passing" />
     <MESSAGE value="[PROBLEM-111]: complete woring solution" />
@@ -924,7 +910,8 @@
     <MESSAGE value="[PROBLEM-543]: wip - 100/104 tests passed" />
     <MESSAGE value="[PROBLEM-543]: working solution" />
     <MESSAGE value="thread local test" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread local test" />
+    <MESSAGE value="[amazon-interview-problem]: dummy commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[amazon-interview-problem]: dummy commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
