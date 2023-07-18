@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-26]: WIP">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-26]: working solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem26/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem26/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-80" />
+                    <option name="lastUsedInstant" value="1689690757" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-26" />
                     <option name="lastUsedInstant" value="1689614152" />
                   </RecentBranch>
@@ -356,7 +362,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-26",
+    "git-widget-placeholder": "PROBLEM-80",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -367,20 +373,21 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem80" />
       <recent name="leetcode.arrays.problem88" />
       <recent name="leetcode.tree.narytree" />
       <recent name="leetcode.tree.narytree.amazoncodingproblem" />
       <recent name="leetcode.tree.binarytree.problem543" />
-      <recent name="leetcode.tree.binarytree.problem404" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when1">
+  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromSortedArray2Test">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -400,7 +407,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromSortedArray2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -413,7 +420,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -424,7 +431,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -437,7 +444,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1&quot;" />
+            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -448,7 +455,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -461,7 +468,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem88.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3&quot;" />
+            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +479,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +492,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem26.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -496,7 +503,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -509,7 +516,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem26.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when1&quot;" />
+            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -522,19 +529,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MergeSortedArrayTest" />
-      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
-      <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when1" />
+      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test" />
+      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" />
+      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" />
+      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" />
+      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when1" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest.test_removeDuplicates_expect_when" />
-        <item itemvalue="Gradle.MergeSortedArrayTest" />
-        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenTwoArraysOfSize3" />
-        <item itemvalue="Gradle.MergeSortedArrayTest.test_merge_expectMergedSortedArray_whenArray2WillComeBeforeArray1" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" />
       </list>
     </recent_temporary>
   </component>
@@ -890,7 +897,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -905,7 +912,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-112]: complete working solution" />
     <MESSAGE value="[PROBLEM-112]: iterative solution" />
     <MESSAGE value="[PROBLEM-THREAD]: Thread learning" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
@@ -930,7 +936,8 @@
     <MESSAGE value="[PROBLEM-88]: brute force solution with additional space" />
     <MESSAGE value="[PROBLEM-88]: optimal solution in constant space" />
     <MESSAGE value="[PROBLEM-26]: WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-26]: WIP" />
+    <MESSAGE value="[PROBLEM-26]: working solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-26]: working solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1314,6 +1321,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem26/RemoveDuplicatesFromSortedArray.java</url>
           <line>9</line>
           <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="221" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
