@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: Rotate Array using appending same array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: right shift approach and in-place shift">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach4Reversing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,14 +386,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem189" />
       <recent name="leetcode.arrays.problem80" />
       <recent name="leetcode.arrays.problem88" />
       <recent name="leetcode.tree.narytree" />
       <recent name="leetcode.tree.narytree.amazoncodingproblem" />
-      <recent name="leetcode.tree.binarytree.problem543" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RotateArrayTest">
+  <component name="RunManager" selected="Gradle.RotateArrayUsingAppendingTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -410,7 +413,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayUsingAppendingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -423,7 +426,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayUsingAppendingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -434,7 +437,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -447,7 +450,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -458,7 +461,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -471,7 +474,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -482,7 +485,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -495,7 +498,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,7 +509,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -519,7 +522,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +535,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RotateArrayTest" />
-      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
-      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
-      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" />
-      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" />
+      <item itemvalue="Gradle.RotateArrayUsingAppendingTest" />
+      <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
+      <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
+      <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs2" />
+      <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RotateArrayTest" />
-        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" />
-        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
-        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
-        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" />
+        <item itemvalue="Gradle.RotateArrayUsingAppendingTest" />
+        <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
+        <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
+        <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs2" />
+        <item itemvalue="Gradle.RotateArrayUsingAppendingTest.test_rotate_expect_whenRotatingFactorIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
     <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
@@ -940,7 +942,8 @@
     <MESSAGE value="[PROBLEM-26]: working solution" />
     <MESSAGE value="[PROBLEM-80]: working solution" />
     <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: Rotate Array using appending same array" />
+    <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: right shift approach and in-place shift" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,6 +1332,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2.java</url>
           <line>9</line>
           <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
