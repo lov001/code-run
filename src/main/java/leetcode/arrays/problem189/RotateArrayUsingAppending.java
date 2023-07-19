@@ -1,7 +1,7 @@
 package leetcode.arrays.problem189;
 
 
-public class RotateArray {
+public class RotateArrayUsingAppending {
 
 
    public void rotate(int[] nums, int k) {
