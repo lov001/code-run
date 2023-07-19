@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-26]: working solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem80/RemoveDuplicatesFromSortedArray2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: Rotate Array using appending same array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -321,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-189" />
+                    <option name="lastUsedInstant" value="1689776213" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-80" />
                     <option name="lastUsedInstant" value="1689690757" />
                   </RecentBranch>
@@ -362,7 +365,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-80",
+    "git-widget-placeholder": "PROBLEM-189",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -387,7 +390,7 @@
       <recent name="leetcode.tree.binarytree.problem543" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromSortedArray2Test">
+  <component name="RunManager" selected="Gradle.RotateArrayTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -407,7 +410,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -420,7 +423,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -431,7 +434,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -444,7 +447,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -455,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -468,7 +471,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -479,7 +482,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -492,7 +495,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -503,7 +506,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -516,7 +519,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem80.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem189.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -529,19 +532,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" />
-      <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" />
+      <item itemvalue="Gradle.RotateArrayTest" />
+      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
+      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
+      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" />
+      <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when55" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect7_when1" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect5_when" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromSortedArray2Test.test_removeDuplicates_expect_when" />
+        <item itemvalue="Gradle.RotateArrayTest" />
+        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs2" />
+        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyOneElementAndRotatingFactorIs2" />
+        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenOnlyTwoElementAndRotatingFactorIs3" />
+        <item itemvalue="Gradle.RotateArrayTest.test_rotate_expect_whenRotatingFactorIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -897,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -912,8 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-112]: iterative solution" />
-    <MESSAGE value="[PROBLEM-THREAD]: Thread learning" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
@@ -937,7 +938,9 @@
     <MESSAGE value="[PROBLEM-88]: optimal solution in constant space" />
     <MESSAGE value="[PROBLEM-26]: WIP" />
     <MESSAGE value="[PROBLEM-26]: working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-26]: working solution" />
+    <MESSAGE value="[PROBLEM-80]: working solution" />
+    <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: Rotate Array using appending same array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
