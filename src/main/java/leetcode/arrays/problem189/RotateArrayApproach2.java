@@ -11,9 +11,8 @@ public class RotateArrayApproach2 {
       if (k == 0) {
          return;
       }
-      k = k > length ? k % length : k;
+      k = k % length;
       int[] subArray = Arrays.copyOfRange(nums, 0, k + 1 >= length ? k : k + 1);
-      System.out.println(Arrays.toString(subArray));
       int j = 0;
       for (int i = length - k; i < length; i++) {
          nums[j++] = nums[i];
@@ -21,7 +20,6 @@ public class RotateArrayApproach2 {
       for (int i = 0; i <= k && j < length; i++) {
          nums[j++] = subArray[i];
       }
-      System.out.println(Arrays.toString(nums));
    }
 
 }

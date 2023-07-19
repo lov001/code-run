@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: Rotate Array using appending same array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: right shift approach and in-place shift">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach4Reversing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -902,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -917,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal" />
     <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
     <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
@@ -942,7 +942,8 @@
     <MESSAGE value="[PROBLEM-26]: working solution" />
     <MESSAGE value="[PROBLEM-80]: working solution" />
     <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: Rotate Array using appending same array" />
+    <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: right shift approach and in-place shift" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,18 +1335,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java</url>
           <line>10</line>
           <option name="timeStamp" value="225" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

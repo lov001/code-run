@@ -8,7 +8,7 @@ public class RotateArrayApproach3RightShift {
       if (k == 0) {
          return;
       }
-      k = k > length ? k % length : k;
+      k = k % length;
       for (int shift = 0; shift < k; shift++) {
          int last = nums[length - 1];
          for (int i = length - 1; i > 0; i--) {
