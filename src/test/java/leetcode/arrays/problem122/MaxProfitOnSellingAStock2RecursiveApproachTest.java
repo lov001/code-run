@@ -3,10 +3,10 @@ package leetcode.arrays.problem122;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MaxProfitOnSellingAStock2Test {
+public class MaxProfitOnSellingAStock2RecursiveApproachTest {
 
 
-   MaxProfitOnSellingAStock2 classObj = new MaxProfitOnSellingAStock2();
+   MaxProfitOnSellingAStock2RecursiveApproach classObj = new MaxProfitOnSellingAStock2RecursiveApproach();
 
    @Test
    void test_maxProfit_expect7_when() {
