@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: right shift approach and in-place shift">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach4Reversing.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-189]: optimal solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem122/MaxProfitOnSellingAStock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem122/MaxProfitOnSellingAStock2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayUsingAppending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem189/RotateArrayUsingAppendingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-122" />
+                    <option name="lastUsedInstant" value="1689863925" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-189" />
                     <option name="lastUsedInstant" value="1689776213" />
                   </RecentBranch>
@@ -337,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-88" />
                     <option name="lastUsedInstant" value="1689602039" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="amazon-interview-problem" />
-                    <option name="lastUsedInstant" value="1689356979" />
                   </RecentBranch>
                 </list>
               </option>
@@ -368,7 +365,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-189",
+    "git-widget-placeholder": "PROBLEM-122",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -903,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-144]: complete working solution - preorder traversal - iterative approach" />
     <MESSAGE value="[PROBLEM-145]: complete working solution - postorder traversal" />
     <MESSAGE value="[PROBLEM-226]: WIP - Inverting a binary tree" />
     <MESSAGE value="[PROBLEM-226]: Complete working solution" />
@@ -943,7 +939,8 @@
     <MESSAGE value="[PROBLEM-80]: working solution" />
     <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
     <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: right shift approach and in-place shift" />
+    <MESSAGE value="[PROBLEM-189]: optimal solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-189]: optimal solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
