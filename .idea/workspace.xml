@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-122]: recursive approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem122/MaxProfitOnSellingAStock2DynamicApproach.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-55]: working solution for maximum jumps">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameRecursiveApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem122/MaxProfitOnSellingAStock2RecursiveApproachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem122/MaxProfitOnSellingAStock2RecursiveApproachTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-55" />
+                    <option name="lastUsedInstant" value="1690206758" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-122" />
                     <option name="lastUsedInstant" value="1689863925" />
                   </RecentBranch>
@@ -334,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-26" />
                     <option name="lastUsedInstant" value="1689614152" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-88" />
-                    <option name="lastUsedInstant" value="1689602039" />
                   </RecentBranch>
                 </list>
               </option>
@@ -365,12 +366,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-122",
+    "git-widget-placeholder": "PROBLEM-55",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -383,14 +389,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem55" />
       <recent name="leetcode.arrays.problem122" />
       <recent name="leetcode.arrays.problem189" />
       <recent name="leetcode.arrays.problem80" />
       <recent name="leetcode.arrays.problem88" />
-      <recent name="leetcode.tree.narytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest">
+  <component name="RunManager" selected="Gradle.JumpGameTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -410,7 +416,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfitOnSellingAStock2RecursiveApproachTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -423,7 +429,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem122.MaxProfitOnSellingAStock2RecursiveApproachTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem55.JumpGameTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -434,7 +440,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect0_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -447,7 +453,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem122.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect0_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -458,7 +464,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect4_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameTest.test_canJump_expectTrue_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -471,7 +477,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem122.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect4_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -482,7 +488,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect7_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -495,7 +501,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem122.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect7_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,7 +512,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaxProfitOnSellingAStock2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -519,7 +525,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem122.MaxProfitOnSellingAStock2Test&quot;" />
+            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +538,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest" />
-      <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect0_when" />
-      <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect4_when" />
-      <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect7_when" />
-      <item itemvalue="Gradle.MaxProfitOnSellingAStock2Test" />
+      <item itemvalue="Gradle.JumpGameTest" />
+      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
+      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_when" />
+      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" />
+      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest" />
-        <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect7_when" />
-        <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect0_when" />
-        <item itemvalue="Gradle.MaxProfitOnSellingAStock2RecursiveApproachTest.test_maxProfit_expect4_when" />
-        <item itemvalue="Gradle.MaxProfitOnSellingAStock2Test" />
+        <item itemvalue="Gradle.JumpGameTest" />
+        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" />
+        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
+        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" />
+        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_when" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +906,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,9 +921,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-226]: Complete working solution" />
-    <MESSAGE value="[PROBLEM-226]: Complete working solution - using stack" />
-    <MESSAGE value="[PROBLEM-257]: WIP- Root to leaf paths" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using dfs" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using stack" />
@@ -940,7 +943,10 @@
     <MESSAGE value="[PROBLEM-189]: optimal solution" />
     <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-122]: recursive approach" />
+    <MESSAGE value="[PROBLEM-122]: simpler approach" />
+    <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
+    <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-55]: working solution for maximum jumps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1339,6 +1345,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem189/RotateArrayApproach3RightShift.java</url>
           <line>10</line>
           <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="232" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
