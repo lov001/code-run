@@ -6,9 +6,6 @@ public class JumpGame {
    public boolean canJump(int[] nums) {
       int reachable = 0;
       for (int i = 0; i < nums.length; i++) {
-         if (nums[i] == 0) {
-            continue;
-         }
          if (i > reachable) {
             return false;
          }

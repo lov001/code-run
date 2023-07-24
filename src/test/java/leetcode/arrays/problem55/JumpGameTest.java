@@ -8,30 +8,35 @@ public class JumpGameTest {
 
    JumpGame classObj = new JumpGame();
    JumpGameRecursiveApproach classObj2 = new JumpGameRecursiveApproach();
+   JumpGameBackTracking classObj3 = new JumpGameBackTracking();
 
    @Test
    void test_canJump_expectTrue_whenEndIndexIsReachable() {
       int[] input = {2, 3, 1, 1, 4};
       Assertions.assertTrue(classObj.canJump(input));
       Assertions.assertTrue(classObj2.canJump(input));
+      Assertions.assertTrue(classObj3.canJump(input));
    }
 
    @Test
    void test_canJump_expectFalse_whenEndIndexIsNotReachable() {
       int[] input = {3, 2, 1, 0, 4};
       Assertions.assertFalse(classObj.canJump(input));
+      Assertions.assertFalse(classObj3.canJump(input));
    }
 
    @Test
    void test_canJump_expectFalse_whenStartingPointIs0() {
       int[] input = {0, 2, 1, 0, 4};
       Assertions.assertFalse(classObj.canJump(input));
+      Assertions.assertFalse(classObj3.canJump(input));
    }
 
    @Test
    void test_canJump_expectTrue_whenAll1s() {
       int[] input = {1, 1, 1, 1, 1};
       Assertions.assertTrue(classObj.canJump(input));
+      Assertions.assertTrue(classObj3.canJump(input));
    }
 
    @Test
@@ -39,6 +44,7 @@ public class JumpGameTest {
       int[] input = {2, 0};
       Assertions.assertTrue(classObj.canJump(input));
       Assertions.assertTrue(classObj2.canJump(input));
+      Assertions.assertTrue(classObj3.canJump(input));
    }
 
    @Test
@@ -46,6 +52,7 @@ public class JumpGameTest {
       int[] input = {1, 3, 2};
       Assertions.assertTrue(classObj.canJump(input));
       Assertions.assertTrue(classObj2.canJump(input));
+      Assertions.assertTrue(classObj3.canJump(input));
    }
 
    @Test
@@ -53,5 +60,6 @@ public class JumpGameTest {
       int[] input = {2, 5, 0, 0};
       Assertions.assertTrue(classObj.canJump(input));
       Assertions.assertTrue(classObj2.canJump(input));
+      Assertions.assertTrue(classObj3.canJump(input));
    }
 }
