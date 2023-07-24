@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-55]: working solution for maximum jumps">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameRecursiveApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameBackTracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" afterDir="false" />
@@ -396,7 +396,7 @@
       <recent name="leetcode.arrays.problem88" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JumpGameTest">
+  <component name="RunManager" selected="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -546,9 +546,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
         <item itemvalue="Gradle.JumpGameTest" />
         <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" />
-        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
         <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" />
         <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_when" />
       </list>
@@ -906,7 +906,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1347,14 +1347,9 @@
           <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="232" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameBackTracking.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="233" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
