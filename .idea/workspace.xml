@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-55]: working solution for maximum jumps">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameBackTracking.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-45]: WIP - Jump Game II">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45/JumpGameIIBruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem55/JumpGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45/JumpGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem45/JumpGameIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem45/JumpGameIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-45" />
+                    <option name="lastUsedInstant" value="1690305018" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-55" />
                     <option name="lastUsedInstant" value="1690206758" />
                   </RecentBranch>
@@ -335,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-80" />
                     <option name="lastUsedInstant" value="1689690757" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-26" />
-                    <option name="lastUsedInstant" value="1689614152" />
                   </RecentBranch>
                 </list>
               </option>
@@ -366,7 +366,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-55",
+    "git-widget-placeholder": "PROBLEM-45",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -382,6 +382,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -389,14 +390,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem45" />
       <recent name="leetcode.arrays.problem55" />
       <recent name="leetcode.arrays.problem122" />
       <recent name="leetcode.arrays.problem189" />
       <recent name="leetcode.arrays.problem80" />
-      <recent name="leetcode.arrays.problem88" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable">
+  <component name="RunManager" selected="Gradle.JumpGameIITest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -416,7 +417,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -429,7 +430,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem55.JumpGameTest&quot;" />
+            <option value="&quot;leetcode.arrays.problem45.JumpGameIITest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -440,7 +441,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameIITest.test_canJump_expect1_whenJumpDirectlyOnLastIndex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -453,7 +454,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable&quot;" />
+            <option value="&quot;leetcode.arrays.problem45.JumpGameIITest.test_canJump_expect1_whenJumpDirectlyOnLastIndex&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -464,7 +465,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JumpGameTest.test_canJump_expectTrue_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameIITest.test_canJump_expect2_whenEndIndexIsReachable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -477,7 +478,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem45.JumpGameIITest.test_canJump_expect2_whenEndIndexIsReachable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -488,7 +489,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameIITest.test_canJump_expect2_whenLastTwoElementsIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -501,7 +502,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable&quot;" />
+            <option value="&quot;leetcode.arrays.problem45.JumpGameIITest.test_canJump_expect2_whenLastTwoElementsIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -512,7 +513,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JumpGameIITest.test_canJump_expect4_whenAll1s" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -525,7 +526,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem55.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0&quot;" />
+            <option value="&quot;leetcode.arrays.problem45.JumpGameIITest.test_canJump_expect4_whenAll1s&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -538,19 +539,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.JumpGameTest" />
-      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
-      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_when" />
-      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" />
-      <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" />
+      <item itemvalue="Gradle.JumpGameIITest" />
+      <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect1_whenJumpDirectlyOnLastIndex" />
+      <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect2_whenEndIndexIsReachable" />
+      <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect2_whenLastTwoElementsIs0" />
+      <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect4_whenAll1s" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectFalse_whenEndIndexIsNotReachable" />
-        <item itemvalue="Gradle.JumpGameTest" />
-        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenEndIndexIsReachable" />
-        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_whenLAstTwoElementsIs0" />
-        <item itemvalue="Gradle.JumpGameTest.test_canJump_expectTrue_when" />
+        <item itemvalue="Gradle.JumpGameIITest" />
+        <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect2_whenEndIndexIsReachable" />
+        <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect4_whenAll1s" />
+        <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect2_whenLastTwoElementsIs0" />
+        <item itemvalue="Gradle.JumpGameIITest.test_canJump_expect1_whenJumpDirectlyOnLastIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -906,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -921,8 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing" />
-    <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using dfs" />
     <MESSAGE value="[PROBLEM-257]: recursive approach all tests passing  - using stack" />
     <MESSAGE value="[PROBLEM-404]: WIP - left leaves sum" />
     <MESSAGE value="[PROBLEM-404]: iterative approach" />
@@ -946,7 +945,9 @@
     <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
     <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-55]: working solution for maximum jumps" />
+    <MESSAGE value="[PROBLEM-55]: using backtracking" />
+    <MESSAGE value="[PROBLEM-45]: WIP - Jump Game II" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-45]: WIP - Jump Game II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,6 +1351,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem55/JumpGameBackTracking.java</url>
           <line>7</line>
           <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45/JumpGameII.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
