@@ -2,7 +2,7 @@ package leetcode.arrays.problem274;
 
 import java.util.Arrays;
 
-public class HIndex {
+public class HIndexUsingBinarySearch {
 
 
    public int hIndex(int[] citations) {
