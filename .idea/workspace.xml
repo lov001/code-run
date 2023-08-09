@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-45]:">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45/JumpGameIIApproach2.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-45]: Approach 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem274/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem274/HIndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem45/JumpGameIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem45/JumpGameIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-274" />
+                    <option name="lastUsedInstant" value="1691587021" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-45" />
                     <option name="lastUsedInstant" value="1690305018" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-189" />
                     <option name="lastUsedInstant" value="1689776213" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-80" />
-                    <option name="lastUsedInstant" value="1689690757" />
                   </RecentBranch>
                 </list>
               </option>
@@ -365,7 +365,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-45",
+    "git-widget-placeholder": "PROBLEM-274",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -906,7 +906,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -921,7 +921,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-404]: WIP - left leaves sum" />
     <MESSAGE value="[PROBLEM-404]: iterative approach" />
     <MESSAGE value="[PROBLEM-404]: recursive approach" />
     <MESSAGE value="[PROBLEM-543]: wip - diameter of a binary tree" />
@@ -946,7 +945,8 @@
     <MESSAGE value="[PROBLEM-55]: using backtracking" />
     <MESSAGE value="[PROBLEM-45]: WIP - Jump Game II" />
     <MESSAGE value="[PROBLEM-45]:" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-45]:" />
+    <MESSAGE value="[PROBLEM-45]: Approach 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-45]: Approach 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
