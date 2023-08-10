@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-274]: solution using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem274/HIndexUsingBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem274/HIndexUsingCountingSort.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-274]: approach 2 using counting sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem380/RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/problem380/RandomizedSetUsingMapAndArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/problem380/RandomizedSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem274/HIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem274/HIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem274/HIndexUsingBinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,6 +321,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-380" />
+                    <option name="lastUsedInstant" value="1691599422" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="ROBLEM-380" />
+                    <option name="lastUsedInstant" value="1691599350" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-274" />
                     <option name="lastUsedInstant" value="1691587021" />
                   </RecentBranch>
@@ -332,14 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-55" />
                     <option name="lastUsedInstant" value="1690206758" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-122" />
-                    <option name="lastUsedInstant" value="1689863925" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-189" />
-                    <option name="lastUsedInstant" value="1689776213" />
                   </RecentBranch>
                 </list>
               </option>
@@ -367,7 +366,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-274",
+    "git-widget-placeholder": "PROBLEM-380",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -391,14 +390,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.problem380" />
       <recent name="leetcode.arrays.problem274" />
       <recent name="leetcode.arrays.problem45" />
       <recent name="leetcode.arrays.problem55" />
       <recent name="leetcode.arrays.problem122" />
-      <recent name="leetcode.arrays.problem189" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs5_">
+  <component name="RunManager" selected="Gradle.RandomizedSetTest.test_randomizedSetUsingMapAndList">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,78 +416,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="HIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem274.HIndexTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="HIndexTest.test_hIndex_expect2_whenInputSizeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem274.HIndexTest.test_hIndex_expect2_whenInputSizeIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="HIndexTest.test_hIndex_expect3_whenInputSizeIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem274.HIndexTest.test_hIndex_expect3_whenInputSizeIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="HIndexTest.test_hIndex_expect3_whenInputSizeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -538,21 +465,93 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="HIndexUsingBinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem274.HIndexUsingBinarySearchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomizedSetTest.test_randomizedSet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem380.RandomizedSetTest.test_randomizedSet&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomizedSetTest.test_randomizedSetUsingMapAndList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.problem380.RandomizedSetTest.test_randomizedSetUsingMapAndList&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.HIndexTest" />
-      <item itemvalue="Gradle.HIndexTest.test_hIndex_expect2_whenInputSizeIs5" />
-      <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs4" />
       <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs5" />
       <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs5_" />
+      <item itemvalue="Gradle.HIndexUsingBinarySearchTest" />
+      <item itemvalue="Gradle.RandomizedSetTest.test_randomizedSet" />
+      <item itemvalue="Gradle.RandomizedSetTest.test_randomizedSetUsingMapAndList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RandomizedSetTest.test_randomizedSetUsingMapAndList" />
+        <item itemvalue="Gradle.RandomizedSetTest.test_randomizedSet" />
         <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs5_" />
+        <item itemvalue="Gradle.HIndexUsingBinarySearchTest" />
         <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs5" />
-        <item itemvalue="Gradle.HIndexTest" />
-        <item itemvalue="Gradle.HIndexTest.test_hIndex_expect3_whenInputSizeIs4" />
-        <item itemvalue="Gradle.HIndexTest.test_hIndex_expect2_whenInputSizeIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-543]: wip - diameter of a binary tree" />
     <MESSAGE value="[PROBLEM-543]: wip - 100/104 tests passed" />
     <MESSAGE value="[PROBLEM-543]: working solution" />
     <MESSAGE value="thread local test" />
@@ -948,7 +946,8 @@
     <MESSAGE value="[PROBLEM-45]: Approach 3" />
     <MESSAGE value="[PROBLEM-274]: WIP - H-index" />
     <MESSAGE value="[PROBLEM-274]: solution using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-274]: solution using binary search" />
+    <MESSAGE value="[PROBLEM-274]: approach 2 using counting sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-274]: approach 2 using counting sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
