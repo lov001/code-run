@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-380]: approach 2 using counting sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem81/SearchInRotatedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem81/SearchInRotatedArrayIITest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-81]: search in a rotated array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem238/ArrayProductWithoutSelfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-238" />
+                    <option name="lastUsedInstant" value="1691859470" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-81" />
                     <option name="lastUsedInstant" value="1691681256" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-274" />
                     <option name="lastUsedInstant" value="1691587021" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-45" />
-                    <option name="lastUsedInstant" value="1690305018" />
                   </RecentBranch>
                 </list>
               </option>
@@ -365,8 +365,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-81",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/searching/binarysearch",
+    "git-widget-placeholder": "PROBLEM-238",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -380,8 +380,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+      <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
     </key>
@@ -397,7 +397,7 @@
       <recent name="leetcode.arrays.problem122" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInRotatedArrayIITest">
+  <component name="RunManager" selected="JUnit.leetcode.arrays.problem238 in Daily-Coding-Problems.main">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -431,30 +431,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -537,21 +513,35 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="leetcode.arrays.problem238 in Daily-Coding-Problems.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.problem238.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.arrays.problem238" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.SearchInRotatedArrayIITest" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" />
       <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_" />
       <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2" />
       <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_" />
+      <item itemvalue="JUnit.leetcode.arrays.problem238 in Daily-Coding-Problems.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.leetcode.arrays.problem238 in Daily-Coding-Problems.main" />
         <item itemvalue="Gradle.SearchInRotatedArrayIITest" />
         <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2" />
         <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_" />
         <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_" />
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +897,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,7 +912,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-543]: working solution" />
     <MESSAGE value="thread local test" />
     <MESSAGE value="[amazon-interview-problem]: dummy commit" />
     <MESSAGE value="[PROBLEM-88]: problem statement for merge sorted array" />
@@ -947,7 +936,8 @@
     <MESSAGE value="[PROBLEM-274]: solution using binary search" />
     <MESSAGE value="[PROBLEM-274]: approach 2 using counting sort" />
     <MESSAGE value="[PROBLEM-380]: approach 2 using counting sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-380]: approach 2 using counting sort" />
+    <MESSAGE value="[PROBLEM-81]: search in a rotated array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-81]: search in a rotated array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
