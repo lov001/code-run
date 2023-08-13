@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-238]: working solution but with breaking constraints">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefix.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-238]: using prefix and suffix to store the product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefixWiithoutExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem238/ArrayProductWithoutSelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem238/ArrayProductWithoutSelfTest.java" afterDir="false" />
     </list>
@@ -397,7 +397,7 @@
       <recent name="leetcode.arrays.problem55" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayProductWithoutSelfTest">
+  <component name="RunManager" selected="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -547,8 +547,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" />
@@ -907,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,7 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-88]: problem statement for merge sorted array" />
     <MESSAGE value="[PROBLEM-88]: brute force solution with additional space" />
     <MESSAGE value="[PROBLEM-88]: optimal solution in constant space" />
     <MESSAGE value="[PROBLEM-26]: WIP" />
@@ -947,7 +946,8 @@
     <MESSAGE value="[PROBLEM-81]: search in a rotated array" />
     <MESSAGE value="[PROBLEM-238]: WIP - Array product without self" />
     <MESSAGE value="[PROBLEM-238]: working solution but with breaking constraints" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-238]: working solution but with breaking constraints" />
+    <MESSAGE value="[PROBLEM-238]: using prefix and suffix to store the product" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-238]: using prefix and suffix to store the product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1368,9 +1368,14 @@
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefix.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="244" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefixWiithoutExtraSpace.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefixWiithoutExtraSpace.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="247" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
