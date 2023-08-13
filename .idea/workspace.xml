@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-380]: approach 2 using counting sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem81/SearchInRotatedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem81/SearchInRotatedArrayIITest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-238]: working solution but with breaking constraints">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem238/ArrayProductWithoutSelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem238/ArrayProductWithoutSelfTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-238" />
+                    <option name="lastUsedInstant" value="1691859470" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-81" />
                     <option name="lastUsedInstant" value="1691681256" />
                   </RecentBranch>
@@ -334,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-274" />
                     <option name="lastUsedInstant" value="1691587021" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-45" />
-                    <option name="lastUsedInstant" value="1690305018" />
                   </RecentBranch>
                 </list>
               </option>
@@ -365,8 +365,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-81",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/searching/binarysearch",
+    "git-widget-placeholder": "PROBLEM-238",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -380,8 +380,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+      <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
     </key>
@@ -390,14 +390,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem238" />
       <recent name="leetcode.problem380" />
       <recent name="leetcode.arrays.problem274" />
       <recent name="leetcode.arrays.problem45" />
       <recent name="leetcode.arrays.problem55" />
-      <recent name="leetcode.arrays.problem122" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInRotatedArrayIITest">
+  <component name="RunManager" selected="Gradle.ArrayProductWithoutSelfTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,7 +417,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedArrayIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayProductWithoutSelfTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -430,7 +430,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest&quot;" />
+            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -441,7 +441,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -454,7 +454,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3&quot;" />
+            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -465,7 +465,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -478,7 +478,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_&quot;" />
+            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -489,7 +489,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -502,7 +502,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2&quot;" />
+            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -513,7 +513,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -526,7 +526,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem81.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_&quot;" />
+            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,19 +539,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2" />
-      <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_" />
+      <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
+      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" />
+      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" />
+      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" />
+      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest" />
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2" />
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs2_" />
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectTrue_whenTargetIs0_" />
-        <item itemvalue="Gradle.SearchInRotatedArrayIITest.test_search_expectFalse_whenTargetIs3" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" />
+        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,9 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-543]: working solution" />
-    <MESSAGE value="thread local test" />
-    <MESSAGE value="[amazon-interview-problem]: dummy commit" />
     <MESSAGE value="[PROBLEM-88]: problem statement for merge sorted array" />
     <MESSAGE value="[PROBLEM-88]: brute force solution with additional space" />
     <MESSAGE value="[PROBLEM-88]: optimal solution in constant space" />
@@ -947,7 +944,10 @@
     <MESSAGE value="[PROBLEM-274]: solution using binary search" />
     <MESSAGE value="[PROBLEM-274]: approach 2 using counting sort" />
     <MESSAGE value="[PROBLEM-380]: approach 2 using counting sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-380]: approach 2 using counting sort" />
+    <MESSAGE value="[PROBLEM-81]: search in a rotated array" />
+    <MESSAGE value="[PROBLEM-238]: WIP - Array product without self" />
+    <MESSAGE value="[PROBLEM-238]: working solution but with breaking constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-238]: working solution but with breaking constraints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,6 +1366,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem81/SearchInRotatedArrayII.java</url>
           <line>32</line>
           <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefix.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
