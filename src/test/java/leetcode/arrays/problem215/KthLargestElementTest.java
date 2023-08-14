@@ -3,21 +3,31 @@ package leetcode.arrays.problem215;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class KthLargestElementUsingTwoStacksTest {
+public class KthLargestElementTest {
 
 
-   KthLargestElementUsingTwoStacks classObj = new KthLargestElementUsingTwoStacks();
+   KthLargestElementUsingQuickSort classObj1 = new KthLargestElementUsingQuickSort();
+   KthLargestElementUsingTwoStacks classObj2 = new KthLargestElementUsingTwoStacks();
 
    @Test
    void test_findKthLargest_expect5_whenKIs2() {
       int[] input = {3, 2, 1, 5, 6, 4};
-      Assertions.assertEquals(5, classObj.findKthLargest(input, 2));
+      Assertions.assertEquals(5, classObj1.findKthLargest(input, 2));
+      Assertions.assertEquals(5, classObj2.findKthLargest(input, 2));
+   }
+
+   @Test
+   void test_findKthLargest_expect15_whenKIs1() {
+      int[] input = {10, 6, 8, 12, 15, 6, 3, 9, 5};
+      Assertions.assertEquals(15, classObj1.findKthLargest(input, 1));
+      Assertions.assertEquals(15, classObj2.findKthLargest(input, 1));
    }
 
    @Test
    void test_findKthLargest_expect4_whenKIs4() {
       int[] input = {3, 2, 3, 1, 2, 4, 5, 5, 6};
-      Assertions.assertEquals(4, classObj.findKthLargest(input, 4));
+      Assertions.assertEquals(4, classObj1.findKthLargest(input, 4));
+      Assertions.assertEquals(4, classObj2.findKthLargest(input, 4));
    }
 
    @Test
@@ -344,7 +354,8 @@ public class KthLargestElementUsingTwoStacksTest {
           51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30,
           29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7,
           6, 5, 4, 3, 2, 1, 0};
-      Assertions.assertEquals(4999, classObj.findKthLargest(input, 1));
+      Assertions.assertEquals(4999, classObj1.findKthLargest(input, 1));
+      Assertions.assertEquals(4999, classObj2.findKthLargest(input, 1));
    }
 
 }
