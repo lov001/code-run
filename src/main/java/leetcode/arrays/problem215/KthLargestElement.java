@@ -1,9 +1,12 @@
 package leetcode.arrays.problem215;
 
+import java.util.Arrays;
+
 public class KthLargestElement {
 
 
    public int findKthLargest(int[] nums, int k) {
-      return -1;
+      Arrays.sort(nums);
+      return nums[nums.length - k];
    }
 }

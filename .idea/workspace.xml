@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-238]: using prefix and suffix to store the product">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem215/KthLargestElementTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-215]: WIP - find kth largest element">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +396,7 @@
       <recent name="leetcode.arrays.problem55" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray">
+  <component name="RunManager" selected="Gradle.KthLargestElementTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -465,7 +464,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthLargestElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -478,7 +477,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero&quot;" />
+            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -489,7 +488,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthLargestElementTest.test_findKthLargest_expect4_whenKIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -502,7 +501,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero&quot;" />
+            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest.test_findKthLargest_expect4_whenKIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -513,7 +512,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -526,7 +525,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem238.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_&quot;" />
+            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,19 +538,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.KthLargestElementTest" />
+      <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect4_whenKIs4" />
+      <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" />
       <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
       <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" />
-      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" />
-      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" />
-      <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthLargestElementTest" />
+        <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect4_whenKIs4" />
+        <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray" />
         <item itemvalue="Gradle.ArrayProductWithoutSelfTest" />
-        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArray_" />
-        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayContainsZeroZero" />
-        <item itemvalue="Gradle.ArrayProductWithoutSelfTest.test_productExceptSelf_exceptProduct_whenGivenArrayHasOneZero" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +906,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,7 +921,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-88]: brute force solution with additional space" />
     <MESSAGE value="[PROBLEM-88]: optimal solution in constant space" />
     <MESSAGE value="[PROBLEM-26]: WIP" />
     <MESSAGE value="[PROBLEM-26]: working solution" />
@@ -947,7 +945,8 @@
     <MESSAGE value="[PROBLEM-238]: WIP - Array product without self" />
     <MESSAGE value="[PROBLEM-238]: working solution but with breaking constraints" />
     <MESSAGE value="[PROBLEM-238]: using prefix and suffix to store the product" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-238]: using prefix and suffix to store the product" />
+    <MESSAGE value="[PROBLEM-215]: WIP - find kth largest element" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-215]: WIP - find kth largest element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1376,6 +1375,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem238/ArrayProductWithoutSelfUsingPrefixWiithoutExtraSpace.java</url>
           <line>17</line>
           <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElement.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="249" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
