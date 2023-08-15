@@ -11,7 +11,7 @@ public class PartitionListTest {
 
    @Test
    void test_partition_expectPartitionedList_whenXIs3() {
-      ListNode node5 = new ListNode(2);
+      ListNode node5 = new ListNode(2, null);
       ListNode node4 = new ListNode(5, node5);
       ListNode node3 = new ListNode(2, node4);
       ListNode node2 = new ListNode(3, node3);

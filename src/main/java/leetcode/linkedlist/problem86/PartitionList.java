@@ -6,7 +6,23 @@ public class PartitionList {
 
 
    public ListNode partition(ListNode head, int x) {
-      return null;
+      ListNode smaller = new ListNode(0), greater = new ListNode(0);
+      ListNode smallerPtr = smaller;
+      ListNode greaterPtr = greater;
+
+      while (head != null) {
+         if (head.val < x) {
+            smallerPtr.next = head;
+            smallerPtr = head;
+         } else {
+            greaterPtr.next = head;
+            greaterPtr = head;
+         }
+         head = head.next;
+      }
+      greaterPtr.next = null;
+      smallerPtr.next = greater.next;
+      return smaller.next;
    }
 
 }
