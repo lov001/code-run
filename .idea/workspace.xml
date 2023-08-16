@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-86]: two pointer solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem239/SlidingWindowMaximumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: base tests passing sliding maximum window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -908,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-189]: optimal solution" />
     <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
     <MESSAGE value="[PROBLEM-122]: simpler approach" />
@@ -948,7 +946,8 @@
     <MESSAGE value="[PROBLEM-215]: working solution using priority queue" />
     <MESSAGE value="[PROBLEM-86]: WIP - partition a linked list around x" />
     <MESSAGE value="[PROBLEM-86]: two pointer solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-86]: two pointer solution" />
+    <MESSAGE value="[PROBLEM-239]: base tests passing sliding maximum window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: base tests passing sliding maximum window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1400,7 +1399,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
       </breakpoints>
