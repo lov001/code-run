@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: base tests passing sliding maximum window">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: comments removed, getting time limit exceeded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" afterDir="false" />
     </list>
@@ -359,24 +359,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-239",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-239&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
@@ -548,8 +548,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SlidingWindowMaximumTest" />
-        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
         <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" />
+        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
         <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
         <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
       </list>
@@ -907,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,7 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
     <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
@@ -947,7 +946,8 @@
     <MESSAGE value="[PROBLEM-86]: WIP - partition a linked list around x" />
     <MESSAGE value="[PROBLEM-86]: two pointer solution" />
     <MESSAGE value="[PROBLEM-239]: base tests passing sliding maximum window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: base tests passing sliding maximum window" />
+    <MESSAGE value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1394,13 +1394,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="265" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="267" />
+          <line>15</line>
+          <option name="timeStamp" value="268" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
