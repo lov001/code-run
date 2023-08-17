@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-86]: WIP - partition a linked list around x">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: comments removed, getting time limit exceeded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem86/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem86/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem86/PartitionListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem86/PartitionListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +319,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="PROBLEM-239" />
+                    <option name="lastUsedInstant" value="1692207893" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="PROBLEM-86" />
                     <option name="lastUsedInstant" value="1692074349" />
                   </RecentBranch>
@@ -334,10 +337,6 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-81" />
                     <option name="lastUsedInstant" value="1691681256" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-380" />
-                    <option name="lastUsedInstant" value="1691599422" />
                   </RecentBranch>
                 </list>
               </option>
@@ -360,28 +359,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-86",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/test/java/leetcode/linkedlist",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-239&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/leetcode/linkedlist" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
+      <recent name="$PROJECT_DIR$/src/test/java/leetcode/linkedlist" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
@@ -398,7 +397,7 @@
       <recent name="leetcode.arrays.problem45" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3">
+  <component name="RunManager" selected="Gradle.SlidingWindowMaximumTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,78 +416,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="KthLargestElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="KthLargestElementTest.test_findKthLargest_expect15_whenKIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest.test_findKthLargest_expect15_whenKIs1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem215.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -538,21 +465,93 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SlidingWindowMaximumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.KthLargestElementTest" />
-      <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect15_whenKIs1" />
-      <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" />
       <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
       <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
+      <item itemvalue="Gradle.SlidingWindowMaximumTest" />
+      <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" />
+      <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SlidingWindowMaximumTest" />
+        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" />
+        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
         <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
         <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-        <item itemvalue="Gradle.KthLargestElementTest" />
-        <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect5_whenKIs2" />
-        <item itemvalue="Gradle.KthLargestElementTest.test_findKthLargest_expect15_whenKIs1" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,9 +922,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
-    <MESSAGE value="[PROBLEM-189]: optimal solution" />
-    <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
     <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
@@ -948,7 +944,10 @@
     <MESSAGE value="[PROBLEM-215]: working solution using quick sort" />
     <MESSAGE value="[PROBLEM-215]: working solution using priority queue" />
     <MESSAGE value="[PROBLEM-86]: WIP - partition a linked list around x" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-86]: WIP - partition a linked list around x" />
+    <MESSAGE value="[PROBLEM-86]: two pointer solution" />
+    <MESSAGE value="[PROBLEM-239]: base tests passing sliding maximum window" />
+    <MESSAGE value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1394,9 +1393,9 @@
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/leetcode/linkedlist/problem86/PartitionListTest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="264" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="268" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
