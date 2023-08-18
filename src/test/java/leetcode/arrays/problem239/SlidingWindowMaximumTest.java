@@ -9,6 +9,7 @@ public class SlidingWindowMaximumTest {
 
    SlidingWindowMaximum classObj0 = new SlidingWindowMaximum();
    SlidingWindowMaximumUsingPriorityQueue classObj = new SlidingWindowMaximumUsingPriorityQueue();
+   SlidingWindowMaximumUsingTwoArrays classObj2 = new SlidingWindowMaximumUsingTwoArrays();
 
    @Test
    void test_maxSlidingWindow_expect_when() {
@@ -18,6 +19,8 @@ public class SlidingWindowMaximumTest {
           Arrays.toString(classObj0.maxSlidingWindow(input, 3)));
       Assertions.assertEquals(Arrays.toString(output),
           Arrays.toString(classObj.maxSlidingWindow(input, 3)));
+      Assertions.assertEquals(Arrays.toString(output),
+          Arrays.toString(classObj2.maxSlidingWindow(input, 3)));
    }
 
    @Test
@@ -28,6 +31,8 @@ public class SlidingWindowMaximumTest {
           Arrays.toString(classObj0.maxSlidingWindow(input, 1)));
       Assertions.assertEquals(Arrays.toString(output),
           Arrays.toString(classObj.maxSlidingWindow(input, 1)));
+      Assertions.assertEquals(Arrays.toString(output),
+          Arrays.toString(classObj2.maxSlidingWindow(input, 1)));
    }
 
 }
