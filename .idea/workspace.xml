@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: comments removed, getting time limit exceeded">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: using dequeue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximumUsingTwoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem239/SlidingWindowMaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem239/SlidingWindowMaximumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,11 +391,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.arrays.problem239" />
       <recent name="leetcode.arrays.problem215" />
       <recent name="leetcode.arrays.problem238" />
       <recent name="leetcode.problem380" />
       <recent name="leetcode.arrays.problem274" />
-      <recent name="leetcode.arrays.problem45" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SlidingWindowMaximumTest">
@@ -907,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,8 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-122]: recursive approach" />
-    <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
     <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
     <MESSAGE value="[PROBLEM-55]: using backtracking" />
@@ -947,7 +946,9 @@
     <MESSAGE value="[PROBLEM-86]: two pointer solution" />
     <MESSAGE value="[PROBLEM-239]: base tests passing sliding maximum window" />
     <MESSAGE value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
+    <MESSAGE value="[PROBLEM-239]: using priority queue, TLE" />
+    <MESSAGE value="[PROBLEM-239]: using dequeue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: using dequeue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1394,8 +1395,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="268" />
+          <line>14</line>
+          <option name="timeStamp" value="269" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
