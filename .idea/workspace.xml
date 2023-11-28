@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[PROBLEM-239]: using dequeue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximumUsingTwoArrays.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: test problem for binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem744/NextGreatestLetterUsingBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem239/SlidingWindowMaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem239/SlidingWindowMaximumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem744/NextGreatestLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem744/NextGreatestLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/javabasic/Problem704.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem744/NextGreatestLetterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch/problem744/NextGreatestLetterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,16 +322,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="PROBLEM-239" />
-                    <option name="lastUsedInstant" value="1692207893" />
+                    <option name="branchName" value="practice/binary-search" />
+                    <option name="lastUsedInstant" value="1701181712" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="PROBLEM-86" />
-                    <option name="lastUsedInstant" value="1692074349" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-215" />
-                    <option name="lastUsedInstant" value="1692017679" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1701180109" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-238" />
@@ -338,6 +336,10 @@
                   <RecentBranch>
                     <option name="branchName" value="PROBLEM-81" />
                     <option name="lastUsedInstant" value="1691681256" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="PROBLEM-380" />
+                    <option name="lastUsedInstant" value="1691599422" />
                   </RecentBranch>
                 </list>
               </option>
@@ -360,28 +362,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-239&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/test/java/leetcode/arrays&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "PROBLEM-238",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/searching/binarysearch",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
-      <recent name="$PROJECT_DIR$/src/test/java/leetcode/linkedlist" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem80" />
@@ -391,14 +393,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.arrays.problem239" />
-      <recent name="leetcode.arrays.problem215" />
+      <recent name="leetcode.searching.binarysearch.problem744" />
       <recent name="leetcode.arrays.problem238" />
       <recent name="leetcode.problem380" />
       <recent name="leetcode.arrays.problem274" />
+      <recent name="leetcode.arrays.problem45" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SlidingWindowMaximumTest">
+  <component name="RunManager" selected="Gradle.NextGreatestLetterTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,7 +420,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreatestLetterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -431,7 +433,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem86.PartitionListTest.test_partition_expectPartitionedList_whenXIs2&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.linkedlist.problem86.PartitionListTest.test_partition_expectPartitionedList_whenXIs3&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SlidingWindowMaximumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -479,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +505,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem239.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1&quot;" />
+            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +542,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
-      <item itemvalue="Gradle.SlidingWindowMaximumTest" />
-      <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" />
-      <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
+      <item itemvalue="Gradle.NextGreatestLetterTest" />
+      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG" />
+      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
+      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" />
+      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SlidingWindowMaximumTest" />
-        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_when" />
-        <item itemvalue="Gradle.SlidingWindowMaximumTest.test_maxSlidingWindow_expect_whenInputIs1" />
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
+        <item itemvalue="Gradle.NextGreatestLetterTest" />
+        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
+        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG" />
+        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" />
+        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,6 +925,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="[PROBLEM-26]: WIP" />
+    <MESSAGE value="[PROBLEM-26]: working solution" />
+    <MESSAGE value="[PROBLEM-80]: working solution" />
+    <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
+    <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
+    <MESSAGE value="[PROBLEM-189]: optimal solution" />
+    <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
+    <MESSAGE value="[PROBLEM-122]: recursive approach" />
+    <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
     <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
     <MESSAGE value="[PROBLEM-55]: using backtracking" />
@@ -937,18 +948,9 @@
     <MESSAGE value="[PROBLEM-238]: WIP - Array product without self" />
     <MESSAGE value="[PROBLEM-238]: working solution but with breaking constraints" />
     <MESSAGE value="[PROBLEM-238]: using prefix and suffix to store the product" />
-    <MESSAGE value="[PROBLEM-215]: WIP - find kth largest element" />
-    <MESSAGE value="[PROBLEM-215]: working solution with array sorting" />
-    <MESSAGE value="[PROBLEM-215]: working solution using two stacks" />
-    <MESSAGE value="[PROBLEM-215]: working solution using quick sort" />
-    <MESSAGE value="[PROBLEM-215]: working solution using priority queue" />
-    <MESSAGE value="[PROBLEM-86]: WIP - partition a linked list around x" />
-    <MESSAGE value="[PROBLEM-86]: two pointer solution" />
-    <MESSAGE value="[PROBLEM-239]: base tests passing sliding maximum window" />
-    <MESSAGE value="[PROBLEM-239]: comments removed, getting time limit exceeded" />
-    <MESSAGE value="[PROBLEM-239]: using priority queue, TLE" />
-    <MESSAGE value="[PROBLEM-239]: using dequeue" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PROBLEM-239]: using dequeue" />
+    <MESSAGE value="[PROBLEM-704]: test problem for binary search" />
+    <MESSAGE value="[practice/binary-search]: test problem for binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: test problem for binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1379,24 +1381,9 @@
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElementUsingTwoStacks.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="249" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem215/KthLargestElement.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="257" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem86/PartitionList.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="262" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem239/SlidingWindowMaximum.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="269" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem744/NextGreatestLetterUsingBinarySearch.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="272" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
