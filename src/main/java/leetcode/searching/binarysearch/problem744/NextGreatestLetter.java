@@ -1,4 +1,4 @@
-package leetcode.arrays.problem744;
+package leetcode.searching.binarysearch.problem744;
 
 public class NextGreatestLetter {
 
