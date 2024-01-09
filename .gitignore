@@ -5,6 +5,8 @@ build/
 !**/src/test/**/build/
 ./.idea/workspace.xml
 !**/workspace.xml
+/src/main/java/practice/Test.java
+/src/main/java/test/**/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
