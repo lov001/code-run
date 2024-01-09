@@ -9,9 +9,10 @@ public class CheckStringPermutationTest {
 
    @Test
    void test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther(){
-      String input1 = "abba";
-      String input2 = "baba";
+      String input1 = "aabbaXaabaabXa";
+      String input2 = "baXabaXabaaaab";
       Assertions.assertTrue(classObj.checkPermutation(input1, input2));
+      Assertions.assertTrue(classObj.checkPermutation2(input1, input2));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class CheckStringPermutationTest {
       String input1 = "abba";
       String input2 = "abbbab";
       Assertions.assertFalse(classObj.checkPermutation(input1, input2));
+      Assertions.assertFalse(classObj.checkPermutation2(input1, input2));
    }
 
 }

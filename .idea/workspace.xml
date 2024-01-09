@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: hash table approach for isUnique string">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CheckStringPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/CheckStringPermutationTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: check permutation for string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CheckStringPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CheckStringPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/CheckStringPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/CheckStringPermutationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,6 +456,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arraysandstrings.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="IsUniqueStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -504,45 +528,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Gradle.CheckStringPermutationTest" />
+      <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
       <item itemvalue="Gradle.IsUniqueStringTest" />
       <item itemvalue="Gradle.NextGreatestLetterTest" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CheckStringPermutationTest" />
+        <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
         <item itemvalue="Gradle.IsUniqueStringTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Gradle.NextGreatestLetterTest" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +898,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -913,7 +913,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
     <MESSAGE value="[PROBLEM-189]: optimal solution" />
     <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
@@ -938,7 +937,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: problem for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: hash table approach for isUnique string" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: hash table approach for isUnique string" />
+    <MESSAGE value="[practice/arrays-and-strings]: check permutation for string" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: check permutation for string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
