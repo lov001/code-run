@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: test problem for binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: initial commit for arrays and strings practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/IsUniqueString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/IsUniqueStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +401,7 @@
       <recent name="leetcode.arrays.problem45" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NextGreatestLetterTest">
+  <component name="RunManager" selected="Gradle.IsUniqueStringTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,6 +420,43 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Test" />
+      <module name="Daily-Coding-Problems.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsUniqueStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.IsUniqueStringTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="NextGreatestLetterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -490,69 +530,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Gradle.IsUniqueStringTest" />
       <item itemvalue="Gradle.NextGreatestLetterTest" />
       <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG" />
       <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" />
-      <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IsUniqueStringTest" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Gradle.NextGreatestLetterTest" />
         <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenGivenInput" />
         <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectE_whenTargetIsG" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsJ" />
-        <item itemvalue="Gradle.NextGreatestLetterTest.test_nextGreatestLetter_expectF_whenTargetIsD" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-26]: WIP" />
     <MESSAGE value="[PROBLEM-26]: working solution" />
     <MESSAGE value="[PROBLEM-80]: working solution" />
     <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
@@ -948,7 +939,8 @@
     <MESSAGE value="[PROBLEM-238]: using prefix and suffix to store the product" />
     <MESSAGE value="[PROBLEM-704]: test problem for binary search" />
     <MESSAGE value="[practice/binary-search]: test problem for binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: test problem for binary search" />
+    <MESSAGE value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,6 +1374,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem744/NextGreatestLetterUsingBinarySearch.java</url>
           <line>8</line>
           <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="275" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
