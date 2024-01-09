@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: initial commit for arrays and strings practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/IsUniqueString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/IsUniqueStringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: unit test for check whether a string is unique or not">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/IsUniqueStringWithHashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/IsUniqueStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/IsUniqueStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,11 +392,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.arraysandstrings" />
       <recent name="leetcode.searching.binarysearch.problem744" />
       <recent name="leetcode.arrays.problem238" />
       <recent name="leetcode.problem380" />
       <recent name="leetcode.arrays.problem274" />
-      <recent name="leetcode.arrays.problem45" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.IsUniqueStringTest">
@@ -900,7 +898,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,8 +913,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-26]: working solution" />
-    <MESSAGE value="[PROBLEM-80]: working solution" />
     <MESSAGE value="[PROBLEM-189]: Rotate Array using appending same array" />
     <MESSAGE value="[PROBLEM-189]: right shift approach and in-place shift" />
     <MESSAGE value="[PROBLEM-189]: optimal solution" />
@@ -940,7 +936,9 @@
     <MESSAGE value="[PROBLEM-704]: test problem for binary search" />
     <MESSAGE value="[practice/binary-search]: test problem for binary search" />
     <MESSAGE value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
+    <MESSAGE value="[practice/arrays-and-strings]: problem for check whether a string is unique or not" />
+    <MESSAGE value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
