@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: check permutation for string">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: approach 2 using sorting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/URLify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/URLifyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CheckStringPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CheckStringPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/CheckStringPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/CheckStringPermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/IsUniqueStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/IsUniqueStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +400,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckStringPermutationTest">
+  <component name="RunManager" selected="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -424,7 +425,7 @@
       <module name="Daily-Coding-Problems.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="practice.arraysandstrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,7 +505,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NextGreatestLetterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -517,7 +518,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.searching.binarysearch.problem744.NextGreatestLetterTest&quot;" />
+            <option value="&quot;practice.arraysandstrings.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -534,15 +535,15 @@
       <item itemvalue="Gradle.CheckStringPermutationTest" />
       <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
       <item itemvalue="Gradle.IsUniqueStringTest" />
-      <item itemvalue="Gradle.NextGreatestLetterTest" />
+      <item itemvalue="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" />
         <item itemvalue="Gradle.CheckStringPermutationTest" />
         <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
         <item itemvalue="Gradle.IsUniqueStringTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Gradle.NextGreatestLetterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -913,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-189]: optimal solution" />
     <MESSAGE value="[PROBLEM-122]: WIP - Best Time to Buy and Sell Stock II" />
     <MESSAGE value="[PROBLEM-122]: recursive approach" />
     <MESSAGE value="[PROBLEM-122]: simpler approach" />
@@ -938,7 +938,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: hash table approach for isUnique string" />
     <MESSAGE value="[practice/arrays-and-strings]: check permutation for string" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: check permutation for string" />
+    <MESSAGE value="[practice/arrays-and-strings]: approach 2 using sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: approach 2 using sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1387,6 +1388,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
           <line>16</line>
           <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/URLify.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/URLify.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arraysandstrings/URLifyTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="283" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
