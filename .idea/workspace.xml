@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: replace white spaces with %20, urlify string">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: alternative approach for permutation palindrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +399,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PalindromePermutationTest">
+  <component name="RunManager" selected="Gradle.PalindromePermutationTest.test_palindrome_expectTrue_whenStringIsAPalindrome">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -549,8 +549,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PalindromePermutationTest" />
         <item itemvalue="Gradle.PalindromePermutationTest.test_palindrome_expectTrue_whenStringIsAPalindrome" />
+        <item itemvalue="Gradle.PalindromePermutationTest" />
         <item itemvalue="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" />
         <item itemvalue="Gradle.CheckStringPermutationTest" />
         <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,8 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-122]: recursive approach" />
-    <MESSAGE value="[PROBLEM-122]: simpler approach" />
     <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
     <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
     <MESSAGE value="[PROBLEM-55]: using backtracking" />
@@ -949,7 +947,9 @@
     <MESSAGE value="[practice/arrays-and-strings]: check permutation for string" />
     <MESSAGE value="[practice/arrays-and-strings]: approach 2 using sorting" />
     <MESSAGE value="[practice/arrays-and-strings]: replace white spaces with %20, urlify string" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: replace white spaces with %20, urlify string" />
+    <MESSAGE value="[practice/arrays-and-strings]: string palindrome with permutation" />
+    <MESSAGE value="[practice/arrays-and-strings]: alternative approach for permutation palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: alternative approach for permutation palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1416,18 +1416,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="284" />
+          <line>49</line>
+          <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="285" />
+          <line>54</line>
+          <option name="timeStamp" value="293" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="288" />
+          <line>59</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="298" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

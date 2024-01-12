@@ -13,6 +13,7 @@ public class PalindromePermutationTest {
       Assertions.assertTrue(classObj.palindrome(input));
       Assertions.assertTrue(classObj.isPermutationOfPalindrome(input));
       Assertions.assertTrue(classObj.isPermutationOfPalindrome2(input));
+      Assertions.assertTrue(classObj.isPermutationOfPalindrome3(input));
    }
 
    @Test
@@ -21,6 +22,7 @@ public class PalindromePermutationTest {
       Assertions.assertTrue(classObj.palindrome(input));
       Assertions.assertTrue(classObj.isPermutationOfPalindrome(input));
       Assertions.assertTrue(classObj.isPermutationOfPalindrome2(input));
+      Assertions.assertTrue(classObj.isPermutationOfPalindrome3(input));
    }
 
    @Test
@@ -29,6 +31,7 @@ public class PalindromePermutationTest {
       Assertions.assertFalse(classObj.palindrome(input));
       Assertions.assertFalse(classObj.isPermutationOfPalindrome(input));
       Assertions.assertFalse(classObj.isPermutationOfPalindrome2(input));
+      Assertions.assertFalse(classObj.isPermutationOfPalindrome3(input));
    }
 
 }

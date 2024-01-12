@@ -46,6 +46,38 @@ public class PalindromePermuation {
       return checkMaxOneOdd(table);
    }
 
+   public boolean isPermutationOfPalindrome3(String str){
+      int bitVector = createBitVector(str);
+      return bitVector == 0 | checkExactlyOneBitSet(bitVector);
+   }
+
+   private boolean checkExactlyOneBitSet(int bitVector) {
+      return (bitVector & (bitVector - 1)) == 0;
+   }
+
+   /* Create a bit vector for the string. For each letter with value i, toggle the ith bit. */
+   private int createBitVector(String str) {
+      int bitVector = 0;
+      for(char ch : str.toCharArray()){
+         int x = getCharNumber(ch);
+         bitVector = toggle(bitVector, x);
+      }
+      return bitVector;
+   }
+
+   private int toggle(int bitVector, int x) {
+      if(x < 0){
+         return bitVector;
+      }
+      int mask = 1 << x;
+      if((bitVector & mask) == 0){
+         bitVector |= mask;
+      } else {
+         bitVector &= ~mask;
+      }
+      return bitVector;
+   }
+
    private boolean checkMaxOneOdd(int[] table) {
       boolean foundOdd = false;
       for (int count : table) {
