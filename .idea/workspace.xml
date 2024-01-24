@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: alternative approach for permutation palindrome">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: bit vector approach for finding palindrome permutation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/OneEditAway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/OneEditAwayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/PalindromePermutationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +399,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PalindromePermutationTest.test_palindrome_expectTrue_whenStringIsAPalindrome">
+  <component name="RunManager" selected="Gradle.OneEditAwayTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckStringPermutationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OneEditAwayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.CheckStringPermutationTest&quot;" />
+            <option value="&quot;practice.arraysandstrings.OneEditAwayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharDeleted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther&quot;" />
+            <option value="&quot;practice.arraysandstrings.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharDeleted&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.CheckStringPermutationTest" />
-      <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
+      <item itemvalue="Gradle.OneEditAwayTest" />
+      <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharDeleted" />
       <item itemvalue="Gradle.PalindromePermutationTest" />
       <item itemvalue="Gradle.PalindromePermutationTest.test_palindrome_expectTrue_whenStringIsAPalindrome" />
       <item itemvalue="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OneEditAwayTest" />
+        <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharDeleted" />
         <item itemvalue="Gradle.PalindromePermutationTest.test_palindrome_expectTrue_whenStringIsAPalindrome" />
         <item itemvalue="Gradle.PalindromePermutationTest" />
         <item itemvalue="Gradle.URLifyTest.test_urlify_expectFormattedString_whenLengthIs13" />
-        <item itemvalue="Gradle.CheckStringPermutationTest" />
-        <item itemvalue="Gradle.CheckStringPermutationTest.test_checkPermutation_expectTrue_whenBothStringsArePermutationsOfEachOther" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-55]: WIP - Jump game" />
     <MESSAGE value="[PROBLEM-55]: working solution for maximum jumps" />
     <MESSAGE value="[PROBLEM-55]: using backtracking" />
     <MESSAGE value="[PROBLEM-45]: WIP - Jump Game II" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: replace white spaces with %20, urlify string" />
     <MESSAGE value="[practice/arrays-and-strings]: string palindrome with permutation" />
     <MESSAGE value="[practice/arrays-and-strings]: alternative approach for permutation palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: alternative approach for permutation palindrome" />
+    <MESSAGE value="[practice/arrays-and-strings]: bit vector approach for finding palindrome permutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: bit vector approach for finding palindrome permutation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1448,6 +1448,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/PalindromePermuation.java</url>
           <line>105</line>
           <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/OneEditAway.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="299" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
