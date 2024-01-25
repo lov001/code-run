@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: string compression 1st approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/RotateMatrix90DegreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/StringCompressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SwapNumbersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SwapNumbersInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +400,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StringCompressionTest">
+  <component name="RunManager" selected="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -443,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OneEditAwayTest.test_isOneEditAway_expectFalse_whenOnlyTwoCharChanged" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.OneEditAwayTest.test_isOneEditAway_expectFalse_whenOnlyTwoCharChanged&quot;" />
+            <option value="&quot;practice.arraysandstrings.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharChanged" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharChanged&quot;" />
+            <option value="&quot;practice.arraysandstrings.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,18 +543,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.OneEditAwayTest" />
-      <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectFalse_whenOnlyTwoCharChanged" />
-      <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharChanged" />
+      <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix" />
+      <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix" />
       <item itemvalue="Gradle.StringCompressionTest" />
       <item itemvalue="Gradle.StringCompressionTest.test_compress_expectCompressedStringWhenItsLengthIsSmallerThanOriginalString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix" />
+        <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix" />
         <item itemvalue="Gradle.StringCompressionTest" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expectCompressedStringWhenItsLengthIsSmallerThanOriginalString" />
         <item itemvalue="Gradle.OneEditAwayTest" />
-        <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectFalse_whenOnlyTwoCharChanged" />
-        <item itemvalue="Gradle.OneEditAwayTest.test_isOneEditAway_expectTrue_whenOnlyOneCharChanged" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-45]: Approach 3" />
     <MESSAGE value="[PROBLEM-274]: WIP - H-index" />
     <MESSAGE value="[PROBLEM-274]: solution using binary search" />
     <MESSAGE value="[PROBLEM-274]: approach 2 using counting sort" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: one edit permitted approach 2" />
     <MESSAGE value="[practice/arrays-and-strings]: one edit permitted approach 3" />
     <MESSAGE value="[practice/arrays-and-strings]: string compression 1st approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: string compression 1st approach" />
+    <MESSAGE value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1463,6 +1464,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/StringCompression.java</url>
           <line>8</line>
           <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arraysandstrings/RotateMatrix90DegreeTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/SwapNumbersInArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="307" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
