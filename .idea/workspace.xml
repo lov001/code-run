@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/RotateMatrix90DegreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/CustomStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SwapNumbersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SwapNumbersInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/RotateMatrix90DegreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/RotateMatrix90DegreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +399,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix">
+  <component name="RunManager" selected="Gradle.RotateMatrix90DegreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -420,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneEditAwayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RotateMatrix90DegreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -433,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.OneEditAwayTest&quot;" />
+            <option value="&quot;practice.arraysandstrings.RotateMatrix90DegreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,7 +541,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.OneEditAwayTest" />
+      <item itemvalue="Gradle.RotateMatrix90DegreeTest" />
       <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix" />
       <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix" />
       <item itemvalue="Gradle.StringCompressionTest" />
@@ -550,11 +549,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RotateMatrix90DegreeTest" />
         <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when4x4Matrix" />
         <item itemvalue="Gradle.RotateMatrix90DegreeTest.test_rotate_expectRotatedMatrix_when3x3Matrix" />
         <item itemvalue="Gradle.StringCompressionTest" />
         <item itemvalue="Gradle.StringCompressionTest.test_compress_expectCompressedStringWhenItsLengthIsSmallerThanOriginalString" />
-        <item itemvalue="Gradle.OneEditAwayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <option name="localTasksCounter" value="259" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-274]: WIP - H-index" />
     <MESSAGE value="[PROBLEM-274]: solution using binary search" />
     <MESSAGE value="[PROBLEM-274]: approach 2 using counting sort" />
     <MESSAGE value="[PROBLEM-380]: approach 2 using counting sort" />
@@ -950,7 +948,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: one edit permitted approach 3" />
     <MESSAGE value="[practice/arrays-and-strings]: string compression 1st approach" />
     <MESSAGE value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
+    <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1477,13 +1476,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="306" />
+          <line>16</line>
+          <option name="timeStamp" value="308" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/RotateMatrix90Degree.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="307" />
+          <line>18</line>
+          <option name="timeStamp" value="309" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
