@@ -21,6 +21,13 @@ public class RotateMatrix90Degree {
             matrix[j][n - 1 - i] = matrix[n - 1 - i][n - 1 - j];
             matrix[n - 1 - i][n - 1 - j] = matrix[n - 1 - j][i];
             matrix[n - 1 - j][i] = temp;
+
+            // clockwise rotation
+//            int temp = a[i][j];
+//            a[i][j] = a[N - 1 - j][i];
+//            a[N - 1 - j][i] = a[N - 1 - i][N - 1 - j];
+//            a[N - 1 - i][N - 1 - j] = a[j][N - 1 - i];
+//            a[j][N - 1 - i] = temp;
          }
       }
    }
