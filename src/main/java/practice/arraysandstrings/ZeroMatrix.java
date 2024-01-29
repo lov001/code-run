@@ -16,26 +16,26 @@ public class ZeroMatrix {
          }
       }
 
-      for(int i=0; i<m; i++){
-         if(rows[i]){
+      for (int i = 0; i < m; i++) {
+         if (rows[i]) {
             nullifyRow(matrix, i);
          }
       }
-      for(int j=0; j<n; j++){
-         if(columns[j]){
+      for (int j = 0; j < n; j++) {
+         if (columns[j]) {
             nullifyColumn(matrix, j);
          }
       }
    }
 
    private void nullifyColumn(int[][] matrix, int column) {
-      for(int i=0; i<matrix.length; i++){
+      for (int i = 0; i < matrix.length; i++) {
          matrix[i][column] = 0;
       }
    }
 
    private void nullifyRow(int[][] matrix, int row) {
-      for(int j=0; j<matrix[0].length; j++){
+      for (int j = 0; j < matrix[0].length; j++) {
          matrix[row][j] = 0;
       }
    }
