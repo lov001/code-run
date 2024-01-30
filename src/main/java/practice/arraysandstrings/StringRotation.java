@@ -6,8 +6,12 @@ public class StringRotation {
 
 
    public boolean isSubstring(String s1, String s2) {
-      String combined = s1 + s1;
-      return combined.contains(s2);
+      int len = s1.length();
+      if (len == s2.length() && len > 0) {
+         String combined = s1 + s1;
+         return combined.contains(s2);
+      }
+      return false;
    }
 
    public boolean isSubstringBruteForce(String s1, String s2) {
