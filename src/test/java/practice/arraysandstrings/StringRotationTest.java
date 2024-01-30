@@ -12,6 +12,7 @@ public class StringRotationTest {
       String input = "waterbottle";
       String str = "erbottlewat";
       Assertions.assertTrue(classObj.isSubstring(input, str));
+      Assertions.assertTrue(classObj.isSubstringBruteForce(input, str));
    }
 
    @Test

@@ -1,5 +1,7 @@
 package practice.arraysandstrings;
 
+import java.util.Arrays;
+
 public class StringRotation {
 
 
@@ -8,4 +10,18 @@ public class StringRotation {
       return combined.contains(s2);
    }
 
+   public boolean isSubstringBruteForce(String s1, String s2) {
+      char[] chars = s1.toCharArray();
+      for (int i = 0; i < s1.length(); i++) {
+         if (Arrays.equals(s2.toCharArray(), chars)) {
+            return true;
+         }
+         char temp = chars[0];
+         for (int j = 1; j < s1.length(); j++) {
+            chars[j - 1] = chars[j];
+         }
+         chars[chars.length - 1] = temp;
+      }
+      return false;
+   }
 }
