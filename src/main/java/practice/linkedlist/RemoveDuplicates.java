@@ -22,4 +22,25 @@ public class RemoveDuplicates {
       }
    }
 
+   public void removeDuplicatesWithoutExtraSpace(Node head) {
+      if (head == null || head.next == null) {
+         return;
+      }
+      Node ptr = head;
+
+      while (ptr.next != null) {
+         Node slow = ptr;
+         Node fast = ptr.next;
+         while(fast != null){
+            if (ptr.data == fast.data) {
+               slow.next = fast.next;
+            } else{
+               slow = slow.next;
+            }
+            fast = fast.next;
+         }
+         ptr = ptr.next;
+      }
+   }
+
 }

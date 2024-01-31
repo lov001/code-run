@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: approach using shifting of array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/RemoveDuplicatesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: remove duplicates using a set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/RemoveDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/RemoveDuplicatesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectLinkedListWithNoDuplicate_whenDuplicatesExists">
+  <component name="RunManager" selected="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,6 +417,102 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectSameLinkedList_whenNoDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectSameLinkedList_whenNoDuplicates&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="RemoveDuplicatesTest.test_removeDuplicates_expectLinkedListWithNoDuplicate_whenDuplicatesExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -443,117 +538,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesTest.test_removeDuplicates_expectSameLinkedList_whenNoDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest.test_removeDuplicates_expectSameLinkedList_whenNoDuplicates&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="StringRotationTest.test_isSubstring_expectFalse_whenStringIsNotASubstring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.StringRotationTest.test_isSubstring_expectFalse_whenStringIsNotASubstring&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="StringRotationTest.test_isSubstring_expectTrue_whenStringIsASubstring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.StringRotationTest.test_isSubstring_expectTrue_whenStringIsASubstring&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ZeroMatrixTest.test_zeroMatrix_expectZeroedMatrix_when1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.ZeroMatrixTest.test_zeroMatrix_expectZeroedMatrix_when1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.RemoveDuplicatesTest" />
+      <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
+      <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2" />
+      <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectSameLinkedList_whenNoDuplicates" />
       <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
-      <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectSameLinkedList_whenNoDuplicates" />
-      <item itemvalue="Gradle.StringRotationTest.test_isSubstring_expectFalse_whenStringIsNotASubstring" />
-      <item itemvalue="Gradle.StringRotationTest.test_isSubstring_expectTrue_whenStringIsASubstring" />
-      <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectZeroedMatrix_when1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2" />
+        <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
+        <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectSameLinkedList_whenNoDuplicates" />
+        <item itemvalue="Gradle.RemoveDuplicatesTest" />
         <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
-        <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectSameLinkedList_whenNoDuplicates" />
-        <item itemvalue="Gradle.StringRotationTest.test_isSubstring_expectFalse_whenStringIsNotASubstring" />
-        <item itemvalue="Gradle.StringRotationTest.test_isSubstring_expectTrue_whenStringIsASubstring" />
-        <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectZeroedMatrix_when1" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <option name="localTasksCounter" value="268" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PROBLEM-704]: test problem for binary search" />
     <MESSAGE value="[practice/binary-search]: test problem for binary search" />
     <MESSAGE value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
     <MESSAGE value="[practice/arrays-and-strings]: problem for check whether a string is unique or not" />
@@ -949,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: WIP is substring a rotation of original string" />
     <MESSAGE value="[practice/arrays-and-strings]: basic solution using extra space" />
     <MESSAGE value="[practice/arrays-and-strings]: approach using shifting of array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: approach using shifting of array" />
+    <MESSAGE value="[practice/linked-list]: remove duplicates using a set" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: remove duplicates using a set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1491,7 +1490,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="315" />
         </line-breakpoint>
       </breakpoints>
