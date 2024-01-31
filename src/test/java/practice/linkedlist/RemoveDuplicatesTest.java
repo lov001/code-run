@@ -64,7 +64,7 @@ public class RemoveDuplicatesTest {
       Node third = new Node(2, copy);
       Node second = new Node(2, third);
       Node first = new Node(1, second);
-      classObj.removeDuplicates(first);
+      classObj.removeDuplicatesWithoutExtraSpace(first);
 
       Assertions.assertEquals(1, first.data);
       Assertions.assertEquals(2, first.next.data);
@@ -80,7 +80,7 @@ public class RemoveDuplicatesTest {
       Node third = new Node(2, copy);
       Node second = new Node(2, third);
       Node first = new Node(1, second);
-      classObj.removeDuplicates(first);
+      classObj.removeDuplicatesWithoutExtraSpace(first);
 
       Assertions.assertEquals(1, first.data);
       Assertions.assertEquals(2, first.next.data);

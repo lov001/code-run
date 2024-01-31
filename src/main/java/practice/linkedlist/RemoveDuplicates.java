@@ -26,20 +26,18 @@ public class RemoveDuplicates {
       if (head == null || head.next == null) {
          return;
       }
-      Node ptr = head;
+      Node current = head;
 
-      while (ptr.next != null) {
-         Node slow = ptr;
-         Node fast = ptr.next;
-         while(fast != null){
-            if (ptr.data == fast.data) {
-               slow.next = fast.next;
+      while (current != null) {
+         Node runner = current;
+         while(runner.next != null){
+            if (current.data == runner.next.data) {
+               runner.next = runner.next.next;
             } else{
-               slow = slow.next;
+               runner = runner.next;
             }
-            fast = fast.next;
          }
-         ptr = ptr.next;
+         current = current.next;
       }
    }
 
