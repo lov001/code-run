@@ -31,4 +31,22 @@ public class LastKthElementTest {
       Assertions.assertEquals(10, classObj.lastKthElement(first, 2));
    }
 
+   @Test
+   void test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize() {
+      Node fourth = new Node(50, null);
+      Node copy = new Node(10, fourth);
+      Node third = new Node(1, copy);
+      Node second = new Node(9, third);
+      Node first = new Node(3, second);
+
+      Assertions.assertEquals(-1, classObj.lastKthElement(first, 12));
+   }
+
+   @Test
+   void test_lastKthElement_expect3_whenOnlyHeadNode() {
+      Node first = new Node(3, null);
+
+      Assertions.assertEquals(3, classObj.lastKthElement(first, 1));
+   }
+
 }
