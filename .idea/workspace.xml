@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: remove duplicates without using extra space">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: remove duplicates without using extra space optimised">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LastKthElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LastKthElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/RemoveDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/RemoveDuplicatesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists">
+  <component name="RunManager" selected="Gradle.RemoveDuplicatesTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -548,9 +548,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RemoveDuplicatesTest" />
         <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
         <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists2" />
-        <item itemvalue="Gradle.RemoveDuplicatesTest" />
         <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicatesWithoutExtraSpace_expectSameLinkedList_whenNoDuplicates" />
         <item itemvalue="Gradle.RemoveDuplicatesTest.test_removeDuplicates_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
       </list>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: initial commit for arrays and strings practice" />
     <MESSAGE value="[practice/arrays-and-strings]: problem for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: hash table approach for isUnique string" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: approach using shifting of array" />
     <MESSAGE value="[practice/linked-list]: remove duplicates using a set" />
     <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: remove duplicates without using extra space" />
+    <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space optimised" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: remove duplicates without using extra space optimised" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
