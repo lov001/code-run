@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: solution using recursive approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/DeleteMiddleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/DeleteMiddleNodeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: WIP delete middle node from a linked list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/DeleteMiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/DeleteMiddleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/DeleteMiddleNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/DeleteMiddleNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LastKthElementTest">
+  <component name="RunManager" selected="Gradle.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,6 +418,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LastKthElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -432,78 +504,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.linkedlist.LastKthElementTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LastKthElementTest.test_lastKthElement_expect10_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LastKthElementTest.test_lastKthElement_expect10_whenKIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LastKthElementTest.test_lastKthElement_expect4_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LastKthElementTest.test_lastKthElement_expect4_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6" />
+      <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates" />
+      <item itemvalue="Gradle.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
       <item itemvalue="Gradle.LastKthElementTest" />
-      <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect10_whenKIs2" />
-      <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" />
-      <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect4_whenKIs3" />
       <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
+        <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6" />
+        <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates" />
         <item itemvalue="Gradle.LastKthElementTest" />
         <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize" />
-        <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect10_whenKIs2" />
-        <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" />
-        <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect4_whenKIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: check permutation for string" />
     <MESSAGE value="[practice/arrays-and-strings]: approach 2 using sorting" />
     <MESSAGE value="[practice/arrays-and-strings]: replace white spaces with %20, urlify string" />
     <MESSAGE value="[practice/arrays-and-strings]: string palindrome with permutation" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: WIP last kth element" />
     <MESSAGE value="[practice/linked-list]: solution using two pointers fast and slow" />
     <MESSAGE value="[practice/linked-list]: solution using recursive approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: solution using recursive approach" />
+    <MESSAGE value="[practice/linked-list]: WIP delete middle node from a linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: WIP delete middle node from a linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
