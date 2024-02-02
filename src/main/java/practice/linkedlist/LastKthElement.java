@@ -25,4 +25,26 @@ public class LastKthElement {
       return slow.data;
    }
 
+   private static class Index {
+
+
+      public int index = 0;
+   }
+
+   public Node lastKthElementUsingRecursion(Node head, int k) {
+      Index index = new Index();
+      return lastKth(head, k, index);
+   }
+
+   private Node lastKth(Node ptr, int k, Index idx) {
+      if (ptr == null) {
+         return null;
+      }
+      Node node = lastKth(ptr.next, k, idx);
+      idx.index = idx.index + 1;
+      if (idx.index == k) {
+         return ptr;
+      }
+      return node;
+   }
 }

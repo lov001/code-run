@@ -18,6 +18,7 @@ public class LastKthElementTest {
       Node first = new Node(1, second);
 
       Assertions.assertEquals(4, classObj.lastKthElement(first, 3));
+      Assertions.assertEquals(4, classObj.lastKthElementUsingRecursion(first, 3).data);
    }
 
    @Test
@@ -29,6 +30,7 @@ public class LastKthElementTest {
       Node first = new Node(3, second);
 
       Assertions.assertEquals(10, classObj.lastKthElement(first, 2));
+      Assertions.assertEquals(10, classObj.lastKthElementUsingRecursion(first, 2).data);
    }
 
    @Test
@@ -40,6 +42,7 @@ public class LastKthElementTest {
       Node first = new Node(3, second);
 
       Assertions.assertEquals(-1, classObj.lastKthElement(first, 12));
+      Assertions.assertNull(classObj.lastKthElementUsingRecursion(first, 12));
    }
 
    @Test
@@ -47,6 +50,7 @@ public class LastKthElementTest {
       Node first = new Node(3, null);
 
       Assertions.assertEquals(3, classObj.lastKthElement(first, 1));
+      Assertions.assertEquals(3, classObj.lastKthElementUsingRecursion(first, 1).data);
    }
 
 }

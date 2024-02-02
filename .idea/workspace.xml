@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: WIP last kth element">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: solution using two pointers fast and slow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LastKthElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LastKthElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LastKthElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LastKthElementTest.java" afterDir="false" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode">
+  <component name="RunManager" selected="Gradle.LastKthElementTest.test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,6 +417,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="LastKthElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.LastKthElementTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="LastKthElementTest.test_lastKthElement_expect10_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -514,45 +538,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.RemoveDuplicatesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.LastKthElementTest" />
       <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect10_whenKIs2" />
       <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" />
       <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect4_whenKIs3" />
       <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize" />
-      <item itemvalue="Gradle.RemoveDuplicatesTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" />
         <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expectMinus1_whenKIsGreaterThanLinkedListSize" />
         <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect10_whenKIs2" />
+        <item itemvalue="Gradle.LastKthElementTest" />
+        <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect3_whenOnlyHeadNode" />
         <item itemvalue="Gradle.LastKthElementTest.test_lastKthElement_expect4_whenKIs3" />
-        <item itemvalue="Gradle.RemoveDuplicatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: unit test for check whether a string is unique or not" />
     <MESSAGE value="[practice/arrays-and-strings]: hash table approach for isUnique string" />
     <MESSAGE value="[practice/arrays-and-strings]: check permutation for string" />
     <MESSAGE value="[practice/arrays-and-strings]: approach 2 using sorting" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space" />
     <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space optimised" />
     <MESSAGE value="[practice/linked-list]: WIP last kth element" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: WIP last kth element" />
+    <MESSAGE value="[practice/linked-list]: solution using two pointers fast and slow" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: solution using two pointers fast and slow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1497,6 +1497,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/RemoveDuplicates.java</url>
           <line>28</line>
           <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LastKthElement.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LastKthElement.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="318" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
