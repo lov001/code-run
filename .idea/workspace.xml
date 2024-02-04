@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: deleting middle element using iterative approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: deleting middle element when only that node is given">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/DeleteMiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/DeleteMiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/DeleteMiddleNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/DeleteMiddleNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +399,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteMiddleNodeTest">
+  <component name="RunManager" selected="Gradle.DeleteMiddleNodeTest.test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -432,6 +433,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.linkedlist.DeleteMiddleNodeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteMiddleNodeTest.test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.DeleteMiddleNodeTest.test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,45 +539,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LastKthElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LastKthElementTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.DeleteMiddleNodeTest" />
+      <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6" />
       <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6" />
       <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates" />
       <item itemvalue="Gradle.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
-      <item itemvalue="Gradle.LastKthElementTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6" />
         <item itemvalue="Gradle.DeleteMiddleNodeTest" />
         <item itemvalue="Gradle.DeleteMiddleNodeTest.test_removeDuplicatesWithoutExtraSpace_expectLinkedListWithNoDuplicate_whenDuplicatesExists" />
         <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expect4ToBeRemoved_whenNoOfElementsIs6" />
         <item itemvalue="Gradle.DeleteMiddleNodeTest.test_deleteMiddle_expectSameLinkedList_whenNoDuplicates" />
-        <item itemvalue="Gradle.LastKthElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: replace white spaces with %20, urlify string" />
     <MESSAGE value="[practice/arrays-and-strings]: string palindrome with permutation" />
     <MESSAGE value="[practice/arrays-and-strings]: alternative approach for permutation palindrome" />
     <MESSAGE value="[practice/arrays-and-strings]: bit vector approach for finding palindrome permutation" />
@@ -948,7 +948,8 @@
     <MESSAGE value="[practice/linked-list]: solution using recursive approach" />
     <MESSAGE value="[practice/linked-list]: WIP delete middle node from a linked list" />
     <MESSAGE value="[practice/linked-list]: deleting middle element using iterative approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: deleting middle element using iterative approach" />
+    <MESSAGE value="[practice/linked-list]: deleting middle element when only that node is given" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: deleting middle element when only that node is given" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
