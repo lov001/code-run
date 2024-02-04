@@ -60,6 +60,9 @@ public class LinkedListSum {
          ptr = node;
          ptr2 = ptr2.next;
       }
+      if(carry == 1){
+         ptr.next = new Node(carry);
+      }
 
       return head;
    }
