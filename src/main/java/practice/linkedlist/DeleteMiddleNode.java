@@ -22,4 +22,14 @@ public class DeleteMiddleNode {
       }
    }
 
+   public boolean deleteMiddleWhenOnlyThatNodeIsGiven(Node middle) {
+      if (middle == null || middle.next == null) {
+         return false;
+      }
+      Node next = middle.next;
+      middle.data = next.data;
+      middle.next = next.next;
+      return true;
+   }
+
 }

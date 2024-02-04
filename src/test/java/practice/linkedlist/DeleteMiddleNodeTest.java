@@ -61,4 +61,21 @@ public class DeleteMiddleNodeTest {
       Assertions.assertNull(first.next.next);
    }
 
+   @Test
+   void test_deleteMiddleWhenOnlyThatNodeIsGiven_expect4ToBeRemoved_whenNoOfElementsIs6() {
+      Node fifth = new Node(6, null);
+      Node fourth = new Node(5, fifth);
+      Node copy = new Node(4, fourth);
+      Node third = new Node(3, copy);
+      Node second = new Node(2, third);
+      Node first = new Node(1, second);
+
+      Assertions.assertTrue(classObj.deleteMiddleWhenOnlyThatNodeIsGiven(copy));
+      Assertions.assertEquals(1, first.data);
+      Assertions.assertEquals(2, first.next.data);
+      Assertions.assertEquals(3, first.next.next.data);
+      Assertions.assertEquals(5, first.next.next.next.data);
+      Assertions.assertEquals(6, first.next.next.next.next.data);
+   }
+
 }
