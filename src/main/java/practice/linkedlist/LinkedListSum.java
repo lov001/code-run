@@ -13,8 +13,8 @@ public class LinkedListSum {
       Node ptr = head;
       int carry = 0;
       int sum = ptr1.data + ptr2.data + carry;
+      carry = sum > 9 ? 1 : 0;
       if (sum > 9) {
-         carry = 1;
          sum = sum % 10;
       }
       head.data = sum;
@@ -22,11 +22,9 @@ public class LinkedListSum {
       ptr2 = ptr2.next;
       while (ptr1 != null && ptr2 != null) {
          sum = ptr1.data + ptr2.data + carry;
+         carry = sum > 9 ? 1 : 0;
          if (sum > 9) {
-            carry = 1;
             sum = sum % 10;
-         } else {
-            carry = 0;
          }
          Node node = new Node(sum);
          ptr.next = node;
@@ -34,36 +32,26 @@ public class LinkedListSum {
          ptr1 = ptr1.next;
          ptr2 = ptr2.next;
       }
-      while (ptr1 != null) {
-         sum = ptr1.data + carry;
+      Node temp = null;
+      if (ptr1 != null) {
+         temp = ptr1;
+      } else if (ptr2 != null) {
+         temp = ptr2;
+      }
+      while (temp != null) {
+         sum = temp.data + carry;
+         carry = sum > 9 ? 1 : 0;
          if (sum > 9) {
-            carry = 1;
             sum = sum % 10;
-         } else {
-            carry = 0;
          }
          Node node = new Node(sum);
          ptr.next = node;
          ptr = node;
-         ptr1 = ptr1.next;
+         temp = temp.next;
       }
-      while (ptr2 != null) {
-         sum = ptr2.data + carry;
-         if (sum > 9) {
-            carry = 1;
-            sum = sum % 10;
-         } else {
-            carry = 0;
-         }
-         Node node = new Node(sum);
-         ptr.next = node;
-         ptr = node;
-         ptr2 = ptr2.next;
-      }
-      if(carry == 1){
+      if (carry == 1) {
          ptr.next = new Node(carry);
       }
-
       return head;
    }
 
