@@ -1,5 +1,7 @@
 package practice.linkedlist;
 
+import static practice.utils.LinkedListUtils.length;
+
 public class LinkedListSum {
 
 
@@ -98,15 +100,6 @@ public class LinkedListSum {
       } else {
          return insertBefore(sum.sum, sum.carry);
       }
-   }
-
-   private int length(Node l) {
-      int length = 0;
-      while (l != null) {
-         length++;
-         l = l.next;
-      }
-      return length;
    }
 
    private Node padList(Node ptr, int padLength) {
