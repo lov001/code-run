@@ -19,6 +19,7 @@ public class PalindromeListTest {
       head.next = val1;
       val1.next = val2;
       val2.next = val3;
+      assertTrue(classObj.isPalindromeUsingStack(head));
       assertTrue(classObj.isPalindrome(head));
    }
 
@@ -26,6 +27,7 @@ public class PalindromeListTest {
    void test_isPalindrome_expectFalse_whenListIsNotPalindrome() {
       Node head = new Node(1);
       head.next = new Node(2);
+      assertFalse(classObj.isPalindromeUsingStack(head));
       assertFalse(classObj.isPalindrome(head));
    }
 
@@ -33,12 +35,14 @@ public class PalindromeListTest {
    void test_isPalindrome_expectTrue_whenListHasOnlyOneElement() {
       Node head = new Node(1);
       assertTrue(classObj.isPalindrome(head));
+      assertTrue(classObj.isPalindromeUsingStack(head));
    }
 
    @Test
    void test_isPalindrome_expectTrue_whenListHasAllSameElements() {
       Node head = new Node(2);
       head.next = new Node(2);
+      assertTrue(classObj.isPalindromeUsingStack(head));
       assertTrue(classObj.isPalindrome(head));
    }
 
@@ -51,6 +55,7 @@ public class PalindromeListTest {
       head.next = val1;
       val1.next = val2;
       val2.next = val3;
+      assertFalse(classObj.isPalindromeUsingStack(head));
       assertFalse(classObj.isPalindrome(head));
    }
 

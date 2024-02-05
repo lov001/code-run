@@ -1,5 +1,8 @@
 package practice.linkedlist;
 
+import java.util.Stack;
+import practice.utils.LinkedListUtils;
+
 public class PalindromeList {
 
 
@@ -31,6 +34,46 @@ public class PalindromeList {
          ptr = ptr.next;
          prev = prev.next;
       }
+      return true;
+   }
+
+   public boolean isPalindromeUsingStack(Node head) {
+      if (head == null) {
+         return false;
+      } else if (head.next == null) {
+         return true;
+      } else if (head.next.next == null) {
+         return head.data == head.next.data;
+      }
+      Node slow = head, fast = head;
+      Stack<Integer> stack = new Stack<>();
+      int length = LinkedListUtils.length(head);
+      while (fast != null && fast.next != null) {
+         stack.push(slow.data);
+         slow = slow.next;
+         fast = fast.next.next;
+      }
+      boolean flag = true;
+      for (int i = 0; i < length / 2; i++) {
+         if (flag && length % 2 == 0) {
+            int val1 = stack.pop();
+            int val2 = slow.data;
+            flag = false;
+            if (val1 != val2) {
+               return false;
+            }
+         } else if (flag) {
+            stack.pop();
+         } else {
+            int val1 = slow.data;
+            int val2 = stack.pop();
+            if (val1 != val2) {
+               return false;
+            }
+         }
+         slow = slow.next;
+      }
+
       return true;
    }
 
