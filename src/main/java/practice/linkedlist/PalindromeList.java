@@ -77,4 +77,33 @@ public class PalindromeList {
       return true;
    }
 
+
+   public boolean isPalindromeUsingReversedList(Node head) {
+      Node reversedList = reverseAndClone(head);
+      return checkTwoLinkedListsForEquality(head, reversedList);
+   }
+
+   private Node reverseAndClone(Node head) {
+      Node current = head;
+      Node prev = null;
+      while (current != null) {
+         Node node = new Node(current.data);
+         node.next = prev;
+         prev = node;
+         current = current.next;
+      }
+      return prev;
+   }
+
+   private boolean checkTwoLinkedListsForEquality(Node listA, Node listB) {
+      while (listA != null && listB != null) {
+         if (listA.data != listB.data) {
+            return false;
+         }
+         listA = listA.next;
+         listB = listB.next;
+      }
+      return listA == null && listB == null;
+   }
+
 }

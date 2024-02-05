@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: palindrome linked list check">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: palindrome linked list check using stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PalindromeListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PalindromeListTest.java" afterDir="false" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome">
+  <component name="RunManager" selected="Gradle.PalindromeListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,30 +418,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="PalindromeListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -456,6 +432,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.linkedlist.PalindromeListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LinkedListSumTest" />
       <item itemvalue="Gradle.PalindromeListTest" />
+      <item itemvalue="Gradle.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" />
       <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome" />
       <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements" />
       <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" />
         <item itemvalue="Gradle.PalindromeListTest" />
+        <item itemvalue="Gradle.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" />
+        <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" />
         <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements" />
         <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome" />
-        <item itemvalue="Gradle.LinkedListSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: string compression 1st approach" />
     <MESSAGE value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
     <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree using transpose and in place" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: minor code optimisations" />
     <MESSAGE value="[practice/linked-list]: linked list sum when numbers are in actual order" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: palindrome linked list check" />
+    <MESSAGE value="[practice/linked-list]: palindrome linked list check using stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: palindrome linked list check using stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1515,18 +1515,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="325" />
+          <line>81</line>
+          <option name="timeStamp" value="330" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="326" />
+          <line>86</line>
+          <option name="timeStamp" value="331" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/utils/LinkedListUtils.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="327" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="332" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
