@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: palindrome linked list using reverse and then comparison">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LoopDetectionTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: WIP - finding corrupted node in a circular linked list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LoopDetectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LoopDetectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.arrays.problem274" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PalindromeListTest">
+  <component name="RunManager" selected="Gradle.LoopDetectionTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,7 +418,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoopDetectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -431,7 +431,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PalindromeListTest&quot;" />
+            <option value="&quot;practice.linkedlist.LoopDetectionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,7 +442,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +455,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome&quot;" />
+            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,7 +466,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoopDetectionTest.test_circularList_expectOne_whenCycleBeginsFromSecondNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -479,7 +479,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome&quot;" />
+            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectOne_whenCycleBeginsFromSecondNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,7 +490,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoopDetectionTest.test_circularList_expectThree_whenCycleBeginsFromThirdNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +503,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements&quot;" />
+            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectThree_whenCycleBeginsFromThirdNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +514,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +527,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome&quot;" />
+            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PalindromeListTest" />
-      <item itemvalue="Gradle.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" />
-      <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome" />
-      <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements" />
-      <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" />
+      <item itemvalue="Gradle.LoopDetectionTest" />
+      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" />
+      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectOne_whenCycleBeginsFromSecondNode" />
+      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectThree_whenCycleBeginsFromThirdNode" />
+      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PalindromeListTest" />
-        <item itemvalue="Gradle.PalindromeListTest.test_isPalindromeUsingReversedList_expectTrue_whenListIsPalindrome" />
-        <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListIsPalindrome" />
-        <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectTrue_whenListHasAllSameElements" />
-        <item itemvalue="Gradle.PalindromeListTest.test_isPalindrome_expectFalse_whenListIsNotAPalindrome" />
+        <item itemvalue="Gradle.LoopDetectionTest" />
+        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
+        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" />
+        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectThree_whenCycleBeginsFromThirdNode" />
+        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectOne_whenCycleBeginsFromSecondNode" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree using transpose and in place" />
     <MESSAGE value="[practice/arrays-and-strings]: added comment for clockwise rotation" />
     <MESSAGE value="[practice/arrays-and-strings]: zero matrix brute force approach" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: palindrome linked list check" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check using stack" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
+    <MESSAGE value="[practice/linked-list]: WIP - finding corrupted node in a circular linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: WIP - finding corrupted node in a circular linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1527,6 +1527,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java</url>
           <line>98</line>
           <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="333" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
