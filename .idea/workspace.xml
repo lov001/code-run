@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: palindrome linked list check using stack">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: palindrome linked list using reverse and then comparison">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LoopDetectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PalindromeListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PalindromeListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <option name="localTasksCounter" value="284" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: string compression optimal approach for calculation compressed length before hand" />
     <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: rotate matrix 90 degree using transpose and in place" />
     <MESSAGE value="[practice/arrays-and-strings]: added comment for clockwise rotation" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: linked list sum when numbers are in actual order" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check using stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: palindrome linked list check using stack" />
+    <MESSAGE value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
