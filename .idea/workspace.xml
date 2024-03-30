@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection of two linked lists using hashset">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection using two pointer approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.java" afterDir="false" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.problem380" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest">
+  <component name="RunManager" selected="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect8_whenListsIntersectAt8">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -442,7 +442,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect8_whenListsIntersectAt8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +455,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect8_whenListsIntersectAt8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -480,30 +504,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,18 +541,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect8_whenListsIntersectAt8" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
       <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" />
       <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect8_whenListsIntersectAt8" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
         <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
         <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2" />
         <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <option name="localTasksCounter" value="288" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: zero matrix brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: updated logic to have boolean" />
     <MESSAGE value="[practice/arrays-and-strings]: WIP is substring a rotation of original string" />
     <MESSAGE value="[practice/arrays-and-strings]: basic solution using extra space" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: WIP - finding corrupted node in a circular linked list" />
     <MESSAGE value="[practice/linked-list]: finding corrupted node in a circular linked list" />
     <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: intersection of two linked lists using hashset" />
+    <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: intersection using two pointer approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1542,6 +1542,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java</url>
           <line>24</line>
           <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="338" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

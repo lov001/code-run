@@ -43,4 +43,41 @@ public class LinkedListIntersectionUsingHashing {
       return ptr1;
    }
 
+   public Node intersectionWithDifferenceOfLength(Node listA, Node listB) {
+      if (listA == null || listB == null) {
+         return null;
+      }
+      int lenA = findListLength(listA);
+      int lenB = findListLength(listB);
+      if (lenA - lenB > 0) {
+         listA = moveListForwardBy(listA, Math.abs(lenA - lenB));
+      } else if (lenB - lenA > 0) {
+         listB = moveListForwardBy(listB, Math.abs(lenA - lenB));
+      }
+      while (listA != listB) {
+         listA = listA.next;
+         listB = listB.next;
+         if (listA == listB) {
+            return listA;
+         }
+      }
+      return null;
+   }
+
+   private int findListLength(Node ptr) {
+      int count = 0;
+      while (ptr != null) {
+         count++;
+         ptr = ptr.next;
+      }
+      return count;
+   }
+
+   private Node moveListForwardBy(Node ptr, int offset) {
+      for (int i = 0; i < offset; i++) {
+         ptr = ptr.next;
+      }
+      return ptr;
+   }
+
 }
