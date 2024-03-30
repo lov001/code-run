@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: finding corrupted node in a circular linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/IntersectionOfTwoLinkedListsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection of two linked lists using hashset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +398,7 @@
       <recent name="leetcode.problem380" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect15_whenListsIntersectAt15">
+  <component name="RunManager" selected="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,7 +418,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -431,7 +431,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.IntersectionOfTwoLinkedListsTest&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,7 +442,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect15_whenListsIntersectAt15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +455,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect15_whenListsIntersectAt15&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,7 +466,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoopDetectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -479,7 +479,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LoopDetectionTest&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,7 +490,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +503,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +514,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +527,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode&quot;" />
+            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect15_whenListsIntersectAt15" />
-      <item itemvalue="Gradle.LoopDetectionTest" />
-      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" />
-      <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" />
+      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest.test_getIntersectionNode_expect15_whenListsIntersectAt15" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListsTest" />
-        <item itemvalue="Gradle.LoopDetectionTest" />
-        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectZero_whenInputHasTwoNodesAndCycleBeginsFromFirstNode" />
-        <item itemvalue="Gradle.LoopDetectionTest.test_circularList_expectNull_whenInputHasNoCycle" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect2_whenListsIntersectAt2" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expectNull_whenListsDoNotIntersect" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect8_whenListsIntersectAt8" />
+        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithTwoPointers_expect15_whenListsIntersectAt15" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: added comment for clockwise rotation" />
     <MESSAGE value="[practice/arrays-and-strings]: zero matrix brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: updated logic to have boolean" />
     <MESSAGE value="[practice/arrays-and-strings]: WIP is substring a rotation of original string" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
     <MESSAGE value="[practice/linked-list]: WIP - finding corrupted node in a circular linked list" />
     <MESSAGE value="[practice/linked-list]: finding corrupted node in a circular linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: finding corrupted node in a circular linked list" />
+    <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: intersection of two linked lists using hashset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1532,6 +1532,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LoopDetection.java</url>
           <line>9</line>
           <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/linkedlist/LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LinkedListIntersectionUsingHashing.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="335" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
