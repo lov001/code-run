@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection using length difference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StackUsingLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/StackUsingLinkedListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: stack implementation using a linked list">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/QueueUsingLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/stack/StackUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StackUsingLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,14 +393,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.queue" />
       <recent name="practice.linkedlist" />
       <recent name="practice.arraysandstrings" />
       <recent name="leetcode.searching.binarysearch.problem744" />
       <recent name="leetcode.arrays.problem238" />
-      <recent name="leetcode.problem380" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList">
+  <component name="RunManager" selected="Gradle.QueueUsingLinkedListTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,6 +419,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="QueueUsingLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.queue.QueueUsingLinkedListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="StackUsingLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -516,45 +540,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.QueueUsingLinkedListTest" />
       <item itemvalue="Gradle.StackUsingLinkedListTest" />
       <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
       <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty" />
       <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
-      <item itemvalue="Gradle.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QueueUsingLinkedListTest" />
         <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
         <item itemvalue="Gradle.StackUsingLinkedListTest" />
         <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
         <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty" />
-        <item itemvalue="Gradle.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: WIP is substring a rotation of original string" />
     <MESSAGE value="[practice/arrays-and-strings]: basic solution using extra space" />
     <MESSAGE value="[practice/arrays-and-strings]: approach using shifting of array" />
     <MESSAGE value="[practice/linked-list]: remove duplicates using a set" />
@@ -950,7 +949,8 @@
     <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
     <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
     <MESSAGE value="[practice/linked-list]: intersection using length difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: intersection using length difference" />
+    <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: stack implementation using a linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

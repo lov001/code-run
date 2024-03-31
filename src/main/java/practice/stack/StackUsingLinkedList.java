@@ -37,7 +37,7 @@ public class StackUsingLinkedList<T> {
       return obj;
    }
 
-   public T peek(){
+   public T peek() {
       if (top == null) {
          throw new EmptyStackException();
       }
