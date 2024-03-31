@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection using length difference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PartitionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PartitionListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StackUsingLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/StackUsingLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -320,6 +322,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/stacks-and-queues" />
+                    <option name="lastUsedInstant" value="1711872386" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/linked-list" />
                     <option name="lastUsedInstant" value="1706672766" />
                   </RecentBranch>
@@ -334,10 +340,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1701180109" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-238" />
-                    <option name="lastUsedInstant" value="1691859470" />
                   </RecentBranch>
                 </list>
               </option>
@@ -398,7 +400,7 @@
       <recent name="leetcode.problem380" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2">
+  <component name="RunManager" selected="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,7 +420,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -431,7 +433,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest&quot;" />
+            <option value="&quot;practice.stack.StackUsingLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingLinkedListTest.test_StackUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2&quot;" />
+            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_StackUsingLinkedList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -479,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect&quot;" />
+            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +505,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PartitionListTest.test_partition_expectPartitionedList_whenXIs2&quot;" />
+            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PartitionListTest.test_partition_expectPartitionedList_whenXIs3&quot;" />
+            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +542,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
+      <item itemvalue="Gradle.StackUsingLinkedListTest" />
+      <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
+      <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty" />
+      <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+      <item itemvalue="Gradle.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
+        <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
+        <item itemvalue="Gradle.StackUsingLinkedListTest" />
+        <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+        <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectException_whenStackIsEmpty" />
+        <item itemvalue="Gradle.StackUsingLinkedListTest.test_push_expectTopElement_whenStackIsNotEmpty" />
       </list>
     </recent_temporary>
   </component>
