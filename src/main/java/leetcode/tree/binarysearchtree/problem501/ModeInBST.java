@@ -6,17 +6,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Stack;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class ModeInBST {
 
-    public int[] findMode(TreeNode root) {
+    public int[] findMode(BinaryTreeNode root) {
         Map<Integer, Integer> map = new HashMap<>();
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<BinaryTreeNode> stack = new Stack<>();
         List<Integer> result = new ArrayList<>();
         stack.push(root);
         while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
+            BinaryTreeNode node = stack.pop();
             if (!map.containsKey(node.val)) {
                 map.put(node.val, 1);
             } else {

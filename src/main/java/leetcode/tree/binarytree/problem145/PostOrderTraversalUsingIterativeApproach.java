@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class PostOrderTraversalUsingIterativeApproach {
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(BinaryTreeNode root) {
         if (root == null) {
             return Collections.emptyList();
         }
         List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<BinaryTreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.empty()) {
-            TreeNode curr = stack.pop();
+            BinaryTreeNode curr = stack.pop();
             list.add(curr.val);
             if (curr.left != null) {
                 stack.push(curr.left);

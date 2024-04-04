@@ -1,12 +1,12 @@
 package leetcode.tree.binarytree.problem112;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class PathSum {
 
     private static boolean flag;
 
-    public boolean hasPathSum(TreeNode root, int targetSum) {
+    public boolean hasPathSum(BinaryTreeNode root, int targetSum) {
         if (root == null) {
             return false;
         }
@@ -15,7 +15,7 @@ public class PathSum {
         return flag;
     }
 
-    private void sum(TreeNode root, int targetSum) {
+    private void sum(BinaryTreeNode root, int targetSum) {
         if (root == null) {
             return;
         }

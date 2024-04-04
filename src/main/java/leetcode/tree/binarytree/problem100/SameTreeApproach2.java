@@ -1,17 +1,17 @@
 package leetcode.tree.binarytree.problem100;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class SameTreeApproach2 {
 
     boolean flag = true;
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(BinaryTreeNode p, BinaryTreeNode q) {
         inorderTraversal2(p, q);
         return flag;
     }
 
-    private void inorderTraversal2(TreeNode root1, TreeNode root2) {
+    private void inorderTraversal2(BinaryTreeNode root1, BinaryTreeNode root2) {
         if ((root1 == null && root2 != null) || (root1 != null && root2 == null)) {
             flag = false;
         } else if (root1 == null) {

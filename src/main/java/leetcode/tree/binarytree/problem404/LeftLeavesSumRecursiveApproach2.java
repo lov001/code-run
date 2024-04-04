@@ -1,14 +1,14 @@
 package leetcode.tree.binarytree.problem404;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class LeftLeavesSumRecursiveApproach2 {
 
-    public int sumOfLeftLeaves(TreeNode root) {
+    public int sumOfLeftLeaves(BinaryTreeNode root) {
         return dfs(root, false);
     }
 
-    private int dfs(TreeNode root, boolean isLeft) {
+    private int dfs(BinaryTreeNode root, boolean isLeft) {
         if (root == null) {
             return 0;
         }

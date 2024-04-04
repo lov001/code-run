@@ -1,10 +1,10 @@
 package leetcode.tree.binarytree.problem111;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class MinimumDepth {
 
-    public int minDepth(TreeNode root) {
+    public int minDepth(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }

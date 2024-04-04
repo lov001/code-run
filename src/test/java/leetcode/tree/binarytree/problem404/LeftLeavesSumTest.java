@@ -1,6 +1,6 @@
 package leetcode.tree.binarytree.problem404;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -12,11 +12,11 @@ public class LeftLeavesSumTest {
 
     @Test
     void test_sumOfLeftLeaves_expect24_whenLeftLeavesSumIs24() {
-        TreeNode right3 = new TreeNode(7, null, null);
-        TreeNode left3 = new TreeNode(15, null, null);
-        TreeNode right1 = new TreeNode(20, left3, right3);
-        TreeNode left1 = new TreeNode(9, null, null);
-        TreeNode tree = new TreeNode(3, left1, right1);
+        BinaryTreeNode right3 = new BinaryTreeNode(7, null, null);
+        BinaryTreeNode left3 = new BinaryTreeNode(15, null, null);
+        BinaryTreeNode right1 = new BinaryTreeNode(20, left3, right3);
+        BinaryTreeNode left1 = new BinaryTreeNode(9, null, null);
+        BinaryTreeNode tree = new BinaryTreeNode(3, left1, right1);
 
         Assertions.assertEquals(24, classObj.sumOfLeftLeaves(tree));
         Assertions.assertEquals(24, classObj2.sumOfLeftLeaves(tree));
@@ -25,7 +25,7 @@ public class LeftLeavesSumTest {
 
     @Test
     void test_sumOfLeftLeaves_expect0_whenOnlyRootNode() {
-        TreeNode tree = new TreeNode(1, null, null);
+        BinaryTreeNode tree = new BinaryTreeNode(1, null, null);
 
         Assertions.assertEquals(0, classObj.sumOfLeftLeaves(tree));
         Assertions.assertEquals(0, classObj2.sumOfLeftLeaves(tree));

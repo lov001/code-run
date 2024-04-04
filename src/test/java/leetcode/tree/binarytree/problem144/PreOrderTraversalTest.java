@@ -3,7 +3,7 @@ package leetcode.tree.binarytree.problem144;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,9 +15,9 @@ public class PreOrderTraversalTest {
 
     @Test
     void test_preorderTraversal_expectOrderedList_whenTreeHasNodes() {
-        TreeNode left = new TreeNode(3, null, null);
-        TreeNode right = new TreeNode(2, left, null);
-        TreeNode root = new TreeNode(1, null, right);
+        BinaryTreeNode left = new BinaryTreeNode(3, null, null);
+        BinaryTreeNode right = new BinaryTreeNode(2, left, null);
+        BinaryTreeNode root = new BinaryTreeNode(1, null, right);
         Assertions.assertEquals(Arrays.asList(1, 2, 3), classObj.preorderTraversal(root));
         Assertions.assertEquals(Arrays.asList(1, 2, 3), classObj2.preorderTraversal(root));
     }
@@ -30,17 +30,17 @@ public class PreOrderTraversalTest {
 
     @Test
     void test_preorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode() {
-        TreeNode root = new TreeNode(1, null, null);
+        BinaryTreeNode root = new BinaryTreeNode(1, null, null);
         Assertions.assertEquals(List.of(1), classObj.preorderTraversal(root));
         Assertions.assertEquals(List.of(1), classObj2.preorderTraversal(root));
     }
 
     @Test
     void test_preorderTraversal_expectOrderedList_whenTreeHas4Nodes() {
-        TreeNode leftLeft = new TreeNode(2, null, null);
-        TreeNode left = new TreeNode(4, leftLeft, null);
-        TreeNode right = new TreeNode(3, null, null);
-        TreeNode root = new TreeNode(1, left, right);
+        BinaryTreeNode leftLeft = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode left = new BinaryTreeNode(4, leftLeft, null);
+        BinaryTreeNode right = new BinaryTreeNode(3, null, null);
+        BinaryTreeNode root = new BinaryTreeNode(1, left, right);
         Assertions.assertEquals(Arrays.asList(1, 4, 2, 3), classObj.preorderTraversal(root));
         Assertions.assertEquals(Arrays.asList(1, 4, 2, 3), classObj2.preorderTraversal(root));
     }

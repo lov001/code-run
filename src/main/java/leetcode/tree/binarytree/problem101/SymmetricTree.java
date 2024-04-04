@@ -1,10 +1,10 @@
 package leetcode.tree.binarytree.problem101;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class SymmetricTree {
 
-    public boolean isSymmetric(TreeNode root) {
+    public boolean isSymmetric(BinaryTreeNode root) {
         if (root == null || (root.left == null && root.right == null)) {
             return true;
         }
@@ -14,7 +14,7 @@ public class SymmetricTree {
         return isSymmetricHelper(root.left, root.right);
     }
 
-    private boolean isSymmetricHelper(TreeNode left, TreeNode right) {
+    private boolean isSymmetricHelper(BinaryTreeNode left, BinaryTreeNode right) {
         if (left == null && right == null) {
             return true;
         }

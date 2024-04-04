@@ -1,10 +1,10 @@
 package leetcode.tree.binarysearchtree.problem700;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class SearchTargetInBST {
 
-    public TreeNode searchBST(TreeNode root, int val) {
+    public BinaryTreeNode searchBST(BinaryTreeNode root, int val) {
         if (root == null) {
             return null;
         }

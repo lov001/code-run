@@ -1,6 +1,6 @@
 package leetcode.tree.binarysearchtree.problem530;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -11,22 +11,22 @@ public class MinimumAbsoluteDifferenceTest {
 
     @Test
     void tes_getMinimumDifference_expect1_whenMinimumAbsoluteDifferenceIs1() {
-        TreeNode right2 = new TreeNode(3, null, null);
-        TreeNode left2 = new TreeNode(1, null, null);
-        TreeNode right1 = new TreeNode(6, null, null);
-        TreeNode left1 = new TreeNode(2, left2, right2);
-        TreeNode tree = new TreeNode(4, left1, right1);
+        BinaryTreeNode right2 = new BinaryTreeNode(3, null, null);
+        BinaryTreeNode left2 = new BinaryTreeNode(1, null, null);
+        BinaryTreeNode right1 = new BinaryTreeNode(6, null, null);
+        BinaryTreeNode left1 = new BinaryTreeNode(2, left2, right2);
+        BinaryTreeNode tree = new BinaryTreeNode(4, left1, right1);
         Assertions.assertEquals(1, classObj.getMinimumDifference(tree));
         Assertions.assertEquals(1, classObj2.getMinimumDifference(tree));
     }
 
     @Test
     void tes_getMinimumDifference_expect1_whenMinimumAbsoluteDifferenceIs1_() {
-        TreeNode right2 = new TreeNode(49, null, null);
-        TreeNode left2 = new TreeNode(12, null, null);
-        TreeNode right1 = new TreeNode(0, null, null);
-        TreeNode left1 = new TreeNode(48, left2, right2);
-        TreeNode tree = new TreeNode(1, right1, left1);
+        BinaryTreeNode right2 = new BinaryTreeNode(49, null, null);
+        BinaryTreeNode left2 = new BinaryTreeNode(12, null, null);
+        BinaryTreeNode right1 = new BinaryTreeNode(0, null, null);
+        BinaryTreeNode left1 = new BinaryTreeNode(48, left2, right2);
+        BinaryTreeNode tree = new BinaryTreeNode(1, right1, left1);
         Assertions.assertEquals(1, classObj.getMinimumDifference(tree));
         Assertions.assertEquals(1, classObj2.getMinimumDifference(tree));
     }

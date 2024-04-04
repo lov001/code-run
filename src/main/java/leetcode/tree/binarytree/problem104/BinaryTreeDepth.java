@@ -1,11 +1,11 @@
 package leetcode.tree.binarytree.problem104;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class BinaryTreeDepth {
 
 
-    public int maxDepth(TreeNode root) {
+    public int maxDepth(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }
