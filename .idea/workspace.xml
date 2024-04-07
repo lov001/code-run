@@ -4,68 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: queue implementation using a linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StacksUsingSingleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/StackUsingArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: fixed size stacks = 3 using an array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/FixedSize3StacksUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/FixedSizeStackUsingArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem108/ArrayToBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem108/ArrayToBst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem501/ModeInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem501/ModeInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem501/ModeInBSTApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem501/ModeInBSTApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifferenceWithoutList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifferenceWithoutList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem700/SearchTargetInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarysearchtree/problem700/SearchTargetInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem100/SameTreeApproach3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem101/SymmetricTreeIterativeSolutionUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthIterativeApproachUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeOptimisedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeOptimisedSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepthIterativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem111/MinimumDepthIterativeApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSumIterativeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem112/PathSumIterativeSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversalUsingIterativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem144/PreOrderTraversalUsingIterativeApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversalUsingIterativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem145/PostOrderTraversalUsingIterativeApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeIterativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeIterativeApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsApproach2UsingDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsApproach2UsingDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsIterativeApproachUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem257/RootToLeafPathsIterativeApproachUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem404/LeftLeavesSumRecursiveApproach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeRecursiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeRecursiveApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem563/TiltSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem563/TiltSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem108/ArrayToBstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem108/ArrayToBstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem501/ModeInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem501/ModeInBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem530/MinimumAbsoluteDifferenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem700/SearchTargetInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarysearchtree/problem700/SearchTargetInBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/inorderTraversal/InorderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem100/SameTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem101/SymmetricTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem104/BinaryTreeDepthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem110/BalancedBinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem111/MinimumDepthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem112/PathSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem144/PreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem144/PreOrderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem145/PostOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem145/PostOrderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem226/InvertBinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem257/RootToLeafPathsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem404/LeftLeavesSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem543/DiameterOfBinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem563/TiltSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem563/TiltSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/tree/binarytree/problem94/InorderTraversalUsingStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,7 +399,7 @@
       <recent name="leetcode.searching.binarysearch.problem744" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StackUsingArrayTest">
+  <component name="RunManager" selected="Gradle.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray_whenAll3StacksUsed">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -477,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -490,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.QueueUsingLinkedListTest&quot;" />
+            <option value="&quot;practice.stack.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -501,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackUsingArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray_whenAll3StacksUsed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -514,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.StackUsingArrayTest&quot;" />
+            <option value="&quot;practice.stack.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray_whenAll3StacksUsed&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -525,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackUsingLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedSizeStackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -538,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.StackUsingLinkedListTest&quot;" />
+            <option value="&quot;practice.stack.FixedSizeStackUsingArrayTest.test_pop_expectException_whenStackIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -549,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackUsingLinkedListTest.test_StackUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedSizeStackUsingArrayTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -562,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_StackUsingLinkedList&quot;" />
+            <option value="&quot;practice.stack.FixedSizeStackUsingArrayTest.test_pop_expectTopElement_whenStackHasOnlyOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -573,7 +515,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedSizeStackUsingArrayTest.test_push_expectTopElement_whenStackIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -586,7 +528,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement&quot;" />
+            <option value="&quot;practice.stack.FixedSizeStackUsingArrayTest.test_push_expectTopElement_whenStackIsNotEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -599,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.QueueUsingLinkedListTest" />
-      <item itemvalue="Gradle.StackUsingArrayTest" />
-      <item itemvalue="Gradle.StackUsingLinkedListTest" />
-      <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
-      <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+      <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray" />
+      <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray_whenAll3StacksUsed" />
+      <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" />
+      <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+      <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_push_expectTopElement_whenStackIsNotEmpty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StackUsingArrayTest" />
-        <item itemvalue="Gradle.QueueUsingLinkedListTest" />
-        <item itemvalue="Gradle.StackUsingLinkedListTest.test_StackUsingLinkedList" />
-        <item itemvalue="Gradle.StackUsingLinkedListTest" />
-        <item itemvalue="Gradle.StackUsingLinkedListTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+        <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray_whenAll3StacksUsed" />
+        <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" />
+        <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_FixedSize3StacksUsingArray" />
+        <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+        <item itemvalue="Gradle.FixedSizeStackUsingArrayTest.test_push_expectTopElement_whenStackIsNotEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -967,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -982,8 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: approach using shifting of array" />
-    <MESSAGE value="[practice/linked-list]: remove duplicates using a set" />
     <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space" />
     <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space optimised" />
     <MESSAGE value="[practice/linked-list]: WIP last kth element" />
@@ -1007,7 +947,9 @@
     <MESSAGE value="[practice/linked-list]: intersection using length difference" />
     <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
     <MESSAGE value="[practice/stack-and-queue]: queue implementation using a linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: queue implementation using a linked list" />
+    <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
+    <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1631,6 +1573,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PartitionList.java</url>
           <line>11</line>
           <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/FixedSizeStackUsingArrayTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="343" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
