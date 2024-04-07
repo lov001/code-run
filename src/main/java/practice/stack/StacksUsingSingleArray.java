@@ -2,27 +2,30 @@ package practice.stack;
 
 import java.util.EmptyStackException;
 
-public class StacksUsingSingleArray<T> {
+public class StacksUsingSingleArray {
 
 
-   private T[] data;
-   private static int TOP = -1;
+   private final int[] data;
+   private int TOP = -1;
 
+   public StacksUsingSingleArray(int size){
+      data = new int[size];
+   }
 
-   public void push(T item) {
+   public void push(int item) {
       data[++TOP] = item;
    }
 
-   public T pop() {
+   public int pop() {
       if (TOP == -1) {
          throw new EmptyStackException();
       }
-      T obj = data[TOP];
-      data[TOP--] = null;
+      int obj = data[TOP];
+      data[TOP--] = -1;
       return obj;
    }
 
-   public T peek() {
+   public int peek() {
       if (TOP == -1) {
          throw new EmptyStackException();
       }

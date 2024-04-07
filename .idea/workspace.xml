@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: minimun stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/MinimumStackOptimised.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StackOfPlates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/stack/StacksUsingSingleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/stack/StacksUsingSingleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/stack/StackUsingArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/stack/StackUsingArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +401,7 @@
       <recent name="leetcode.searching.binarysearch.problem744" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumStackTest.testMinimumStackOptimised_push_expect2_whenStackHas3Elements">
+  <component name="RunManager" selected="Gradle.StackUsingArrayTest.test_pop_expectException_whenStackIsEmpty">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +421,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumStackTest.testMinimumStackOptimised_MinimumStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfPlatesTest.test_StackUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +434,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MinimumStackTest.testMinimumStackOptimised_MinimumStack&quot;" />
+            <option value="&quot;practice.stack.StackOfPlatesTest.test_StackUsingLinkedList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumStackTest.testMinimumStackOptimised_pop_expectException_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfPlatesTest.test_pop_expectException_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MinimumStackTest.testMinimumStackOptimised_pop_expectException_whenStackIsEmpty&quot;" />
+            <option value="&quot;practice.stack.StackOfPlatesTest.test_pop_expectException_whenStackIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumStackTest.testMinimumStackOptimised_pop_expectTopElement_whenStackHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfPlatesTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MinimumStackTest.testMinimumStackOptimised_pop_expectTopElement_whenStackHasOnlyOneElement&quot;" />
+            <option value="&quot;practice.stack.StackOfPlatesTest.test_pop_expectTopElement_whenStackHasOnlyOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumStackTest.testMinimumStackOptimised_push_expect2_whenStackHas3Elements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MinimumStackTest.testMinimumStackOptimised_push_expect2_whenStackHas3Elements&quot;" />
+            <option value="&quot;practice.stack.StackUsingArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumStackTest.testMinimumStackOptimised_push_expectSameElement_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MinimumStackTest.testMinimumStackOptimised_push_expectSameElement_whenStackIsEmpty&quot;" />
+            <option value="&quot;practice.stack.StackUsingArrayTest.test_pop_expectException_whenStackIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_MinimumStack" />
-      <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_pop_expectException_whenStackIsEmpty" />
-      <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_pop_expectTopElement_whenStackHasOnlyOneElement" />
-      <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_push_expect2_whenStackHas3Elements" />
-      <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_push_expectSameElement_whenStackIsEmpty" />
+      <item itemvalue="Gradle.StackOfPlatesTest.test_StackUsingLinkedList" />
+      <item itemvalue="Gradle.StackOfPlatesTest.test_pop_expectException_whenStackIsEmpty" />
+      <item itemvalue="Gradle.StackOfPlatesTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+      <item itemvalue="Gradle.StackUsingArrayTest" />
+      <item itemvalue="Gradle.StackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_push_expect2_whenStackHas3Elements" />
-        <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_push_expectSameElement_whenStackIsEmpty" />
-        <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_MinimumStack" />
-        <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_pop_expectTopElement_whenStackHasOnlyOneElement" />
-        <item itemvalue="Gradle.MinimumStackTest.testMinimumStackOptimised_pop_expectException_whenStackIsEmpty" />
+        <item itemvalue="Gradle.StackUsingArrayTest.test_pop_expectException_whenStackIsEmpty" />
+        <item itemvalue="Gradle.StackUsingArrayTest" />
+        <item itemvalue="Gradle.StackOfPlatesTest.test_StackUsingLinkedList" />
+        <item itemvalue="Gradle.StackOfPlatesTest.test_pop_expectTopElement_whenStackHasOnlyOneElement" />
+        <item itemvalue="Gradle.StackOfPlatesTest.test_pop_expectException_whenStackIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <option name="localTasksCounter" value="295" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space optimised" />
     <MESSAGE value="[practice/linked-list]: WIP last kth element" />
     <MESSAGE value="[practice/linked-list]: solution using two pointers fast and slow" />
     <MESSAGE value="[practice/linked-list]: solution using recursive approach" />
@@ -949,7 +950,8 @@
     <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
     <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
     <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: minimun stack" />
+    <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1628,6 +1630,41 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
           <line>83</line>
           <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/StackOfPlates.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="366" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
