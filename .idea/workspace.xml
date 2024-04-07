@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: stack of plates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/QueueUsingTwoStacksTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: queue using stacks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingTwoStacksOptimised.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/QueueUsingTwoStacksOptimisedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/queue/QueueUsingTwoStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: solution using two pointers fast and slow" />
     <MESSAGE value="[practice/linked-list]: solution using recursive approach" />
     <MESSAGE value="[practice/linked-list]: WIP delete middle node from a linked list" />
     <MESSAGE value="[practice/linked-list]: deleting middle element using iterative approach" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
     <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
     <MESSAGE value="[practice/stack-and-queue]: stack of plates" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: stack of plates" />
+    <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: queue using stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

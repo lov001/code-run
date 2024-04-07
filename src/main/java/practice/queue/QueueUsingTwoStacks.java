@@ -34,6 +34,9 @@ public class QueueUsingTwoStacks<T> {
    }
 
    public T peek() {
+      if (isEmpty()) {
+         throw new EmptyStackException();
+      }
       while (!first.isEmpty()) {
          second.push(first.pop());
       }
