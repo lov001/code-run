@@ -3,15 +3,15 @@ package leetcode.tree.binarytree.problem94;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class InorderTraversalUsingStack {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(BinaryTreeNode root) {
         List<Integer> list = new ArrayList<>();
 
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode cur = root;
+        Stack<BinaryTreeNode> stack = new Stack<>();
+        BinaryTreeNode cur = root;
 
         while (cur != null || !stack.empty()) {
             while (cur != null) {

@@ -1,20 +1,20 @@
 package leetcode.tree.binarytree.problem101;
 
 import java.util.Stack;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class SymmetricTreeIterativeSolutionUsingStack {
 
-    public boolean isSymmetric(TreeNode root) {
+    public boolean isSymmetric(BinaryTreeNode root) {
         if (root == null) {
             return true;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<BinaryTreeNode> stack = new Stack<>();
         stack.push(root.left);
         stack.push(root.right);
         while (!stack.isEmpty()) {
-            TreeNode right = stack.pop();
-            TreeNode left = stack.pop();
+            BinaryTreeNode right = stack.pop();
+            BinaryTreeNode left = stack.pop();
             if (left == null && right == null) {
                 continue;
             }

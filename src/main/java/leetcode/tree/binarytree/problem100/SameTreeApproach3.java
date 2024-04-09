@@ -1,10 +1,10 @@
 package leetcode.tree.binarytree.problem100;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class SameTreeApproach3 {
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(BinaryTreeNode p, BinaryTreeNode q) {
         if (p == null || q == null) {
             return p == q;
         }

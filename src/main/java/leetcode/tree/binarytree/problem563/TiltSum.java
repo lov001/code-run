@@ -1,12 +1,12 @@
 package leetcode.tree.binarytree.problem563;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class TiltSum {
 
     private int sum = 0;
 
-    public int findTilt(TreeNode root) {
+    public int findTilt(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -14,7 +14,7 @@ public class TiltSum {
         return sum;
     }
 
-    private int traverse(TreeNode root) {
+    private int traverse(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }

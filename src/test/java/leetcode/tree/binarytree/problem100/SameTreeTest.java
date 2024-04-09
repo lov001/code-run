@@ -1,6 +1,6 @@
 package leetcode.tree.binarytree.problem100;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -12,13 +12,13 @@ public class SameTreeTest {
 
     @Test
     void test_isSameTree_expectTrue_whenSameTree() {
-        TreeNode left1 = new TreeNode(2, null, null);
-        TreeNode right1 = new TreeNode(3, null, null);
-        TreeNode tree1 = new TreeNode(1, left1, right1);
+        BinaryTreeNode left1 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode right1 = new BinaryTreeNode(3, null, null);
+        BinaryTreeNode tree1 = new BinaryTreeNode(1, left1, right1);
 
-        TreeNode left2 = new TreeNode(2, null, null);
-        TreeNode right2 = new TreeNode(3, null, null);
-        TreeNode tree2 = new TreeNode(1, left2, right2);
+        BinaryTreeNode left2 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode right2 = new BinaryTreeNode(3, null, null);
+        BinaryTreeNode tree2 = new BinaryTreeNode(1, left2, right2);
         Assertions.assertTrue(classObj.isSameTree(tree1, tree2));
         Assertions.assertTrue(classObj2.isSameTree(tree1, tree2));
         Assertions.assertTrue(classObj3.isSameTree(tree1, tree2));
@@ -26,11 +26,11 @@ public class SameTreeTest {
 
     @Test
     void test_isSameTree_expectFalse_whenSameNodesButDifferentChild() {
-        TreeNode left1 = new TreeNode(2, null, null);
-        TreeNode tree1 = new TreeNode(1, left1, null);
+        BinaryTreeNode left1 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode tree1 = new BinaryTreeNode(1, left1, null);
 
-        TreeNode right2 = new TreeNode(2, null, null);
-        TreeNode tree2 = new TreeNode(1, null, right2);
+        BinaryTreeNode right2 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode tree2 = new BinaryTreeNode(1, null, right2);
         Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));
@@ -38,13 +38,13 @@ public class SameTreeTest {
 
     @Test
     void test_isSameTree_expectFalse_whenTreesAreMirrorImages() {
-        TreeNode left1 = new TreeNode(2, null, null);
-        TreeNode right1 = new TreeNode(1, null, null);
-        TreeNode tree1 = new TreeNode(1, left1, right1);
+        BinaryTreeNode left1 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode right1 = new BinaryTreeNode(1, null, null);
+        BinaryTreeNode tree1 = new BinaryTreeNode(1, left1, right1);
 
-        TreeNode left2 = new TreeNode(1, null, null);
-        TreeNode right2 = new TreeNode(2, null, null);
-        TreeNode tree2 = new TreeNode(1, left2, right2);
+        BinaryTreeNode left2 = new BinaryTreeNode(1, null, null);
+        BinaryTreeNode right2 = new BinaryTreeNode(2, null, null);
+        BinaryTreeNode tree2 = new BinaryTreeNode(1, left2, right2);
         Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));
@@ -52,11 +52,11 @@ public class SameTreeTest {
 
     @Test
     void test_isSameTree_expectFalse_whenGivenTrees() {
-        TreeNode left1 = new TreeNode(1, null, null);
-        TreeNode tree1 = new TreeNode(1, left1, null);
+        BinaryTreeNode left1 = new BinaryTreeNode(1, null, null);
+        BinaryTreeNode tree1 = new BinaryTreeNode(1, left1, null);
 
-        TreeNode right2 = new TreeNode(1, null, null);
-        TreeNode tree2 = new TreeNode(1, null, right2);
+        BinaryTreeNode right2 = new BinaryTreeNode(1, null, null);
+        BinaryTreeNode tree2 = new BinaryTreeNode(1, null, right2);
 //        Assertions.assertFalse(classObj.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj2.isSameTree(tree1, tree2));
         Assertions.assertFalse(classObj3.isSameTree(tree1, tree2));

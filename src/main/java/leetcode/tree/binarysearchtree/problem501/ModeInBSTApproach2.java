@@ -2,7 +2,7 @@ package leetcode.tree.binarysearchtree.problem501;
 
 import java.util.ArrayList;
 import java.util.List;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class ModeInBSTApproach2 {
 
@@ -10,7 +10,7 @@ public class ModeInBSTApproach2 {
     int count = 1;
     int max = 0;
 
-    public int[] findMode(TreeNode root) {
+    public int[] findMode(BinaryTreeNode root) {
         if (root == null) {
             return new int[0];
         }
@@ -19,7 +19,7 @@ public class ModeInBSTApproach2 {
         return list.stream().mapToInt(i -> i).toArray();
     }
 
-    private void traverse(TreeNode root, List<Integer> list) {
+    private void traverse(BinaryTreeNode root, List<Integer> list) {
         if (root == null) {
             return;
         }

@@ -1,16 +1,16 @@
 package leetcode.tree.binarytree.problem226;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class InvertBinaryTree {
 
-    public TreeNode invertTree(TreeNode root) {
+    public BinaryTreeNode invertTree(BinaryTreeNode root) {
         if (root == null) {
             return null;
         }
         invertTree(root.left);
         invertTree(root.right);
-        TreeNode node = root.left;
+        BinaryTreeNode node = root.left;
         root.left = root.right;
         root.right = node;
         return root;

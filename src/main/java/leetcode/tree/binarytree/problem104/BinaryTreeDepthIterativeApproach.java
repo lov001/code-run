@@ -2,22 +2,22 @@ package leetcode.tree.binarytree.problem104;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class BinaryTreeDepthIterativeApproach {
 
 
-    public int maxDepth(TreeNode root) {
+    public int maxDepth(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
         queue.offer(root);
         int depth = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
+                BinaryTreeNode node = queue.poll();
                 if (node.left != null) {
                     queue.offer(node.left);
                 }

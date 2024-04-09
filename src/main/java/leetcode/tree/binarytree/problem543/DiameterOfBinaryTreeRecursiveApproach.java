@@ -1,17 +1,17 @@
 package leetcode.tree.binarytree.problem543;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class DiameterOfBinaryTreeRecursiveApproach {
 
     private static int max = 0;
 
-    public int diameterOfBinaryTree(TreeNode root) {
+    public int diameterOfBinaryTree(BinaryTreeNode root) {
         depth(root);
         return max;
     }
 
-    public int depth(TreeNode root) {
+    public int depth(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }

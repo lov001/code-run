@@ -3,13 +3,13 @@ package leetcode.tree.binarytree.problem145;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class PostOrderTraversal {
 
     List<Integer> list = new ArrayList<>();
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(BinaryTreeNode root) {
         if (root == null) {
             return Collections.emptyList();
         }

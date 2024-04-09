@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/linked-list]: intersection using length difference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/PartitionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/PartitionListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: sorted stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -320,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/stacks-and-queues" />
+                    <option name="lastUsedInstant" value="1711872386" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/linked-list" />
                     <option name="lastUsedInstant" value="1706672766" />
                   </RecentBranch>
@@ -334,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1701180109" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="PROBLEM-238" />
-                    <option name="lastUsedInstant" value="1691859470" />
                   </RecentBranch>
                 </list>
               </option>
@@ -360,24 +361,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-238&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/practice&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "PROBLEM-238",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/practice",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/practice" />
@@ -391,14 +392,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.queue" />
+      <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="practice.arraysandstrings" />
       <recent name="leetcode.searching.binarysearch.problem744" />
-      <recent name="leetcode.arrays.problem238" />
-      <recent name="leetcode.problem380" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.test_QueueUsingLinkedList">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.test_QueueUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -431,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest&quot;" />
+            <option value="&quot;practice.queue.AnimalShelterTest.test_QueueUsingLinkedList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -442,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -455,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2&quot;" />
+            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -466,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -479,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect&quot;" />
+            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -490,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PartitionListTest.test_partition_expectPartitionedList_whenXIs2&quot;" />
+            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +515,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PartitionListTest.test_partition_expectPartitionedList_whenXIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +528,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.linkedlist.PartitionListTest.test_partition_expectPartitionedList_whenXIs3&quot;" />
+            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" />
-      <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-      <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
+      <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
+      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
+      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
+      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
+      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs2" />
-        <item itemvalue="Gradle.PartitionListTest.test_partition_expectPartitionedList_whenXIs3" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expect2_whenListsIntersectAt2" />
-        <item itemvalue="Gradle.LinkedListIntersectionUsingHashingOfTwoLinkedListsTest.test_intersectionWithDifferenceOfLength_expectNull_whenListsDoNotIntersect" />
+        <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
+        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
+        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
+        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
+        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <option name="localTasksCounter" value="299" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,16 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: WIP is substring a rotation of original string" />
-    <MESSAGE value="[practice/arrays-and-strings]: basic solution using extra space" />
-    <MESSAGE value="[practice/arrays-and-strings]: approach using shifting of array" />
-    <MESSAGE value="[practice/linked-list]: remove duplicates using a set" />
-    <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space" />
-    <MESSAGE value="[practice/linked-list]: remove duplicates without using extra space optimised" />
-    <MESSAGE value="[practice/linked-list]: WIP last kth element" />
-    <MESSAGE value="[practice/linked-list]: solution using two pointers fast and slow" />
-    <MESSAGE value="[practice/linked-list]: solution using recursive approach" />
-    <MESSAGE value="[practice/linked-list]: WIP delete middle node from a linked list" />
     <MESSAGE value="[practice/linked-list]: deleting middle element using iterative approach" />
     <MESSAGE value="[practice/linked-list]: deleting middle element when only that node is given" />
     <MESSAGE value="[practice/linked-list]: WIP linked list sum" />
@@ -948,7 +939,17 @@
     <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
     <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
     <MESSAGE value="[practice/linked-list]: intersection using length difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/linked-list]: intersection using length difference" />
+    <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
+    <MESSAGE value="[practice/stack-and-queue]: queue implementation using a linked list" />
+    <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
+    <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
+    <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
+    <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
+    <MESSAGE value="[practice/stack-and-queue]: stack of plates" />
+    <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
+    <MESSAGE value="[practice/stack-and-queue]: queue using stacks optimised approach" />
+    <MESSAGE value="[practice/stack-and-queue]: sorted stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: sorted stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1572,6 +1573,126 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/PartitionList.java</url>
           <line>11</line>
           <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/FixedSizeStackUsingArrayTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MinimumStack.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MinimumStack.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MinimumStackOptimised.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MinimumStackTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/StackOfPlates.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/StackOfPlatesTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortedStackTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortedStackTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortedStackTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/AnimalShelter.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="380" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

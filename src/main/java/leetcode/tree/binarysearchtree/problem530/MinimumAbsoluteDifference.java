@@ -2,13 +2,13 @@ package leetcode.tree.binarysearchtree.problem530;
 
 import java.util.ArrayList;
 import java.util.List;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class MinimumAbsoluteDifference {
 
     List<Integer> list = new ArrayList<>();
 
-    public int getMinimumDifference(TreeNode root) {
+    public int getMinimumDifference(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -20,7 +20,7 @@ public class MinimumAbsoluteDifference {
         return min;
     }
 
-    private void traverse(TreeNode root) {
+    private void traverse(BinaryTreeNode root) {
         if (root == null) {
             return;
         }

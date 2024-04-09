@@ -1,23 +1,23 @@
 package leetcode.tree.binarytree.problem226;
 
 import java.util.Stack;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class InvertBinaryTreeIterativeApproach {
 
-    public TreeNode invertTree(TreeNode root) {
+    public BinaryTreeNode invertTree(BinaryTreeNode root) {
         if (root == null) {
             return null;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<BinaryTreeNode> stack = new Stack<>();
         stack.push(root);
 
         while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
+            BinaryTreeNode node = stack.pop();
             if (node.left == null && node.right == null) {
                 continue;
             } else {
-                TreeNode temp = node.left;
+                BinaryTreeNode temp = node.left;
                 node.left = node.right;
                 node.right = temp;
             }

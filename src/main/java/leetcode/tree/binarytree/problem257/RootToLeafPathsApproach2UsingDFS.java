@@ -2,11 +2,11 @@ package leetcode.tree.binarytree.problem257;
 
 import java.util.ArrayList;
 import java.util.List;
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class RootToLeafPathsApproach2UsingDFS {
 
-    public List<String> binaryTreePaths(TreeNode root) {
+    public List<String> binaryTreePaths(BinaryTreeNode root) {
         List<String> paths = new ArrayList<>();
         if (root == null) {
             return paths;
@@ -15,7 +15,7 @@ public class RootToLeafPathsApproach2UsingDFS {
         return paths;
     }
 
-    private void dfs(TreeNode node, String path, List<String> paths) {
+    private void dfs(BinaryTreeNode node, String path, List<String> paths) {
         if (node == null) {
             return;
         }

@@ -1,13 +1,13 @@
 package leetcode.tree.binarysearchtree.problem530;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class MinimumAbsoluteDifferenceWithoutList {
 
     int min = Integer.MAX_VALUE;
     Integer prev = null;
 
-    public int getMinimumDifference(TreeNode root) {
+    public int getMinimumDifference(BinaryTreeNode root) {
         if (root == null) {
             return min;
         }

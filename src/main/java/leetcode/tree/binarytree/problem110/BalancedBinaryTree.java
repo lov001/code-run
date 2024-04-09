@@ -1,10 +1,10 @@
 package leetcode.tree.binarytree.problem110;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class BalancedBinaryTree {
 
-    public boolean isBalanced(TreeNode root) {
+    public boolean isBalanced(BinaryTreeNode root) {
         if (root == null) {
             return true;
         }
@@ -12,7 +12,7 @@ public class BalancedBinaryTree {
             && isBalanced(root.right);
     }
 
-    private int traverse(TreeNode root) {
+    private int traverse(BinaryTreeNode root) {
         if (root == null) {
             return 0;
         }

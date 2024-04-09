@@ -1,14 +1,14 @@
 package leetcode.tree.binarytree.problem110;
 
-import leetcode.tree.TreeNode;
+import leetcode.tree.BinaryTreeNode;
 
 public class BalancedBinaryTreeApproach2 {
 
-    public boolean isBalanced(TreeNode root) {
+    public boolean isBalanced(BinaryTreeNode root) {
         return height(root) != -1;
     }
 
-    private int height(TreeNode node) {
+    private int height(BinaryTreeNode node) {
         if (node == null) {
             return 0;
         }
