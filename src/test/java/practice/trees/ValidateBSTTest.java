@@ -14,6 +14,7 @@ public class ValidateBSTTest {
       BinaryTreeNode tree1 = SortedArraysToBST.transformArrayToBST(array);
       Assertions.assertTrue(classObj.isBST(tree1));
       Assertions.assertTrue(classObj.isBSTUsingInOrderTraversal(tree1));
+      Assertions.assertTrue(classObj.isBSTUsingMinMax(tree1));
    }
 
    @Test
@@ -27,6 +28,7 @@ public class ValidateBSTTest {
 
       Assertions.assertTrue(classObj.isBST(tree1));
       Assertions.assertTrue(classObj.isBSTUsingInOrderTraversal(tree1));
+      Assertions.assertTrue(classObj.isBSTUsingMinMax(tree1));
    }
 
    @Test
@@ -39,6 +41,7 @@ public class ValidateBSTTest {
       BinaryTreeNode tree1 = new BinaryTreeNode(25, left1, right1);
       Assertions.assertFalse(classObj.isBST(tree1));
       Assertions.assertFalse(classObj.isBSTUsingInOrderTraversal(tree1));
+      Assertions.assertFalse(classObj.isBSTUsingMinMax(tree1));
    }
 
    @Test
@@ -48,5 +51,6 @@ public class ValidateBSTTest {
       BinaryTreeNode tree1 = new BinaryTreeNode(25, left1, right1);
       Assertions.assertFalse(classObj.isBST(tree1));
       Assertions.assertFalse(classObj.isBSTUsingInOrderTraversal(tree1));
+      Assertions.assertFalse(classObj.isBSTUsingMinMax(tree1));
    }
 }

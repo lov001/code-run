@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: inorder traversal">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: validate BST using inorder traversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" afterDir="false" />
@@ -400,7 +400,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InOrderTraversalTest.test_inorderTraversal_expectList_whenTreeIsBST">
+  <component name="RunManager" selected="Gradle.ValidateBSTTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,102 +419,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectEmptyList_whenTreeHasNoNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectEmptyList_whenTreeHasNoNodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectList_whenTreeIsBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectList_whenTreeIsBST&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="ValidateBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -540,21 +444,117 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="ValidateBSTTest.test_isBSTUsingMinMax_expectTrue_whenTreeIsABST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBSTUsingMinMax_expectTrue_whenTreeIsABST&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidateBSTTest.test_isBST_expectTrue_whenBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectTrue_whenBST&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectEmptyList_whenTreeHasNoNodes" />
-      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectList_whenTreeIsBST" />
-      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode" />
-      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
       <item itemvalue="Gradle.ValidateBSTTest" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBSTUsingMinMax_expectTrue_whenTreeIsABST" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectList_whenTreeIsBST" />
-        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode" />
-        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectEmptyList_whenTreeHasNoNodes" />
-        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
         <item itemvalue="Gradle.ValidateBSTTest" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBSTUsingMinMax_expectTrue_whenTreeIsABST" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: sum of two linked list working solution" />
     <MESSAGE value="[practice/linked-list]: edge case handled to cater overflow" />
     <MESSAGE value="[practice/linked-list]: minor code optimisations" />
     <MESSAGE value="[practice/linked-list]: linked list sum when numbers are in actual order" />
@@ -950,7 +949,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not" />
     <MESSAGE value="[practice/trees-and-graphs]: optimised solution" />
     <MESSAGE value="[practice/trees-and-graphs]: inorder traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: inorder traversal" />
+    <MESSAGE value="[practice/trees-and-graphs]: validate BST using inorder traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: validate BST using inorder traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1697,18 +1697,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="383" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="384" />
+          <line>11</line>
+          <option name="timeStamp" value="385" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="385" />
+          <line>18</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="389" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
