@@ -5,14 +5,14 @@ import java.util.List;
 
 public class InOrderTraversal {
 
-   List<Integer> traversedList = new ArrayList<>();
+   public static List<Integer> traversedList = new ArrayList<>();
 
-   public List<Integer> inOrderTraversal(BinaryTreeNode root) {
+   public static List<Integer> inOrderTraversal(BinaryTreeNode root) {
       traverse(root);
       return traversedList;
    }
 
-   private void traverse(BinaryTreeNode root) {
+   private static void traverse(BinaryTreeNode root) {
       if (root == null) {
          return;
       }

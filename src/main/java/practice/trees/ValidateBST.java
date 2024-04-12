@@ -1,10 +1,21 @@
 package practice.trees;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 public class ValidateBST {
 
 
    public boolean isBST(BinaryTreeNode root) {
       return validate(root);
+   }
+
+   public boolean isBSTUsingInOrderTraversal(BinaryTreeNode root) {
+      List<Integer> traversedList = InOrderTraversal.inOrderTraversal(root);
+      List<Integer> copy = new ArrayList<>(traversedList);
+      copy.sort(Comparator.naturalOrder());
+      return traversedList.equals(copy);
    }
 
    private boolean validate(BinaryTreeNode root) {
