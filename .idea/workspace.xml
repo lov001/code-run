@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: sorted stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/utils/SortedArraysToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -321,6 +323,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="trees-and-graphs" />
+                    <option name="lastUsedInstant" value="1712641532" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/stacks-and-queues" />
                     <option name="lastUsedInstant" value="1711872386" />
                   </RecentBranch>
@@ -335,10 +341,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/binary-search" />
                     <option name="lastUsedInstant" value="1701181712" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1701180109" />
                   </RecentBranch>
                 </list>
               </option>
@@ -361,24 +363,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-238",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/practice",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-238&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/practice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/practice" />
@@ -392,14 +394,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trees" />
       <recent name="practice.queue" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="practice.arraysandstrings" />
-      <recent name="leetcode.searching.binarysearch.problem744" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest.test_QueueUsingLinkedList">
+  <component name="RunManager" selected="Gradle.ValidateBSTTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +421,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalShelterTest.test_QueueUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidateBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +434,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_QueueUsingLinkedList&quot;" />
+            <option value="&quot;practice.trees.ValidateBSTTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty&quot;" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidateBSTTest.test_isBST_expectFalse_whenTreesNotABST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty&quot;" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectFalse_whenTreesNotABST&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidateBSTTest.test_isBST_expectTrue_whenBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty&quot;" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectTrue_whenBST&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement&quot;" />
+            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
+      <item itemvalue="Gradle.ValidateBSTTest" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenTreesNotABST" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
+      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
+        <item itemvalue="Gradle.ValidateBSTTest" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenNotABSTAt1stLevel" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectFalse_whenTreesNotABST" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenTreeIsABST" />
+        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
       </list>
     </recent_temporary>
   </component>
@@ -1693,6 +1695,21 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="385" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
