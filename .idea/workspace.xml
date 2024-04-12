@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: sorted stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/BinaryTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/utils/SortedArraysToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -911,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: deleting middle element using iterative approach" />
     <MESSAGE value="[practice/linked-list]: deleting middle element when only that node is given" />
     <MESSAGE value="[practice/linked-list]: WIP linked list sum" />
     <MESSAGE value="[practice/linked-list]: sum of two linked list working solution" />
@@ -951,7 +947,8 @@
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks optimised approach" />
     <MESSAGE value="[practice/stack-and-queue]: sorted stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: sorted stack" />
+    <MESSAGE value="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1703,12 +1700,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
-          <line>7</line>
+          <line>6</line>
           <option name="timeStamp" value="385" />
         </line-breakpoint>
       </breakpoints>

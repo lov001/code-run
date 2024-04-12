@@ -2,7 +2,6 @@ package practice.trees;
 
 public class ValidateBST {
 
-   private boolean flag = true;
 
    public boolean isBST(BinaryTreeNode root) {
       return validate(root);
@@ -20,12 +19,9 @@ public class ValidateBST {
       if (root.right != null) {
          rightNodeValue = root.right.data;
       }
-      if (!((leftNodeValue <= root.data) && (root.data <= rightNodeValue))) {
-         flag = false;
-         return false;
+      if ((leftNodeValue <= root.data) && (root.data <= rightNodeValue)) {
+         return validate(root.left) && validate(root.right);
       }
-      validate(root.left);
-      validate(root.right);
-      return flag;
+      return false;
    }
 }
