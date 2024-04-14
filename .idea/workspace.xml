@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: pre-orde traversal of binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PostOrderTraversalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: post-order traversal of binary tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SumOfLeftLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/LeftLeavesSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -399,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect36_whenRandomTree">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,6 +418,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="LeftLeavesSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.LeftLeavesSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeftLeavesSumTest.test_sumOfLeftLeaves_expect36_whenRandomTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.LeftLeavesSumTest.test_sumOfLeftLeaves_expect36_whenRandomTree&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -491,69 +539,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ValidateBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.ValidateBSTTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ValidateBSTTest.test_isBST_expectTrue_whenBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.ValidateBSTTest.test_isBST_expectTrue_whenBST&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.LeftLeavesSumTest" />
+      <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect36_whenRandomTree" />
       <item itemvalue="Gradle.PostOrderTraversalTest" />
       <item itemvalue="Gradle.PreOrderTraversalTest" />
       <item itemvalue="Gradle.PreOrderTraversalTest.test_preOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes" />
-      <item itemvalue="Gradle.ValidateBSTTest" />
-      <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LeftLeavesSumTest.test_sumOfLeftLeaves_expect36_whenRandomTree" />
+        <item itemvalue="Gradle.LeftLeavesSumTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest" />
         <item itemvalue="Gradle.PreOrderTraversalTest.test_preOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes" />
         <item itemvalue="Gradle.PreOrderTraversalTest" />
-        <item itemvalue="Gradle.ValidateBSTTest" />
-        <item itemvalue="Gradle.ValidateBSTTest.test_isBST_expectTrue_whenBST" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: linked list sum when numbers are in actual order" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list check using stack" />
     <MESSAGE value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: validate BST using inorder traversal" />
     <MESSAGE value="[practice/trees-and-graphs]: validate BST using min max range" />
     <MESSAGE value="[practice/trees-and-graphs]: pre-orde traversal of binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: pre-orde traversal of binary tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
