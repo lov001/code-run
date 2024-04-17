@@ -16,11 +16,13 @@ public class CheckBalancedTreeTest {
       BinaryTreeNode tree = new BinaryTreeNode(3, left1, right1);
 
       Assertions.assertTrue(classObj.isBalanced(tree));
+      Assertions.assertTrue(classObj.isBalancedOptimised(tree));
    }
 
    @Test
    void test_isBalanced_expectTrue_whenEmptyTree() {
       Assertions.assertTrue(classObj.isBalanced(null));
+      Assertions.assertTrue(classObj.isBalancedOptimised(null));
    }
 
    @Test
@@ -34,6 +36,7 @@ public class CheckBalancedTreeTest {
       BinaryTreeNode tree = new BinaryTreeNode(1, left1, right1);
 
       Assertions.assertFalse(classObj.isBalanced(tree));
+      Assertions.assertFalse(classObj.isBalancedOptimised(tree));
    }
 
    @Test
@@ -47,5 +50,6 @@ public class CheckBalancedTreeTest {
       BinaryTreeNode tree = new BinaryTreeNode(1, left1, right1);
 
       Assertions.assertFalse(classObj.isBalanced(tree));
+      Assertions.assertFalse(classObj.isBalancedOptimised(tree));
    }
 }

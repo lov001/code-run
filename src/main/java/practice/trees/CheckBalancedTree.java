@@ -8,16 +8,43 @@ public class CheckBalancedTree {
       if (root == null) {
          return true;
       }
-      return Math.abs(helper(root.left) - helper(root.right)) <= 1
-         && isBalanced(root.left) && isBalanced(root.right);
+      if (Math.abs(getHeight(root.left) - getHeight(root.right)) > 1) {
+         return false;
+      }
+      return isBalanced(root.left) && isBalanced(root.right);
    }
 
-   private int helper(BinaryTreeNode node) {
+   private int getHeight(BinaryTreeNode node) {
       if (node == null) {
          return 0;
       }
-      int left = helper(node.left);
-      int right = helper(node.right);
+      int left = getHeight(node.left);
+      int right = getHeight(node.right);
       return 1 + Math.max(left, right);
+   }
+
+
+   public boolean isBalancedOptimised(BinaryTreeNode root) {
+      return checkHeight(root) != Integer.MIN_VALUE;
+   }
+
+   private int checkHeight(BinaryTreeNode node) {
+      if (node == null) {
+         return -1;
+      }
+      int leftHeight = checkHeight(node.left);
+      if (leftHeight == Integer.MIN_VALUE) {
+         return Integer.MIN_VALUE;
+      }
+      int rightHeight = checkHeight(node.right);
+      if (rightHeight == Integer.MIN_VALUE) {
+         return Integer.MIN_VALUE;
+      }
+      int heightDifference = Math.abs(leftHeight - rightHeight);
+      if (heightDifference > 1) {
+         return Integer.MIN_VALUE;
+      } else {
+         return Math.max(leftHeight, rightHeight) + 1;
+      }
    }
 }
