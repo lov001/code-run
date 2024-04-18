@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/Successor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SuccessorTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: successor of a current node">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/MinimalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/MinimalTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -399,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SuccessorTest.test_successor_expectNull_whenCurrentNodeIsRightMostNode">
+  <component name="RunManager" selected="Gradle.MinimalTreeTest.test_minimalTree_expectMinimalTree_whenArrayManyElements">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBalancedTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimalTreeTest.test_minimalTree_expectMinimalTree_whenArrayManyElements" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.CheckBalancedTreeTest&quot;" />
+            <option value="&quot;practice.trees.MinimalTreeTest.test_minimalTree_expectMinimalTree_whenArrayManyElements&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SuccessorTest.test_successor_expect14_whenCurrentNodeIsLeftMostNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimalTreeTest.test_minimalTree_expectNull_whenArrayIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.SuccessorTest.test_successor_expect14_whenCurrentNodeIsLeftMostNode&quot;" />
+            <option value="&quot;practice.trees.MinimalTreeTest.test_minimalTree_expectNull_whenArrayIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SuccessorTest.test_successor_expect27_whenNextNodeIs27" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimalTreeTest.test_minimalTree_expectRootNode_whenArrayHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.SuccessorTest.test_successor_expect27_whenNextNodeIs27&quot;" />
+            <option value="&quot;practice.trees.MinimalTreeTest.test_minimalTree_expectRootNode_whenArrayHasOnlyOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SuccessorTest.test_successor_expect28_whenCurrentNodeIsRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SuccessorTest.test_successor_expect25_whenCurrentNodeIsRightMostNodeOnLeftSubtree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.SuccessorTest.test_successor_expect28_whenCurrentNodeIsRootNode&quot;" />
+            <option value="&quot;practice.trees.SuccessorTest.test_successor_expect25_whenCurrentNodeIsRightMostNodeOnLeftSubtree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.SuccessorTest.test_successor_expect14_whenCurrentNodeIsLeftMostNode" />
-      <item itemvalue="Gradle.SuccessorTest.test_successor_expect27_whenNextNodeIs27" />
-      <item itemvalue="Gradle.SuccessorTest.test_successor_expect28_whenCurrentNodeIsRootNode" />
+      <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectMinimalTree_whenArrayManyElements" />
+      <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectNull_whenArrayIsEmpty" />
+      <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectRootNode_whenArrayHasOnlyOneElement" />
+      <item itemvalue="Gradle.SuccessorTest.test_successor_expect25_whenCurrentNodeIsRightMostNodeOnLeftSubtree" />
       <item itemvalue="Gradle.SuccessorTest.test_successor_expectNull_whenCurrentNodeIsRightMostNode" />
-      <item itemvalue="Gradle.CheckBalancedTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectMinimalTree_whenArrayManyElements" />
+        <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectRootNode_whenArrayHasOnlyOneElement" />
+        <item itemvalue="Gradle.MinimalTreeTest.test_minimalTree_expectNull_whenArrayIsEmpty" />
+        <item itemvalue="Gradle.SuccessorTest.test_successor_expect25_whenCurrentNodeIsRightMostNodeOnLeftSubtree" />
         <item itemvalue="Gradle.SuccessorTest.test_successor_expectNull_whenCurrentNodeIsRightMostNode" />
-        <item itemvalue="Gradle.SuccessorTest.test_successor_expect14_whenCurrentNodeIsLeftMostNode" />
-        <item itemvalue="Gradle.SuccessorTest.test_successor_expect28_whenCurrentNodeIsRootNode" />
-        <item itemvalue="Gradle.SuccessorTest.test_successor_expect27_whenNextNodeIs27" />
-        <item itemvalue="Gradle.CheckBalancedTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: finding corrupted node in a circular linked list" />
     <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
     <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
     <MESSAGE value="[practice/linked-list]: intersection using length difference" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: height of a binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
+    <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: successor of a current node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
