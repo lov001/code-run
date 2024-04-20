@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem179/LargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem179/LargestNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem75/DutchNationalFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrays/problem75/DutchNationalFlagTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,31 +361,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-238&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/practice&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "PROBLEM-238",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays" />
       <recent name="$PROJECT_DIR$/src/main/java/practice" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
-      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -399,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LargestNumberTest.test_largestNumber_expect270_whenArrayContainsOne0">
+  <component name="RunManager" selected="Gradle.DutchNationalFlagTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberTest.test_largestNumber_expect0_whenArrayContainsOnly0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DutchNationalFlagTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect0_whenArrayContainsOnly0&quot;" />
+            <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LargestNumberTest.test_largestNumber_expect210_whenArrayContains2Numbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect210_whenArrayContains2Numbers&quot;" />
+            <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LargestNumberTest.test_largestNumber_expect270_whenArrayContainsOne0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect270_whenArrayContainsOne0&quot;" />
+            <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LargestNumberTest.test_largestNumber_expect9534330_whenArrayContains5Numbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect9534330_whenArrayContains5Numbers&quot;" />
+            <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +515,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LargestNumberTest.test_largestNumber_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LargestNumberTest.test_largestNumber_expect6234100_whenArrayContainsOne0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +528,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect_when&quot;" />
+            <option value="&quot;leetcode.arrays.problem179.LargestNumberTest.test_largestNumber_expect6234100_whenArrayContainsOne0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect0_whenArrayContainsOnly0" />
-      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect210_whenArrayContains2Numbers" />
-      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect270_whenArrayContainsOne0" />
-      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect9534330_whenArrayContains5Numbers" />
-      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect_when" />
+      <item itemvalue="Gradle.DutchNationalFlagTest" />
+      <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" />
+      <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" />
+      <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs6" />
+      <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect6234100_whenArrayContainsOne0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect270_whenArrayContainsOne0" />
-        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect0_whenArrayContainsOnly0" />
-        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect9534330_whenArrayContains5Numbers" />
-        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect210_whenArrayContains2Numbers" />
-        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect_when" />
+        <item itemvalue="Gradle.DutchNationalFlagTest" />
+        <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" />
+        <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" />
+        <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs6" />
+        <item itemvalue="Gradle.LargestNumberTest.test_largestNumber_expect6234100_whenArrayContainsOne0" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
     <MESSAGE value="[practice/linked-list]: intersection using length difference" />
     <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
     <MESSAGE value="[practice/stack-and-queue]: queue implementation using a linked list" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
     <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
     <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
+    <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1761,12 +1761,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="397" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java</url>
-          <line>19</line>
+          <line>18</line>
           <option name="timeStamp" value="398" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
