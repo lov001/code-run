@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/RouteBetweenNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/graphs/RouteBetweenNodesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/ListOfDepthsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -400,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RouteBetweenNodesTest.test_isReachable_expectTrue_whenSourceIs1AndDestinationIs3">
+  <component name="RunManager" selected="Gradle.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -444,30 +443,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -482,6 +457,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.arrays.problem75.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,18 +542,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.DutchNationalFlagTest" />
-      <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" />
       <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" />
+      <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" />
       <item itemvalue="Gradle.RouteBetweenNodesTest.test_isReachable_expectFalse_whenSourceIs3AndDestinationIs1" />
       <item itemvalue="Gradle.RouteBetweenNodesTest.test_isReachable_expectTrue_whenSourceIs1AndDestinationIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" />
         <item itemvalue="Gradle.RouteBetweenNodesTest.test_isReachable_expectTrue_whenSourceIs1AndDestinationIs3" />
         <item itemvalue="Gradle.RouteBetweenNodesTest.test_isReachable_expectFalse_whenSourceIs3AndDestinationIs1" />
         <item itemvalue="Gradle.DutchNationalFlagTest" />
         <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs3" />
-        <item itemvalue="Gradle.DutchNationalFlagTest.test_sortColors_expectSortedArray_whenInputSizeIs12" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
     <MESSAGE value="[practice/stack-and-queue]: queue implementation using a linked list" />
     <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
     <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
@@ -950,7 +948,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
+    <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
