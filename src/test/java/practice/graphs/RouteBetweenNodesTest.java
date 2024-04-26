@@ -1,9 +1,7 @@
-package leetcode.graphs;
+package practice.graphs;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import practice.graphs.Graph;
-import practice.graphs.RouteBetweenNodes;
 
 public class RouteBetweenNodesTest {
 
