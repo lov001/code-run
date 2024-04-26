@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BuildOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BuildOrderTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: build order, dependencies in a project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/graphs/RouteBetweenNodesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/RouteBetweenNodesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/BuildOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BuildOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/BuildOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BuildOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjectsIs7">
+  <component name="RunManager" selected="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,6 +418,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjects" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -492,69 +539,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ListOfDepthsTest.test_listOfDepths_expect2AsListSize_whenCurrentNodeIsRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.ListOfDepthsTest.test_listOfDepths_expect2AsListSize_whenCurrentNodeIsRootNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs6" />
+      <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" />
       <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjects" />
       <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjectsIs7" />
       <item itemvalue="Gradle.ListOfDepthsTest.test_createLevelLinkedListUsingBFS_expect28_whenCurrentNodeIsRootNode" />
-      <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" />
-      <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect2AsListSize_whenCurrentNodeIsRootNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" />
+        <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs6" />
         <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjectsIs7" />
         <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrder_expectList_whenNumberOfProjects" />
         <item itemvalue="Gradle.ListOfDepthsTest.test_createLevelLinkedListUsingBFS_expect28_whenCurrentNodeIsRootNode" />
-        <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect2AsListSize_whenCurrentNodeIsRootNode" />
-        <item itemvalue="Gradle.ListOfDepthsTest.test_listOfDepths_expect28_whenCurrentNodeIsRootNode" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
     <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
     <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
     <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
@@ -950,7 +948,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
     <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
+    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: build order, dependencies in a project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

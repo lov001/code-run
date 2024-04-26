@@ -4,12 +4,49 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Stack;
+import practice.graphs.BuildOrder.Project.STATE;
 
 public class BuildOrder {
 
    public Project[] findBuildOrder(String[] projects, String[][] dependencies) {
       Graph graph = buildGraph(projects, dependencies);
       return buildOrder(graph.getNodes());
+   }
+
+   public Stack<Project> findBuildOrderUsingDFS(String[] projects, String[][] dependencies) {
+      Graph graph = buildGraph(projects, dependencies);
+      return buildOrderDFS(graph.getNodes());
+   }
+
+   private Stack<Project> buildOrderDFS(List<Project> projects) {
+      Stack<Project> stack = new Stack<>();
+      for (Project project : projects) {
+         if (project.getState() == STATE.BLANK) {
+            if (!doDFS(project, stack)) {
+               return null;
+            }
+         }
+      }
+      return stack;
+   }
+
+   private boolean doDFS(Project project, Stack<Project> stack) {
+      if (project.getState() == STATE.PARTIAL) {
+         return false;
+      }
+      if (project.getState() == STATE.BLANK) {
+         project.setState(STATE.PARTIAL);
+         List<Project> children = project.getChildren();
+         for (Project child : children) {
+            if (!doDFS(child, stack)) {
+               return false;
+            }
+         }
+         project.setState(STATE.COMPLETE);
+         stack.push(project);
+      }
+      return true;
    }
 
    private Project[] buildOrder(List<Project> projects) {
@@ -81,6 +118,9 @@ public class BuildOrder {
 
    public class Project {
 
+      public enum STATE {COMPLETE, PARTIAL, BLANK};
+
+      private STATE state = STATE.BLANK;
       private final String name;
       private int noOfDependents = 0;
       private final List<Project> children = new ArrayList<>();
@@ -88,6 +128,14 @@ public class BuildOrder {
 
       public Project(String name) {
          this.name = name;
+      }
+
+      public STATE getState() {
+         return state;
+      }
+
+      public void setState(STATE state) {
+         this.state = state;
       }
 
       public void addNeighbor(Project node) {
