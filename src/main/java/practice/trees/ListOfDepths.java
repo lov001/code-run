@@ -37,8 +37,7 @@ public class ListOfDepths {
    }
 
    private void createLevelLinkedListUsingPreOrderTraversal(BinaryTreeNode root,
-      List<LinkedList<BinaryTreeNode>> lists,
-      int level) {
+      List<LinkedList<BinaryTreeNode>> lists, int level) {
       if (root == null) {
          return;
       }

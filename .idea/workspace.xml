@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: build order, dependencies in a project using DFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/BSTSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/BSTSequenceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/FirstCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/FirstCommonAncestorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +400,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BSTSequenceTest.test_allSequences_expectList_whenTreeIsBST">
+  <component name="RunManager" selected="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreParentChild">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +420,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSTSequenceTest.test_allSequences_expectEmptyList_whenTreeHasNoNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreOnSameSide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +433,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.BSTSequenceTest.test_allSequences_expectEmptyList_whenTreeHasNoNodes&quot;" />
+            <option value="&quot;practice.trees.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreOnSameSide&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTSequenceTest.test_allSequences_expectList_whenTreeIsBST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreParentChild" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.BSTSequenceTest.test_allSequences_expectList_whenTreeIsBST&quot;" />
+            <option value="&quot;practice.trees.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreParentChild&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTSequenceTest.test_allSequences_expectOnlyRootNode_whenTreeHasOnlyRootNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstCommonAncestorTest.test_commonAncestor_expect1_whenRootIsTheCommonAncestor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.BSTSequenceTest.test_allSequences_expectOnlyRootNode_whenTreeHasOnlyRootNode&quot;" />
+            <option value="&quot;practice.trees.FirstCommonAncestorTest.test_commonAncestor_expect1_whenRootIsTheCommonAncestor&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTSequenceTest.test_allSequences_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstCommonAncestorTest.test_commonAncestor_expect20_whenBothNodesAreOnSameSide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +505,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.BSTSequenceTest.test_allSequences_expectOrderedList_whenTreeHasNodes&quot;" />
+            <option value="&quot;practice.trees.FirstCommonAncestorTest.test_commonAncestor_expect20_whenBothNodesAreOnSameSide&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstCommonAncestorTest.test_commonAncestor_expectEmptyList_whenTreeHasNoNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7&quot;" />
+            <option value="&quot;practice.trees.FirstCommonAncestorTest.test_commonAncestor_expectEmptyList_whenTreeHasNoNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +542,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectEmptyList_whenTreeHasNoNodes" />
-      <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectList_whenTreeIsBST" />
-      <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectOnlyRootNode_whenTreeHasOnlyRootNode" />
-      <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectOrderedList_whenTreeHasNodes" />
-      <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" />
+      <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreOnSameSide" />
+      <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreParentChild" />
+      <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect1_whenRootIsTheCommonAncestor" />
+      <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect20_whenBothNodesAreOnSameSide" />
+      <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expectEmptyList_whenTreeHasNoNodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectList_whenTreeIsBST" />
-        <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectOnlyRootNode_whenTreeHasOnlyRootNode" />
-        <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectEmptyList_whenTreeHasNoNodes" />
-        <item itemvalue="Gradle.BSTSequenceTest.test_allSequences_expectOrderedList_whenTreeHasNodes" />
-        <item itemvalue="Gradle.BuildOrderTest.test_findBuildOrderUsingDFS_expectList_whenNumberOfProjectsIs7" />
+        <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreParentChild" />
+        <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect20_whenBothNodesAreOnSameSide" />
+        <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect10_whenBothNodesAreOnSameSide" />
+        <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expectEmptyList_whenTreeHasNoNodes" />
+        <item itemvalue="Gradle.FirstCommonAncestorTest.test_commonAncestor_expect1_whenRootIsTheCommonAncestor" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="318" />
+    <option name="localTasksCounter" value="319" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
     <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
     <MESSAGE value="[practice/stack-and-queue]: stack of plates" />
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
+    <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1813,6 +1814,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/BSTSequenceTest.java</url>
           <line>89</line>
           <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/FirstCommonAncestorTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/FirstCommonAncestorTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="414" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
