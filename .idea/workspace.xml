@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: common ancestor of two nodes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/CheckSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/CheckSubtreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RandomNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PathSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -399,7 +400,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckSubtreeTest">
+  <component name="RunManager" selected="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -515,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheckSubtreeTest.test_containsTree_expectTrue_whenTreeIsSubtree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectTrue_whenTreeIsSubtree&quot;" />
+            <option value="&quot;practice.trees.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,15 +546,15 @@
       <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
       <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
       <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
-      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenTreeIsSubtree" />
+      <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
         <item itemvalue="Gradle.CheckSubtreeTest" />
         <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
         <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
         <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
-        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenTreeIsSubtree" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/stack-and-queue]: stack of plates" />
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks optimised approach" />
     <MESSAGE value="[practice/stack-and-queue]: sorted stack" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
     <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: common ancestor of two nodes" />
+    <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
