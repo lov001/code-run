@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/stack-and-queue]: sorted stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="trees-and-graphs" />
+                    <option name="lastUsedInstant" value="1712641532" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/stacks-and-queues" />
                     <option name="lastUsedInstant" value="1711872386" />
                   </RecentBranch>
@@ -335,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/binary-search" />
                     <option name="lastUsedInstant" value="1701181712" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1701180109" />
                   </RecentBranch>
                 </list>
               </option>
@@ -367,7 +367,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "PROBLEM-238",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/practice",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -381,25 +381,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays" />
       <recent name="$PROJECT_DIR$/src/main/java/practice" />
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/arrays" />
       <recent name="$PROJECT_DIR$/src/test/java/leetcode/searching/binarysearch" />
-      <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays/problem45" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trees" />
       <recent name="practice.queue" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="practice.arraysandstrings" />
-      <recent name="leetcode.searching.binarysearch.problem744" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest.test_QueueUsingLinkedList">
+  <component name="RunManager" selected="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalShelterTest.test_QueueUsingLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckSubtreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -432,7 +432,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_QueueUsingLinkedList&quot;" />
+            <option value="&quot;practice.trees.CheckSubtreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -443,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty&quot;" />
+            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty&quot;" />
+            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty&quot;" />
+            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -515,7 +515,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -528,7 +528,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.queue.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement&quot;" />
+            <option value="&quot;practice.trees.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +541,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
-      <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
+      <item itemvalue="Gradle.CheckSubtreeTest" />
+      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
+      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
+      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
+      <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalShelterTest.test_QueueUsingLinkedList" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectFirstElement_whenQueueHasOnlyOneElement" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_remove_expectException_whenQueueIsEmpty" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectFirstElement_whenQueueIsNotEmpty" />
-        <item itemvalue="Gradle.AnimalShelterTest.test_add_expectSameElement_whenQueueIsEmpty" />
+        <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
+        <item itemvalue="Gradle.CheckSubtreeTest" />
+        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
+        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
+        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,32 +924,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/linked-list]: deleting middle element using iterative approach" />
-    <MESSAGE value="[practice/linked-list]: deleting middle element when only that node is given" />
-    <MESSAGE value="[practice/linked-list]: WIP linked list sum" />
-    <MESSAGE value="[practice/linked-list]: sum of two linked list working solution" />
-    <MESSAGE value="[practice/linked-list]: edge case handled to cater overflow" />
-    <MESSAGE value="[practice/linked-list]: minor code optimisations" />
-    <MESSAGE value="[practice/linked-list]: linked list sum when numbers are in actual order" />
-    <MESSAGE value="[practice/linked-list]: palindrome linked list check" />
-    <MESSAGE value="[practice/linked-list]: palindrome linked list check using stack" />
-    <MESSAGE value="[practice/linked-list]: palindrome linked list using reverse and then comparison" />
-    <MESSAGE value="[practice/linked-list]: WIP - finding corrupted node in a circular linked list" />
-    <MESSAGE value="[practice/linked-list]: finding corrupted node in a circular linked list" />
-    <MESSAGE value="[practice/linked-list]: intersection of two linked lists using hashset" />
-    <MESSAGE value="[practice/linked-list]: intersection using two pointer approach" />
-    <MESSAGE value="[practice/linked-list]: intersection using length difference" />
-    <MESSAGE value="[practice/stack-and-queue]: stack implementation using a linked list" />
-    <MESSAGE value="[practice/stack-and-queue]: queue implementation using a linked list" />
-    <MESSAGE value="[practice/stack-and-queue]: stack using an array" />
-    <MESSAGE value="[practice/stack-and-queue]: fixed size stacks = 3 using an array" />
-    <MESSAGE value="[practice/stack-and-queue]: minimun stack" />
-    <MESSAGE value="[practice/stack-and-queue]: minimum stack with optimised approach of each node storing its substack min index" />
-    <MESSAGE value="[practice/stack-and-queue]: stack of plates" />
-    <MESSAGE value="[practice/stack-and-queue]: queue using stacks" />
     <MESSAGE value="[practice/stack-and-queue]: queue using stacks optimised approach" />
     <MESSAGE value="[practice/stack-and-queue]: sorted stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/stack-and-queue]: sorted stack" />
+    <MESSAGE value="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not" />
+    <MESSAGE value="[practice/trees-and-graphs]: optimised solution" />
+    <MESSAGE value="[practice/trees-and-graphs]: inorder traversal" />
+    <MESSAGE value="[practice/trees-and-graphs]: validate BST using inorder traversal" />
+    <MESSAGE value="[practice/trees-and-graphs]: validate BST using min max range" />
+    <MESSAGE value="[practice/trees-and-graphs]: pre-orde traversal of binary tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: sum of left leaves of a binary tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: height of a binary tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not" />
+    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
+    <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
+    <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
+    <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
+    <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
+    <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
+    <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
+    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
+    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
+    <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
+    <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
+    <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
+    <MESSAGE value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1693,6 +1693,136 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/queue/AnimalShelterTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ValidateBST.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/BinaryTreeHeightTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/utils/BinaryTreeHeight.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/utils/BinaryTreeHeight.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/Successor.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/Successor.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/Successor.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/Successor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/RouteBetweenNodes.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/RouteBetweenNodes.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/RouteBetweenNodes.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/ListOfDepths.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/BSTSequenceTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/BSTSequenceTest.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/BSTSequenceTest.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/FirstCommonAncestorTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/FirstCommonAncestorTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="414" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
