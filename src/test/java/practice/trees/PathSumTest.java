@@ -19,5 +19,6 @@ public class PathSumTest {
       BinaryTreeNode tree = new BinaryTreeNode(10, left1, right1);
 
       Assertions.assertEquals(2, clasObj.paths(tree, 8));
+      Assertions.assertEquals(2, clasObj.countPathsWithSum(tree, 8));
    }
 }
