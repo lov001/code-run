@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: inserting M in N at from j to i">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PathSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitInsertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitInsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitInsertionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/bit-manipulation" />
+                    <option name="lastUsedInstant" value="1714829216" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="trees-and-graphs" />
                     <option name="lastUsedInstant" value="1712641532" />
                   </RecentBranch>
@@ -335,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/arrays-and-strings" />
                     <option name="lastUsedInstant" value="1704029686" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/binary-search" />
-                    <option name="lastUsedInstant" value="1701181712" />
                   </RecentBranch>
                 </list>
               </option>
@@ -361,24 +361,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PROBLEM-238",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PROBLEM-238&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays" />
@@ -399,7 +399,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum">
+  <component name="RunManager" selected="Gradle.BitInsertionTest.test_insert_expectResult_when">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -418,6 +418,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BitInsertionTest.test_insert_expectResult_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.BitInsertionTest.test_insert_expectResult_when&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="CheckSubtreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -467,54 +491,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -539,21 +515,28 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BitInsertionTest.test_insert_expectResult_when" />
       <item itemvalue="Gradle.CheckSubtreeTest" />
       <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
-      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
-      <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
       <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BitInsertionTest.test_insert_expectResult_when" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.PathSumTest.test_pathSum_expect2_whenThereAreTwoPathsWithTargetSum" />
         <item itemvalue="Gradle.CheckSubtreeTest" />
         <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDepthIs3_" />
-        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectFalse_whenDifferenceIs3_" />
-        <item itemvalue="Gradle.CheckSubtreeTest.test_containsTree_expectTrue_whenEmptyTree" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +892,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/stack-and-queue]: queue using stacks optimised approach" />
     <MESSAGE value="[practice/stack-and-queue]: sorted stack" />
     <MESSAGE value="[practice/trees-and-graphs]: validate whether a binary tree is a BST or not" />
     <MESSAGE value="[practice/trees-and-graphs]: optimised solution" />
@@ -949,7 +931,8 @@
     <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
     <MESSAGE value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
+    <MESSAGE value="[practice/bit-manipulation]: inserting M in N at from j to i" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: inserting M in N at from j to i" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
