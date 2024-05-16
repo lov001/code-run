@@ -21,4 +21,12 @@ public class Conversion {
       }
       return noOfBitFlips;
    }
+
+   public int bitFlipsRequiredForConversionMoreOptimised(int initial, int target) {
+      int noOfBitFlips = 0;
+      for (int i = initial ^ target; i != 0; i = i & (i - 1)) {
+         noOfBitFlips++;
+      }
+      return noOfBitFlips;
+   }
 }

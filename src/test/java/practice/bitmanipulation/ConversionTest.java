@@ -13,6 +13,7 @@ public class ConversionTest {
       int target = 15;
       Assertions.assertEquals(2, classObj.bitFlipsRequiredForConversion(source, target));
       Assertions.assertEquals(2, classObj.bitFlipsRequiredForConversionOptimised(source, target));
+      Assertions.assertEquals(2, classObj.bitFlipsRequiredForConversionMoreOptimised(source, target));
    }
 
    @Test
@@ -21,6 +22,7 @@ public class ConversionTest {
       int target = 7;
       Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversion(source, target));
       Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversionOptimised(source, target));
+      Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversionMoreOptimised(source, target));
    }
 
    @Test
@@ -29,5 +31,6 @@ public class ConversionTest {
       int target = 4;
       Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversion(source, target));
       Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversionOptimised(source, target));
+      Assertions.assertEquals(3, classObj.bitFlipsRequiredForConversionMoreOptimised(source, target));
    }
 }
