@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/NextNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/ConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/ConversionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/FlipBitToWinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/FlipBitToWinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +400,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConversionTest">
+  <component name="RunManager" selected="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -433,54 +434,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.bitmanipulation.ConversionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConversionTest.test_bitFlipsRequiredForConversion_expect2_whenSourceIs29AndTargetIs15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.ConversionTest.test_bitFlipsRequiredForConversion_expect2_whenSourceIs29AndTargetIs15&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs10AndTargetIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs10AndTargetIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,21 +492,69 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ConversionTest" />
-      <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect2_whenSourceIs29AndTargetIs15" />
-      <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs10AndTargetIs7" />
       <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4" />
       <item itemvalue="Gradle.FlipBitToWinTest" />
+      <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" />
+      <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" />
+        <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" />
+        <item itemvalue="Gradle.FlipBitToWinTest" />
         <item itemvalue="Gradle.ConversionTest" />
         <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4" />
-        <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs10AndTargetIs7" />
-        <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect2_whenSourceIs29AndTargetIs15" />
-        <item itemvalue="Gradle.FlipBitToWinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="329" />
+    <option name="localTasksCounter" value="330" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: pre-orde traversal of binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: sum of left leaves of a binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: height of a binary tree" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
+    <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1826,22 +1827,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java</url>
-          <line>39</line>
+          <line>60</line>
           <option name="timeStamp" value="418" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java</url>
-          <line>42</line>
+          <line>63</line>
           <option name="timeStamp" value="419" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java</url>
-          <line>43</line>
+          <line>64</line>
           <option name="timeStamp" value="420" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java</url>
-          <line>63</line>
+          <line>84</line>
           <option name="timeStamp" value="421" />
         </line-breakpoint>
       </breakpoints>

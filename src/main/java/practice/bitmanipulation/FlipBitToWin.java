@@ -35,6 +35,27 @@ public class FlipBitToWin {
       return maxConsecutiveOnes + 1;
    }
 
+   public int flipBit(int number) {
+      if (~number == 0) {
+         return Integer.BYTES * 8;
+      }
+      int currentLength = 0;
+      int previousLength = 0;
+      int maxLength = 1;
+
+      while (number != 0) {
+         if ((number & 1) == 1) {
+            currentLength++;
+         } else if ((number & 1) == 0) {
+            previousLength = (number & 2) == 0 ? 0 : currentLength;
+            currentLength = 0;
+         }
+         maxLength = Math.max(previousLength + currentLength + 1, maxLength);
+         number >>>= 1;
+      }
+      return maxLength;
+   }
+
 
    public int longestSequence(int number) {
       if (number == -1) {
