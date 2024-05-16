@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/ConversionTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: number of bit flips required to convert source to target">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/ConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/ConversionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: validate BST using inorder traversal" />
     <MESSAGE value="[practice/trees-and-graphs]: validate BST using min max range" />
     <MESSAGE value="[practice/trees-and-graphs]: pre-orde traversal of binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
     <MESSAGE value="[practice/bit-manipulation]: brute force solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
+    <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
