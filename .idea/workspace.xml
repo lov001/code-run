@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/RobotInAGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/RobotGridTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: finding a path in a maze">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/MagicIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/MagicIndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +402,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RobotGridTest.test_findPath_expectTrue_whenPathExist">
+  <component name="RunManager" selected="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,6 +421,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MagicIndexTest.test_expect3_whenMagicIndexPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expect3_whenMagicIndexPresent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="RobotGridTest.test_findPath_expectNull_whenPathDoesNotExist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -495,69 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TripleStepTest.test_countWays_expect9_whenNoOfStepsIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.TripleStepTest.test_countWays_expect9_whenNoOfStepsIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TripleStepTest.test_countWays_expect_whenNoOfStepsIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.TripleStepTest.test_countWays_expect_whenNoOfStepsIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent" />
+      <item itemvalue="Gradle.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" />
       <item itemvalue="Gradle.RobotGridTest.test_findPath_expectNull_whenPathDoesNotExist" />
       <item itemvalue="Gradle.RobotGridTest.test_findPath_expectTrue_whenPathExist" />
       <item itemvalue="Gradle.TripleStepTest.test_countWays_expect13_whenNoOfStepsIs5" />
-      <item itemvalue="Gradle.TripleStepTest.test_countWays_expect9_whenNoOfStepsIs5" />
-      <item itemvalue="Gradle.TripleStepTest.test_countWays_expect_whenNoOfStepsIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent" />
+        <item itemvalue="Gradle.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" />
         <item itemvalue="Gradle.RobotGridTest.test_findPath_expectTrue_whenPathExist" />
         <item itemvalue="Gradle.RobotGridTest.test_findPath_expectNull_whenPathDoesNotExist" />
         <item itemvalue="Gradle.TripleStepTest.test_countWays_expect13_whenNoOfStepsIs5" />
-        <item itemvalue="Gradle.TripleStepTest.test_countWays_expect9_whenNoOfStepsIs5" />
-        <item itemvalue="Gradle.TripleStepTest.test_countWays_expect_whenNoOfStepsIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: sum of left leaves of a binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: height of a binary tree" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
@@ -953,7 +951,8 @@
     <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
