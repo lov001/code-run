@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: magic index brute force solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/PowerSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/MagicIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/MagicIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/MagicIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/MagicIndexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent">
+  <component name="RunManager" selected="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest.test_expect2_whenMagicIndexPresentAndArrayContainsDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expect2_whenMagicIndexPresentAndArrayContainsDuplicate&quot;" />
+            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest.test_expect3_whenMagicIndexPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expect3_whenMagicIndexPresent&quot;" />
+            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest.test_expect7_whenMagicIndexPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expect7_whenMagicIndexPresent&quot;" />
+            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent&quot;" />
+            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.MagicIndexTest" />
-      <item itemvalue="Gradle.MagicIndexTest.test_expect2_whenMagicIndexPresentAndArrayContainsDuplicate" />
-      <item itemvalue="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent" />
-      <item itemvalue="Gradle.MagicIndexTest.test_expect7_whenMagicIndexPresent" />
-      <item itemvalue="Gradle.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" />
+      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
+      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
+      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
+      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MagicIndexTest.test_expect3_whenMagicIndexPresent" />
-        <item itemvalue="Gradle.MagicIndexTest.test_expectMinusOne_whenMagicIndexNotPresent" />
+        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
+        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
+        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
+        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" />
         <item itemvalue="Gradle.MagicIndexTest" />
-        <item itemvalue="Gradle.MagicIndexTest.test_expect2_whenMagicIndexPresentAndArrayContainsDuplicate" />
-        <item itemvalue="Gradle.MagicIndexTest.test_expect7_whenMagicIndexPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
     <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
     <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
