@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/PowerSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -402,7 +398,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement">
+  <component name="RunManager" selected="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -552,10 +548,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" />
+        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
         <item itemvalue="Gradle.MagicIndexTest" />
       </list>
     </recent_temporary>
@@ -912,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="334" />
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
     <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
     <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
@@ -952,7 +947,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1891,6 +1887,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/MagicIndex.java</url>
           <line>18</line>
           <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="436" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package practice.dynamicprogramming;
+package practice.dynamicprogrammingandrecursion;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

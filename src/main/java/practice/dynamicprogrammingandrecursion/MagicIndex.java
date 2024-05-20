@@ -1,4 +1,4 @@
-package practice.dynamicprogramming;
+package practice.dynamicprogrammingandrecursion;
 
 public class MagicIndex {
 
