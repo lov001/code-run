@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: directory refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RecursiveMultiplyTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: min product for two number">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TowerOfHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RecursiveMultiplyTest">
+  <component name="RunManager" selected="Java Scratch.Scratch">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,30 +421,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -542,21 +518,28 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
       <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
       <item itemvalue="Gradle.RecursiveMultiplyTest" />
       <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
       <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.RecursiveMultiplyTest" />
         <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
         <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
-        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
     <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
@@ -952,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
     <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: directory refactoring" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: min product for two number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
