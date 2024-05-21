@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: directory refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RecursiveMultiplyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +402,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement">
+  <component name="RunManager" selected="Gradle.RecursiveMultiplyTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -417,30 +421,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="MagicIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.MagicIndexTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -490,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecursiveMultiplyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -503,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -514,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -527,7 +507,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveMultiplyTest.test_minProduct_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest.test_minProduct_expect_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MagicIndexTest" />
       <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
       <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
-      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
-      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" />
+      <item itemvalue="Gradle.RecursiveMultiplyTest" />
+      <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
+      <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RecursiveMultiplyTest" />
+        <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
+        <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
         <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect2Elements_whenSetContainsOneElement" />
-        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expectEmptySet_whenSetIsEmpty" />
-        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect8Elements_whenSetContainsThreeElement" />
-        <item itemvalue="Gradle.MagicIndexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <option name="localTasksCounter" value="336" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
     <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
@@ -948,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
     <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: directory refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1844,59 +1848,69 @@
           <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/TripleStep.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
           <line>19</line>
           <option name="timeStamp" value="422" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/TripleStep.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
           <line>25</line>
           <option name="timeStamp" value="423" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/TripleStep.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
           <line>29</line>
           <option name="timeStamp" value="424" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/TripleStep.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
           <line>32</line>
           <option name="timeStamp" value="425" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/RobotGridTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="426" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/RobotGridTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
           <line>34</line>
           <option name="timeStamp" value="427" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/RobotGridTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
           <line>38</line>
           <option name="timeStamp" value="428" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogramming/RobotGridTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
           <line>44</line>
           <option name="timeStamp" value="429" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/MagicIndex.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MagicIndex.java</url>
           <line>18</line>
           <option name="timeStamp" value="430" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PowerSet.java</url>
           <line>13</line>
           <option name="timeStamp" value="433" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogramming/PowerSet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PowerSet.java</url>
           <line>9</line>
           <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="438" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
