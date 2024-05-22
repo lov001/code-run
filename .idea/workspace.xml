@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: min product for two number">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TowerOfHanoi.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: tower of hanoi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogramming.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RecursiveMultiplyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RecursiveMultiplyTest.test_minProduct_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.RecursiveMultiplyTest.test_minProduct_expect_when&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -527,19 +527,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
-      <item itemvalue="Gradle.RecursiveMultiplyTest" />
-      <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
-      <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
+      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
+      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
+      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
+      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
+        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
+        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
+        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.RecursiveMultiplyTest" />
-        <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect391_whenAIs17AndBIs23" />
-        <item itemvalue="Gradle.RecursiveMultiplyTest.test_minProduct_expect_when" />
-        <item itemvalue="Gradle.PowerSetTest.test_getSubset_expect4Elements_whenSetContainsTwoElement" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <option name="localTasksCounter" value="338" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
     <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
     <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
@@ -935,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: min product for two number" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: tower of hanoi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1894,6 +1894,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java</url>
           <line>12</line>
           <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="447" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
