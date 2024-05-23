@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: tower of hanoi">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -537,8 +537,8 @@
       <list>
         <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
         <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
-        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
         <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
+        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -895,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="338" />
+    <option name="localTasksCounter" value="339" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
     <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
@@ -935,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: tower of hanoi" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

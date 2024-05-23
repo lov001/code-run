@@ -19,6 +19,7 @@ public class PermutationsWithoutDuplicateTest {
       String input = "a";
       List<String> output = List.of("a");
       Assertions.assertEquals(output, classOBj.getPermutations(input));
+      Assertions.assertEquals(output, classOBj.getPermutationsFromNMinusOne(input));
    }
 
    @Test
@@ -26,6 +27,7 @@ public class PermutationsWithoutDuplicateTest {
       String input = "ab";
       List<String> output = List.of("ab", "ba");
       Assertions.assertEquals(output, classOBj.getPermutations(input));
+      Assertions.assertEquals(output, classOBj.getPermutationsFromNMinusOne(input));
    }
 
    @Test
@@ -33,5 +35,7 @@ public class PermutationsWithoutDuplicateTest {
       String input = "abc";
       List<String> output = List.of("abc", "bac", "bca", "acb", "cab", "cba");
       Assertions.assertEquals(output, classOBj.getPermutations(input));
+      List<String> output2 = List.of("abc", "acb", "bac", "bca", "cab", "cba");
+      Assertions.assertEquals(output2, classOBj.getPermutationsFromNMinusOne(input));
    }
 }

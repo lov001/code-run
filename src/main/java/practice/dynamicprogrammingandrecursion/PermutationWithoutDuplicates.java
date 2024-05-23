@@ -26,6 +26,25 @@ public class PermutationWithoutDuplicates {
       return permutations;
    }
 
+   public List<String> getPermutationsFromNMinusOne(String remainder) {
+      int length = remainder.length();
+      List<String> result = new ArrayList<>();
+      if (length == 0) {
+         result.add("");
+         return result;
+      }
+      for (int i = 0; i < length; i++) {
+         String before = remainder.substring(0, i);
+         String after = remainder.substring(i + 1, length);
+
+         List<String> partials = getPermutationsFromNMinusOne(before + after);
+         for (String str : partials) {
+            result.add(remainder.charAt(i) + str);
+         }
+      }
+      return result;
+   }
+
    private String insertCharAt(String word, char first, int i) {
       String start = word.substring(0, i);
       String end = word.substring(i);
