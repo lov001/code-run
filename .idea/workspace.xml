@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithDuplicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithoutDuplicateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,14 +395,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
       <recent name="practice.queue" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
-      <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC">
+  <component name="RunManager" selected="Gradle.PermutationsWithDuplicateTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,28 +518,45 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
-      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
-      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
-      <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
-      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
+      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
+      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
+      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
+      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
-        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
-        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
-        <item itemvalue="Gradle.PermutationsWithoutDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
-        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
@@ -935,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
