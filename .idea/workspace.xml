@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsWithDuplicateTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ParenthesesCombinationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PermutationsWithDuplicateTest">
+  <component name="RunManager" selected="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,6 +422,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="PermutationsWithDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -436,54 +508,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,45 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" />
+      <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
+      <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
       <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
-      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
-      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
       <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
-      <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
+        <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
+        <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
+        <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" />
         <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
-        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectOnePermutation_whenStringIsA" />
-        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectTwoPermutations_whenStringIsAB" />
-        <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectEmptyList_whenStringIsEmpty" />
+        <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1921,6 +1921,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java</url>
           <line>11</line>
           <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="452" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
