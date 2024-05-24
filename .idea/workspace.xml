@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ParenthesesCombinationTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: combination of parentheses brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ParenthesesCombinationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ParenthesesCombinationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,6 +422,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParenthesesCombinationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -494,30 +518,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsWithDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsWithDuplicateTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -544,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.ParenthesesCombinationTest" />
       <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" />
       <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
       <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
-      <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
       <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
         <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
+        <item itemvalue="Gradle.ParenthesesCombinationTest" />
         <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs1" />
         <item itemvalue="Gradle.PermutationsWithDuplicateTest.test_getPermutations_expectThreePermutations_whenStringIsABC" />
-        <item itemvalue="Gradle.PermutationsWithDuplicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
     <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
     <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
     <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: combination of parentheses brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1939,12 +1939,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="451" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="452" />
         </line-breakpoint>
       </breakpoints>
