@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: combination of parentheses recursive approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Coins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CoinsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: coins to generate a change value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Coins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Coins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CoinsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CoinsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="343" />
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
     <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
     <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
     <MESSAGE value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses brute force" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses recursive approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: combination of parentheses recursive approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: coins to generate a change value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
