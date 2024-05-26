@@ -32,4 +32,30 @@ public class StackOfBoxes {
       stack[bottomBoxIndex] = maxHeight;
       return maxHeight;
    }
+
+   public int createStack(List<Box> boxes) {
+      boxes.sort(new BoxComparator());
+      int[] stack = new int[boxes.size()];
+      return createStack(boxes, null, 0, stack);
+   }
+
+   private int createStack(List<Box> boxes, Box bottom, int offset, int[] stack) {
+      if (offset >= boxes.size()) {
+         return 0;
+      }
+      // height with this box as bottom
+      int heightWithBottom = 0;
+      Box newBottom = boxes.get(offset);
+      if (bottom == null || newBottom.canBeAbove(bottom)) {
+         if (stack[offset] == 0) {
+            stack[offset] = createStack(boxes, newBottom, offset + 1, stack);
+            stack[offset] += newBottom.height;
+         }
+         heightWithBottom = stack[offset];
+      }
+
+      // height without this box as bottom
+      int heightWithoutBottom = createStack(boxes, newBottom, offset + 1, stack);
+      return Math.max(heightWithBottom, heightWithoutBottom);
+   }
 }

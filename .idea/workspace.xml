@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: placing stack of boxes one over another">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: placing stack of boxes one over another - optimised used memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/StackOfBoxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/StackOfBoxesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <option name="localTasksCounter" value="348" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: inserting M in N at from j to i" />
     <MESSAGE value="[practice/bit-manipulation]: optimised approach by clearing  bits from j to i and then ORing them" />
     <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
     <MESSAGE value="[practice/bit-manipulation]: brute force solution to flipping a bit to win problem" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another - optimised used memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another - optimised used memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

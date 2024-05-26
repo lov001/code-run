@@ -21,6 +21,7 @@ public class StackOfBoxesTest {
       boxes.add(box3);
       boxes.add(box4);
       Assertions.assertEquals(11, classObj.getMaxHeight(boxes));
+      Assertions.assertEquals(11, classObj.createStack(boxes));
    }
 
    @Test
@@ -29,6 +30,7 @@ public class StackOfBoxesTest {
       List<Box> boxes = new ArrayList<>();
       boxes.add(box2);
       Assertions.assertEquals(5, classObj.getMaxHeight(boxes));
+      Assertions.assertEquals(5, classObj.createStack(boxes));
    }
 
    @Test
@@ -43,5 +45,6 @@ public class StackOfBoxesTest {
       boxes.add(box3);
       boxes.add(box4);
       Assertions.assertEquals(7, classObj.getMaxHeight(boxes));
+      Assertions.assertEquals(7, classObj.createStack(boxes));
    }
 }
