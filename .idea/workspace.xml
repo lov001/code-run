@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/NextNumber.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: placing stack of boxes one over another">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/FlipBitToWinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/FlipBitToWinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,6 +320,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/dynamic-programming-recursion" />
+                    <option name="lastUsedInstant" value="1716029490" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/bit-manipulation" />
                     <option name="lastUsedInstant" value="1714829216" />
                   </RecentBranch>
@@ -336,10 +338,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/linked-list" />
                     <option name="lastUsedInstant" value="1706672766" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/arrays-and-strings" />
-                    <option name="lastUsedInstant" value="1704029686" />
                   </RecentBranch>
                 </list>
               </option>
@@ -381,6 +379,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice.dynamicprogramming" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/arrays" />
       <recent name="$PROJECT_DIR$/src/main/java/practice" />
@@ -393,14 +394,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
       <recent name="practice.queue" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
-      <recent name="practice.arraysandstrings" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15">
+  <component name="RunManager" selected="Gradle.StackOfBoxesTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -420,7 +421,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConversionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoinsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -433,7 +434,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.ConversionTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -444,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -457,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -468,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FlipBitToWinTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -481,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.FlipBitToWinTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -492,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -505,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -516,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -529,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ConversionTest" />
-      <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4" />
-      <item itemvalue="Gradle.FlipBitToWinTest" />
-      <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" />
-      <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" />
+      <item itemvalue="Gradle.CoinsTest" />
+      <item itemvalue="Gradle.StackOfBoxesTest" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect4_whenNumberIs15" />
-        <item itemvalue="Gradle.FlipBitToWinTest.test_maxOnes_expect2_whenNumberIs16" />
-        <item itemvalue="Gradle.FlipBitToWinTest" />
-        <item itemvalue="Gradle.ConversionTest" />
-        <item itemvalue="Gradle.ConversionTest.test_bitFlipsRequiredForConversion_expect3_whenSourceIs3AndTargetIs4" />
+        <item itemvalue="Gradle.StackOfBoxesTest" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
+        <item itemvalue="Gradle.CoinsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,23 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: post-order traversal of binary tree" />
-    <MESSAGE value="[practice/trees-and-graphs]: sum of left leaves of a binary tree" />
-    <MESSAGE value="[practice/trees-and-graphs]: height of a binary tree" />
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not" />
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a binary tree is balanced or not optimised approach" />
-    <MESSAGE value="[practice/trees-and-graphs]: successor of a current node" />
-    <MESSAGE value="[practice/trees-and-graphs]: binary search tree with minimal height using a sorted array" />
-    <MESSAGE value="[practice/trees-and-graphs]: leetcode-179, generate the largest number obtained by rearranging elements of an array" />
-    <MESSAGE value="[practice/trees-and-graphs]: leetcode-75, dutch national flag problem of sorting 0s, 1s and 2s" />
-    <MESSAGE value="[practice/trees-and-graphs]: route between two nodes of a graph using BFS and DFS" />
-    <MESSAGE value="[practice/trees-and-graphs]: linked list of depths of a binary tree nodes" />
-    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project" />
-    <MESSAGE value="[practice/trees-and-graphs]: build order, dependencies in a project using DFS" />
-    <MESSAGE value="[practice/trees-and-graphs]: sequence for a BST with all possible combinations that could have generated that tree" />
-    <MESSAGE value="[practice/trees-and-graphs]: common ancestor of two nodes" />
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
-    <MESSAGE value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
     <MESSAGE value="[practice/bit-manipulation]: inserting M in N at from j to i" />
     <MESSAGE value="[practice/bit-manipulation]: optimised approach by clearing  bits from j to i and then ORing them" />
     <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
@@ -950,7 +934,24 @@
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses brute force" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses recursive approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1844,6 +1845,106 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/FlipBitToWin.java</url>
           <line>84</line>
           <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TripleStep.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RobotGridTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MagicIndex.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PowerSet.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PowerSet.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RecursiveMultiply.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithoutDuplicates.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PermutationWithDuplicates.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ParenthesesCombination.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="456" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
