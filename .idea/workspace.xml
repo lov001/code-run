@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EightQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: placing stack of boxes one over another">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/StackOfBoxesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +403,7 @@
       <recent name="practice.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CoinsTest">
+  <component name="RunManager" selected="Gradle.StackOfBoxesTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CoinsTest.test_makeChange_expect_whenNIs100" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +460,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinsTest.test_makeChange_expect_whenNIs100&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CoinsTest.test_makeChange_expect_whenNIs33" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinsTest.test_makeChange_expect_whenNIs33&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +495,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +508,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +519,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +532,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +546,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CoinsTest" />
-      <item itemvalue="Gradle.CoinsTest.test_makeChange_expect_whenNIs100" />
-      <item itemvalue="Gradle.CoinsTest.test_makeChange_expect_whenNIs33" />
-      <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
-      <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
+      <item itemvalue="Gradle.StackOfBoxesTest" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
+      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StackOfBoxesTest" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
+        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
         <item itemvalue="Gradle.CoinsTest" />
-        <item itemvalue="Gradle.CoinsTest.test_makeChange_expect_whenNIs33" />
-        <item itemvalue="Gradle.CoinsTest.test_makeChange_expect_whenNIs100" />
-        <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs2" />
-        <item itemvalue="Gradle.ParenthesesCombinationTest.test_generateParentheses_expect_whenNIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="345" />
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trees-and-graphs]: check whether a tree is a subtree of another big tree." />
-    <MESSAGE value="[practice/trees-and-graphs]: number paths in a binary tree with a given target sum" />
     <MESSAGE value="[practice/bit-manipulation]: inserting M in N at from j to i" />
     <MESSAGE value="[practice/bit-manipulation]: optimised approach by clearing  bits from j to i and then ORing them" />
     <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
@@ -952,7 +951,9 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: combination of parentheses recursive approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
+    <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
