@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: quick sort implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/sorting/SortedMergeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: merge two sorted arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/sorting/SortedMergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/sorting/SortedMergeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <option name="localTasksCounter" value="350" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
     <MESSAGE value="[practice/bit-manipulation]: brute force solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
     <MESSAGE value="[practice/sorting-and-searching]: merge sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: quick sort implementation" />
+    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: merge two sorted arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1964,7 +1964,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java</url>
-          <line>5</line>
+          <line>22</line>
           <option name="timeStamp" value="462" />
         </line-breakpoint>
       </breakpoints>
