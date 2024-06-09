@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: merge two sorted arrays">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: merge two sorted arrays - optimised">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/sorting/SortedMergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/sorting/SortedMergeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenBothArraysHave1Element">
+  <component name="RunManager" selected="Gradle.GroupAnagramTest.test_groupAnagramsOptimised_expectSortedAnagrams_whenGivenInput">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GroupAnagramTest.test_groupAnagramsOptimised_expectSortedAnagrams_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.sorting.QuickSortTest&quot;" />
+            <option value="&quot;practice.sorting.GroupAnagramTest.test_groupAnagramsOptimised_expectSortedAnagrams_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupAnagramTest.test_groupAnagrams_expectSortedAnagrams_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.sorting.GroupAnagramTest.test_groupAnagrams_expectSortedAnagrams_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SortedMergeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.sorting.SortedMergeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,30 +518,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray2IsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.sorting.SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray2IsEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="SortedMergeTest.test_sortedMerge_expectSortedArray_whenBothArraysHave1Element" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -518,45 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SortedMergeTest.test_sortedMerge_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.sorting.SortedMergeTest.test_sortedMerge_expect_when&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.QuickSortTest" />
+      <item itemvalue="Gradle.GroupAnagramTest.test_groupAnagramsOptimised_expectSortedAnagrams_whenGivenInput" />
+      <item itemvalue="Gradle.GroupAnagramTest.test_groupAnagrams_expectSortedAnagrams_whenGivenInput" />
+      <item itemvalue="Gradle.SortedMergeTest" />
       <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray1IsEmpty" />
-      <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray2IsEmpty" />
       <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenBothArraysHave1Element" />
-      <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expect_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupAnagramTest.test_groupAnagramsOptimised_expectSortedAnagrams_whenGivenInput" />
+        <item itemvalue="Gradle.GroupAnagramTest.test_groupAnagrams_expectSortedAnagrams_whenGivenInput" />
+        <item itemvalue="Gradle.SortedMergeTest" />
         <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenBothArraysHave1Element" />
         <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray1IsEmpty" />
-        <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expect_when" />
-        <item itemvalue="Gradle.SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray2IsEmpty" />
-        <item itemvalue="Gradle.QuickSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <option name="localTasksCounter" value="351" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: brute force solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/sorting-and-searching]: merge sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: merge two sorted arrays" />
+    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1966,6 +1966,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java</url>
           <line>22</line>
           <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="464" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
