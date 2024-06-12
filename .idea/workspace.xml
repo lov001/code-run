@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: group anagrams together">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/searching/SearchInARotatedArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: searching in a rotated array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/Listy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/searching/SortedSearchWithoutSizeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +403,7 @@
       <recent name="practice.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInARotatedArrayTest">
+  <component name="RunManager" selected="Gradle.SortedSearchWithoutSizeTest.test_search_expect3_whenFourthElement">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInARotatedArrayTest.test_search_expect5_whenElementToBeSearchedIsMiddle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortedSearchWithoutSizeTest.test_search_expect0_whenFirstElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.searching.SearchInARotatedArrayTest.test_search_expect5_whenElementToBeSearchedIsMiddle&quot;" />
+            <option value="&quot;practice.searching.SortedSearchWithoutSizeTest.test_search_expect0_whenFirstElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +495,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInARotatedArrayTest.test_search_expect6_whenElementToBeSearchedIsMiddle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortedSearchWithoutSizeTest.test_search_expect3_whenFourthElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +508,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.searching.SearchInARotatedArrayTest.test_search_expect6_whenElementToBeSearchedIsMiddle&quot;" />
+            <option value="&quot;practice.searching.SortedSearchWithoutSizeTest.test_search_expect3_whenFourthElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +519,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInARotatedArrayTest.test_search_expect8_whenElementToBeSearchedIsInRightSide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortedSearchWithoutSizeTest.test_search_expectMinusOne_whenElementNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +532,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.searching.SearchInARotatedArrayTest.test_search_expect8_whenElementToBeSearchedIsInRightSide&quot;" />
+            <option value="&quot;practice.searching.SortedSearchWithoutSizeTest.test_search_expectMinusOne_whenElementNotFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -546,17 +547,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.SearchInARotatedArrayTest" />
       <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect1_whenElementToBeSearchedIsInLeftSide" />
-      <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect5_whenElementToBeSearchedIsMiddle" />
-      <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect6_whenElementToBeSearchedIsMiddle" />
-      <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect8_whenElementToBeSearchedIsInRightSide" />
+      <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expect0_whenFirstElement" />
+      <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expect3_whenFourthElement" />
+      <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expectMinusOne_whenElementNotFound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expect3_whenFourthElement" />
+        <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expect0_whenFirstElement" />
+        <item itemvalue="Gradle.SortedSearchWithoutSizeTest.test_search_expectMinusOne_whenElementNotFound" />
         <item itemvalue="Gradle.SearchInARotatedArrayTest" />
         <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect1_whenElementToBeSearchedIsInLeftSide" />
-        <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect5_whenElementToBeSearchedIsMiddle" />
-        <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect8_whenElementToBeSearchedIsInRightSide" />
-        <item itemvalue="Gradle.SearchInARotatedArrayTest.test_search_expect6_whenElementToBeSearchedIsMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="352" />
+    <option name="localTasksCounter" value="353" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
     <MESSAGE value="[practice/sorting-and-searching]: group anagrams together" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: group anagrams together" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a rotated array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: searching in a rotated array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1991,6 +1992,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SearchInRotatedArray.java</url>
           <line>5</line>
           <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="473" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
