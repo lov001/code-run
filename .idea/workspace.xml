@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: searching in a sorted array without size">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/SparseSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/searching/SparseSearchTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/sorting-and-searching]: searching in a sparse array brute force solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/searching/SparseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/searching/SparseSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/searching/SparseSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/searching/SparseSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <option name="localTasksCounter" value="355" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/sorting-and-searching]: group anagrams together" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a rotated array" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a sorted array without size" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: searching in a sorted array without size" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
