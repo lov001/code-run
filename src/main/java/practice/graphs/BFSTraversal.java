@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class BFSTraversal {
 
-   public List<Integer> bfsTraversal(List<Integer> nodes, List<List<Integer>> adjacencyList) {
+   public List<Integer> bfsTraversalUndirected(List<Integer> nodes, List<List<Integer>> adjacencyList) {
       List<Integer> bfsResult = new ArrayList<>();
       boolean[] isVisited = new boolean[nodes.size() + 1];
       Queue<Integer> bfsQueue = new LinkedList<>();
@@ -26,7 +26,7 @@ public class BFSTraversal {
       return bfsResult;
    }
 
-   public List<Integer> bfsTraversal(int V, List<List<Integer>> adjacencyList) {
+   public List<Integer> bfsTraversalDirected(int V, List<List<Integer>> adjacencyList) {
       List<Integer> bfsResult = new ArrayList<>();
       boolean[] isVisited = new boolean[V];
       Queue<Integer> bfsQueue = new LinkedList<>();

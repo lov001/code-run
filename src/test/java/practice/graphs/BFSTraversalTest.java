@@ -25,7 +25,7 @@ public class BFSTraversalTest {
       adjacencyList.add(List.of(6));
       List<Integer> output = List.of(1, 2, 6, 3, 4, 7, 9, 5, 8);
       Assertions.assertArrayEquals(new List[]{output},
-         new List[]{classObj.bfsTraversal(nodes, adjacencyList)});
+         new List[]{classObj.bfsTraversalUndirected(nodes, adjacencyList)});
    }
 
    @Test
@@ -38,7 +38,7 @@ public class BFSTraversalTest {
       adjacencyList.add(List.of());
       List<Integer> output = List.of(0, 1, 2, 3, 4);
       Assertions.assertArrayEquals(new List[]{output},
-         new List[]{classObj.bfsTraversal(5, adjacencyList)});
+         new List[]{classObj.bfsTraversalDirected(5, adjacencyList)});
    }
 
    @Test
@@ -49,6 +49,6 @@ public class BFSTraversalTest {
       adjacencyList.add(List.of());
       List<Integer> output = List.of(0, 1, 2);
       Assertions.assertArrayEquals(new List[]{output},
-         new List[]{classObj.bfsTraversal(3, adjacencyList)});
+         new List[]{classObj.bfsTraversalDirected(3, adjacencyList)});
    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice]: BFS graph traversal">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice]: BFS graph traversal with 0 index approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/BFSTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BFSTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/BFSTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BFSTraversalTest.java" afterDir="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenOnly3Nodes">
+  <component name="RunManager" selected="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -436,6 +436,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.BFSTraversalTest.test_bfsTraversal_expect_when&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,45 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SparseSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.searching.SparseSearchTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_when" />
+      <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" />
       <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenOnly3Nodes" />
       <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenStartingNodeIs6" />
       <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenStartingNodeIsRoot" />
-      <item itemvalue="Gradle.SparseSearchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" />
         <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenOnly3Nodes" />
         <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenStartingNodeIs6" />
         <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenStartingNodeIsRoot" />
         <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_when" />
-        <item itemvalue="Gradle.SparseSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <option name="localTasksCounter" value="358" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
     <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array using modified binary search" />
     <MESSAGE value="[practice]: BFS graph traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice]: BFS graph traversal" />
+    <MESSAGE value="[practice]: BFS graph traversal with 0 index approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice]: BFS graph traversal with 0 index approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2001,6 +2001,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java</url>
           <line>15</line>
           <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/BFSTraversalTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BFSTraversal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="475" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
