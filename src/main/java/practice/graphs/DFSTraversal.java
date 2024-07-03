@@ -31,4 +31,24 @@ public class DFSTraversal {
          }
       }
    }
+
+   public List<Integer> dfsTraversalUnDirectedOptimised(int V, List<List<Integer>> adjacencyList) {
+      List<Integer> dfs = new ArrayList<>();
+      boolean[] isVisited = new boolean[V];
+      helper(0, adjacencyList, isVisited, dfs);
+      return dfs;
+   }
+
+   private void helper(int node, List<List<Integer>> adjacencyList, boolean[] isVisited,
+      List<Integer> dfs) {
+      dfs.add(node);
+      isVisited[0] = true;
+      List<Integer> children = adjacencyList.get(node);
+      for (Integer child : children) {
+         if (!isVisited[child]) {
+            isVisited[child] = true;
+            helper(child, adjacencyList, isVisited, dfs);
+         }
+      }
+   }
 }
