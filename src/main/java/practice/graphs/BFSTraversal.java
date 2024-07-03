@@ -25,4 +25,23 @@ public class BFSTraversal {
       }
       return bfsResult;
    }
+
+   public List<Integer> bfsTraversal(int V, List<List<Integer>> adjacencyList) {
+      List<Integer> bfsResult = new ArrayList<>();
+      boolean[] isVisited = new boolean[V];
+      Queue<Integer> bfsQueue = new LinkedList<>();
+      bfsQueue.add(0);
+      isVisited[0] = true;
+      while (!bfsQueue.isEmpty()) {
+         Integer node = bfsQueue.poll();
+         bfsResult.add(node);
+         for (Integer neighbour : adjacencyList.get(node)) {
+            if (!isVisited[neighbour]) {
+               isVisited[neighbour] = true;
+               bfsQueue.add(neighbour);
+            }
+         }
+      }
+      return bfsResult;
+   }
 }

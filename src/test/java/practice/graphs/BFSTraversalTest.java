@@ -28,22 +28,27 @@ public class BFSTraversalTest {
          new List[]{classObj.bfsTraversal(nodes, adjacencyList)});
    }
 
-//   @Test
-//   void test_bfsTraversal_expect_whenStartingNodeIs6() {
-//      List<Integer> nodes = List.of(6, 1, 2, 3, 4, 5, 7, 8, 9);
-//      List<List<Integer>> adjacencyList = new ArrayList<>();
-//      adjacencyList.add(List.of());
-//      adjacencyList.add(List.of(2, 6));
-//      adjacencyList.add(List.of(1, 3, 4));
-//      adjacencyList.add(List.of(2));
-//      adjacencyList.add(List.of(2, 5));
-//      adjacencyList.add(List.of(4, 8));
-//      adjacencyList.add(List.of(1, 7, 9));
-//      adjacencyList.add(List.of(6, 8));
-//      adjacencyList.add(List.of(5, 7));
-//      adjacencyList.add(List.of(6));
-//      List<Integer> output = List.of(6, 1, 7, 9, 2, 8, 3, 4, 5);
-//      Assertions.assertArrayEquals(new List[]{output},
-//         new List[]{classObj.bfsTraversal(nodes, adjacencyList)});
-//   }
+   @Test
+   void test_bfsTraversal_expect_whenStartingNodeIs0() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 2, 3));
+      adjacencyList.add(List.of());
+      adjacencyList.add(List.of(4));
+      adjacencyList.add(List.of());
+      adjacencyList.add(List.of());
+      List<Integer> output = List.of(0, 1, 2, 3, 4);
+      Assertions.assertArrayEquals(new List[]{output},
+         new List[]{classObj.bfsTraversal(5, adjacencyList)});
+   }
+
+   @Test
+   void test_bfsTraversal_expect_whenOnly3Nodes() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 2));
+      adjacencyList.add(List.of());
+      adjacencyList.add(List.of());
+      List<Integer> output = List.of(0, 1, 2);
+      Assertions.assertArrayEquals(new List[]{output},
+         new List[]{classObj.bfsTraversal(3, adjacencyList)});
+   }
 }
