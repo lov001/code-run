@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming-recursion]: placing stack of boxes one over another">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice]: DFS graph traversal for undirected graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/StackOfBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/DFSTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/DFSTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/DFSTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/DFSTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/sorting-and-searching" />
+                    <option name="lastUsedInstant" value="1717423260" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/dynamic-programming-recursion" />
                     <option name="lastUsedInstant" value="1716029490" />
                   </RecentBranch>
@@ -334,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/stacks-and-queues" />
                     <option name="lastUsedInstant" value="1711872386" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/linked-list" />
-                    <option name="lastUsedInstant" value="1706672766" />
                   </RecentBranch>
                 </list>
               </option>
@@ -370,7 +371,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -394,14 +395,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.graphs" />
+      <recent name="practice.sorting" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
       <recent name="practice.queue" />
-      <recent name="practice.stack" />
-      <recent name="practice.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StackOfBoxesTest">
+  <component name="RunManager" selected="Gradle.DFSTraversalTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BFSTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinsTest&quot;" />
+            <option value="&quot;practice.graphs.BFSTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -445,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackOfBoxesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -458,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest&quot;" />
+            <option value="&quot;practice.graphs.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -469,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DFSTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes&quot;" />
+            <option value="&quot;practice.graphs.DFSTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -493,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DFSTraversalTest.test_dfsTraversal_expect_whenOnly4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -506,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe&quot;" />
+            <option value="&quot;practice.graphs.DFSTraversalTest.test_dfsTraversal_expect_whenOnly4Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -517,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="StackOfBoxesTest.test_getMaxHeight_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DFSTraversalTest.test_dfsTraversal_expect_whenStartingNodeIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -530,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.StackOfBoxesTest.test_getMaxHeight_expect_when&quot;" />
+            <option value="&quot;practice.graphs.DFSTraversalTest.test_dfsTraversal_expect_whenStartingNodeIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.CoinsTest" />
-      <item itemvalue="Gradle.StackOfBoxesTest" />
-      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
-      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
-      <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
+      <item itemvalue="Gradle.BFSTraversalTest" />
+      <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" />
+      <item itemvalue="Gradle.DFSTraversalTest" />
+      <item itemvalue="Gradle.DFSTraversalTest.test_dfsTraversal_expect_whenOnly4Nodes" />
+      <item itemvalue="Gradle.DFSTraversalTest.test_dfsTraversal_expect_whenStartingNodeIs0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StackOfBoxesTest" />
-        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect4_whenOnlyTwoBoxes" />
-        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect5_whenOnlyOneBoxe" />
-        <item itemvalue="Gradle.StackOfBoxesTest.test_getMaxHeight_expect_when" />
-        <item itemvalue="Gradle.CoinsTest" />
+        <item itemvalue="Gradle.DFSTraversalTest" />
+        <item itemvalue="Gradle.DFSTraversalTest.test_dfsTraversal_expect_whenOnly4Nodes" />
+        <item itemvalue="Gradle.DFSTraversalTest.test_dfsTraversal_expect_whenStartingNodeIs0" />
+        <item itemvalue="Gradle.BFSTraversalTest" />
+        <item itemvalue="Gradle.BFSTraversalTest.test_bfsTraversal_expect_whenApproach2" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <option name="localTasksCounter" value="360" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,19 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: inserting M in N at from j to i" />
-    <MESSAGE value="[practice/bit-manipulation]: optimised approach by clearing  bits from j to i and then ORing them" />
-    <MESSAGE value="[practice/bit-manipulation]: converting a fractional number to binary" />
-    <MESSAGE value="[practice/bit-manipulation]: brute force solution to flipping a bit to win problem" />
-    <MESSAGE value="[practice/bit-manipulation]: optimal solution to flipping a bit to win problem" />
-    <MESSAGE value="[practice/bit-manipulation]: number of bit flips required to convert source to target" />
-    <MESSAGE value="[practice/bit-manipulation]: optimal solution for number of bit flips required to convert source to target" />
-    <MESSAGE value="[practice/bit-manipulation]: more optimal solution for number of bit flips required to convert source to target" />
-    <MESSAGE value="[practice/dynamic-programming-recursion]: brute force and optimal solution for triple step problem" />
-    <MESSAGE value="[practice/dynamic-programming-recursion]: finding a path in a maze" />
-    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index brute force solution" />
-    <MESSAGE value="[practice/dynamic-programming-recursion]: magic index optimised solution with binary search" />
-    <MESSAGE value="[practice/dynamic-programming-recursion]:recursive solution for finding all subsets of a set" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
@@ -951,7 +939,20 @@
     <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
+    <MESSAGE value="[practice/sorting-and-searching]: merge sort implementation" />
+    <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
+    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
+    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
+    <MESSAGE value="[practice/sorting-and-searching]: group anagrams together" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a rotated array" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a sorted array without size" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
+    <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array using modified binary search" />
+    <MESSAGE value="[practice]: BFS graph traversal" />
+    <MESSAGE value="[practice]: BFS graph traversal with 0 index approach" />
+    <MESSAGE value="[practice]: BFS graph traversal for directed and undirected graph" />
+    <MESSAGE value="[practice]: DFS graph traversal for undirected graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice]: DFS graph traversal for undirected graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1946,6 +1947,76 @@
           <line>44</line>
           <option name="timeStamp" value="456" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/MergeSortTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/MergeSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/MergeSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/SortedMerge.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/sorting/GroupAnagramTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SearchInRotatedArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/SortedSearchWithoutSize.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/BFSTraversalTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BFSTraversal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/DFSTraversal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1955,5 +2026,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Daily_Coding_Problems$LeftLeavesSumTest_test_sumOfLeftLeaves_expect0_whenOnlyRootNode.ic" NAME="LeftLeavesSumTest.test_sumOfLeftLeaves_expect0_whenOnlyRootNode Coverage Results" MODIFIED="1680282221241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Daily_Coding_Problems$SortedMergeTest_test_sortedMerge_expectSortedArray_whenArray1IsEmpty.ic" NAME="SortedMergeTest.test_sortedMerge_expectSortedArray_whenArray1IsEmpty Coverage Results" MODIFIED="1717766166675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
