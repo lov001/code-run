@@ -39,4 +39,43 @@ public class NumberOfProvincesTest {
       adjacencyList.add(List.of(6));
       Assertions.assertEquals(3, classObj.numberOfProvinces(8, adjacencyList));
    }
+
+   @Test
+   void test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 0, 1));
+      adjacencyList.add(List.of(0, 1, 0));
+      adjacencyList.add(List.of(1, 0, 1));
+      Assertions.assertEquals(2, classObj.numberOfProvincesUpdated(3, adjacencyList));
+   }
+
+   @Test
+   void test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 1));
+      adjacencyList.add(List.of(1, 1));
+      Assertions.assertEquals(1, classObj.numberOfProvincesUpdated(2, adjacencyList));
+   }
+
+   @Test
+   void test_numberOfProvinces_expect2_whenNumberOfNodesAre2() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 0));
+      adjacencyList.add(List.of(0, 1));
+      Assertions.assertEquals(2, classObj.numberOfProvincesUpdated(2, adjacencyList));
+   }
+
+   @Test
+   void test_numberOfProvincesUpdated_expect3_whenNumberOfNodesAre8() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 1, 0, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(1, 1, 1, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(0, 1, 1, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 1, 1, 0, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 1, 1, 1, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 0, 1, 1, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 0, 0, 0, 1, 1));
+      adjacencyList.add(List.of(0, 0, 0, 0, 0, 0, 1, 1));
+      Assertions.assertEquals(3, classObj.numberOfProvincesUpdated(8, adjacencyList));
+   }
 }

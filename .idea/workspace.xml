@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice]: DFS graph traversal for undirected graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfProvincesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: number of provinces using dfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfProvincesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfProvincesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfNodesAre2&quot;" />
+            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfProvincesAre1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfProvincesAre1&quot;" />
+            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre3&quot;" />
+            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.NumberOfProvincesTest" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfNodesAre2" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfProvincesAre1" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre3" />
+      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" />
+      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" />
+      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" />
       <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect3_whenNumberOfNodesAre8" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.NumberOfProvincesTest" />
+        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" />
+        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" />
+        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" />
         <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect3_whenNumberOfNodesAre8" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre3" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfNodesAre2" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect1_whenNumberOfProvincesAre1" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <option name="localTasksCounter" value="361" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: directory refactoring" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: min product for two number" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice]: BFS graph traversal with 0 index approach" />
     <MESSAGE value="[practice]: BFS graph traversal for directed and undirected graph" />
     <MESSAGE value="[practice]: DFS graph traversal for undirected graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice]: DFS graph traversal for undirected graph" />
+    <MESSAGE value="[practice/graph]: number of provinces using dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: number of provinces using dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2019,13 +2019,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="478" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="485" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
