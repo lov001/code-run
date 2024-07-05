@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: number of provinces using dfs with input as adjacency matrix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/utils/GraphUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GraphUtilsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: added utility method to transform adjacency matrix to adjacency list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfIslandsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberOfProvincesTest">
+  <component name="RunManager" selected="Gradle.NumberOfIslandsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -423,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphUtilsTest.test_transformAdjacencyMatrixToAdjacencyList_expectList_whenGivenMatrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +435,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;utils.GraphUtilsTest.test_transformAdjacencyMatrixToAdjacencyList_expectList_whenGivenMatrix&quot;" />
+            <option value="&quot;utils.GraphUtilsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NumberOfIslandsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.NumberOfIslandsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NumberOfIslandsTest.test_numberOfIslands_expect1_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.NumberOfIslandsTest.test_numberOfIslands_expect1_whenNumberOfNodesAre2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NumberOfIslandsTest.test_numberOfIslands_expect2_whenNumberOfNodesAre3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.NumberOfIslandsTest.test_numberOfIslands_expect2_whenNumberOfNodesAre3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -471,93 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.GraphUtilsTest.test_transformAdjacencyMatrixToAdjacencyList_expectList_whenGivenMatrix" />
+      <item itemvalue="Gradle.GraphUtilsTest" />
+      <item itemvalue="Gradle.NumberOfIslandsTest" />
+      <item itemvalue="Gradle.NumberOfIslandsTest.test_numberOfIslands_expect1_whenNumberOfNodesAre2" />
+      <item itemvalue="Gradle.NumberOfIslandsTest.test_numberOfIslands_expect2_whenNumberOfNodesAre3" />
       <item itemvalue="Gradle.NumberOfProvincesTest" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NumberOfIslandsTest" />
+        <item itemvalue="Gradle.NumberOfIslandsTest.test_numberOfIslands_expect1_whenNumberOfNodesAre2" />
+        <item itemvalue="Gradle.NumberOfIslandsTest.test_numberOfIslands_expect2_whenNumberOfNodesAre3" />
         <item itemvalue="Gradle.NumberOfProvincesTest" />
-        <item itemvalue="Gradle.GraphUtilsTest.test_transformAdjacencyMatrixToAdjacencyList_expectList_whenGivenMatrix" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvinces_expect2_whenNumberOfNodesAre2" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect2_whenNumberOfNodesAre3" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUpdated_expect1_whenNumberOfNodesAre2" />
+        <item itemvalue="Gradle.GraphUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: tower of hanoi" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string which does not contain any duplicates - other approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: all permutations of a string with duplicates" />
@@ -953,7 +951,8 @@
     <MESSAGE value="[practice]: DFS graph traversal for undirected graph" />
     <MESSAGE value="[practice/graph]: number of provinces using dfs" />
     <MESSAGE value="[practice/graph]: number of provinces using dfs with input as adjacency matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: number of provinces using dfs with input as adjacency matrix" />
+    <MESSAGE value="[practice/graph]: added utility method to transform adjacency matrix to adjacency list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: added utility method to transform adjacency matrix to adjacency list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
