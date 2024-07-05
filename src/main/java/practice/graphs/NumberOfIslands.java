@@ -5,7 +5,23 @@ import java.util.Queue;
 
 public class NumberOfIslands {
 
-   public int numberOfIslands(char[][] grid) {
+   public int numberOfIslandsBFS(char[][] grid) {
+      int count = 0;
+      int rows = grid.length;
+      int columns = grid[0].length;
+      boolean[][] visited = new boolean[rows][columns];
+      for (int row = 0; row < rows; row++) {
+         for (int column = 0; column < columns; column++) {
+            if (grid[row][column] == '1' && !visited[row][column]) {
+               bfs(visited, grid, row, column);
+               count++;
+            }
+         }
+      }
+      return count;
+   }
+
+   public int numberOfIslandsDFS(char[][] grid) {
       int count = 0;
       int rows = grid.length;
       int columns = grid[0].length;
@@ -30,12 +46,12 @@ public class NumberOfIslands {
       int m = grid[0].length;
       while (!queue.isEmpty()) {
          Pair pair = queue.poll();
-         int currentRow = pair.first;
-         int currentColumn = pair.second;
-         for (int delRow = -1; delRow <= 1; delRow++) {
-            for (int delCol = -1; delCol <= 1; delCol++) {
-               int nRow = currentRow + delRow;
-               int nCol = currentColumn + delCol;
+         int row = pair.first;
+         int col = pair.second;
+         for (int deltaRow = -1; deltaRow <= 1; deltaRow++) {
+            for (int deltaCol = -1; deltaCol <= 1; deltaCol++) {
+               int nRow = row + deltaRow;
+               int nCol = col + deltaCol;
                if (nRow >= 0 && nRow < n && nCol >= 0 && nCol < m
                   && grid[nRow][nCol] == '1' && !visited[nRow][nCol]) {
                   visited[nRow][nCol] = true;
@@ -43,17 +59,6 @@ public class NumberOfIslands {
                }
             }
          }
-      }
-   }
-
-   static class Pair {
-
-      int first;
-      int second;
-
-      public Pair(int first, int second) {
-         this.first = first;
-         this.second = second;
       }
    }
 }
