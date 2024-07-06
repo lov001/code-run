@@ -10,18 +10,21 @@ public class NumberOfIslandsTest {
    @Test
    void test_numberOfIslands_expect2_whenNumberOfIslandsAre1() {
       char[][] grid = {{'0', '1'}, {'1', '0'}, {'1', '1'}, {'1', '0'}};
-      Assertions.assertEquals(1, classObj.numberOfIslandsBFS(grid));
+      Assertions.assertEquals(1, classObj.numberOfIslands(grid, "bfs"));
+      Assertions.assertEquals(1, classObj.numberOfIslands(grid, "dfs"));
    }
 
    @Test
    void test_numberOfIslands_expect1_whenNumberOfIslandsAre2() {
       char[][] grid = {{'0', '1', '1', '1', '0', '0', '0'}, {'0', '0', '1', '1', '0', '1', '0'}};
-      Assertions.assertEquals(2, classObj.numberOfIslandsBFS(grid));
+      Assertions.assertEquals(2, classObj.numberOfIslands(grid, "bfs"));
+      Assertions.assertEquals(2, classObj.numberOfIslands(grid, "dfs"));
    }
 
    @Test
    void test_numberOfIslands_expect3_whenNumberOfNodesAre8() {
       char[][] grid = {{'0', '1'}, {'1', '0'}, {'1', '1'}, {'1', '0'}};
-      Assertions.assertEquals(1, classObj.numberOfIslandsBFS(grid));
+      Assertions.assertEquals(1, classObj.numberOfIslands(grid, "bfs"));
+      Assertions.assertEquals(1, classObj.numberOfIslands(grid, "dfs"));
    }
 }
