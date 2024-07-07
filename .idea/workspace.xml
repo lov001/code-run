@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Rotten oranges using DFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInUndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInUndirectedGraphTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Cycle in an undirected graph using BFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInUndirectedGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes">
+  <component name="RunManager" selected="Gradle.CycleInUndirectedGraphTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +420,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="CycleInUndirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.CycleInUndirectedGraphTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -460,30 +483,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfIslandsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfIslandsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
       <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
       <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
-      <item itemvalue="Gradle.NumberOfIslandsTest" />
       <item itemvalue="Gradle.RottenOrangesTest" />
       <item itemvalue="Gradle.RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
         <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
         <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
         <item itemvalue="Gradle.RottenOrangesTest" />
         <item itemvalue="Gradle.RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1" />
-        <item itemvalue="Gradle.NumberOfIslandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: coins to generate a change value - optimised approach" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
@@ -952,7 +950,8 @@
     <MESSAGE value="[practice/graph]: Flood Fill using DFS" />
     <MESSAGE value="[practice/graph]: Number of Island using DFS" />
     <MESSAGE value="[practice/graph]: Rotten oranges using DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Rotten oranges using DFS" />
+    <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Cycle in an undirected graph using BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
