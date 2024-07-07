@@ -6,19 +6,29 @@ import java.util.Queue;
 
 public class CycleInUndirectedGraph {
 
-   public boolean isCycle(int V, List<List<Integer>> adj) {
+   public boolean isCycle(int V, List<List<Integer>> adj, String algorithm) {
       boolean[] isVisited = new boolean[V];
-      for (int i = 0; i < V; i++) {
-         if (!isVisited[i]) {
-            if (detectCycle(i, isVisited, adj)) {
-               return true;
+      if ("bfs".equalsIgnoreCase(algorithm)) {
+         for (int i = 0; i < V; i++) {
+            if (!isVisited[i]) {
+               if (detectCycleBFS(i, isVisited, adj)) {
+                  return true;
+               }
+            }
+         }
+      } else {
+         for (int i = 0; i < V; i++) {
+            if (!isVisited[i]) {
+               if (detectCycleDFS(i, -1, isVisited, adj)) {
+                  return true;
+               }
             }
          }
       }
       return false;
    }
 
-   private boolean detectCycle(int src, boolean[] isVisited, List<List<Integer>> adj) {
+   private boolean detectCycleBFS(int src, boolean[] isVisited, List<List<Integer>> adj) {
       Queue<Pair> queue = new LinkedList<>();
       queue.add(new Pair(src, -1));
       isVisited[src] = true;
@@ -33,6 +43,22 @@ public class CycleInUndirectedGraph {
             } else if (parent != neighbour) {
                return true;
             }
+         }
+      }
+      return false;
+   }
+
+   private boolean detectCycleDFS(int src, int parent, boolean[] isVisited,
+      List<List<Integer>> adj) {
+      isVisited[src] = true;
+      for (Integer neighbour : adj.get(src)) {
+         if (!isVisited[neighbour]) {
+            isVisited[neighbour] = true;
+            if (detectCycleDFS(neighbour, src, isVisited, adj)) {
+               return true;
+            }
+         } else if (neighbour != parent) {
+            return true;
          }
       }
       return false;
