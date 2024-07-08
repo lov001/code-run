@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Cycle in an undirected graph using BFS - fixed for multiple components">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Cycle in an undirected graph using DFS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ZeroOneMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ZeroOneMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInUndirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInUndirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInUndirectedGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CycleInUndirectedGraphTest">
+  <component name="RunManager" selected="Gradle.ZeroOneMatrixTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ZeroOneMatrixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes&quot;" />
+            <option value="&quot;practice.graphs.ZeroOneMatrixTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes&quot;" />
+            <option value="&quot;practice.graphs.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RottenOrangesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.RottenOrangesTest&quot;" />
+            <option value="&quot;practice.graphs.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1&quot;" />
+            <option value="&quot;practice.graphs.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
-      <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
-      <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
-      <item itemvalue="Gradle.RottenOrangesTest" />
-      <item itemvalue="Gradle.RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1" />
+      <item itemvalue="Gradle.ZeroOneMatrixTest" />
+      <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix" />
+      <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" />
+      <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ZeroOneMatrixTest" />
+        <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix" />
+        <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" />
+        <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" />
         <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
-        <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
-        <item itemvalue="Gradle.CycleInUndirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
-        <item itemvalue="Gradle.RottenOrangesTest" />
-        <item itemvalue="Gradle.RottenOrangesTest.test_orangesRotting_expect1_whenMinimumTimeToRotAllOrangesIs1" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: eight queen problem brute force and optimised approaches" />
     <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
     <MESSAGE value="[practice/sorting-and-searching]: merge sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Rotten oranges using DFS" />
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS" />
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS - fixed for multiple components" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Cycle in an undirected graph using BFS - fixed for multiple components" />
+    <MESSAGE value="[practice/graph]: Cycle in an undirected graph using DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Cycle in an undirected graph using DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2066,6 +2066,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/RottenOranges.java</url>
           <line>42</line>
           <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ZeroOneMatrix.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="493" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
