@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Fill Os with X using BFS approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfEnclavesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of Enclaves using DFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfEnclavesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfEnclavesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <option name="localTasksCounter" value="375" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
     <MESSAGE value="[practice/sorting-and-searching]: group anagrams together" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a rotated array" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
     <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
     <MESSAGE value="[practice/graph]: Fill Os with X using BFS approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Fill Os with X using BFS approach" />
+    <MESSAGE value="[practice/graph]: Number of Enclaves using DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of Enclaves using DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2074,17 +2074,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
-          <line>43</line>
+          <line>68</line>
           <option name="timeStamp" value="498" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
-          <line>30</line>
+          <line>55</line>
           <option name="timeStamp" value="499" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
-          <line>11</line>
+          <line>14</line>
           <option name="timeStamp" value="500" />
         </line-breakpoint>
       </breakpoints>

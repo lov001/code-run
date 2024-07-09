@@ -1,5 +1,8 @@
 package practice.graphs;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class NumberOfEnclaves {
 
    int numberOfEnclaves(int[][] grid, String algorithm) {
@@ -26,7 +29,29 @@ public class NumberOfEnclaves {
             }
          }
       } else {
-         System.out.println("Not Implemented Yey");
+         Queue<Pair> queue = new LinkedList<>();
+         for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+               if (i == 0 || j == 0 || i == rows - 1 || j == columns - 1) {
+                  if (grid[i][j] == 1) {
+                     visited[i][j] = true;
+                     queue.add(new Pair(i, j));
+                  }
+               }
+            }
+         }
+         while (!queue.isEmpty()) {
+            Pair node = queue.poll();
+            for (int i = 0; i < 4; i++) {
+               int nRow = node.first + delRow[i];
+               int nCol = node.second + delCol[i];
+               if (nRow >= 0 && nRow < grid.length && nCol >= 0 && nCol < grid[0].length
+                  && !visited[nRow][nCol] && grid[nRow][nCol] == 1) {
+                  queue.add(new Pair(nRow, nCol));
+                  visited[nRow][nCol] = true;
+               }
+            }
+         }
       }
       int count = 0;
       for (int i = 0; i < rows; i++) {
@@ -47,7 +72,6 @@ public class NumberOfEnclaves {
          int nCol = column + delCol[i];
          if (nRow >= 0 && nRow < grid.length && nCol >= 0 && nCol < grid[0].length
             && !visited[nRow][nCol] && grid[nRow][nCol] == 1) {
-            visited[nRow][nCol] = true;
             dfs(grid, visited, nRow, nCol, delRow, delCol);
          }
       }

@@ -27,4 +27,25 @@ public class NumberOfEnclavesTest {
          {0, 1, 1, 0}};
       Assertions.assertEquals(4, classObj.numberOfEnclaves(grid, "dfs"));
    }
+
+   @Test
+   void test_numberOfEnclaves_expect3_whenUsingBFS_() {
+      int[][] grid = {
+         {0, 0, 0, 0},
+         {1, 0, 1, 0},
+         {0, 1, 1, 0},
+         {0, 0, 0, 0}};
+      Assertions.assertEquals(3, classObj.numberOfEnclaves(grid, "bfs"));
+   }
+
+   @Test
+   void test_numberOfEnclaves_expect4_whenUsingBFS() {
+      int[][] grid = {
+         {0, 0, 0, 1},
+         {0, 1, 1, 0},
+         {0, 1, 1, 0},
+         {0, 0, 0, 1},
+         {0, 1, 1, 0}};
+      Assertions.assertEquals(4, classObj.numberOfEnclaves(grid, "bfs"));
+   }
 }
