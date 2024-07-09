@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Fill Os with X using DFS approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of Enclaves using DFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/FillOWithXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/FillOWithXTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfEnclavesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfEnclavesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FillOWithXTest">
+  <component name="RunManager" selected="Gradle.NumberOfEnclavesTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -436,54 +436,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.FillOWithXTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FillOWithXTest.test_fill_expect_whenGivenMatrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.FillOWithXTest.test_fill_expect_whenGivenMatrix&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FillOWithXTest.test_fill_expect_whenGivenMatrix_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.FillOWithXTest.test_fill_expect_whenGivenMatrix_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,21 +494,69 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="NumberOfEnclavesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.NumberOfEnclavesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.FillOWithXTest" />
-      <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix" />
-      <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix_" />
       <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenUsingBFS" />
       <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenUsingBFS_" />
+      <item itemvalue="Gradle.NumberOfEnclavesTest" />
+      <item itemvalue="Gradle.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NumberOfEnclavesTest" />
+        <item itemvalue="Gradle.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" />
         <item itemvalue="Gradle.FillOWithXTest" />
         <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenUsingBFS_" />
         <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenUsingBFS" />
-        <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix_" />
-        <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <option name="localTasksCounter" value="375" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
-    <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays - optimised" />
     <MESSAGE value="[practice/sorting-and-searching]: group anagrams together" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a rotated array" />
@@ -952,7 +950,9 @@
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using DFS" />
     <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
     <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Fill Os with X using DFS approach" />
+    <MESSAGE value="[practice/graph]: Fill Os with X using BFS approach" />
+    <MESSAGE value="[practice/graph]: Number of Enclaves using DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of Enclaves using DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2071,6 +2071,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java</url>
           <line>14</line>
           <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfEnclaves.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="500" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
