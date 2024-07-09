@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Cycle in an undirected graph using DFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ZeroOneMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ZeroOneMatrixTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/FillOWithXTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ZeroOneMatrixTest">
+  <component name="RunManager" selected="Gradle.FillOWithXTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CycleInUndirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FillOWithXTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +436,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInUndirectedGraphTest&quot;" />
+            <option value="&quot;practice.graphs.FillOWithXTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FillOWithXTest.test_fill_expect_whenGivenMatrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.FillOWithXTest.test_fill_expect_whenGivenMatrix&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FillOWithXTest.test_fill_expect_whenGivenMatrix_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.FillOWithXTest.test_fill_expect_whenGivenMatrix_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,69 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
+      <item itemvalue="Gradle.FillOWithXTest" />
+      <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix" />
+      <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix_" />
       <item itemvalue="Gradle.ZeroOneMatrixTest" />
       <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix" />
-      <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" />
-      <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FillOWithXTest" />
+        <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix_" />
+        <item itemvalue="Gradle.FillOWithXTest.test_fill_expect_whenGivenMatrix" />
         <item itemvalue="Gradle.ZeroOneMatrixTest" />
         <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix" />
-        <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix0" />
-        <item itemvalue="Gradle.ZeroOneMatrixTest.test_nearest_expect_whenGivenMatrix_" />
-        <item itemvalue="Gradle.CycleInUndirectedGraphTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="371" />
+    <option name="localTasksCounter" value="372" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming-recursion]: placing stack of boxes one over another" />
     <MESSAGE value="[practice/sorting-and-searching]: merge sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: quick sort implementation" />
     <MESSAGE value="[practice/sorting-and-searching]: merge two sorted arrays" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS" />
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS - fixed for multiple components" />
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Cycle in an undirected graph using DFS" />
+    <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1386,21 +1387,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/searching/binarysearch/problem744/NextGreatestLetterUsingBinarySearch.java</url>
           <line>8</line>
           <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="273" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="274" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/Test.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arraysandstrings/URLify.java</url>
@@ -2071,6 +2057,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ZeroOneMatrix.java</url>
           <line>10</line>
           <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/FillOWithX.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="497" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
