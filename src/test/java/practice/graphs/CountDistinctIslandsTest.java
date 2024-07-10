@@ -14,7 +14,8 @@ public class CountDistinctIslandsTest {
          {1, 1, 0, 0, 0},
          {0, 0, 0, 1, 1},
          {0, 0, 0, 1, 1}};
-      Assertions.assertEquals(1, classObj.countDistinctIslands(input));
+      Assertions.assertEquals(1, classObj.countDistinctIslands(input, "dfs"));
+      Assertions.assertEquals(1, classObj.countDistinctIslands(input, "bfs"));
    }
 
    @Test
@@ -24,6 +25,7 @@ public class CountDistinctIslandsTest {
          {1, 0, 0, 0, 0},
          {0, 0, 0, 0, 1},
          {1, 1, 0, 1, 1}};
-      Assertions.assertEquals(3, classObj.countDistinctIslands(input));
+      Assertions.assertEquals(3, classObj.countDistinctIslands(input, "dfs"));
+      Assertions.assertEquals(3, classObj.countDistinctIslands(input, "bfs"));
    }
 }
