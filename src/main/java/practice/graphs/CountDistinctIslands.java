@@ -33,7 +33,7 @@ public class CountDistinctIslands {
    private void dfs(int[][] grid, boolean[][] visited, List<String> island, int baseRow,
       int baseCol, int row, int col) {
       visited[row][col] = true;
-      island.add(toString(Math.abs(baseRow - row), Math.abs(baseCol - col)));
+      island.add(toString(row - baseRow, col - baseCol));
       int[] delRow = {-1, 0, 1, 0};
       int[] delCol = {0, 1, 0, -1};
       for (int i = 0; i < 4; i++) {
@@ -62,12 +62,11 @@ public class CountDistinctIslands {
                && !visited[ro][co] && grid[ro][co] == 1) {
                visited[ro][co] = true;
                queue.add(new Pair(ro, co));
-               island.add(toString(Math.abs(baseRow - ro), Math.abs(baseCol - co)));
+               island.add(toString(ro - baseRow, co - baseCol));
             }
          }
       }
    }
-
 
    private String toString(int r, int c) {
       return r + " " + c;
