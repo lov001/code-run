@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of Distinct Islands using BFS">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/CountDistinctIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CountDistinctIslands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountDistinctIslandsTest">
+  <component name="RunManager" selected="Gradle.BipartiteGraphTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -420,6 +421,102 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BipartiteGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BipartiteGraphTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="CountDistinctIslandsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -445,117 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CountDistinctIslandsTest.test_countDistinctIslands_expect1_whenNoOfDistinctIslandsIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.CountDistinctIslandsTest.test_countDistinctIslands_expect1_whenNoOfDistinctIslandsIs1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CountDistinctIslandsTest.test_countDistinctIslands_expect3_whenNoOfDistinctIslandsIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.CountDistinctIslandsTest.test_countDistinctIslands_expect3_whenNoOfDistinctIslandsIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfEnclavesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfEnclavesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BipartiteGraphTest" />
+      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" />
+      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
+      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" />
       <item itemvalue="Gradle.CountDistinctIslandsTest" />
-      <item itemvalue="Gradle.CountDistinctIslandsTest.test_countDistinctIslands_expect1_whenNoOfDistinctIslandsIs1" />
-      <item itemvalue="Gradle.CountDistinctIslandsTest.test_countDistinctIslands_expect3_whenNoOfDistinctIslandsIs3" />
-      <item itemvalue="Gradle.NumberOfEnclavesTest" />
-      <item itemvalue="Gradle.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BipartiteGraphTest" />
+        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
+        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" />
+        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" />
         <item itemvalue="Gradle.CountDistinctIslandsTest" />
-        <item itemvalue="Gradle.CountDistinctIslandsTest.test_countDistinctIslands_expect3_whenNoOfDistinctIslandsIs3" />
-        <item itemvalue="Gradle.CountDistinctIslandsTest.test_countDistinctIslands_expect1_whenNoOfDistinctIslandsIs1" />
-        <item itemvalue="Gradle.NumberOfEnclavesTest" />
-        <item itemvalue="Gradle.NumberOfEnclavesTest.test_numberOfEnclaves_expect3_whenUsingDFS_" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="378" />
+    <option name="localTasksCounter" value="379" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/sorting-and-searching]: searching in a sorted array without size" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
     <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array using modified binary search" />
     <MESSAGE value="[practice]: BFS graph traversal" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Number of Enclaves using BFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using DFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of Distinct Islands using BFS" />
+    <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2095,6 +2096,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CountDistinctIslands.java</url>
           <line>14</line>
           <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="504" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
