@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Is BipartiteGraph using DFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -553,8 +553,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BipartiteGraphTest" />
-        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
         <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" />
+        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
         <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" />
         <item itemvalue="Gradle.CountDistinctIslandsTest" />
       </list>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="379" />
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array brute force solution" />
-    <MESSAGE value="[practice/sorting-and-searching]: searching in a sparse array using modified binary search" />
     <MESSAGE value="[practice]: BFS graph traversal" />
     <MESSAGE value="[practice]: BFS graph traversal with 0 index approach" />
     <MESSAGE value="[practice]: BFS graph traversal for directed and undirected graph" />
@@ -952,7 +950,9 @@
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using DFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
+    <MESSAGE value="[practice/graph]: Is BipartiteGraph using BFS" />
+    <MESSAGE value="[practice/graph]: Is BipartiteGraph using DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Is BipartiteGraph using DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2104,8 +2104,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
-          <line>18</line>
+          <line>25</line>
           <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="506" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
