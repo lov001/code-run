@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Is BipartiteGraph using DFS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInDirectedGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BipartiteGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BipartiteGraphTest">
+  <component name="RunManager" selected="Gradle.CycleInDirectedGraphTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CycleInDirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle&quot;" />
+            <option value="&quot;practice.graphs.CycleInDirectedGraphTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle&quot;" />
+            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear&quot;" />
+            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CountDistinctIslandsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectTrue_when5Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CountDistinctIslandsTest&quot;" />
+            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectTrue_when5Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BipartiteGraphTest" />
-      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" />
-      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
-      <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" />
-      <item itemvalue="Gradle.CountDistinctIslandsTest" />
+      <item itemvalue="Gradle.CycleInDirectedGraphTest" />
+      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
+      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" />
+      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CycleInDirectedGraphTest" />
+        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" />
+        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
+        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when5Nodes" />
         <item itemvalue="Gradle.BipartiteGraphTest" />
-        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectFalse_whenGraphContainsBigOddCycle" />
-        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphContainsEvenCycle" />
-        <item itemvalue="Gradle.BipartiteGraphTest.test_isBipartite_expectTrue_whenGraphIsLinear" />
-        <item itemvalue="Gradle.CountDistinctIslandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <option name="localTasksCounter" value="381" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2116,6 +2116,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BipartiteGraph.java</url>
           <line>17</line>
           <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="507" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
