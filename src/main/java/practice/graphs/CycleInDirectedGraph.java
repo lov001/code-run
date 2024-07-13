@@ -1,6 +1,8 @@
 package practice.graphs;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class CycleInDirectedGraph {
 
@@ -12,6 +14,14 @@ public class CycleInDirectedGraph {
          for (int i = 0; i < V; i++) {
             if (!visited[i]) {
                if (checkDFS(i, adj, visited, pathVisited)) {
+                  return true;
+               }
+            }
+         }
+      } else {
+         for (int i = 0; i < V; i++) {
+            if (!visited[i]) {
+               if (checkBFS(i, adj, visited)) {
                   return true;
                }
             }
@@ -34,6 +44,24 @@ public class CycleInDirectedGraph {
          }
       }
       pathVisited[src] = false;
+      return false;
+   }
+
+   private boolean checkBFS(int src, List<List<Integer>> adj, boolean[] visited) {
+      Queue<Pair> queue = new LinkedList<>();
+      queue.add(new Pair(src, -1));
+      visited[src] = true;
+      while (!queue.isEmpty()) {
+         Pair node = queue.poll();
+         for (Integer adjacent : adj.get(node.first)) {
+            if (!visited[adjacent]) {
+               visited[adjacent] = true;
+               queue.add(new Pair(adjacent, node.first));
+            } else if (node.second != adjacent && node.second != -1) {
+               return true;
+            }
+         }
+      }
       return false;
    }
 }

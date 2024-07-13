@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Is BipartiteGraph using DFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInDirectedGraphTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: check cycle in a directed graph using DFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInDirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CycleInDirectedGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="381" />
+    <option name="localTasksCounter" value="382" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice]: BFS graph traversal" />
     <MESSAGE value="[practice]: BFS graph traversal with 0 index approach" />
     <MESSAGE value="[practice]: BFS graph traversal for directed and undirected graph" />
     <MESSAGE value="[practice]: DFS graph traversal for undirected graph" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
     <MESSAGE value="[practice/graph]: Is BipartiteGraph using BFS" />
     <MESSAGE value="[practice/graph]: Is BipartiteGraph using DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Is BipartiteGraph using DFS" />
+    <MESSAGE value="[practice/graph]: check cycle in a directed graph using DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: check cycle in a directed graph using DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2119,7 +2119,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
-          <line>24</line>
+          <line>34</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
       </breakpoints>

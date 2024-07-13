@@ -16,7 +16,7 @@ public class CycleInDirectedGraphTest {
       adjacencyList.add(List.of(2));
       adjacencyList.add(List.of(3));
       adjacencyList.add(List.of(3));
-//      Assertions.assertTrue(classObj.isCycle(4, adjacencyList, "BFS"));
+      Assertions.assertTrue(classObj.isCycle(4, adjacencyList, "BFS"));
       Assertions.assertTrue(classObj.isCycle(4, adjacencyList, "DFS"));
    }
 
@@ -26,7 +26,7 @@ public class CycleInDirectedGraphTest {
       adjacencyList.add(List.of(1));
       adjacencyList.add(List.of(2));
       adjacencyList.add(List.of());
-//      Assertions.assertFalse(classObj.isCycle(3, adjacencyList, "BFS"));
+      Assertions.assertFalse(classObj.isCycle(3, adjacencyList, "BFS"));
       Assertions.assertFalse(classObj.isCycle(3, adjacencyList, "DFS"));
    }
 
@@ -43,7 +43,7 @@ public class CycleInDirectedGraphTest {
       adjacencyList.add(List.of(8));
       adjacencyList.add(List.of(9));
       adjacencyList.add(List.of(7));
-//      Assertions.assertTrue(classObj.isCycle(10, adjacencyList, "BFS"));
+      Assertions.assertTrue(classObj.isCycle(10, adjacencyList, "BFS"));
       Assertions.assertTrue(classObj.isCycle(10, adjacencyList, "DFS"));
    }
 }
