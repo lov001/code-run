@@ -5,6 +5,10 @@ import java.util.List;
 
 public class EventualSafeState {
 
+   /*
+      1. Any node which is part of a cycle, cannot be a safe node.
+      2. Any node which leads to a cycle also cannot be a safe node.
+    */
    List<Integer> eventualSafeNodes(int V, List<List<Integer>> adj, String algorithm) {
       List<Integer> safeNodes = new ArrayList<>();
       boolean[] visited = new boolean[V];
