@@ -1,5 +1,6 @@
 package practice.graphs;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -19,13 +20,13 @@ public class CycleInDirectedGraph {
             }
          }
       } else {
+         int[] inDegree = new int[V];
          for (int i = 0; i < V; i++) {
-            if (!visited[i]) {
-               if (checkBFS(i, adj, visited)) {
-                  return true;
-               }
+            for (Integer adjacent : adj.get(i)) {
+               inDegree[adjacent] += 1;
             }
          }
+         return checkBFS(V, adj, inDegree).size() != V;
       }
       return false;
    }
@@ -47,21 +48,24 @@ public class CycleInDirectedGraph {
       return false;
    }
 
-   private boolean checkBFS(int src, List<List<Integer>> adj, boolean[] visited) {
-      Queue<Pair> queue = new LinkedList<>();
-      queue.add(new Pair(src, -1));
-      visited[src] = true;
+   private List<Integer> checkBFS(int V, List<List<Integer>> adj, int[] inDegree) {
+      Queue<Integer> queue = new LinkedList<>();
+      for (int i = 0; i < V; i++) {
+         if (inDegree[i] == 0) {
+            queue.add(i);
+         }
+      }
+      List<Integer> sortedVertices = new ArrayList<>();
       while (!queue.isEmpty()) {
-         Pair node = queue.poll();
-         for (Integer adjacent : adj.get(node.first)) {
-            if (!visited[adjacent]) {
-               visited[adjacent] = true;
-               queue.add(new Pair(adjacent, node.first));
-            } else if (node.second != adjacent && node.second != -1) {
-               return true;
+         int node = queue.poll();
+         sortedVertices.add(node);
+         for (Integer adjacent : adj.get(node)) {
+            inDegree[adjacent] -= 1;
+            if (inDegree[adjacent] == 0) {
+               queue.add(adjacent);
             }
          }
       }
-      return false;
+      return sortedVertices;
    }
 }

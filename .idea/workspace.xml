@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: check cycle in a directed graph using BFS - partially correct">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Topological sort using bfs - Kahn's Algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EventualSafeStateTest">
+  <component name="RunManager" selected="Gradle.CycleInDirectedGraphTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes&quot;" />
+            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KahnAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes&quot;" />
+            <option value="&quot;practice.graphs.KahnAlgorithmTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="EventualSafeStateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.EventualSafeStateTest&quot;" />
+            <option value="&quot;practice.graphs.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize8_whenEventualNodesAre8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize8_whenEventualNodesAre8&quot;" />
+            <option value="&quot;practice.graphs.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +544,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CycleInDirectedGraphTest" />
-      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
-      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" />
-      <item itemvalue="Gradle.EventualSafeStateTest" />
-      <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize8_whenEventualNodesAre8" />
+      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" />
+      <item itemvalue="Gradle.KahnAlgorithmTest" />
+      <item itemvalue="Gradle.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre4" />
+      <item itemvalue="Gradle.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EventualSafeStateTest" />
-        <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize8_whenEventualNodesAre8" />
         <item itemvalue="Gradle.CycleInDirectedGraphTest" />
-        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when10Nodes" />
-        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectFalse_whenOnly4Nodes" />
+        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" />
+        <item itemvalue="Gradle.KahnAlgorithmTest" />
+        <item itemvalue="Gradle.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre4" />
+        <item itemvalue="Gradle.KahnAlgorithmTest.test_topologicalSort_expectSortedNodes_whenActualNodesAre6" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="383" />
+    <option name="localTasksCounter" value="386" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,9 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice]: BFS graph traversal for directed and undirected graph" />
-    <MESSAGE value="[practice]: DFS graph traversal for undirected graph" />
-    <MESSAGE value="[practice/graph]: number of provinces using dfs" />
     <MESSAGE value="[practice/graph]: number of provinces using dfs with input as adjacency matrix" />
     <MESSAGE value="[practice/graph]: added utility method to transform adjacency matrix to adjacency list" />
     <MESSAGE value="[practice/graph]: number of islands" />
@@ -952,7 +948,10 @@
     <MESSAGE value="[practice/graph]: Is BipartiteGraph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using BFS - partially correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: check cycle in a directed graph using BFS - partially correct" />
+    <MESSAGE value="[practice/graph]: Eventual Safe nodes using DFS" />
+    <MESSAGE value="[practice/graph]: Topological sort using DFS" />
+    <MESSAGE value="[practice/graph]: Topological sort using bfs - Kahn's Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Topological sort using bfs - Kahn's Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2119,18 +2118,53 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeState.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java</url>
+          <line>31</line>
           <option name="timeStamp" value="508" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeState.java</url>
-          <line>10</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java</url>
+          <line>14</line>
           <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="513" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="515" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="516" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
