@@ -15,7 +15,8 @@ public class BipartiteGraphTest {
       adjacencyList.add(List.of(1));
       adjacencyList.add(List.of(0, 2));
       adjacencyList.add(List.of(1));
-      Assertions.assertTrue(classObj.isBipartite(3, adjacencyList));
+      Assertions.assertTrue(classObj.isBipartite(3, adjacencyList, "bfs"));
+      Assertions.assertTrue(classObj.isBipartite(3, adjacencyList, "dfs"));
    }
 
    @Test
@@ -25,7 +26,8 @@ public class BipartiteGraphTest {
       adjacencyList.add(List.of(3));
       adjacencyList.add(List.of(0, 3));
       adjacencyList.add(List.of(0, 1, 2));
-      Assertions.assertFalse(classObj.isBipartite(4, adjacencyList));
+      Assertions.assertFalse(classObj.isBipartite(4, adjacencyList, "bfs"));
+      Assertions.assertFalse(classObj.isBipartite(4, adjacencyList, "dfs"));
    }
 
    @Test
@@ -39,7 +41,8 @@ public class BipartiteGraphTest {
       adjacencyList.add(List.of(1, 4));
       adjacencyList.add(List.of(3, 7));
       adjacencyList.add(List.of(6));
-      Assertions.assertFalse(classObj.isBipartite(8, adjacencyList));
+      Assertions.assertFalse(classObj.isBipartite(8, adjacencyList, "bfs"));
+      Assertions.assertFalse(classObj.isBipartite(8, adjacencyList, "dfs"));
    }
 
    @Test
@@ -51,6 +54,7 @@ public class BipartiteGraphTest {
       adjacencyList.add(List.of(2, 4, 5));
       adjacencyList.add(List.of(1, 3));
       adjacencyList.add(List.of(3));
-      Assertions.assertTrue(classObj.isBipartite(6, adjacencyList));
+      Assertions.assertTrue(classObj.isBipartite(6, adjacencyList, "bfs"));
+      Assertions.assertTrue(classObj.isBipartite(6, adjacencyList, "dfs"));
    }
 }
