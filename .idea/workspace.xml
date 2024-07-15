@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Pre-requisite task using topological sort -- Kahn's algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CourseScheduleTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CourseScheduleTest">
+  <component name="RunManager" selected="Gradle.EventualSafeStateTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInDirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EventualSafeStateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInDirectedGraphTest&quot;" />
+            <option value="&quot;practice.graphs.EventualSafeStateTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes&quot;" />
+            <option value="&quot;practice.graphs.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CourseScheduleTest" />
-      <item itemvalue="Gradle.CycleInDirectedGraphTest" />
-      <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" />
+      <item itemvalue="Gradle.EventualSafeStateTest" />
+      <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs" />
       <item itemvalue="Gradle.PreRequisiteTasksTest" />
       <item itemvalue="Gradle.PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EventualSafeStateTest" />
+        <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs" />
         <item itemvalue="Gradle.CourseScheduleTest" />
         <item itemvalue="Gradle.PreRequisiteTasksTest" />
         <item itemvalue="Gradle.PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed" />
-        <item itemvalue="Gradle.CycleInDirectedGraphTest" />
-        <item itemvalue="Gradle.CycleInDirectedGraphTest.test_isCycle_expectTrue_when4Nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="388" />
+    <option name="localTasksCounter" value="389" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: number of islands" />
     <MESSAGE value="[practice/graph]: Flood Fill using BFS" />
     <MESSAGE value="[practice/graph]: Flood Fill using DFS" />
     <MESSAGE value="[practice/graph]: Number of Island using DFS" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Topological sort using bfs - Kahn's Algorithm" />
     <MESSAGE value="[practice/graph]: cycle in directed graph using bfs - Kahn's Algorithm" />
     <MESSAGE value="[practice/graph]: Pre-requisite task using topological sort -- Kahn's algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Pre-requisite task using topological sort -- Kahn's algorithm" />
+    <MESSAGE value="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2128,11 +2128,6 @@
           <option name="timeStamp" value="508" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="509" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/KahnAlgorithmTest.java</url>
           <line>47</line>
           <option name="timeStamp" value="510" />
@@ -2166,6 +2161,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CycleInDirectedGraph.java</url>
           <line>51</line>
           <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="529" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
