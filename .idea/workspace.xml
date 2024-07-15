@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: eventual safe state solution using topological sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/AlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/AlienDictionaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/EventualSafeState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/EventualSafeStateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EventualSafeStateTest">
+  <component name="RunManager" selected="Gradle.AlienDictionaryTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +421,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="AlienDictionaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.AlienDictionaryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlienDictionaryTest.test_findOrder_expectbdac_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.AlienDictionaryTest.test_findOrder_expectbdac_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="CourseScheduleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -494,69 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PreRequisiteTasksTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.PreRequisiteTasksTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.AlienDictionaryTest" />
+      <item itemvalue="Gradle.AlienDictionaryTest.test_findOrder_expectbdac_whenGivenInput" />
       <item itemvalue="Gradle.CourseScheduleTest" />
       <item itemvalue="Gradle.EventualSafeStateTest" />
       <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs" />
-      <item itemvalue="Gradle.PreRequisiteTasksTest" />
-      <item itemvalue="Gradle.PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlienDictionaryTest" />
+        <item itemvalue="Gradle.AlienDictionaryTest.test_findOrder_expectbdac_whenGivenInput" />
         <item itemvalue="Gradle.EventualSafeStateTest" />
         <item itemvalue="Gradle.EventualSafeStateTest.test_eventualSafeNodes_expectListOfSize4_whenEventualNodesAre4AndUsingBfs" />
         <item itemvalue="Gradle.CourseScheduleTest" />
-        <item itemvalue="Gradle.PreRequisiteTasksTest" />
-        <item itemvalue="Gradle.PreRequisiteTasksTest.test_isPossible_expectTrue_whenTasksCanBePerformed" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Flood Fill using BFS" />
     <MESSAGE value="[practice/graph]: Flood Fill using DFS" />
     <MESSAGE value="[practice/graph]: Number of Island using DFS" />
     <MESSAGE value="[practice/graph]: Rotten oranges using DFS" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: cycle in directed graph using bfs - Kahn's Algorithm" />
     <MESSAGE value="[practice/graph]: Pre-requisite task using topological sort -- Kahn's algorithm" />
     <MESSAGE value="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm" />
+    <MESSAGE value="[practice/graph]: eventual safe state solution using topological sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: eventual safe state solution using topological sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
