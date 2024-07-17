@@ -20,21 +20,19 @@ public class ShortestPathInUndirectedGraph {
       int[] distance = new int[n];
       Arrays.fill(distance, Integer.MAX_VALUE);
       distance[src] = 0;
-      Queue<Pair> queue = new LinkedList<>();
-      queue.add(new Pair(src, 0));
-      while (!queue.isEmpty()){
-         Pair pair = queue.poll();
-         int node = pair.first;
-         int wt = pair.second;
-         for(Integer adjacent : adj.get(node)){
-            if(distance[adjacent] > wt + 1){
-               distance[adjacent] = wt + 1;
-               queue.add(new Pair(adjacent, wt + 1));
+      Queue<Integer> queue = new LinkedList<>();
+      queue.add(src);
+      while (!queue.isEmpty()) {
+         int node = queue.poll();
+         for (Integer adjacent : adj.get(node)) {
+            if (distance[adjacent] > distance[node] + 1) {
+               distance[adjacent] = distance[node] + 1;
+               queue.add(adjacent);
             }
          }
       }
-      for(int i=0; i<n; i++){
-         if(distance[i] == Integer.MAX_VALUE){
+      for (int i = 0; i < n; i++) {
+         if (distance[i] == Integer.MAX_VALUE) {
             distance[i] = -1;
          }
       }
