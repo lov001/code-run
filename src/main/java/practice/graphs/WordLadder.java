@@ -1,5 +1,6 @@
 package practice.graphs;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -8,24 +9,19 @@ import java.util.Set;
 public class WordLadder {
 
    public int wordLadderLength(String startWord, String targetWord, String[] wordList) {
-      int count = Integer.MAX_VALUE;
-      boolean isFound = false;
       Set<String> set = new HashSet<>();
-      for (String word : wordList) {
-         set.add(word);
-      }
+      Collections.addAll(set, wordList);
       Queue<WordPair> queue = new LinkedList<>();
       queue.add(new WordPair(startWord, 1));
       while (!queue.isEmpty()) {
          WordPair wordPair = queue.poll();
          set.remove(wordPair.word);
          if (wordPair.word.equalsIgnoreCase(targetWord)) {
-            count = Math.min(count, wordPair.length);
-            isFound = true;
+            return wordPair.length;
          }
          addNextWordTransition(wordPair.word, queue, set, wordPair.length);
       }
-      return isFound ? count : 0;
+      return 0;
    }
 
    private void addNextWordTransition(String word, Queue<WordPair> queue, Set<String> set,
