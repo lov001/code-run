@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/WordLadderTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair using BFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="394" />
+    <option name="localTasksCounter" value="395" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Cycle in an undirected graph using BFS - fixed for multiple components" />
     <MESSAGE value="[practice/graph]: Cycle in an undirected graph using DFS" />
     <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
     <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
@@ -952,7 +950,8 @@
     <MESSAGE value="[practice/graph]: shortest path in a DAG using topological sort" />
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS" />
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
+    <MESSAGE value="[practice/graph]: Word Pair using BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair using BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2204,17 +2203,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>12</line>
+          <line>10</line>
           <option name="timeStamp" value="531" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>19</line>
+          <line>17</line>
           <option name="timeStamp" value="533" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>32</line>
+          <line>29</line>
           <option name="timeStamp" value="534" />
         </line-breakpoint>
       </breakpoints>
