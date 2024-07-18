@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair using BFS">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair using BFS - minor refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/WordLadder2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WordLadderTest">
+  <component name="RunManager" selected="Gradle.WordLadder2Test">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -445,30 +446,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -483,6 +460,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordLadder2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.WordLadder2Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,18 +545,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest" />
-      <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph" />
       <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" />
+      <item itemvalue="Gradle.WordLadder2Test" />
       <item itemvalue="Gradle.WordLadderTest" />
       <item itemvalue="Gradle.WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WordLadder2Test" />
         <item itemvalue="Gradle.WordLadderTest" />
         <item itemvalue="Gradle.WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs" />
         <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest" />
         <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" />
-        <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="395" />
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Cycle in an undirected graph using DFS" />
     <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
     <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
     <MESSAGE value="[practice/graph]: Fill Os with X using BFS approach" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS" />
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair using BFS" />
+    <MESSAGE value="[practice/graph]: Word Pair using BFS - minor refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair using BFS - minor refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
