@@ -1,6 +1,7 @@
 package practice.graphs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -9,12 +10,9 @@ public class DijkstraAlgorithmUsingPQ {
 
    public int[] dijkstra(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj, int S) {
       int[] distance = new int[V];
-      for (int i = 0; i < V; i++) {
-         distance[i] = Integer.MAX_VALUE;
-      }
+      Arrays.fill(distance, Integer.MAX_VALUE);
       distance[S] = 0;
-      Queue<Pair> priorityQueue = new PriorityQueue<>();
-//      Queue<Pair> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(x -> x.second));
+      Queue<Pair> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(x -> x.second));
       priorityQueue.add(new Pair(0, S));
       while (!priorityQueue.isEmpty()) {
          Pair pair = priorityQueue.poll();

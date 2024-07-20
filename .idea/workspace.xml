@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair 2 using BFS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/DijkstraAlgorithmUsingPQTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Shortest Path using Dijkstra's algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -913,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="397" />
+    <option name="localTasksCounter" value="398" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
     <MESSAGE value="[practice/graph]: Fill Os with X using BFS approach" />
     <MESSAGE value="[practice/graph]: Number of Enclaves using DFS" />
     <MESSAGE value="[practice/graph]: Number of Enclaves using BFS" />
@@ -953,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Word Pair using BFS" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS - minor refactoring" />
     <MESSAGE value="[practice/graph]: Word Pair 2 using BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair 2 using BFS" />
+    <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2217,11 +2216,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
           <line>28</line>
           <option name="timeStamp" value="534" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="536" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
