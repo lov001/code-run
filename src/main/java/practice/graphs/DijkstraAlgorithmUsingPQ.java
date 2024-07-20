@@ -8,6 +8,9 @@ import java.util.Queue;
 
 public class DijkstraAlgorithmUsingPQ {
 
+   /*
+   This algorithm is not applicable to graph's with negative weight or negative cycles
+    */
    public int[] dijkstra(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj, int S) {
       int[] distance = new int[V];
       Arrays.fill(distance, Integer.MAX_VALUE);
