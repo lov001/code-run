@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair using BFS - minor refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/WordLadder2Test.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Word Pair 2 using BFS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/DijkstraAlgorithmUsingPQTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WordLadder2Test">
+  <component name="RunManager" selected="Gradle.DijkstraAlgorithmUsingPQTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathInUndirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DijkstraAlgorithmUsingPQTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +436,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.ShortestPathInUndirectedGraphTest&quot;" />
+            <option value="&quot;practice.graphs.DijkstraAlgorithmUsingPQTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +460,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_&quot;" />
+            <option value="&quot;practice.graphs.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,45 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest" />
-      <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" />
+      <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest" />
+      <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph" />
+      <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph_" />
       <item itemvalue="Gradle.WordLadder2Test" />
       <item itemvalue="Gradle.WordLadderTest" />
-      <item itemvalue="Gradle.WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest" />
+        <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph_" />
+        <item itemvalue="Gradle.DijkstraAlgorithmUsingPQTest.test_dijkstra_expect_whenGivenGraph" />
         <item itemvalue="Gradle.WordLadder2Test" />
         <item itemvalue="Gradle.WordLadderTest" />
-        <item itemvalue="Gradle.WordLadderTest.test_wordLadderLength_expect3_whenStartWordIsDerAndEndWordIsDfs" />
-        <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest" />
-        <item itemvalue="Gradle.ShortestPathInUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <option name="localTasksCounter" value="397" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Distance of nearest cell having 1 or 0/1 Matrix BFS solution" />
     <MESSAGE value="[practice/graph]: Fill Os with X using DFS approach" />
     <MESSAGE value="[practice/graph]: Fill Os with X using BFS approach" />
     <MESSAGE value="[practice/graph]: Number of Enclaves using DFS" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS - minor refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair using BFS - minor refactoring" />
+    <MESSAGE value="[practice/graph]: Word Pair 2 using BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Word Pair 2 using BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2204,18 +2205,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="531" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="533" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/WordLadder.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/DijkstraAlgorithmUsingPQ.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="536" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
