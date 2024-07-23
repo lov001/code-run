@@ -3,7 +3,7 @@ package practice.graphs;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ShortestDistanceInVinaryMazeTest {
+public class ShortestDistanceInBinaryMazeTest {
 
    ShortestDistanceInBinaryMaze classObj = new ShortestDistanceInBinaryMaze();
 
