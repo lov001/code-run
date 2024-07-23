@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Shortest Path using Dijkstra's algorithm - print the path">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ShortestDistanceInBinaryMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ShortestDistanceInVinaryMazeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/PathWithMinimumEffort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/PathWithMinimumEffortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/ShortestDistanceInVinaryMazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ShortestDistanceInBinaryMazeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ShortestDistanceInVinaryMazeTest">
+  <component name="RunManager" selected="Gradle.PathWithMinimumEffortTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +422,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="PathWithMinimumEffortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.PathWithMinimumEffortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="ShortestDistanceInVinaryMazeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -494,69 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestPathInWeightedUndirectedGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ShortestPathInWeightedUndirectedGraphTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ShortestPathInWeightedUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ShortestPathInWeightedUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.PathWithMinimumEffortTest" />
+      <item itemvalue="Gradle.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" />
       <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest" />
       <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest.test_shortestPathMinusOne_expect_whenGivenGraph_" />
       <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest.test_shortestPath_expect3_whenGivenGraph" />
-      <item itemvalue="Gradle.ShortestPathInWeightedUndirectedGraphTest" />
-      <item itemvalue="Gradle.ShortestPathInWeightedUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PathWithMinimumEffortTest" />
+        <item itemvalue="Gradle.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" />
         <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest" />
         <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest.test_shortestPathMinusOne_expect_whenGivenGraph_" />
         <item itemvalue="Gradle.ShortestDistanceInVinaryMazeTest.test_shortestPath_expect3_whenGivenGraph" />
-        <item itemvalue="Gradle.ShortestPathInWeightedUndirectedGraphTest" />
-        <item itemvalue="Gradle.ShortestPathInWeightedUndirectedGraphTest.test_shortestPath_expect_whenGivenGraph_1" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <option name="localTasksCounter" value="401" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Number of Enclaves using BFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using DFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS" />
     <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - minor refactoring" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - print the path" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Shortest Path using Dijkstra's algorithm - print the path" />
+    <MESSAGE value="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2241,6 +2242,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ShortestDistanceInBinaryMaze.java</url>
           <line>25</line>
           <option name="timeStamp" value="544" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/PathWithMinimumEffort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/PathWithMinimumEffort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="546" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
