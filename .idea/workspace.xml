@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: cheapest flight within K stops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CheapestFlightsWithinKStopsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: minimum number of multiplications to reach the target">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheapestFlightsWithinKStopsTest">
+  <component name="RunManager" selected="Gradle.NumberOfWaysToArriveAtDestinationTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -446,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect700_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumMultiplicationsToReachEndTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect700_whenGivenGraph&quot;" />
+            <option value="&quot;practice.graphs.MinimumMultiplicationsToReachEndTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect7_whenGivenGraph_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfWaysToArriveAtDestinationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect7_whenGivenGraph_&quot;" />
+            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PathWithMinimumEffortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.PathWithMinimumEffortTest&quot;" />
+            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph&quot;" />
+            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
+      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
+      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
       <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest" />
-      <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect700_whenGivenGraph" />
-      <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect7_whenGivenGraph_" />
-      <item itemvalue="Gradle.PathWithMinimumEffortTest" />
-      <item itemvalue="Gradle.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" />
+      <item itemvalue="Gradle.MinimumMultiplicationsToReachEndTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
+        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
+        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
+        <item itemvalue="Gradle.MinimumMultiplicationsToReachEndTest" />
         <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest" />
-        <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect7_whenGivenGraph_" />
-        <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest.test_cheapestFlight_expect700_whenGivenGraph" />
-        <item itemvalue="Gradle.PathWithMinimumEffortTest" />
-        <item itemvalue="Gradle.PathWithMinimumEffortTest.test_minimumEffort_expect2_whenGivenGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <option name="localTasksCounter" value="404" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Number of Distinct Islands using BFS - fixed absolute value issue" />
     <MESSAGE value="[practice/graph]: Is BipartiteGraph using BFS" />
     <MESSAGE value="[practice/graph]: Is BipartiteGraph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using DFS" />
@@ -952,7 +950,8 @@
     <MESSAGE value="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order" />
     <MESSAGE value="[practice/graph]: Path with minimum effort using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: cheapest flight within K stops" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: cheapest flight within K stops" />
+    <MESSAGE value="[practice/graph]: minimum number of multiplications to reach the target" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: minimum number of multiplications to reach the target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2261,6 +2260,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CheapestFlightsWithinKStops.java</url>
           <line>24</line>
           <option name="timeStamp" value="548" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="550" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
