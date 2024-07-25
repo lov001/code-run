@@ -12,9 +12,9 @@ public class NumberOfWaysToArriveAtDestination {
       for (int i = 0; i < n; i++) {
          adj.add(new ArrayList<>());
       }
-      for (int i = 0; i < roads.size(); i++) {
-         adj.get(roads.get(i).get(0)).add(new Pair(roads.get(i).get(1), roads.get(i).get(2)));
-         adj.get(roads.get(i).get(1)).add(new Pair(roads.get(i).get(0), roads.get(i).get(2)));
+      for (List<Integer> road : roads) {
+         adj.get(road.get(0)).add(new Pair(road.get(1), road.get(2)));
+         adj.get(road.get(1)).add(new Pair(road.get(0), road.get(2)));
       }
       long[] distance = new long[n];
       int[] noOfWays = new int[n];
@@ -46,7 +46,7 @@ public class NumberOfWaysToArriveAtDestination {
       return noOfWays[n - 1] % mod;
    }
 
-   class Pair {
+   static class Pair {
 
       int node;
       long distance;
