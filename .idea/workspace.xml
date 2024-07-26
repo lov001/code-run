@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: minimum number of multiplications to reach the target">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BellmanFordAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BellmanFordAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberOfWaysToArriveAtDestinationTest">
+  <component name="RunManager" selected="Gradle.BellmanFordAlgorithmTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheapestFlightsWithinKStopsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BellmanFordAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.CheapestFlightsWithinKStopsTest&quot;" />
+            <option value="&quot;practice.graphs.BellmanFordAlgorithmTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -445,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumMultiplicationsToReachEndTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -458,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.MinimumMultiplicationsToReachEndTest&quot;" />
+            <option value="&quot;practice.graphs.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
+      <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
       <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
       <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
       <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
-      <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest" />
-      <item itemvalue="Gradle.MinimumMultiplicationsToReachEndTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
+        <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
         <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
         <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
         <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
-        <item itemvalue="Gradle.MinimumMultiplicationsToReachEndTest" />
-        <item itemvalue="Gradle.CheapestFlightsWithinKStopsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="404" />
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,8 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Is BipartiteGraph using BFS" />
-    <MESSAGE value="[practice/graph]: Is BipartiteGraph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using BFS - partially correct" />
     <MESSAGE value="[practice/graph]: Eventual Safe nodes using DFS" />
@@ -951,7 +950,9 @@
     <MESSAGE value="[practice/graph]: Path with minimum effort using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: cheapest flight within K stops" />
     <MESSAGE value="[practice/graph]: minimum number of multiplications to reach the target" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: minimum number of multiplications to reach the target" />
+    <MESSAGE value="[practice/graph]: number of ways to arrive at a destination modified for larger values" />
+    <MESSAGE value="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2265,6 +2266,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfWaysToArriveAtDestination.java</url>
           <line>45</line>
           <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BellmanFordAlgorithm.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="551" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
