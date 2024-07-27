@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/BellmanFordAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/BellmanFordAlgorithmTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: bellman ford algorithm">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/FloydWarshalAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/FloydWarshalAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BellmanFordAlgorithmTest">
+  <component name="RunManager" selected="Gradle.FloydWarshalAlgorithmTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,6 +470,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FloydWarshalAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.FloydWarshalAlgorithmTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="NumberOfWaysToArriveAtDestinationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -484,30 +508,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -546,17 +546,17 @@
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
       <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
+      <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
       <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
-      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
       <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
         <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
         <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
         <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
         <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
-        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect4_whenNumberOfIntersectionsIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <option name="localTasksCounter" value="407" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: check cycle in a directed graph using DFS" />
     <MESSAGE value="[practice/graph]: check cycle in a directed graph using BFS - partially correct" />
     <MESSAGE value="[practice/graph]: Eventual Safe nodes using DFS" />
     <MESSAGE value="[practice/graph]: Topological sort using DFS" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: minimum number of multiplications to reach the target" />
     <MESSAGE value="[practice/graph]: number of ways to arrive at a destination modified for larger values" />
     <MESSAGE value="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values" />
+    <MESSAGE value="[practice/graph]: bellman ford algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: bellman ford algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
