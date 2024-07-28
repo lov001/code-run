@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: bellman ford algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/FloydWarshalAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/FloydWarshalAlgorithmTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: floyd warshal algorithm">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/CityWithMinimumNeighbors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/CityWithMinimumNeighborsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FloydWarshalAlgorithmTest">
+  <component name="RunManager" selected="Gradle.CityWithMinimumNeighborsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,6 +470,54 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="CityWithMinimumNeighborsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.CityWithMinimumNeighborsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="FloydWarshalAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -494,69 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfWaysToArriveAtDestinationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
       <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
+      <item itemvalue="Gradle.CityWithMinimumNeighborsTest" />
+      <item itemvalue="Gradle.CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4" />
       <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
-      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
-      <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CityWithMinimumNeighborsTest" />
+        <item itemvalue="Gradle.CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4" />
         <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
         <item itemvalue="Gradle.BellmanFordAlgorithmTest" />
         <item itemvalue="Gradle.BellmanFordAlgorithmTest.test_bellmanFord_expect1And6And0_whenGraphHasThreeNodes" />
-        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest" />
-        <item itemvalue="Gradle.NumberOfWaysToArriveAtDestinationTest.test_countPaths_expect5_whenNumberOfIntersectionsIs9" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="407" />
+    <option name="localTasksCounter" value="408" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: check cycle in a directed graph using BFS - partially correct" />
     <MESSAGE value="[practice/graph]: Eventual Safe nodes using DFS" />
     <MESSAGE value="[practice/graph]: Topological sort using DFS" />
     <MESSAGE value="[practice/graph]: Topological sort using bfs - Kahn's Algorithm" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: number of ways to arrive at a destination modified for larger values" />
     <MESSAGE value="[practice/graph]: code refactoring - number of ways to arrive at a destination modified for larger values" />
     <MESSAGE value="[practice/graph]: bellman ford algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: bellman ford algorithm" />
+    <MESSAGE value="[practice/graph]: floyd warshal algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: floyd warshal algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2271,6 +2271,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/BellmanFordAlgorithm.java</url>
           <line>11</line>
           <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CityWithMinimumNeighbors.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/CityWithMinimumNeighbors.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="553" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
