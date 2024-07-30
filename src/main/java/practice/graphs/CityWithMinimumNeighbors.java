@@ -32,8 +32,8 @@ public class CityWithMinimumNeighbors {
       }
       int city = -1;
       int minCount = distanceThreshold + 1;
-      int count = 0;
       for (int i = 0; i < n; i++) {
+         int count = 0;
          for (int j = 0; j < n; j++) {
             if (matrix[i][j] <= distanceThreshold) {
                count++;
@@ -45,8 +45,11 @@ public class CityWithMinimumNeighbors {
          } else if (count == minCount) {
             city = Math.max(city, i);
          }
-         count = 0;
       }
       return city;
+   }
+
+   public int findCityUsingDijkstra(int n, int m, int[][] edges, int distanceThreshold) {
+      return -1;
    }
 }
