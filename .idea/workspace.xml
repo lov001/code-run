@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: minimum spanning tree using Prim's algorithm">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: minimum spanning tree using Prim's algorithm updated code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/PrimsAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/PrimsAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/PrimsAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/PrimsAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PrimsAlgorithmTest">
+  <component name="RunManager" selected="Gradle.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -469,30 +469,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FloydWarshalAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.FloydWarshalAlgorithmTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="PrimsAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -541,21 +517,45 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CityWithMinimumNeighborsTest" />
       <item itemvalue="Gradle.CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4" />
-      <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
       <item itemvalue="Gradle.PrimsAlgorithmTest" />
       <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
+      <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PrimsAlgorithmTest" />
+        <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" />
         <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
+        <item itemvalue="Gradle.PrimsAlgorithmTest" />
         <item itemvalue="Gradle.CityWithMinimumNeighborsTest" />
         <item itemvalue="Gradle.CityWithMinimumNeighborsTest.test_findCity_expect3_whenNIs4" />
-        <item itemvalue="Gradle.FloydWarshalAlgorithmTest" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: cycle in directed graph using bfs - Kahn's Algorithm" />
     <MESSAGE value="[practice/graph]: Pre-requisite task using topological sort -- Kahn's algorithm" />
     <MESSAGE value="[practice/graph]: Course Schedule using topological sort -- Kahn's algorithm" />
     <MESSAGE value="[practice/graph]: eventual safe state solution using topological sort" />
@@ -951,7 +950,8 @@
     <MESSAGE value="[practice/graph]: city with minimum neighbors using floyd warshal algorithm" />
     <MESSAGE value="[practice/graph]: city with minimum neighbors using dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: minimum spanning tree using Prim's algorithm" />
+    <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2283,7 +2283,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/PrimsAlgorithm.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="554" />
         </line-breakpoint>
       </breakpoints>
