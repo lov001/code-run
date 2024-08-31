@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Disjoint set implementation with union by size">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/KruskalAlgorithm.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/KruskalAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DisjointSetTest">
+  <component name="RunManager" selected="Gradle.KruskalAlgorithmTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -436,30 +435,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.DisjointSetTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DisjointSetTest.test_unionByRank_expectDisJoinSet_WhenGraphIsNotConnected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.DisjointSetTest.test_unionByRank_expectDisJoinSet_WhenGraphIsNotConnected&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KruskalAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +506,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1&quot;" />
+            <option value="&quot;practice.graphs.KruskalAlgorithmTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +544,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.DisjointSetTest" />
-      <item itemvalue="Gradle.DisjointSetTest.test_unionByRank_expectDisJoinSet_WhenGraphIsNotConnected" />
       <item itemvalue="Gradle.DisjointSetTest.test_unionByRank_expectParentToBeEqual_WhenGraphIsConnected" />
       <item itemvalue="Gradle.DisjointSetTest.test_unionBySize_expectParentToBeUnequal_WhenGraphIsNotConnected" />
-      <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" />
+      <item itemvalue="Gradle.KruskalAlgorithmTest" />
+      <item itemvalue="Gradle.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KruskalAlgorithmTest" />
+        <item itemvalue="Gradle.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
         <item itemvalue="Gradle.DisjointSetTest" />
         <item itemvalue="Gradle.DisjointSetTest.test_unionBySize_expectParentToBeUnequal_WhenGraphIsNotConnected" />
         <item itemvalue="Gradle.DisjointSetTest.test_unionByRank_expectParentToBeEqual_WhenGraphIsConnected" />
-        <item itemvalue="Gradle.DisjointSetTest.test_unionByRank_expectDisJoinSet_WhenGraphIsNotConnected" />
-        <item itemvalue="Gradle.PrimsAlgorithmTest.test_spanningTree_expect5_whenNIs2AndVIs1" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="415" />
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: alien dictionary solution using topological sort" />
     <MESSAGE value="[practice/graph]: shortest path in a DAG using topological sort" />
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS" />
     <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
@@ -952,7 +950,8 @@
     <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code with proper input tests" />
     <MESSAGE value="[practice/graph]: Disjoint set implementation with union by rank" />
     <MESSAGE value="[practice/graph]: Disjoint set implementation with union by size" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Disjoint set implementation with union by size" />
+    <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
