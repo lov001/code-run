@@ -53,4 +53,20 @@ public class NumberOfProvinces {
          }
       }
    }
+
+   public int numberOfProvincesUsingDisJointSet(int V, List<List<Integer>> adjacencyMatrix) {
+      DisjointSet disjointSet = new DisjointSet(V);
+      for (int i = 0; i < adjacencyMatrix.size(); i++) {
+         for (int j = 0; j < adjacencyMatrix.get(i).size(); j++) {
+            disjointSet.unionBySize(i, j);
+         }
+      }
+      int numberOfProvinces = 0;
+      for (int i = 0; i < disjointSet.parent.size(); i++) {
+         if (i == disjointSet.parent.get(i)) {
+            numberOfProvinces++;
+         }
+      }
+      return numberOfProvinces - 1;
+   }
 }
