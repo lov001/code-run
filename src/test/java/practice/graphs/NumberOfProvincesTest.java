@@ -78,4 +78,35 @@ public class NumberOfProvincesTest {
       adjacencyList.add(List.of(0, 0, 0, 0, 0, 0, 1, 1));
       Assertions.assertEquals(3, classObj.numberOfProvincesUpdated(8, adjacencyList));
    }
+
+   @Test
+   void test_numberOfProvincesUsingDisJointSet_expect2_whenNumberOfNodesAre3() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 0, 1));
+      adjacencyList.add(List.of(0, 1, 0));
+      adjacencyList.add(List.of(1, 0, 1));
+      Assertions.assertEquals(2, classObj.numberOfProvincesUsingDisJointSet(3, adjacencyList));
+   }
+
+   @Test
+   void test_numberOfProvincesUsingDisJointSet_expect1_whenNumberOfNodesAre2() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 1));
+      adjacencyList.add(List.of(1, 1));
+      Assertions.assertEquals(1, classObj.numberOfProvincesUsingDisJointSet(2, adjacencyList));
+   }
+
+   @Test
+   void test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8() {
+      List<List<Integer>> adjacencyList = new ArrayList<>();
+      adjacencyList.add(List.of(1, 1, 0, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(1, 1, 1, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(0, 1, 1, 0, 0, 0, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 1, 1, 0, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 1, 1, 1, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 0, 1, 1, 0, 0));
+      adjacencyList.add(List.of(0, 0, 0, 0, 0, 0, 1, 1));
+      adjacencyList.add(List.of(0, 0, 0, 0, 0, 0, 1, 1));
+      Assertions.assertEquals(3, classObj.numberOfProvincesUsingDisJointSet(8, adjacencyList));
+   }
 }
