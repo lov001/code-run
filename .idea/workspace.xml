@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of provinces using Disjoint set method">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ConnectingTheGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfProvinces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfProvincesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfProvincesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8">
+  <component name="RunManager" selected="Gradle.ConnectingTheGraphTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalAlgorithmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConnectingTheGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.KruskalAlgorithmTest&quot;" />
+            <option value="&quot;practice.graphs.ConnectingTheGraphTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3&quot;" />
+            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect1_whenNumberOfNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect1_whenNumberOfNodesAre2&quot;" />
+            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect2_whenNumberOfNodesAre3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect2_whenNumberOfNodesAre3&quot;" />
+            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.KruskalAlgorithmTest" />
-      <item itemvalue="Gradle.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect1_whenNumberOfNodesAre2" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect2_whenNumberOfNodesAre3" />
+      <item itemvalue="Gradle.ConnectingTheGraphTest" />
+      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" />
+      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
+      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
       <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConnectingTheGraphTest" />
+        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
+        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
+        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" />
         <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect1_whenNumberOfNodesAre2" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect2_whenNumberOfNodesAre3" />
-        <item itemvalue="Gradle.KruskalAlgorithmTest" />
-        <item itemvalue="Gradle.KruskalAlgorithmTest.test_spanningTree_expect4_whenNIs3AndVIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: shortest path in a undirected graph using BFS removed pair logic" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS" />
     <MESSAGE value="[practice/graph]: Word Pair using BFS - minor refactoring" />
     <MESSAGE value="[practice/graph]: Word Pair 2 using BFS" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm" />
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm added tests" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of provinces using Disjoint set method" />
+    <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2296,6 +2296,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/DisjointSet.java</url>
           <line>47</line>
           <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="563" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
