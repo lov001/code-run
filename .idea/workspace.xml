@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/ConnectingTheGraphTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Merging accounts using Disjoint set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +401,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConnectingTheGraphTest">
+  <component name="RunManager" selected="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -436,30 +435,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.ConnectingTheGraphTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +506,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8&quot;" />
+            <option value="&quot;practice.graphs.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergingDetailsTest.test_mergeDetails_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.MergingDetailsTest.test_mergeDetails_expect_when&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +544,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ConnectingTheGraphTest" />
-      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" />
       <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
       <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
-      <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8" />
+      <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" />
+      <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expect_when" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" />
+        <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expect_when" />
         <item itemvalue="Gradle.ConnectingTheGraphTest" />
         <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
         <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
-        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect1_whenNumberOfVerticesIs4AndEdgesIs3" />
-        <item itemvalue="Gradle.NumberOfProvincesTest.test_numberOfProvincesUsingDisJointSet_expect3_whenNumberOfNodesAre8" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Word Pair using BFS" />
-    <MESSAGE value="[practice/graph]: Word Pair using BFS - minor refactoring" />
     <MESSAGE value="[practice/graph]: Word Pair 2 using BFS" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - minor refactoring" />
@@ -952,7 +949,9 @@
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm added tests" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
+    <MESSAGE value="[practice/graph]: Connecting the graph with minimum number of extra edges using disjoint set" />
+    <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Merging accounts using Disjoint set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2311,6 +2310,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/ConnectingTheGraph.java</url>
           <line>22</line>
           <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="564" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
