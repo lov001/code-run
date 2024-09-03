@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 public class MergingDetails {
 
@@ -26,13 +25,12 @@ public class MergingDetails {
       for (int i = 0; i < details.size(); i++) {
          mergedEmails.add(new ArrayList<>());
       }
-      for (Entry<String, Integer> entry : emailMap.entrySet()) {
-         String email = entry.getKey();
-         int index = ds.findUltimateParent(entry.getValue());
+      emailMap.forEach((email, value) -> {
+         int index = ds.findUltimateParent(value);
          List<String> addedEmails = mergedEmails.get(index);
          addedEmails.add(email);
          mergedEmails.add(addedEmails);
-      }
+      });
       List<List<String>> output = new ArrayList<>();
       for (int i = 0; i < details.size(); i++) {
          if (mergedEmails.get(i).size() == 0) {
