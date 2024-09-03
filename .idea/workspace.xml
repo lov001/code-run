@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Merging accounts using Disjoint set">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Merging accounts using Disjoint set - refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" afterDir="false" />
     </list>
@@ -911,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="421" />
+    <option name="localTasksCounter" value="422" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Word Pair 2 using BFS" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - minor refactoring" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - print the path" />
@@ -951,7 +950,8 @@
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
     <MESSAGE value="[practice/graph]: Connecting the graph with minimum number of extra edges using disjoint set" />
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Merging accounts using Disjoint set" />
+    <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Merging accounts using Disjoint set - refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2313,7 +2313,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="564" />
         </line-breakpoint>
       </breakpoints>

@@ -15,7 +15,7 @@ public class MergingDetails {
          for (int j = 1; j < details.get(i).size(); j++) {
             String emailId = details.get(i).get(j);
             if (emailMap.containsKey(emailId)) {
-               ds.unionBySize(i, emailMap.get(emailId));
+               ds.unionBySize(emailMap.get(emailId), i);
             } else {
                emailMap.put(emailId, i);
             }
