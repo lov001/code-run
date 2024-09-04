@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Merging accounts using Disjoint set - refactoring">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: Merging accounts using Disjoint set - fixing failing test cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/NumberOfIslands2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput">
+  <component name="RunManager" selected="Gradle.NumberOfIslands2Test">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectingTheGraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslands2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.ConnectingTheGraphTest&quot;" />
+            <option value="&quot;practice.graphs.NumberOfIslands2Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -445,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslands2Test.test_numberOfIslands_expect2_whenNumberOfIslandsAre1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -458,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5&quot;" />
+            <option value="&quot;practice.graphs.NumberOfIslands2Test.test_numberOfIslands_expect2_whenNumberOfIslandsAre1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -469,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre15" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3&quot;" />
+            <option value="&quot;practice.graphs.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre15&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -493,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -506,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput&quot;" />
+            <option value="&quot;practice.graphs.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -517,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergingDetailsTest.test_mergeDetails_expect_when" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslands2Test.test_numberOfIslands_expectMaxIslandsAs2_whenNumberOfNodesAre8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -530,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.graphs.MergingDetailsTest.test_mergeDetails_expect_when&quot;" />
+            <option value="&quot;practice.graphs.NumberOfIslands2Test.test_numberOfIslands_expectMaxIslandsAs2_whenNumberOfNodesAre8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ConnectingTheGraphTest" />
-      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
-      <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
-      <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" />
-      <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expect_when" />
+      <item itemvalue="Gradle.NumberOfIslands2Test" />
+      <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect2_whenNumberOfIslandsAre1" />
+      <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre15" />
+      <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre8" />
+      <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expectMaxIslandsAs2_whenNumberOfNodesAre8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expectOutputOfSize5_whenGivenInput" />
-        <item itemvalue="Gradle.MergingDetailsTest.test_mergeDetails_expect_when" />
-        <item itemvalue="Gradle.ConnectingTheGraphTest" />
-        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expectMinusOne_whenNumberOfVerticesIs10AndEdgesIs3" />
-        <item itemvalue="Gradle.ConnectingTheGraphTest.test_connect_expect2_whenNumberOfVerticesIs6AndEdgesIs5" />
+        <item itemvalue="Gradle.NumberOfIslands2Test" />
+        <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expectMaxIslandsAs2_whenNumberOfNodesAre8" />
+        <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre15" />
+        <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect3_whenNumberOfNodesAre8" />
+        <item itemvalue="Gradle.NumberOfIslands2Test.test_numberOfIslands_expect2_whenNumberOfIslandsAre1" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="422" />
+    <option name="localTasksCounter" value="423" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - minor refactoring" />
     <MESSAGE value="[practice/graph]: Shortest Path using Dijkstra's algorithm - print the path" />
     <MESSAGE value="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Connecting the graph with minimum number of extra edges using disjoint set" />
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set" />
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Merging accounts using Disjoint set - refactoring" />
+    <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - fixing failing test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: Merging accounts using Disjoint set - fixing failing test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2315,6 +2316,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/MergingDetails.java</url>
           <line>44</line>
           <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/graphs/NumberOfIslands2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="575" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
