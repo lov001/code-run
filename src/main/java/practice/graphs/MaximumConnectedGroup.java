@@ -6,7 +6,6 @@ import java.util.Set;
 public class MaximumConnectedGroup {
 
    public int maxConnection(int[][] grid) {
-
       if (grid == null) {
          return 0;
       }
@@ -18,7 +17,6 @@ public class MaximumConnectedGroup {
       int[] delCol = {0, 1, 0, -1};
       for (int i = 0; i < rows; i++) {
          for (int j = 0; j < columns; j++) {
-
             if (visited[i][j] != 1 && grid[i][j] == 1) {
                visited[i][j] = 1;
                for (int k = 0; k < 4; k++) {
@@ -58,7 +56,7 @@ public class MaximumConnectedGroup {
             }
          }
       }
-      return maxConnectedGroupSize;
+      return maxConnectedGroupSize > 0 ? maxConnectedGroupSize : rows * columns;
    }
 
    private boolean isValidNeighbor(int nRow, int nCol, int rows, int cols) {

@@ -7,9 +7,22 @@ public class MaxConnectedGroupTest {
 
    MaximumConnectedGroup classObj = new MaximumConnectedGroup();
 
+
+   @Test
+   void test_maxConnection_expect1_whenSingleCellGrid() {
+      int[][] grid = {{1}};
+      Assertions.assertEquals(1, classObj.maxConnection(grid));
+   }
+
    @Test
    void test_maxConnection_expect4_when2x2Grid() {
       int[][] grid = {{1, 1}, {0, 1}};
+      Assertions.assertEquals(4, classObj.maxConnection(grid));
+   }
+
+   @Test
+   void test_maxConnection_expect4_when2x2GridWithAll1s() {
+      int[][] grid = {{1, 1}, {1, 1}};
       Assertions.assertEquals(4, classObj.maxConnection(grid));
    }
 
