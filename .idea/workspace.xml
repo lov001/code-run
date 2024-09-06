@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: maximum connected group by using disjoint set">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: maximum connected group by using disjoint set - fixed corner cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/MaximumStoneRemoval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/MaximumStoneRemovalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/MaximumConnectedGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/MaximumConnectedGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/graphs/MaxConnectedGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/graphs/MaxConnectedGroupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxConnectedGroupTest.test_maxConnection_expect4_when2x2GridWithAll1s">
+  <component name="RunManager" selected="Gradle.MaximumStoneRemovalTest.test_maxRemove_expect5_whenNIs6">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -436,30 +436,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.graphs.MaxConnectedGroupTest.test_maxConnection_expect1_whenSingleCellGrid&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxConnectedGroupTest.test_maxConnection_expect20_when5x4Grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.MaxConnectedGroupTest.test_maxConnection_expect20_when5x4Grid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,21 +518,45 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="MaximumStoneRemovalTest.test_maxRemove_expect5_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.graphs.MaximumStoneRemovalTest.test_maxRemove_expect5_whenNIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect1_whenSingleCellGrid" />
-      <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect20_when5x4Grid" />
       <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect4_when2x2Grid" />
       <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect4_when2x2GridWithAll1s" />
       <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect7_when3x3Grid" />
+      <item itemvalue="Gradle.MaximumStoneRemovalTest.test_maxRemove_expect5_whenNIs6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumStoneRemovalTest.test_maxRemove_expect5_whenNIs6" />
         <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect4_when2x2GridWithAll1s" />
         <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect1_whenSingleCellGrid" />
         <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect7_when3x3Grid" />
         <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect4_when2x2Grid" />
-        <item itemvalue="Gradle.MaxConnectedGroupTest.test_maxConnection_expect20_when5x4Grid" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Shortest distance in a binary maze using Dijkstra's algorithm but with normal queue since all the distances are at unit level distance and already in sorted order" />
     <MESSAGE value="[practice/graph]: Path with minimum effort using Dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: cheapest flight within K stops" />
     <MESSAGE value="[practice/graph]: minimum number of multiplications to reach the target" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - fixing failing test cases" />
     <MESSAGE value="[practice/graph]: number of islands by adding dynamically using disjoint set" />
     <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: maximum connected group by using disjoint set" />
+    <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set - fixed corner cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/graph]: maximum connected group by using disjoint set - fixed corner cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
