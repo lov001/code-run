@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/graph]: critical connections in a graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/ArticulationPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/FibonacciNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,6 +321,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/dynamic-programming" />
+                    <option name="lastUsedInstant" value="1725934278" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/graph" />
                     <option name="lastUsedInstant" value="1720102157" />
                   </RecentBranch>
@@ -334,10 +339,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/bit-manipulation" />
                     <option name="lastUsedInstant" value="1714829216" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="trees-and-graphs" />
-                    <option name="lastUsedInstant" value="1712641532" />
                   </RecentBranch>
                 </list>
               </option>
