@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: fibonacci number using tabulation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetsWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -395,14 +395,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
-      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubsetsTest.test_subsets_expectOutputOfSize8_WhenInputSizeIs3">
+  <component name="RunManager" selected="Gradle.SubsetsWithSumTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,78 +421,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="CriticalConnectionsTest.test_criticalConnections_expect2Bridges_whenGivenGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.graphs.CriticalConnectionsTest.test_criticalConnections_expect2Bridges_whenGivenGraph&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FibonacciNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.FibonacciNumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FibonacciNumberTest.test_fib_expect3_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.FibonacciNumberTest.test_fib_expect3_whenNIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="SubsetsTest.test_subsets_expectOutputOfSize2_WhenInputSizeIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -542,21 +470,93 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SubsetsWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetsWithSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10_&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.FibonacciNumberTest" />
-      <item itemvalue="Gradle.FibonacciNumberTest.test_fib_expect3_whenNIs4" />
       <item itemvalue="Gradle.SubsetsTest.test_subsets_expectOutputOfSize2_WhenInputSizeIs1" />
       <item itemvalue="Gradle.SubsetsTest.test_subsets_expectOutputOfSize8_WhenInputSizeIs3" />
-      <item itemvalue="Gradle.CriticalConnectionsTest.test_criticalConnections_expect2Bridges_whenGivenGraph" />
+      <item itemvalue="Gradle.SubsetsWithSumTest" />
+      <item itemvalue="Gradle.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10" />
+      <item itemvalue="Gradle.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubsetsWithSumTest" />
+        <item itemvalue="Gradle.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10_" />
+        <item itemvalue="Gradle.SubsetsWithSumTest.test_subsetsWithSum_expectOutputOfSize3_WhenSumIs10" />
         <item itemvalue="Gradle.SubsetsTest.test_subsets_expectOutputOfSize8_WhenInputSizeIs3" />
         <item itemvalue="Gradle.SubsetsTest.test_subsets_expectOutputOfSize2_WhenInputSizeIs1" />
-        <item itemvalue="Gradle.FibonacciNumberTest" />
-        <item itemvalue="Gradle.FibonacciNumberTest.test_fib_expect3_whenNIs4" />
-        <item itemvalue="Gradle.CriticalConnectionsTest.test_criticalConnections_expect2Bridges_whenGivenGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <option name="localTasksCounter" value="433" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: floyd warshal algorithm" />
     <MESSAGE value="[practice/graph]: city with minimum neighbors using floyd warshal algorithm" />
     <MESSAGE value="[practice/graph]: city with minimum neighbors using dijkstra's algorithm" />
     <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: fibonacci number using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2376,6 +2376,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Subsets.java</url>
           <line>9</line>
           <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="600" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
