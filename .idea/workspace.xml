@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: finding all subsets of an array with given sum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ClimbingStairsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: Frog jump by 1 or 2 steps">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ClimbingStairsTest">
+  <component name="RunManager" selected="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CombinationSumTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ClimbingStairsTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ClimbingStairsTest.test_climbStairs_expect2_whenNIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ClimbingStairsTest.test_climbStairs_expect2_whenNIs0&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ClimbingStairsTest.test_climbStairs_expect2_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FrogJumpTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ClimbingStairsTest.test_climbStairs_expect2_whenNIs2&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.FrogJumpTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -494,69 +494,35 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ClimbingStairsTest.test_climbStairs_expect3_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ClimbingStairsTest.test_climbStairs_expect3_whenNIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ClimbingStairsTest.test_climbStairs_expect3_whenNIs44" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ClimbingStairsTest.test_climbStairs_expect3_whenNIs44&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.ClimbingStairsTest" />
-      <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect2_whenNIs0" />
-      <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect2_whenNIs2" />
-      <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect3_whenNIs3" />
-      <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect3_whenNIs44" />
+      <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs7" />
+      <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" />
+      <item itemvalue="Gradle.FrogJumpTest" />
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Java Scratch.Scratch (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ClimbingStairsTest" />
-        <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect2_whenNIs2" />
-        <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect3_whenNIs44" />
-        <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect2_whenNIs0" />
-        <item itemvalue="Gradle.ClimbingStairsTest.test_climbStairs_expect3_whenNIs3" />
+        <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" />
+        <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs7" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Gradle.FrogJumpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +878,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="434" />
+    <option name="localTasksCounter" value="436" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +893,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: city with minimum neighbors using dijkstra's algorithm" />
-    <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm" />
     <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code" />
     <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code with proper input tests" />
     <MESSAGE value="[practice/graph]: Disjoint set implementation with union by rank" />
@@ -952,7 +916,9 @@
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion" />
     <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array with given sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: finding all subsets of an array with given sum" />
+    <MESSAGE value="[practice/dynamic-programming]: climbing stairs with a jump of 1 or 2" />
+    <MESSAGE value="[practice/dynamic-programming]: Frog jump by 1 or 2 steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: Frog jump by 1 or 2 steps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2396,6 +2362,46 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetsWithSumTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/FrogJump.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CombinationSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="617" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
