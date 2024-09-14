@@ -5,9 +5,9 @@ import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CombinationSumTest {
+public class CombinationSumWithDuplicatesTest {
 
-   CombinationSum classObj = new CombinationSum();
+   CombinationSumWithDuplicates classObj = new CombinationSumWithDuplicates();
 
    @Test
    void test_combinationSum_expectOutputOfSize2_WhenTargetIs7() {
