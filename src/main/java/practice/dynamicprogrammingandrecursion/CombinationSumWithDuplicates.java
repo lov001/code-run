@@ -3,7 +3,7 @@ package practice.dynamicprogrammingandrecursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CombinationSum {
+public class CombinationSumWithDuplicates {
 
    public List<List<Integer>> combinationSum(int[] candidates, int target) {
       List<List<Integer>> output = new ArrayList<>();
@@ -13,18 +13,19 @@ public class CombinationSum {
 
    private void helper(int index, int target, List<Integer> list, int[] candidates,
       List<List<Integer>> output) {
-      if (target < 0 || index >= candidates.length) {
+      if (index == candidates.length) {
+         if (target == 0) {
+            List<Integer> temp = new ArrayList<>(list);
+            output.add(temp);
+         }
          return;
       }
-      if (index == candidates.length - 1 && target == 0) {
-         List<Integer> temp = new ArrayList<>(list);
-         output.add(temp);
-         return;
+      if (candidates[index] <= target) {
+         // Pick current index element
+         list.add(candidates[index]);
+         helper(index, target - candidates[index], list, candidates, output);
+         list.remove(list.size() - 1);
       }
-      // Pick current index element
-      list.add(candidates[index]);
-      helper(index, target - candidates[index], list, candidates, output);
-      list.remove(list.size() - 1);
       // Don't pick current index element
       helper(index + 1, target, list, candidates, output);
    }
