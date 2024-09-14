@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: combination sum using recursion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CombinationSumWithoutDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumWithoutDuplicatesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: subset sums 2 with recursion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CombinationSumWithDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumWithDuplicatesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CombinationSumWithoutDuplicatesTest">
+  <component name="RunManager" selected="Gradle.PermutationsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -424,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -437,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -448,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermutationsTest.test_permute_expectOutputOfSize6_whenInputContains123" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -461,7 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PermutationsTest.test_permute_expectOutputOfSize6_whenInputContains123&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CombinationSumWithoutDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Subsets2Test.test_subsets2_expectOutputOfSize2_whenInputSizeIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumWithoutDuplicatesTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.Subsets2Test.test_subsets2_expectOutputOfSize2_whenInputSizeIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -496,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Subsets2Test.test_subsets2_expectOutputOfSize6_whenInputSizeIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -509,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs5&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.Subsets2Test.test_subsets2_expectOutputOfSize6_whenInputSizeIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize4_WhenTargetIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SubsetsSumsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -533,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize4_WhenTargetIs8&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetsSumsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -546,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.CombinationSumTest" />
-      <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" />
-      <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest" />
-      <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs5" />
-      <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize4_WhenTargetIs8" />
+      <item itemvalue="Gradle.PermutationsTest" />
+      <item itemvalue="Gradle.PermutationsTest.test_permute_expectOutputOfSize6_whenInputContains123" />
+      <item itemvalue="Gradle.Subsets2Test.test_subsets2_expectOutputOfSize2_whenInputSizeIs1" />
+      <item itemvalue="Gradle.Subsets2Test.test_subsets2_expectOutputOfSize6_whenInputSizeIs3" />
+      <item itemvalue="Gradle.SubsetsSumsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest" />
-        <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize2_WhenTargetIs5" />
-        <item itemvalue="Gradle.CombinationSumWithoutDuplicatesTest.test_combinationSum_expectOutputOfSize4_WhenTargetIs8" />
-        <item itemvalue="Gradle.CombinationSumTest" />
-        <item itemvalue="Gradle.CombinationSumTest.test_combinationSum_expectOutputOfSize3_WhenTargetIs8" />
+        <item itemvalue="Gradle.PermutationsTest" />
+        <item itemvalue="Gradle.PermutationsTest.test_permute_expectOutputOfSize6_whenInputContains123" />
+        <item itemvalue="Gradle.Subsets2Test.test_subsets2_expectOutputOfSize6_whenInputSizeIs3" />
+        <item itemvalue="Gradle.Subsets2Test.test_subsets2_expectOutputOfSize2_whenInputSizeIs1" />
+        <item itemvalue="Gradle.SubsetsSumsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -914,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="437" />
+    <option name="localTasksCounter" value="440" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -929,9 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: minimum spanning tree using Prim's algorithm updated code with proper input tests" />
-    <MESSAGE value="[practice/graph]: Disjoint set implementation with union by rank" />
-    <MESSAGE value="[practice/graph]: Disjoint set implementation with union by size" />
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm" />
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm added tests" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method" />
@@ -954,7 +949,10 @@
     <MESSAGE value="[practice/dynamic-programming]: climbing stairs with a jump of 1 or 2" />
     <MESSAGE value="[practice/dynamic-programming]: Frog jump by 1 or 2 steps" />
     <MESSAGE value="[practice/dynamic-programming]: combination sum using recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: combination sum using recursion" />
+    <MESSAGE value="[practice/dynamic-programming]: combination sum without duplicates using recursion" />
+    <MESSAGE value="[practice/dynamic-programming]: subset sums with recursion" />
+    <MESSAGE value="[practice/dynamic-programming]: subset sums 2 with recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: subset sums 2 with recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2448,6 +2446,41 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CombinationSumWithoutDuplicatesTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/Subsets2Test.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/Subsets2Test.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="634" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
