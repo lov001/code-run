@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: subset sums 2 with recursion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: permutations with extra space">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NQueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="440" />
+    <option name="localTasksCounter" value="441" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm" />
     <MESSAGE value="[practice/graph]: Minimum Spanning Tree using Kruskal's Algorithm added tests" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method" />
     <MESSAGE value="[practice/graph]: Number of provinces using Disjoint set method - fixed failing test case" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: combination sum without duplicates using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: subset sums with recursion" />
     <MESSAGE value="[practice/dynamic-programming]: subset sums 2 with recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: subset sums 2 with recursion" />
+    <MESSAGE value="[practice/dynamic-programming]: permutations with extra space" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: permutations with extra space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2466,21 +2467,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PermutationsTest.java</url>
           <line>22</line>
           <option name="timeStamp" value="628" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="632" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="633" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/Permutations.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="634" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
