@@ -59,7 +59,6 @@ public class NQueen {
 
    private void helper(int column, char[][] board, List<List<String>> output) {
       if (column == board.length) {
-         System.out.println("Board:   " + Arrays.deepToString(board));
          output.add(constructBoard(board));
          return;
       }
