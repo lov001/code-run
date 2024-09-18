@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: sudoku solver">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MGraphColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MGraphColoringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: m graph coloring problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PalindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PalindromePartitioningTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MGraphColoringTest">
+  <component name="RunManager" selected="Gradle.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -494,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NQueenTest.test_solveNQueensOptimised_expect2DistinctSolutions_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -507,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.NQueenTest.test_solveNQueensOptimised_expect2DistinctSolutions_whenNIs4&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -547,16 +547,16 @@
       <item itemvalue="Gradle.MGraphColoringTest" />
       <item itemvalue="Gradle.MGraphColoringTest.test_graphColoring_expectTrue_whenMIs2" />
       <item itemvalue="Gradle.MGraphColoringTest.test_graphColoring_expectTrue_whenMIs3" />
-      <item itemvalue="Gradle.NQueenTest.test_solveNQueensOptimised_expect2DistinctSolutions_whenNIs4" />
+      <item itemvalue="Gradle.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" />
       <item itemvalue="Gradle.SudokuSolverTest.test_solveSudoku_expectUniqueSolution_whenGivenBoard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" />
         <item itemvalue="Gradle.MGraphColoringTest" />
         <item itemvalue="Gradle.MGraphColoringTest.test_graphColoring_expectTrue_whenMIs2" />
         <item itemvalue="Gradle.MGraphColoringTest.test_graphColoring_expectTrue_whenMIs3" />
         <item itemvalue="Gradle.SudokuSolverTest.test_solveSudoku_expectUniqueSolution_whenGivenBoard" />
-        <item itemvalue="Gradle.NQueenTest.test_solveNQueensOptimised_expect2DistinctSolutions_whenNIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set" />
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - refactoring" />
     <MESSAGE value="[practice/graph]: Merging accounts using Disjoint set - fixing failing test cases" />
     <MESSAGE value="[practice/graph]: number of islands by adding dynamically using disjoint set" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: N-Queen brute force solution" />
     <MESSAGE value="[practice/dynamic-programming]: N-Queen optimised solution" />
     <MESSAGE value="[practice/dynamic-programming]: sudoku solver" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: sudoku solver" />
+    <MESSAGE value="[practice/dynamic-programming]: m graph coloring problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: m graph coloring problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2491,6 +2491,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MGraphColoring.java</url>
           <line>29</line>
           <option name="timeStamp" value="640" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PalindromePartitioning.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="641" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PalindromePartitioning.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="642" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
