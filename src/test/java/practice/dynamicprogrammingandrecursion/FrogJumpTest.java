@@ -7,7 +7,6 @@ public class FrogJumpTest {
 
    FrogJump classObj = new FrogJump();
 
-
    @Test
    void test_jump_expect20_whenInputIsOfSize4() {
       int[] heights = {10, 20, 30, 10};
