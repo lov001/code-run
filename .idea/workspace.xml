@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: rat in a maze">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/KthPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/KthPermutationTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: Kth permutation sequence">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountInversionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthPermutationTest">
+  <component name="RunManager" selected="Gradle.CountInversionsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,6 +422,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountInversionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CountInversionsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountInversionsTest.test_numberOfInversions_expect5_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CountInversionsTest.test_numberOfInversions_expect5_whenNIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="KthPermutationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -436,54 +484,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.KthPermutationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PalindromePartitioningTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PalindromePartitioningTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,19 +544,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.CountInversionsTest" />
+      <item itemvalue="Gradle.CountInversionsTest.test_numberOfInversions_expect5_whenNIs5" />
       <item itemvalue="Gradle.KthPermutationTest" />
-      <item itemvalue="Gradle.PalindromePartitioningTest" />
-      <item itemvalue="Gradle.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" />
       <item itemvalue="Gradle.RatInAMazeTest" />
       <item itemvalue="Gradle.RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CountInversionsTest" />
+        <item itemvalue="Gradle.CountInversionsTest.test_numberOfInversions_expect5_whenNIs5" />
         <item itemvalue="Gradle.KthPermutationTest" />
         <item itemvalue="Gradle.RatInAMazeTest" />
         <item itemvalue="Gradle.RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze" />
-        <item itemvalue="Gradle.PalindromePartitioningTest" />
-        <item itemvalue="Gradle.PalindromePartitioningTest.test_partition_expectOutputOfSize2_whenInputIsaab" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="448" />
+    <option name="localTasksCounter" value="449" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: number of islands by adding dynamically using disjoint set" />
     <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set" />
     <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set - fixed corner cases" />
     <MESSAGE value="[practice/graph]: maximum stones removed using Disjoint set" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: m graph coloring problem" />
     <MESSAGE value="[practice/dynamic-programming]: palindrome partitioning" />
     <MESSAGE value="[practice/dynamic-programming]: rat in a maze" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: rat in a maze" />
+    <MESSAGE value="[practice/dynamic-programming]: Kth permutation sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: Kth permutation sequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2531,6 +2531,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RatInAMazeTest.java</url>
           <line>23</line>
           <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="649" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="650" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
