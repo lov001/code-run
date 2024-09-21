@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: Kth permutation sequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountInversionsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: count number of inversions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/FrogJumpWithMaxKJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/FrogJumpWithMaxKJumpsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/FrogJumpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/FrogJumpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountInversionsTest">
+  <component name="RunManager" selected="Gradle.FrogJumpWithMaxKJumpsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,6 +471,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FrogJumpWithMaxKJumpsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.FrogJumpWithMaxKJumpsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="KthPermutationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -518,45 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.CountInversionsTest" />
       <item itemvalue="Gradle.CountInversionsTest.test_numberOfInversions_expect5_whenNIs5" />
+      <item itemvalue="Gradle.FrogJumpWithMaxKJumpsTest" />
       <item itemvalue="Gradle.KthPermutationTest" />
       <item itemvalue="Gradle.RatInAMazeTest" />
-      <item itemvalue="Gradle.RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FrogJumpWithMaxKJumpsTest" />
         <item itemvalue="Gradle.CountInversionsTest" />
         <item itemvalue="Gradle.CountInversionsTest.test_numberOfInversions_expect5_whenNIs5" />
         <item itemvalue="Gradle.KthPermutationTest" />
         <item itemvalue="Gradle.RatInAMazeTest" />
-        <item itemvalue="Gradle.RatInAMazeTest.test_findPath_expect2Paths_whenGiven4x4Maze" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="449" />
+    <option name="localTasksCounter" value="450" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set" />
     <MESSAGE value="[practice/graph]: maximum connected group by using disjoint set - fixed corner cases" />
     <MESSAGE value="[practice/graph]: maximum stones removed using Disjoint set" />
     <MESSAGE value="[practice/graph]: kosaraju algorithm" />
@@ -952,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: palindrome partitioning" />
     <MESSAGE value="[practice/dynamic-programming]: rat in a maze" />
     <MESSAGE value="[practice/dynamic-programming]: Kth permutation sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: Kth permutation sequence" />
+    <MESSAGE value="[practice/dynamic-programming]: count number of inversions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: count number of inversions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
