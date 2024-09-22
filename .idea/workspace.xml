@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: fixed one failing test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NinjaTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NinjaTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/NinjaTrainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/NinjaTrainingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumSumOfNonAdjacentElementsTest">
+  <component name="RunManager" selected="Gradle.NinjaTrainingTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +421,78 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="HouseRobberIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="MaximumSumOfNonAdjacentElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -446,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect11_whenInputSizeIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NinjaTrainingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect11_whenInputSizeIs4&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.NinjaTrainingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -469,77 +541,22 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
-    </configuration>
-    <configuration name="MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect5_whenInputSizeIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect5_whenInputSizeIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.HouseRobberIITest" />
+      <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
+      <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
       <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest" />
-      <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect11_whenInputSizeIs4" />
-      <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" />
-      <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect5_whenInputSizeIs3" />
-      <item itemvalue="Java Scratch.Scratch (1)" />
+      <item itemvalue="Gradle.NinjaTrainingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NinjaTrainingTest" />
+        <item itemvalue="Gradle.HouseRobberIITest" />
+        <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
+        <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
         <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest" />
-        <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" />
-        <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect5_whenInputSizeIs3" />
-        <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect11_whenInputSizeIs4" />
-        <item itemvalue="Java Scratch.Scratch (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <option name="localTasksCounter" value="459" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,12 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: critical connections in a graph" />
-    <MESSAGE value="[practice/dynamic-programming]: fibonacci number using recursion" />
-    <MESSAGE value="[practice/dynamic-programming]: fibonacci number using memoization" />
-    <MESSAGE value="[practice/dynamic-programming]: fibonacci number using tabulation" />
-    <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion" />
-    <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array with given sum" />
     <MESSAGE value="[practice/dynamic-programming]: climbing stairs with a jump of 1 or 2" />
     <MESSAGE value="[practice/dynamic-programming]: Frog jump by 1 or 2 steps" />
     <MESSAGE value="[practice/dynamic-programming]: combination sum using recursion" />
@@ -935,7 +946,13 @@
     <MESSAGE value="[practice/dynamic-programming]: frog jump with at max k steps" />
     <MESSAGE value="[practice/dynamic-programming]: brute force recursive solution" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation and space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: house robber 2 with recursion and memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: house robber 2 with tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: ninja training with recursion and memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: fixed one failing test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: fixed one failing test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2534,6 +2551,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElements.java</url>
           <line>24</line>
           <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="655" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
