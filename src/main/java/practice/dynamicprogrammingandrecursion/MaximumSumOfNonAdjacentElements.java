@@ -8,10 +8,10 @@ public class MaximumSumOfNonAdjacentElements {
    public int maximumNonAdjacentSum(ArrayList<Integer> nums) {
       int[] dp = new int[nums.size() + 1];
       Arrays.fill(dp, -1);
-      return recursion(0, nums.size() - 1, nums, dp);
+      return recursion(nums.size() - 1, nums, dp);
    }
 
-   private int recursion(int sum, int index, ArrayList<Integer> nums, int[] dp) {
+   private int recursion(int index, ArrayList<Integer> nums, int[] dp) {
       if (index == 0) {
          return nums.get(index);
       }
@@ -23,9 +23,25 @@ public class MaximumSumOfNonAdjacentElements {
       }
 
       int elementPickedSum =
-         nums.get(index) + recursion(sum + nums.get(index), index - 2, nums, dp);
-      int elementNotPickedSum = recursion(sum, index - 1, nums, dp);
+         nums.get(index) + recursion(index - 2, nums, dp);
+      int elementNotPickedSum = recursion(index - 1, nums, dp);
       dp[index] = Math.max(elementPickedSum, elementNotPickedSum);
       return dp[index];
+   }
+
+   public int maximumNonAdjacentSumTabulation(ArrayList<Integer> nums) {
+      int[] dp = new int[nums.size()];
+      dp[0] = nums.get(0);
+      int pickElement, notPickElement;
+      for (int i = 1; i < nums.size(); i++) {
+
+         pickElement = nums.get(i);
+         if (i > 1) {
+            pickElement += dp[i - 2];
+         }
+         notPickElement = dp[i - 1];
+         dp[i] = Math.max(pickElement, notPickElement);
+      }
+      return dp[nums.size() - 1];
    }
 }
