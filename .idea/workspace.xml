@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: brute force recursive solution">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumSumOfNonAdjacentElementsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -894,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="452" />
+    <option name="localTasksCounter" value="453" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -909,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/graph]: kosaraju algorithm" />
     <MESSAGE value="[practice/graph]: critical connections in a graph" />
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: fibonacci number using memoization" />
@@ -934,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming]: count number of inversions" />
     <MESSAGE value="[practice/dynamic-programming]: frog jump with at max k steps" />
     <MESSAGE value="[practice/dynamic-programming]: brute force recursive solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: brute force recursive solution" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
