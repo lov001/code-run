@@ -16,6 +16,7 @@ public class MaximumSumOfNonAdjacentElementsTest {
       input.add(4);
       Assertions.assertEquals(5, classObj.maximumNonAdjacentSum(input));
       Assertions.assertEquals(5, classObj.maximumNonAdjacentSumTabulation(input));
+      Assertions.assertEquals(5, classObj.maximumNonAdjacentSumTabulationSpaceOptimised(input));
    }
 
    @Test
@@ -27,6 +28,7 @@ public class MaximumSumOfNonAdjacentElementsTest {
       input.add(9);
       Assertions.assertEquals(11, classObj.maximumNonAdjacentSum(input));
       Assertions.assertEquals(11, classObj.maximumNonAdjacentSumTabulation(input));
+      Assertions.assertEquals(11, classObj.maximumNonAdjacentSumTabulationSpaceOptimised(input));
    }
 
    @Test
@@ -39,6 +41,7 @@ public class MaximumSumOfNonAdjacentElementsTest {
       input.add(4);
       Assertions.assertEquals(8, classObj.maximumNonAdjacentSum(input));
       Assertions.assertEquals(8, classObj.maximumNonAdjacentSumTabulation(input));
+      Assertions.assertEquals(8, classObj.maximumNonAdjacentSumTabulationSpaceOptimised(input));
    }
 
    @Test
@@ -55,5 +58,6 @@ public class MaximumSumOfNonAdjacentElementsTest {
       input.add(9);
       Assertions.assertEquals(24, classObj.maximumNonAdjacentSum(input));
       Assertions.assertEquals(24, classObj.maximumNonAdjacentSumTabulation(input));
+      Assertions.assertEquals(24, classObj.maximumNonAdjacentSumTabulationSpaceOptimised(input));
    }
 }

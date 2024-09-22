@@ -44,4 +44,22 @@ public class MaximumSumOfNonAdjacentElements {
       }
       return dp[nums.size() - 1];
    }
+
+   public int maximumNonAdjacentSumTabulationSpaceOptimised(ArrayList<Integer> nums) {
+      int previous2 = 0, current;
+      int previous = nums.get(0);
+      int pickElement, notPickElement;
+      for (int i = 1; i < nums.size(); i++) {
+
+         pickElement = nums.get(i);
+         if (i > 1) {
+            pickElement += previous2;
+         }
+         notPickElement = previous;
+         current = Math.max(pickElement, notPickElement);
+         previous2 = previous;
+         previous = current;
+      }
+      return previous;
+   }
 }
