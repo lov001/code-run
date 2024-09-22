@@ -15,6 +15,7 @@ public class NinjaTrainingTest {
          {3, 3, 3}
       };
       Assertions.assertEquals(11, classObj.ninjaTraining(3, trainingDays));
+      Assertions.assertEquals(11, classObj.ninjaTrainingTabulation(3, trainingDays));
    }
 
    @Test
@@ -25,6 +26,7 @@ public class NinjaTrainingTest {
          {30, 60, 90}
       };
       Assertions.assertEquals(210, classObj.ninjaTraining(3, trainingDays));
+      Assertions.assertEquals(210, classObj.ninjaTrainingTabulation(3, trainingDays));
    }
 
    @Test
@@ -35,6 +37,7 @@ public class NinjaTrainingTest {
          {1, 8, 13}
       };
       Assertions.assertEquals(45, classObj.ninjaTraining(3, trainingDays));
+      Assertions.assertEquals(45, classObj.ninjaTrainingTabulation(3, trainingDays));
    }
 
    @Test
@@ -44,5 +47,6 @@ public class NinjaTrainingTest {
          {5, 100, 11}
       };
       Assertions.assertEquals(110, classObj.ninjaTraining(2, trainingDays));
+      Assertions.assertEquals(110, classObj.ninjaTrainingTabulation(2, trainingDays));
    }
 }
