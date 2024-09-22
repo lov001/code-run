@@ -4,6 +4,34 @@ import java.util.Arrays;
 
 public class HouseRobberII {
 
+   public long houseRobberWithTabulation(int[] valueInHouse) {
+      int n = valueInHouse.length;
+      if (n == 1) {
+         return valueInHouse[0];
+      }
+      int[] arrayWithStart = Arrays.copyOfRange(valueInHouse, 0, n - 1);
+      int[] arrayWithEnd = Arrays.copyOfRange(valueInHouse, 1, n);
+      return Math.max(houseRobberTabulation(arrayWithStart),
+         houseRobberTabulation(arrayWithEnd));
+   }
+
+   private long houseRobberTabulation(int[] valueInHouse) {
+      int n = valueInHouse.length;
+      int prev2 = 0, prev = valueInHouse[0];
+      int pickElement, notPickElement;
+      for (int i = 1; i < n; i++) {
+         pickElement = valueInHouse[i];
+         if (i > 1) {
+            pickElement += prev2;
+         }
+         notPickElement = prev;
+         int current = Math.max(pickElement, notPickElement);
+         prev2 = prev;
+         prev = current;
+      }
+      return prev;
+   }
+
    public long houseRobber(int[] valueInHouse) {
       int n = valueInHouse.length;
       if (n == 1) {
