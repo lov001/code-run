@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: house robber 2 with recursion and memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: house robber 2 with tabulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NinjaTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/NinjaTrainingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/HouseRobberIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/HouseRobberIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HouseRobberIITest">
+  <component name="RunManager" selected="Gradle.NinjaTrainingTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -518,7 +518,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NinjaTrainingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -531,7 +531,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.NinjaTrainingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -548,15 +548,15 @@
       <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
       <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
       <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest" />
-      <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" />
+      <item itemvalue="Gradle.NinjaTrainingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NinjaTrainingTest" />
         <item itemvalue="Gradle.HouseRobberIITest" />
         <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
         <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
         <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest" />
-        <item itemvalue="Gradle.MaximumSumOfNonAdjacentElementsTest.test_maximumNonAdjacentSum_expect24_whenInputSizeIs9" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="456" />
+    <option name="localTasksCounter" value="457" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: fibonacci number using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array using multiple recursion" />
     <MESSAGE value="[practice/dynamic-programming]: finding all subsets of an array with given sum" />
     <MESSAGE value="[practice/dynamic-programming]: climbing stairs with a jump of 1 or 2" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: house robber 2 with recursion and memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: house robber 2 with recursion and memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: house robber 2 with tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: house robber 2 with tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
