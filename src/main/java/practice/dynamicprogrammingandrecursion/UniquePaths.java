@@ -28,6 +28,32 @@ public class UniquePaths {
       return dp[m - 1][n - 1];
    }
 
+   public int uniquePathsUsingSpaceOptimisation(int m, int n) {
+      if (m == 1 && n == 1) {
+         return 1;
+      }
+      int[] previous = new int[n];
+      for (int row = 0; row < m; row++) {
+         int[] temp = new int[n];
+         for (int col = 0; col < n; col++) {
+            if (row == 0 && col == 0) {
+               temp[col] = 1;
+               continue;
+            }
+            int up = 0, left = 0;
+            if (row > 0) {
+               up = previous[col];
+            }
+            if (col > 0) {
+               left = temp[col - 1];
+            }
+            temp[col] = up + left;
+         }
+         previous = temp;
+      }
+      return previous[n - 1];
+   }
+
    public int uniquePaths(int m, int n) {
       if (m == 1 && n == 1) {
          return 1;
