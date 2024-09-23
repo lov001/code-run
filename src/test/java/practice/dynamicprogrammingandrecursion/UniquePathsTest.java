@@ -10,10 +10,12 @@ public class UniquePathsTest {
    @Test
    void test_uniquePaths_expect28_whenRowIs3AndColumnIs7() {
       Assertions.assertEquals(28, classObj.uniquePaths(3, 7));
+      Assertions.assertEquals(28, classObj.uniquePathsUsingTabulation(3, 7));
    }
 
    @Test
    void test_uniquePaths_expect3_whenRowIs3AndColumnIs2() {
       Assertions.assertEquals(3, classObj.uniquePaths(3, 2));
+      Assertions.assertEquals(3, classObj.uniquePathsUsingTabulation(3, 2));
    }
 }
