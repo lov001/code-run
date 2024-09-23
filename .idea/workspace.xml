@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: fixed one failing test case">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: ninja training using tabulation method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NinjaTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/NinjaTraining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/NinjaTrainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/NinjaTrainingTest.java" afterDir="false" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="459" />
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: climbing stairs with a jump of 1 or 2" />
     <MESSAGE value="[practice/dynamic-programming]: Frog jump by 1 or 2 steps" />
     <MESSAGE value="[practice/dynamic-programming]: combination sum using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: combination sum without duplicates using recursion" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: house robber 2 with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: ninja training with recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: fixed one failing test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: fixed one failing test case" />
+    <MESSAGE value="[practice/dynamic-programming]: ninja training using tabulation method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: ninja training using tabulation method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,6 +16,7 @@ public class NinjaTrainingTest {
       };
       Assertions.assertEquals(11, classObj.ninjaTraining(3, trainingDays));
       Assertions.assertEquals(11, classObj.ninjaTrainingTabulation(3, trainingDays));
+      Assertions.assertEquals(11, classObj.ninjaTrainingTabulationSpaceOptimised(3, trainingDays));
    }
 
    @Test
@@ -27,6 +28,7 @@ public class NinjaTrainingTest {
       };
       Assertions.assertEquals(210, classObj.ninjaTraining(3, trainingDays));
       Assertions.assertEquals(210, classObj.ninjaTrainingTabulation(3, trainingDays));
+      Assertions.assertEquals(210, classObj.ninjaTrainingTabulationSpaceOptimised(3, trainingDays));
    }
 
    @Test
@@ -38,6 +40,7 @@ public class NinjaTrainingTest {
       };
       Assertions.assertEquals(45, classObj.ninjaTraining(3, trainingDays));
       Assertions.assertEquals(45, classObj.ninjaTrainingTabulation(3, trainingDays));
+      Assertions.assertEquals(45, classObj.ninjaTrainingTabulationSpaceOptimised(3, trainingDays));
    }
 
    @Test
@@ -48,5 +51,6 @@ public class NinjaTrainingTest {
       };
       Assertions.assertEquals(110, classObj.ninjaTraining(2, trainingDays));
       Assertions.assertEquals(110, classObj.ninjaTrainingTabulation(2, trainingDays));
+      Assertions.assertEquals(110, classObj.ninjaTrainingTabulationSpaceOptimised(2, trainingDays));
    }
 }
