@@ -23,6 +23,28 @@ public class NinjaTraining {
       return dp[n - 1][3];
    }
 
+   public int ninjaTrainingTabulationSpaceOptimised(int n, int[][] points) {
+      int[] previous = new int[4];
+      previous[0] = Math.max(points[0][1], points[0][2]);
+      previous[1] = Math.max(points[0][0], points[0][2]);
+      previous[2] = Math.max(points[0][0], points[0][1]);
+      previous[3] = Math.max(Math.max(points[0][0], points[0][1]), points[0][2]);
+      for (int day = 1; day < n; day++) {
+         int[] temp = new int[4];
+         for (int last = 0; last < 4; last++) {
+            temp[last] = 0;
+            for (int task = 0; task < 3; task++) {
+               if (task != last) {
+                  temp[last] = Math.max(points[day][task] + previous[task], temp[last]);
+               }
+            }
+         }
+         previous = temp;
+      }
+
+      return previous[3];
+   }
+
    public int ninjaTraining(int n, int[][] points) {
       int[][] dp = new int[n][4];
       for (int i = 0; i < n; i++) {
