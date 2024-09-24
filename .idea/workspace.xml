@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: unique paths in a grid using space optimisation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumPathSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum path sum using memoization and tabulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumPathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumPathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -895,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="465" />
+    <option name="localTasksCounter" value="466" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: permutations with extra space" />
     <MESSAGE value="[practice/dynamic-programming]: permutations without extra space" />
     <MESSAGE value="[practice/dynamic-programming]: N-Queen brute force solution" />
     <MESSAGE value="[practice/dynamic-programming]: N-Queen optimised solution" />
@@ -935,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: minimum path sum using memoization and tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum path sum using memoization and tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2552,17 +2552,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
-          <line>37</line>
+          <line>68</line>
           <option name="timeStamp" value="656" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
-          <line>47</line>
+          <line>78</line>
           <option name="timeStamp" value="657" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
-          <line>56</line>
+          <line>87</line>
           <option name="timeStamp" value="658" />
         </line-breakpoint>
       </breakpoints>

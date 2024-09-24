@@ -16,6 +16,7 @@ public class MinimumPathSumTest {
       };
       Assertions.assertEquals(7, classObj.minPathSum(grid));
       Assertions.assertEquals(7, classObj.minPathSumTabulation(grid));
+      Assertions.assertEquals(7, classObj.minPathSumTabulationSpaceOptimisation(grid));
    }
 
    @Test
@@ -26,5 +27,6 @@ public class MinimumPathSumTest {
       };
       Assertions.assertEquals(12, classObj.minPathSum(grid));
       Assertions.assertEquals(12, classObj.minPathSumTabulation(grid));
+      Assertions.assertEquals(12, classObj.minPathSumTabulationSpaceOptimisation(grid));
    }
 }
