@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: unique paths in a grid using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: unique paths in a grid using space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumPathSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/UniquePathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/UniquePathsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UniquePathsTest">
+  <component name="RunManager" selected="Gradle.MinimumPathSumTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobberIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumPathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +435,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumPathSumTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -446,7 +446,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -459,31 +459,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,21 +518,28 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.HouseRobberIITest" />
-      <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
-      <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
+      <item itemvalue="Gradle.MinimumPathSumTest" />
+      <item itemvalue="Gradle.MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid" />
       <item itemvalue="Gradle.NinjaTrainingTest" />
       <item itemvalue="Gradle.UniquePathsTest" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumPathSumTest" />
+        <item itemvalue="Gradle.MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.UniquePathsTest" />
         <item itemvalue="Gradle.NinjaTrainingTest" />
-        <item itemvalue="Gradle.HouseRobberIITest" />
-        <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect3_whenNumberOfHousesIs3" />
-        <item itemvalue="Gradle.HouseRobberIITest.test_houseRobber_expect11_whenNumberOfHousesIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="464" />
+    <option name="localTasksCounter" value="465" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: subset sums 2 with recursion" />
     <MESSAGE value="[practice/dynamic-programming]: permutations with extra space" />
     <MESSAGE value="[practice/dynamic-programming]: permutations without extra space" />
     <MESSAGE value="[practice/dynamic-programming]: N-Queen brute force solution" />
@@ -952,7 +934,8 @@
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: unique paths in a grid using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2566,6 +2549,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/HouseRobberII.java</url>
           <line>43</line>
           <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumPathSum.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="658" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
