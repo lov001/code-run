@@ -16,6 +16,7 @@ public class TriangleMinimumPathSumTest {
          {4, 1, 8, 3}
       };
       Assertions.assertEquals(11, classObj.minimumPathSum(triangle, 4));
+      Assertions.assertEquals(11, classObj.minimumPathSumTabulation(triangle, 4));
    }
 
    @Test
@@ -24,6 +25,7 @@ public class TriangleMinimumPathSumTest {
          {-10}
       };
       Assertions.assertEquals(-10, classObj.minimumPathSum(triangle, 1));
+      Assertions.assertEquals(-10, classObj.minimumPathSumTabulation(triangle, 1));
    }
 
    @Test
@@ -35,6 +37,7 @@ public class TriangleMinimumPathSumTest {
          {7, 8, 9, 10}
       };
       Assertions.assertEquals(14, classObj.minimumPathSum(triangle, 4));
+      Assertions.assertEquals(14, classObj.minimumPathSumTabulation(triangle, 4));
    }
 
    @Test
@@ -45,5 +48,6 @@ public class TriangleMinimumPathSumTest {
          {22, 1, -9},
       };
       Assertions.assertEquals(-1, classObj.minimumPathSum(triangle, 3));
+      Assertions.assertEquals(-1, classObj.minimumPathSumTabulation(triangle, 3));
    }
 }
