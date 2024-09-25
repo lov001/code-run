@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum path sum in triangle using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum path sum in triangle using space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TriangleMinimumPathSumTest">
+  <component name="RunManager" selected="Gradle.MaximumPathSumInMatrixTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +421,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MaximumPathSumInMatrixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumPathSumInMatrixTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="MinimumPathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -494,52 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="UniquePathsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.UniquePathsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
+      <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
       <item itemvalue="Gradle.MinimumPathSumTest" />
       <item itemvalue="Gradle.MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid" />
       <item itemvalue="Gradle.TriangleMinimumPathSumTest" />
-      <item itemvalue="Gradle.UniquePathsTest" />
-      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
+        <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
         <item itemvalue="Gradle.TriangleMinimumPathSumTest" />
         <item itemvalue="Gradle.MinimumPathSumTest" />
         <item itemvalue="Gradle.MinimumPathSumTest.test_minPathSum_expect7_when3x3Grid" />
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.UniquePathsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="470" />
+    <option name="localTasksCounter" value="471" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: m graph coloring problem" />
     <MESSAGE value="[practice/dynamic-programming]: palindrome partitioning" />
     <MESSAGE value="[practice/dynamic-programming]: rat in a maze" />
     <MESSAGE value="[practice/dynamic-programming]: Kth permutation sequence" />
@@ -935,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using recursion" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum path sum in triangle using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum path sum in triangle using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
