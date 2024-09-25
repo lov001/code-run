@@ -5,6 +5,37 @@ import java.util.Arrays;
 public class MinimumPathSum {
 
 
+   public int minPathSumTabulationSpaceOptimisation(int[][] grid) {
+      int rows = grid.length;
+      int columns = grid[0].length;
+      int[] previous = new int[columns];
+      Arrays.fill(previous, 0);
+      for (int row = 0; row < rows; row++) {
+         int[] current = new int[columns];
+         for (int column = 0; column < columns; column++) {
+            if (row == 0 && column == 0) {
+               current[column] = grid[0][0];
+               continue;
+            }
+            int up = grid[row][column];
+            if (row > 0) {
+               up += previous[column];
+            } else {
+               up += (int) Math.pow(10, 9);
+            }
+            int left = grid[row][column];
+            if (column > 0) {
+               left += current[column - 1];
+            } else {
+               left += (int) Math.pow(10, 9);
+            }
+            current[column] = Math.min(up, left);
+         }
+         previous = current;
+      }
+      return previous[columns - 1];
+   }
+
    public int minPathSumTabulation(int[][] grid) {
       int rows = grid.length;
       int columns = grid[0].length;
