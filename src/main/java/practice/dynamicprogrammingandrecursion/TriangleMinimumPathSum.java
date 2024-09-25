@@ -19,6 +19,23 @@ public class TriangleMinimumPathSum {
       return dp[0][0];
    }
 
+   public int minimumPathSumSpaceOptimisation(int[][] triangle, int n) {
+      int[] previous = new int[n];
+      for (int i = 0; i < n; i++) {
+         previous[i] = triangle[n - 1][i];
+      }
+      for (int i = n - 2; i >= 0; i--) {
+         int[] current = new int[n];
+         for (int j = 0; j <= i; j++) {
+            int down = triangle[i][j] + previous[j];
+            int diagonal = triangle[i][j] + previous[j + 1];
+            current[j] = Math.min(down, diagonal);
+         }
+         previous = current;
+      }
+      return previous[0];
+   }
+
    public int minimumPathSum(int[][] triangle, int n) {
       int[][] dp = new int[n][n];
       for (int[] r : dp) {
