@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum path sum using space optimisation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum path sum in triangle using recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/TriangleMinimumPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -895,7 +894,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +909,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: N-Queen brute force solution" />
     <MESSAGE value="[practice/dynamic-programming]: N-Queen optimised solution" />
     <MESSAGE value="[practice/dynamic-programming]: sudoku solver" />
     <MESSAGE value="[practice/dynamic-programming]: m graph coloring problem" />
@@ -935,7 +933,8 @@
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum using memoization and tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum using space optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum path sum using space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum path sum in triangle using recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
