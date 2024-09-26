@@ -16,6 +16,7 @@ public class MaximumPathSumInMatrixTest {
          {1, 2, 2, 1}
       };
       Assertions.assertEquals(105, classObj.getMaxPathSum(matrix));
+      Assertions.assertEquals(105, classObj.getMaxPathSumTabulation(matrix));
    }
 
    @Test
@@ -26,6 +27,7 @@ public class MaximumPathSumInMatrixTest {
          {8, 1, 5}
       };
       Assertions.assertEquals(25, classObj.getMaxPathSum(matrix));
+      Assertions.assertEquals(25, classObj.getMaxPathSumTabulation(matrix));
    }
 
    @Test
@@ -36,6 +38,7 @@ public class MaximumPathSumInMatrixTest {
          {4, 5, 6}
       };
       Assertions.assertEquals(17, classObj.getMaxPathSum(matrix));
+      Assertions.assertEquals(17, classObj.getMaxPathSumTabulation(matrix));
    }
 
    @Test
@@ -47,5 +50,19 @@ public class MaximumPathSumInMatrixTest {
          {1, -5, 2, 20, -11, 4}
       };
       Assertions.assertEquals(74, classObj.getMaxPathSum(matrix));
+      Assertions.assertEquals(74, classObj.getMaxPathSumTabulation(matrix));
+   }
+
+   @Test
+   void test_getMaxPathSum_expect19200_when5x5Matrix() {
+      int[][] matrix = {
+         {-9999, -9888, -9777, -9666, -9555},
+         {1, 10, 2, 4, 5},
+         {-9999, -9888, -9777, -9666, -9555},
+         {0, 0, 0, 0, 0},
+         {-99, -98, -97, -96, -95}
+      };
+      Assertions.assertEquals(-19200, classObj.getMaxPathSum(matrix));
+      Assertions.assertEquals(-19200, classObj.getMaxPathSumTabulation(matrix));
    }
 }
