@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="474" />
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: count number of inversions" />
     <MESSAGE value="[practice/dynamic-programming]: frog jump with at max k steps" />
     <MESSAGE value="[practice/dynamic-programming]: brute force recursive solution" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2589,12 +2589,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java</url>
-          <line>17</line>
+          <line>58</line>
           <option name="timeStamp" value="664" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java</url>
-          <line>20</line>
+          <line>61</line>
           <option name="timeStamp" value="665" />
         </line-breakpoint>
       </breakpoints>

@@ -15,6 +15,7 @@ public class ChocolatePickupTest {
          {5, 6, 3, 5}
       };
       Assertions.assertEquals(21, classObj.maximumChocolates(3, 4, grid));
+      Assertions.assertEquals(21, classObj.maximumChocolatesTabulation(3, 4, grid));
    }
 
    @Test
@@ -24,6 +25,7 @@ public class ChocolatePickupTest {
          {1, 2},
       };
       Assertions.assertEquals(5, classObj.maximumChocolates(2, 2, grid));
+      Assertions.assertEquals(5, classObj.maximumChocolatesTabulation(2, 2, grid));
    }
 
    @Test
@@ -33,6 +35,7 @@ public class ChocolatePickupTest {
          {7, 6},
       };
       Assertions.assertEquals(23, classObj.maximumChocolates(2, 2, grid));
+      Assertions.assertEquals(23, classObj.maximumChocolatesTabulation(2, 2, grid));
    }
 
    @Test
@@ -43,5 +46,6 @@ public class ChocolatePickupTest {
          {4, 2},
       };
       Assertions.assertEquals(25, classObj.maximumChocolates(3, 2, grid));
+      Assertions.assertEquals(25, classObj.maximumChocolatesTabulation(3, 2, grid));
    }
 }

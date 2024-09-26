@@ -4,6 +4,47 @@ import java.util.Arrays;
 
 public class ChocolatePickup {
 
+   public int maximumChocolatesTabulation(int r, int c, int[][] grid) {
+      int[][][] dp = new int[r][c][c];
+      dp[r - 1][0][0] = grid[0][0];
+      dp[r - 1][0][c - 1] = grid[0][c - 1];
+      for (int j1 = 0; j1 < c; j1++) {
+         for (int j2 = 0; j2 < c; j2++) {
+            if (j1 == j2) {
+               dp[r - 1][j1][j2] = grid[r - 1][j1];
+            } else {
+               dp[r - 1][j1][j2] = grid[r - 1][j1] + grid[r - 1][j2];
+            }
+         }
+      }
+      for (int i = r - 2; i >= 0; i--) {
+         for (int j1 = 0; j1 < c; j1++) {
+            for (int j2 = 0; j2 < c; j2++) {
+               int maxChocolates = -(int) 1e9;
+               for (int del1 = -1; del1 <= 1; del1++) {
+                  for (int del2 = -1; del2 <= 1; del2++) {
+                     int value;
+                     if (j1 == j2) {
+                        value = grid[i][j1];
+                     } else {
+                        value = grid[i][j1] + grid[i][j2];
+                     }
+                     if (j1 + del1 >= 0 && j1 + del1 < c && j2 + del2 >= 0 && j2 + del2 < c) {
+                        value += dp[i + 1][j1 + del1][j2 + del2];
+                     } else {
+                        value += -(int) 1e9;
+                     }
+
+                     maxChocolates = Math.max(maxChocolates, value);
+                  }
+               }
+               dp[i][j1][j2] = maxChocolates;
+            }
+         }
+      }
+      return dp[0][0][c - 1];
+   }
+
    public int maximumChocolates(int r, int c, int[][] grid) {
       int[][][] dp = new int[r][c][c];
       for (int[][] rows : dp) {
