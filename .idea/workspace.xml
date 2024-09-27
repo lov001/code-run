@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumPathSumInMatrixTest">
+  <component name="RunManager" selected="Gradle.ChocolatePickupTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -421,6 +421,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ChocolatePickupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ChocolatePickupTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="MaximumPathSumInMatrixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -494,69 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumPathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumPathSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TriangleMinimumPathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.TriangleMinimumPathSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.ChocolatePickupTest" />
+      <item itemvalue="Gradle.ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid" />
       <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
       <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
       <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect19200_when5x5Matrix" />
-      <item itemvalue="Gradle.MinimumPathSumTest" />
-      <item itemvalue="Gradle.TriangleMinimumPathSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ChocolatePickupTest" />
+        <item itemvalue="Gradle.ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid" />
         <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
         <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect19200_when5x5Matrix" />
         <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
-        <item itemvalue="Gradle.TriangleMinimumPathSumTest" />
-        <item itemvalue="Gradle.MinimumPathSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="472" />
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,9 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: rat in a maze" />
-    <MESSAGE value="[practice/dynamic-programming]: Kth permutation sequence" />
-    <MESSAGE value="[practice/dynamic-programming]: count number of inversions" />
     <MESSAGE value="[practice/dynamic-programming]: frog jump with at max k steps" />
     <MESSAGE value="[practice/dynamic-programming]: brute force recursive solution" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
@@ -952,7 +949,10 @@
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2584,18 +2584,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="661" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="662" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumPathSumInMatrix.java</url>
           <line>29</line>
           <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="665" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -37,6 +37,41 @@ public class MaximumPathSumInMatrix {
       return maxSum;
    }
 
+   public int getMaxPathSumSpaceOptimisation(int[][] matrix) {
+      int rows = matrix.length;
+      int columns = matrix[0].length;
+      int[] previous = new int[columns];
+      for (int j = 0; j < columns; j++) {
+         previous[j] = matrix[0][j];
+      }
+      for (int i = 1; i < rows; i++) {
+         int[] current = new int[columns];
+         for (int j = 0; j < columns; j++) {
+            int leftDiagonal = matrix[i][j];
+            if (j > 0) {
+               leftDiagonal += previous[j - 1];
+            } else {
+               leftDiagonal += -(int) 1e9;
+            }
+            int up = matrix[i][j] + previous[j];
+            int rightDiagonal = matrix[i][j];
+            if (j + 1 < columns) {
+               rightDiagonal += previous[j + 1];
+            } else {
+               rightDiagonal += -(int) 1e9;
+            }
+
+            current[j] = Math.max(leftDiagonal, Math.max(up, rightDiagonal));
+         }
+         previous = current;
+      }
+      int maxSum = previous[0];
+      for (int j = 1; j < columns; j++) {
+         maxSum = Math.max(maxSum, previous[j]);
+      }
+      return maxSum;
+   }
+
    public int getMaxPathSum(int[][] matrix) {
       int rows = matrix.length;
       int columns = matrix[0].length;

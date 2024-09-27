@@ -17,6 +17,7 @@ public class MaximumPathSumInMatrixTest {
       };
       Assertions.assertEquals(105, classObj.getMaxPathSum(matrix));
       Assertions.assertEquals(105, classObj.getMaxPathSumTabulation(matrix));
+      Assertions.assertEquals(105, classObj.getMaxPathSumSpaceOptimisation(matrix));
    }
 
    @Test
@@ -28,6 +29,7 @@ public class MaximumPathSumInMatrixTest {
       };
       Assertions.assertEquals(25, classObj.getMaxPathSum(matrix));
       Assertions.assertEquals(25, classObj.getMaxPathSumTabulation(matrix));
+      Assertions.assertEquals(25, classObj.getMaxPathSumSpaceOptimisation(matrix));
    }
 
    @Test
@@ -39,6 +41,7 @@ public class MaximumPathSumInMatrixTest {
       };
       Assertions.assertEquals(17, classObj.getMaxPathSum(matrix));
       Assertions.assertEquals(17, classObj.getMaxPathSumTabulation(matrix));
+      Assertions.assertEquals(17, classObj.getMaxPathSumSpaceOptimisation(matrix));
    }
 
    @Test
@@ -51,6 +54,7 @@ public class MaximumPathSumInMatrixTest {
       };
       Assertions.assertEquals(74, classObj.getMaxPathSum(matrix));
       Assertions.assertEquals(74, classObj.getMaxPathSumTabulation(matrix));
+      Assertions.assertEquals(74, classObj.getMaxPathSumSpaceOptimisation(matrix));
    }
 
    @Test
@@ -64,5 +68,6 @@ public class MaximumPathSumInMatrixTest {
       };
       Assertions.assertEquals(-19200, classObj.getMaxPathSum(matrix));
       Assertions.assertEquals(-19200, classObj.getMaxPathSumTabulation(matrix));
+      Assertions.assertEquals(-19200, classObj.getMaxPathSumSpaceOptimisation(matrix));
    }
 }
