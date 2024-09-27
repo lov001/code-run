@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum chocolate pickup using tabulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToKTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ChocolatePickupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ChocolatePickupTest">
+  <component name="RunManager" selected="Gradle.SubsetSumEqualToKTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -494,30 +494,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="MaximumPathSumInMatrixTest.test_getMaxPathSum_expect19200_when5x5Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -542,21 +518,45 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SubsetSumEqualToKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetSumEqualToKTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.SubsetSumEqualToKTest" />
       <item itemvalue="Gradle.ChocolatePickupTest" />
       <item itemvalue="Gradle.ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid" />
       <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
-      <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
       <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect19200_when5x5Matrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubsetSumEqualToKTest" />
         <item itemvalue="Gradle.ChocolatePickupTest" />
         <item itemvalue="Gradle.ChocolatePickupTest.test_maximumChocolates_expect21_when3x4Grid" />
         <item itemvalue="Gradle.MaximumPathSumInMatrixTest" />
         <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect19200_when5x5Matrix" />
-        <item itemvalue="Gradle.MaximumPathSumInMatrixTest.test_getMaxPathSum_expect105_when4x4Matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="475" />
+    <option name="localTasksCounter" value="476" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: frog jump with at max k steps" />
     <MESSAGE value="[practice/dynamic-programming]: brute force recursive solution" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with memoization" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum chocolate pickup using tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2596,6 +2596,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ChocolatePickup.java</url>
           <line>61</line>
           <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToK.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="666" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
