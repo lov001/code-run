@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: subset sum with target equal to k with memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: subset sum with target equal to k with tabulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToKTest.java" afterDir="false" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="478" />
+    <option name="localTasksCounter" value="479" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum sum of non-adjacent elements with tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: house robber 2 with recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: house robber 2 with tabulation" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: subset sum with target equal to k with memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2599,7 +2599,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/SubsetSumEqualToK.java</url>
-          <line>36</line>
+          <line>58</line>
           <option name="timeStamp" value="666" />
         </line-breakpoint>
       </breakpoints>

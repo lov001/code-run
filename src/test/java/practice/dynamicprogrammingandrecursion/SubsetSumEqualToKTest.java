@@ -12,6 +12,7 @@ public class SubsetSumEqualToKTest {
       int[] input = {4, 3, 2, 1};
       Assertions.assertTrue(classObj.subsetSumToK(4, 5, input));
       Assertions.assertTrue(classObj.subsetSumToKUsingTabulation(4, 5, input));
+      Assertions.assertTrue(classObj.subsetSumToKUsingSpaceOptimisation(4, 5, input));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class SubsetSumEqualToKTest {
       int[] input = {2, 5, 1, 6, 7};
       Assertions.assertFalse(classObj.subsetSumToK(5, 4, input));
       Assertions.assertFalse(classObj.subsetSumToKUsingTabulation(5, 4, input));
+      Assertions.assertFalse(classObj.subsetSumToKUsingSpaceOptimisation(5, 4, input));
    }
 
    @Test
@@ -26,6 +28,7 @@ public class SubsetSumEqualToKTest {
       int[] input = {6, 1, 2, 1};
       Assertions.assertTrue(classObj.subsetSumToK(4, 4, input));
       Assertions.assertTrue(classObj.subsetSumToKUsingTabulation(4, 4, input));
+      Assertions.assertTrue(classObj.subsetSumToKUsingSpaceOptimisation(4, 4, input));
    }
 
    @Test
@@ -33,5 +36,6 @@ public class SubsetSumEqualToKTest {
       int[] input = {1, 7, 2, 9, 10};
       Assertions.assertFalse(classObj.subsetSumToK(5, 6, input));
       Assertions.assertFalse(classObj.subsetSumToKUsingTabulation(5, 6, input));
+      Assertions.assertFalse(classObj.subsetSumToKUsingSpaceOptimisation(5, 6, input));
    }
 }

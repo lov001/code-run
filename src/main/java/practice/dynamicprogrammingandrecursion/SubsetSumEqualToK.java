@@ -25,6 +25,28 @@ public class SubsetSumEqualToK {
       return dp[n - 1][k];
    }
 
+   public boolean subsetSumToKUsingSpaceOptimisation(int n, int k, int[] arr) {
+      boolean[] previous = new boolean[k + 1];
+      previous[0] = true;
+      if (arr[0] <= k) {
+         previous[arr[0]] = true;
+      }
+      for (int index = 1; index < n; index++) {
+         boolean[] current = new boolean[k + 1];
+         current[0] = true;
+         for (int target = 1; target <= k; target++) {
+            boolean notPick = previous[target];
+            boolean pick = false;
+            if (target >= arr[index]) {
+               pick = previous[target - arr[index]];
+            }
+            current[target] = notPick || pick;
+         }
+         previous = current;
+      }
+      return previous[k];
+   }
+
    public boolean subsetSumToK(int n, int k, int[] arr) {
       int[][] dp = new int[n][k + 1];
       for (int[] a : dp) {
