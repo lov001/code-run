@@ -24,4 +24,10 @@ public class CountSubsetsWithSumKTest {
       int[] input = {2, 34, 5};
       Assertions.assertEquals(0, classObj.findWays(input, 40));
    }
+
+   @Test
+   void test_findWays_expect2_whenNis3AndTargetIs4() {
+      int[] input = {0, 1, 3};
+      Assertions.assertEquals(2, classObj.findWays(input, 4));
+   }
 }

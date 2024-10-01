@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: array partition with minimum difference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumKTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: count subsets with sum as K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumKTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +402,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayPartitionWithMinimumDifferenceTest">
+  <component name="RunManager" selected="Gradle.CountSubsetsWithSumKTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ChocolatePickupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountSubsetsWithSumKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -483,7 +483,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ChocolatePickupTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CountSubsetsWithSumKTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountSubsetsWithSumKTest.test_findWays_expect2_whenNis3AndTargetIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CountSubsetsWithSumKTest.test_findWays_expect2_whenNis3AndTargetIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -518,45 +542,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubsetSumEqualToKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.SubsetSumEqualToKTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.ArrayPartitionWithMinimumDifferenceTest" />
       <item itemvalue="Gradle.ArrayPartitionWithMinimumDifferenceTest.test_minSubsetSumDifference_expect0_whenNIs4" />
+      <item itemvalue="Gradle.CountSubsetsWithSumKTest" />
+      <item itemvalue="Gradle.CountSubsetsWithSumKTest.test_findWays_expect2_whenNis3AndTargetIs4" />
       <item itemvalue="Gradle.PartitionEqualSubsetSumTest" />
-      <item itemvalue="Gradle.SubsetSumEqualToKTest" />
-      <item itemvalue="Gradle.ChocolatePickupTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CountSubsetsWithSumKTest" />
+        <item itemvalue="Gradle.CountSubsetsWithSumKTest.test_findWays_expect2_whenNis3AndTargetIs4" />
         <item itemvalue="Gradle.ArrayPartitionWithMinimumDifferenceTest" />
         <item itemvalue="Gradle.ArrayPartitionWithMinimumDifferenceTest.test_minSubsetSumDifference_expect0_whenNIs4" />
         <item itemvalue="Gradle.PartitionEqualSubsetSumTest" />
-        <item itemvalue="Gradle.SubsetSumEqualToKTest" />
-        <item itemvalue="Gradle.ChocolatePickupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="482" />
+    <option name="localTasksCounter" value="483" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: ninja training with recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: fixed one failing test case" />
     <MESSAGE value="[practice/dynamic-programming]: ninja training using tabulation method" />
     <MESSAGE value="[practice/dynamic-programming]: ninja training using space optimisation" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: partition equal subset sum" />
     <MESSAGE value="[practice/dynamic-programming]: array partition with minimum difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: array partition with minimum difference" />
+    <MESSAGE value="[practice/dynamic-programming]: count subsets with sum as K" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: count subsets with sum as K" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2621,6 +2621,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ArrayPartitionWithMinimumDifference.java</url>
           <line>13</line>
           <option name="timeStamp" value="670" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumK.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="671" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
