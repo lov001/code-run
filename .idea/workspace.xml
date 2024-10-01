@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: partition equal subset sum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ArrayPartitionWithMinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ArrayPartitionWithMinimumDifferenceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: array partition with minimum difference">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountSubsetsWithSumKTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="481" />
+    <option name="localTasksCounter" value="482" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: house robber 2 with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: ninja training with recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: fixed one failing test case" />
     <MESSAGE value="[practice/dynamic-programming]: ninja training using tabulation method" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: partition equal subset sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: partition equal subset sum" />
+    <MESSAGE value="[practice/dynamic-programming]: array partition with minimum difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: array partition with minimum difference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
