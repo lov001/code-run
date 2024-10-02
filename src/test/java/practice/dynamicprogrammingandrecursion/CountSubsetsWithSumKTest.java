@@ -12,6 +12,7 @@ public class CountSubsetsWithSumKTest {
       int[] input = {1, 1, 4, 5};
       Assertions.assertEquals(3, classObj.findWays(input, 5));
       Assertions.assertEquals(3, classObj.findWaysTabulation(input, 5));
+      Assertions.assertEquals(3, classObj.findWaysSpaceOptimisation(input, 5));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class CountSubsetsWithSumKTest {
       int[] input = {1, 1, 1};
       Assertions.assertEquals(3, classObj.findWays(input, 2));
       Assertions.assertEquals(3, classObj.findWaysTabulation(input, 2));
+      Assertions.assertEquals(3, classObj.findWaysSpaceOptimisation(input, 2));
    }
 
    @Test
@@ -26,6 +28,7 @@ public class CountSubsetsWithSumKTest {
       int[] input = {2, 34, 5};
       Assertions.assertEquals(0, classObj.findWays(input, 40));
       Assertions.assertEquals(0, classObj.findWaysTabulation(input, 40));
+      Assertions.assertEquals(0, classObj.findWaysSpaceOptimisation(input, 40));
    }
 
    @Test
@@ -33,5 +36,6 @@ public class CountSubsetsWithSumKTest {
       int[] input = {0, 1, 3};
       Assertions.assertEquals(1, classObj.findWays(input, 4));
       Assertions.assertEquals(2, classObj.findWaysTabulation(input, 4));
+      Assertions.assertEquals(1, classObj.findWaysSpaceOptimisation(input, 4));
    }
 }

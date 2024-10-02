@@ -26,6 +26,29 @@ public class CountSubsetsWithSumK {
       return dp[n - 1][target];
    }
 
+   public int findWaysSpaceOptimisation(int[] nums, int k) {
+      int n = nums.length;
+      int[] previous = new int[k + 1];
+      previous[0] = 1;
+      if (nums[0] <= k) {
+         previous[nums[0]] = 1;
+      }
+      for (int index = 1; index < n; index++) {
+         int[] current = new int[k + 1];
+         current[0] = 1;
+         for (int target = 1; target <= k; target++) {
+            int notPick = previous[target];
+            int pick = 0;
+            if (nums[index] <= target) {
+               pick = previous[target - nums[index]];
+            }
+            current[target] = notPick + pick;
+         }
+         previous = current;
+      }
+      return previous[k];
+   }
+
    public int findWays(int[] nums, int target) {
       int n = nums.length;
       int[][] dp = new int[n][target + 1];
