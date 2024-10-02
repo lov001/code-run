@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: array partition with given difference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/KnapSackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/KnapSackProblemTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: knapsack problem with recursion and memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/KnapSackProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/KnapSackProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/KnapSackProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/KnapSackProblemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="488" />
+    <option name="localTasksCounter" value="489" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: unique paths in a grid using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum using memoization and tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum path sum using space optimisation" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: count subsets with sum as K with space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: count subsets with sum as K fixed edge cases" />
     <MESSAGE value="[practice/dynamic-programming]: array partition with given difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: array partition with given difference" />
+    <MESSAGE value="[practice/dynamic-programming]: knapsack problem with recursion and memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: knapsack problem with recursion and memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
