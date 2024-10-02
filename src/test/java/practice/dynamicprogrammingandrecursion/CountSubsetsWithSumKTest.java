@@ -34,7 +34,7 @@ public class CountSubsetsWithSumKTest {
    @Test
    void test_findWays_expect2_whenNis3AndTargetIs4() {
       int[] input = {0, 1, 3};
-      Assertions.assertEquals(1, classObj.findWays(input, 4));
+      Assertions.assertEquals(2, classObj.findWays(input, 4));
       Assertions.assertEquals(2, classObj.findWaysTabulation(input, 4));
       Assertions.assertEquals(1, classObj.findWaysSpaceOptimisation(input, 4));
    }

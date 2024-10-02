@@ -55,24 +55,29 @@ public class CountSubsetsWithSumK {
       for (int[] rows : dp) {
          Arrays.fill(rows, -1);
       }
-      return helper(n - 1, target, nums, dp);
+      int m = (int)(1e9+7);
+      return helper(n - 1, target, nums, dp) % m;
    }
 
    private int helper(int index, int target, int[] nums, int[][] dp) {
-      if (target == 0) {
-         return 1;
-      }
-      if (index < 0) {
+      if (index == 0) {
+         if (target == 0 && nums[0] == 0) {
+            return 2;
+         }
+         if (target == 0 || target == nums[index]) {
+            return 1;
+         }
          return 0;
       }
       if (dp[index][target] != -1) {
          return dp[index][target];
       }
+      int m = (int)(1e9+7);
 
-      int notPick = helper(index - 1, target, nums, dp);
+      int notPick = helper(index - 1, target, nums, dp) % m;
       int pick = 0;
       if (nums[index] <= target) {
-         pick = helper(index - 1, target - nums[index], nums, dp);
+         pick = helper(index - 1, target - nums[index], nums, dp) % m;
       }
       return dp[index][target] = notPick + pick;
    }
