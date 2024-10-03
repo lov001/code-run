@@ -12,6 +12,7 @@ public class MinimumElementsTest {
       int[] input = {1, 2, 3};
       Assertions.assertEquals(3, classObj.minimumElements(input, 7));
       Assertions.assertEquals(3, classObj.minimumElementsUsingTabulation(input, 7));
+      Assertions.assertEquals(3, classObj.minimumElementsUsingSpaceOptimisation(input, 7));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class MinimumElementsTest {
       int[] input = {1};
       Assertions.assertEquals(0, classObj.minimumElements(input, 0));
       Assertions.assertEquals(0, classObj.minimumElementsUsingTabulation(input, 0));
+      Assertions.assertEquals(0, classObj.minimumElementsUsingSpaceOptimisation(input, 0));
    }
 
    @Test
@@ -26,6 +28,7 @@ public class MinimumElementsTest {
       int[] input = {12, 1, 3};
       Assertions.assertEquals(2, classObj.minimumElements(input, 4));
       Assertions.assertEquals(2, classObj.minimumElementsUsingTabulation(input, 4));
+      Assertions.assertEquals(2, classObj.minimumElementsUsingSpaceOptimisation(input, 4));
    }
 
    @Test
@@ -33,5 +36,6 @@ public class MinimumElementsTest {
       int[] input = {2, 1};
       Assertions.assertEquals(6, classObj.minimumElements(input, 11));
       Assertions.assertEquals(6, classObj.minimumElementsUsingTabulation(input, 11));
+      Assertions.assertEquals(6, classObj.minimumElementsUsingSpaceOptimisation(input, 11));
    }
 }

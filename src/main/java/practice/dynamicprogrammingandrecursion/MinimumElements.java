@@ -28,6 +28,32 @@ public class MinimumElements {
       return result >= (int) 1e9 ? -1 : result;
    }
 
+   public int minimumElementsUsingSpaceOptimisation(int[] num, int x) {
+      int n = num.length;
+      int[] previous = new int[x + 1];
+      for (int T = 0; T <= x; T++) {
+         if (T % num[0] == 0) {
+            previous[T] = T / num[0];
+         } else {
+            previous[T] = (int) 1e9;
+         }
+      }
+      for (int index = 1; index < n; index++) {
+         int[] current = new int[x + 1];
+         for (int target = 0; target <= x; target++) {
+            int notPick = previous[target];
+            int pick = Integer.MAX_VALUE;
+            if (target >= num[index]) {
+               pick = 1 + current[target - num[index]];
+            }
+            current[target] = Math.min(notPick, pick);
+         }
+         previous = current;
+      }
+      int result = previous[x];
+      return result >= (int) 1e9 ? -1 : result;
+   }
+
    public int minimumElements(int[] num, int x) {
       int n = num.length;
       int[][] dp = new int[n][x + 1];
