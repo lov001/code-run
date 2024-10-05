@@ -7,6 +7,10 @@ import java.util.Queue;
 
 public class LevelOrderTraversal {
 
+   /*
+      TC: O(N)
+      SC: O(N)
+    */
    public List<List<Integer>> levelOrder(BinaryTreeNode root) {
       List<List<Integer>> traversal = new ArrayList<>();
       if (root == null) {
