@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/TreeTraversalInOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/TreeTraversalInOneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PostOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PostOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -447,30 +447,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -485,30 +461,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.trees.PostOrderTraversalTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,21 +495,69 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TreeTraversalInOneTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.TreeTraversalInOneTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.InOrderTraversalTest" />
-      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
       <item itemvalue="Gradle.PostOrderTraversalTest" />
-      <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" />
       <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
+      <item itemvalue="Gradle.TreeTraversalInOneTest" />
+      <item itemvalue="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" />
+        <item itemvalue="Gradle.TreeTraversalInOneTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest" />
         <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
         <item itemvalue="Gradle.InOrderTraversalTest" />
-        <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" />
-        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="502" />
+    <option name="localTasksCounter" value="503" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with memoization" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: partition equal subset sum" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: pre order traversal using iterative method" />
     <MESSAGE value="[practice/dynamic-programming]: inorder traversal using iterative method" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks" />
+    <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2669,9 +2669,9 @@
           <option name="timeStamp" value="687" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="688" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/TreeTraversalInOne.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="689" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
