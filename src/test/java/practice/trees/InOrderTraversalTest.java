@@ -15,17 +15,22 @@ public class InOrderTraversalTest {
       BinaryTreeNode right = new BinaryTreeNode(2, left, null);
       BinaryTreeNode root = new BinaryTreeNode(1, null, right);
       Assertions.assertEquals(Arrays.asList(1, 3, 2), InOrderTraversal.inOrderTraversal(root));
+      Assertions.assertEquals(Arrays.asList(1, 3, 2),
+         InOrderTraversal.inOrderTraversalIterative(root));
    }
 
    @Test
    void test_inorderTraversal_expectEmptyList_whenTreeHasNoNodes() {
       Assertions.assertEquals(Collections.emptyList(), InOrderTraversal.inOrderTraversal(null));
+      Assertions.assertEquals(Collections.emptyList(),
+         InOrderTraversal.inOrderTraversalIterative(null));
    }
 
    @Test
    void test_inorderTraversal_expectOnlyRootNode_whenTreeHasOnlyRootNode() {
       BinaryTreeNode root = new BinaryTreeNode(1, null, null);
       Assertions.assertEquals(List.of(1), InOrderTraversal.inOrderTraversal(root));
+      Assertions.assertEquals(List.of(1), InOrderTraversal.inOrderTraversalIterative(root));
    }
 
    @Test
@@ -39,6 +44,8 @@ public class InOrderTraversalTest {
 
       Assertions.assertEquals(List.of(8, 14, 25, 28, 30, 50),
          InOrderTraversal.inOrderTraversal(tree1));
+      Assertions.assertEquals(List.of(8, 14, 25, 28, 30, 50),
+         InOrderTraversal.inOrderTraversalIterative(tree1));
    }
 
 }
