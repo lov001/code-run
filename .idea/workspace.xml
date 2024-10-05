@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: target sum using partition difference solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/NMeetingsInOneRoomTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: N meetings in one room">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NMeetingsInOneRoomTest">
+  <component name="RunManager" selected="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -423,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JobSequencingProblemTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +436,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumElementsTest&quot;" />
+            <option value="&quot;practice.greedy.JobSequencingProblemTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumElementsTest.test_minimumElements_expect3_whenNIs3AndTargetIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +460,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumElementsTest.test_minimumElements_expect3_whenNIs3AndTargetIs7&quot;" />
+            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,45 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TargetSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.TargetSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MinimumElementsTest" />
-      <item itemvalue="Gradle.MinimumElementsTest.test_minimumElements_expect3_whenNIs3AndTargetIs7" />
+      <item itemvalue="Gradle.JobSequencingProblemTest" />
+      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
+      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
       <item itemvalue="Gradle.NMeetingsInOneRoomTest" />
       <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
-      <item itemvalue="Gradle.TargetSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
+        <item itemvalue="Gradle.JobSequencingProblemTest" />
+        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
         <item itemvalue="Gradle.NMeetingsInOneRoomTest" />
         <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
-        <item itemvalue="Gradle.TargetSumTest" />
-        <item itemvalue="Gradle.MinimumElementsTest" />
-        <item itemvalue="Gradle.MinimumElementsTest.test_minimumElements_expect3_whenNIs3AndTargetIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="495" />
+    <option name="localTasksCounter" value="496" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: minimum path sum in triangle using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: target sum using partition difference solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: target sum using partition difference solution" />
+    <MESSAGE value="[practice/dynamic-programming]: N meetings in one room" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: N meetings in one room" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2642,6 +2642,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java</url>
           <line>15</line>
           <option name="timeStamp" value="678" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="679" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="683" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="684" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="685" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="686" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
