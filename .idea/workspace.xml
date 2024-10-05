@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: N meetings in one room">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: level order traversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PreOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +404,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4">
+  <component name="RunManager" selected="Gradle.PreOrderTraversalTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -495,7 +496,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NMeetingsInOneRoomTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +509,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.NMeetingsInOneRoomTest&quot;" />
+            <option value="&quot;practice.trees.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,7 +520,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -532,7 +533,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6&quot;" />
+            <option value="&quot;practice.trees.PreOrderTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -548,16 +549,16 @@
       <item itemvalue="Gradle.JobSequencingProblemTest" />
       <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
       <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
-      <item itemvalue="Gradle.NMeetingsInOneRoomTest" />
-      <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
+      <item itemvalue="Gradle.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" />
+      <item itemvalue="Gradle.PreOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PreOrderTraversalTest" />
+        <item itemvalue="Gradle.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
         <item itemvalue="Gradle.JobSequencingProblemTest" />
         <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
-        <item itemvalue="Gradle.NMeetingsInOneRoomTest" />
-        <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +914,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="496" />
+    <option name="localTasksCounter" value="498" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,8 +929,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end" />
-    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using tabulation" />
@@ -953,7 +952,9 @@
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: target sum using partition difference solution" />
     <MESSAGE value="[practice/dynamic-programming]: N meetings in one room" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: N meetings in one room" />
+    <MESSAGE value="[practice/dynamic-programming]: job sequencing problem" />
+    <MESSAGE value="[practice/dynamic-programming]: level order traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: level order traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
