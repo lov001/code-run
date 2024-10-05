@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: level order traversal">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: inorder traversal using iterative method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PreOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/InOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/InOrderTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PostOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PostOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +405,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PreOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.PostOrderTraversalTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -424,7 +425,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSequencingProblemTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -437,7 +438,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.JobSequencingProblemTest&quot;" />
+            <option value="&quot;practice.trees.InOrderTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -448,7 +449,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -461,7 +462,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4&quot;" />
+            <option value="&quot;practice.trees.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -472,7 +473,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +486,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4&quot;" />
+            <option value="&quot;practice.trees.PostOrderTraversalTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -496,7 +497,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -509,7 +510,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5&quot;" />
+            <option value="&quot;practice.trees.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,7 +521,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PreOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -533,7 +534,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.PreOrderTraversalTest&quot;" />
+            <option value="&quot;practice.trees.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -546,19 +547,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.JobSequencingProblemTest" />
-      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
-      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
-      <item itemvalue="Gradle.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" />
-      <item itemvalue="Gradle.PreOrderTraversalTest" />
+      <item itemvalue="Gradle.InOrderTraversalTest" />
+      <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
+      <item itemvalue="Gradle.PostOrderTraversalTest" />
+      <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" />
+      <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PreOrderTraversalTest" />
-        <item itemvalue="Gradle.LevelOrderTraversalTest.test_levelOrder_expectTraversedList_whenNoOfNodeIs5" />
-        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling1_expect2And60_whenNIs4" />
-        <item itemvalue="Gradle.JobSequencingProblemTest" />
-        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And60_whenNIs4" />
+        <item itemvalue="Gradle.PostOrderTraversalTest" />
+        <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
+        <item itemvalue="Gradle.InOrderTraversalTest" />
+        <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasMultipleNodes_" />
+        <item itemvalue="Gradle.InOrderTraversalTest.test_inorderTraversal_expectOrderedList_whenTreeHasNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -914,7 +915,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="498" />
+    <option name="localTasksCounter" value="501" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -929,9 +930,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a matrix with variable start and end using space optimisation" />
-    <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using recursion and memoization" />
-    <MESSAGE value="[practice/dynamic-programming]: maximum chocolate pickup using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with memoization" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
@@ -954,7 +952,10 @@
     <MESSAGE value="[practice/dynamic-programming]: N meetings in one room" />
     <MESSAGE value="[practice/dynamic-programming]: job sequencing problem" />
     <MESSAGE value="[practice/dynamic-programming]: level order traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: level order traversal" />
+    <MESSAGE value="[practice/dynamic-programming]: level order traversal time complexity added" />
+    <MESSAGE value="[practice/dynamic-programming]: pre order traversal using iterative method" />
+    <MESSAGE value="[practice/dynamic-programming]: inorder traversal using iterative method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: inorder traversal using iterative method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1708,11 +1709,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/ValidateBSTTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="388" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="389" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/utils/BinaryTreeHeightTest.java</url>
@@ -2668,6 +2664,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
           <line>36</line>
           <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="687" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/PostOrderTraversal.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="688" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
