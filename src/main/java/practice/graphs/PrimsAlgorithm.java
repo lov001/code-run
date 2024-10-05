@@ -12,7 +12,6 @@ public class PrimsAlgorithm {
       priorityQueue.add(new Triplet(0, 0, -1));
       int minimumWeight = 0;
       int[] visited = new int[V];
-      System.out.println();
       while (!priorityQueue.isEmpty()) {
          Triplet triplet = priorityQueue.poll();
          int wt = triplet.first;
