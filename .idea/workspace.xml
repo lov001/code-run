@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/TreeTraversalInOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/TreeTraversalInOneTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: all tree traversal in one">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CoinChangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes">
+  <component name="RunManager" selected="Gradle.CoinChangeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -423,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoinChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +436,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.InOrderTraversalTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinChangeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PostOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoinChangeTest.test_countWaysToMakeChange_expect0_whenNis3AndValueIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +460,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.PostOrderTraversalTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinChangeTest.test_countWaysToMakeChange_expect0_whenNis3AndValueIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -471,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoinChangeTest.test_countWaysToMakeChange_expect4_whenNis3AndValueIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -484,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinChangeTest.test_countWaysToMakeChange_expect4_whenNis3AndValueIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.InOrderTraversalTest" />
-      <item itemvalue="Gradle.PostOrderTraversalTest" />
-      <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
+      <item itemvalue="Gradle.CoinChangeTest" />
+      <item itemvalue="Gradle.CoinChangeTest.test_countWaysToMakeChange_expect0_whenNis3AndValueIs1" />
+      <item itemvalue="Gradle.CoinChangeTest.test_countWaysToMakeChange_expect4_whenNis3AndValueIs4" />
       <item itemvalue="Gradle.TreeTraversalInOneTest" />
       <item itemvalue="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" />
+        <item itemvalue="Gradle.CoinChangeTest" />
+        <item itemvalue="Gradle.CoinChangeTest.test_countWaysToMakeChange_expect4_whenNis3AndValueIs4" />
+        <item itemvalue="Gradle.CoinChangeTest.test_countWaysToMakeChange_expect0_whenNis3AndValueIs1" />
         <item itemvalue="Gradle.TreeTraversalInOneTest" />
-        <item itemvalue="Gradle.PostOrderTraversalTest" />
-        <item itemvalue="Gradle.PostOrderTraversalTest.test_postOrderTraversal_expectOrderedList_whenTreeHasNodes" />
-        <item itemvalue="Gradle.InOrderTraversalTest" />
+        <item itemvalue="Gradle.TreeTraversalInOneTest.test_preOrderTraversal_expectOrderedList_whenTreeHasNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="503" />
+    <option name="localTasksCounter" value="504" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: subset sum with target equal to k with space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: partition equal subset sum" />
     <MESSAGE value="[practice/dynamic-programming]: array partition with minimum difference" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: inorder traversal using iterative method" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
+    <MESSAGE value="[practice/dynamic-programming]: all tree traversal in one" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: all tree traversal in one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2672,6 +2672,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/TreeTraversalInOne.java</url>
           <line>16</line>
           <option name="timeStamp" value="689" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CoinChange.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="690" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
