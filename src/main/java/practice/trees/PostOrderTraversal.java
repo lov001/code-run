@@ -30,6 +30,34 @@ public class PostOrderTraversal {
       return traversedList;
    }
 
+   public List<Integer> postOrderTraversalIterativeUsing1Stack(BinaryTreeNode root) {
+      List<Integer> traversedList = new ArrayList<>();
+      if (root == null) {
+         return traversedList;
+      }
+      Stack<BinaryTreeNode> stack1 = new Stack<>();
+      BinaryTreeNode current = root;
+      while (current != null || !stack1.isEmpty()) {
+         if (current != null) {
+            stack1.push(current);
+            current = current.left;
+         } else {
+            BinaryTreeNode temp = stack1.peek().right;
+            if (temp == null) {
+               temp = stack1.pop();
+               traversedList.add(temp.data);
+               while (!stack1.isEmpty() && temp == stack1.peek().right) {
+                  temp = stack1.pop();
+                  traversedList.add(temp.data);
+               }
+            } else {
+               current = temp;
+            }
+         }
+      }
+      return traversedList;
+   }
+
    public List<Integer> postOrderTraversal(BinaryTreeNode root) {
       List<Integer> traversedList = new ArrayList<>();
       traverse(root, traversedList);

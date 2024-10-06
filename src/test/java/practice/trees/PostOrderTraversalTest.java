@@ -18,12 +18,14 @@ public class PostOrderTraversalTest {
       BinaryTreeNode root = new BinaryTreeNode(1, null, right);
       Assertions.assertEquals(Arrays.asList(3, 2, 1), classObj.postOrderTraversal(root));
       Assertions.assertEquals(Arrays.asList(3, 2, 1), classObj.postOrderTraversalIterativeUsing2Stacks(root));
+      Assertions.assertEquals(Arrays.asList(3, 2, 1), classObj.postOrderTraversalIterativeUsing1Stack(root));
    }
 
    @Test
    void test_postOrderTraversal_expectEmptyList_whenTreeHasNoNodes() {
       Assertions.assertEquals(Collections.emptyList(), classObj.postOrderTraversal(null));
       Assertions.assertEquals(Collections.emptyList(), classObj.postOrderTraversalIterativeUsing2Stacks(null));
+      Assertions.assertEquals(Collections.emptyList(), classObj.postOrderTraversalIterativeUsing1Stack(null));
    }
 
    @Test
@@ -31,6 +33,7 @@ public class PostOrderTraversalTest {
       BinaryTreeNode root = new BinaryTreeNode(1, null, null);
       Assertions.assertEquals(List.of(1), classObj.postOrderTraversal(root));
       Assertions.assertEquals(List.of(1), classObj.postOrderTraversalIterativeUsing2Stacks(root));
+      Assertions.assertEquals(List.of(1), classObj.postOrderTraversalIterativeUsing1Stack(root));
    }
 
    @Test
@@ -40,6 +43,7 @@ public class PostOrderTraversalTest {
       BinaryTreeNode right = new BinaryTreeNode(3, null, null);
       BinaryTreeNode root = new BinaryTreeNode(1, left, right);
       Assertions.assertEquals(Arrays.asList(2, 4, 3, 1), classObj.postOrderTraversal(root));
+      Assertions.assertEquals(Arrays.asList(2, 4, 3, 1), classObj.postOrderTraversalIterativeUsing1Stack(root));
       Assertions.assertEquals(Arrays.asList(2, 4, 3, 1),
          classObj.postOrderTraversalIterativeUsing2Stacks(root));
    }
@@ -54,6 +58,7 @@ public class PostOrderTraversalTest {
       BinaryTreeNode tree1 = new BinaryTreeNode(25, left1, right1);
 
       Assertions.assertEquals(List.of(8, 14, 28, 50, 30, 25), classObj.postOrderTraversal(tree1));
+      Assertions.assertEquals(List.of(8, 14, 28, 50, 30, 25), classObj.postOrderTraversalIterativeUsing1Stack(tree1));
       Assertions.assertEquals(List.of(8, 14, 28, 50, 30, 25),
          classObj.postOrderTraversalIterativeUsing2Stacks(tree1));
    }
@@ -75,6 +80,8 @@ public class PostOrderTraversalTest {
          List.of(4, 6, 7, 5, 2, 9, 8, 3, 1), classObj.postOrderTraversal(tree1));
       Assertions.assertEquals(
          List.of(4, 6, 7, 5, 2, 9, 8, 3, 1), classObj.postOrderTraversalIterativeUsing2Stacks(tree1));
+      Assertions.assertEquals(
+         List.of(4, 6, 7, 5, 2, 9, 8, 3, 1), classObj.postOrderTraversalIterativeUsing1Stack(tree1));
    }
 
 }
