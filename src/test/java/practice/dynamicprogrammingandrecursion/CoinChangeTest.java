@@ -12,6 +12,7 @@ public class CoinChangeTest {
       int[] denominations = {1, 2, 3};
       Assertions.assertEquals(4, classObj.countWaysToMakeChange(denominations, 4));
       Assertions.assertEquals(4, classObj.countWaysToMakeChangeTabulation(denominations, 4));
+      Assertions.assertEquals(4, classObj.countWaysToMakeChangeSpaceOptimisation(denominations, 4));
    }
 
    @Test
@@ -19,5 +20,6 @@ public class CoinChangeTest {
       int[] denominations = {5, 3, 2};
       Assertions.assertEquals(0, classObj.countWaysToMakeChange(denominations, 1));
       Assertions.assertEquals(0, classObj.countWaysToMakeChangeTabulation(denominations, 1));
+      Assertions.assertEquals(0, classObj.countWaysToMakeChangeSpaceOptimisation(denominations, 1));
    }
 }
