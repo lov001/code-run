@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: maximum depth of a binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/BalancedTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: depth of binary tree using level order traversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/DiameterOfBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/MaxDepthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BalancedTreeTest">
+  <component name="RunManager" selected="Gradle.DiameterOfBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -448,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CoinChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DiameterOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -461,7 +460,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CoinChangeTest&quot;" />
+            <option value="&quot;practice.trees.DiameterOfBinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -547,18 +546,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BalancedTreeTest" />
-      <item itemvalue="Gradle.CoinChangeTest" />
+      <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
       <item itemvalue="Gradle.MaxDepthOfBinaryTreeTest" />
       <item itemvalue="Gradle.UnboundedKnapSackProblemTest" />
       <item itemvalue="Gradle.UnboundedKnapSackProblemTest.test_knapsack_expect27_whenNIs3AndMaxWeightIs10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BalancedTreeTest" />
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
         <item itemvalue="Gradle.MaxDepthOfBinaryTreeTest" />
+        <item itemvalue="Gradle.BalancedTreeTest" />
         <item itemvalue="Gradle.UnboundedKnapSackProblemTest" />
         <item itemvalue="Gradle.UnboundedKnapSackProblemTest.test_knapsack_expect27_whenNIs3AndMaxWeightIs10" />
-        <item itemvalue="Gradle.CoinChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -914,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="510" />
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -929,8 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: count subsets with sum as K with space optimisation" />
-    <MESSAGE value="[practice/dynamic-programming]: count subsets with sum as K fixed edge cases" />
     <MESSAGE value="[practice/dynamic-programming]: array partition with given difference" />
     <MESSAGE value="[practice/dynamic-programming]: knapsack problem with recursion and memoization" />
     <MESSAGE value="[practice/dynamic-programming]: knapsack problem with tabulation and space optimisation" />
@@ -954,7 +951,9 @@
     <MESSAGE value="[practice/dynamic-programming]: unbounded knapsack problem with memoization" />
     <MESSAGE value="[practice/dynamic-programming]: unbounded knapsack problem with tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum depth of a binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: maximum depth of a binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]: balanced binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]: depth of binary tree using level order traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: depth of binary tree using level order traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
