@@ -15,6 +15,7 @@ public class MaxDepthOfBinaryTreeTest {
       BinaryTreeNode left1 = new BinaryTreeNode(9, null, null);
       BinaryTreeNode root = new BinaryTreeNode(3, left1, right1);
       Assertions.assertEquals(3, classObj.maxDepth(root));
+      Assertions.assertEquals(3, classObj.maxDepthLevelOrder(root));
    }
 
    @Test
@@ -22,5 +23,6 @@ public class MaxDepthOfBinaryTreeTest {
       BinaryTreeNode right1 = new BinaryTreeNode(2, null, null);
       BinaryTreeNode root = new BinaryTreeNode(1, null, right1);
       Assertions.assertEquals(2, classObj.maxDepth(root));
+      Assertions.assertEquals(2, classObj.maxDepthLevelOrder(root));
    }
 }
