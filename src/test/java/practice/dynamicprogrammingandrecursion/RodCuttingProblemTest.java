@@ -11,17 +11,23 @@ public class RodCuttingProblemTest {
    void test_cutRod_expect12_whenNIs5() {
       int[] price = {2, 5, 7, 8, 10};
       Assertions.assertEquals(12, classObj.cutRod(price, 5));
+      Assertions.assertEquals(12, classObj.cutRodTabulation(price, 5));
+      Assertions.assertEquals(12, classObj.cutRodSpaceOptimisation(price, 5));
    }
 
    @Test
    void test_cutRod_expect24_whenNIs8() {
       int[] price = {3, 5, 8, 9, 10, 17, 17, 20};
       Assertions.assertEquals(24, classObj.cutRod(price, 8));
+      Assertions.assertEquals(24, classObj.cutRodTabulation(price, 8));
+      Assertions.assertEquals(24, classObj.cutRodSpaceOptimisation(price, 8));
    }
 
    @Test
    void test_cutRod_expect18_whenNIs6() {
       int[] price = {3, 5, 6, 7, 10, 12};
       Assertions.assertEquals(18, classObj.cutRod(price, 6));
+      Assertions.assertEquals(18, classObj.cutRodTabulation(price, 6));
+      Assertions.assertEquals(18, classObj.cutRodSpaceOptimisation(price, 6));
    }
 }
