@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: rod cutting problem using memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/CheckIdenticalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/CheckIdenticalTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RodCuttingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RodCuttingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RodCuttingProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/RodCuttingProblemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +404,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RodCuttingProblemTest">
+  <component name="RunManager" selected="Gradle.CheckIdenticalTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -423,7 +424,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPathSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckIdenticalTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +437,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.MaximumPathSumTest&quot;" />
+            <option value="&quot;practice.trees.CheckIdenticalTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +448,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumPathSumTest.test_maxPathSum_expect42_whenNumberOfNodes5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +461,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.MaximumPathSumTest.test_maxPathSum_expect42_whenNumberOfNodes5&quot;" />
+            <option value="&quot;practice.trees.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +546,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.MaximumPathSumTest" />
-      <item itemvalue="Gradle.MaximumPathSumTest.test_maxPathSum_expect42_whenNumberOfNodes5" />
+      <item itemvalue="Gradle.CheckIdenticalTreeTest" />
+      <item itemvalue="Gradle.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" />
       <item itemvalue="Gradle.MaximumPathSumTest.test_maxPathSum_expectMinus3_whenNumberOfNodes1" />
       <item itemvalue="Gradle.RodCuttingProblemTest" />
       <item itemvalue="Gradle.RodCuttingProblemTest.test_cutRod_expect12_whenNIs5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CheckIdenticalTreeTest" />
+        <item itemvalue="Gradle.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" />
         <item itemvalue="Gradle.RodCuttingProblemTest" />
         <item itemvalue="Gradle.RodCuttingProblemTest.test_cutRod_expect12_whenNIs5" />
         <item itemvalue="Gradle.MaximumPathSumTest.test_maxPathSum_expectMinus3_whenNumberOfNodes1" />
-        <item itemvalue="Gradle.MaximumPathSumTest" />
-        <item itemvalue="Gradle.MaximumPathSumTest.test_maxPathSum_expect42_whenNumberOfNodes5" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +914,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="515" />
+    <option name="localTasksCounter" value="516" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +929,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: generate all possible ip addresses from given string" />
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using space optimisation" />
@@ -953,7 +953,8 @@
     <MESSAGE value="[practice/dynamic-programming]: diameter of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: rod cutting problem using memoization" />
+    <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2700,7 +2701,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RodCuttingProblem.java</url>
-          <line>55</line>
+          <line>54</line>
           <option name="timeStamp" value="697" />
         </line-breakpoint>
       </breakpoints>
