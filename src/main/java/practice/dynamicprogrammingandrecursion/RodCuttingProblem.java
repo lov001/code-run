@@ -29,17 +29,16 @@ public class RodCuttingProblem {
          previous[N] = N * price[0];
       }
       for (int index = 1; index < n; index++) {
-         int[] current = new int[n + 1];
          for (int N = 0; N <= n; N++) {
             int notTake = previous[N];
             int take = Integer.MIN_VALUE;
             int rodLength = index + 1;
             if (rodLength <= N) {
-               take = price[index] + current[N - rodLength];
+               take = price[index] + previous[N - rodLength];
             }
-            current[N] = Math.max(notTake, take);
+            // space optimised further to only one 1D array
+            previous[N] = Math.max(notTake, take);
          }
-         previous = current;
       }
       return previous[n];
    }
