@@ -2,6 +2,7 @@ package practice.trees;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class BoundaryTraversal {
 
@@ -35,10 +36,10 @@ public class BoundaryTraversal {
 
    private void addRightBoundary(BinaryTreeNode node, List<Integer> output) {
       BinaryTreeNode current = node.right;
-      List<Integer> temp = new ArrayList<>();
+      Stack<Integer> stack = new Stack<>();
       while (current != null) {
          if (!isLeafNode(current)) {
-            temp.add(current.data);
+            stack.push(current.data);
          }
          if (current.right != null) {
             current = current.right;
@@ -46,8 +47,8 @@ public class BoundaryTraversal {
             current = current.left;
          }
       }
-      for (int i = temp.size() - 1; i >= 0; --i) {
-         output.add(temp.get(i));
+      while (!stack.isEmpty()) {
+         output.add(stack.pop());
       }
    }
 
