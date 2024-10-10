@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common subsequence among two strings">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequenceTest.java" afterDir="false" />
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="521" />
+    <option name="localTasksCounter" value="522" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: job sequencing problem" />
     <MESSAGE value="[practice/dynamic-programming]: level order traversal" />
     <MESSAGE value="[practice/dynamic-programming]: level order traversal time complexity added" />
     <MESSAGE value="[practice/dynamic-programming]: pre order traversal using iterative method" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common subsequence among two strings" />
+    <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
