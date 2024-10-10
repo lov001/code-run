@@ -4,6 +4,28 @@ import java.util.Arrays;
 
 public class LongestCommonSubsequence {
 
+   public int lcsTabulation(String s, String t) {
+      int n = s.length();
+      int m = t.length();
+      int[][] dp = new int[n + 1][m + 1];
+      for (int j = 0; j <= m; j++) {
+         dp[0][j] = 0;
+      }
+      for (int i = 0; i <= n; i++) {
+         dp[i][0] = 0;
+      }
+      for (int index1 = 1; index1 <= n; index1++) {
+         for (int index2 = 1; index2 <= m; index2++) {
+            if (s.charAt(index1 - 1) == t.charAt(index2 - 1)) {
+               dp[index1][index2] = 1 + dp[index1 - 1][index2 - 1];
+            } else {
+               dp[index1][index2] = Math.max(dp[index1][index2 - 1], dp[index1 - 1][index2]);
+            }
+         }
+      }
+      return dp[n][m];
+   }
+
    public int lcs(String s, String t) {
       int n = s.length();
       int m = t.length();
