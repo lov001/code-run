@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: check if two binary trees are identical or not">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ZigZagTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/ZigZagTraversalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ZigZagTraversalTest">
+  <component name="RunManager" selected="Gradle.LongestCommonSubsequenceTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,6 +422,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BoundaryTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.BoundaryTraversalTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="CheckIdenticalTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -447,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,31 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="RodCuttingProblemTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.RodCuttingProblemTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BoundaryTraversalTest" />
       <item itemvalue="Gradle.CheckIdenticalTreeTest" />
-      <item itemvalue="Gradle.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" />
-      <item itemvalue="Gradle.RodCuttingProblemTest" />
+      <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
       <item itemvalue="Gradle.ZigZagTraversalTest" />
       <item itemvalue="Gradle.ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
+        <item itemvalue="Gradle.BoundaryTraversalTest" />
         <item itemvalue="Gradle.ZigZagTraversalTest" />
         <item itemvalue="Gradle.ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.CheckIdenticalTreeTest" />
-        <item itemvalue="Gradle.CheckIdenticalTreeTest.test_isSame_expectTree_whenTreeIsSame" />
-        <item itemvalue="Gradle.RodCuttingProblemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="517" />
+    <option name="localTasksCounter" value="520" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,9 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using tabulation" />
-    <MESSAGE value="[practice/dynamic-programming]: minimum number of elements required to achieve the target using space optimisation" />
-    <MESSAGE value="[practice/dynamic-programming]: target sum using partition difference solution" />
     <MESSAGE value="[practice/dynamic-programming]: N meetings in one room" />
     <MESSAGE value="[practice/dynamic-programming]: job sequencing problem" />
     <MESSAGE value="[practice/dynamic-programming]: level order traversal" />
@@ -953,7 +950,10 @@
     <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using memoization" />
     <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: check if two binary trees are identical or not" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: check if two binary trees are identical or not" />
+    <MESSAGE value="[practice/dynamic-programming]: zig zag traversal of a binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
