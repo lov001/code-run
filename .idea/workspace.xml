@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: top view of binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/BottomViewOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/BottomViewOfBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: bottom view of binary tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RightViewOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RightViewOfBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TopViewOfBinaryTreeTest">
+  <component name="RunManager" selected="Gradle.RightViewOfBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,6 +422,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BottomViewOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.BottomViewOfBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="LongestCommonSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -447,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightViewOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,31 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3&quot;" />
+            <option value="&quot;practice.trees.RightViewOfBinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.BottomViewOfBinaryTreeTest" />
       <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
-      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
-      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
+      <item itemvalue="Gradle.RightViewOfBinaryTreeTest" />
       <item itemvalue="Gradle.TopViewOfBinaryTreeTest" />
       <item itemvalue="Gradle.VerticalOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RightViewOfBinaryTreeTest" />
+        <item itemvalue="Gradle.BottomViewOfBinaryTreeTest" />
         <item itemvalue="Gradle.TopViewOfBinaryTreeTest" />
         <item itemvalue="Gradle.VerticalOrderTraversalTest" />
         <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
-        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
-        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="526" />
+    <option name="localTasksCounter" value="527" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: inorder traversal using iterative method" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
     <MESSAGE value="[practice/dynamic-programming]: all tree traversal in one" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings" />
     <MESSAGE value="[practice/dynamic-programming]: vertical order traversal of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: top view of binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: top view of binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]: bottom view of binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: bottom view of binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
