@@ -8,20 +8,23 @@ public class LongestCommonSubsequenceTest {
    LongestCommonSubsequence classObj = new LongestCommonSubsequence();
 
    @Test
-   void test_lcs_expect3_whenBothStringsOfLength5() {
-      String s1 = "adebc";
-      String s2 = "dcadb";
-      Assertions.assertEquals(3, classObj.lcs(s1, s2));
-      Assertions.assertEquals(3, classObj.lcsTabulation(s1, s2));
-      Assertions.assertEquals(3, classObj.lcsSpaceOptimisation(s1, s2));
+   void test_findLcs_expectBAB_whenStringsOfLength5And4() {
+      String s1 = "abcab";
+      String s2 = "cbab";
+      Assertions.assertEquals("cab", classObj.findLCS(5, 4, s1, s2));
    }
 
    @Test
-   void test_lcs_expect0_whenStringsOfLength2And4() {
-      String s1 = "ab";
-      String s2 = "defg";
-      Assertions.assertEquals(0, classObj.lcs(s1, s2));
-      Assertions.assertEquals(0, classObj.lcsTabulation(s1, s2));
-      Assertions.assertEquals(0, classObj.lcsSpaceOptimisation(s1, s2));
+   void test_findLcs_expectBBA_whenStringsOfLength5And6() {
+      String s1 = "ababa";
+      String s2 = "cbbcad";
+      Assertions.assertEquals("bba", classObj.findLCS(5, 6, s1, s2));
+   }
+
+   @Test
+   void test_findLcs_expectEmptyString_whenStringsOfLength3And3() {
+      String s1 = "xyz";
+      String s2 = "abc";
+      Assertions.assertEquals("", classObj.findLCS(3, 3, s1, s2));
    }
 }

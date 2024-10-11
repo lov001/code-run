@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LengthOfLongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestCommonSubsequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequenceTest.java" afterDir="false" />
@@ -396,8 +398,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
+      <recent name="practice.trees" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
       <recent name="practice.queue" />
@@ -447,30 +449,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CheckIdenticalTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.CheckIdenticalTreeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="LongestCommonSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -495,7 +473,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ZigZagTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +486,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.ZigZagTraversalTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,7 +497,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -532,7 +510,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -546,18 +548,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.BoundaryTraversalTest" />
-      <item itemvalue="Gradle.CheckIdenticalTreeTest" />
       <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
-      <item itemvalue="Gradle.ZigZagTraversalTest" />
-      <item itemvalue="Gradle.ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5" />
+      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" />
+      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
+      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
+        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
+        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
+        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" />
         <item itemvalue="Gradle.BoundaryTraversalTest" />
-        <item itemvalue="Gradle.ZigZagTraversalTest" />
-        <item itemvalue="Gradle.ZigZagTraversalTest.test_zigZagTraversal_expectTraversedList_whenNoOfNodeIs5" />
-        <item itemvalue="Gradle.CheckIdenticalTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +915,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="522" />
+    <option name="localTasksCounter" value="523" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +930,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: level order traversal" />
     <MESSAGE value="[practice/dynamic-programming]: level order traversal time complexity added" />
     <MESSAGE value="[practice/dynamic-programming]: pre order traversal using iterative method" />
     <MESSAGE value="[practice/dynamic-programming]: inorder traversal using iterative method" />
@@ -953,7 +954,8 @@
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2702,6 +2704,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/RodCuttingProblem.java</url>
           <line>54</line>
           <option name="timeStamp" value="697" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonSubsequence.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="701" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
