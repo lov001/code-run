@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: vertical order traversal of binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/VerticalOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/VerticalOrderTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/TopViewOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/TopViewOfBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,14 +396,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VerticalOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.TopViewOfBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -437,30 +437,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,6 +495,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TopViewOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.TopViewOfBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="VerticalOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -546,18 +546,18 @@
     <list>
       <item itemvalue="Application.Coding Problems" />
       <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
-      <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" />
       <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
       <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
+      <item itemvalue="Gradle.TopViewOfBinaryTreeTest" />
       <item itemvalue="Gradle.VerticalOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TopViewOfBinaryTreeTest" />
         <item itemvalue="Gradle.VerticalOrderTraversalTest" />
         <item itemvalue="Gradle.LongestCommonSubsequenceTest" />
         <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBBA_whenStringsOfLength5And6" />
         <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectEmptyString_whenStringsOfLength3And3" />
-        <item itemvalue="Gradle.LongestCommonSubsequenceTest.test_findLcs_expectBAB_whenStringsOfLength5And4" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="524" />
+    <option name="localTasksCounter" value="525" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
