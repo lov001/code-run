@@ -20,7 +20,7 @@ public class LeftViewOfBinaryTreeTest {
       List<Integer> actual = classObj.printLeftViewIterative(tree1);
       Assertions.assertEquals(3, actual.size());
       Assertions.assertEquals(List.of(1, 2, 5), actual);
-      Assertions.assertEquals(List.of(1, 2, 5), classObj.printLeftViewIterative(tree1));
+      Assertions.assertEquals(List.of(1, 2, 5), classObj.printLeftViewRecursive(tree1));
    }
 
 
@@ -32,7 +32,7 @@ public class LeftViewOfBinaryTreeTest {
       List<Integer> actual = classObj.printLeftViewIterative(tree1);
       Assertions.assertEquals(2, actual.size());
       Assertions.assertEquals(List.of(1, 3), actual);
-      Assertions.assertEquals(List.of(1, 3), classObj.printLeftViewIterative(tree1));
+      Assertions.assertEquals(List.of(1, 3), classObj.printLeftViewRecursive(tree1));
    }
 
    @Test
@@ -40,7 +40,7 @@ public class LeftViewOfBinaryTreeTest {
       List<Integer> actual = classObj.printLeftViewIterative(null);
       Assertions.assertEquals(0, actual.size());
       Assertions.assertEquals(Collections.emptyList(), actual);
-      Assertions.assertEquals(List.of(), classObj.printLeftViewIterative(null));
+      Assertions.assertEquals(List.of(), classObj.printLeftViewRecursive(null));
    }
 
    @Test
@@ -56,7 +56,7 @@ public class LeftViewOfBinaryTreeTest {
       List<Integer> actual = classObj.printLeftViewIterative(tree1);
       Assertions.assertEquals(3, actual.size());
       Assertions.assertEquals(List.of(2, 35, 2), actual);
-      Assertions.assertEquals(List.of(2, 35, 2), classObj.printLeftViewIterative(tree1));
+      Assertions.assertEquals(List.of(2, 35, 2), classObj.printLeftViewRecursive(tree1));
    }
 
    @Test
@@ -71,7 +71,7 @@ public class LeftViewOfBinaryTreeTest {
       List<Integer> actual = classObj.printLeftViewIterative(tree1);
       Assertions.assertEquals(3, actual.size());
       Assertions.assertEquals(List.of(1, 2, 4), actual);
-      Assertions.assertEquals(List.of(1, 2, 4), classObj.printLeftViewIterative(tree1));
+      Assertions.assertEquals(List.of(1, 2, 4), classObj.printLeftViewRecursive(tree1));
    }
 
 }

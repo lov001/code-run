@@ -9,6 +9,26 @@ import java.util.TreeMap;
 
 public class LeftViewOfBinaryTree {
 
+   public List<Integer> printLeftViewRecursive(BinaryTreeNode root) {
+      List<Integer> output = new ArrayList<>();
+      helper(root, 0, output);
+      for (Integer data : output) {
+         System.out.print(data + " ");
+      }
+      return output;
+   }
+
+   private void helper(BinaryTreeNode node, int level, List<Integer> output) {
+      if (node == null) {
+         return;
+      }
+      if (output.size() == level) {
+         output.add(node.data);
+      }
+      helper(node.left, level + 1, output);
+      helper(node.right, level + 1, output);
+   }
+
    public List<Integer> printLeftViewIterative(BinaryTreeNode root) {
       List<Integer> output = new ArrayList<>();
       if (root == null) {
