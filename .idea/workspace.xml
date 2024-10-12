@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: bottom view of binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RightViewOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RightViewOfBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: right view of binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/RightViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RightViewOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/RightViewOfBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RightViewOfBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 2 stacks" />
     <MESSAGE value="[practice/dynamic-programming]: postorder traversal using iterative method with 1 stack" />
     <MESSAGE value="[practice/dynamic-programming]: all tree traversal in one" />
     <MESSAGE value="[practice/dynamic-programming]: number of ways in coins can make the amount" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: vertical order traversal of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: top view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: bottom view of binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: bottom view of binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]: right view of binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: right view of binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
