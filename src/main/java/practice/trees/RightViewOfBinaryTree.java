@@ -10,7 +10,28 @@ import java.util.TreeMap;
 
 public class RightViewOfBinaryTree {
 
-   public List<Integer> getRightView(BinaryTreeNode root) {
+
+   public List<Integer> getRightViewRecursive(BinaryTreeNode root) {
+      List<Integer> output = new ArrayList<>();
+      if (root == null) {
+         return output;
+      }
+      reversePreOrder(root, 0, output);
+      return output;
+   }
+
+   private void reversePreOrder(BinaryTreeNode node, int level, List<Integer> output) {
+      if (node == null) {
+         return;
+      }
+      if (output.size() == level) {
+         output.add(node.data);
+      }
+      reversePreOrder(node.right, level + 1, output);
+      reversePreOrder(node.left, level + 1, output);
+   }
+
+   public List<Integer> getRightViewIterative(BinaryTreeNode root) {
       if (root == null) {
          return Collections.emptyList();
       }

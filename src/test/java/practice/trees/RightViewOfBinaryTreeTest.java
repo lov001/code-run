@@ -17,9 +17,10 @@ public class RightViewOfBinaryTreeTest {
       BinaryTreeNode left1 = new BinaryTreeNode(2, null, right11);
       BinaryTreeNode tree1 = new BinaryTreeNode(1, left1, right1);
 
-      List<Integer> actual = classObj.getRightView(tree1);
+      List<Integer> actual = classObj.getRightViewIterative(tree1);
       Assertions.assertEquals(3, actual.size());
       Assertions.assertEquals(List.of(1, 3, 4), actual);
+      Assertions.assertEquals(List.of(1, 3, 4), classObj.getRightViewRecursive(tree1));
    }
 
 
@@ -28,16 +29,18 @@ public class RightViewOfBinaryTreeTest {
       BinaryTreeNode right1 = new BinaryTreeNode(3, null, null);
       BinaryTreeNode tree1 = new BinaryTreeNode(1, null, right1);
 
-      List<Integer> actual = classObj.getRightView(tree1);
+      List<Integer> actual = classObj.getRightViewIterative(tree1);
       Assertions.assertEquals(2, actual.size());
       Assertions.assertEquals(List.of(1, 3), actual);
+      Assertions.assertEquals(List.of(1, 3), classObj.getRightViewRecursive(tree1));
    }
 
    @Test
    void test_getRightView_expectList_whenTreeIsEmpty() {
-      List<Integer> actual = classObj.getRightView(null);
+      List<Integer> actual = classObj.getRightViewIterative(null);
       Assertions.assertEquals(0, actual.size());
       Assertions.assertEquals(Collections.emptyList(), actual);
+      Assertions.assertEquals(List.of(), classObj.getRightViewRecursive(null));
    }
 
 }
