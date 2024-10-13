@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SymmetricBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SymmetricBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: symmetric binary tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RootToNodePathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,7 @@
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SymmetricBinaryTreeTest">
+  <component name="RunManager" selected="Gradle.RootToNodePathTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -423,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestCommonPalindromicSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RootToNodePathTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +436,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LengthOfLongestCommonPalindromicSubsequenceTest&quot;" />
+            <option value="&quot;practice.trees.RootToNodePathTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +447,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +460,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubstringTest&quot;" />
+            <option value="&quot;practice.trees.RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LengthOfLongestCommonPalindromicSubsequenceTest" />
-      <item itemvalue="Gradle.LongestCommonSubstringTest" />
+      <item itemvalue="Gradle.RootToNodePathTest" />
+      <item itemvalue="Gradle.RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced" />
       <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
       <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric" />
       <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RootToNodePathTest" />
+        <item itemvalue="Gradle.RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced" />
         <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
         <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
         <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric" />
-        <item itemvalue="Gradle.LengthOfLongestCommonPalindromicSubsequenceTest" />
-        <item itemvalue="Gradle.LongestCommonSubstringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="534" />
+    <option name="localTasksCounter" value="535" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: unbounded knapsack problem with tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum depth of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: balanced binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: depth of binary tree using level order traversal" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: longest common substring using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
+    <MESSAGE value="[practice/dynamic-programming]: symmetric binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: symmetric binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2717,6 +2717,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/VerticalOrderTraversalTest.java</url>
           <line>7</line>
           <option name="timeStamp" value="702" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="703" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="704" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
