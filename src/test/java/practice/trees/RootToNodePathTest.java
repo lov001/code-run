@@ -19,6 +19,7 @@ public class RootToNodePathTest {
       BinaryTreeNode tree = new BinaryTreeNode(1, left1, right1);
 
       Assertions.assertEquals(List.of(1, 3, 7), classObj.pathInATree(tree, 7));
+      Assertions.assertEquals(List.of(1, 3, 7), classObj.pathInATreeOptimised(tree, 7));
    }
 
    @Test
@@ -28,5 +29,6 @@ public class RootToNodePathTest {
       BinaryTreeNode tree = new BinaryTreeNode(3, left1, right1);
 
       Assertions.assertEquals(List.of(3, 1), classObj.pathInATree(tree, 1));
+      Assertions.assertEquals(List.of(3, 1), classObj.pathInATreeOptimised(tree, 1));
    }
 }

@@ -5,6 +5,32 @@ import java.util.List;
 
 public class RootToNodePath {
 
+   public List<Integer> pathInATreeOptimised(BinaryTreeNode root, int x) {
+      List<Integer> output = new ArrayList<>();
+      if (root == null) {
+         return output;
+      }
+      inOrderTraversalOptimised(root, x, output);
+      return output;
+   }
+
+   private boolean inOrderTraversalOptimised(BinaryTreeNode node, int x, List<Integer> output) {
+      if (node == null) {
+         return false;
+      }
+      output.add(node.data);
+      if (node.data == x) {
+         return true;
+      }
+      if (inOrderTraversalOptimised(node.left, x, output)
+         || inOrderTraversalOptimised(node.right, x, output)) {
+         return true;
+      }
+
+      output.remove(output.size() - 1);
+      return false;
+   }
+
    public List<Integer> pathInATree(BinaryTreeNode root, int x) {
       List<Integer> output = new ArrayList<>();
       if (root == null) {

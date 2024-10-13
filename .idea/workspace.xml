@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: symmetric binary tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RootToNodePathTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: root to node path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/RootToNodePathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/RootToNodePathTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="535" />
+    <option name="localTasksCounter" value="536" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: maximum depth of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: balanced binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: depth of binary tree using level order traversal" />
     <MESSAGE value="[practice/dynamic-programming]: diameter of a binary tree" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: symmetric binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: symmetric binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]: root to node path" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: root to node path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2720,12 +2720,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java</url>
-          <line>17</line>
+          <line>43</line>
           <option name="timeStamp" value="703" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/RootToNodePath.java</url>
-          <line>20</line>
+          <line>46</line>
           <option name="timeStamp" value="704" />
         </line-breakpoint>
       </breakpoints>
