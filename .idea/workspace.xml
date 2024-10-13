@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SymmetricBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SymmetricBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestCommonPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestCommonPalindromicSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestCommonPalindromicSubsequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,14 +396,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LengthOfLongestCommonPalindromicSubsequenceTest">
+  <component name="RunManager" selected="Gradle.SymmetricBinaryTreeTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -422,54 +422,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LeftViewOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.LeftViewOfBinaryTreeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LeftViewOfBinaryTreeTest.test_getLeftView_expectList_whenTree_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.LeftViewOfBinaryTreeTest.test_getLeftView_expectList_whenTree_&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="LengthOfLongestCommonPalindromicSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -519,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestCommonSubstringTest.test_lcs_expect3_whenLongestSubstringIsOfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SymmetricBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -532,7 +484,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestCommonSubstringTest.test_lcs_expect3_whenLongestSubstringIsOfLength3&quot;" />
+            <option value="&quot;practice.trees.SymmetricBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.LeftViewOfBinaryTreeTest" />
-      <item itemvalue="Gradle.LeftViewOfBinaryTreeTest.test_getLeftView_expectList_whenTree_" />
       <item itemvalue="Gradle.LengthOfLongestCommonPalindromicSubsequenceTest" />
       <item itemvalue="Gradle.LongestCommonSubstringTest" />
-      <item itemvalue="Gradle.LongestCommonSubstringTest.test_lcs_expect3_whenLongestSubstringIsOfLength3" />
+      <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
+      <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric" />
+      <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
+        <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
+        <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTree_whenTreeIsSymmetric" />
         <item itemvalue="Gradle.LengthOfLongestCommonPalindromicSubsequenceTest" />
         <item itemvalue="Gradle.LongestCommonSubstringTest" />
-        <item itemvalue="Gradle.LongestCommonSubstringTest.test_lcs_expect3_whenLongestSubstringIsOfLength3" />
-        <item itemvalue="Gradle.LeftViewOfBinaryTreeTest" />
-        <item itemvalue="Gradle.LeftViewOfBinaryTreeTest.test_getLeftView_expectList_whenTree_" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="533" />
+    <option name="localTasksCounter" value="534" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: unbounded knapsack problem with memoization" />
     <MESSAGE value="[practice/dynamic-programming]: unbounded knapsack problem with tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: maximum depth of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: balanced binary tree" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: left view of binary tree using recursive approach" />
     <MESSAGE value="[practice/dynamic-programming]: longest common substring using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation" />
+    <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
