@@ -11,11 +11,13 @@ public class LengthOfLongestCommonPalindromicSubsequenceTest {
    void test_lcs_expect4_whenBothStringOfLength5() {
       String s1 = "bbbab";
       Assertions.assertEquals(4, classObj.longestPalindromeSubsequence(s1));
+      Assertions.assertEquals(4, classObj.longestPalindromeSubsequenceSpaceOptimised(s1));
    }
 
    @Test
    void test_lcs_expect2_whenStringOfLength4() {
       String s1 = "cbbd";
       Assertions.assertEquals(2, classObj.longestPalindromeSubsequence(s1));
+      Assertions.assertEquals(2, classObj.longestPalindromeSubsequenceSpaceOptimised(s1));
    }
 }
