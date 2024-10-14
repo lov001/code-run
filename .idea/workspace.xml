@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: root to node path optimised">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumInsertionsForPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumInsertionsForPalindromeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: minimum number of insertions to make a string palindrome">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MinimumNumberOfInsertionsAndDeletions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MinimumNumberOfInsertionsAndDeletionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,14 +396,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
+      <recent name="practice.trees" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
       <recent name="practice.queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumInsertionsForPalindromeTest">
+  <component name="RunManager" selected="Gradle.MinimumNumberOfInsertionsAndDeletionsTest">
     <configuration name="Coding Problems" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -437,6 +437,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumInsertionsForPalindromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MinimumNumberOfInsertionsAndDeletionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MinimumNumberOfInsertionsAndDeletionsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,45 +543,21 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Coding Problems" />
+      <item itemvalue="Gradle.MinimumNumberOfInsertionsAndDeletionsTest" />
       <item itemvalue="Gradle.MinimumInsertionsForPalindromeTest" />
       <item itemvalue="Gradle.RootToNodePathTest" />
       <item itemvalue="Gradle.RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced" />
       <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
-      <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumNumberOfInsertionsAndDeletionsTest" />
         <item itemvalue="Gradle.MinimumInsertionsForPalindromeTest" />
         <item itemvalue="Gradle.RootToNodePathTest" />
         <item itemvalue="Gradle.RootToNodePathTest.test_pathInATree_expect137_whenTreeIsBalanced" />
         <item itemvalue="Gradle.SymmetricBinaryTreeTest" />
-        <item itemvalue="Gradle.SymmetricBinaryTreeTest.test_isSymmetric_expectTrue_whenDifferenceIs3_" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="537" />
+    <option name="localTasksCounter" value="538" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: depth of binary tree using level order traversal" />
     <MESSAGE value="[practice/dynamic-programming]: diameter of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using memoization" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: symmetric binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: root to node path" />
     <MESSAGE value="[practice/dynamic-programming]: root to node path optimised" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: root to node path optimised" />
+    <MESSAGE value="[practice/dynamic-programming]: minimum number of insertions to make a string palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: minimum number of insertions to make a string palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
