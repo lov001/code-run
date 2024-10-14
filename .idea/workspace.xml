@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;lower bound for an element x">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/UpperBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/UpperBoundTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;upper bound for an element x">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInsertPositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -913,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="541" />
+    <option name="localTasksCounter" value="542" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -928,7 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: check if two binary trees are identical or not" />
     <MESSAGE value="[practice/dynamic-programming]: zig zag traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
@@ -953,7 +952,8 @@
     <MESSAGE value="[practice/dynamic-programming]: &#10;binary search iterative approach" />
     <MESSAGE value="[practice/binary-search]: &#10;binary search recursive approach" />
     <MESSAGE value="[practice/binary-search]: &#10;lower bound for an element x" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;lower bound for an element x" />
+    <MESSAGE value="[practice/binary-search]: &#10;upper bound for an element x" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;upper bound for an element x" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
