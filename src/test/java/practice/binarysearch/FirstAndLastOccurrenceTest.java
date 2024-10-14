@@ -17,7 +17,10 @@ public class FirstAndLastOccurrenceTest {
       input.add(5);
       int[] expected = {1, 2};
       int[] actual = classObj.firstAndLastPosition(input, 4, 1);
-      Assertions.assertEquals(expected[0], actual[0]);
+      Assertions.assertArrayEquals(expected, actual);
+
+      actual = classObj.firstAndLastPositionUsingBinarySearch(input, 4, 1);
+      Assertions.assertArrayEquals(expected, actual);
    }
 
    @Test
@@ -34,6 +37,9 @@ public class FirstAndLastOccurrenceTest {
       int[] expected = {4, 7};
       int[] actual = classObj.firstAndLastPosition(input, 8, 2);
       Assertions.assertArrayEquals(expected, actual);
+
+      actual = classObj.firstAndLastPositionUsingBinarySearch(input, 8, 2);
+      Assertions.assertArrayEquals(expected, actual);
    }
 
    @Test
@@ -45,6 +51,9 @@ public class FirstAndLastOccurrenceTest {
       input.add(5);
       int[] expected = {-1, -1};
       int[] actual = classObj.firstAndLastPosition(input, 4, 2);
+      Assertions.assertArrayEquals(expected, actual);
+
+      actual = classObj.firstAndLastPositionUsingBinarySearch(input, 4, 2);
       Assertions.assertArrayEquals(expected, actual);
    }
 }
