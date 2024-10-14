@@ -6,7 +6,7 @@ public class BinarySearch {
       int low = 0;
       int high = nums.length - 1;
       while (low <= high) {
-         int mid = (low + high) / 2;
+         int mid = low + (high - low) / 2;
          if (nums[mid] == target) {
             return mid;
          } else if (target > nums[mid]) {
@@ -28,7 +28,7 @@ public class BinarySearch {
       if (high < low) {
          return -1;
       }
-      int mid = (low + high) / 2;
+      int mid = low + (high - low) / 2;
       if (target == nums[mid]) {
          return mid;
       } else if (target > nums[mid]) {
