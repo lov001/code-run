@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;first and last occurrence of an element using plain binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/CountOccurrencesOfElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/CountOccurrenceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;first and last occurrence of an element">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ShortestCommonSuperSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ShortestCommonSuperSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,34 +396,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
+      <recent name="practice.binarysearch" />
       <recent name="practice.trees" />
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountOccurrenceTest">
-    <configuration name="Coding Problems" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="11 (3)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Daily-Coding-Problems.main" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CeilAndFloorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager">
+    <configuration name="ShortestCommonSuperSequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +418,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.CeilAndFloorTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ShortestCommonSuperSequenceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,117 +429,9 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CeilAndFloorTest.test_getFloorAndCeil_expect4_whenTargetIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.CeilAndFloorTest.test_getFloorAndCeil_expect4_whenTargetIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CountOccurrenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.CountOccurrenceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FirstAndLastOccurrenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FirstAndLastOccurrenceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchInsertPositionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SearchInsertPositionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Coding Problems" />
-      <item itemvalue="Gradle.CeilAndFloorTest" />
-      <item itemvalue="Gradle.CeilAndFloorTest.test_getFloorAndCeil_expect4_whenTargetIs5" />
-      <item itemvalue="Gradle.CountOccurrenceTest" />
-      <item itemvalue="Gradle.FirstAndLastOccurrenceTest" />
-      <item itemvalue="Gradle.SearchInsertPositionTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CountOccurrenceTest" />
-        <item itemvalue="Gradle.FirstAndLastOccurrenceTest" />
-        <item itemvalue="Gradle.CeilAndFloorTest.test_getFloorAndCeil_expect4_whenTargetIs5" />
-        <item itemvalue="Gradle.CeilAndFloorTest" />
-        <item itemvalue="Gradle.SearchInsertPositionTest" />
+        <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -928,6 +802,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="[practice/dynamic-programming]: check if two binary trees are identical or not" />
+    <MESSAGE value="[practice/dynamic-programming]: zig zag traversal of a binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
+    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings" />
@@ -945,6 +823,7 @@
     <MESSAGE value="[practice/dynamic-programming]: root to node path" />
     <MESSAGE value="[practice/dynamic-programming]: root to node path optimised" />
     <MESSAGE value="[practice/dynamic-programming]: minimum number of insertions to make a string palindrome" />
+    <MESSAGE value="[practice/dynamic-programming]: &#10;Minimum Number of Insertions or Deletions to transform string s1 to s2" />
     <MESSAGE value="[practice/dynamic-programming]: &#10;binary search iterative approach" />
     <MESSAGE value="[practice/binary-search]: &#10;binary search recursive approach" />
     <MESSAGE value="[practice/binary-search]: &#10;lower bound for an element x" />
@@ -952,8 +831,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;search insert position" />
     <MESSAGE value="[practice/binary-search]: &#10;ceiling and floor value in a sorted array" />
     <MESSAGE value="[practice/binary-search]: &#10;first and last occurence of an element" />
-    <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element using plain binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;first and last occurrence of an element using plain binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;first and last occurrence of an element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
