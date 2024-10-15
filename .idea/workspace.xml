@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: merged from main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/CeilAndFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FirstAndLastOccurrencesOfElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/LowerBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/UpperBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/CeilAndFloorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FirstAndLastOccurrenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/LowerBoundTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInsertPositionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/UpperBoundTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;first and last occurrence of an element">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/ShortestCommonSuperSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/ShortestCommonSuperSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -406,13 +396,44 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
+      <recent name="practice.binarysearch" />
       <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ShortestCommonSuperSequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.ShortestCommonSuperSequenceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -766,7 +787,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="545" />
+    <option name="localTasksCounter" value="546" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -781,9 +802,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: maximum path sum in a binary tree" />
-    <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using memoization" />
-    <MESSAGE value="[practice/dynamic-programming]: rod cutting problem using tabulation and space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: check if two binary trees are identical or not" />
     <MESSAGE value="[practice/dynamic-programming]: zig zag traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
@@ -813,7 +831,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;search insert position" />
     <MESSAGE value="[practice/binary-search]: &#10;ceiling and floor value in a sorted array" />
     <MESSAGE value="[practice/binary-search]: &#10;first and last occurence of an element" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;first and last occurence of an element" />
+    <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;first and last occurrence of an element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
