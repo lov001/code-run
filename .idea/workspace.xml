@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/dynamic-programming]: &#10;shortest common super sequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInRotatedArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a rotated sorted array">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -816,7 +815,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <option name="localTasksCounter" value="548" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -831,7 +830,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: zig zag traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
@@ -861,7 +859,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;first and last occurence of an element" />
     <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element" />
     <MESSAGE value="[practice/dynamic-programming]: &#10;shortest common super sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/dynamic-programming]: &#10;shortest common super sequence" />
+    <MESSAGE value="[practice/binary-search]: &#10;search in a rotated sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a rotated sorted array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
