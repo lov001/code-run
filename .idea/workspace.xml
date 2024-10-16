@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a rotated sorted array">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;updated .gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInRotatedArrayWithDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInRotatedArrayWithDuplicatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +404,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInRotatedArrayTest">
+  <component name="RunManager" selected="Gradle.SearchInRotatedArrayWithDuplicatesTest">
     <configuration name="SearchInRotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -418,6 +419,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.SearchInRotatedArrayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchInRotatedArrayWithDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.SearchInRotatedArrayWithDuplicatesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -453,11 +478,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
       <item itemvalue="Gradle.SearchInRotatedArrayTest" />
       <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
         <item itemvalue="Gradle.SearchInRotatedArrayTest" />
         <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
       </list>
@@ -815,7 +842,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="548" />
+    <option name="localTasksCounter" value="549" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -830,7 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree" />
     <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation" />
@@ -860,7 +886,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element" />
     <MESSAGE value="[practice/dynamic-programming]: &#10;shortest common super sequence" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a rotated sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a rotated sorted array" />
+    <MESSAGE value="[practice/binary-search]: &#10;updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;updated .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
