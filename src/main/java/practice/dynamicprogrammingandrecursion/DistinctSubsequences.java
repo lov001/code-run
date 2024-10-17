@@ -32,6 +32,31 @@ public class DistinctSubsequences {
       return dp[n][m];
    }
 
+   public int distinctSubsequencesSpaceOptimisation(String str, String sub) {
+      int count = 0;
+      if (sub.length() > str.length()) {
+         return count;
+      }
+      int n = str.length();
+      int m = sub.length();
+      int[] previous = new int[m + 1];
+      int[] current = new int[m + 1];
+      previous[0] = 1;
+      current[0] = 1;
+
+      for (int index1 = 1; index1 <= n; index1++) {
+         for (int index2 = 1; index2 <= m; index2++) {
+            if (str.charAt(index1 - 1) == sub.charAt(index2 - 1)) {
+               current[index2] = (previous[index2 - 1] + previous[index2]) % MOD;
+            } else {
+               current[index2] = previous[index2] % MOD;
+            }
+         }
+         previous = current;
+      }
+      return previous[m];
+   }
+
    public int distinctSubsequences(String str, String sub) {
       int count = 0;
       if (sub.length() > str.length()) {
