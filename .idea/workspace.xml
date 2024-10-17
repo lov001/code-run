@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;updated .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInRotatedArrayWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInRotatedArrayWithDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/MaximumWidthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/MaximumWidthOfBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -321,24 +326,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feature/binary-trees" />
+                    <option name="lastUsedInstant" value="1729047498" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="practice/binary-search" />
+                    <option name="lastUsedInstant" value="1729047449" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1729047403" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/dynamic-programming" />
                     <option name="lastUsedInstant" value="1725934278" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="practice/graph" />
                     <option name="lastUsedInstant" value="1720102157" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/sorting-and-searching" />
-                    <option name="lastUsedInstant" value="1717423260" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/dynamic-programming-recursion" />
-                    <option name="lastUsedInstant" value="1716029490" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/bit-manipulation" />
-                    <option name="lastUsedInstant" value="1714829216" />
                   </RecentBranch>
                 </list>
               </option>
@@ -396,15 +401,63 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trees" />
       <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
-      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInRotatedArrayWithDuplicatesTest">
+  <component name="RunManager" selected="Gradle.MaximumWidthOfBinaryTreeTest.test_getMaxWidth_expect4_whenNumberOfNodes5">
+    <configuration name="MaximumWidthOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.MaximumWidthOfBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumWidthOfBinaryTreeTest.test_getMaxWidth_expect4_whenNumberOfNodes5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.MaximumWidthOfBinaryTreeTest.test_getMaxWidth_expect4_whenNumberOfNodes5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="SearchInRotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -478,12 +531,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
+      <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest.test_getMaxWidth_expect4_whenNumberOfNodes5" />
       <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
       <item itemvalue="Gradle.SearchInRotatedArrayTest" />
       <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest.test_getMaxWidth_expect4_whenNumberOfNodes5" />
+        <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
         <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
         <item itemvalue="Gradle.SearchInRotatedArrayTest" />
         <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
