@@ -6,6 +6,32 @@ public class DistinctSubsequences {
 
    private static final int MOD = 1000000007;
 
+   public int distinctSubsequencesTabulation(String str, String sub) {
+      int count = 0;
+      if (sub.length() > str.length()) {
+         return count;
+      }
+      int n = str.length();
+      int m = sub.length();
+      int[][] dp = new int[n + 1][m + 1];
+      for (int i = 0; i <= n; i++) {
+         dp[i][0] = 1;
+      }
+      for (int j = 1; j <= m; j++) {
+         dp[0][j] = 0;
+      }
+      for (int index1 = 1; index1 <= n; index1++) {
+         for (int index2 = 1; index2 <= m; index2++) {
+            if (str.charAt(index1 - 1) == sub.charAt(index2 - 1)) {
+               dp[index1][index2] = (dp[index1 - 1][index2 - 1] + dp[index1 - 1][index2]) % MOD;
+            } else {
+               dp[index1][index2] = dp[index1 - 1][index2] % MOD;
+            }
+         }
+      }
+      return dp[n][m];
+   }
+
    public int distinctSubsequences(String str, String sub) {
       int count = 0;
       if (sub.length() > str.length()) {
