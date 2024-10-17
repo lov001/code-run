@@ -57,6 +57,26 @@ public class DistinctSubsequences {
       return previous[m];
    }
 
+   public int distinctSubsequencesSpaceOptimisation1DArray(String str, String sub) {
+      int count = 0;
+      if (sub.length() > str.length()) {
+         return count;
+      }
+      int n = str.length();
+      int m = sub.length();
+      int[] previous = new int[m + 1];
+      previous[0] = 1;
+
+      for (int index1 = 1; index1 <= n; index1++) {
+         for (int index2 = m; index2 >= 1; index2--) {
+            if (str.charAt(index1 - 1) == sub.charAt(index2 - 1)) {
+               previous[index2] = (previous[index2 - 1] + previous[index2]) % MOD;
+            }
+         }
+      }
+      return previous[m];
+   }
+
    public int distinctSubsequences(String str, String sub) {
       int count = 0;
       if (sub.length() > str.length()) {

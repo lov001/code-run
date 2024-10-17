@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of distinct subsequences using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/DistinctSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/DistinctSubsequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/DistinctSubsequencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/DistinctSubsequencesTest.java" afterDir="false" />
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="552" />
+    <option name="localTasksCounter" value="553" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: vertical order traversal of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: top view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: bottom view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: right view of binary tree" />
@@ -943,7 +942,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;maximum width of a binary tree" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of distinct subsequences using tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
