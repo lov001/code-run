@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation with 1D array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/EditDistanceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;edit distance using memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/EditDistanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/EditDistanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DistinctSubsequencesTest">
+  <component name="RunManager" selected="Gradle.EditDistanceTest">
     <configuration name="DistinctSubsequencesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -506,7 +506,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumWidthOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EditDistanceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -519,7 +519,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.MaximumWidthOfBinaryTreeTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.EditDistanceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -535,15 +535,15 @@
       <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
       <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
       <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
-      <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
+      <item itemvalue="Gradle.EditDistanceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EditDistanceTest" />
         <item itemvalue="Gradle.DistinctSubsequencesTest" />
         <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
         <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
         <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
-        <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="554" />
+    <option name="localTasksCounter" value="555" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: bottom view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: right view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: right view of binary tree using recursive approach" />
     <MESSAGE value="[practice/dynamic-programming]: left view of binary tree using iterative approach" />
@@ -943,7 +942,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation with 1D array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation with 1D array" />
+    <MESSAGE value="[practice/binary-search]: &#10;edit distance using memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;edit distance using memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,8 @@ public class EditDistanceTest {
       String s1 = "abc";
       String s2 = "dc";
       Assertions.assertEquals(2, classObj.editDistance(s1, s2));
+      Assertions.assertEquals(2, classObj.editDistanceTabulation(s1, s2));
+      Assertions.assertEquals(2, classObj.editDistanceSpaceOptimisation(s1, s2));
    }
 
    @Test
@@ -19,5 +21,7 @@ public class EditDistanceTest {
       String s1 = "whgtdwhgtdg";
       String s2 = "aswcfg";
       Assertions.assertEquals(9, classObj.editDistance(s1, s2));
+      Assertions.assertEquals(9, classObj.editDistanceTabulation(s1, s2));
+      Assertions.assertEquals(9, classObj.editDistanceSpaceOptimisation(s1, s2));
    }
 }
