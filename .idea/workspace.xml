@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;updated .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchInRotatedArrayWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchInRotatedArrayWithDuplicatesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/DistinctSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/DistinctSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/DistinctSubsequencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/DistinctSubsequencesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -321,24 +326,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feature/binary-trees" />
+                    <option name="lastUsedInstant" value="1729047498" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="practice/binary-search" />
+                    <option name="lastUsedInstant" value="1729047449" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1729047403" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/dynamic-programming" />
                     <option name="lastUsedInstant" value="1725934278" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="practice/graph" />
                     <option name="lastUsedInstant" value="1720102157" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/sorting-and-searching" />
-                    <option name="lastUsedInstant" value="1717423260" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/dynamic-programming-recursion" />
-                    <option name="lastUsedInstant" value="1716029490" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/bit-manipulation" />
-                    <option name="lastUsedInstant" value="1714829216" />
                   </RecentBranch>
                 </list>
               </option>
@@ -396,16 +401,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trees" />
       <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
-      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInRotatedArrayWithDuplicatesTest">
-    <configuration name="SearchInRotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DistinctSubsequencesTest">
+    <configuration name="DistinctSubsequencesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -418,7 +423,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SearchInRotatedArrayTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -429,7 +434,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInRotatedArrayWithDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -442,7 +447,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SearchInRotatedArrayWithDuplicatesTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -453,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ShortestCommonSuperSequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -466,7 +471,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.ShortestCommonSuperSequenceTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumWidthOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.MaximumWidthOfBinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -478,15 +531,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
-      <item itemvalue="Gradle.SearchInRotatedArrayTest" />
-      <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
+      <item itemvalue="Gradle.DistinctSubsequencesTest" />
+      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
+      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
+      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
+      <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchInRotatedArrayWithDuplicatesTest" />
-        <item itemvalue="Gradle.SearchInRotatedArrayTest" />
-        <item itemvalue="Gradle.ShortestCommonSuperSequenceTest" />
+        <item itemvalue="Gradle.DistinctSubsequencesTest" />
+        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
+        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
+        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
+        <item itemvalue="Gradle.MaximumWidthOfBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -842,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="549" />
+    <option name="localTasksCounter" value="553" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -857,11 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]:boundary traversal of a binary tree with stack as data structure" />
-    <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using tabulation" />
-    <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings using space optimisation" />
-    <MESSAGE value="[practice/dynamic-programming]: longest common subsequence among two strings" />
-    <MESSAGE value="[practice/dynamic-programming]: vertical order traversal of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: top view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: bottom view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: right view of binary tree" />
@@ -887,7 +939,11 @@
     <MESSAGE value="[practice/dynamic-programming]: &#10;shortest common super sequence" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a rotated sorted array" />
     <MESSAGE value="[practice/binary-search]: &#10;updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;updated .gitignore" />
+    <MESSAGE value="[practice/binary-search]: &#10;maximum width of a binary tree" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
