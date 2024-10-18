@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy and sell a stock">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2Test.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy and sell a stock 2 memoized approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="559" />
+    <option name="localTasksCounter" value="560" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using tabulation" />
     <MESSAGE value="[practice/dynamic-programming]: longest common palindromic subsequence using space optimisation" />
     <MESSAGE value="[practice/dynamic-programming]: symmetric binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: root to node path" />
@@ -942,7 +941,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using memoization and tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;best time to buy and sell a stock" />
+    <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock 2 memoized approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;best time to buy and sell a stock 2 memoized approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
