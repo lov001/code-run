@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;edit distance using memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;edit distance using tabulation and space optimisation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/WildcardPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/WildcardPatternMatchingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/EditDistanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/EditDistanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,103 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EditDistanceTest">
-    <configuration name="DistinctSubsequencesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.WildcardPatternMatchingTest">
     <configuration name="EditDistanceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -530,20 +434,116 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="WildcardPatternMatchingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.WildcardPatternMatchingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WildcardPatternMatchingTest.test_wildcardMatching_expectFalse_whenPatternDoesNotMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.WildcardPatternMatchingTest.test_wildcardMatching_expectFalse_whenPatternDoesNotMatches&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Gradle.DistinctSubsequencesTest" />
-      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
-      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
-      <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
       <item itemvalue="Gradle.EditDistanceTest" />
+      <item itemvalue="Gradle.WildcardPatternMatchingTest" />
+      <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectFalse_whenPatternDoesNotMatches" />
+      <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches" />
+      <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WildcardPatternMatchingTest" />
+        <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectFalse_whenPatternDoesNotMatches" />
+        <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches1" />
+        <item itemvalue="Gradle.WildcardPatternMatchingTest.test_wildcardMatching_expectTrue_whenPatternMatches" />
         <item itemvalue="Gradle.EditDistanceTest" />
-        <item itemvalue="Gradle.DistinctSubsequencesTest" />
-        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect5_whenS1OfLength5AndS2OfLength1" />
-        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect20_whenS1OfLength16AndS2OfLength3" />
-        <item itemvalue="Gradle.DistinctSubsequencesTest.test_distinctSubsequences_expect3_whenS1OfLength10AndS2OfLength3" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="555" />
+    <option name="localTasksCounter" value="556" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/dynamic-programming]: right view of binary tree" />
     <MESSAGE value="[practice/dynamic-programming]: right view of binary tree using recursive approach" />
     <MESSAGE value="[practice/dynamic-programming]: left view of binary tree using iterative approach" />
     <MESSAGE value="[practice/dynamic-programming]: left view of binary tree using recursive approach" />
@@ -943,7 +942,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation with 1D array" />
     <MESSAGE value="[practice/binary-search]: &#10;edit distance using memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;edit distance using memoization" />
+    <MESSAGE value="[practice/binary-search]: &#10;edit distance using tabulation and space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;edit distance using tabulation and space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
