@@ -4,9 +4,53 @@ import java.util.Arrays;
 
 public class BestTimeToBuyAndSellStock2 {
 
-   public long getMaximumProfit(int n, long[] values) {
-      if (n == 0)
+   public long getMaximumProfitTabulation(int n, long[] values) {
+      if (n == 0) {
          return 0;
+      }
+      long[][] dp = new long[n + 1][2];
+      dp[n][0] = 0;
+      dp[n][1] = 0;
+      for (int index = n - 1; index >= 0; index--) {
+         for (int buy = 0; buy <= 1; buy++) {
+            long profit = 0;
+            if (buy == 1) {
+               profit = Math.max(-values[index] + dp[index + 1][0], dp[index + 1][1]);
+            } else {
+               profit = Math.max(values[index] + dp[index + 1][1], dp[index + 1][0]);
+            }
+            dp[index][buy] = profit;
+         }
+      }
+      return dp[0][1];
+   }
+
+   public long getMaximumProfitSpaceOptimisation(int n, long[] values) {
+      if (n == 0) {
+         return 0;
+      }
+      // TODO: Space optimisation using 4 variables
+      long[] front = new long[2];
+      long[] current = new long[2];
+      for (int index = n - 1; index >= 0; index--) {
+         for (int buy = 0; buy <= 1; buy++) {
+            long profit;
+            if (buy == 1) {
+               profit = Math.max(-values[index] + front[0], front[1]);
+            } else {
+               profit = Math.max(values[index] + front[1], front[0]);
+            }
+            current[buy] = profit;
+         }
+         front = current;
+      }
+      return front[1];
+   }
+
+   public long getMaximumProfit(int n, long[] values) {
+      if (n == 0) {
+         return 0;
+      }
       long[][] dp = new long[n][2];
       for (long[] r : dp) {
          Arrays.fill(r, -1);
