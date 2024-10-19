@@ -12,6 +12,7 @@ public class WildcardPatternMatchingTest {
       String pattern = "?ay";
       String text = "ray";
       Assertions.assertTrue(classObj.wildcardMatching(pattern, text));
+      Assertions.assertTrue(classObj.wildcardMatchingTabulation(pattern, text));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class WildcardPatternMatchingTest {
       String pattern = "ab*cd";
       String text = "abdefcd";
       Assertions.assertTrue(classObj.wildcardMatching(pattern, text));
+      Assertions.assertTrue(classObj.wildcardMatchingTabulation(pattern, text));
    }
 
    @Test
@@ -26,5 +28,6 @@ public class WildcardPatternMatchingTest {
       String pattern = "ab?d";
       String text = "abcc";
       Assertions.assertFalse(classObj.wildcardMatching(pattern, text));
+      Assertions.assertFalse(classObj.wildcardMatchingTabulation(pattern, text));
    }
 }
