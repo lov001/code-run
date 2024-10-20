@@ -19,6 +19,7 @@ public class SingleElementInSortedArrayTest {
       input.add(5);
       input.add(5);
       Assertions.assertEquals(4, classObj.singleNonDuplicate(input));
+      Assertions.assertEquals(4, classObj.singleNonDuplicateOptimised(input));
    }
 
    @Test
@@ -30,6 +31,7 @@ public class SingleElementInSortedArrayTest {
       input.add(5);
       input.add(5);
       Assertions.assertEquals(3, classObj.singleNonDuplicate(input));
+      Assertions.assertEquals(3, classObj.singleNonDuplicateOptimised(input));
    }
 
    @Test
@@ -41,5 +43,6 @@ public class SingleElementInSortedArrayTest {
       input.add(4);
       input.add(15);
       Assertions.assertEquals(15, classObj.singleNonDuplicate(input));
+      Assertions.assertEquals(15, classObj.singleNonDuplicateOptimised(input));
    }
 }
