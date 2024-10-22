@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy sell stock 2 using only variables">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,15 +401,15 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
+      <recent name="practice.binarysearch" />
       <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStock2Test">
+  <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStock3Test">
     <configuration name="BestTimeToBuyAndSellStock2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -434,6 +434,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="BestTimeToBuyAndSellStock3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStock3Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="FindNumberOfRotationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -448,30 +472,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.FindNumberOfRotationsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumInRotatedSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MinimumInRotatedSortedArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,19 +531,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
       <item itemvalue="Gradle.FindNumberOfRotationsTest" />
       <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
       <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
-      <item itemvalue="Gradle.MinimumInRotatedSortedArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
         <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
         <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
         <item itemvalue="Gradle.FindNumberOfRotationsTest" />
-        <item itemvalue="Gradle.MinimumInRotatedSortedArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="566" />
+    <option name="localTasksCounter" value="567" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,8 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;binary search recursive approach" />
-    <MESSAGE value="[practice/binary-search]: &#10;lower bound for an element x" />
     <MESSAGE value="[practice/binary-search]: &#10;upper bound for an element x" />
     <MESSAGE value="[practice/binary-search]: &#10;search insert position" />
     <MESSAGE value="[practice/binary-search]: &#10;ceiling and floor value in a sorted array" />
