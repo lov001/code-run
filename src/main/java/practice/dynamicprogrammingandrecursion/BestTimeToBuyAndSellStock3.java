@@ -4,6 +4,38 @@ import java.util.Arrays;
 
 public class BestTimeToBuyAndSellStock3 {
 
+   public int maxProfitTabulation(int[] prices) {
+      int n = prices.length;
+      if (n == 0) {
+         return 0;
+      }
+      int[][][] dp = new int[n + 1][2][3];
+//      for (int index = 0; index < n; index++) {
+//         for (int buy = 0; buy <= 1; buy++) {
+//            dp[index][buy][0] = 0;
+//         }
+//      }
+//      for (int buy = 0; buy <= 1; buy++) {
+//         for (int cap = 1; cap <= 2; cap++) {
+//            dp[n][buy][cap] = 0;
+//         }
+//      }
+      for (int index = n - 1; index >= 0; index--) {
+         for (int buy = 0; buy <= 1; buy++) {
+            for (int cap = 1; cap <= 2; cap++) {
+               if (buy == 1) {
+                  dp[index][buy][cap] = Math.max(-prices[index] + dp[index + 1][0][cap],
+                     dp[index + 1][1][cap]);
+               } else {
+                  dp[index][buy][cap] = Math.max(
+                     prices[index] + dp[index + 1][1][cap - 1], dp[index + 1][0][cap]);
+               }
+            }
+         }
+      }
+      return dp[0][1][2];
+   }
+
    public int maxProfit(int[] prices) {
       int n = prices.length;
       if (n == 0) {
