@@ -13,6 +13,7 @@ public class BestTimeToBuyAndSellStock2Test {
       Assertions.assertEquals(6, classObj.getMaximumProfit(7, values));
       Assertions.assertEquals(6, classObj.getMaximumProfitTabulation(7, values));
       Assertions.assertEquals(6, classObj.getMaximumProfitSpaceOptimisation(7, values));
+      Assertions.assertEquals(6, classObj.getMaximumProfitSpaceOptimisationUsingVariables(7, values));
    }
 
    @Test
@@ -21,5 +22,6 @@ public class BestTimeToBuyAndSellStock2Test {
       Assertions.assertEquals(0, classObj.getMaximumProfit(7, values));
       Assertions.assertEquals(0, classObj.getMaximumProfitTabulation(7, values));
       Assertions.assertEquals(0, classObj.getMaximumProfitSpaceOptimisation(7, values));
+      Assertions.assertEquals(0, classObj.getMaximumProfitSpaceOptimisationUsingVariables(7, values));
    }
 }

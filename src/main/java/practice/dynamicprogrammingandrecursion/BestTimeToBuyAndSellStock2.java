@@ -13,7 +13,7 @@ public class BestTimeToBuyAndSellStock2 {
       dp[n][1] = 0;
       for (int index = n - 1; index >= 0; index--) {
          for (int buy = 0; buy <= 1; buy++) {
-            long profit = 0;
+            long profit;
             if (buy == 1) {
                profit = Math.max(-values[index] + dp[index + 1][0], dp[index + 1][1]);
             } else {
@@ -29,7 +29,6 @@ public class BestTimeToBuyAndSellStock2 {
       if (n == 0) {
          return 0;
       }
-      // TODO: Space optimisation using 4 variables
       long[] front = new long[2];
       long[] current = new long[2];
       for (int index = n - 1; index >= 0; index--) {
@@ -45,6 +44,23 @@ public class BestTimeToBuyAndSellStock2 {
          front = current;
       }
       return front[1];
+   }
+
+   public long getMaximumProfitSpaceOptimisationUsingVariables(int n, long[] values) {
+      if (n == 0) {
+         return 0;
+      }
+      long aheadBuy = 0;
+      long aheadNotBuy = 0;
+      long currentBuy;
+      long currentNotBuy;
+      for (int index = n - 1; index >= 0; index--) {
+         currentBuy = Math.max(-values[index] + aheadNotBuy, aheadBuy);
+         currentNotBuy = Math.max(values[index] + aheadBuy, aheadNotBuy);
+         aheadBuy = currentBuy;
+         aheadNotBuy = currentNotBuy;
+      }
+      return aheadBuy;
    }
 
    public long getMaximumProfit(int n, long[] values) {
