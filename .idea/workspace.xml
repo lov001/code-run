@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy sell stock 3 using tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy sell stock 4 using memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStock3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxKTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStock3Test">
+  <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStockWithMaxKTest">
     <configuration name="BestTimeToBuyAndSellStock2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -458,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FindNumberOfRotationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BestTimeToBuyAndSellStockWithMaxKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -471,7 +471,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FindNumberOfRotationsTest&quot;" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStockWithMaxKTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,18 +532,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
-      <item itemvalue="Gradle.FindNumberOfRotationsTest" />
+      <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
       <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
       <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
         <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
         <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
-        <item itemvalue="Gradle.FindNumberOfRotationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="570" />
+    <option name="localTasksCounter" value="572" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,9 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;first and last occurence of an element" />
-    <MESSAGE value="[practice/binary-search]: &#10;first and last occurrence of an element" />
-    <MESSAGE value="[practice/dynamic-programming]: &#10;shortest common super sequence" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a rotated sorted array" />
     <MESSAGE value="[practice/binary-search]: &#10;updated .gitignore" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum width of a binary tree" />
@@ -940,7 +937,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 3 using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 3 using menoization" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 3 using tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;best time to buy sell stock 3 using tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 3 using space optimisation" />
+    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;best time to buy sell stock 4 using memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
