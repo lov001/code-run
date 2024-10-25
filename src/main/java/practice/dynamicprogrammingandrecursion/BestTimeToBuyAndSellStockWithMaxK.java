@@ -4,6 +4,26 @@ import java.util.Arrays;
 
 public class BestTimeToBuyAndSellStockWithMaxK {
 
+   public int maxProfitTabulationOptimised(int[] prices, int n, int k) {
+      if (n == 0) {
+         return 0;
+      }
+      int[][] dp = new int[n + 1][2 * k + 1];
+      for (int index = n - 1; index >= 0; index--) {
+         for (int maxTransactions = 2 * k - 1; maxTransactions >= 0; maxTransactions--) {
+            if (maxTransactions % 2 == 0) {
+               dp[index][maxTransactions] = Math.max(
+                  -prices[index] + dp[index + 1][maxTransactions + 1], dp[index + 1][maxTransactions]);
+            } else {
+               dp[index][maxTransactions] = Math.max(
+                  prices[index] + dp[index + 1][maxTransactions + 1],
+                  dp[index + 1][maxTransactions]);
+            }
+         }
+      }
+      return dp[0][0];
+   }
+
    public int maxProfitOptimised(int[] prices, int n, int k) {
       int[][][] dp = new int[n + 1][2][2 * k];
       for (int[][] r : dp) {
