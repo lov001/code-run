@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;nodes at a distance k from target node">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/MinimumTimeToBurnTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/MinimumTimeToBurnTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithMaxKTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,15 +401,15 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.binarysearch" />
-      <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStockWithMaxKTest">
+  <component name="RunManager" selected="Gradle.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5">
     <configuration name="BestTimeToBuyAndSellStock2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -482,7 +482,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SingleElementInSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -495,7 +495,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SingleElementInSortedArrayTest&quot;" />
+            <option value="&quot;practice.trees.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,7 +506,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -519,7 +519,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7&quot;" />
+            <option value="&quot;practice.trees.NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -533,17 +533,17 @@
     <list>
       <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
-      <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
-      <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
+      <item itemvalue="Gradle.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5" />
+      <item itemvalue="Gradle.NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5" />
+        <item itemvalue="Gradle.NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStock2Test" />
-        <item itemvalue="Gradle.SingleElementInSortedArrayTest" />
-        <item itemvalue="Gradle.SingleElementInSortedArrayTest.test_singleNonDuplicate_expect4_whenNIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="575" />
+    <option name="localTasksCounter" value="577" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,8 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences" />
-    <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;number of distinct subsequences using space optimisation with 1D array" />
     <MESSAGE value="[practice/binary-search]: &#10;edit distance using memoization" />
@@ -939,7 +937,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with space optimisation" />
+    <MESSAGE value="[practice/binary-search]: &#10;nodes at a distance k from target node" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;nodes at a distance k from target node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2728,6 +2728,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SingleElementInSortedArray.java</url>
           <line>40</line>
           <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/NodesAtDistanceKTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="708" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/NodesAtDistanceKTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/NodesAtDistanceK.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/NodesAtDistanceK.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/NodesAtDistanceK.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="712" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
