@@ -13,6 +13,7 @@ public class BestTimeToBuyAndSellStockWithCoolDownTest {
       Assertions.assertEquals(11, classObj.stockProfit(values));
       Assertions.assertEquals(11, classObj.stockProfitTabulation(values));
       Assertions.assertEquals(11, classObj.stockProfitTabulationOptimised(values));
+      Assertions.assertEquals(11, classObj.stockProfitSpaceOptimised(values));
    }
 
    @Test
@@ -21,6 +22,7 @@ public class BestTimeToBuyAndSellStockWithCoolDownTest {
       Assertions.assertEquals(3, classObj.stockProfit(values));
       Assertions.assertEquals(3, classObj.stockProfitTabulation(values));
       Assertions.assertEquals(3, classObj.stockProfitTabulationOptimised(values));
+      Assertions.assertEquals(3, classObj.stockProfitSpaceOptimised(values));
    }
 
    @Test
@@ -29,5 +31,6 @@ public class BestTimeToBuyAndSellStockWithCoolDownTest {
       Assertions.assertEquals(0, classObj.stockProfit(values));
       Assertions.assertEquals(0, classObj.stockProfitTabulation(values));
       Assertions.assertEquals(0, classObj.stockProfitTabulationOptimised(values));
+      Assertions.assertEquals(0, classObj.stockProfitSpaceOptimised(values));
    }
 }
