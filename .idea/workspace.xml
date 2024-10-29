@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithCoolDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithCoolDownTest.java" afterDir="false" />
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="580" />
+    <option name="localTasksCounter" value="581" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;edit distance using tabulation and space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using memoization and tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;Time to burn the tree" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cooldown" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization" />
+    <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2756,7 +2756,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java</url>
-          <line>7</line>
+          <line>19</line>
           <option name="timeStamp" value="713" />
         </line-breakpoint>
       </breakpoints>
