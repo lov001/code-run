@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with cool down with space optimisation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFeeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with transaction fee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithTransactionFeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="583" />
+    <option name="localTasksCounter" value="584" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock 2 memoized approach" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy and sell a stock 2 tabulation and space optimisation approach" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum in rotated sorted array" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation with only 1 loop" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with space optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with cool down with space optimisation" />
+    <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with transaction fee" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with transaction fee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
