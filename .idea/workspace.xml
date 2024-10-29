@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with cooldown">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithCoolDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/BestTimeToBuyAndSellStockWithCoolDownTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,30 +410,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest">
-    <configuration name="BestTimeToBuyAndSellStock3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStock3Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="BestTimeToBuyAndSellStockWithCoolDownTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -447,6 +424,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStockWithCoolDownTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -530,8 +531,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest" />
+      <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
       <item itemvalue="Gradle.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5" />
       <item itemvalue="Gradle.NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6" />
@@ -539,10 +540,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest" />
+        <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" />
         <item itemvalue="Gradle.MinimumTimeToBurnTreeTest.test_timeToBurnTree_expect2_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.NodesAtDistanceKTest.test_printNodesAtDistanceK_expect3And6_whenNoOfNodeIs6" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithMaxKTest" />
-        <item itemvalue="Gradle.BestTimeToBuyAndSellStock3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="579" />
+    <option name="localTasksCounter" value="580" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -913,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;edit distance using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;edit distance using tabulation and space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;pattern matching using memoization and tabulation" />
@@ -938,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;nodes at a distance k from target node" />
     <MESSAGE value="[practice/binary-search]: &#10;Time to burn the tree" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cooldown" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with cooldown" />
+    <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;buy and sell stock with cooldown with memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2752,6 +2753,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/NodesAtDistanceK.java</url>
           <line>26</line>
           <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/BestTimeToBuySellStockWithCoolDown.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="713" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
