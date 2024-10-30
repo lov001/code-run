@@ -4,6 +4,21 @@ import java.util.Arrays;
 
 public class LengthOfLongestIncreasingSubsequence {
 
+   public int longestIncreasingSubsequenceTabulation(int[] arr) {
+      int n = arr.length;
+      int[][] dp = new int[n + 1][n + 1];
+      for (int index = n - 1; index >= 0; index--) {
+         for (int previous = index - 1; previous >= -1; previous--) {
+            int length = dp[index + 1][previous + 1];
+            if (previous == -1 || arr[index] > arr[previous]) {
+               length = Math.max(length, 1 + dp[index + 1][index + 1]);
+            }
+            dp[index][previous + 1] = length;
+         }
+      }
+      return dp[0][0];
+   }
+
    public int longestIncreasingSubsequence(int[] arr) {
       int n = arr.length;
       int[][] dp = new int[n][n + 1];
