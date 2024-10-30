@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest increasing subsequence with tabulation">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequenceTest.java" afterDir="false" />
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="587" />
+    <option name="localTasksCounter" value="588" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;number of rotations in an array" />
     <MESSAGE value="[practice/binary-search]: &#10;single element in a sorted array with duplicates" />
     <MESSAGE value="[practice/binary-search]: &#10;single element in a sorted array with duplicates optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;Children Sum property" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with transaction fee with tabulation and space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest increasing subsequence with tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
