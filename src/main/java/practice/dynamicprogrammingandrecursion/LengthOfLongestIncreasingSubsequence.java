@@ -19,6 +19,23 @@ public class LengthOfLongestIncreasingSubsequence {
       return dp[0][0];
    }
 
+   public int longestIncreasingSubsequenceSpaceOptimisation(int[] arr) {
+      int n = arr.length;
+      int[] current = new int[n + 1];
+      int[] next = new int[n + 1];
+      for (int index = n - 1; index >= 0; index--) {
+         for (int previous = index - 1; previous >= -1; previous--) {
+            int length = next[previous + 1];
+            if (previous == -1 || arr[index] > arr[previous]) {
+               length = Math.max(length, 1 + next[index + 1]);
+            }
+            current[previous + 1] = length;
+         }
+         next = current;
+      }
+      return next[0];
+   }
+
    public int longestIncreasingSubsequence(int[] arr) {
       int n = arr.length;
       int[][] dp = new int[n][n + 1];
