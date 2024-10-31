@@ -12,6 +12,8 @@ public class LengthOfLongestIncreasingSubsequenceTest {
       int[] input = {5, 4, 11, 1, 16, 8};
       Assertions.assertEquals(3, classObj.longestIncreasingSubsequence(input));
       Assertions.assertEquals(3, classObj.longestIncreasingSubsequenceTabulation(input));
+      Assertions.assertEquals(3, classObj.longestIncreasingSubsequenceSpaceOptimisation(input));
+      Assertions.assertEquals(3, classObj.longestIncreasingSubsequenceOptimised(input));
    }
 
    @Test
@@ -19,5 +21,7 @@ public class LengthOfLongestIncreasingSubsequenceTest {
       int[] input = {1, 2, 2};
       Assertions.assertEquals(2, classObj.longestIncreasingSubsequence(input));
       Assertions.assertEquals(2, classObj.longestIncreasingSubsequenceTabulation(input));
+      Assertions.assertEquals(2, classObj.longestIncreasingSubsequenceSpaceOptimisation(input));
+      Assertions.assertEquals(2, classObj.longestIncreasingSubsequenceOptimised(input));
    }
 }
