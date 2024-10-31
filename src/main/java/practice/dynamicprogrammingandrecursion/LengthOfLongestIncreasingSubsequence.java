@@ -1,8 +1,31 @@
 package practice.dynamicprogrammingandrecursion;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import practice.utils.BinarySearchUtils;
 
 public class LengthOfLongestIncreasingSubsequence {
+
+   public int longestIncreasingSubsequenceBinarySearch(int[] arr) {
+      int n = arr.length;
+      List<Integer> result = new ArrayList<>();
+      result.add(arr[0]);
+      int length = 1;
+      for (int i = 1; i < n; i++) {
+         if (arr[i] > result.get(result.size() - 1)) {
+            result.add(arr[i]);
+            length++;
+         } else {
+            int index = BinarySearchUtils.lowerBound(result, arr[i]);
+            if (index < 0) {
+               index = -index - 1;
+            }
+            result.set(index, arr[i]);
+         }
+      }
+      return length;
+   }
 
    public int longestIncreasingSubsequenceOptimised(int[] arr) {
       int n = arr.length;

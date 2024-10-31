@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest increasing subsequence optimised dp with O(N) space">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LongestIncreasingSubsequenceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;printing longest increasing subsequence optimised dp with O(N) space">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/utils/BinarySearchUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/LengthOfLongestIncreasingSubsequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestIncreasingSubsequenceTest.test_longestIncreasingSubsequence_expect3_whenInputOfLength6">
+  <component name="RunManager" selected="Gradle.LengthOfLongestIncreasingSubsequenceTest">
     <configuration name="BestTimeToBuyAndSellStockWithCoolDownTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -424,30 +425,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStockWithCoolDownTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,6 +483,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="LongestIncreasingSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestIncreasingSubsequenceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LongestIncreasingSubsequenceTest.test_longestIncreasingSubsequence_expect3_whenInputOfLength6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -531,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.LongestIncreasingSubsequenceTest" />
       <item itemvalue="Gradle.LongestIncreasingSubsequenceTest.test_longestIncreasingSubsequence_expect3_whenInputOfLength6" />
       <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest" />
-      <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" />
       <item itemvalue="Gradle.BestTimeToBuySellStockWithTransactionFeeTest" />
       <item itemvalue="Gradle.LengthOfLongestIncreasingSubsequenceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LongestIncreasingSubsequenceTest.test_longestIncreasingSubsequence_expect3_whenInputOfLength6" />
         <item itemvalue="Gradle.LengthOfLongestIncreasingSubsequenceTest" />
+        <item itemvalue="Gradle.LongestIncreasingSubsequenceTest" />
+        <item itemvalue="Gradle.LongestIncreasingSubsequenceTest.test_longestIncreasingSubsequence_expect3_whenInputOfLength6" />
         <item itemvalue="Gradle.BestTimeToBuySellStockWithTransactionFeeTest" />
         <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest" />
-        <item itemvalue="Gradle.BestTimeToBuyAndSellStockWithCoolDownTest.test_maximumProfit_expect11_whenNIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="589" />
+    <option name="localTasksCounter" value="590" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;single element in a sorted array with duplicates optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;Children Sum property" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 2 using only variables" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 3 using recursion" />
@@ -939,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence optimised dp with O(N) space" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest increasing subsequence optimised dp with O(N) space" />
+    <MESSAGE value="[practice/binary-search]: &#10;printing longest increasing subsequence optimised dp with O(N) space" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;printing longest increasing subsequence optimised dp with O(N) space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2766,7 +2767,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/LongestIncreasingSubsequence.java</url>
-          <line>33</line>
+          <line>31</line>
           <option name="timeStamp" value="715" />
         </line-breakpoint>
       </breakpoints>
