@@ -11,17 +11,20 @@ public class MatrixChainMultiplicationTest {
    void test_matrixMultiplication_expect70_whenNIs4() {
       int[] input = {4, 5, 3, 2};
       Assertions.assertEquals(70, classObj.matrixMultiplication(input, 4));
+      Assertions.assertEquals(70, classObj.matrixMultiplicationTabulation(input, 4));
    }
 
    @Test
    void test_matrixMultiplication_expect8000_whenNIs4() {
       int[] input = {10, 15, 20, 25};
       Assertions.assertEquals(8000, classObj.matrixMultiplication(input, 4));
+      Assertions.assertEquals(8000, classObj.matrixMultiplicationTabulation(input, 4));
    }
 
    @Test
    void test_matrixMultiplication_expect18_whenNIs4() {
       int[] input = {1, 4, 3, 2};
       Assertions.assertEquals(18, classObj.matrixMultiplication(input, 4));
+      Assertions.assertEquals(18, classObj.matrixMultiplicationTabulation(input, 4));
    }
 }
