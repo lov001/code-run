@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;matrix chain multiplication using memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;matrix chain multiplication using tabulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CostToCutChocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CostToCutChocolateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MatrixChainMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MatrixChainMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MatrixChainMultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MatrixChainMultiplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +409,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MatrixChainMultiplicationTest">
+  <component name="RunManager" selected="Gradle.CostToCutChocolateTest">
+    <configuration name="CostToCutChocolateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.CostToCutChocolateTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LongestBitonicSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -424,30 +448,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.LongestBitonicSubsequenceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestDivisibleSubsetTest.test_divisibleSet_expect1_2_whenInputOfLength3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestDivisibleSubsetTest.test_divisibleSet_expect1_2_whenInputOfLength3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,19 +531,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.CostToCutChocolateTest" />
       <item itemvalue="Gradle.LongestBitonicSubsequenceTest" />
-      <item itemvalue="Gradle.LongestDivisibleSubsetTest.test_divisibleSet_expect1_2_whenInputOfLength3" />
       <item itemvalue="Gradle.LongestStringChainTest" />
       <item itemvalue="Gradle.MatrixChainMultiplicationTest" />
       <item itemvalue="Gradle.NumberOfLongestIncreasingSubsequenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CostToCutChocolateTest" />
         <item itemvalue="Gradle.MatrixChainMultiplicationTest" />
         <item itemvalue="Gradle.NumberOfLongestIncreasingSubsequenceTest" />
         <item itemvalue="Gradle.LongestBitonicSubsequenceTest" />
         <item itemvalue="Gradle.LongestStringChainTest" />
-        <item itemvalue="Gradle.LongestDivisibleSubsetTest.test_divisibleSet_expect1_2_whenInputOfLength3" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="597" />
+    <option name="localTasksCounter" value="598" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with space optimisation" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;longest bitonic sequence" />
     <MESSAGE value="[practice/binary-search]: &#10;Number of longest increasing subsequences" />
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;matrix chain multiplication using memoization" />
+    <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
