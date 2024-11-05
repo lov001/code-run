@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;cost to cut chocolates using memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;cost to mine the diamonds using memoization">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MiningDiamonds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/MiningDiamondsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CostToCutChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CostToCutChocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CostToCutChocolateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CostToCutChocolateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CostToCutChocolateTest">
+  <component name="RunManager" selected="Gradle.MiningDiamondsTest">
     <configuration name="CostToCutChocolateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -458,30 +458,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestStringChainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.LongestStringChainTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="MatrixChainMultiplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -496,6 +472,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.MatrixChainMultiplicationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MiningDiamondsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.dynamicprogrammingandrecursion.MiningDiamondsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -533,17 +533,17 @@
     <list>
       <item itemvalue="Gradle.CostToCutChocolateTest" />
       <item itemvalue="Gradle.LongestBitonicSubsequenceTest" />
-      <item itemvalue="Gradle.LongestStringChainTest" />
       <item itemvalue="Gradle.MatrixChainMultiplicationTest" />
+      <item itemvalue="Gradle.MiningDiamondsTest" />
       <item itemvalue="Gradle.NumberOfLongestIncreasingSubsequenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MiningDiamondsTest" />
         <item itemvalue="Gradle.CostToCutChocolateTest" />
         <item itemvalue="Gradle.MatrixChainMultiplicationTest" />
         <item itemvalue="Gradle.NumberOfLongestIncreasingSubsequenceTest" />
         <item itemvalue="Gradle.LongestBitonicSubsequenceTest" />
-        <item itemvalue="Gradle.LongestStringChainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="600" />
+    <option name="localTasksCounter" value="601" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,8 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with tabulation" />
-    <MESSAGE value="[practice/binary-search]: &#10;best time to buy sell stock 4 using optimised approach with space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;nodes at a distance k from target node" />
     <MESSAGE value="[practice/binary-search]: &#10;Time to burn the tree" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cooldown" />
@@ -939,7 +937,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
+    <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;cost to mine the diamonds using memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;cost to mine the diamonds using memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
