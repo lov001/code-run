@@ -4,6 +4,30 @@ import java.util.Arrays;
 
 public class CostToCutChocolate {
 
+   public int costTabulation(int n, int c, int[] cuts) {
+      int[] updatedCuts = new int[cuts.length + 2];
+      updatedCuts[0] = 0;
+      updatedCuts[updatedCuts.length - 1] = n;
+      System.arraycopy(cuts, 0, updatedCuts, 1, cuts.length);
+      Arrays.sort(updatedCuts);
+      int[][] dp = new int[cuts.length + 2][cuts.length + 2];
+      for (int i = c; i >= 1; i--) {
+         for (int j = 1; j <= c; j++) {
+            if (i > j) {
+               continue;
+            }
+            int min = Integer.MAX_VALUE;
+            for (int index = i; index <= j; index++) {
+               int cost =
+                  updatedCuts[j + 1] - updatedCuts[i - 1] + dp[i][index - 1] + dp[index + 1][j];
+               min = Math.min(min, cost);
+            }
+            dp[i][j] = min;
+         }
+      }
+      return dp[1][c];
+   }
+
    public int cost(int n, int c, int[] cuts) {
       int[] updatedCuts = new int[cuts.length + 2];
       updatedCuts[0] = 0;
