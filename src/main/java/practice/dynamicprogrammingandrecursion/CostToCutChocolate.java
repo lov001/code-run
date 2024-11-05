@@ -10,19 +10,27 @@ public class CostToCutChocolate {
       updatedCuts[updatedCuts.length - 1] = n;
       System.arraycopy(cuts, 0, updatedCuts, 1, cuts.length);
       Arrays.sort(updatedCuts);
-      return helper(1, c, updatedCuts);
+      int[][] dp = new int[cuts.length + 2][cuts.length + 2];
+      for (int[] rows : dp) {
+         Arrays.fill(rows, -1);
+      }
+      return helper(1, c, updatedCuts, dp);
    }
 
-   private int helper(int i, int j, int[] cuts) {
+   private int helper(int i, int j, int[] cuts, int[][] dp) {
       if (i > j) {
          return 0;
+      }
+      if (dp[i][j] != -1) {
+         return dp[i][j];
       }
       int min = Integer.MAX_VALUE;
       for (int index = i; index <= j; index++) {
          int cost =
-            cuts[j + 1] - cuts[i - 1] + helper(i, index - 1, cuts) + helper(index + 1, j, cuts);
+            cuts[j + 1] - cuts[i - 1] + helper(i, index - 1, cuts, dp) + helper(index + 1, j, cuts,
+               dp);
          min = Math.min(min, cost);
       }
-      return min;
+      return dp[i][j] = min;
    }
 }
