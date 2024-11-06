@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;palindrome partitioning with memozation and tabulation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/PartitionArrayWithMaximumSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/PartitionArrayWithMaximumSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;partition array with maximum sum using memoization and tabulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/LargestRectangleInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/LargestRectangleInHistogramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -409,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PartitionArrayWithMaximumSumTest">
+  <component name="RunManager" selected="Gradle.LargestRectangleInHistogramTest">
     <configuration name="BooleanEvaluationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -434,7 +434,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BooleanEvaluationTest.test_evaluateExp_expect37658582_when2WaysToParenthesizeExpression" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LargestRectangleInHistogramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -447,7 +447,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.BooleanEvaluationTest.test_evaluateExp_expect37658582_when2WaysToParenthesizeExpression&quot;" />
+            <option value="&quot;practice.arraysandstrings.LargestRectangleInHistogramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -458,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MiningDiamondsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LargestRectangleInHistogramTest.test_largestRectangle_expect8_whenNIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -471,7 +471,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MiningDiamondsTest&quot;" />
+            <option value="&quot;practice.arraysandstrings.LargestRectangleInHistogramTest.test_largestRectangle_expect8_whenNIs10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,18 +532,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BooleanEvaluationTest" />
-      <item itemvalue="Gradle.BooleanEvaluationTest.test_evaluateExp_expect37658582_when2WaysToParenthesizeExpression" />
-      <item itemvalue="Gradle.MiningDiamondsTest" />
+      <item itemvalue="Gradle.LargestRectangleInHistogramTest" />
+      <item itemvalue="Gradle.LargestRectangleInHistogramTest.test_largestRectangle_expect8_whenNIs10" />
       <item itemvalue="Gradle.PalindromePartitioning2Test" />
       <item itemvalue="Gradle.PartitionArrayWithMaximumSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LargestRectangleInHistogramTest" />
+        <item itemvalue="Gradle.LargestRectangleInHistogramTest.test_largestRectangle_expect8_whenNIs10" />
         <item itemvalue="Gradle.PartitionArrayWithMaximumSumTest" />
         <item itemvalue="Gradle.PalindromePartitioning2Test" />
         <item itemvalue="Gradle.BooleanEvaluationTest" />
-        <item itemvalue="Gradle.BooleanEvaluationTest.test_evaluateExp_expect37658582_when2WaysToParenthesizeExpression" />
-        <item itemvalue="Gradle.MiningDiamondsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="606" />
+    <option name="localTasksCounter" value="607" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with tabulation with only 1 loop" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with cool down with space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with transaction fee" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;boolean expression evaluation" />
     <MESSAGE value="[practice/binary-search]: &#10;boolean expression evaluation using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;palindrome partitioning with memozation and tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;palindrome partitioning with memozation and tabulation" />
+    <MESSAGE value="[practice/binary-search]: &#10;partition array with maximum sum using memoization and tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;partition array with maximum sum using memoization and tabulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
