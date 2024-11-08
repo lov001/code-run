@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;count square sub matrices">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/CountNodesInCompleteBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/CountNodesInCompleteBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ConstructBinaryTreeFromInOrderAndPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ConstructBinaryTreeFromInorderAndPreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/ConstructBinaryTreeFromInorderAndPreOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -401,15 +402,39 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.trees" />
+      <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountNodesInCompleteBinaryTreeTest">
+  <component name="RunManager" selected="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest">
+    <configuration name="ConstructBinaryTreeFromInorderAndPreOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.ConstructBinaryTreeFromInorderAndPreOrderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="CountNodesInCompleteBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -448,30 +473,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.dynamicprogrammingandrecursion.CountSquareSubMatricesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LargestRectangleInHistogramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.LargestRectangleInHistogramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
       <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
       <item itemvalue="Gradle.CountSquareSubMatricesTest" />
       <item itemvalue="Gradle.MaximumRectangleAreaTest" />
       <item itemvalue="Gradle.MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix" />
-      <item itemvalue="Gradle.LargestRectangleInHistogramTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
         <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
         <item itemvalue="Gradle.CountSquareSubMatricesTest" />
         <item itemvalue="Gradle.MaximumRectangleAreaTest" />
         <item itemvalue="Gradle.MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix" />
-        <item itemvalue="Gradle.LargestRectangleInHistogramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="610" />
+    <option name="localTasksCounter" value="611" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,8 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;buy and sell stock with transaction fee with tabulation and space optimisation" />
-    <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence optimised dp with O(N) space" />
@@ -939,7 +938,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;largest rectangle area brute force + optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum rectangle area within a matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;count square sub matrices" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;count square sub matrices" />
+    <MESSAGE value="[practice/binary-trees]: &#10;count number of nodes in a complete binary tree" />
+    <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
