@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/ConstructBinaryTreeFromInOrderAndPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -408,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest">
+  <component name="RunManager" selected="Gradle.SerializeAndDeserializeBinaryTreeTest">
     <configuration name="ConstructBinaryTreeFromInorderAndPreOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -457,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CountSquareSubMatricesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerializeAndDeserializeBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -470,7 +471,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.CountSquareSubMatricesTest&quot;" />
+            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -481,7 +482,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumRectangleAreaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -494,7 +495,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumRectangleAreaTest&quot;" />
+            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -505,7 +506,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -518,7 +519,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.dynamicprogrammingandrecursion.MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix&quot;" />
+            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,17 +533,17 @@
     <list>
       <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
       <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
-      <item itemvalue="Gradle.CountSquareSubMatricesTest" />
-      <item itemvalue="Gradle.MaximumRectangleAreaTest" />
-      <item itemvalue="Gradle.MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix" />
+      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
+      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
+      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
+        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
+        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2" />
         <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
         <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
-        <item itemvalue="Gradle.CountSquareSubMatricesTest" />
-        <item itemvalue="Gradle.MaximumRectangleAreaTest" />
-        <item itemvalue="Gradle.MaximumRectangleAreaTest.test_maximalAreaOfSubMatrixOfAll1_expect4_when2x2Matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="612" />
+    <option name="localTasksCounter" value="613" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2772,6 +2773,20 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/MaximumRectangleArea.java</url>
           <line>7</line>
           <option name="timeStamp" value="716" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
+          <line>10</line>
+          <properties class="practice.trees.SerializeAndDeserializeBinaryTreeTest" method="test_serializeTree_expect13_whenNodesAre2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="719" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
