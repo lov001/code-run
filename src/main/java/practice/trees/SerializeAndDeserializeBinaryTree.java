@@ -13,25 +13,37 @@ public class SerializeAndDeserializeBinaryTree {
          BinaryTreeNode node = queue.poll();
          if (node == null) {
             serialisedString.append("-1").append(" ");
+            continue;
          } else {
             serialisedString.append(node.data).append(" ");
          }
-         if (node != null) {
-            queue.add(node.left);
-            queue.add(node.right);
-         }
+         queue.add(node.left);
+         queue.add(node.right);
       }
       return serialisedString.substring(0, serialisedString.length() - 1);
    }
 
-//   public BinaryTreeNode deserializeTree(String serialized) {
-//      if (serialized.length() == 0) {
-//         return null;
-//      }
-//      String[] nodes = serialized.split(" ");
-//      for (int i = 0; i < nodes.length; i++) {
-//         BinaryTreeNode node = new BinaryTreeNode(Integer.parseInt(nodes[i]));
-//      }
-//      return null;
-//   }
+   public BinaryTreeNode deserializeTree(String serialized) {
+      if (serialized.length() == 0) {
+         return null;
+      }
+      String[] nodes = serialized.split(" ");
+      Queue<BinaryTreeNode> queue = new LinkedList<>();
+      BinaryTreeNode root = new BinaryTreeNode(Integer.parseInt(nodes[0]));
+      queue.add(root);
+      for (int i = 1; i < nodes.length; i++) {
+         BinaryTreeNode parent = queue.poll();
+         if (!nodes[i].equals("-1")) {
+            BinaryTreeNode left = new BinaryTreeNode(Integer.parseInt(nodes[i]));
+            queue.add(left);
+            parent.left = left;
+         }
+         if (!nodes[++i].equals("-1")) {
+            BinaryTreeNode right = new BinaryTreeNode(Integer.parseInt(nodes[i]));
+            queue.add(right);
+            parent.right = right;
+         }
+      }
+      return root;
+   }
 }
