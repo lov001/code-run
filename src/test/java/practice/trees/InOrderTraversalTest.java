@@ -19,6 +19,8 @@ public class InOrderTraversalTest {
          InOrderTraversal.inOrderTraversalIterative(root));
       Assertions.assertEquals(Arrays.asList(1, 3, 2),
          InOrderTraversal.inOrderTraversalIterative2(root));
+
+      Assertions.assertEquals(Arrays.asList(1, 3, 2), MorrisTraversal.getInOrderTraversal(root));
    }
 
    @Test
@@ -28,6 +30,7 @@ public class InOrderTraversalTest {
          InOrderTraversal.inOrderTraversalIterative(null));
       Assertions.assertEquals(Collections.emptyList(),
          InOrderTraversal.inOrderTraversalIterative2(null));
+      Assertions.assertEquals(Collections.emptyList(), MorrisTraversal.getInOrderTraversal(null));
    }
 
    @Test
@@ -53,6 +56,8 @@ public class InOrderTraversalTest {
          InOrderTraversal.inOrderTraversalIterative(tree1));
       Assertions.assertEquals(List.of(8, 14, 25, 28, 30, 50),
          InOrderTraversal.inOrderTraversalIterative2(tree1));
+
+      Assertions.assertEquals(Arrays.asList(8, 14, 25, 28, 30, 50), MorrisTraversal.getInOrderTraversal(tree1));
    }
 
 }
