@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;serialize a binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,30 +434,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CountNodesInCompleteBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.CountNodesInCompleteBinaryTreeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="SerializeAndDeserializeBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -472,6 +448,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,18 +532,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
-      <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
       <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
+      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5" />
       <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
       <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
+        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5" />
         <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
         <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect13_whenNodesAre2" />
         <item itemvalue="Gradle.ConstructBinaryTreeFromInorderAndPreOrderTest" />
-        <item itemvalue="Gradle.CountNodesInCompleteBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="613" />
+    <option name="localTasksCounter" value="614" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence with space optimisation" />
     <MESSAGE value="[practice/binary-search]: &#10;longest increasing subsequence optimised dp with O(N) space" />
     <MESSAGE value="[practice/binary-search]: &#10;printing longest increasing subsequence optimised dp with O(N) space" />
     <MESSAGE value="[practice/binary-search]: &#10;length of longest increasing subsequence with binary search" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;count number of nodes in a complete binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal" />
+    <MESSAGE value="[practice/binary-trees]: &#10;serialize a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;serialize a binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2778,6 +2778,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java</url>
           <line>8</line>
           <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="720" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/SerializeAndDeserializeBinaryTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="721" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
