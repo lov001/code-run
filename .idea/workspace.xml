@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;inorder traversal via morris traversal">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/FlattenBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/MorrisTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/MorrisTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/PreOrderTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +409,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PreOrderTraversalTest">
+  <component name="RunManager" selected="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5">
+    <configuration name="FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="InOrderTraversalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -506,44 +530,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5" />
       <item itemvalue="Gradle.InOrderTraversalTest" />
       <item itemvalue="Gradle.PreOrderTraversalTest" />
       <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
       <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5" />
-      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.PreOrderTraversalTest" />
         <item itemvalue="Gradle.InOrderTraversalTest" />
         <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
         <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_deserializeTree_expect12345_whenNodesAre5" />
-        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest.test_serializeTree_expect12345_whenNodesAre5" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="616" />
+    <option name="localTasksCounter" value="617" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,8 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;length of longest increasing subsequence with binary search" />
-    <MESSAGE value="[practice/binary-search]: &#10;longest divisible subset" />
     <MESSAGE value="[practice/binary-search]: &#10;longest divisible subset unit tests" />
     <MESSAGE value="[practice/binary-search]: &#10;longest string chain" />
     <MESSAGE value="[practice/binary-search]: &#10;longest bitonic sequence" />
@@ -939,7 +937,9 @@
     <MESSAGE value="[practice/binary-trees]: &#10;serialize a binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;deserialize a binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder traversal via morris traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;inorder traversal via morris traversal" />
+    <MESSAGE value="[practice/binary-trees]: &#10;pre-order traversal via morris traversal" />
+    <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
