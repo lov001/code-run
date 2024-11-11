@@ -18,12 +18,14 @@ public class PreOrderTraversalTest {
       BinaryTreeNode root = new BinaryTreeNode(1, null, right);
       Assertions.assertEquals(Arrays.asList(1, 2, 3), classObj.preOrderTraversal(root));
       Assertions.assertEquals(Arrays.asList(1, 2, 3), classObj.preOrderTraversalIterative(root));
+      Assertions.assertEquals(Arrays.asList(1, 2, 3), MorrisTraversal.getPreOrderTraversal(root));
    }
 
    @Test
    void test_preOrderTraversal_expectEmptyList_whenTreeHasNoNodes() {
       Assertions.assertEquals(Collections.emptyList(), classObj.preOrderTraversal(null));
       Assertions.assertEquals(Collections.emptyList(), classObj.preOrderTraversalIterative(null));
+      Assertions.assertEquals(Collections.emptyList(), MorrisTraversal.getPreOrderTraversal(null));
    }
 
    @Test
@@ -41,6 +43,7 @@ public class PreOrderTraversalTest {
       BinaryTreeNode root = new BinaryTreeNode(1, left, right);
       Assertions.assertEquals(Arrays.asList(1, 4, 2, 3), classObj.preOrderTraversal(root));
       Assertions.assertEquals(Arrays.asList(1, 4, 2, 3), classObj.preOrderTraversalIterative(root));
+      Assertions.assertEquals(Arrays.asList(1, 4, 2, 3), MorrisTraversal.getPreOrderTraversal(root));
    }
 
    @Test
@@ -55,6 +58,7 @@ public class PreOrderTraversalTest {
       Assertions.assertEquals(List.of(25, 14, 8, 30, 28, 50), classObj.preOrderTraversal(tree1));
       Assertions.assertEquals(List.of(25, 14, 8, 30, 28, 50),
          classObj.preOrderTraversalIterative(tree1));
+      Assertions.assertEquals(List.of(25, 14, 8, 30, 28, 50), MorrisTraversal.getPreOrderTraversal(tree1));
    }
 
 }
