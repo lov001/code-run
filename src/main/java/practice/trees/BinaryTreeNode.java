@@ -2,8 +2,7 @@ package practice.trees;
 
 public class BinaryTreeNode {
 
-   int data;
-
+   public int data;
    public BinaryTreeNode left;
    public BinaryTreeNode right;
 
