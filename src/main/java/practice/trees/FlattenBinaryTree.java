@@ -6,6 +6,22 @@ public class FlattenBinaryTree {
 
    static BinaryTreeNode prev = null;
 
+   public BinaryTreeNode flattenBinaryTreeMorrisTraversal(BinaryTreeNode root) {
+      BinaryTreeNode current = root;
+      while (current != null) {
+         if (current.left != null) {
+            BinaryTreeNode prev = current.left;
+            while (prev.right != null) {
+               prev = prev.right;
+            }
+            prev.right = current.right;
+            current.right = current.left;
+         }
+         current = current.right;
+      }
+      return root;
+   }
+
    public BinaryTreeNode flattenBinaryTreeIterative(BinaryTreeNode root) {
       Stack<BinaryTreeNode> stack = new Stack<>();
       stack.push(root);
