@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;flatten a binary tree using iterative approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/FlattenBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/FlattenBinaryTreeTest.java" afterDir="false" />
@@ -409,7 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeIterative_expectLinkedList_whenNoOfNodeIs5">
+  <component name="RunManager" selected="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeMorrisTraversal_expectLinkedList_whenNoOfNodeIs5">
     <configuration name="FlattenBinaryTreeTest.test_flattenBinaryTreeIterative_expectLinkedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -424,6 +424,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.trees.FlattenBinaryTreeTest.test_flattenBinaryTreeIterative_expectLinkedList_whenNoOfNodeIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FlattenBinaryTreeTest.test_flattenBinaryTreeMorrisTraversal_expectLinkedList_whenNoOfNodeIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.FlattenBinaryTreeTest.test_flattenBinaryTreeMorrisTraversal_expectLinkedList_whenNoOfNodeIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,44 +530,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SerializeAndDeserializeBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.SerializeAndDeserializeBinaryTreeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeIterative_expectLinkedList_whenNoOfNodeIs5" />
+      <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeMorrisTraversal_expectLinkedList_whenNoOfNodeIs5" />
       <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5" />
       <item itemvalue="Gradle.InOrderTraversalTest" />
       <item itemvalue="Gradle.PreOrderTraversalTest" />
-      <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeMorrisTraversal_expectLinkedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTreeIterative_expectLinkedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.FlattenBinaryTreeTest.test_flattenBinaryTree_expectLinkedList_whenNoOfNodeIs5" />
         <item itemvalue="Gradle.PreOrderTraversalTest" />
         <item itemvalue="Gradle.InOrderTraversalTest" />
-        <item itemvalue="Gradle.SerializeAndDeserializeBinaryTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="618" />
+    <option name="localTasksCounter" value="619" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;longest divisible subset unit tests" />
     <MESSAGE value="[practice/binary-search]: &#10;longest string chain" />
     <MESSAGE value="[practice/binary-search]: &#10;longest bitonic sequence" />
     <MESSAGE value="[practice/binary-search]: &#10;Number of longest increasing subsequences" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;inorder traversal via morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;pre-order traversal via morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;flatten a binary tree using brute force approach" />
+    <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using iterative approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;flatten a binary tree using iterative approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2791,12 +2791,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java</url>
-          <line>9</line>
+          <line>25</line>
           <option name="timeStamp" value="724" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java</url>
-          <line>24</line>
+          <line>40</line>
           <option name="timeStamp" value="725" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
