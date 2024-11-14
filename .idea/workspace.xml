@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;search in a bst">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/CeilingInBst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/CeilingInBstTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;ceiling in a BST">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/FloorInBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/FloorInBstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -410,7 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CeilingInBstTest">
+  <component name="RunManager" selected="Gradle.FloorInBstTest">
     <configuration name="CeilingInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -459,7 +459,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CeilingInBstTest.test_findCeil_expect7_whenXIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FloorInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -472,7 +472,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.CeilingInBstTest.test_findCeil_expect7_whenXIs7&quot;" />
+            <option value="&quot;practice.trees.bst.FloorInBstTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -483,7 +483,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInBstTest.test_searchInBST_expectTrue_whenDifferenceIs3_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FloorInBstTest.test_floorInBST_expect7_whenXIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -496,7 +496,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.SearchInBstTest.test_searchInBST_expectTrue_whenDifferenceIs3_&quot;" />
+            <option value="&quot;practice.trees.bst.FloorInBstTest.test_floorInBST_expect7_whenXIs10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,7 +507,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInBstTest.test_searchInBST_expectTrue_whenEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FloorInBstTest.test_floorInBST_expect7_whenXIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -520,7 +520,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.SearchInBstTest.test_searchInBST_expectTrue_whenEmptyTree&quot;" />
+            <option value="&quot;practice.trees.bst.FloorInBstTest.test_floorInBST_expect7_whenXIs9&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -534,17 +534,17 @@
     <list>
       <item itemvalue="Gradle.CeilingInBstTest" />
       <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect5_whenXIs4" />
-      <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect7_whenXIs7" />
-      <item itemvalue="Gradle.SearchInBstTest.test_searchInBST_expectTrue_whenDifferenceIs3_" />
-      <item itemvalue="Gradle.SearchInBstTest.test_searchInBST_expectTrue_whenEmptyTree" />
+      <item itemvalue="Gradle.FloorInBstTest" />
+      <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs10" />
+      <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FloorInBstTest" />
+        <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs9" />
+        <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs10" />
         <item itemvalue="Gradle.CeilingInBstTest" />
         <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect5_whenXIs4" />
-        <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect7_whenXIs7" />
-        <item itemvalue="Gradle.SearchInBstTest.test_searchInBST_expectTrue_whenDifferenceIs3_" />
-        <item itemvalue="Gradle.SearchInBstTest.test_searchInBST_expectTrue_whenEmptyTree" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="621" />
+    <option name="localTasksCounter" value="622" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;Number of longest increasing subsequences" />
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using iterative approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;search in a bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;search in a bst" />
+    <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;ceiling in a BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
