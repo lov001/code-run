@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;ceiling in a BST">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/FloorInBst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/FloorInBstTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;floor in a BST">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/InsertionInBst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -900,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="622" />
+    <option name="localTasksCounter" value="623" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using tabulation" />
@@ -940,7 +938,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;search in a bst" />
     <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;ceiling in a BST" />
+    <MESSAGE value="[practice/binary-trees]: &#10;floor in a BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;floor in a BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
