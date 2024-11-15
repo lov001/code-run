@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;floor in a BST">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/InsertionInBst.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;insertion in a bst">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/InsertionInBstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -409,55 +409,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FloorInBstTest">
-    <configuration name="CeilingInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.CeilingInBstTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CeilingInBstTest.test_findCeil_expect5_whenXIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.CeilingInBstTest.test_findCeil_expect5_whenXIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.InsertionInBstTest">
     <configuration name="FloorInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -482,7 +434,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FloorInBstTest.test_floorInBST_expect7_whenXIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -495,7 +447,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.FloorInBstTest.test_floorInBST_expect7_whenXIs10&quot;" />
+            <option value="&quot;practice.trees.bst.InsertionInBstTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -506,7 +458,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FloorInBstTest.test_floorInBST_expect7_whenXIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -519,7 +471,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.FloorInBstTest.test_floorInBST_expect7_whenXIs9&quot;" />
+            <option value="&quot;practice.trees.bst.InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.bst.InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.bst.InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,19 +531,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CeilingInBstTest" />
-      <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect5_whenXIs4" />
+      <item itemvalue="Gradle.InsertionInBstTest" />
+      <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes" />
+      <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree" />
+      <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode" />
       <item itemvalue="Gradle.FloorInBstTest" />
-      <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs10" />
-      <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InsertionInBstTest" />
+        <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode" />
+        <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes" />
+        <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree" />
         <item itemvalue="Gradle.FloorInBstTest" />
-        <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs9" />
-        <item itemvalue="Gradle.FloorInBstTest.test_floorInBST_expect7_whenXIs10" />
-        <item itemvalue="Gradle.CeilingInBstTest" />
-        <item itemvalue="Gradle.CeilingInBstTest.test_findCeil_expect5_whenXIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="623" />
+    <option name="localTasksCounter" value="624" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;matrix chain multiplication using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to mine the diamonds using memoization" />
@@ -939,7 +938,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;search in a bst" />
     <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;floor in a BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;floor in a BST" />
+    <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;insertion in a bst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2798,6 +2798,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/FlattenBinaryTree.java</url>
           <line>40</line>
           <option name="timeStamp" value="725" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/trees/bst/InsertionInBstTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="727" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
