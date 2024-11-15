@@ -19,6 +19,7 @@ public class KthSmallestElementTest {
       BinaryTreeNode right1 = new BinaryTreeNode(8, left3, right3);
       BinaryTreeNode tree = new BinaryTreeNode(5, left1, right1);
       Assertions.assertEquals(4, classObj.kthSmallest(tree, 3));
+      Assertions.assertEquals(4, classObj.kthSmallestOptimised(tree, 3));
    }
 
    @Test
@@ -32,5 +33,6 @@ public class KthSmallestElementTest {
       BinaryTreeNode right1 = new BinaryTreeNode(8, left3, right3);
       BinaryTreeNode tree = new BinaryTreeNode(5, left1, right1);
       Assertions.assertEquals(10, classObj.kthSmallest(tree, 8));
+      Assertions.assertEquals(10, classObj.kthSmallestOptimised(tree, 8));
    }
 }
