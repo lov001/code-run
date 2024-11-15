@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;insertion in a bst">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/InsertionInBstTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;insertion in a bst - added unit tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/DeletionInBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/DeletionInBstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -409,8 +410,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionInBstTest">
-    <configuration name="FloorInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode">
+    <configuration name="DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -423,7 +424,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.FloorInBstTest&quot;" />
+            <option value="&quot;practice.trees.bst.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" />
       <item itemvalue="Gradle.InsertionInBstTest" />
       <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes" />
       <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree" />
       <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode" />
-      <item itemvalue="Gradle.FloorInBstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" />
         <item itemvalue="Gradle.InsertionInBstTest" />
         <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenTreeDoesNotContainNode" />
         <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expect4InsertedAtLastNode_whenOnly2Nodes" />
         <item itemvalue="Gradle.InsertionInBstTest.test_insertionInBST_expectFalse_whenEmptyTree" />
-        <item itemvalue="Gradle.FloorInBstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="624" />
+    <option name="localTasksCounter" value="625" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -914,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to cut chocolates using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to mine the diamonds using memoization" />
     <MESSAGE value="[practice/binary-search]: &#10;cost to mine the diamonds using tabulation" />
@@ -939,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;floor in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;insertion in a bst" />
+    <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst - added unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;insertion in a bst - added unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
