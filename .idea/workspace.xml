@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LCAInBstTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;LCA in a BST recursive approach.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LCAInBstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LCAInBstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="632" />
+    <option name="localTasksCounter" value="633" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;largest rectangle area brute force + optimised approach" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum rectangle area within a matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;count square sub matrices" />
     <MESSAGE value="[practice/binary-trees]: &#10;count number of nodes in a complete binary tree" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
+    <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2822,7 +2822,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java</url>
-          <line>18</line>
+          <line>36</line>
           <option name="timeStamp" value="731" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
