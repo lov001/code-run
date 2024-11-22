@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/ValidateBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/ValidateBstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/KthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/KthSmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/bst/KthSmallestElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/KthSmallestElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,31 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthSmallestElementTest">
-    <configuration name="DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ValidateBstTest">
     <configuration name="KthLargestElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -531,20 +507,44 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="ValidateBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.bst.ValidateBstTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Gradle.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" />
       <item itemvalue="Gradle.KthLargestElementTest" />
       <item itemvalue="Gradle.KthLargestElementTest.test_kthLargest_expect7_whenKIs3" />
       <item itemvalue="Gradle.KthSmallestElementTest" />
       <item itemvalue="Gradle.KthSmallestElementTest.test_kthSmallest_expect4_whenKIs3" />
+      <item itemvalue="Gradle.ValidateBstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ValidateBstTest" />
         <item itemvalue="Gradle.KthSmallestElementTest" />
         <item itemvalue="Gradle.KthLargestElementTest" />
         <item itemvalue="Gradle.KthLargestElementTest.test_kthLargest_expect7_whenKIs3" />
         <item itemvalue="Gradle.KthSmallestElementTest.test_kthSmallest_expect4_whenKIs3" />
-        <item itemvalue="Gradle.DeletionInBstTest.test_deleteNode_expectFalse_whenTreeDoesNotContainNode" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="629" />
+    <option name="localTasksCounter" value="630" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;boolean expression evaluation using tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;palindrome partitioning with memozation and tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;partition array with maximum sum using memoization and tabulation" />
     <MESSAGE value="[practice/binary-search]: &#10;largest rectangle area brute force + optimised approach" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach" />
+    <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
