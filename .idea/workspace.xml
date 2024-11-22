@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;LCA in a BST recursive approach.">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;LCA in a BST iterative approach.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstFromPreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/ConstructBstFromPreOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LCAInBst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LCAInBstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LCAInBstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,8 +410,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LCAInBstTest">
-    <configuration name="KthSmallestElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals">
+    <configuration name="ConstructBstFromPreOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -424,7 +424,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.KthSmallestElementTest&quot;" />
+            <option value="&quot;practice.trees.bst.ConstructBstFromPreOrderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.bst.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,44 +531,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ValidateBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.ValidateBstTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.KthSmallestElementTest" />
+      <item itemvalue="Gradle.ConstructBstFromPreOrderTest" />
+      <item itemvalue="Gradle.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals" />
       <item itemvalue="Gradle.LCAInBstTest" />
       <item itemvalue="Gradle.LCAInBstTest.test_LCAinaBST_expectFalse_whenEmptyTree" />
       <item itemvalue="Gradle.LCAInBstTest.test_LCAinaBST_expectFalse_whenTreeDoesNotContainNode" />
-      <item itemvalue="Gradle.ValidateBstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals" />
+        <item itemvalue="Gradle.ConstructBstFromPreOrderTest" />
         <item itemvalue="Gradle.LCAInBstTest" />
         <item itemvalue="Gradle.LCAInBstTest.test_LCAinaBST_expectFalse_whenEmptyTree" />
         <item itemvalue="Gradle.LCAInBstTest.test_LCAinaBST_expectFalse_whenTreeDoesNotContainNode" />
-        <item itemvalue="Gradle.ValidateBstTest" />
-        <item itemvalue="Gradle.KthSmallestElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="633" />
+    <option name="localTasksCounter" value="634" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;maximum rectangle area within a matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;count square sub matrices" />
     <MESSAGE value="[practice/binary-trees]: &#10;count number of nodes in a complete binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
+    <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
