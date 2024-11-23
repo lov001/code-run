@@ -29,8 +29,8 @@ public class InOrderSuccessorAndPredecessorInBst {
          }
       }
       ArrayList<Integer> response = new ArrayList<>();
-      response.add(predecessor.data);
-      response.add(successor.data);
+      response.add(predecessor != null ? predecessor.data : -1);
+      response.add(successor != null ? successor.data : -1);
       return response;
    }
 }
