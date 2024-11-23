@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;LCA in a BST iterative approach.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstFromPreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/ConstructBstFromPreOrderTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;inorder successor and predecessor in BST">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/InOrderSuccessorAndPredecessorInBst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -900,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="634" />
+    <option name="localTasksCounter" value="635" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,8 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;count square sub matrices" />
-    <MESSAGE value="[practice/binary-trees]: &#10;count number of nodes in a complete binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;serialize a binary tree" />
@@ -940,7 +937,9 @@
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
+    <MESSAGE value="[practice/binary-trees]: &#10;Bst from preorder traversal" />
+    <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
