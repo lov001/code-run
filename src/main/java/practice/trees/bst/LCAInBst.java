@@ -16,4 +16,22 @@ public class LCAInBst {
       }
       return root;
    }
+
+   public BinaryTreeNode LCAinaBSTIterative(BinaryTreeNode root, BinaryTreeNode p,
+      BinaryTreeNode q) {
+      if (root == null) {
+         return null;
+      }
+      while (true) {
+         int current = root.data;
+         if (current < p.data && current < q.data) {
+            root = root.right;
+            continue;
+         } else if (current > p.data && current > q.data) {
+            root = root.left;
+            continue;
+         }
+         return root;
+      }
+   }
 }
