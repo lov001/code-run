@@ -15,7 +15,6 @@ public class BstIterator {
    }
 
    public int next() {
-      int next = -1;
       if (!hasNext()) {
          return -1;
       }
@@ -23,10 +22,8 @@ public class BstIterator {
       if (node.right == null) {
          return node.data;
       }
-      next = node.data;
-      node = node.right;
-      pushAllLeft(node);
-      return next;
+      pushAllLeft(node.right);
+      return node.data;
    }
 
    public boolean hasNext() {

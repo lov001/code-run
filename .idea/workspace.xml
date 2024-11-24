@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/BstIteratorTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;BST iterator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,7 +899,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="637" />
+    <option name="localTasksCounter" value="638" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;serialize a binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;deserialize a binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder traversal via morris traversal" />
@@ -940,7 +938,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;Bst from preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
+    <MESSAGE value="[practice/binary-trees]: &#10;BST iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;BST iterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
