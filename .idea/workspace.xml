@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;inorder successor and predecessor in BST">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/InOrderSuccessorAndPredecessorBstTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/BstIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/BstIteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/InOrderSuccessorAndPredecessorInBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/InOrderSuccessorAndPredecessorInBst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InOrderSuccessorAndPredecessorBstTest">
+  <component name="RunManager" selected="Gradle.BstIteratorTest.test_BstIterator_validateOperations">
+    <configuration name="BstIteratorTest.test_BstIterator_validateOperations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trees.bst.BstIteratorTest.test_BstIterator_validateOperations&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="ConstructBstFromPreOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -507,44 +531,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LCAInBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.LCAInBstTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.BstIteratorTest.test_BstIterator_validateOperations" />
       <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest" />
       <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest.test_findPreSuc_expect7_whenXIs7" />
       <item itemvalue="Gradle.ConstructBstFromPreOrderTest" />
       <item itemvalue="Gradle.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals" />
-      <item itemvalue="Gradle.LCAInBstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BstIteratorTest.test_BstIterator_validateOperations" />
         <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest" />
         <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest.test_findPreSuc_expect7_whenXIs7" />
         <item itemvalue="Gradle.ConstructBstFromPreOrderTest.test_proOderToBST_expectT1_whenGivenTraversals" />
         <item itemvalue="Gradle.ConstructBstFromPreOrderTest" />
-        <item itemvalue="Gradle.LCAInBstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="636" />
+    <option name="localTasksCounter" value="637" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;construct binary tree from inorder and postorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;serialize a binary tree" />
     <MESSAGE value="[practice/binary-trees]: &#10;deserialize a binary tree" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;Bst from preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
+    <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
