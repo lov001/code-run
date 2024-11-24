@@ -5,20 +5,23 @@ import practice.trees.BinaryTreeNode;
 
 public class BstIterator {
 
-   private static Stack<BinaryTreeNode> stack;
+   private static Stack<BinaryTreeNode> leftStack;
+   private static Stack<BinaryTreeNode> rightStack;
 
    BstIterator(BinaryTreeNode root) {
-      stack = new Stack<>();
-      stack.push(root);
-      BinaryTreeNode node = root.left;
-      pushAllLeft(node);
+      leftStack = new Stack<>();
+      leftStack.push(root);
+      rightStack = new Stack<>();
+      rightStack.push(root);
+      pushAllLeft(root.left);
+      pushAllRight(root.right);
    }
 
    public int next() {
       if (!hasNext()) {
          return -1;
       }
-      BinaryTreeNode node = stack.pop();
+      BinaryTreeNode node = leftStack.pop();
       if (node.right == null) {
          return node.data;
       }
@@ -27,13 +30,36 @@ public class BstIterator {
    }
 
    public boolean hasNext() {
-      return !stack.isEmpty();
+      return !leftStack.isEmpty();
    }
 
    private void pushAllLeft(BinaryTreeNode node) {
       while (node != null) {
-         stack.push(node);
+         leftStack.push(node);
          node = node.left;
+      }
+   }
+
+   public int before() {
+      if (!hasBefore()) {
+         return -1;
+      }
+      BinaryTreeNode node = rightStack.pop();
+      if (node.left == null) {
+         return node.data;
+      }
+      pushAllRight(node.left);
+      return node.data;
+   }
+
+   public boolean hasBefore() {
+      return !rightStack.isEmpty();
+   }
+
+   private void pushAllRight(BinaryTreeNode node) {
+      while (node != null) {
+         rightStack.push(node);
+         node = node.right;
       }
    }
 }
