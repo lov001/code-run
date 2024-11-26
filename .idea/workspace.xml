@@ -8,6 +8,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/RecoverBst.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/RecoverBstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/TwoSumInBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/TwoSumInBst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/bst/TwoSumInBstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/TwoSumInBstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -534,6 +537,7 @@
     <list>
       <item itemvalue="Gradle.BstIteratorTest.test_BstIterator_validateOperations" />
       <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
+      <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest" />
       <item itemvalue="Gradle.TwoSumInBstTest" />
       <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
       <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" />
@@ -545,6 +549,7 @@
         <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
         <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" />
         <item itemvalue="Gradle.BstIteratorTest.test_BstIterator_validateOperations" />
+        <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -901,6 +906,7 @@
       <updated>1680432532408</updated>
     </task>
     <option name="localTasksCounter" value="641" />
+    <option name="localTasksCounter" value="640" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
