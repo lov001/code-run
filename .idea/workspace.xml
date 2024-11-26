@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;Two sum in BST via BST iterator using single next implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/RecoverBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/RecoverBstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/trees/bst/TwoSumInBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/TwoSumInBst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/trees/bst/TwoSumInBstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/TwoSumInBstTest.java" afterDir="false" />
@@ -410,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TwoSumInBstTest">
+  <component name="RunManager" selected="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent">
     <configuration name="BstIteratorTest.test_BstIterator_validateOperations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -435,7 +438,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="InOrderSuccessorAndPredecessorBstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -448,7 +451,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trees.bst.InOrderSuccessorAndPredecessorBstTest&quot;" />
+            <option value="&quot;practice.trees.bst.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -533,6 +536,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BstIteratorTest.test_BstIterator_validateOperations" />
+      <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
       <item itemvalue="Gradle.InOrderSuccessorAndPredecessorBstTest" />
       <item itemvalue="Gradle.TwoSumInBstTest" />
       <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
@@ -540,6 +544,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
         <item itemvalue="Gradle.TwoSumInBstTest" />
         <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
         <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" />
@@ -900,6 +905,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
+    <option name="localTasksCounter" value="641" />
     <option name="localTasksCounter" value="640" />
     <servers />
   </component>
@@ -2859,6 +2865,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/bst/TwoSumInBst.java</url>
           <line>67</line>
           <option name="timeStamp" value="740" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/bst/RecoverBst.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="741" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trees/bst/RecoverBst.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="742" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
