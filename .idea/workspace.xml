@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;resolving merge conflict">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/bst/LargestBstInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trees/bst/LargestBstInBinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-trees]: &#10;largest BST in a binary tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FindPeakElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -401,16 +401,40 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.binarysearch" />
       <recent name="practice.trees.bst" />
       <recent name="practice.trees" />
       <recent name="practice.dynamicprogrammingandrecursion" />
-      <recent name="practice.binarysearch" />
       <recent name="practice.dynamicprogrammingandrecursion" />
       <recent name="practice.graphs" />
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LargestBstInBinaryTreeTest">
+  <component name="RunManager" selected="Gradle.FindPeakElementTest">
+    <configuration name="FindPeakElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindPeakElementTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LargestBstInBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -507,44 +531,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trees.bst.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.FindPeakElementTest" />
       <item itemvalue="Gradle.LargestBstInBinaryTreeTest" />
       <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
       <item itemvalue="Gradle.TwoSumInBstTest" />
       <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
-      <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindPeakElementTest" />
         <item itemvalue="Gradle.LargestBstInBinaryTreeTest" />
         <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
         <item itemvalue="Gradle.TwoSumInBstTest" />
         <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBSTOptimised_expectTrue_whenTargetIs14" />
-        <item itemvalue="Gradle.TwoSumInBstTest.test_twoSumInBST_expectTrue_whenTargetIs14" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="643" />
+    <option name="localTasksCounter" value="644" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using iterative approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;flatten a binary tree using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;search in a bst" />
     <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;Two sum in BST via BST iterator using single next implementation" />
     <MESSAGE value="[practice/binary-trees]: &#10;recovering a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;resolving merge conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;resolving merge conflict" />
+    <MESSAGE value="[practice/binary-trees]: &#10;largest BST in a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-trees]: &#10;largest BST in a binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
