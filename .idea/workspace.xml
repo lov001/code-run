@@ -4,6 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;find square root using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FindNthRootOfM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FindNthRootOfMTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FindSquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FindSquareRootTest.java" afterDir="false" />
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;nth root of m">
       <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KokoEatingBananas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KokoEatingBananasTest.java" afterDir="false" />
@@ -378,13 +384,25 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGraphQL.ShowToolbar": "false",
+    "git-widget-placeholder": "practice/binary-search",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice.dynamicprogramming" />
@@ -410,6 +428,10 @@
       <recent name="practice.sorting" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9">
+    <configuration name="FindNthRootOfMTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FindSquareRootTest">
+    <configuration name="FindPeakElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
   <component name="RunManager" selected="Gradle.KokoEatingBananasTest">
     <configuration name="FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -435,6 +457,8 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindSquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
     <configuration name="KokoEatingBananasTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -448,6 +472,8 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3&quot;" />
+            <option value="&quot;practice.binarysearch.FindSquareRootTest&quot;" />
             <option value="&quot;practice.binarysearch.KokoEatingBananasTest&quot;" />
           </list>
         </option>
@@ -459,6 +485,8 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindSquareRootTest.test_sqrtN_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
     <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -472,6 +500,8 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9&quot;" />
+            <option value="&quot;practice.binarysearch.FindSquareRootTest.test_sqrtN_expect2_whenNIs6&quot;" />
             <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8&quot;" />
           </list>
         </option>
@@ -483,6 +513,8 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FindSquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LargestBstInBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
     <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -496,6 +528,8 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindSquareRootTest&quot;" />
+            <option value="&quot;practice.trees.bst.LargestBstInBinaryTreeTest&quot;" />
             <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8&quot;" />
           </list>
         </option>
@@ -507,6 +541,8 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FindSquareRootTest.test_sqrtN_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
     <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -520,6 +556,8 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindSquareRootTest.test_sqrtN_expect2_whenNIs6&quot;" />
+            <option value="&quot;practice.trees.bst.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent&quot;" />
             <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8&quot;" />
           </list>
         </option>
@@ -545,6 +583,23 @@
         <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8" />
         <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8" />
         <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" />
+        <item itemvalue="Gradle.FindNthRootOfMTest" />
+        <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3" />
+        <item itemvalue="Gradle.FindSquareRootTest" />
+        <item itemvalue="Gradle.FindSquareRootTest.test_sqrtN_expect2_whenNIs6" />
+      <item itemvalue="Gradle.FindSquareRootTest" />
+      <item itemvalue="Gradle.FindSquareRootTest.test_sqrtN_expect2_whenNIs6" />
+      <item itemvalue="Gradle.FindPeakElementTest" />
+      <item itemvalue="Gradle.LargestBstInBinaryTreeTest" />
+      <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FindSquareRootTest" />
+        <item itemvalue="Gradle.FindSquareRootTest.test_sqrtN_expect2_whenNIs6" />
+        <item itemvalue="Gradle.FindPeakElementTest" />
+        <item itemvalue="Gradle.LargestBstInBinaryTreeTest" />
+        <item itemvalue="Gradle.RecoverBstTest.test_fixBST_expect_whenNodesAreNotAdjacent" />
       </list>
     </recent_temporary>
   </component>
@@ -900,6 +955,8 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
+    <option name="localTasksCounter" value="646" />
+    <option name="localTasksCounter" value="645" />
     <option name="localTasksCounter" value="647" />
     <servers />
   </component>
@@ -915,6 +972,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="[practice/binary-trees]: &#10;search in a bst" />
+    <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;floor in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst" />
     <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst - added unit tests" />
@@ -939,6 +998,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;largest BST in a binary tree" />
     <MESSAGE value="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array" />
     <MESSAGE value="[practice/binary-search]: &#10;find square root using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;find square root using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array" />
     <MESSAGE value="[practice/binary-search]: &#10;nth root of m" />
     <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;nth root of m" />
   </component>
