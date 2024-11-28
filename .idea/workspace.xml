@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;find square root using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FindNthRootOfM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FindNthRootOfMTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;nth root of m">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KokoEatingBananasTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -410,55 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9">
-    <configuration name="FindNthRootOfMTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FindNthRootOfMTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.KokoEatingBananasTest">
     <configuration name="FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -483,7 +435,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FindSquareRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KokoEatingBananasTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -496,7 +448,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FindSquareRootTest&quot;" />
+            <option value="&quot;practice.binarysearch.KokoEatingBananasTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,7 +459,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FindSquareRootTest.test_sqrtN_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -520,7 +472,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.FindSquareRootTest.test_sqrtN_expect2_whenNIs6&quot;" />
+            <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.FindNthRootOfMTest" />
-      <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3" />
       <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" />
-      <item itemvalue="Gradle.FindSquareRootTest" />
-      <item itemvalue="Gradle.FindSquareRootTest.test_sqrtN_expect2_whenNIs6" />
+      <item itemvalue="Gradle.KokoEatingBananasTest" />
+      <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8" />
+      <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8" />
+      <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KokoEatingBananasTest" />
+        <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect5_whenHourIs8" />
+        <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect4_whenHourIs8" />
+        <item itemvalue="Gradle.KokoEatingBananasTest.test_minimumRateToEatBananas_expect3_whenHourIs8" />
         <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect5_whenNIs9" />
-        <item itemvalue="Gradle.FindNthRootOfMTest" />
-        <item itemvalue="Gradle.FindNthRootOfMTest.test_NthRootBruteForce_expect3_whenNIs3" />
-        <item itemvalue="Gradle.FindSquareRootTest" />
-        <item itemvalue="Gradle.FindSquareRootTest.test_sqrtN_expect2_whenNIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="646" />
+    <option name="localTasksCounter" value="647" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;ceiling in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;floor in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst" />
     <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst - added unit tests" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-trees]: &#10;largest BST in a binary tree" />
     <MESSAGE value="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array" />
     <MESSAGE value="[practice/binary-search]: &#10;find square root using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;find square root using binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;nth root of m" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;nth root of m" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2876,9 +2876,19 @@
           <option name="timeStamp" value="744" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/FindNthRootOfM.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="745" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KokoEatingBananas.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="748" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KokoEatingBananas.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="750" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KokoEatingBananas.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="751" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
