@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MinimumDaysToMakeMBouquets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MinimumDaysToMakeMBouquetsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MinimumDaysToMakeMBouquets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MinimumDaysToMakeMBouquets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MinimumDaysToMakeMBouquetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MinimumDaysToMakeMBouquetsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -874,7 +874,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="649" />
+    <option name="localTasksCounter" value="650" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -889,8 +889,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst" />
-    <MESSAGE value="[practice/binary-trees]: &#10;insertion in a bst - added unit tests" />
     <MESSAGE value="[practice/binary-trees]: &#10;Deletion in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST optimised approach" />
@@ -2868,12 +2866,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/MinimumDaysToMakeMBouquets.java</url>
-          <line>8</line>
+          <line>27</line>
           <option name="timeStamp" value="752" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/MinimumDaysToMakeMBouquets.java</url>
-          <line>19</line>
+          <line>38</line>
           <option name="timeStamp" value="753" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
