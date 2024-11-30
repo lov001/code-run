@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SmallestDivisorTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;smallest divisor within threshold using brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SmallestDivisorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SmallestDivisorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="651" />
+    <option name="localTasksCounter" value="652" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;Integer utils for finding min and max" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2902,22 +2902,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java</url>
-          <line>8</line>
+          <line>27</line>
           <option name="timeStamp" value="754" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java</url>
-          <line>10</line>
+          <line>29</line>
           <option name="timeStamp" value="755" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java</url>
-          <line>18</line>
+          <line>37</line>
           <option name="timeStamp" value="757" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java</url>
-          <line>23</line>
+          <line>42</line>
           <option name="timeStamp" value="759" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
