@@ -4,6 +4,22 @@ import practice.utils.IntegerUtils;
 
 public class DeliverShipmentInDDays {
 
+   public int leastWeightCapacityBinarySearch(int[] weights, int d) {
+      int leastCapacity = -1;
+      int low = IntegerUtils.findMax(weights);
+      int high = IntegerUtils.findSum(weights);
+      while (low <= high) {
+         int middle = low + (high - low) / 2;
+         if (possibleWithGivenCapacity(weights, middle, d)) {
+            leastCapacity = middle;
+            high = middle - 1;
+         } else {
+            low = middle + 1;
+         }
+      }
+      return leastCapacity;
+   }
+
    public int leastWeightCapacity(int[] weights, int d) {
       int leastCapacity = Integer.MAX_VALUE;
       int low = IntegerUtils.findMax(weights);
