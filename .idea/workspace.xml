@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;smallest divisor within threshold using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum capacity to ship packages within D days">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/utils/IntegerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/utils/IntegerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -901,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="653" />
+    <option name="localTasksCounter" value="654" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -916,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
@@ -941,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2923,27 +2922,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>9</line>
+          <line>25</line>
           <option name="timeStamp" value="760" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>11</line>
+          <line>27</line>
           <option name="timeStamp" value="761" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>15</line>
+          <line>31</line>
           <option name="timeStamp" value="762" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>20</line>
+          <line>36</line>
           <option name="timeStamp" value="763" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>29</line>
+          <line>45</line>
           <option name="timeStamp" value="764" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
