@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;smallest divisor within threshold using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;smallest divisor within threshold using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SmallestDivisorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SmallestDivisorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/utils/IntegerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/utils/IntegerUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +411,55 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SmallestDivisorTest">
+  <component name="RunManager" selected="Gradle.DeliverShipmentInDDaysTest">
+    <configuration name="DeliverShipmentInDDaysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.DeliverShipmentInDDaysTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MinimumDaysToMakeMBouquetsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -425,54 +474,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.MinimumDaysToMakeMBouquetsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect1_whenNoOfRoses1AndNoOfBouquets1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect1_whenNoOfRoses1AndNoOfBouquets1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect3_whenNoOfRoses3AndNoOfBouquets2_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect3_whenNoOfRoses3AndNoOfBouquets2_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +533,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
+      <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
       <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest" />
-      <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect1_whenNoOfRoses1AndNoOfBouquets1" />
-      <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect3_whenNoOfRoses3AndNoOfBouquets2_" />
       <item itemvalue="Gradle.SmallestDivisorTest" />
       <item itemvalue="Gradle.SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
+        <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
         <item itemvalue="Gradle.SmallestDivisorTest" />
         <item itemvalue="Gradle.SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8" />
         <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest" />
-        <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect1_whenNoOfRoses1AndNoOfBouquets1" />
-        <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest.test_roseGardenBruteForce_expect3_whenNoOfRoses3AndNoOfBouquets2_" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +901,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="652" />
+    <option name="localTasksCounter" value="653" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth largest element in a BST optimised approach" />
     <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
@@ -940,7 +940,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2919,6 +2920,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SmallestDivisor.java</url>
           <line>42</line>
           <option name="timeStamp" value="759" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="760" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="761" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="763" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="764" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>

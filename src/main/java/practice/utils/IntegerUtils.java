@@ -18,4 +18,11 @@ public class IntegerUtils {
       return min;
    }
 
+   public static int findSum(int[] array) {
+      int sum = 0;
+      for (int j : array) {
+         sum += j;
+      }
+      return sum;
+   }
 }
