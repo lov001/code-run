@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum capacity to ship packages within D days">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/DeliverShipmentInDDaysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeliverShipmentInDDaysTest">
+  <component name="RunManager" selected="Gradle.KthMissingNumberTest">
     <configuration name="DeliverShipmentInDDaysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -459,7 +459,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumDaysToMakeMBouquetsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthMissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -472,7 +472,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MinimumDaysToMakeMBouquetsTest&quot;" />
+            <option value="&quot;practice.binarysearch.KthMissingNumberTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -483,7 +483,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SmallestDivisorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthMissingNumberTest.test_missingK_expect13_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -496,7 +496,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SmallestDivisorTest&quot;" />
+            <option value="&quot;practice.binarysearch.KthMissingNumberTest.test_missingK_expect13_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,7 +507,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KthMissingNumberTest.test_missingK_expect6_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -520,7 +520,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8&quot;" />
+            <option value="&quot;practice.binarysearch.KthMissingNumberTest.test_missingK_expect6_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -534,17 +534,17 @@
     <list>
       <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
       <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
-      <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest" />
-      <item itemvalue="Gradle.SmallestDivisorTest" />
-      <item itemvalue="Gradle.SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8" />
+      <item itemvalue="Gradle.KthMissingNumberTest" />
+      <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
+      <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthMissingNumberTest" />
+        <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
+        <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
         <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
         <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
-        <item itemvalue="Gradle.SmallestDivisorTest" />
-        <item itemvalue="Gradle.SmallestDivisorTest.test_smallestDivisor_expect3_whenLimitIs8" />
-        <item itemvalue="Gradle.MinimumDaysToMakeMBouquetsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="654" />
+    <option name="localTasksCounter" value="655" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;kth smallest element in a BST using morris traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
+    <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2921,29 +2921,9 @@
           <option name="timeStamp" value="759" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="760" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="761" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="762" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="763" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/DeliverShipmentInDDays.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="764" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="766" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
