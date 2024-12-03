@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;Kth missing number using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;Kth missing number using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/AggressiveCowsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,8 +410,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KthMissingNumberTest">
-    <configuration name="DeliverShipmentInDDaysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AggressiveCowsTest">
+    <configuration name="AggressiveCowsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -424,7 +424,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.DeliverShipmentInDDaysTest&quot;" />
+            <option value="&quot;practice.binarysearch.AggressiveCowsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -435,7 +435,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -448,7 +448,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5&quot;" />
+            <option value="&quot;practice.binarysearch.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
-      <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
+      <item itemvalue="Gradle.AggressiveCowsTest" />
+      <item itemvalue="Gradle.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2" />
       <item itemvalue="Gradle.KthMissingNumberTest" />
       <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
       <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AggressiveCowsTest" />
+        <item itemvalue="Gradle.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2" />
         <item itemvalue="Gradle.KthMissingNumberTest" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
-        <item itemvalue="Gradle.DeliverShipmentInDDaysTest" />
-        <item itemvalue="Gradle.DeliverShipmentInDDaysTest.test_leastWeightCapacity_expect3_whenDaysIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="656" />
+    <option name="localTasksCounter" value="657" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;Bst from preorder traversal" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;Kth missing number using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;Kth missing number using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2924,6 +2924,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java</url>
           <line>40</line>
           <option name="timeStamp" value="766" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="767" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="769" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
