@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;Kth missing number using brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthMissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="655" />
+    <option name="localTasksCounter" value="656" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not" />
     <MESSAGE value="[practice/binary-trees]: &#10;check if a binary tree is a BST or not - optimised to use variables instead of an array" />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST recursive approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;Kth missing number using brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2922,7 +2922,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/KthMissingNumber.java</url>
-          <line>9</line>
+          <line>40</line>
           <option name="timeStamp" value="766" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
