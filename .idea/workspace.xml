@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;aggressive cows using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;aggressive cows using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/AllocateBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/AllocateBooksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/AggressiveCows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/AggressiveCowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/AggressiveCowsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AggressiveCowsTest">
+  <component name="RunManager" selected="Gradle.AllocateBooksTest">
     <configuration name="AggressiveCowsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -449,6 +449,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AllocateBooksTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.AllocateBooksTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,44 +531,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="KthMissingNumberTest.test_missingK_expect6_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.KthMissingNumberTest.test_missingK_expect6_whenKIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.AggressiveCowsTest" />
       <item itemvalue="Gradle.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2" />
+      <item itemvalue="Gradle.AllocateBooksTest" />
       <item itemvalue="Gradle.KthMissingNumberTest" />
       <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
-      <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AllocateBooksTest" />
         <item itemvalue="Gradle.AggressiveCowsTest" />
         <item itemvalue="Gradle.AggressiveCowsTest.test_aggressiveCows_expect2_whenKIs2" />
         <item itemvalue="Gradle.KthMissingNumberTest" />
         <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect13_whenKIs3" />
-        <item itemvalue="Gradle.KthMissingNumberTest.test_missingK_expect6_whenKIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="658" />
+    <option name="localTasksCounter" value="659" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;LCA in a BST iterative approach." />
     <MESSAGE value="[practice/binary-trees]: &#10;Bst from preorder traversal" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;aggressive cows using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;aggressive cows using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
