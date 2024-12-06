@@ -17,6 +17,7 @@ public class AllocateBooksTest {
       input.add(49);
       input.add(24);
       Assertions.assertEquals(71, classObj.findPages(input, 5, 4));
+      Assertions.assertEquals(71, classObj.findPagesBruteForce(input, 5, 4));
    }
 
    @Test
@@ -27,5 +28,6 @@ public class AllocateBooksTest {
       input.add(67);
       input.add(90);
       Assertions.assertEquals(113, classObj.findPages(input, 4, 2));
+      Assertions.assertEquals(113, classObj.findPagesBruteForce(input, 4, 2));
    }
 }
