@@ -5,7 +5,22 @@ import java.util.Collections;
 
 public class PainterPartitionProblem {
 
-   public int findLargestMinDistance(ArrayList<Integer> boards, int k) {
+   public int findLargestMinDistanceBinarySearch(ArrayList<Integer> boards, int k) {
+      int low = Collections.max(boards);
+      int high = boards.stream().mapToInt(Integer::intValue).sum();
+      while (low <= high) {
+         int mid = low + (high - low) / 2;
+         int paintersUsed = possibleToPaint(boards, mid);
+         if (paintersUsed <= k) {
+            high = mid - 1;
+         } else {
+            low = mid + 1;
+         }
+      }
+      return low;
+   }
+
+   public int findLargestMinDistanceBruteForce(ArrayList<Integer> boards, int k) {
       int low = Collections.max(boards);
       int high = boards.stream().mapToInt(Integer::intValue).sum();
       for (int time = low; time <= high; time++) {
