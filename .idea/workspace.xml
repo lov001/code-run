@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards using binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MaxDistanceBetweenGasStations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MaxDistanceBetweenGasStationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/PainterPartitionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/PainterPartitionProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/PainterPartitionProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/PainterPartitionProblemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,8 +410,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PainterPartitionProblemTest">
-    <configuration name="AllocateBooksTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MaxDistanceBetweenGasStationsTest">
+    <configuration name="MaxDistanceBetweenGasStationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -424,7 +424,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.AllocateBooksTest&quot;" />
+            <option value="&quot;practice.binarysearch.MaxDistanceBetweenGasStationsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,7 +532,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.AllocateBooksTest" />
+      <item itemvalue="Gradle.MaxDistanceBetweenGasStationsTest" />
       <item itemvalue="Gradle.PainterPartitionProblemTest" />
       <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect11_whenNIs6AndKIs2" />
       <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect60_whenNIs4AndKIs2" />
@@ -540,11 +540,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxDistanceBetweenGasStationsTest" />
         <item itemvalue="Gradle.PainterPartitionProblemTest" />
         <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect90_whenNIs2AndKIs2" />
         <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect11_whenNIs6AndKIs2" />
         <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect60_whenNIs4AndKIs2" />
-        <item itemvalue="Gradle.AllocateBooksTest" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="662" />
+    <option name="localTasksCounter" value="663" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;inorder successor and predecessor in BST fixed edge cases with unit tests" />
     <MESSAGE value="[practice/binary-trees]: &#10;BST iterator" />
     <MESSAGE value="[practice/binary-trees]: &#10;BST iterator optimised" />
     <MESSAGE value="[practice/binary-trees]: &#10;Two sum in BST via BST iterator" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;allocate books using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards" />
+    <MESSAGE value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
