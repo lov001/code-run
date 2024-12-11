@@ -3,8 +3,8 @@ package practice.binarysearch;
 public class MaxDistanceBetweenGasStations {
 
    public double minimiseMaxDistance(int[] arr, int K) {
-      int n = arr.length - 1;
-      int[] howMany = new int[n];
+      int n = arr.length;
+      int[] howMany = new int[n - 1];
       for (int gasStations = 1; gasStations <= K; gasStations++) {
          double maxSection = -1;
          int maxIndex = -1;
