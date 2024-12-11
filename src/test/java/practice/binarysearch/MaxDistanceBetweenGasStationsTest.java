@@ -12,6 +12,7 @@ public class MaxDistanceBetweenGasStationsTest {
       int[] input = {1, 2, 3, 4, 5, 6, 7};
       Assertions.assertEquals(0.5, classObj.minimiseMaxDistance(input, 6));
       Assertions.assertEquals(0.5, classObj.minimiseMaxDistanceUsingPriorityQueue(input, 6));
+      Assertions.assertEquals(0.5, classObj.minimiseMaxDistanceBinarySearch(input, 6));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class MaxDistanceBetweenGasStationsTest {
       int[] input = {1, 2, 3, 4, 5};
       Assertions.assertEquals(0.5, classObj.minimiseMaxDistance(input, 4));
       Assertions.assertEquals(0.5, classObj.minimiseMaxDistanceUsingPriorityQueue(input, 4));
+      Assertions.assertEquals(0.5, classObj.minimiseMaxDistanceBinarySearch(input, 4));
    }
 
    @Test
@@ -26,5 +28,6 @@ public class MaxDistanceBetweenGasStationsTest {
       int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
       Assertions.assertEquals(1, classObj.minimiseMaxDistance(input, 1));
       Assertions.assertEquals(1, classObj.minimiseMaxDistanceUsingPriorityQueue(input, 1));
+      Assertions.assertEquals(1, classObj.minimiseMaxDistanceBinarySearch(input, 1));
    }
 }
