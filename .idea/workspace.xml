@@ -7,6 +7,7 @@
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimise max distance between gas stations using brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MaxDistanceBetweenGasStations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MaxDistanceBetweenGasStations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MaxDistanceBetweenGasStationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MaxDistanceBetweenGasStationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -899,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="664" />
+    <option name="localTasksCounter" value="665" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
