@@ -1,5 +1,7 @@
 package practice.binarysearch;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.PriorityQueue;
 
 public class MaxDistanceBetweenGasStations {
@@ -27,6 +29,40 @@ public class MaxDistanceBetweenGasStations {
          maxAns = Math.max(maxAns, sectionLength);
       }
       return maxAns;
+   }
+
+   public double minimiseMaxDistanceBinarySearch(int[] arr, int K) {
+      int n = arr.length;
+      double low = 0;
+      double high = 0;
+      for (int i = 0; i < n - 1; i++) {
+         high = Math.max(high, arr[i + 1] - arr[i]);
+      }
+      double difference = 1e-6;
+      while (high - low > difference) {
+         double mid = (low + high) / 2.0;
+         int count = numberOfGasStations(mid, arr);
+         if (count > K) {
+            low = mid;
+         } else {
+            high = mid;
+         }
+      }
+      DecimalFormat df = new DecimalFormat("#.#");
+      df.setRoundingMode(RoundingMode.FLOOR);
+      return Double.parseDouble(df.format(high));
+   }
+
+   private int numberOfGasStations(double distance, int[] array) {
+      int count = 0;
+      for (int i = 1; i < array.length; i++) {
+         double numberBetween = (array[i] - array[i - 1]) / distance;
+         if (array[i] - array[i - 1] / distance == numberBetween * distance) {
+            numberBetween--;
+         }
+         count += numberBetween;
+      }
+      return count;
    }
 
    public double minimiseMaxDistanceUsingPriorityQueue(int[] arr, int K) {
