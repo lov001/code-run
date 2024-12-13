@@ -33,6 +33,9 @@ public class MedianOfTwoSortedArrays {
             j++;
          }
          count++;
+         if (index1Element != -1 && index2Element != -1) {
+            break;
+         }
       }
       while (i < n1) {
          if (count == index1) {
@@ -43,6 +46,9 @@ public class MedianOfTwoSortedArrays {
          }
          i++;
          count++;
+         if (index1Element != -1 && index2Element != -1) {
+            break;
+         }
       }
       while (j < n2) {
          if (count == index1) {
@@ -53,6 +59,9 @@ public class MedianOfTwoSortedArrays {
          }
          j++;
          count++;
+         if (index1Element != -1 && index2Element != -1) {
+            break;
+         }
       }
       if (n % 2 == 1) {
          return index2Element;
