@@ -13,6 +13,7 @@ public class MedianOfTwoSortedArraysTest {
       int[] a = {1, 3, 4, 7, 10, 12};
       int[] b = {2, 3, 6, 15};
       Assertions.assertEquals(5, classObj.median(a, b));
+      Assertions.assertEquals(5, classObj.medianWithConstantSpace(a, b));
    }
 
    @Test
@@ -20,6 +21,7 @@ public class MedianOfTwoSortedArraysTest {
       int[] a = {2, 4, 6};
       int[] b = {1, 3, 5};
       Assertions.assertEquals(3.5, classObj.median(a, b));
+      Assertions.assertEquals(3.5, classObj.medianWithConstantSpace(a, b));
    }
 
    @Test
@@ -27,6 +29,7 @@ public class MedianOfTwoSortedArraysTest {
       int[] a = {2, 4, 6};
       int[] b = {1, 3};
       Assertions.assertEquals(3, classObj.median(a, b));
+      Assertions.assertEquals(3, classObj.medianWithConstantSpace(a, b));
    }
 
    @Test
@@ -34,5 +37,6 @@ public class MedianOfTwoSortedArraysTest {
       int[] a = {1, 2, 2};
       int[] b = {2, 4, 4};
       Assertions.assertEquals(2, classObj.median(a, b));
+      Assertions.assertEquals(2, classObj.medianWithConstantSpace(a, b));
    }
 }
