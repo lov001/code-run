@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;median of two sorted arrays without using extra space and break on finding the element">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;median of two sorted arrays with Binary Search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/KthElementOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/KthElementOfTwoSortedArraysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MedianOfTwoSortedArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/MedianOfTwoSortedArraysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MedianOfTwoSortedArraysTest">
+  <component name="RunManager" selected="Gradle.KthElementOfTwoSortedArraysTest">
+    <configuration name="KthElementOfTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.KthElementOfTwoSortedArraysTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MaxDistanceBetweenGasStationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -507,44 +531,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PainterPartitionProblemTest.test_findLargestMinDistance_expect90_whenNIs2AndKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.PainterPartitionProblemTest.test_findLargestMinDistance_expect90_whenNIs2AndKIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
       <item itemvalue="Gradle.MaxDistanceBetweenGasStationsTest" />
       <item itemvalue="Gradle.MedianOfTwoSortedArraysTest" />
       <item itemvalue="Gradle.MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4" />
       <item itemvalue="Gradle.PainterPartitionProblemTest" />
-      <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect90_whenNIs2AndKIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
         <item itemvalue="Gradle.MedianOfTwoSortedArraysTest" />
         <item itemvalue="Gradle.MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4" />
         <item itemvalue="Gradle.MaxDistanceBetweenGasStationsTest" />
         <item itemvalue="Gradle.PainterPartitionProblemTest" />
-        <item itemvalue="Gradle.PainterPartitionProblemTest.test_findLargestMinDistance_expect90_whenNIs2AndKIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="669" />
+    <option name="localTasksCounter" value="670" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-trees]: &#10;recovering a BST" />
     <MESSAGE value="[practice/binary-trees]: &#10;resolving merge conflict" />
     <MESSAGE value="[practice/binary-trees]: &#10;largest BST in a binary tree" />
     <MESSAGE value="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array" />
@@ -941,7 +940,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with out using extra space" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays without using extra space and break on finding the element" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;median of two sorted arrays without using extra space and break on finding the element" />
+    <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;median of two sorted arrays with Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
