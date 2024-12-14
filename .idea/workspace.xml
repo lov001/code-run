@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" afterDir="false" />
@@ -411,30 +411,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SearchIn2DMatrixTest">
-    <configuration name="KthElementOfTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.KthElementOfTwoSortedArraysTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="RowWithMaximumOnesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -531,20 +507,44 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
       <item itemvalue="Gradle.RowWithMaximumOnesTest" />
       <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
+      <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SearchIn2DMatrixTest" />
+        <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
         <item itemvalue="Gradle.RowWithMaximumOnesTest" />
         <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
-        <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="675" />
+    <option name="localTasksCounter" value="676" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;Integer utils for finding min and max" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
@@ -940,7 +939,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2992,8 +2992,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="785" />
+          <line>10</line>
+          <option name="timeStamp" value="788" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="790" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
