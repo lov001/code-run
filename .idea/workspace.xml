@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum ones in a row using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/RowWithMaximumOnesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/RowWithMaximumOnesTest.java" afterDir="false" />
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="672" />
+    <option name="localTasksCounter" value="673" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;finding peak element in an increasing decreasing array" />
     <MESSAGE value="[practice/binary-search]: &#10;find square root using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;nth root of m" />
     <MESSAGE value="[practice/binary-search]: &#10;resolving merge conflicts" />
@@ -941,7 +940,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;kth element in two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2978,17 +2978,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java</url>
-          <line>9</line>
+          <line>33</line>
           <option name="timeStamp" value="781" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java</url>
-          <line>11</line>
+          <line>35</line>
           <option name="timeStamp" value="782" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java</url>
-          <line>18</line>
+          <line>42</line>
           <option name="timeStamp" value="783" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
