@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/RowWithMaximumOnesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/RowWithMaximumOnesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RowWithMaximumOnesTest">
+  <component name="RunManager" selected="Gradle.SearchIn2DMatrixTest">
     <configuration name="KthElementOfTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -425,54 +425,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.KthElementOfTwoSortedArraysTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MedianOfTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MedianOfTwoSortedArraysTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -531,20 +483,68 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SearchIn2DMatrixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.SearchIn2DMatrixTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
       <item itemvalue="Gradle.RowWithMaximumOnesTest" />
       <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
-      <item itemvalue="Gradle.MedianOfTwoSortedArraysTest" />
-      <item itemvalue="Gradle.MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4" />
+      <item itemvalue="Gradle.SearchIn2DMatrixTest" />
+      <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchIn2DMatrixTest" />
+        <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
         <item itemvalue="Gradle.RowWithMaximumOnesTest" />
         <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
         <item itemvalue="Gradle.KthElementOfTwoSortedArraysTest" />
-        <item itemvalue="Gradle.MedianOfTwoSortedArraysTest" />
-        <item itemvalue="Gradle.MedianOfTwoSortedArraysTest.test_median_expect5_whenNIs6AndMIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="673" />
+    <option name="localTasksCounter" value="674" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,8 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;find square root using binary search" />
-    <MESSAGE value="[practice/binary-search]: &#10;nth root of m" />
     <MESSAGE value="[practice/binary-search]: &#10;resolving merge conflicts" />
     <MESSAGE value="[practice/binary-search]: &#10;Integer utils for finding min and max" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach" />
@@ -941,7 +939,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;kth element in two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
+    <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2990,6 +2990,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/RowWithMaximumOnes.java</url>
           <line>42</line>
           <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="785" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
