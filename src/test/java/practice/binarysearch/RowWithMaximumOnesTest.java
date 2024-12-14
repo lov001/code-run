@@ -27,6 +27,7 @@ public class RowWithMaximumOnesTest {
       input.add(row2);
       input.add(row3);
       Assertions.assertEquals(0, classObj.rowMaxOnes(input, 3, 3));
+      Assertions.assertEquals(0, classObj.rowMaxOnesOptimised(input, 3, 3));
    }
 
    @Test
@@ -41,6 +42,7 @@ public class RowWithMaximumOnesTest {
       input.add(row1);
       input.add(row2);
       Assertions.assertEquals(0, classObj.rowMaxOnes(input, 2, 2));
+      Assertions.assertEquals(0, classObj.rowMaxOnesOptimised(input, 2, 2));
    }
 
    @Test
@@ -55,5 +57,6 @@ public class RowWithMaximumOnesTest {
       input.add(row1);
       input.add(row2);
       Assertions.assertEquals(-1, classObj.rowMaxOnes(input, 2, 2));
+      Assertions.assertEquals(-1, classObj.rowMaxOnesOptimised(input, 2, 2));
    }
 }
