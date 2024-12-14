@@ -29,8 +29,9 @@ public class SearchIn2DMatrixTest {
       input.add(row1);
       input.add(row2);
       input.add(row3);
-      Assertions.assertTrue(classObj.searchMatrix(input, 8));
+      Assertions.assertTrue(classObj.searchMatrixBinarySearch(input, 8));
       Assertions.assertTrue(classObj.searchMatrixBruteForce(input, 8));
+      Assertions.assertTrue(classObj.searchMatrixBinarySearchOptimised(input, 8));
    }
 
    @Test
@@ -51,7 +52,8 @@ public class SearchIn2DMatrixTest {
       input.add(row1);
       input.add(row2);
       input.add(row3);
-      Assertions.assertFalse(classObj.searchMatrix(input, 78));
+      Assertions.assertFalse(classObj.searchMatrixBinarySearch(input, 78));
       Assertions.assertFalse(classObj.searchMatrixBruteForce(input, 78));
+      Assertions.assertFalse(classObj.searchMatrixBinarySearchOptimised(input, 78));
    }
 }

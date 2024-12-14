@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="674" />
+    <option name="localTasksCounter" value="675" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;resolving merge conflicts" />
     <MESSAGE value="[practice/binary-search]: &#10;Integer utils for finding min and max" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
@@ -2993,7 +2992,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java</url>
-          <line>8</line>
+          <line>29</line>
           <option name="timeStamp" value="785" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

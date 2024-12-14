@@ -4,7 +4,28 @@ import java.util.ArrayList;
 
 public class SearchIn2DMatrix {
 
-   public boolean searchMatrix(ArrayList<ArrayList<Integer>> mat, int target) {
+   public boolean searchMatrixBinarySearchOptimised(ArrayList<ArrayList<Integer>> mat, int target) {
+      int m = mat.get(0).size();
+      for (ArrayList<Integer> integers : mat) {
+         int low = 0;
+         int high = m - 1;
+         if (integers.get(0) <= target && integers.get(high) >= target) {
+            while (low <= high) {
+               int mid = low + (high - low) / 2;
+               if (integers.get(mid) == target) {
+                  return true;
+               } else if (integers.get(mid) > target) {
+                  high = mid - 1;
+               } else {
+                  low = mid + 1;
+               }
+            }
+         }
+      }
+      return false;
+   }
+
+   public boolean searchMatrixBinarySearch(ArrayList<ArrayList<Integer>> mat, int target) {
       int m = mat.get(0).size();
       for (ArrayList<Integer> integers : mat) {
          int low = 0;
