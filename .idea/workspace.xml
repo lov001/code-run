@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrixII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixIITest.java" afterDir="false" />
+          </list>
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,8 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
+  <component>
+  name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
@@ -410,6 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.SearchIn2DMatrixIITest">
   <component name="RunManager" selected="Gradle.SearchIn2DMatrixTest">
     <configuration name="RowWithMaximumOnesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -435,6 +439,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SearchIn2DMatrixIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
     <configuration name="RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -448,6 +453,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+            <option value="&quot;practice.binarysearch.SearchIn2DMatrixIITest&quot;" />
             <option value="&quot;practice.binarysearch.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2&quot;" />
           </list>
         </option>
@@ -533,13 +539,14 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.RowWithMaximumOnesTest" />
-      <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
+      <item itemvalue="Gradle.SearchIn2DMatrixIITest" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchIn2DMatrixIITest" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
@@ -900,6 +907,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
+    <option name="localTasksCounter" value="677" />
     <option name="localTasksCounter" value="676" />
     <servers />
   </component>
@@ -940,6 +948,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
+    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
     <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
   </component>
   <component name="XDebuggerManager">
