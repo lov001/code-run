@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;peak element in a 2D matrix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/FindPeakElementII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/FindPeakElementIITest.java" afterDir="false" />
+    </list>
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array">
       <change afterPath="$PROJECT_DIR$/src/main/java/practice/binarysearch/SearchIn2DMatrixII.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/practice/binarysearch/SearchIn2DMatrixIITest.java" afterDir="false" />
-          </list>
+    </list>
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,8 +35,7 @@
       </state>
     </system>
   </component>
-  <component>
-  name="FileTemplateManagerImpl">
+  <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
@@ -414,8 +417,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SearchIn2DMatrixIITest">
-  <component name="RunManager" selected="Gradle.SearchIn2DMatrixTest">
-    <configuration name="RowWithMaximumOnesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindPeakElementIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -428,7 +430,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.binarysearch.RowWithMaximumOnesTest&quot;" />
+            <option value="&quot;practice.binarysearch.FindPeakElementIITest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -439,8 +441,35 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="FindPeakElementIITest.test_searchMatrix_expectFalse_whenNIs3MIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true"/>
+    <configuration name="SearchIn2DMatrixIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true"/>
+    <configuration name="RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true"/>
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.binarysearch.FindPeakElementIITest.test_searchMatrix_expectFalse_whenNIs3MIs3&quot;" />
+            <option value="&quot;practice.binarysearch.SearchIn2DMatrixIITest&quot;" />
+            <option value="&quot;practice.binarysearch.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </component>
     <configuration name="SearchIn2DMatrixIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-    <configuration name="RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -454,7 +483,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.SearchIn2DMatrixIITest&quot;" />
-            <option value="&quot;practice.binarysearch.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -479,30 +507,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.binarysearch.SearchIn2DMatrixTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -538,14 +542,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.RowWithMaximumOnesTest" />
+      <item itemvalue="Gradle.FindPeakElementIITest" />
+      <item itemvalue="Gradle.FindPeakElementIITest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
       <item itemvalue="Gradle.SearchIn2DMatrixIITest" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest" />
-      <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
       <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindPeakElementIITest" />
+        <item itemvalue="Gradle.FindPeakElementIITest.test_searchMatrix_expectFalse_whenNIs3MIs3" />
         <item itemvalue="Gradle.SearchIn2DMatrixIITest" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest" />
         <item itemvalue="Gradle.SearchIn2DMatrixTest.test_searchMatrix_expectTrue_whenNIs3MIs3" />
@@ -554,7 +560,6 @@
         <item itemvalue="Gradle.RowWithMaximumOnesTest.test_rowMaxOnes_expectMinusOne_whenNIs2MIs2" />
       </list>
     </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -907,6 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
+    <option name="localTasksCounter" value="678" />
     <option name="localTasksCounter" value="677" />
     <option name="localTasksCounter" value="676" />
     <servers />
@@ -949,6 +955,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
+    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix II using binary search" />
+    <MESSAGE value="[practice/binary-search]: &#10;peak element in a 2D matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;peak element in a 2D matrix" />
     <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
     <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
   </component>
