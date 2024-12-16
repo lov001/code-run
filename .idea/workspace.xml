@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest substring without repeating character">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroesTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,8 +412,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest">
-    <configuration name="LongestSubstringWithoutRepeatingCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FruitsIntoBasketTest">
+    <configuration name="FruitsIntoBasketTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -424,7 +426,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest&quot;" />
+            <option value="&quot;practice.slidingwindow.FruitsIntoBasketTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -435,7 +437,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -448,7 +450,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10&quot;" />
+            <option value="&quot;practice.slidingwindow.FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -459,7 +461,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -472,7 +474,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10&quot;" />
+            <option value="&quot;practice.slidingwindow.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +534,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest" />
-      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" />
-      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" />
+      <item itemvalue="Gradle.FruitsIntoBasketTest" />
+      <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3" />
+      <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
       <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest" />
       <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FruitsIntoBasketTest" />
+        <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
+        <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3" />
         <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest" />
         <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2" />
-        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest" />
-        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" />
-        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +902,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="680" />
+    <option name="localTasksCounter" value="681" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +917,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using binary search" />
@@ -943,7 +944,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards optimised solution" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest substring without repeating character" />
+    <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3027,6 +3029,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java</url>
           <line>14</line>
           <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="801" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="803" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="804" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
