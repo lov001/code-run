@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;median in a row wise sorted matrix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumPointsFromCardsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum points from cards with brute force">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumPointsFromCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumPointsFromCardsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +412,79 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumPointsFromCardsTest">
+  <component name="RunManager" selected="Gradle.LongestSubstringWithoutRepeatingCharactersTest">
+    <configuration name="LongestSubstringWithoutRepeatingCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MaximumPointsFromCardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -459,87 +533,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MedianInRowWiseSortedMatrixTest.test_findMedian_expect10_whenNIs5MIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MedianInRowWiseSortedMatrixTest.test_findMedian_expect10_whenNIs5MIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MedianInRowWiseSortedMatrixTest.test_findMedian_expect11_whenNIs3MIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.binarysearch.MedianInRowWiseSortedMatrixTest.test_findMedian_expect11_whenNIs3MIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchIn2DMatrixIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest" />
+      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" />
+      <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" />
       <item itemvalue="Gradle.MaximumPointsFromCardsTest" />
       <item itemvalue="Gradle.MaximumPointsFromCardsTest.test_maxPoints_expect29_whenNIs7AndKIs4" />
-      <item itemvalue="Gradle.MedianInRowWiseSortedMatrixTest.test_findMedian_expect10_whenNIs5MIs5" />
-      <item itemvalue="Gradle.MedianInRowWiseSortedMatrixTest.test_findMedian_expect11_whenNIs3MIs5" />
-      <item itemvalue="Gradle.SearchIn2DMatrixIITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest" />
+        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect9_whenStringOfLength10" />
+        <item itemvalue="Gradle.LongestSubstringWithoutRepeatingCharactersTest.test_lengthOfLongestSubstring_expect5_whenStringOfLength10" />
         <item itemvalue="Gradle.MaximumPointsFromCardsTest" />
         <item itemvalue="Gradle.MaximumPointsFromCardsTest.test_maxPoints_expect29_whenNIs7AndKIs4" />
-        <item itemvalue="Gradle.MedianInRowWiseSortedMatrixTest.test_findMedian_expect11_whenNIs3MIs5" />
-        <item itemvalue="Gradle.MedianInRowWiseSortedMatrixTest.test_findMedian_expect10_whenNIs5MIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +902,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="677" />
+    <option name="localTasksCounter" value="678" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +917,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimum number of days to make M bouquets using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;smallest divisor within threshold using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days" />
@@ -938,7 +944,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix II using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;peak element in a 2D matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;median in a row wise sorted matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;median in a row wise sorted matrix" />
+    <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3000,18 +3007,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java</url>
-          <line>6</line>
+          <line>23</line>
           <option name="timeStamp" value="791" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java</url>
-          <line>9</line>
+          <line>26</line>
           <option name="timeStamp" value="792" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumPointsFromCards.java</url>
-          <line>16</line>
+          <line>33</line>
           <option name="timeStamp" value="793" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="794" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="795" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
