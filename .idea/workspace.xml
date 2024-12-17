@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;fruits into basket using optimised sliding window">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithAtMostKDistinctCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestSubstringWithAtMostKDistinctCharactersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,6 +401,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.slidingwindow" />
       <recent name="practice.binarysearch" />
       <recent name="practice.trees.bst" />
       <recent name="practice.trees" />
@@ -410,7 +411,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FruitsIntoBasketTest">
+  <component name="RunManager" selected="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest">
     <configuration name="FruitsIntoBasketTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -483,7 +484,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumConsecutiveOnesWithAtMostKZeroesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestSubstringWithAtMostKDistinctCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -496,7 +497,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MaximumConsecutiveOnesWithAtMostKZeroesTest&quot;" />
+            <option value="&quot;practice.slidingwindow.LongestSubstringWithAtMostKDistinctCharactersTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -507,7 +508,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -520,7 +521,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2&quot;" />
+            <option value="&quot;practice.slidingwindow.LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -532,19 +533,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
+      <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2" />
       <item itemvalue="Gradle.FruitsIntoBasketTest" />
       <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3" />
       <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
-      <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest" />
-      <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
+        <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2" />
         <item itemvalue="Gradle.FruitsIntoBasketTest" />
         <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
         <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect2_whenNIs3" />
-        <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest" />
-        <item itemvalue="Gradle.MaximumConsecutiveOnesWithAtMostKZeroesTest.test_longestOnes_expect6_whenKIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +901,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="682" />
+    <option name="localTasksCounter" value="683" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -915,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using binary search" />
@@ -943,7 +943,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
+    <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3032,6 +3033,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
           <line>53</line>
           <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithAtMostKDistinctCharacters.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithAtMostKDistinctCharacters.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="806" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
