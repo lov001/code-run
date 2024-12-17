@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumConsecutiveOnesWithAtMostKZeroesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/FruitsIntoBasketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -902,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="681" />
+    <option name="localTasksCounter" value="682" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -917,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimum capacity to ship packages within D days using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;Kth missing number using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using brute force" />
@@ -945,7 +942,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards optimised solution" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
+    <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3032,23 +3030,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
-          <line>40</line>
+          <line>53</line>
           <option name="timeStamp" value="799" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="801" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="803" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/FruitIntoBaskets.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="804" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
