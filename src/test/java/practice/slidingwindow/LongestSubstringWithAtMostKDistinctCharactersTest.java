@@ -11,23 +11,27 @@ public class LongestSubstringWithAtMostKDistinctCharactersTest {
    void test_kDistinctCharsBruteForce_expect7_whenKIs2() {
       String input = "abbbbbbc";
       Assertions.assertEquals(7, classObj.kDistinctCharsBruteForce(2, input));
+      Assertions.assertEquals(7, classObj.kDistinctChars(2, input));
    }
 
    @Test
    void test_kDistinctCharsBruteForce_expect4_whenKIs3() {
       String input = "abcddefg";
       Assertions.assertEquals(4, classObj.kDistinctCharsBruteForce(3, input));
+      Assertions.assertEquals(4, classObj.kDistinctChars(3, input));
    }
 
    @Test
    void test_kDistinctCharsBruteForce_expect8_whenKIs3() {
       String input = "aaaaaaaa";
       Assertions.assertEquals(8, classObj.kDistinctCharsBruteForce(3, input));
+      Assertions.assertEquals(8, classObj.kDistinctChars(3, input));
    }
 
    @Test
    void test_kDistinctCharsBruteForce_expect1_whenKIs1() {
       String input = "abcefg";
       Assertions.assertEquals(1, classObj.kDistinctCharsBruteForce(1, input));
+      Assertions.assertEquals(1, classObj.kDistinctChars(1, input));
    }
 }
