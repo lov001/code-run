@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestRepeatingSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestRepeatingSubstringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestRepeatingSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestRepeatingSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestRepeatingSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestRepeatingSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -901,7 +901,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="687" />
+    <option name="localTasksCounter" value="688" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -916,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using priority queue" />
     <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with out using extra space" />
@@ -942,7 +941,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
+    <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

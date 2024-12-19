@@ -12,17 +12,20 @@ public class LongestRepeatingSubstringTest {
    void test_longestRepeatingSubstring_expect3_whenKIs1() {
       String input = "AABC";
       Assertions.assertEquals(3, classObj.longestRepeatingSubstringBruteForce(input, 1));
+      Assertions.assertEquals(3, classObj.longestRepeatingSubstring(input, 1));
    }
 
    @Test
    void test_longestRepeatingSubstring_expect4_whenKIs2() {
       String input = "ABCCAA";
       Assertions.assertEquals(4, classObj.longestRepeatingSubstringBruteForce(input, 2));
+      Assertions.assertEquals(4, classObj.longestRepeatingSubstring(input, 2));
    }
 
    @Test
    void test_longestRepeatingSubstring_expect3_whenKIs3() {
       String input = "ABA";
       Assertions.assertEquals(3, classObj.longestRepeatingSubstringBruteForce(input, 3));
+      Assertions.assertEquals(3, classObj.longestRepeatingSubstring(input, 3));
    }
 }
