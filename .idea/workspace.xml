@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/NumberOfSubstringsContainingAll3CharactersTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/NumberOfSubstringsContainingAll3CharactersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/NumberOfSubstringsContainingAll3CharactersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,54 +412,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.NumberOfSubstringsContainingAll3CharactersTest">
-    <configuration name="FruitsIntoBasketTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.FruitsIntoBasketTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="LongestSubstringWithAtMostKDistinctCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -532,20 +484,68 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6" />
+      <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" />
       <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest" />
       <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
       <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2" />
-      <item itemvalue="Gradle.FruitsIntoBasketTest" />
-      <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest" />
+        <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6" />
+        <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" />
         <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
         <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest.test_kDistinctCharsBruteForce_expect7_whenKIs2" />
-        <item itemvalue="Gradle.FruitsIntoBasketTest" />
-        <item itemvalue="Gradle.FruitsIntoBasketTest.test_findMaxFruits_expect5_whenNIs11" />
       </list>
     </recent_temporary>
   </component>
@@ -901,7 +901,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="685" />
+    <option name="localTasksCounter" value="686" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -916,8 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;aggressive cows using binary search" />
-    <MESSAGE value="[practice/binary-search]: &#10;allocate books using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards" />
     <MESSAGE value="[practice/binary-search]: &#10;max time needed by k painters to paint all the boards using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using brute force" />
@@ -944,7 +942,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3043,6 +3043,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithAtMostKDistinctCharacters.java</url>
           <line>38</line>
           <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="809" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="810" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
