@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/BinarySubArraysWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/BinarySubArraysWithSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestRepeatingSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestRepeatingSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestRepeatingSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestRepeatingSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +411,55 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestRepeatingSubstringTest">
+  <component name="RunManager" selected="Gradle.BinarySubArraysWithSumTest">
+    <configuration name="BinarySubArraysWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.BinarySubArraysWithSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LongestRepeatingSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -426,30 +474,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.slidingwindow.LongestRepeatingSubstringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestSubstringWithAtMostKDistinctCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.LongestSubstringWithAtMostKDistinctCharactersTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -508,44 +532,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
+      <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2" />
       <item itemvalue="Gradle.LongestRepeatingSubstringTest" />
       <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6" />
-      <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" />
       <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest" />
-      <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
+        <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2" />
         <item itemvalue="Gradle.LongestRepeatingSubstringTest" />
         <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest" />
         <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect10_whenStringOfSize6" />
-        <item itemvalue="Gradle.NumberOfSubstringsContainingAll3CharactersTest.test_numberOfSubstrings_expect3_whenStringOfSize5" />
-        <item itemvalue="Gradle.LongestSubstringWithAtMostKDistinctCharactersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -901,7 +901,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="688" />
+    <option name="localTasksCounter" value="689" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -916,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using priority queue" />
     <MESSAGE value="[practice/binary-search]: &#10;minimise max distance between gas stations using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with out using extra space" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays without using extra space and break on finding the element" />
@@ -942,7 +941,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
+    <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3051,6 +3051,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/NumberOfSubStringsContainingAll3Characters.java</url>
           <line>19</line>
           <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/BinarySubArraysWithSum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/BinarySubArraysWithSum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="812" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
