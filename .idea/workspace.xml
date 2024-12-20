@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;binary sub arrays with sum brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arraysandstrings/SubArraysWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arraysandstrings/SubArraysWithSumKTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;sub arrays with sum using sliding window and prefix sum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubArraysWithKDistinctValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubArraysWithKDistinctValuesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/BinarySubArraysWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/BinarySubArraysWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/BinarySubArraysWithSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/BinarySubArraysWithSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +412,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySubArraysWithSumTest">
+  <component name="RunManager" selected="Gradle.SubArraysWithKDistinctValuesTest">
     <configuration name="BinarySubArraysWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -487,7 +485,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LongestRepeatingSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SubArraysWithKDistinctValuesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +498,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.LongestRepeatingSubstringTest&quot;" />
+            <option value="&quot;practice.slidingwindow.SubArraysWithKDistinctValuesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,16 +537,16 @@
       <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
       <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0" />
       <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2" />
-      <item itemvalue="Gradle.LongestRepeatingSubstringTest" />
+      <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
       <item itemvalue="Gradle.SubArraysWithSumKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
         <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
         <item itemvalue="Gradle.SubArraysWithSumKTest" />
         <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0" />
         <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect4_whenNIs5AndGoalIs2" />
-        <item itemvalue="Gradle.LongestRepeatingSubstringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +902,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="690" />
+    <option name="localTasksCounter" value="692" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,8 +917,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with out using extra space" />
-    <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays without using extra space and break on finding the element" />
     <MESSAGE value="[practice/binary-search]: &#10;median of two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;kth element in two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
@@ -945,7 +941,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;binary sub arrays with sum brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum using sliding window and prefix sum" />
+    <MESSAGE value="[practice/binary-search]: &#10;sub arrays with sum using sliding window and prefix sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;sub arrays with sum using sliding window and prefix sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
