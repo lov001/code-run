@@ -8,17 +8,20 @@ public class MinimumWindowSubstringTest {
    MinimumWindowSubstring classObj = new MinimumWindowSubstring();
 
    @Test
-   void test_minSubStringBruteForce_expectStringOfLength5_whenNIs6AndMIs3() {
+   void test_minSubString_expectStringOfLength5_whenNIs6AndMIs3() {
       Assertions.assertEquals("injas", classObj.minSubStringBruteForce("ninjas", "sin"));
+      Assertions.assertEquals("injas", classObj.minSubString("ninjas", "sin"));
    }
 
    @Test
-   void test_minSubStringBruteForce_expectStringOfLength4_whenNIs5AndMIs2() {
+   void test_minSubString_expectStringOfLength4_whenNIs5AndMIs2() {
       Assertions.assertEquals("ight", classObj.minSubStringBruteForce("fight", "it"));
+      Assertions.assertEquals("ight", classObj.minSubString("fight", "it"));
    }
 
    @Test
-   void test_minSubStringBruteForce_expectStringOfLength5_whenNIs6AndMIs3_() {
+   void test_minSubString_expectStringOfLength5_whenNIs6AndMIs3_() {
       Assertions.assertEquals("codin", classObj.minSubStringBruteForce("coding", "cin"));
+      Assertions.assertEquals("codin", classObj.minSubString("coding", "cin"));
    }
 }
