@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum window substring using sliding window" />
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum window substring using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;resolving conflicts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/LemonadeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/LemonadeChangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MinimumWindowSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,25 +366,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowGraphQL.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;practice/binary-search&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGraphQL.ShowToolbar": "false",
+    "git-widget-placeholder": "practice/greedy",
+    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice.dynamicprogramming" />
@@ -402,6 +401,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.greedy" />
       <recent name="practice.slidingwindow" />
       <recent name="practice.arraysandstrings" />
       <recent name="practice.binarysearch" />
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumWindowSubstringTest">
+  <component name="RunManager" selected="Gradle.LemonadeChangeTest">
     <configuration name="BinarySubArraysWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -428,6 +428,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.slidingwindow.BinarySubArraysWithSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LemonadeChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.LemonadeChangeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -510,44 +534,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubArraysWithSumKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arraysandstrings.SubArraysWithSumKTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.LemonadeChangeTest" />
       <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
       <item itemvalue="Gradle.MinimumWindowSubstringTest" />
       <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
       <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
-      <item itemvalue="Gradle.SubArraysWithSumKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LemonadeChangeTest" />
         <item itemvalue="Gradle.MinimumWindowSubstringTest" />
         <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
         <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
         <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
-        <item itemvalue="Gradle.SubArraysWithSumKTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,8 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="694" />
-    <option name="localTasksCounter" value="695" />
+    <option name="localTasksCounter" value="696" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
@@ -947,9 +945,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum window substring using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;sub arrays with k distinct values using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum window substring using brute force" />
+    <MESSAGE value="[practice/binary-search]: &#10;resolving conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;resolving conflicts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
