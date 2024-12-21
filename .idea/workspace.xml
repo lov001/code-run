@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;sub arrays with k distinct values using sliding window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MinimumWindowSubstringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;minimum window substring using brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MinimumWindowSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,30 +437,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="MinimumWindowSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -475,6 +451,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.slidingwindow.MinimumWindowSubstringTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -535,18 +535,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
-      <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0" />
       <item itemvalue="Gradle.MinimumWindowSubstringTest" />
+      <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
       <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
       <item itemvalue="Gradle.SubArraysWithSumKTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MinimumWindowSubstringTest" />
+        <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
         <item itemvalue="Gradle.SubArraysWithKDistinctValuesTest" />
         <item itemvalue="Gradle.BinarySubArraysWithSumTest" />
         <item itemvalue="Gradle.SubArraysWithSumKTest" />
-        <item itemvalue="Gradle.BinarySubArraysWithSumTest.test_numSubArraysWithSum_expect15_whenNIs5AndGoalIs0" />
       </list>
     </recent_temporary>
   </component>
@@ -902,7 +902,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="693" />
+    <option name="localTasksCounter" value="694" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -917,7 +917,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;kth element in two sorted arrays with Binary Search" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row using brute force with breaking on 1st one occurrence" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
@@ -943,7 +942,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum using sliding window and prefix sum" />
     <MESSAGE value="[practice/binary-search]: &#10;sub arrays with sum using sliding window and prefix sum" />
     <MESSAGE value="[practice/binary-search]: &#10;sub arrays with k distinct values using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;sub arrays with k distinct values using sliding window" />
+    <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;minimum window substring using brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
