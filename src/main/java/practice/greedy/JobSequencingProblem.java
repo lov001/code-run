@@ -4,6 +4,36 @@ import java.util.Arrays;
 
 public class JobSequencingProblem {
 
+   public int[] jobScheduling(int[][] jobs) {
+      Arrays.sort(jobs, (a, b) -> Integer.compare(b[2], a[2]));
+      int maxDeadline = 0;
+      for (int[] job : jobs) {
+         maxDeadline = Math.max(maxDeadline, job[1]);
+      }
+      int[] orderedDays = new int[maxDeadline + 1];
+      Arrays.fill(orderedDays, -1);
+      int countProfit = 0;
+      int countJobs = 0;
+      for (int[] job : jobs) {
+         if (orderedDays[job[1]] == -1) {
+            orderedDays[job[1]] = job[0];
+            countProfit += job[2];
+            countJobs++;
+         } else {
+            int index = job[1];
+            while (index >= 0 && orderedDays[index] != -1) {
+               index--;
+            }
+            if (index >= 0) {
+               orderedDays[index] = job[0];
+               countProfit += job[2];
+               countJobs++;
+            }
+         }
+      }
+      return new int[]{countJobs, countProfit};
+   }
+
    public int[] JobScheduling(Job[] arr, int n) {
       Arrays.sort(arr, (a, b) -> (b.profit - a.profit));
       int maxDeadline = 0;

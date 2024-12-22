@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/binary-search]: &#10;jump game 2 using recursion">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;job sequencing problem using greedy approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/JumpGame2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/JumpGame2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/JumpGame2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/JumpGame2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +413,55 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JumpGame2Test">
+  <component name="RunManager" selected="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8">
+    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="JumpGame2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -486,68 +534,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumWindowSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MinimumWindowSubstringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
+      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
       <item itemvalue="Gradle.JumpGame2Test" />
       <item itemvalue="Gradle.JumpGame2Test.test_canJump_expect2_whenNIs5" />
       <item itemvalue="Gradle.LemonadeChangeTest" />
-      <item itemvalue="Gradle.MinimumWindowSubstringTest" />
-      <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
+        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
         <item itemvalue="Gradle.JumpGame2Test" />
         <item itemvalue="Gradle.JumpGame2Test.test_canJump_expect2_whenNIs5" />
         <item itemvalue="Gradle.LemonadeChangeTest" />
-        <item itemvalue="Gradle.MinimumWindowSubstringTest" />
-        <item itemvalue="Gradle.MinimumWindowSubstringTest.test_minSubString_expectStringOfLength5_whenNIs6AndMIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="697" />
+    <option name="localTasksCounter" value="698" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,8 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;maximum ones in a row usingbinary search" />
-    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix II using binary search" />
@@ -946,7 +944,9 @@
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;resolving conflicts" />
     <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/binary-search]: &#10;jump game 2 using recursion" />
+    <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using greedy approach with two pointers" />
+    <MESSAGE value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2633,27 +2633,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>13</line>
+          <line>43</line>
           <option name="timeStamp" value="679" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>35</line>
+          <line>65</line>
           <option name="timeStamp" value="683" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>37</line>
+          <line>67</line>
           <option name="timeStamp" value="684" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>40</line>
+          <line>70</line>
           <option name="timeStamp" value="685" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>36</line>
+          <line>66</line>
           <option name="timeStamp" value="686" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -3070,6 +3070,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JumpGame2.java</url>
           <line>10</line>
           <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="822" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>

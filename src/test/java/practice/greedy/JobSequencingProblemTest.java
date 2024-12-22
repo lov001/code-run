@@ -62,4 +62,21 @@ public class JobSequencingProblemTest {
       Assertions.assertEquals(2, actual[0]);
       Assertions.assertEquals(127, actual[1]);
    }
+
+   @Test
+   void test_JobScheduling_expect7And342_whenNIs8() {
+      int[][] jobs = new int[8][3];
+      jobs[0] = new int[]{1, 4, 20};
+      jobs[1] = new int[]{2, 5, 60};
+      jobs[2] = new int[]{3, 6, 70};
+      jobs[3] = new int[]{4, 6, 65};
+      jobs[4] = new int[]{5, 4, 25};
+      jobs[5] = new int[]{6, 2, 80};
+      jobs[6] = new int[]{7, 2, 10};
+      jobs[7] = new int[]{8, 2, 22};
+      int[] actual = classObj.jobScheduling(jobs);
+      Assertions.assertEquals(2, actual.length);
+      Assertions.assertEquals(7, actual[0]);
+      Assertions.assertEquals(342, actual[1]);
+   }
 }
