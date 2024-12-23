@@ -6,6 +6,23 @@ import java.util.List;
 
 public class NMeetingsInOneRoom {
 
+   public int maxMeetings(int[] start, int[] end) {
+      List<Meeting> meetings = new ArrayList<>();
+      for (int i = 0; i < start.length; i++) {
+         meetings.add(new Meeting(start[i], end[i], i + 1));
+      }
+      Collections.sort(meetings);
+      int maxMeetings = 1;
+      int lastFreedTime = meetings.get(0).end;
+      for (int i = 1; i < start.length; i++) {
+         if (meetings.get(i).start > lastFreedTime) {
+            lastFreedTime = meetings.get(i).end;
+            maxMeetings++;
+         }
+      }
+      return maxMeetings;
+   }
+
    public int maxMeetings(int n, int[] start, int[] end) {
       int maxMeetings = 0;
       List<Meeting> meetings = new ArrayList<>();
