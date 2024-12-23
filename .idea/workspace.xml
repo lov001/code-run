@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;job sequencing problem using greedy approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/JobSequencingProblemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/NMeetingsInOneRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/NMeetingsInOneRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +377,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8">
+  <component name="RunManager" selected="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6">
     <configuration name="JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -486,7 +486,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="JumpGame2Test.test_canJump_expect2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -499,7 +499,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.JumpGame2Test.test_canJump_expect2_whenNIs5&quot;" />
+            <option value="&quot;practice.greedy.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -510,7 +510,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LemonadeChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -523,7 +523,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.LemonadeChangeTest&quot;" />
+            <option value="&quot;practice.greedy.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -535,19 +535,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
+      <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
       <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
       <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
       <item itemvalue="Gradle.JumpGame2Test" />
-      <item itemvalue="Gradle.JumpGame2Test.test_canJump_expect2_whenNIs5" />
-      <item itemvalue="Gradle.LemonadeChangeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
+        <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
         <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
         <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
         <item itemvalue="Gradle.JumpGame2Test" />
-        <item itemvalue="Gradle.JumpGame2Test.test_canJump_expect2_whenNIs5" />
-        <item itemvalue="Gradle.LemonadeChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="698" />
+    <option name="localTasksCounter" value="699" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,8 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised" />
-    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix brute-force and binary search optimised with 1D array" />
     <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix II using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;peak element in a 2D matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;median in a row wise sorted matrix" />
@@ -2622,41 +2620,6 @@
           <option name="timeStamp" value="676" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="677" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="678" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="679" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="683" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="684" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="685" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="686" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trees/InOrderTraversal.java</url>
           <line>9</line>
           <option name="timeStamp" value="687" />
@@ -3072,8 +3035,8 @@
           <option name="timeStamp" value="821" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/JobSequencingProblem.java</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java</url>
+          <line>22</line>
           <option name="timeStamp" value="822" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
