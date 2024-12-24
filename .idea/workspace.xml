@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;job sequencing problem using greedy approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;N meetings in one room using greedy approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/NonOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/NonOverlappingIntervalsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/NMeetingsInOneRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/NMeetingsInOneRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,79 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6">
-    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="JumpGame2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.JumpGame2Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.NonOverlappingIntervalsTest">
     <configuration name="NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -534,20 +462,92 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="NonOverlappingIntervalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
       <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
-      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
-      <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
-      <item itemvalue="Gradle.JumpGame2Test" />
+      <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
+      <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" />
+      <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
+        <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" />
+        <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" />
         <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
         <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeetings_expect4_whenNIs6" />
-        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect7And342_whenNIs8" />
-        <item itemvalue="Gradle.JobSequencingProblemTest.test_JobScheduling_expect2And70_whenNIs4" />
-        <item itemvalue="Gradle.JumpGame2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="699" />
+    <option name="localTasksCounter" value="700" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;search in a 2D matrix II using binary search" />
     <MESSAGE value="[practice/binary-search]: &#10;peak element in a 2D matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;median in a row wise sorted matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using greedy approach with two pointers" />
     <MESSAGE value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
+    <MESSAGE value="[practice/greedy]: &#10;N meetings in one room using greedy approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;N meetings in one room using greedy approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3038,6 +3038,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NMeetingsInOneRoom.java</url>
           <line>22</line>
           <option name="timeStamp" value="822" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/NonOverlappingIntervals.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="823" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
