@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;non overlapping intervals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/InsertIntervalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;insert interval in a sorted intervals list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/MinimumNumberOfPlatforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/MinimumNumberOfPlatformsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3">
+  <component name="RunManager" selected="Gradle.MinimumNumberOfPlatformsTest">
     <configuration name="InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -438,7 +438,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumNumberOfPlatformsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -451,7 +451,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6&quot;" />
+            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -486,68 +534,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" />
-      <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
+      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
+      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
+      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
       <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
-      <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" />
-      <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
+        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
+        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
         <item itemvalue="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" />
         <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
-        <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_minimumReschedules_expect1_whenNIs4" />
-        <item itemvalue="Gradle.NonOverlappingIntervalsTest.test_maxMeeting_expect2_whenNIs5" />
-        <item itemvalue="Gradle.NMeetingsInOneRoomTest.test_maxMeeting_expect4_whenNIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="701" />
+    <option name="localTasksCounter" value="702" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;median in a row wise sorted matrix" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards optimised solution" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
     <MESSAGE value="[practice/greedy]: &#10;N meetings in one room using greedy approach" />
     <MESSAGE value="[practice/greedy]: &#10;non overlapping intervals" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;non overlapping intervals" />
+    <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3053,6 +3053,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/greedy/InsertIntervalTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/MinimumNumberOfPlatforms.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="828" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
