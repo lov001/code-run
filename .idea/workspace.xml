@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;minimum number of platforms needed by a railway station">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="703" />
+    <option name="localTasksCounter" value="704" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards optimised solution" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/greedy]: &#10;non overlapping intervals" />
     <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
     <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
+    <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
