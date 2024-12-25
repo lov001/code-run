@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;valid parenthesis string with * using range based approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/Candies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/CandiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,8 +413,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidParenthesisStringTest">
-    <configuration name="InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CandiesTest.test_requiredCandies_expect5_whenNIs5">
+    <configuration name="CandiesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -427,7 +427,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3&quot;" />
+            <option value="&quot;practice.greedy.CandiesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CandiesTest.test_requiredCandies_expect10_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.CandiesTest.test_requiredCandies_expect10_whenNIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CandiesTest.test_requiredCandies_expect5_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.greedy.CandiesTest.test_requiredCandies_expect5_whenNIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -452,54 +500,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -535,19 +535,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" />
+      <item itemvalue="Gradle.CandiesTest" />
+      <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect10_whenNIs6" />
+      <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect5_whenNIs5" />
       <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
-      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
-      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
       <item itemvalue="Gradle.ValidParenthesisStringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect5_whenNIs5" />
+        <item itemvalue="Gradle.CandiesTest" />
+        <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect10_whenNIs6" />
         <item itemvalue="Gradle.ValidParenthesisStringTest" />
         <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
-        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
-        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
-        <item itemvalue="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="704" />
+    <option name="localTasksCounter" value="705" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
     <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
+    <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3058,6 +3058,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/MinimumNumberOfPlatforms.java</url>
           <line>7</line>
           <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/Candies.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="829" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
