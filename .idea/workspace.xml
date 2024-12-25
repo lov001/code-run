@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;insert interval in a sorted intervals list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/MinimumNumberOfPlatforms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/MinimumNumberOfPlatformsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;minimum number of platforms needed by a railway station">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/ValidParenthesisString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/ValidParenthesisStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimumNumberOfPlatformsTest">
+  <component name="RunManager" selected="Gradle.ValidParenthesisStringTest">
     <configuration name="InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -510,7 +510,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NonOverlappingIntervalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidParenthesisStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -523,7 +523,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.NonOverlappingIntervalsTest&quot;" />
+            <option value="&quot;practice.greedy.ValidParenthesisStringTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,15 +539,15 @@
       <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
       <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
       <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
-      <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
+      <item itemvalue="Gradle.ValidParenthesisStringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ValidParenthesisStringTest" />
         <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
         <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect2_whenNIs4" />
         <item itemvalue="Gradle.MinimumNumberOfPlatformsTest.test_calculateMinPlatforms_expect1_whenNIs2" />
         <item itemvalue="Gradle.InsertIntervalTest.test_insertInterval_expectOutputOfSize4_whenNIs3" />
-        <item itemvalue="Gradle.NonOverlappingIntervalsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="702" />
+    <option name="localTasksCounter" value="703" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards with brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum points from cards optimised solution" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring without repeating character" />
     <MESSAGE value="[practice/binary-search]: &#10;maximum consecutive ones with at most k zeroes brute force and sliding window" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/greedy]: &#10;N meetings in one room using greedy approach" />
     <MESSAGE value="[practice/greedy]: &#10;non overlapping intervals" />
     <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
+    <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
