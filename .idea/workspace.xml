@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;candies distribution using brute force approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/FractionalKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/FractionalKnapsackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/greedy/Candies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/Candies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/greedy/CandiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/CandiesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CandiesTest">
+  <component name="RunManager" selected="Gradle.FractionalKnapsackTest.test_maximumValue_expect380_whenNIs4AndWeightIs90">
     <configuration name="CandiesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -486,7 +486,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumNumberOfPlatformsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FractionalKnapsackTest.test_maximumValue_expect380_whenNIs4AndWeightIs90" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -499,7 +499,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.greedy.MinimumNumberOfPlatformsTest&quot;" />
+            <option value="&quot;practice.greedy.FractionalKnapsackTest.test_maximumValue_expect380_whenNIs4AndWeightIs90&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -538,16 +538,16 @@
       <item itemvalue="Gradle.CandiesTest" />
       <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect10_whenNIs6" />
       <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect5_whenNIs5" />
-      <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
+      <item itemvalue="Gradle.FractionalKnapsackTest.test_maximumValue_expect380_whenNIs4AndWeightIs90" />
       <item itemvalue="Gradle.ValidParenthesisStringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FractionalKnapsackTest.test_maximumValue_expect380_whenNIs4AndWeightIs90" />
         <item itemvalue="Gradle.CandiesTest" />
         <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect5_whenNIs5" />
         <item itemvalue="Gradle.CandiesTest.test_requiredCandies_expect10_whenNIs6" />
         <item itemvalue="Gradle.ValidParenthesisStringTest" />
-        <item itemvalue="Gradle.MinimumNumberOfPlatformsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="706" />
+    <option name="localTasksCounter" value="707" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using brute force and sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using brute force approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;candies distribution using brute force approach" />
+    <MESSAGE value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3063,6 +3063,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/Candies.java</url>
           <line>68</line>
           <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/FractionalKnapsack.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="830" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/greedy/FractionalKnapsack.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="831" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
