@@ -10,12 +10,14 @@ public class SecondLargestElementInArrayTest {
    @Test
    void test_largestElement_expect4_whenNIs5() {
       int[] input = {1, 2, 3, 4, 5};
+      Assertions.assertEquals(4, classObj.secondLargestElementBruteForce(input, 5));
       Assertions.assertEquals(4, classObj.secondLargestElement(input, 5));
    }
 
    @Test
    void test_largestElement_expect7_whenNIs6() {
       int[] input = {4, 7, 8, 6, 7, 6};
+      Assertions.assertEquals(7, classObj.secondLargestElementBruteForce(input, 6));
       Assertions.assertEquals(7, classObj.secondLargestElement(input, 6));
    }
 }
