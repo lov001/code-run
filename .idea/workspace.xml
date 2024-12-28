@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;2 sum problem using hash">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/TwoSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +413,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TwoSumTest.test_twoSum_expect0And3_whenTargetIs5">
+  <component name="RunManager" selected="Gradle.TwoSumTest">
     <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -543,11 +543,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TwoSumTest" />
+        <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6" />
         <item itemvalue="Gradle.TwoSumTest.test_twoSum_expect0And3_whenTargetIs5" />
         <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectMinus1_whenTargetIs13" />
         <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectMinus1_whenTargetIsMinus10" />
-        <item itemvalue="Gradle.TwoSumTest" />
-        <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +903,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="707" />
+    <option name="localTasksCounter" value="708" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -918,8 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;fruits into basket using optimised sliding window" />
-    <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest substring with at most k distinct characters using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
@@ -944,7 +942,8 @@
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using brute force approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3075,24 +3074,24 @@
           <option name="timeStamp" value="831" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="832" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/TwoSumTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="833" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/TwoSumTest.java</url>
-          <line>27</line>
+          <line>29</line>
           <option name="timeStamp" value="834" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java</url>
-          <line>27</line>
+          <line>30</line>
           <option name="timeStamp" value="835" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="836" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>

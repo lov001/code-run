@@ -12,6 +12,7 @@ public class TwoSumTest {
       int[] input = {2, 7, 11, 15};
       int[] expected = {0, 1};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 4, 9));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 4, 9));
    }
 
    @Test
@@ -19,6 +20,7 @@ public class TwoSumTest {
       int[] input = {3, 2, 8};
       int[] expected = {-1, -1};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 3, 6));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 3, 6));
    }
 
    @Test
@@ -26,6 +28,7 @@ public class TwoSumTest {
       int[] input = {3, 3, 3};
       int[] expected = {0, 1};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 3, 6));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 3, 6));
    }
 
    @Test
@@ -33,6 +36,7 @@ public class TwoSumTest {
       int[] input = {-8, 4, -1, 0, 2};
       int[] expected = {-1, -1};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 5, -10));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 5, -10));
    }
 
    @Test
@@ -40,6 +44,7 @@ public class TwoSumTest {
       int[] input = {-7, -1, -2, -6, -4, 3};
       int[] expected = {-1, -1};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 6, 13));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 6, 13));
    }
 
    @Test
@@ -47,5 +52,6 @@ public class TwoSumTest {
       int[] input = {4, 3, 2, 1};
       int[] expected = {0, 3};
       Assertions.assertArrayEquals(expected, classObj.twoSum(input, 4, 5));
+      Assertions.assertArrayEquals(expected, classObj.twoSumTwoPointers(input, 4, 5));
    }
 }
