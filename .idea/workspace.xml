@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;second largest element in array">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;second-largest element in array optimal approach">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestAndSmallestElementInArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestElementInArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestElementInArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestAndSmallestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestAndSmallestElementInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SecondLargestElementInArrayTest">
+  <component name="RunManager" selected="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6">
     <configuration name="LargestElementInArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -429,6 +429,78 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.LargestElementInArrayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SecondLargestAndSmallestElementInArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -463,92 +535,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.TwoSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoSumTest.test_twoSum_expect0And3_whenTargetIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.TwoSumTest.test_twoSum_expect0And3_whenTargetIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.LargestElementInArrayTest" />
+      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest" />
+      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" />
+      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" />
       <item itemvalue="Gradle.SecondLargestElementInArrayTest" />
-      <item itemvalue="Gradle.TwoSumTest" />
-      <item itemvalue="Gradle.TwoSumTest.test_twoSum_expect0And3_whenTargetIs5" />
-      <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" />
+        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest" />
+        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" />
         <item itemvalue="Gradle.SecondLargestElementInArrayTest" />
         <item itemvalue="Gradle.LargestElementInArrayTest" />
-        <item itemvalue="Gradle.TwoSumTest" />
-        <item itemvalue="Gradle.TwoSumTest.test_twoSum_expectOAnd1_whenTargetIs6" />
-        <item itemvalue="Gradle.TwoSumTest.test_twoSum_expect0And3_whenTargetIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="711" />
+    <option name="localTasksCounter" value="712" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum using sliding window and prefix sum" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;largest element in array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;second largest element in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;second largest element in array" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;second-largest element in array optimal approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;second-largest element in array optimal approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3093,6 +3093,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/TwoSum.java</url>
           <line>74</line>
           <option name="timeStamp" value="836" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestAndSmallestElementInArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="838" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
