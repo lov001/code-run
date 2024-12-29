@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestAndSmallestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LargestElementInArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestElementInArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;second largest element in array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestElementInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestElementInArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SecondLargestElementInArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -907,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="709" />
+    <option name="localTasksCounter" value="711" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -922,8 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using brute force" />
-    <MESSAGE value="[practice/binary-search]: &#10;number of substrings containing all 3 characters using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using brute force approach" />
     <MESSAGE value="[practice/binary-search]: &#10;longest repeating substring with k changes using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;binary sub arrays with sum brute force" />
@@ -947,7 +942,9 @@
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;largest element in array" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;second largest element in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;second largest element in array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
