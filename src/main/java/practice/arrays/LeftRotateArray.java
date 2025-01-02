@@ -1,6 +1,7 @@
 package practice.arrays;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class LeftRotateArray {
 
@@ -30,5 +31,39 @@ public class LeftRotateArray {
          arr.set(i, temp[i - (n - k)]);
       }
       return arr;
+   }
+
+   public ArrayList<Integer> rotateArrayOptimised(ArrayList<Integer> arr, int k) {
+      int n = arr.size();
+      k = k % n;
+      reverse(arr, 0, k - 1);
+      reverse(arr, k, n - 1);
+      reverse(arr, 0, n - 1);
+//      for (int i = 0; i < k; i++) {
+////         int temp = arr.get(i);
+////         arr.set(i, arr.get(k - i - 1));
+////         arr.set(k - i - 1, temp);
+//      }
+//      int temp = 1;
+//      for (int i = k; i < n; i++) {
+//         int tempV = arr.get(i);
+//         arr.set(i, arr.get(n - temp));
+//         arr.set(n - temp, tempV);
+//         temp++;
+//      }
+//      for (int i = 0; i < n; i++) {
+//         int tempV = arr.get(i);
+//         arr.set(i, arr.get(n - i - 1));
+//         arr.set(n - i - 1, tempV);
+//      }
+      return arr;
+   }
+
+   private void reverse(ArrayList<Integer> arr, int start, int end) {
+      while (start < end) {
+         Collections.swap(arr, start, end);
+         start++;
+         end--;
+      }
    }
 }
