@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;right rotate array by K places optimised approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MoveZeroesToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MoveZeroesToEndTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;move zeroes to end">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MergeTwoSortedArraysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,7 +414,103 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MoveZeroesToEndTest">
+  <component name="RunManager" selected="Gradle.MergeTwoSortedArraysTest">
+    <configuration name="MergeTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.MergeTwoSortedArraysTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize4_whenNIs4AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize4_whenNIs4AndMIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize6_whenNIs5AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize6_whenNIs5AndMIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeTwoSortedArraysTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.MergeTwoSortedArraysTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MoveZeroesToEndTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -439,116 +535,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MoveZeroesToEndTest.test_moveZerosBruteForceByK_expect5_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MoveZeroesToEndTest.test_moveZerosBruteForceByK_expect5_whenNIs6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MoveZeroesToEndTest.test_moveZerosOptimised_expect5_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MoveZeroesToEndTest.test_moveZerosOptimised_expect5_whenNIs6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MoveZeroesToEndTest.test_moveZerosOptimised_expect8_wheNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MoveZeroesToEndTest.test_moveZerosOptimised_expect8_wheNIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="RightRotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.RightRotateArrayTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Gradle.MergeTwoSortedArraysTest" />
+      <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize4_whenNIs4AndMIs3" />
+      <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize6_whenNIs5AndMIs3" />
+      <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
       <item itemvalue="Gradle.MoveZeroesToEndTest" />
-      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosBruteForceByK_expect5_whenNIs6" />
-      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosOptimised_expect5_whenNIs6" />
-      <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosOptimised_expect8_wheNIs4" />
-      <item itemvalue="Gradle.RightRotateArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeTwoSortedArraysTest" />
+        <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize4_whenNIs4AndMIs3" />
+        <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArrayOptimised_expectListOfSize6_whenNIs5AndMIs3" />
+        <item itemvalue="Gradle.MergeTwoSortedArraysTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.MoveZeroesToEndTest" />
-        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosOptimised_expect5_whenNIs6" />
-        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosOptimised_expect8_wheNIs4" />
-        <item itemvalue="Gradle.MoveZeroesToEndTest.test_moveZerosBruteForceByK_expect5_whenNIs6" />
-        <item itemvalue="Gradle.RightRotateArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="719" />
+    <option name="localTasksCounter" value="720" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;resolving conflicts" />
     <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using recursion" />
     <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using greedy approach with two pointers" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;right rotate array by K places optimised approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;right rotate array by K places optimised approach" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;move zeroes to end" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;move zeroes to end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3148,6 +3148,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MoveZeroesToEnd.java</url>
           <line>38</line>
           <option name="timeStamp" value="856" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArrays.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="857" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArrays.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="858" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
