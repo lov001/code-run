@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;left rotate array by K places">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/RightRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/RightRotateArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LeftRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,8 +414,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LeftRotateArrayTest">
-    <configuration name="LeftRotateArrayByOneTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RightRotateArrayTest">
+    <configuration name="RightRotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -428,7 +428,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LeftRotateArrayByOneTest&quot;" />
+            <option value="&quot;practice.arrays.RightRotateArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -439,7 +439,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LeftRotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightRotateArrayTest.test_rotateArrayByKOptimised_expect8_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -452,7 +452,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LeftRotateArrayTest&quot;" />
+            <option value="&quot;practice.arrays.RightRotateArrayTest.test_rotateArrayByKOptimised_expect8_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -463,7 +463,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -476,7 +476,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2&quot;" />
+            <option value="&quot;practice.arrays.RightRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -487,7 +487,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +500,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1&quot;" />
+            <option value="&quot;practice.arrays.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -511,7 +511,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -524,7 +524,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3&quot;" />
+            <option value="&quot;practice.arrays.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -536,19 +536,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.LeftRotateArrayByOneTest" />
-      <item itemvalue="Gradle.LeftRotateArrayTest" />
-      <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
-      <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" />
-      <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
+      <item itemvalue="Gradle.RightRotateArrayTest" />
+      <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByKOptimised_expect8_whenKIs3" />
+      <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
+      <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" />
+      <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LeftRotateArrayTest" />
-        <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" />
-        <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
-        <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
-        <item itemvalue="Gradle.LeftRotateArrayByOneTest" />
+        <item itemvalue="Gradle.RightRotateArrayTest" />
+        <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByKOptimised_expect8_whenKIs3" />
+        <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs1" />
+        <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
+        <item itemvalue="Gradle.RightRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="717" />
+    <option name="localTasksCounter" value="718" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;resolving conflicts" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sync with main" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by one" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;left rotate array by K places" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3119,6 +3119,11 @@
           <line>53</line>
           <option name="timeStamp" value="846" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/RightRotateArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="847" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
           <line>10</line>
@@ -3127,6 +3132,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/RightRotateArrayTest.java</url>
+          <line>51</line>
+          <properties class="practice.arrays.RightRotateArrayTest" method="test_rotateArrayByK_expect8_whenKIs1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="850" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
