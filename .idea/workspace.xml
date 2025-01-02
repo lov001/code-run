@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;sync with main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LeftRotateArrayByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayByOneTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;left rotate array by one">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LeftRotateArrayByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LeftRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayByOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LeftRotateArrayByOneTest">
+  <component name="RunManager" selected="Gradle.LeftRotateArrayTest">
     <configuration name="LeftRotateArrayByOneTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -429,6 +429,78 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.LeftRotateArrayByOneTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeftRotateArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.LeftRotateArrayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -463,92 +535,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SecondLargestAndSmallestElementInArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.LeftRotateArrayByOneTest" />
+      <item itemvalue="Gradle.LeftRotateArrayTest" />
+      <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
+      <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
       <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest" />
-      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest" />
-      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" />
-      <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LeftRotateArrayTest" />
+        <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect5_whenKIs2" />
+        <item itemvalue="Gradle.LeftRotateArrayTest.test_rotateArrayByK_expect8_whenKIs3" />
         <item itemvalue="Gradle.LeftRotateArrayByOneTest" />
         <item itemvalue="Gradle.RemoveDuplicatesFromSortedArrayTest" />
-        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect8And6_whenNIs6" />
-        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest" />
-        <item itemvalue="Gradle.SecondLargestAndSmallestElementInArrayTest.test_getSecondOrderElements_expect4And2_whenNIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="715" />
+    <option name="localTasksCounter" value="716" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;sub arrays with sum using sliding window and prefix sum" />
     <MESSAGE value="[practice/binary-search]: &#10;sub arrays with k distinct values using sliding window" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using brute force" />
     <MESSAGE value="[practice/binary-search]: &#10;minimum window substring using sliding window" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;second-largest and smallest element in array optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;remove duplicates from sorted array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sync with main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;sync with main" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by one" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;left rotate array by one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3098,6 +3098,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/SecondLargestAndSmallestElementInArray.java</url>
           <line>8</line>
           <option name="timeStamp" value="838" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/LeftRotateArrayTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="839" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
