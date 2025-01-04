@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;merge two sorted arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/IntersectionOfTwoArraysTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;missing number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/MissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MissingNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,25 +366,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowGraphQL.ShowToolbar": "false",
-    "git-widget-placeholder": "practice/arrays-and-strings",
-    "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowGraphQL.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;practice/arrays-and-strings&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice.dynamicprogramming" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3">
+  <component name="RunManager" selected="Gradle.MissingNumberTest">
     <configuration name="IntersectionOfTwoArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -487,7 +487,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="IntersectionOfTwoArraysTest.test_findArrayIntersection_expectListOfSize6_whenNIs5AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +500,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.IntersectionOfTwoArraysTest.test_findArrayIntersection_expectListOfSize6_whenNIs5AndMIs3&quot;" />
+            <option value="&quot;practice.arrays.MissingNumberTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -511,7 +511,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MergeTwoSortedArraysTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MissingNumberTest.test_missingNumber_expect4_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -524,7 +524,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MergeTwoSortedArraysTest&quot;" />
+            <option value="&quot;practice.arrays.MissingNumberTest.test_missingNumber_expect4_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -536,19 +536,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.MissingNumberTest" />
+      <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
       <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
       <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3" />
       <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize6_whenNIs5AndMIs3" />
-      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersection_expectListOfSize6_whenNIs5AndMIs3" />
-      <item itemvalue="Gradle.MergeTwoSortedArraysTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MissingNumberTest" />
+        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
         <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3" />
         <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.IntersectionOfTwoArraysTest" />
-        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersection_expectListOfSize6_whenNIs5AndMIs3" />
-        <item itemvalue="Gradle.MergeTwoSortedArraysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="721" />
+    <option name="localTasksCounter" value="723" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,8 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using recursion" />
-    <MESSAGE value="[practice/binary-search]: &#10;jump game 2 using greedy approach with two pointers" />
     <MESSAGE value="[practice/greedy]: &#10;job sequencing problem using greedy approach" />
     <MESSAGE value="[practice/greedy]: &#10;N meetings in one room using greedy approach" />
     <MESSAGE value="[practice/greedy]: &#10;non overlapping intervals" />
@@ -944,7 +942,9 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;right rotate array by K places optimised approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;move zeroes to end" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge two sorted arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;merge two sorted arrays" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;intersection of two arrays" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;missing number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3158,6 +3158,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArrays.java</url>
           <line>40</line>
           <option name="timeStamp" value="858" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MissingNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="860" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
