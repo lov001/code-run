@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/Sort0s1sAnd2s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/Sort0s1sAnd2sTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestSubArrayWithSumTest">
+  <component name="RunManager" selected="Gradle.Sort0s1sAnd2sTest">
     <configuration name="LongestSubArrayWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -487,7 +487,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MissingNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sort0s1sAnd2sTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +500,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MissingNumberTest&quot;" />
+            <option value="&quot;practice.arrays.Sort0s1sAnd2sTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -511,7 +511,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MissingNumberTest.test_missingNumber_expect4_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -524,7 +524,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MissingNumberTest.test_missingNumber_expect4_whenNIs4&quot;" />
+            <option value="&quot;practice.arrays.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,16 +539,16 @@
       <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
       <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
       <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
-      <item itemvalue="Gradle.MissingNumberTest" />
-      <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
+      <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
+      <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
+        <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
         <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
         <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
         <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
-        <item itemvalue="Gradle.MissingNumberTest" />
-        <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="727" />
+    <option name="localTasksCounter" value="728" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using brute force approach" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
