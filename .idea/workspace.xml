@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest sub-array with sum k">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="725" />
+    <option name="localTasksCounter" value="726" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/greedy]: &#10;non overlapping intervals" />
     <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
     <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number with xor" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
