@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;majority element using hashing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Sort0s1sAnd2sTest">
+  <component name="RunManager" selected="Gradle.MajorityElementTest">
     <configuration name="LongestSubArrayWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -463,7 +463,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaxConsecutiveOnesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -476,7 +476,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MaxConsecutiveOnesTest&quot;" />
+            <option value="&quot;practice.arrays.MajorityElementTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -538,17 +538,17 @@
     <list>
       <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
       <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
-      <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
+      <item itemvalue="Gradle.MajorityElementTest" />
       <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
       <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MajorityElementTest" />
         <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
         <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
         <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
         <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
-        <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="729" />
+    <option name="localTasksCounter" value="730" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using brute force approach" />
     <MESSAGE value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
