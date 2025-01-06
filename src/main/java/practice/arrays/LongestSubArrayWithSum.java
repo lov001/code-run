@@ -5,6 +5,26 @@ import java.util.Map;
 
 public class LongestSubArrayWithSum {
 
+   public int longestSubArrayWithSumKWithTwoPointer(int[] a, long k) {
+      int maxLength = 0;
+      int n = a.length;
+      long sum = 0;
+      int i = 0;
+      int j = 0;
+      while (j < n) {
+         sum += a[j];
+         if (sum > k) {
+            sum -= a[i];
+            i++;
+         }
+         if (sum == k) {
+            maxLength = Math.max(maxLength, j - i + 1);
+         }
+         j++;
+      }
+      return maxLength;
+   }
+
    public int longestSubArrayWithSumKWithPrefixSum(int[] a, long k) {
       int maxLength = 0;
       int n = a.length;

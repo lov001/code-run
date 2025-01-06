@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest sub-array with sum k">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSubArrayWithSumTest.java" afterDir="false" />
@@ -415,30 +415,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.LongestSubArrayWithSumTest">
-    <configuration name="IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="LongestSubArrayWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -453,6 +429,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.LongestSubArrayWithSumTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -537,18 +537,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
+      <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
       <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
       <item itemvalue="Gradle.MissingNumberTest" />
       <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
-      <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
+        <item itemvalue="Gradle.LongestSubArrayWithSumTest.test_longestSubArrayWithSumK_expect1_whenNIs4AndKis2" />
         <item itemvalue="Gradle.MaxConsecutiveOnesTest" />
         <item itemvalue="Gradle.MissingNumberTest" />
         <item itemvalue="Gradle.MissingNumberTest.test_missingNumber_expect4_whenNIs4" />
-        <item itemvalue="Gradle.IntersectionOfTwoArraysTest.test_findArrayIntersectionOptimised_expectListOfSize4_whenNIs4AndMIs3" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="726" />
+    <option name="localTasksCounter" value="727" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/greedy]: &#10;insert interval in a sorted intervals list" />
     <MESSAGE value="[practice/greedy]: &#10;minimum number of platforms needed by a railway station" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using recursion and memoization" />
     <MESSAGE value="[practice/greedy]: &#10;valid parenthesis string with * using range based approach" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number with xor" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3163,6 +3163,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MissingNumber.java</url>
           <line>14</line>
           <option name="timeStamp" value="860" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="862" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
