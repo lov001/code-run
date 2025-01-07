@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="732" />
+    <option name="localTasksCounter" value="733" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;largest element in array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;second largest element in array" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3176,12 +3176,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java</url>
-          <line>17</line>
+          <line>35</line>
           <option name="timeStamp" value="865" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java</url>
-          <line>9</line>
+          <line>27</line>
           <option name="timeStamp" value="866" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
