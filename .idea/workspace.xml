@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MaximumSubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MaximumSubArraySumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,8 +414,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumSubArraySumTest">
-    <configuration name="LongestSubArrayWithSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AlternateNumberTest">
+    <configuration name="AlternateNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -428,7 +428,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.LongestSubArrayWithSumTest&quot;" />
+            <option value="&quot;practice.arrays.AlternateNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -511,44 +535,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
+      <item itemvalue="Gradle.AlternateNumberTest" />
+      <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
       <item itemvalue="Gradle.MajorityElementTest" />
       <item itemvalue="Gradle.MaximumSubArraySumTest" />
       <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
-      <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlternateNumberTest" />
+        <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
         <item itemvalue="Gradle.MaximumSubArraySumTest" />
         <item itemvalue="Gradle.MajorityElementTest" />
         <item itemvalue="Gradle.Sort0s1sAnd2sTest" />
-        <item itemvalue="Gradle.Sort0s1sAnd2sTest.test_sortArray_expectSortedArray_whenNIs8" />
-        <item itemvalue="Gradle.LongestSubArrayWithSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="731" />
+    <option name="localTasksCounter" value="732" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/greedy]: &#10;candies distribution using peak and down approach without extra space" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using hash" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;2 sum problem using two pointers approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;largest element in array" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3173,6 +3173,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/LongestSubArrayWithSum.java</url>
           <line>12</line>
           <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="866" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
