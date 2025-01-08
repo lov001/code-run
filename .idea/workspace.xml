@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/AlternateNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6">
+  <component name="RunManager" selected="Gradle.NextGreaterPermutationTest">
     <configuration name="AlternateNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -487,7 +487,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MajorityElementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreaterPermutationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +500,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MajorityElementTest&quot;" />
+            <option value="&quot;practice.arrays.NextGreaterPermutationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -511,7 +511,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumSubArraySumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -524,7 +524,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MaximumSubArraySumTest&quot;" />
+            <option value="&quot;practice.arrays.NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,16 +539,16 @@
       <item itemvalue="Gradle.AlternateNumberTest" />
       <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
       <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6" />
-      <item itemvalue="Gradle.MajorityElementTest" />
-      <item itemvalue="Gradle.MaximumSubArraySumTest" />
+      <item itemvalue="Gradle.NextGreaterPermutationTest" />
+      <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NextGreaterPermutationTest" />
+        <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" />
         <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6" />
         <item itemvalue="Gradle.AlternateNumberTest" />
         <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
-        <item itemvalue="Gradle.MaximumSubArraySumTest" />
-        <item itemvalue="Gradle.MajorityElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="734" />
+    <option name="localTasksCounter" value="735" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -3193,6 +3193,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/AlternateNumbers.java</url>
           <line>62</line>
           <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="869" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="871" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
