@@ -2,6 +2,24 @@ package practice.arrays;
 
 public class AlternateNumbers {
 
+
+   public int[] alternateNumbers(int[] a) {
+      int n = a.length;
+      int[] ans = new int[n];
+      int negIndex = 1;
+      int posIndex = 0;
+      for (int element : a) {
+         if (element < 0) {
+            ans[negIndex] = element;
+            negIndex += 2;
+         } else {
+            ans[posIndex] = element;
+            posIndex += 2;
+         }
+      }
+      return ans;
+   }
+
    public int[] alternateNumbersBruteForce(int[] a) {
       int n = a.length;
       int[] positive = new int[n / 2];
