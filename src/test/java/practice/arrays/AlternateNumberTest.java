@@ -48,4 +48,11 @@ public class AlternateNumberTest {
       int[] output = {4, -2, 5, -3};
       Assertions.assertArrayEquals(output, classObj.alternateNumbers(input));
    }
+
+   @Test
+   void test_alternateNumbersWithoutEqualCount_expect6_whenNIs6() {
+      int[] input = {-1, 2, 3, 4, -3, 1};
+      int[] output = {2, -1, 3, -3, 4, 1};
+      Assertions.assertArrayEquals(output, classObj.alternateNumbersWithoutEqualCount(input));
+   }
 }
