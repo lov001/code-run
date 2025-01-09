@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;next greater permutation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,54 +415,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.NextGreaterPermutationTest">
-    <configuration name="AlternateNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.AlternateNumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -511,6 +463,54 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect123_whenNIs321" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect123_whenNIs321&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -536,19 +536,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.AlternateNumberTest" />
-      <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
       <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6" />
       <item itemvalue="Gradle.NextGreaterPermutationTest" />
+      <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect123_whenNIs321" />
+      <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" />
       <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.NextGreaterPermutationTest" />
+        <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" />
+        <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect123_whenNIs321" />
         <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutation_expect123_whenNIs321" />
         <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersWithoutEqualCount_expect6_whenNIs6" />
-        <item itemvalue="Gradle.AlternateNumberTest" />
-        <item itemvalue="Gradle.AlternateNumberTest.test_alternateNumbersBruteForce_expect5_whenNIs4" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="735" />
+    <option name="localTasksCounter" value="736" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;second largest element in array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;second-largest element in array optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;second-largest and smallest element in array optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;remove duplicates from sorted array" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative optimised to O(n)" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;next greater permutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;next greater permutation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3205,9 +3205,14 @@
           <option name="timeStamp" value="870" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/NextGreaterPermutationTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="871" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="873" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="877" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
