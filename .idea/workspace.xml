@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest successive sequence using brute force approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSuccessiveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSuccessiveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSuccessiveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSuccessiveElementTest.java" afterDir="false" />
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="739" />
+    <option name="localTasksCounter" value="740" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;sync with main" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by one" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;next greater permutation uisng recursion and brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;leaders in an array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using brute force approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest successive sequence using brute force approach" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
