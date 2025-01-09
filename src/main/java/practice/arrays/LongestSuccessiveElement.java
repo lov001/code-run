@@ -1,6 +1,27 @@
 package practice.arrays;
 
+import java.util.Arrays;
+
 public class LongestSuccessiveElement {
+
+
+   public int longestSuccessiveElementsUsingSorting(int[] a) {
+      int longest = 1;
+      int smallest = Integer.MIN_VALUE;
+      int count = 0;
+      Arrays.sort(a);
+      for (int element : a) {
+         if ((element - 1) == smallest) {
+            count++;
+            smallest = element;
+         } else if (element != smallest) {
+            count = 1;
+            smallest = element;
+         }
+         longest = Math.max(longest, count);
+      }
+      return longest;
+   }
 
    public int longestSuccessiveElementsBruteForce(int[] a) {
       int longest = 1;
