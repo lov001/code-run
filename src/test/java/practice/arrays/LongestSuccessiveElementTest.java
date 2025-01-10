@@ -11,5 +11,7 @@ public class LongestSuccessiveElementTest {
    void test_largestElement_expect5_whenNIs6() {
       int[] input = {5, 8, 3, 2, 1, 4};
       Assertions.assertEquals(5, classObj.longestSuccessiveElementsBruteForce(input));
+      Assertions.assertEquals(5, classObj.longestSuccessiveElementsUsingSorting(input));
+      Assertions.assertEquals(5, classObj.longestSuccessiveElementsOptimal(input));
    }
 }
