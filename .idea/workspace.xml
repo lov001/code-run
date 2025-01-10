@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;longest successive sequence set optimal solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/ZeroMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/ZeroMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSuccessiveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/LongestSuccessiveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSuccessiveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/LongestSuccessiveElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +414,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestSuccessiveElementTest">
+  <component name="RunManager" selected="Gradle.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3">
     <configuration name="LeadersInArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -511,7 +511,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -524,7 +524,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs&quot;" />
+            <option value="&quot;practice.arrays.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,15 +540,15 @@
       <item itemvalue="Gradle.LongestSuccessiveElementTest" />
       <item itemvalue="Gradle.LongestSuccessiveElementTest.test_largestElement_expect5_whenNIs6" />
       <item itemvalue="Gradle.NextGreaterPermutationTest" />
-      <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" />
+      <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" />
         <item itemvalue="Gradle.LongestSuccessiveElementTest" />
         <item itemvalue="Gradle.LongestSuccessiveElementTest.test_largestElement_expect5_whenNIs6" />
         <item itemvalue="Gradle.LeadersInArrayTest" />
         <item itemvalue="Gradle.NextGreaterPermutationTest" />
-        <item itemvalue="Gradle.NextGreaterPermutationTest.test_nextGreaterPermutationBF_expect_whenNIs" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="740" />
+    <option name="localTasksCounter" value="741" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by one" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;left rotate array by K places optimised approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;right rotate array by K places optimised approach" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;leaders in an array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence set optimal solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;longest successive sequence set optimal solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3213,6 +3213,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/NextGreaterPermutation.java</url>
           <line>47</line>
           <option name="timeStamp" value="877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/ZeroMatrixTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="878" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/ZeroMatrixTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="879" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/ZeroMatrix.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="880" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/ZeroMatrix.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="882" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/ZeroMatrix.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="883" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/ZeroMatrix.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="884" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
