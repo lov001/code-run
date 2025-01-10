@@ -9,8 +9,8 @@ public class ZeroMatrix {
       for (int i = 0; i < n; i++) {
          for (int j = 0; j < m; j++) {
             if (matrix.get(i).get(j) == 0) {
-               fillRow(i, -1, matrix, m);
-               fillColumn(j, -1, matrix, n);
+               fillRow(i, matrix, m);
+               fillColumn(j, matrix, n);
             }
          }
       }
@@ -24,18 +24,18 @@ public class ZeroMatrix {
       return matrix;
    }
 
-   private void fillRow(int row, int value, ArrayList<ArrayList<Integer>> matrix, Integer m) {
+   private void fillRow(int row, ArrayList<ArrayList<Integer>> matrix, Integer m) {
       for (int j = 0; j < m; j++) {
          if (matrix.get(row).get(j) != 0) {
-            matrix.get(row).set(j, value);
+            matrix.get(row).set(j, -1);
          }
       }
    }
 
-   private void fillColumn(int column, int value, ArrayList<ArrayList<Integer>> matrix, Integer n) {
+   private void fillColumn(int column, ArrayList<ArrayList<Integer>> matrix, Integer n) {
       for (int i = 0; i < n; i++) {
          if (matrix.get(i).get(column) != 0) {
-            matrix.get(i).set(column, value);
+            matrix.get(i).set(column, -1);
          }
       }
    }
