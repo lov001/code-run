@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SpiralMatrixTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;spiral matrix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/CountSubArraysWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/CountSubArraysWithSumKTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/RotateMatrixBy90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/RotateMatrixBy90.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +414,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SpiralMatrixTest">
+  <component name="RunManager" selected="Gradle.CountSubArraysWithSumKTest">
+    <configuration name="CountSubArraysWithSumKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.CountSubArraysWithSumKTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="RotateMatrixBy90Test.test_rotateMatrixBruteForce_expectRotatedMatrix_whenNIs2AndMIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -488,30 +511,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ZeroMatrixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.ZeroMatrixTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -537,19 +536,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.CountSubArraysWithSumKTest" />
       <item itemvalue="Gradle.RotateMatrixBy90Test.test_rotateMatrixBruteForce_expectRotatedMatrix_whenNIs2AndMIs2" />
       <item itemvalue="Gradle.RotateMatrixBy90Test.test_rotateMatrix_expectRotatedMatrix_whenNIs2AndMIs2" />
       <item itemvalue="Gradle.SpiralMatrixTest" />
-      <item itemvalue="Gradle.ZeroMatrixTest" />
       <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CountSubArraysWithSumKTest" />
         <item itemvalue="Gradle.SpiralMatrixTest" />
         <item itemvalue="Gradle.RotateMatrixBy90Test.test_rotateMatrix_expectRotatedMatrix_whenNIs2AndMIs2" />
         <item itemvalue="Gradle.RotateMatrixBy90Test.test_rotateMatrixBruteForce_expectRotatedMatrix_whenNIs2AndMIs2" />
         <item itemvalue="Gradle.ZeroMatrixTest.test_zeroMatrix_expectTrue_whenNIs2AndMIs3" />
-        <item itemvalue="Gradle.ZeroMatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -905,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="747" />
+    <option name="localTasksCounter" value="749" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -920,8 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;intersection of two arrays" />
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;missing number with xor" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
@@ -945,7 +942,9 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;zero matrix using better solution" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;zero matrix using optimal solution" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force cleanup" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;spiral matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
