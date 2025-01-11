@@ -20,4 +20,18 @@ public class RotateMatrixBy90Test {
       classObj.rotateMatrixBruteForce(input);
       Assertions.assertArrayEquals(output, input);
    }
+
+   @Test
+   void test_rotateMatrix_expectRotatedMatrix_whenNIs2AndMIs2() {
+      int[][] input = {
+         {1, 2},
+         {3, 4}
+      };
+      int[][] output = {
+         {3, 1},
+         {4, 2}
+      };
+      classObj.rotateMatrix(input);
+      Assertions.assertArrayEquals(output, input);
+   }
 }
