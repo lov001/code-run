@@ -1,7 +1,5 @@
 package practice.arrays;
 
-import practice.utils.SwapNumbersInArray;
-
 public class RotateMatrixBy90 {
 
    public void rotateMatrix(int[][] mat) {
