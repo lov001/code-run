@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/PascalTriangleTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementIITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,8 +414,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PascalTriangleTest.test_pascalTriangle_expect_whenNIs5">
-    <configuration name="CountSubArraysWithSumKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MajorityElementIITest">
+    <configuration name="MajorityElementIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -428,7 +428,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.CountSubArraysWithSumKTest&quot;" />
+            <option value="&quot;practice.arrays.MajorityElementIITest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -439,7 +439,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PascalTriangleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementIITest.test_majorityElement_expect1_whenNIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -452,7 +452,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.PascalTriangleTest&quot;" />
+            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect1_whenNIs9&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -463,7 +463,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PascalTriangleTest.test_findElementInPascalTriangle_expect6_whenRIs5AndCIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementIITest.test_majorityElement_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -476,7 +476,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.PascalTriangleTest.test_findElementInPascalTriangle_expect6_whenRIs5AndCIs3&quot;" />
+            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect2_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -487,7 +487,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PascalTriangleTest.test_findRowInPascalTriangle_expect121_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MajorityElementIITest.test_majorityElement_expect4_whenNIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -500,7 +500,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.PascalTriangleTest.test_findRowInPascalTriangle_expect121_whenNIs3&quot;" />
+            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect4_whenNIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -536,19 +536,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.PascalTriangleTest" />
-      <item itemvalue="Gradle.PascalTriangleTest.test_findElementInPascalTriangle_expect6_whenRIs5AndCIs3" />
-      <item itemvalue="Gradle.PascalTriangleTest.test_findRowInPascalTriangle_expect121_whenNIs3" />
+      <item itemvalue="Gradle.MajorityElementIITest" />
+      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect1_whenNIs9" />
+      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect2_whenNIs6" />
+      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
       <item itemvalue="Gradle.PascalTriangleTest.test_pascalTriangle_expect_whenNIs5" />
-      <item itemvalue="Gradle.CountSubArraysWithSumKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MajorityElementIITest" />
+        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect2_whenNIs6" />
+        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect1_whenNIs9" />
+        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
         <item itemvalue="Gradle.PascalTriangleTest.test_pascalTriangle_expect_whenNIs5" />
-        <item itemvalue="Gradle.PascalTriangleTest" />
-        <item itemvalue="Gradle.PascalTriangleTest.test_findRowInPascalTriangle_expect121_whenNIs3" />
-        <item itemvalue="Gradle.PascalTriangleTest.test_findElementInPascalTriangle_expect6_whenRIs5AndCIs3" />
-        <item itemvalue="Gradle.CountSubArraysWithSumKTest" />
       </list>
     </recent_temporary>
   </component>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="750" />
+    <option name="localTasksCounter" value="751" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;max consecutive ones and number with only one occurrence" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force cleanup" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3268,6 +3268,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/PascalTriangleTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="889" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="890" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
