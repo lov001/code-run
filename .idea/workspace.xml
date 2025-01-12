@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementIITest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;majority element 2 using hashing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MajorityElementIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,9 +545,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MajorityElementIITest" />
+        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
         <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect2_whenNIs6" />
         <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect1_whenNIs9" />
-        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
         <item itemvalue="Gradle.PascalTriangleTest.test_pascalTriangle_expect_whenNIs5" />
       </list>
     </recent_temporary>
@@ -904,7 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="751" />
+    <option name="localTasksCounter" value="752" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -919,7 +919,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
@@ -944,7 +943,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;majority element 2 using hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3271,7 +3271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MajorityElementII.java</url>
-          <line>17</line>
+          <line>58</line>
           <option name="timeStamp" value="890" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
