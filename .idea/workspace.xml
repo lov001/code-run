@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;majority element 2 using modified moore's algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/ThreeSumProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/ThreeSumTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/ThreeSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/ThreeSumProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/ThreeSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="753" />
+    <option name="localTasksCounter" value="754" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;longest sub-array with sum k with two-pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using modified moore's algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;majority element 2 using modified moore's algorithm" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

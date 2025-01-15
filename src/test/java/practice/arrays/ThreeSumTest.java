@@ -47,4 +47,23 @@ public class ThreeSumTest {
       List<List<Integer>> actual = classObj.tripletWithHashing(4, input);
       Assertions.assertArrayEquals(new List[]{expected}, new List[]{actual});
    }
+
+   @Test
+   void test_tripletWithTwoPointer_expect2_whenNIs5() {
+      int[] input = {-1, -1, 2, 0, 1};
+      List<List<Integer>> expected = new ArrayList<>();
+      expected.add(Arrays.asList(-1, -1, 2));
+      expected.add(Arrays.asList(-1, 0, 1));
+      List<List<Integer>> actual = classObj.tripletWithTwoPointer(5, input);
+      Assertions.assertArrayEquals(new List[]{expected}, new List[]{actual});
+   }
+
+   @Test
+   void test_tripletWithTwoPointer_expect1_whenNIs4() {
+      int[] input = {0, 0, 0, 0};
+      List<List<Integer>> expected = new ArrayList<>();
+      expected.add(Arrays.asList(0, 0, 0));
+      List<List<Integer>> actual = classObj.tripletWithTwoPointer(4, input);
+      Assertions.assertArrayEquals(new List[]{expected}, new List[]{actual});
+   }
 }
