@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;3 sum problem using 2 pointer approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/FourSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/FourSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/ThreeSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/ThreeSumProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/ThreeSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -418,7 +418,79 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThreeSumTest">
+  <component name="RunManager" selected="Gradle.FourSumTest.test_fourSumBruteForce_expect2_whenNIs6">
+    <configuration name="FourSumTest.test_fourSumBruteForce_expect0_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.FourSumTest.test_fourSumBruteForce_expect0_whenNIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FourSumTest.test_fourSumBruteForce_expect1_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.FourSumTest.test_fourSumBruteForce_expect1_whenNIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FourSumTest.test_fourSumBruteForce_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.FourSumTest.test_fourSumBruteForce_expect2_whenNIs6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MajorityElementIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -433,78 +505,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.MajorityElementIITest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MajorityElementIITest.test_majorityElement_expect1_whenNIs9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect1_whenNIs9&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MajorityElementIITest.test_majorityElement_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect2_whenNIs6&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MajorityElementIITest.test_majorityElement_expect4_whenNIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MajorityElementIITest.test_majorityElement_expect4_whenNIs1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect0_whenNIs6" />
+      <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect1_whenNIs5" />
+      <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect2_whenNIs6" />
       <item itemvalue="Gradle.MajorityElementIITest" />
-      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect1_whenNIs9" />
-      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect2_whenNIs6" />
-      <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
       <item itemvalue="Gradle.ThreeSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect2_whenNIs6" />
+        <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect0_whenNIs6" />
+        <item itemvalue="Gradle.FourSumTest.test_fourSumBruteForce_expect1_whenNIs5" />
         <item itemvalue="Gradle.ThreeSumTest" />
         <item itemvalue="Gradle.MajorityElementIITest" />
-        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect4_whenNIs1" />
-        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect2_whenNIs6" />
-        <item itemvalue="Gradle.MajorityElementIITest.test_majorityElement_expect1_whenNIs9" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="754" />
+    <option name="localTasksCounter" value="755" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;sort an array of 0s, 1s and 2s" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element using moore's voting algorithm" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using modified moore's algorithm" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using 2 pointer approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;3 sum problem using 2 pointer approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
