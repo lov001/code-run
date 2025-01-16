@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;4 sum problem using hashing and two pointer approach">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SubArraysWithXorK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SubArraysWithXorKTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;count subArrays with xor k">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/SubArraysWithXorK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SubArraysWithXorK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/SubArraysWithXorKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SubArraysWithXorKTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +418,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FourSumTest">
+  <component name="RunManager" selected="Gradle.SubArraysWithXorKTest">
     <configuration name="FourSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -433,30 +433,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.FourSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="FourSumTest.test_fourSumHashing_expect0_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.FourSumTest.test_fourSumHashing_expect0_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -539,20 +515,44 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SubArraysWithXorKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.SubArraysWithXorKTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.FourSumTest" />
-      <item itemvalue="Gradle.FourSumTest.test_fourSumHashing_expect0_whenNIs6" />
       <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6" />
       <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5" />
       <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6" />
+      <item itemvalue="Gradle.SubArraysWithXorKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubArraysWithXorKTest" />
         <item itemvalue="Gradle.FourSumTest" />
         <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6" />
         <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5" />
         <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6" />
-        <item itemvalue="Gradle.FourSumTest.test_fourSumHashing_expect0_whenNIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="757" />
+    <option name="localTasksCounter" value="758" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum subarray using kadane's algo" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative optimised to O(n)" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using 2 pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using hashing and two pointer approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;4 sum problem using hashing and two pointer approach" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;count subArrays with xor k" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;count subArrays with xor k" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
