@@ -7,6 +7,28 @@ import java.util.List;
 
 public class MergeOverlappingIntervals {
 
+   public List<List<Integer>> mergeOverlappingIntervalsOptimal(int[][] arr) {
+      Arrays.sort(arr, Comparator.comparingInt(o -> o[0]));
+      List<List<Integer>> result = new ArrayList<>();
+      for (int[] interval : arr) {
+         int minStartTime = interval[0];
+         int maxEndTime = interval[1];
+         if (result.isEmpty() || interval[0] > result.get(result.size() - 1).get(1)) {
+            List<Integer> sublist = new ArrayList<>();
+            sublist.add(minStartTime);
+            sublist.add(maxEndTime);
+            result.add(sublist);
+         } else {
+            int size = result.size();
+            List<Integer> lastEntry = result.get(size - 1);
+            lastEntry.set(1, Math.max(lastEntry.get(1), interval[1]));
+         }
+      }
+      return result;
+   }
+
+
+   // TC: nlog(n) + 2n
    public List<List<Integer>> mergeOverlappingIntervals(int[][] arr) {
       Arrays.sort(arr, Comparator.comparingInt(o -> o[0]));
       List<List<Integer>> result = new ArrayList<>();
