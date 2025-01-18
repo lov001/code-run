@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;count subArrays with xor k">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;count subArrays with xor k with optimal approach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MergeOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MergeOverlappingIntervalsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/SubArraysWithXorK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/SubArraysWithXorK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/SubArraysWithXorKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/SubArraysWithXorKTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +418,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubArraysWithXorKTest">
+  <component name="RunManager" selected="Gradle.MergeOverlappingIntervalsTest">
     <configuration name="FourSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -443,7 +443,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeOverlappingIntervalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -456,7 +456,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6&quot;" />
+            <option value="&quot;practice.arrays.MergeOverlappingIntervalsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -467,7 +467,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -480,7 +480,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5&quot;" />
+            <option value="&quot;practice.arrays.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -491,7 +491,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -504,7 +504,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6&quot;" />
+            <option value="&quot;practice.arrays.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,18 +541,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.FourSumTest" />
-      <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6" />
-      <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5" />
-      <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6" />
+      <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
+      <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
+      <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4" />
       <item itemvalue="Gradle.SubArraysWithXorKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
+        <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
+        <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4" />
         <item itemvalue="Gradle.SubArraysWithXorKTest" />
         <item itemvalue="Gradle.FourSumTest" />
-        <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect0_whenNIs6" />
-        <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect1_whenNIs5" />
-        <item itemvalue="Gradle.FourSumTest.test_fourSumTwoPointer_expect2_whenNIs6" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="758" />
+    <option name="localTasksCounter" value="759" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative optimised to O(n)" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;alternate numbers with order positive and negative with unequal counts" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;next greater permutation" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using hashing and two pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count subArrays with xor k" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;count subArrays with xor k" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;count subArrays with xor k with optimal approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;count subArrays with xor k with optimal approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3272,6 +3272,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/arrays/PascalTriangleTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="889" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeOverlappingIntervals.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="892" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
