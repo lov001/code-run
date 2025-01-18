@@ -7,6 +7,7 @@ import java.util.List;
 
 public class MergeOverlappingIntervals {
 
+   // TC: nlog(n) + n
    public List<List<Integer>> mergeOverlappingIntervalsOptimal(int[][] arr) {
       Arrays.sort(arr, Comparator.comparingInt(o -> o[0]));
       List<List<Integer>> result = new ArrayList<>();
