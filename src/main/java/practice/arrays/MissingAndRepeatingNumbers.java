@@ -2,6 +2,48 @@ package practice.arrays;
 
 public class MissingAndRepeatingNumbers {
 
+   public int[] findMissingRepeatingNumbersXor(int[] a) {
+      int n = a.length;
+      int xor = 0;
+      for (int i = 0; i < n; i++) {
+         xor = xor ^ a[i];
+         xor = xor ^ (i + 1);
+      }
+      int bitNumber = (xor & ~(xor - 1));
+      int zeroGroup = 0;
+      int oneGroup = 0;
+      for (int number : a) {
+         if ((number & bitNumber) != 0) {
+            oneGroup = oneGroup ^ number;
+         }
+         //part of 0 group:
+         else {
+            zeroGroup = zeroGroup ^ number;
+         }
+      }
+      for (int i = 1; i <= n; i++) {
+         //part of 1 group:
+         if ((i & bitNumber) != 0) {
+            oneGroup = oneGroup ^ i;
+         }
+         //part of 0 group:
+         else {
+            zeroGroup = zeroGroup ^ i;
+         }
+      }
+      int cnt = 0;
+      for (int element : a) {
+         if (element == zeroGroup) {
+            cnt++;
+         }
+      }
+
+      if (cnt == 2) {
+         return new int[]{zeroGroup, oneGroup};
+      }
+      return new int[]{oneGroup, zeroGroup};
+   }
+
    public int[] findMissingRepeatingNumbersMathOperations(int[] a) {
       int[] result = new int[2];
       int n = a.length;

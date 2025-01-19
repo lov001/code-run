@@ -54,4 +54,20 @@ public class MissingAndRepeatingNumbersTest {
       int[] actual = classObj.findMissingRepeatingNumbersMathOperations(input);
       Assertions.assertArrayEquals(expected, actual);
    }
+
+   @Test
+   void test_findMissingRepeatingNumbersXor_expect2And4_whenNIs4() {
+      int[] input = {1, 2, 3, 2};
+      int[] expected = {2, 4};
+      int[] actual = classObj.findMissingRepeatingNumbersXor(input);
+      Assertions.assertArrayEquals(expected, actual);
+   }
+
+   @Test
+   void test_findMissingRepeatingNumbersXor_expect1And3_whenNIs3() {
+      int[] input = {1, 2, 1};
+      int[] expected = {1, 3};
+      int[] actual = classObj.findMissingRepeatingNumbersXor(input);
+      Assertions.assertArrayEquals(expected, actual);
+   }
 }
