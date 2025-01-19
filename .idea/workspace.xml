@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using xor operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MissingAndRepeatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MissingAndRepeatingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/MissingAndRepeatingNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MissingAndRepeatingNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/CountInversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/dynamicprogrammingandrecursion/CountInversionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/CountInversionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +418,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MissingAndRepeatingNumbersTest">
+  <component name="RunManager" selected="Gradle.CountInversionsTest">
+    <configuration name="CountInversionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.CountInversionsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MergeOverlappingIntervalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -433,30 +457,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.arrays.MergeOverlappingIntervalsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,19 +540,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.CountInversionsTest" />
       <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
-      <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
       <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3" />
       <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
       <item itemvalue="Gradle.MissingAndRepeatingNumbersTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CountInversionsTest" />
         <item itemvalue="Gradle.MissingAndRepeatingNumbersTest" />
         <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
-        <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="766" />
+    <option name="localTasksCounter" value="767" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2524,12 +2524,12 @@
           <option name="timeStamp" value="648" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/CountInversions.java</url>
           <line>24</line>
           <option name="timeStamp" value="649" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/dynamicprogrammingandrecursion/CountInversions.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/CountInversions.java</url>
           <line>13</line>
           <option name="timeStamp" value="650" />
         </line-breakpoint>
