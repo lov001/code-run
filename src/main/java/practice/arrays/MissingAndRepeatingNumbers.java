@@ -2,6 +2,27 @@ package practice.arrays;
 
 public class MissingAndRepeatingNumbers {
 
+   public int[] findMissingRepeatingNumbersMathOperations(int[] a) {
+      int[] result = new int[2];
+      int n = a.length;
+      long expectedSum = ((long) n * (n + 1)) / 2;
+      long actualSum = 0;
+      long expectedSquaredSum = (n * (n + 1) * (2L * n + 1)) / 6;
+      long actualSquaredSum = 0;
+      for (int number : a) {
+         actualSum += number;
+         actualSquaredSum += (long) number * number;
+      }
+      long value1 = actualSum - expectedSum;
+      long value2 = actualSquaredSum - expectedSquaredSum;
+      value2 = value2 / value1;
+      long x = (value1 + value2) / 2;
+      long y = x - value1;
+      result[0] = (int) x;
+      result[1] = (int) y;
+      return result;
+   }
+
    public int[] findMissingRepeatingNumbersHashing(int[] a) {
       int[] result = new int[2];
       int n = a.length;
