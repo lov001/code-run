@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArraysWithoutExtraSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MergeTwoSortedArraysWithoutExtraSpaceTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 2 with gap method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MissingAndRepeatingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MissingAndRepeatingNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MergeOverlappingIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +418,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3">
+  <component name="RunManager" selected="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3">
     <configuration name="MergeOverlappingIntervalsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -492,6 +491,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -516,44 +539,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubArraysWithXorKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.arrays.SubArraysWithXorKTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
       <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
       <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4" />
+      <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3" />
       <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
-      <item itemvalue="Gradle.SubArraysWithXorKTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray2_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.MergeTwoSortedArraysWithoutExtraSpaceTest.test_sortedArray_expectListOfSize6_whenNIs5AndMIs3" />
         <item itemvalue="Gradle.MergeOverlappingIntervalsTest" />
         <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize1_whenNIs7" />
         <item itemvalue="Gradle.MergeOverlappingIntervalsTest.test_mergeOverlappingIntervals_expectSize2_whenNIs4" />
-        <item itemvalue="Gradle.SubArraysWithXorKTest" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="761" />
+    <option name="localTasksCounter" value="763" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;next greater permutation uisng recursion and brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;leaders in an array" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using brute force approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;longest successive sequence using sorting" />
@@ -949,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge overlapping intervals brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge overlapping intervals optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 1" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 2 with gap method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 2 with gap method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3281,8 +3280,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArraysWithoutExtraSpace.java</url>
-          <line>10</line>
+          <line>42</line>
           <option name="timeStamp" value="893" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/MergeTwoSortedArraysWithoutExtraSpace.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="894" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
