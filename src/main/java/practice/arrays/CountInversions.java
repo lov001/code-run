@@ -1,4 +1,4 @@
-package practice.dynamicprogrammingandrecursion;
+package practice.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +43,17 @@ public class CountInversions {
          array[i] = temp.get(i - start);
       }
       return inversionCount;
+   }
+
+   public int numberOfInversionsBruteForce(int[] array, int n) {
+      int count = 0;
+      for (int i = 0; i < n; i++) {
+         for (int j = i + 1; j < n; j++) {
+            if (array[i] > array[j]) {
+               count++;
+            }
+         }
+      }
+      return count;
    }
 }
