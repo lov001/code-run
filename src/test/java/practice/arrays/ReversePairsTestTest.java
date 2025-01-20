@@ -18,4 +18,16 @@ public class ReversePairsTestTest {
       int[] input = {100, 49, 201, 100};
       Assertions.assertEquals(2, classObj.teamBruteForce(input, 4));
    }
+
+   @Test
+   void test_team_expect3_whenNIs5() {
+      int[] input = {4, 1, 2, 3, 1};
+      Assertions.assertEquals(3, classObj.team(input, 5));
+   }
+
+   @Test
+   void test_team_expect2_whenNIs4() {
+      int[] input = {100, 49, 201, 100};
+      Assertions.assertEquals(2, classObj.team(input, 4));
+   }
 }
