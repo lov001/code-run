@@ -11,20 +11,20 @@ public class MaximumProductSubArrayTest {
    void test_subArrayWithMaxProduct_expect24_whenNIs4() {
       int[] input = {-2, 3, -4, 0};
       Assertions.assertEquals(24, classObj.subArrayWithMaxProductBruteForce(input));
-//      Assertions.assertEquals(11, classObj.maxSubArraySumUsingKadaneAlgorithm(input, 9));
+      Assertions.assertEquals(24, classObj.subArrayWithMaxProduct(input));
    }
 
    @Test
    void test_subArrayWithMaxProduct_expect24__whenNIs4() {
       int[] input = {1, -2, 3, -4};
       Assertions.assertEquals(24, classObj.subArrayWithMaxProductBruteForce(input));
-//      Assertions.assertEquals(60, classObj.maxSubArraySumUsingKadaneAlgorithm(input, 6));
+      Assertions.assertEquals(24, classObj.subArrayWithMaxProduct(input));
    }
 
    @Test
    void test_subArrayWithMaxProduct_expect3_whenNIs5() {
       int[] input = {-1, 3, 0, -4, 3};
       Assertions.assertEquals(3, classObj.subArrayWithMaxProductBruteForce(input));
-//      Assertions.assertEquals(0, classObj.maxSubArraySumUsingKadaneAlgorithm(input, 3));
+      Assertions.assertEquals(3, classObj.subArrayWithMaxProduct(input));
    }
 }

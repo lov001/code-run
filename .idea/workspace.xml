@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MaximumProductSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MaximumProductSubArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/MaximumProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/MaximumProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/MaximumProductSubArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/MaximumProductSubArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -908,7 +908,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="770" />
+    <option name="localTasksCounter" value="771" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -923,7 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;zero matrix using optimal solution" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force cleanup" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
@@ -948,7 +947,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count inversions using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
+    <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
