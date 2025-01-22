@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BinaryToDecimalTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: binary to decimal conversion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/DecimalToBinaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -419,7 +419,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryToDecimalTest">
+  <component name="RunManager" selected="Gradle.DecimalToBinaryTest">
     <configuration name="BinaryToDecimalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -468,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumProductSubArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DecimalToBinaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -481,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MaximumProductSubArrayTest&quot;" />
+            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -492,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumProductSubArrayTest.test_subArrayWithMaxProduct_expect24_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -505,7 +505,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.MaximumProductSubArrayTest.test_subArrayWithMaxProduct_expect24_whenNIs4&quot;" />
+            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -516,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ReversePairsTestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -529,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.arrays.ReversePairsTestTest&quot;" />
+            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,17 +543,17 @@
     <list>
       <item itemvalue="Gradle.BinaryToDecimalTest" />
       <item itemvalue="Gradle.BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111" />
-      <item itemvalue="Gradle.MaximumProductSubArrayTest" />
-      <item itemvalue="Gradle.MaximumProductSubArrayTest.test_subArrayWithMaxProduct_expect24_whenNIs4" />
-      <item itemvalue="Gradle.ReversePairsTestTest" />
+      <item itemvalue="Gradle.DecimalToBinaryTest" />
+      <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
+      <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DecimalToBinaryTest" />
+        <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
+        <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
         <item itemvalue="Gradle.BinaryToDecimalTest" />
         <item itemvalue="Gradle.BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111" />
-        <item itemvalue="Gradle.MaximumProductSubArrayTest" />
-        <item itemvalue="Gradle.MaximumProductSubArrayTest.test_subArrayWithMaxProduct_expect24_whenNIs4" />
-        <item itemvalue="Gradle.ReversePairsTestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="771" />
+    <option name="localTasksCounter" value="772" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force cleanup" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
+    <MESSAGE value="[practice/bit-manipulation]: binary to decimal conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: binary to decimal conversion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3308,6 +3308,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BinaryToDecimal.java</url>
           <line>9</line>
           <option name="timeStamp" value="898" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/DecimalToBinary.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="899" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
