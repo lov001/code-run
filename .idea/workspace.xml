@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: binary to decimal conversion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/DecimalToBinaryTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: decimal to binary conversion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -419,7 +419,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DecimalToBinaryTest">
+  <component name="RunManager" selected="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7">
     <configuration name="BinaryToDecimalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -444,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -457,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,18 +542,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BinaryToDecimalTest" />
-      <item itemvalue="Gradle.BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111" />
+      <item itemvalue="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" />
       <item itemvalue="Gradle.DecimalToBinaryTest" />
       <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
       <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" />
         <item itemvalue="Gradle.DecimalToBinaryTest" />
         <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
         <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
         <item itemvalue="Gradle.BinaryToDecimalTest" />
-        <item itemvalue="Gradle.BinaryToDecimalTest.test_convertBinaryToDecimal_expect15_whenNumberIs1111" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="772" />
+    <option name="localTasksCounter" value="773" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;rotate matrix by 90 degree brute force cleanup" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
     <MESSAGE value="[practice/bit-manipulation]: binary to decimal conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: binary to decimal conversion" />
+    <MESSAGE value="[practice/bit-manipulation]: decimal to binary conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: decimal to binary conversion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3313,6 +3313,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/DecimalToBinary.java</url>
           <line>5</line>
           <option name="timeStamp" value="899" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="900" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
