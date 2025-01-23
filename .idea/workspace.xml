@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: decimal to binary conversion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: swap two numbers using bit operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,8 +419,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7">
-    <configuration name="BinaryToDecimalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs3AndIs2">
+    <configuration name="BitOperationsTest.test_checkIthBit_expectFalse_whenNIs3AndIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -433,7 +433,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BinaryToDecimalTest&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs3AndIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -444,7 +444,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_checkIthBit_expectFalse_whenNIs8AndIs0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -457,7 +457,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs8AndIs0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -468,7 +468,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DecimalToBinaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_checkIthBit_expectTrue_whenNIs3AndIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -481,7 +481,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs3AndIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -492,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_checkIthBit_expectTrue_whenNIs7AndIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -505,7 +505,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs7AndIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -516,7 +516,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_checkIthBit_expectTrue_whenNIs8AndIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -529,7 +529,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs8AndIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +541,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.BinaryToDecimalTest" />
-      <item itemvalue="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" />
-      <item itemvalue="Gradle.DecimalToBinaryTest" />
-      <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
-      <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
+      <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs3AndIs2" />
+      <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs8AndIs0" />
+      <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs3AndIs2" />
+      <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs7AndIs2" />
+      <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs8AndIs3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BitOperationsTest.test_swap_expectNumberSwapped_whenXIs3AndYIs7" />
-        <item itemvalue="Gradle.DecimalToBinaryTest" />
-        <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect0_whenNumberIsZero" />
-        <item itemvalue="Gradle.DecimalToBinaryTest.test_convertDecimalToBinary_expect85_whenConvertedNumber1010101" />
-        <item itemvalue="Gradle.BinaryToDecimalTest" />
+        <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs3AndIs2" />
+        <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs3AndIs2" />
+        <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectFalse_whenNIs8AndIs0" />
+        <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs8AndIs3" />
+        <item itemvalue="Gradle.BitOperationsTest.test_checkIthBit_expectTrue_whenNIs7AndIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="773" />
+    <option name="localTasksCounter" value="774" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;spiral matrix" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count sub-arrays with sum k using prefix sum" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;pascal triangle 3 problems" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using hashing" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
     <MESSAGE value="[practice/bit-manipulation]: binary to decimal conversion" />
     <MESSAGE value="[practice/bit-manipulation]: decimal to binary conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: decimal to binary conversion" />
+    <MESSAGE value="[practice/bit-manipulation]: swap two numbers using bit operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: swap two numbers using bit operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3319,6 +3319,16 @@
           <line>5</line>
           <option name="timeStamp" value="900" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="902" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
           <line>10</line>
@@ -3336,6 +3346,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="850" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java</url>
+          <line>43</line>
+          <properties class="practice.bitmanipulation.BitOperationsTest" method="test_checkIthBit_expectFalse_whenNIs8AndIs0">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="901" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

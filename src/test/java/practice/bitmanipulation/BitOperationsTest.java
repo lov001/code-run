@@ -24,4 +24,24 @@ public class BitOperationsTest {
       Assertions.assertEquals(5, x);
       Assertions.assertEquals(99, y);
    }
+
+   @Test
+   void test_checkIthBit_expectTrue_whenNIs7AndIs2() {
+      Assertions.assertTrue(classObj.checkIthBit(7, 2));
+   }
+
+   @Test
+   void test_checkIthBit_expectTrue_whenNIs8AndIs3() {
+      Assertions.assertTrue(classObj.checkIthBit(8, 3));
+   }
+
+   @Test
+   void test_checkIthBit_expectTrue_whenNIs3AndIs1() {
+      Assertions.assertTrue(classObj.checkIthBit(3, 1));
+   }
+
+   @Test
+   void test_checkIthBit_expectFalse_whenNIs8AndIs0() {
+      Assertions.assertFalse(classObj.checkIthBit(8, 0));
+   }
 }
