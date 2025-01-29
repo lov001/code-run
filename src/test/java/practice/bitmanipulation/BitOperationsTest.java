@@ -49,4 +49,14 @@ public class BitOperationsTest {
    void test_setIthBit_expect13_whenNIs9AndIs2() {
       Assertions.assertEquals(13, classObj.setIthBit(9, 2));
    }
+
+   @Test
+   void test_clearIthBit_expect9_whenNIs9AndIs2() {
+      Assertions.assertEquals(9, classObj.clearIthBit(9, 2));
+   }
+
+   @Test
+   void test_toggleIthBit_expect15_whenNIs13AndIs1() {
+      Assertions.assertEquals(15, classObj.toggleIthBit(13, 1));
+   }
 }
