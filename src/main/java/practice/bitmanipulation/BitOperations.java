@@ -27,4 +27,12 @@ public class BitOperations {
       int shiftedNumber = (1 << i);
       return (number ^ shiftedNumber);
    }
+
+   public int removeLastSetBit(int number) {
+      return (number & number - 1);
+   }
+
+   public boolean checkPowerOf2(int number) {
+      return (number & number - 1) == 0;
+   }
 }

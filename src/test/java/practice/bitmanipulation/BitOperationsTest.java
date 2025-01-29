@@ -59,4 +59,34 @@ public class BitOperationsTest {
    void test_toggleIthBit_expect15_whenNIs13AndIs1() {
       Assertions.assertEquals(15, classObj.toggleIthBit(13, 1));
    }
+
+   @Test
+   void test_removeLastSetBit_expect0_whenNIs16() {
+      Assertions.assertEquals(0, classObj.removeLastSetBit(16));
+   }
+
+   @Test
+   void test_removeLastSetBit_expect32_whenNIs40() {
+      Assertions.assertEquals(32, classObj.removeLastSetBit(40));
+   }
+
+   @Test
+   void test_removeLastSetBit_expect80_whenNIs84() {
+      Assertions.assertEquals(80, classObj.removeLastSetBit(84));
+   }
+
+   @Test
+   void test_checkPowerOf2_expectTrue_whenNIs16() {
+      Assertions.assertTrue(classObj.checkPowerOf2(16));
+   }
+
+   @Test
+   void test_checkPowerOf2_expectFalse_whenNIs13() {
+      Assertions.assertFalse(classObj.checkPowerOf2(13));
+   }
+
+   @Test
+   void test_checkPowerOf2_expectTrue_whenNIs32() {
+      Assertions.assertTrue(classObj.checkPowerOf2(32));
+   }
 }
