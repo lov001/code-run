@@ -12,4 +12,9 @@ public class BitOperations {
       int shiftedNumber = 1 << i;
       return (number & shiftedNumber) != 0;
    }
+
+   public int setIthBit(int number, int i) {
+      int shiftedNumber = 1 << i;
+      return (number | shiftedNumber);
+   }
 }

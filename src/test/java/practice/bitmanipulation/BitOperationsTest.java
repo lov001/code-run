@@ -44,4 +44,9 @@ public class BitOperationsTest {
    void test_checkIthBit_expectFalse_whenNIs8AndIs0() {
       Assertions.assertFalse(classObj.checkIthBit(8, 0));
    }
+
+   @Test
+   void test_setIthBit_expect13_whenNIs9AndIs2() {
+      Assertions.assertEquals(13, classObj.setIthBit(9, 2));
+   }
 }
