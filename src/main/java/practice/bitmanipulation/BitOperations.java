@@ -17,4 +17,14 @@ public class BitOperations {
       int shiftedNumber = 1 << i;
       return (number | shiftedNumber);
    }
+
+   public int clearIthBit(int number, int i) {
+      int shiftedNumber = ~(1 << i);
+      return (number & shiftedNumber);
+   }
+
+   public int toggleIthBit(int number, int i) {
+      int shiftedNumber = (1 << i);
+      return (number ^ shiftedNumber);
+   }
 }
