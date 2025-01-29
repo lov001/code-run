@@ -89,4 +89,14 @@ public class BitOperationsTest {
    void test_checkPowerOf2_expectTrue_whenNIs32() {
       Assertions.assertTrue(classObj.checkPowerOf2(32));
    }
+
+   @Test
+   void test_countNumberOfSetBits_expect1_whenNIs16() {
+      Assertions.assertEquals(1, classObj.countNumberOfSetBits(16));
+   }
+
+   @Test
+   void test_countNumberOfSetBits_expect3_whenNIs13() {
+      Assertions.assertEquals(3, classObj.countNumberOfSetBits(13));
+   }
 }

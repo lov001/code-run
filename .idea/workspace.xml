@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: clear and toggle ith bit in a number">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: remove last bit and check power of 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/BitOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/BitOperationsTest.java" afterDir="false" />
@@ -419,7 +419,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BitOperationsTest">
+  <component name="RunManager" selected="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16">
     <configuration name="BitOperationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -468,30 +468,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs16&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs32" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -516,7 +492,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BitOperationsTest.test_removeLastSetBit_expect80_whenNIs84" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -529,7 +505,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_removeLastSetBit_expect80_whenNIs84&quot;" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,17 +543,17 @@
     <list>
       <item itemvalue="Gradle.BitOperationsTest" />
       <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectFalse_whenNIs13" />
-      <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs16" />
       <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs32" />
-      <item itemvalue="Gradle.BitOperationsTest.test_removeLastSetBit_expect80_whenNIs84" />
+      <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" />
+      <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" />
+        <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" />
         <item itemvalue="Gradle.BitOperationsTest" />
         <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs32" />
         <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectFalse_whenNIs13" />
-        <item itemvalue="Gradle.BitOperationsTest.test_checkPowerOf2_expectTrue_whenNIs16" />
-        <item itemvalue="Gradle.BitOperationsTest.test_removeLastSetBit_expect80_whenNIs84" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="777" />
+    <option name="localTasksCounter" value="778" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;majority element 2 using modified moore's algorithm" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using brute force and hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;3 sum problem using 2 pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using brute force" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/bit-manipulation]: check if ith bit is set or not" />
     <MESSAGE value="[practice/bit-manipulation]: set ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: clear and toggle ith bit in a number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: clear and toggle ith bit in a number" />
+    <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: remove last bit and check power of 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
