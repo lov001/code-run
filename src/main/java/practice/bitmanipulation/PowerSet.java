@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class PowerSet {
 
+   // TC: N * 2^N, SC: 2^N * N
    public ArrayList<ArrayList<Integer>> powerSet(ArrayList<Integer> arr) {
       int n = arr.size();
       ArrayList<ArrayList<Integer>> result = new ArrayList<>();

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: number of bit flips to convert a number">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/PowerSetTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: single number in an array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/SingleNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/PowerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/PowerSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +420,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PowerSetTest">
+  <component name="RunManager" selected="Gradle.SingleNumberTest">
     <configuration name="BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -434,30 +435,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -540,20 +517,44 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SingleNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.SingleNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" />
-      <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" />
       <item itemvalue="Gradle.NumberOfBitFlipsTest" />
       <item itemvalue="Gradle.PowerSetTest" />
       <item itemvalue="Gradle.PowerSetTest.test_powerSet_expectListOfSize8_whenNIs3" />
+      <item itemvalue="Gradle.SingleNumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SingleNumberTest" />
         <item itemvalue="Gradle.PowerSetTest" />
         <item itemvalue="Gradle.PowerSetTest.test_powerSet_expectListOfSize8_whenNIs3" />
         <item itemvalue="Gradle.NumberOfBitFlipsTest" />
         <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect1_whenNIs16" />
-        <item itemvalue="Gradle.BitOperationsTest.test_countNumberOfSetBits_expect3_whenNIs13" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="780" />
+    <option name="localTasksCounter" value="781" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,8 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using brute force" />
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;4 sum problem using hashing and two pointer approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count subArrays with xor k" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count subArrays with xor k with optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge overlapping intervals brute force" />
@@ -949,7 +948,9 @@
     <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
     <MESSAGE value="[practice/bit-manipulation]: count number of set bits" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips to convert a number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: number of bit flips to convert a number" />
+    <MESSAGE value="[practice/bit-manipulation]: power set" />
+    <MESSAGE value="[practice/bit-manipulation]: single number in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: single number in an array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
