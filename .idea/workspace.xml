@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: single number II using bit count">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: single number II using sorting and bits xor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/SingleNumberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/SingleNumberIIITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/SingleNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/SingleNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/SingleNumberIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/SingleNumberIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +419,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SingleNumberIITest">
+  <component name="RunManager" selected="Gradle.SingleNumberIIITest">
+    <configuration name="SingleNumberIIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.bitmanipulation.SingleNumberIIITest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="SingleNumberIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -492,30 +516,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="XorInRangeTest.test_calculateXORWithinRange_expect0_whenAIs13AndBIs7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.XorInRangeTest.test_calculateXORWithinRange_expect0_whenAIs13AndBIs7&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="XorInRangeTest.test_calculateXORWithinRange_expect3_whenAIs15AndBIs20" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -541,19 +541,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.SingleNumberIIITest" />
       <item itemvalue="Gradle.SingleNumberIITest" />
       <item itemvalue="Gradle.SingleNumberIITest.test_occursOnce_expect2_whenNIs4" />
       <item itemvalue="Gradle.XorInRangeTest" />
-      <item itemvalue="Gradle.XorInRangeTest.test_calculateXORWithinRange_expect0_whenAIs13AndBIs7" />
       <item itemvalue="Gradle.XorInRangeTest.test_calculateXORWithinRange_expect3_whenAIs15AndBIs20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SingleNumberIIITest" />
         <item itemvalue="Gradle.SingleNumberIITest" />
         <item itemvalue="Gradle.SingleNumberIITest.test_occursOnce_expect2_whenNIs4" />
         <item itemvalue="Gradle.XorInRangeTest" />
         <item itemvalue="Gradle.XorInRangeTest.test_calculateXORWithinRange_expect3_whenAIs15AndBIs20" />
-        <item itemvalue="Gradle.XorInRangeTest.test_calculateXORWithinRange_expect0_whenAIs13AndBIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -909,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="784" />
+    <option name="localTasksCounter" value="785" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -924,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;merge overlapping intervals brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge overlapping intervals optimal approach" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 1" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;merge two sorted arrays without extra space optimal approach 2 with gap method" />
@@ -949,7 +948,8 @@
     <MESSAGE value="[practice/bit-manipulation]: single number in an array" />
     <MESSAGE value="[practice/bit-manipulation]: xor in range 1 to n or low to high" />
     <MESSAGE value="[practice/bit-manipulation]: single number II using bit count" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: single number II using bit count" />
+    <MESSAGE value="[practice/bit-manipulation]: single number II using sorting and bits xor" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: single number II using sorting and bits xor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
