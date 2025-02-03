@@ -5,6 +5,7 @@ import java.util.List;
 
 public class SingleNumberIII {
 
+   // TC: O(2N), SC: O(N)
    public List<Integer> twoNonRepeatingElements(int[] arr, int n) {
       int xor = 0;
       for (int i = 0; i < n; i++) {
