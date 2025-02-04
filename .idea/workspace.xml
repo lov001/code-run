@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/bit-manipulation]: Divide Two Integers Without Operators">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/bitmanipulation/DivideTwoIntegersWithoutOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/bitmanipulation/DivideTwoIntegersWithoutOperatorsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: trie implementation for insert, search and startsWith">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/TrieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,6 +328,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="practice/trie" />
+                    <option name="lastUsedInstant" value="1738641214" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1738641124" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feature/binary-trees" />
                     <option name="lastUsedInstant" value="1729047498" />
                   </RecentBranch>
@@ -335,16 +344,8 @@
                     <option name="lastUsedInstant" value="1729047449" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1729047403" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="practice/dynamic-programming" />
                     <option name="lastUsedInstant" value="1725934278" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/graph" />
-                    <option name="lastUsedInstant" value="1720102157" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,7 +377,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowGraphQL.ShowToolbar": "false",
-    "git-widget-placeholder": "practice/bit-manipulation",
+    "git-widget-placeholder": "practice/trie",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -419,7 +420,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DivideTwoIntegersWithoutOperatorsTest">
+  <component name="RunManager" selected="Gradle.TrieTest">
     <configuration name="DivideTwoIntegersWithoutOperatorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -492,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberIITest.test_occursOnce_expect2_whenNIs4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -505,7 +506,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.SingleNumberIITest.test_occursOnce_expect2_whenNIs4&quot;" />
+            <option value="&quot;practice.trie.TrieTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -516,7 +517,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="XorInRangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -529,7 +530,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.XorInRangeTest&quot;" />
+            <option value="&quot;practice.trie.TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -541,19 +542,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.TrieTest" />
+      <item itemvalue="Gradle.TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations" />
       <item itemvalue="Gradle.DivideTwoIntegersWithoutOperatorsTest" />
       <item itemvalue="Gradle.SingleNumberIIITest" />
       <item itemvalue="Gradle.SingleNumberIITest" />
-      <item itemvalue="Gradle.SingleNumberIITest.test_occursOnce_expect2_whenNIs4" />
-      <item itemvalue="Gradle.XorInRangeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TrieTest" />
+        <item itemvalue="Gradle.TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations" />
         <item itemvalue="Gradle.DivideTwoIntegersWithoutOperatorsTest" />
         <item itemvalue="Gradle.SingleNumberIIITest" />
         <item itemvalue="Gradle.SingleNumberIITest" />
-        <item itemvalue="Gradle.SingleNumberIITest.test_occursOnce_expect2_whenNIs4" />
-        <item itemvalue="Gradle.XorInRangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -924,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using math operations" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using xor operations" />
@@ -949,7 +949,8 @@
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations" />
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations added TC" />
     <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
+    <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: trie implementation for insert, search and startsWith" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3323,6 +3324,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/bitmanipulation/SingleNumberII.java</url>
           <line>29</line>
           <option name="timeStamp" value="904" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trie/Trie.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trie/Trie.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="906" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/trie/Node.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="907" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
