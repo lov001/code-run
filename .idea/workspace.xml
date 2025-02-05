@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: trie implementation for insert, search and startsWith">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/TrieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/TrieII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,6 +405,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.trie" />
       <recent name="practice.bitmanipulation" />
       <recent name="practice.arrays" />
       <recent name="practice.greedy" />
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="787" />
+    <option name="localTasksCounter" value="788" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -3337,7 +3337,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/trie/Node.java</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="907" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

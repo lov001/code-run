@@ -5,6 +5,9 @@ public class Node {
    Node[] links = new Node[26];
    boolean flag = false;
 
+   int countEndsWith = 0;
+   int countPrefix = 0;
+
    public boolean containsCharacter(Character ch) {
       return links[ch - 'a'] == null;
    }
@@ -23,5 +26,21 @@ public class Node {
 
    public boolean isEnd() {
       return flag;
+   }
+
+   public void increaseCountPrefix() {
+      this.countPrefix++;
+   }
+
+   public void increaseCountEnd() {
+      this.countEndsWith++;
+   }
+
+   public void decreaseCountPrefix() {
+      this.countPrefix--;
+   }
+
+   public void decreaseCountEnd() {
+      this.countEndsWith--;
    }
 }
