@@ -9,7 +9,7 @@ public class Node {
    int countPrefix = 0;
 
    public boolean containsCharacter(Character ch) {
-      return links[ch - 'a'] == null;
+      return links[ch - 'a'] != null;
    }
 
    public Node get(Character ch) {
