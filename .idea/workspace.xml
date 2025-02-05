@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: trie implementation for insert, search and startsWith">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/TrieII.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: trie implementation for count words equal to and count words starting with">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/TrieIITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -910,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="788" />
+    <option name="localTasksCounter" value="789" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using hashing" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using math operations" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using xor operations" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count inversions using brute force" />
@@ -950,7 +948,8 @@
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations added TC" />
     <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
     <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: trie implementation for insert, search and startsWith" />
+    <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
