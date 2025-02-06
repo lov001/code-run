@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: trie implementation for insert, search and startsWith">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/TrieII.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: complete string with trie">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/CompleteString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/CompleteStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/TrieII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/TrieII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,8 +423,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrieTest">
-    <configuration name="DivideTwoIntegersWithoutOperatorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CompleteStringTest">
+    <configuration name="CompleteStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +437,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.DivideTwoIntegersWithoutOperatorsTest&quot;" />
+            <option value="&quot;practice.trie.CompleteStringTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -445,7 +448,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberIIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'practice.trie'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -458,7 +461,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.SingleNumberIIITest&quot;" />
+            <option value="&quot;practice.trie.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -469,7 +472,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrieIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +485,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.bitmanipulation.SingleNumberIITest&quot;" />
+            <option value="&quot;practice.trie.TrieIITest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,19 +545,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.CompleteStringTest" />
+      <item itemvalue="Gradle.Tests in 'practice.trie'" />
+      <item itemvalue="Gradle.TrieIITest" />
       <item itemvalue="Gradle.TrieTest" />
       <item itemvalue="Gradle.TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations" />
-      <item itemvalue="Gradle.DivideTwoIntegersWithoutOperatorsTest" />
-      <item itemvalue="Gradle.SingleNumberIIITest" />
-      <item itemvalue="Gradle.SingleNumberIITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CompleteStringTest" />
+        <item itemvalue="Gradle.Tests in 'practice.trie'" />
+        <item itemvalue="Gradle.TrieIITest" />
         <item itemvalue="Gradle.TrieTest" />
         <item itemvalue="Gradle.TrieTest.test_trie_expectOutput_whenPerformed5GivenOperations" />
-        <item itemvalue="Gradle.DivideTwoIntegersWithoutOperatorsTest" />
-        <item itemvalue="Gradle.SingleNumberIIITest" />
-        <item itemvalue="Gradle.SingleNumberIITest" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="788" />
+    <option name="localTasksCounter" value="790" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,9 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using hashing" />
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using math operations" />
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;finding missing and repeating numbers using xor operations" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;count inversions using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
@@ -950,7 +950,10 @@
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations added TC" />
     <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
     <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: trie implementation for insert, search and startsWith" />
+    <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
+    <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
+    <MESSAGE value="[practice/trie]: complete string with trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: complete string with trie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

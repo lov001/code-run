@@ -12,7 +12,7 @@ public class TrieII {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             Node entry = new Node();
             node.set(character, entry);
          }
@@ -26,7 +26,7 @@ public class TrieII {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             return 0;
          }
          node = node.get(character);
@@ -38,7 +38,7 @@ public class TrieII {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             return 0;
          }
          node = node.get(character);
@@ -50,7 +50,7 @@ public class TrieII {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             return;
          }
          node = node.get(character);

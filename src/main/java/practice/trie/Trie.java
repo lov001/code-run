@@ -12,7 +12,7 @@ public class Trie {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             Node entry = new Node();
             node.set(character, entry);
          }
@@ -25,7 +25,7 @@ public class Trie {
       Node node = root;
       for (int i = 0; i < word.length(); i++) {
          Character character = word.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             return false;
          }
          node = node.get(character);
@@ -37,11 +37,25 @@ public class Trie {
       Node node = root;
       for (int i = 0; i < prefix.length(); i++) {
          Character character = prefix.charAt(i);
-         if (node.containsCharacter(character)) {
+         if (!node.containsCharacter(character)) {
             return false;
          }
          node = node.get(character);
       }
       return true;
+   }
+
+   public boolean checkIfPrefixExists(String word) {
+      boolean flag = true;
+      Node node = root;
+      for (int i = 0; i < word.length() && flag; i++) {
+         if (node.containsCharacter(word.charAt(i))) {
+            node = node.get(word.charAt(i));
+            flag = node.isEnd();
+         } else {
+            return false;
+         }
+      }
+      return flag;
    }
 }
