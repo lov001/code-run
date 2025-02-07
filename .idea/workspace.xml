@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: complete string with trie">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/CountDistinctSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/CountDistinctSubstringsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: count number of distinct words using trie">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/MaximumXor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -910,7 +909,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="791" />
+    <option name="localTasksCounter" value="792" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;count inversions using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using brute force" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
@@ -950,7 +948,8 @@
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
     <MESSAGE value="[practice/trie]: complete string with trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: complete string with trie" />
+    <MESSAGE value="[practice/trie]: count number of distinct words using trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: count number of distinct words using trie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
