@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MaximumXor {
 
-   public static int maxXOR(int n, int m, ArrayList<Integer> arr1, ArrayList<Integer> arr2) {
+   public int maxXOR(int n, int m, ArrayList<Integer> arr1, ArrayList<Integer> arr2) {
       Trie trie = new Trie();
       for (int i = 0; i < n; i++) {
          trie.insert(arr1.get(i));
