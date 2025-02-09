@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: maximum xor of two arrays">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/MaximumXorTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: maximum xor of two arrays - added unit tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/MaximumXorWithAnElementFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/MaximumXorWithAnElementFromArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/trie/MaximumXor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/trie/MaximumXor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,31 +420,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountDistinctSubstringsTest">
-    <configuration name="CompleteStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trie.CompleteStringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MaximumXorWithAnElementFromArrayTest">
     <configuration name="CountDistinctSubstringsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -469,7 +445,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'practice.trie'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumXorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +458,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trie.*&quot;" />
+            <option value="&quot;practice.trie.MaximumXorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -493,7 +469,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TrieIITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumXorWithAnElementFromArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -506,7 +482,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trie.TrieIITest&quot;" />
+            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -517,7 +493,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TrieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -530,7 +506,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trie.TrieTest&quot;" />
+            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,19 +542,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CompleteStringTest" />
       <item itemvalue="Gradle.CountDistinctSubstringsTest" />
-      <item itemvalue="Gradle.Tests in 'practice.trie'" />
-      <item itemvalue="Gradle.TrieIITest" />
-      <item itemvalue="Gradle.TrieTest" />
+      <item itemvalue="Gradle.MaximumXorTest" />
+      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
+      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
+      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
+        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
+        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" />
+        <item itemvalue="Gradle.MaximumXorTest" />
         <item itemvalue="Gradle.CountDistinctSubstringsTest" />
-        <item itemvalue="Gradle.CompleteStringTest" />
-        <item itemvalue="Gradle.Tests in 'practice.trie'" />
-        <item itemvalue="Gradle.TrieIITest" />
-        <item itemvalue="Gradle.TrieTest" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="793" />
+    <option name="localTasksCounter" value="794" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/arrays-and-strings]: &#10;reverse pairs using merge sort" />
     <MESSAGE value="[practice/arrays-and-strings]: &#10;maximum sub-array product using brute force" />
     <MESSAGE value="[practice/bit-manipulation]: binary to decimal conversion" />
     <MESSAGE value="[practice/bit-manipulation]: decimal to binary conversion" />
@@ -950,7 +949,8 @@
     <MESSAGE value="[practice/trie]: complete string with trie" />
     <MESSAGE value="[practice/trie]: count number of distinct words using trie" />
     <MESSAGE value="[practice/trie]: maximum xor of two arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: maximum xor of two arrays" />
+    <MESSAGE value="[practice/trie]: maximum xor of two arrays - added unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[practice/trie]: maximum xor of two arrays - added unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
