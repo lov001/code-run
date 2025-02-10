@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[practice/trie]: maximum xor of two arrays - added unit tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trie/MaximumXorWithAnElementFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/trie/MaximumXorWithAnElementFromArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/revision/MagicIndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,6 +327,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="revision" />
+                    <option name="lastUsedInstant" value="1739163527" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="practice/trie" />
                     <option name="lastUsedInstant" value="1738641214" />
                   </RecentBranch>
@@ -341,10 +345,6 @@
                   <RecentBranch>
                     <option name="branchName" value="practice/binary-search" />
                     <option name="lastUsedInstant" value="1729047449" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="practice/dynamic-programming" />
-                    <option name="lastUsedInstant" value="1725934278" />
                   </RecentBranch>
                 </list>
               </option>
@@ -376,7 +376,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowGraphQL.ShowToolbar": "false",
-    "git-widget-placeholder": "practice/trie",
+    "git-widget-placeholder": "revision",
     "last_opened_file_path": "/Users/23076/Workspace/code-run/src/main/java/leetcode/arrays",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -420,8 +420,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumXorWithAnElementFromArrayTest">
-    <configuration name="CountDistinctSubstringsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5">
+    <configuration name="MagicIndexTest.test_magicIndex_expect2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -434,7 +434,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trie.CountDistinctSubstringsTest&quot;" />
+            <option value="&quot;revision.MagicIndexTest.test_magicIndex_expect2_whenNIs5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -542,7 +542,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CountDistinctSubstringsTest" />
+      <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
       <item itemvalue="Gradle.MaximumXorTest" />
       <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
       <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
@@ -550,11 +550,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
         <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
         <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
         <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" />
         <item itemvalue="Gradle.MaximumXorTest" />
-        <item itemvalue="Gradle.CountDistinctSubstringsTest" />
       </list>
     </recent_temporary>
   </component>
