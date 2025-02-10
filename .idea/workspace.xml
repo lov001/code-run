@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: magic index brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: magic index using binary search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/revision/MagicIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revision/MagicIndexTest.java" afterDir="false" />
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="795" />
+    <option name="localTasksCounter" value="796" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: binary to decimal conversion" />
     <MESSAGE value="[practice/bit-manipulation]: decimal to binary conversion" />
     <MESSAGE value="[practice/bit-manipulation]: swap two numbers using bit operations" />
     <MESSAGE value="[practice/bit-manipulation]: check if ith bit is set or not" />
@@ -950,7 +949,8 @@
     <MESSAGE value="[practice/trie]: maximum xor of two arrays" />
     <MESSAGE value="[practice/trie]: maximum xor of two arrays - added unit tests" />
     <MESSAGE value="[revision]: magic index brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: magic index brute force" />
+    <MESSAGE value="[revision]: magic index using binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: magic index using binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

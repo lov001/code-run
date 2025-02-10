@@ -18,6 +18,7 @@ public class MagicIndexTest {
       input.add(9);
       Assertions.assertEquals(2, classObj.magicIndex(input, 5));
       Assertions.assertEquals(2, classObj.magicIndexBinarySearch(input, 5));
+      Assertions.assertEquals(2, classObj.magicIndexBinarySearchModified(input, 5));
    }
 
    @Test
@@ -30,5 +31,6 @@ public class MagicIndexTest {
       input.add(6);
       Assertions.assertEquals(-1, classObj.magicIndex(input, 5));
       Assertions.assertEquals(-1, classObj.magicIndexBinarySearch(input, 5));
+      Assertions.assertEquals(-1, classObj.magicIndexBinarySearchModified(input, 5));
    }
 }
