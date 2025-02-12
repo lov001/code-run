@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: magic index using binary search">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: magic index using binary search modified">
+      <change afterPath="$PROJECT_DIR$/src/main/java/revision/SearchInARotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/revision/SearchInARotatedArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/revision/MagicIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revision/MagicIndexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,6 +406,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="revision" />
       <recent name="practice.trie" />
       <recent name="practice.bitmanipulation" />
       <recent name="practice.arrays" />
@@ -420,7 +422,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MagicIndexTest">
+  <component name="RunManager" selected="Gradle.SearchInARotatedArrayTest">
     <configuration name="MagicIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -517,7 +519,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchInARotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -530,7 +532,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2&quot;" />
+            <option value="&quot;revision.SearchInARotatedArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,17 +546,17 @@
     <list>
       <item itemvalue="Gradle.MagicIndexTest" />
       <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
+      <item itemvalue="Gradle.SearchInARotatedArrayTest" />
       <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
       <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
-      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchInARotatedArrayTest" />
         <item itemvalue="Gradle.MagicIndexTest" />
         <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
         <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
         <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
-        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectOutputOfSize2_whenNIs5AndMIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="796" />
+    <option name="localTasksCounter" value="797" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: decimal to binary conversion" />
     <MESSAGE value="[practice/bit-manipulation]: swap two numbers using bit operations" />
     <MESSAGE value="[practice/bit-manipulation]: check if ith bit is set or not" />
     <MESSAGE value="[practice/bit-manipulation]: set ith bit in a number" />
@@ -950,7 +951,8 @@
     <MESSAGE value="[practice/trie]: maximum xor of two arrays - added unit tests" />
     <MESSAGE value="[revision]: magic index brute force" />
     <MESSAGE value="[revision]: magic index using binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: magic index using binary search" />
+    <MESSAGE value="[revision]: magic index using binary search modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: magic index using binary search modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
