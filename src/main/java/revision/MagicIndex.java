@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MagicIndex {
 
-   // TC: O(log(N)), but this will fail for duplicates
+   // TC: O(N)
    public int magicIndexBinarySearchModified(ArrayList<Integer> a, int n) {
       return searchMagicIndex(a, 0, n - 1);
    }
