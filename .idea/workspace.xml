@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: magic index using binary search modified">
-      <change afterPath="$PROJECT_DIR$/src/main/java/revision/SearchInARotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/revision/SearchInARotatedArrayTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using hashing and two pointer approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/MagicIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/revision/IntersectionOfTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/IntersectionOfTwoLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="797" />
+    <option name="localTasksCounter" value="799" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,8 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: swap two numbers using bit operations" />
-    <MESSAGE value="[practice/bit-manipulation]: check if ith bit is set or not" />
     <MESSAGE value="[practice/bit-manipulation]: set ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: clear and toggle ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
@@ -952,7 +948,9 @@
     <MESSAGE value="[revision]: magic index brute force" />
     <MESSAGE value="[revision]: magic index using binary search" />
     <MESSAGE value="[revision]: magic index using binary search modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: magic index using binary search modified" />
+    <MESSAGE value="[revision]: search in a rotated array using binary search" />
+    <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
