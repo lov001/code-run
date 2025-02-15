@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using hashing and two pointer approach">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using difference of length">
+      <change afterPath="$PROJECT_DIR$/src/test/java/revision/IntersectionOfTwoLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/revision/IntersectionOfTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/IntersectionOfTwoLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +420,55 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchInARotatedArrayTest">
+  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListTest">
+    <configuration name="IntersectionOfTwoLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;revision.IntersectionOfTwoLinkedListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;revision.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="MagicIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -469,54 +517,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumXorWithAnElementFromArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.trie.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="SearchInARotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -542,19 +542,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
+      <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
       <item itemvalue="Gradle.MagicIndexTest" />
       <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
       <item itemvalue="Gradle.SearchInARotatedArrayTest" />
-      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
-      <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
+        <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
         <item itemvalue="Gradle.SearchInARotatedArrayTest" />
         <item itemvalue="Gradle.MagicIndexTest" />
         <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
-        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest" />
-        <item itemvalue="Gradle.MaximumXorWithAnElementFromArrayTest.test_maxXorQueries_expectMinus1_whenNIs1AndMIs1" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +910,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="799" />
+    <option name="localTasksCounter" value="800" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +925,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: set ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: clear and toggle ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
     <MESSAGE value="[practice/bit-manipulation]: count number of set bits" />
@@ -950,7 +949,8 @@
     <MESSAGE value="[revision]: magic index using binary search modified" />
     <MESSAGE value="[revision]: search in a rotated array using binary search" />
     <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
+    <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using difference of length" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
