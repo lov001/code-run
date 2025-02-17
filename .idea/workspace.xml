@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using difference of length">
-      <change afterPath="$PROJECT_DIR$/src/test/java/revision/IntersectionOfTwoLinkedListTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using difference of length - added tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -420,7 +421,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IntersectionOfTwoLinkedListTest">
+  <component name="RunManager" selected="Gradle.NumberOfIslandsTest">
     <configuration name="IntersectionOfTwoLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -469,7 +470,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslandsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -482,7 +483,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;revision.MagicIndexTest&quot;" />
+            <option value="&quot;revision.NumberOfIslandsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -493,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MagicIndexTest.test_magicIndex_expect2_whenNIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -506,7 +507,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;revision.MagicIndexTest.test_magicIndex_expect2_whenNIs5&quot;" />
+            <option value="&quot;revision.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -544,17 +545,17 @@
     <list>
       <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
       <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
-      <item itemvalue="Gradle.MagicIndexTest" />
-      <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
+      <item itemvalue="Gradle.NumberOfIslandsTest" />
+      <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
       <item itemvalue="Gradle.SearchInARotatedArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NumberOfIslandsTest" />
+        <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
         <item itemvalue="Gradle.SearchInARotatedArrayTest" />
-        <item itemvalue="Gradle.MagicIndexTest" />
-        <item itemvalue="Gradle.MagicIndexTest.test_magicIndex_expect2_whenNIs5" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="800" />
+    <option name="localTasksCounter" value="801" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -925,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: clear and toggle ith bit in a number" />
     <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
     <MESSAGE value="[practice/bit-manipulation]: count number of set bits" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips to convert a number" />
@@ -950,7 +950,8 @@
     <MESSAGE value="[revision]: search in a rotated array using binary search" />
     <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using difference of length" />
+    <MESSAGE value="[revision]: intersection of two linked lists using difference of length - added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using difference of length - added tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3339,6 +3340,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/trie/Node.java</url>
           <line>11</line>
           <option name="timeStamp" value="907" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="908" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="909" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
