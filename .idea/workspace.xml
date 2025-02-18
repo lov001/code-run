@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: intersection of two linked lists using difference of length - added tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: count number of islands in a grid using dfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="801" />
+    <option name="localTasksCounter" value="802" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: remove last bit and check power of 2" />
     <MESSAGE value="[practice/bit-manipulation]: count number of set bits" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips to convert a number" />
     <MESSAGE value="[practice/bit-manipulation]: power set" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length - added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: intersection of two linked lists using difference of length - added tests" />
+    <MESSAGE value="[revision]: count number of islands in a grid using dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: count number of islands in a grid using dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3343,13 +3344,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java</url>
-          <line>8</line>
+          <line>12</line>
           <option name="timeStamp" value="908" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="909" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
