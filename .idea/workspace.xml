@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: count number of islands in a grid using dfs">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: count number of islands in a grid using bfs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/revision/TappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/revision/TappingRainWaterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/graphs/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revision/NumberOfIslandsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,7 +421,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberOfIslandsTest">
+  <component name="RunManager" selected="Gradle.TappingRainWaterTest">
     <configuration name="IntersectionOfTwoLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -437,30 +436,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;revision.IntersectionOfTwoLinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;revision.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,7 +494,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SearchInARotatedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TappingRainWaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -532,7 +507,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;revision.SearchInARotatedArrayTest&quot;" />
+            <option value="&quot;revision.TappingRainWaterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;revision.TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -545,18 +544,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
       <item itemvalue="Gradle.NumberOfIslandsTest" />
       <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
-      <item itemvalue="Gradle.SearchInARotatedArrayTest" />
+      <item itemvalue="Gradle.TappingRainWaterTest" />
+      <item itemvalue="Gradle.TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TappingRainWaterTest" />
+        <item itemvalue="Gradle.TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6" />
         <item itemvalue="Gradle.NumberOfIslandsTest" />
         <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
         <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest.test_getIntersectionNode_expectNull_whenListsDoNotIntersect" />
-        <item itemvalue="Gradle.SearchInARotatedArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="802" />
+    <option name="localTasksCounter" value="803" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: count number of set bits" />
     <MESSAGE value="[practice/bit-manipulation]: number of bit flips to convert a number" />
     <MESSAGE value="[practice/bit-manipulation]: power set" />
     <MESSAGE value="[practice/bit-manipulation]: single number in an array" />
@@ -952,7 +950,8 @@
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length - added tests" />
     <MESSAGE value="[revision]: count number of islands in a grid using dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: count number of islands in a grid using dfs" />
+    <MESSAGE value="[revision]: count number of islands in a grid using bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: count number of islands in a grid using bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3346,6 +3345,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/revision/NumberOfIslands.java</url>
           <line>12</line>
           <option name="timeStamp" value="908" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/revision/TappingRainWater.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="910" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
