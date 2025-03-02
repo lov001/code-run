@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]:maximum tapped water using brute force">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]:maximum tapped water using pre-compute array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/revision/TappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revision/TappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/revision/TappingRainWaterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revision/TappingRainWaterTest.java" afterDir="false" />
@@ -911,7 +911,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="805" />
+    <option name="localTasksCounter" value="806" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: power set" />
     <MESSAGE value="[practice/bit-manipulation]: single number in an array" />
     <MESSAGE value="[practice/bit-manipulation]: xor in range 1 to n or low to high" />
     <MESSAGE value="[practice/bit-manipulation]: single number II using bit count" />
@@ -951,7 +950,8 @@
     <MESSAGE value="[revision]: count number of islands in a grid using dfs" />
     <MESSAGE value="[revision]: count number of islands in a grid using bfs" />
     <MESSAGE value="[revision]:maximum tapped water using brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]:maximum tapped water using brute force" />
+    <MESSAGE value="[revision]:maximum tapped water using pre-compute array" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]:maximum tapped water using pre-compute array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3348,7 +3348,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/revision/TappingRainWater.java</url>
-          <line>5</line>
+          <line>58</line>
           <option name="timeStamp" value="910" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

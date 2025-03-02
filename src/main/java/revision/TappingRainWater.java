@@ -2,6 +2,59 @@ package revision;
 
 public class TappingRainWater {
 
+   public long getTrappedWater(long[] arr, int n) {
+      if (n == 0) {
+         return 0;
+      }
+      long peak = 0;
+      long ans = 0;
+      long peakVal = arr[0];
+
+      // Moving left to right.
+      for (int i = 0; i < n; i++) {
+         if (arr[i] >= peakVal) {
+            peak = i;
+            peakVal = arr[i];
+         }
+      }
+
+      // Initializing a min value.
+      long maxSoFar = Long.MIN_VALUE;
+      long countSubmerged = 0;
+      long submergedArea = 0;
+
+      // Traversing over a peak.
+      for (int i = 0; i <= peak; i++) {
+         if (arr[i] >= maxSoFar) {
+            ans += (countSubmerged * maxSoFar - submergedArea);
+            maxSoFar = arr[i];
+            countSubmerged = 0;
+            submergedArea = 0;
+         } else {
+            submergedArea += arr[i];
+            countSubmerged++;
+         }
+      }
+
+      maxSoFar = Long.MIN_VALUE;
+      countSubmerged = 0;
+      submergedArea = 0;
+
+      // Moving right to left.
+      for (int i = n - 1; i >= peak; i--) {
+         if (arr[i] >= maxSoFar) {
+            ans += (countSubmerged * maxSoFar - submergedArea);
+            maxSoFar = arr[i];
+            countSubmerged = 0;
+            submergedArea = 0;
+         } else {
+            submergedArea += arr[i];
+            countSubmerged++;
+         }
+      }
+      return ans;
+   }
+
    public long getTrappedWaterBruteForce(long[] arr, int n) {
       long maxTappedWater = 0;
       for (int i = 0; i < n; i++) {
