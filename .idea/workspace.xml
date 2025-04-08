@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]:maximum tapped water using peak concept">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCacheUsingLinkedHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: LRU cache using LinkedHashMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCacheUsingDoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,6 +405,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.linkedlist" />
       <recent name="revision" />
       <recent name="practice.trie" />
       <recent name="practice.bitmanipulation" />
@@ -421,8 +422,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TappingRainWaterTest">
-    <configuration name="IntersectionOfTwoLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted">
+    <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -435,7 +436,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;revision.IntersectionOfTwoLinkedListTest&quot;" />
+            <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -460,30 +485,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;revision.NumberOfIslandsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;revision.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -543,19 +544,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
+      <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
+      <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
       <item itemvalue="Gradle.NumberOfIslandsTest" />
-      <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
       <item itemvalue="Gradle.TappingRainWaterTest" />
       <item itemvalue="Gradle.TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
+        <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
         <item itemvalue="Gradle.TappingRainWaterTest" />
         <item itemvalue="Gradle.TappingRainWaterTest.test_getTrappedWater_expect10_whenNIs6" />
         <item itemvalue="Gradle.NumberOfIslandsTest" />
-        <item itemvalue="Gradle.NumberOfIslandsTest.test_getTotalIslands_expect3_whenNoOfIslandsIs3" />
-        <item itemvalue="Gradle.IntersectionOfTwoLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="807" />
+    <option name="localTasksCounter" value="808" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -926,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: xor in range 1 to n or low to high" />
     <MESSAGE value="[practice/bit-manipulation]: single number II using bit count" />
     <MESSAGE value="[practice/bit-manipulation]: single number II using sorting and bits xor" />
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations" />
@@ -951,7 +951,8 @@
     <MESSAGE value="[revision]:maximum tapped water using brute force" />
     <MESSAGE value="[revision]:maximum tapped water using pre-compute array" />
     <MESSAGE value="[revision]:maximum tapped water using using peak concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]:maximum tapped water using using peak concept" />
+    <MESSAGE value="[revision]: LRU cache using LinkedHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: LRU cache using LinkedHashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
