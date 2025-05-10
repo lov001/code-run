@@ -49,4 +49,20 @@ public class LRUCacheUsingLinkedHashMapTest {
       Assertions.assertEquals(3, cache.get(3));
       Assertions.assertEquals(3, cache.get(2));
    }
+
+   @Test
+   void test_LRUCacheUsingDL_expectResult_whenAsserted() {
+      LRUCache cache = new LRUCache(3, 0);
+      cache.putFromDL(1, 1);
+      cache.putFromDL(2, 2);
+      cache.putFromDL(3, 3);
+      cache.putFromDL(4, 5);
+      Assertions.assertEquals(3, cache.getFromDL(3));
+      Assertions.assertEquals(-1, cache.getFromDL(1));
+      Assertions.assertEquals(5, cache.getFromDL(4));
+      cache.putFromDL(2, 3);
+      Assertions.assertEquals(-1, cache.getFromDL(1));
+      Assertions.assertEquals(3, cache.getFromDL(3));
+      Assertions.assertEquals(3, cache.getFromDL(2));
+   }
 }

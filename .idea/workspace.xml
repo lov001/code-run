@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: LRU cache using doubly linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -422,7 +422,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedListAndMap_expectResult_whenAsserted">
+  <component name="RunManager" selected="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted">
+    <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -495,30 +519,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TappingRainWaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;revision.TappingRainWaterTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
@@ -527,19 +527,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" />
       <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedListAndMap_expectResult_whenAsserted" />
       <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
       <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
-      <item itemvalue="Gradle.TappingRainWaterTest" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" />
         <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedListAndMap_expectResult_whenAsserted" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
         <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
-        <item itemvalue="Gradle.TappingRainWaterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="809" />
+    <option name="localTasksCounter" value="810" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: single number II using sorting and bits xor" />
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations" />
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations added TC" />
     <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
@@ -934,6 +933,7 @@
     <MESSAGE value="[revision]:maximum tapped water using pre-compute array" />
     <MESSAGE value="[revision]:maximum tapped water using using peak concept" />
     <MESSAGE value="[revision]: LRU cache using LinkedHashMap" />
+    <MESSAGE value="[revision]: LRU cache using map and linked list" />
     <MESSAGE value="[revision]: LRU cache using doubly linked list" />
     <option name="LAST_COMMIT_MESSAGE" value="[revision]: LRU cache using doubly linked list" />
   </component>
@@ -3347,12 +3347,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java</url>
-          <line>20</line>
+          <line>38</line>
           <option name="timeStamp" value="914" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java</url>
-          <line>29</line>
+          <line>47</line>
           <option name="timeStamp" value="915" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
