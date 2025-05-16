@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: LRU cache using doubly linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumSumOfKIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumSumOfKIntegersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/linkedlist/LRUCacheUsingLinkedHashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,7 +422,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted">
+  <component name="RunManager" selected="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5">
     <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -437,54 +437,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.linkedlist.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,27 +471,92 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs4AndKis2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs4AndKis2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.slidingwindow.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" />
       <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedListAndMap_expectResult_whenAsserted" />
-      <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
-      <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
-      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" />
+      <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs4AndKis2" />
+      <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" />
+        <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" />
+        <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs4AndKis2" />
         <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDL_expectResult_whenAsserted" />
         <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedListAndMap_expectResult_whenAsserted" />
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingDoublyLinkedList_expectResult_whenAsserted" />
-        <item itemvalue="Gradle.LRUCacheUsingLinkedHashMapTest.test_LRUCacheUsingLinkedHashMap_expectResult_whenAsserted" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="810" />
+    <option name="localTasksCounter" value="811" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
