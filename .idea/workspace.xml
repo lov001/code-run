@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: LRU cache using doubly linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/MaximumSumOfKIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/MaximumSumOfKIntegersTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: maximum sum of K integers brute force">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="811" />
+    <option name="localTasksCounter" value="812" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations" />
     <MESSAGE value="[practice/bit-manipulation]: single number III using bit operations added TC" />
     <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
     <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[revision]: LRU cache using LinkedHashMap" />
     <MESSAGE value="[revision]: LRU cache using map and linked list" />
     <MESSAGE value="[revision]: LRU cache using doubly linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: LRU cache using doubly linked list" />
+    <MESSAGE value="[revision]: maximum sum of K integers brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: maximum sum of K integers brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
