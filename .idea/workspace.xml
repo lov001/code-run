@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: longest substring without repeating characters brute force">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubStringWithConcatenationOfAllWordsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Sub String With Concatenation Of All Words using sliding window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubStringWithConcatenationOfAllWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubStringWithConcatenationOfAllWordsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -912,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="813" />
+    <option name="localTasksCounter" value="814" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/bit-manipulation]: Divide Two Integers Without Operators" />
     <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
@@ -952,7 +951,8 @@
     <MESSAGE value="[revision]: LRU cache using doubly linked list" />
     <MESSAGE value="[revision]: maximum sum of K integers brute force" />
     <MESSAGE value="[revision]: longest substring without repeating characters brute force" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: longest substring without repeating characters brute force" />
+    <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3371,26 +3371,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java</url>
           <line>47</line>
           <option name="timeStamp" value="915" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="916" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="917" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="918" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="919" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
