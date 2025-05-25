@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Sub String With Concatenation Of All Words using sliding window">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/SortStackUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubStringWithConcatenationOfAllWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/slidingwindow/SubStringWithConcatenationOfAllWordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,8 +424,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubStringWithConcatenationOfAllWordsTest">
-    <configuration name="MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted">
+    <configuration name="SortStackUsingRecursionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +438,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5&quot;" />
+            <option value="&quot;practice.stack.SortStackUsingRecursionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +449,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +462,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5&quot;" />
+            <option value="&quot;practice.stack.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -471,7 +473,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWordsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -484,7 +486,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.SubStringWithConcatenationOfAllWordsTest&quot;" />
+            <option value="&quot;practice.slidingwindow.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,7 +497,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize1_whenWordsSizeIs4AndWordSize4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -508,7 +510,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize1_whenWordsSizeIs4AndWordSize4&quot;" />
+            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -519,44 +521,27 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest" />
-      <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize1_whenWordsSizeIs4AndWordSize4" />
-      <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
-      <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" />
-      <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" />
+      <item itemvalue="Gradle.SortStackUsingRecursionTest" />
+      <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
+      <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
+      <item itemvalue="Gradle.ValidAnagramTest" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest" />
-        <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize1_whenWordsSizeIs4AndWordSize4" />
-        <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstring_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
-        <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect1602_whenNIs7AndKIs5" />
-        <item itemvalue="Gradle.MaximumSumOfKIntegersTest.test_maxSumOfKIntegers_expect700_whenNIs7AndKIs5" />
+        <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
+        <item itemvalue="Gradle.SortStackUsingRecursionTest" />
+        <item itemvalue="Gradle.ValidAnagramTest" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +897,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="814" />
+    <option name="localTasksCounter" value="815" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -927,7 +912,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trie]: trie implementation for insert, search and startsWith" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
     <MESSAGE value="[practice/trie]: complete string with trie" />
@@ -952,7 +936,8 @@
     <MESSAGE value="[revision]: maximum sum of K integers brute force" />
     <MESSAGE value="[revision]: longest substring without repeating characters brute force" />
     <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
+    <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,7 +984,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java</url>
-          <line>8</line>
+          <line>23</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1136,21 +1121,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem912/ArraySort.java</url>
           <line>7</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/problem443/StringCompression.java</url>
@@ -3371,6 +3341,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedlist/LRUCache.java</url>
           <line>47</line>
           <option name="timeStamp" value="915" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="920" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/slidingwindow/SubStringWithConcatenationOfAllWords.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="921" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="922" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="923" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="924" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
