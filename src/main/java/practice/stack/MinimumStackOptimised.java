@@ -5,7 +5,7 @@ import java.util.EmptyStackException;
 public class MinimumStackOptimised {
 
 
-   private class DataNode {
+   private static class DataNode {
 
 
       int data;
