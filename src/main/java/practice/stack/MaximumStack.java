@@ -49,7 +49,11 @@ public class MaximumStack {
          return -1;
       }
       int topMax = findMax();
-      stack.removeElement(topMax);
+      if(stack.peek() == topMax){
+         stack.pop();
+      } else{
+         stack.removeElement(topMax);
+      }
       max = findMax();
       return topMax;
    }

@@ -65,6 +65,21 @@ public class MaximumStackTest {
       Assertions.assertTrue(myStack.isEmpty());
    }
 
+   @Test
+   void test_MaximumStack2() {
+      MaximumStack myStack = new MaximumStack();
+      myStack.push(5);
+      myStack.push(1);
+      myStack.push(5);
+      Assertions.assertEquals(5, myStack.peek());
+      Assertions.assertEquals(5, myStack.popMax());
+      Assertions.assertEquals(1, myStack.peek());
+      Assertions.assertFalse(myStack.isEmpty());
+      Assertions.assertEquals(5, myStack.peekMax());
+      Assertions.assertEquals(1, myStack.pop());
+      Assertions.assertEquals(5, myStack.peek());
+   }
+
 
 //   @Test
 //   void testMaximumStackOptimised_push_expectSameElement_whenStackIsEmpty() {
