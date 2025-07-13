@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: sorting stack using recursion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/BalancedParenthesesChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/BalancedParenthesesCheckerTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: maximum stack using brute force">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/MaximumStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -405,6 +405,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="revision" />
       <recent name="practice.trie" />
@@ -422,7 +423,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BalancedParenthesesCheckerTest">
+  <component name="RunManager" selected="Gradle.MaximumStackTest.test_MaximumStack">
     <configuration name="BalancedParenthesesCheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -437,6 +438,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;practice.stack.BalancedParenthesesCheckerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumStackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.stack.MaximumStackTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumStackTest.test_MaximumStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.stack.MaximumStackTest.test_MaximumStack&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,51 +544,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.strings.problem242.ValidAnagramTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Gradle.MaximumStackTest" />
+      <item itemvalue="Gradle.MaximumStackTest.test_MaximumStack" />
       <item itemvalue="Gradle.BalancedParenthesesCheckerTest" />
       <item itemvalue="Gradle.SortStackUsingRecursionTest" />
       <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
-      <item itemvalue="Gradle.ValidAnagramTest" />
-      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumStackTest.test_MaximumStack" />
+        <item itemvalue="Gradle.MaximumStackTest" />
         <item itemvalue="Gradle.BalancedParenthesesCheckerTest" />
         <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
         <item itemvalue="Gradle.SortStackUsingRecursionTest" />
-        <item itemvalue="Gradle.ValidAnagramTest" />
-        <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +913,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="816" />
+    <option name="localTasksCounter" value="817" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -910,8 +928,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
-    <MESSAGE value="[practice/trie]: complete string with trie" />
     <MESSAGE value="[practice/trie]: count number of distinct words using trie" />
     <MESSAGE value="[practice/trie]: maximum xor of two arrays" />
     <MESSAGE value="[practice/trie]: maximum xor of two arrays - added unit tests" />
@@ -935,7 +951,9 @@
     <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
     <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution" />
     <MESSAGE value="[revision]: sorting stack using recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: sorting stack using recursion" />
+    <MESSAGE value="[revision]: balanced parentheses check with unit tests" />
+    <MESSAGE value="[revision]: maximum stack using brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: maximum stack using brute force" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3364,6 +3382,41 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="924" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="925" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="929" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MaximumStack.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MaximumStack.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="933" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/MaximumStack.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="934" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
