@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/SortStackUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/SortStackUsingRecursionTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: sorting stack using recursion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/BalancedParenthesesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/BalancedParenthesesCheckerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/problem142/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/strings/problem242/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +422,31 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted">
+  <component name="RunManager" selected="Gradle.BalancedParenthesesCheckerTest">
+    <configuration name="BalancedParenthesesCheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.stack.BalancedParenthesesCheckerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="SortStackUsingRecursionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -473,30 +495,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.slidingwindow.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -529,19 +527,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.BalancedParenthesesCheckerTest" />
       <item itemvalue="Gradle.SortStackUsingRecursionTest" />
       <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
-      <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
       <item itemvalue="Gradle.ValidAnagramTest" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BalancedParenthesesCheckerTest" />
         <item itemvalue="Gradle.SortStackUsingRecursionTest.test_sortStack_expectSortedStack_whenInputIsNotSorted" />
         <item itemvalue="Gradle.SortStackUsingRecursionTest" />
         <item itemvalue="Gradle.ValidAnagramTest" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.SubStringWithConcatenationOfAllWordsTest.test_findSubstringOptimal_expectOutputOfSize2_whenWordsSizeIs2AndWordSize3" />
       </list>
     </recent_temporary>
   </component>
@@ -897,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="815" />
+    <option name="localTasksCounter" value="816" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -912,7 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with" />
     <MESSAGE value="[practice/trie]: trie implementation for count words equal to and count words starting with - added tests" />
     <MESSAGE value="[practice/trie]: complete string with trie" />
     <MESSAGE value="[practice/trie]: count number of distinct words using trie" />
@@ -937,7 +934,8 @@
     <MESSAGE value="[revision]: longest substring without repeating characters brute force" />
     <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window" />
     <MESSAGE value="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Sub String With Concatenation Of All Words using sliding window optimal solution" />
+    <MESSAGE value="[revision]: sorting stack using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: sorting stack using recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
