@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: minor refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/slidingwindow/GrumpyBookStoreOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/MaximumStackOptimised.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/trees/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackOptimisedTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: longest consecutive sequence and grumpy book store owner">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -425,7 +422,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumStackOptimisedTest">
+  <component name="RunManager" selected="Java Scratch.Scratch (1)">
     <configuration name="MaximumStackOptimisedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -498,68 +495,34 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumStackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.stack.MaximumStackTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MaximumStackTest.test_MaximumStack2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;practice.stack.MaximumStackTest.test_MaximumStack2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Gradle.MaximumStackOptimisedTest" />
       <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
       <item itemvalue="Gradle.MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty" />
-      <item itemvalue="Gradle.MaximumStackTest" />
-      <item itemvalue="Gradle.MaximumStackTest.test_MaximumStack2" />
+      <item itemvalue="Java Scratch.Scratch (1)" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.MaximumStackOptimisedTest" />
         <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
         <item itemvalue="Gradle.MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty" />
-        <item itemvalue="Gradle.MaximumStackTest" />
-        <item itemvalue="Gradle.MaximumStackTest.test_MaximumStack2" />
       </list>
     </recent_temporary>
   </component>
@@ -915,7 +878,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="820" />
+    <option name="localTasksCounter" value="821" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -930,7 +893,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[practice/trie]: maximum xor of two arrays - added unit tests" />
     <MESSAGE value="[revision]: magic index brute force" />
     <MESSAGE value="[revision]: magic index using binary search" />
     <MESSAGE value="[revision]: magic index using binary search modified" />
@@ -955,7 +917,8 @@
     <MESSAGE value="[revision]: maximum stack using brute force" />
     <MESSAGE value="[revision]: fixing edge case when there are multiple copies of data" />
     <MESSAGE value="[revision]: minor refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: minor refactoring" />
+    <MESSAGE value="[revision]: longest consecutive sequence and grumpy book store owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: longest consecutive sequence and grumpy book store owner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3464,6 +3427,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/practice/stack/MaximumStackOptimisedTest.java</url>
           <line>65</line>
           <option name="timeStamp" value="944" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="945" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="946" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
