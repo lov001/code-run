@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: longest consecutive sequence and grumpy book store owner">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: first Missing positive number">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/MinimiseTotalRewards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/MinimiseTotalRewardsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,13 +405,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.greedy" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="revision" />
       <recent name="practice.trie" />
       <recent name="practice.bitmanipulation" />
       <recent name="practice.arrays" />
-      <recent name="practice.greedy" />
       <recent name="practice.slidingwindow" />
       <recent name="practice.arraysandstrings" />
       <recent name="practice.binarysearch" />
@@ -878,7 +879,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="821" />
+    <option name="localTasksCounter" value="822" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -893,7 +894,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[revision]: magic index brute force" />
     <MESSAGE value="[revision]: magic index using binary search" />
     <MESSAGE value="[revision]: magic index using binary search modified" />
     <MESSAGE value="[revision]: search in a rotated array using binary search" />
@@ -918,7 +918,8 @@
     <MESSAGE value="[revision]: fixing edge case when there are multiple copies of data" />
     <MESSAGE value="[revision]: minor refactoring" />
     <MESSAGE value="[revision]: longest consecutive sequence and grumpy book store owner" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: longest consecutive sequence and grumpy book store owner" />
+    <MESSAGE value="[revision]: first Missing positive number" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: first Missing positive number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
