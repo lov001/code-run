@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: first Missing positive number">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/greedy/MinimiseTotalRewards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/greedy/MinimiseTotalRewardsTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Walmart - Minimise Total Rewards">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -405,13 +404,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.arrays" />
       <recent name="practice.greedy" />
       <recent name="practice.stack" />
       <recent name="practice.linkedlist" />
       <recent name="revision" />
       <recent name="practice.trie" />
       <recent name="practice.bitmanipulation" />
-      <recent name="practice.arrays" />
       <recent name="practice.slidingwindow" />
       <recent name="practice.arraysandstrings" />
       <recent name="practice.binarysearch" />
@@ -423,7 +422,7 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch (1)">
+  <component name="RunManager" selected="Gradle.MinimiseTotalRewardsTest">
     <configuration name="MaximumStackOptimisedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -472,7 +471,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimiseTotalRewardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -485,7 +484,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty&quot;" />
+            <option value="&quot;practice.greedy.MinimiseTotalRewardsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -513,17 +512,17 @@
     <list>
       <item itemvalue="Gradle.MaximumStackOptimisedTest" />
       <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
-      <item itemvalue="Gradle.MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty" />
+      <item itemvalue="Gradle.MinimiseTotalRewardsTest" />
       <item itemvalue="Java Scratch.Scratch (1)" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimiseTotalRewardsTest" />
         <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Gradle.MaximumStackOptimisedTest" />
         <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
-        <item itemvalue="Gradle.MaximumStackOptimisedTest.test_pop_expectMinus1_whenStackIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -879,7 +878,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="822" />
+    <option name="localTasksCounter" value="823" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -894,7 +893,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[revision]: magic index using binary search" />
     <MESSAGE value="[revision]: magic index using binary search modified" />
     <MESSAGE value="[revision]: search in a rotated array using binary search" />
     <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
@@ -919,7 +917,8 @@
     <MESSAGE value="[revision]: minor refactoring" />
     <MESSAGE value="[revision]: longest consecutive sequence and grumpy book store owner" />
     <MESSAGE value="[revision]: first Missing positive number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: first Missing positive number" />
+    <MESSAGE value="[revision]: Walmart - Minimise Total Rewards" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Walmart - Minimise Total Rewards" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
