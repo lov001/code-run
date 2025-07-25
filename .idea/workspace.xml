@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: Walmart - Minimise Total Rewards">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" afterDir="false" />
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]:added unit tests for 1st missing positive number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,8 +423,8 @@
       <recent name="practice.sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinimiseTotalRewardsTest">
-    <configuration name="MaximumStackOptimisedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FirstMissingPositiveNumberTest">
+    <configuration name="FirstMissingPositiveNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -436,7 +437,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MaximumStackOptimisedTest&quot;" />
+            <option value="&quot;practice.arrays.FirstMissingPositiveNumberTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -447,7 +448,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumStackOptimisedTest.test_MaximumStackOptimised" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -460,7 +461,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;practice.stack.MaximumStackOptimisedTest.test_MaximumStackOptimised&quot;" />
+            <option value="&quot;practice.arrays.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practice.arrays.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -495,34 +520,27 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+    <configuration name="Scratch (2)" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.MaximumStackOptimisedTest" />
-      <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
+      <item itemvalue="Gradle.FirstMissingPositiveNumberTest" />
+      <item itemvalue="Gradle.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs2" />
+      <item itemvalue="Gradle.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs3" />
       <item itemvalue="Gradle.MinimiseTotalRewardsTest" />
-      <item itemvalue="Java Scratch.Scratch (1)" />
-      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Java Scratch.Scratch (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstMissingPositiveNumberTest" />
+        <item itemvalue="Gradle.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs2" />
+        <item itemvalue="Gradle.FirstMissingPositiveNumberTest.test_missingNumber_expect3_whenNIs3" />
+        <item itemvalue="Java Scratch.Scratch (2)" />
         <item itemvalue="Gradle.MinimiseTotalRewardsTest" />
-        <item itemvalue="Java Scratch.Scratch (1)" />
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Gradle.MaximumStackOptimisedTest" />
-        <item itemvalue="Gradle.MaximumStackOptimisedTest.test_MaximumStackOptimised" />
       </list>
     </recent_temporary>
   </component>
@@ -878,7 +896,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="823" />
+    <option name="localTasksCounter" value="824" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -893,7 +911,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[revision]: magic index using binary search modified" />
     <MESSAGE value="[revision]: search in a rotated array using binary search" />
     <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
@@ -918,7 +935,8 @@
     <MESSAGE value="[revision]: longest consecutive sequence and grumpy book store owner" />
     <MESSAGE value="[revision]: first Missing positive number" />
     <MESSAGE value="[revision]: Walmart - Minimise Total Rewards" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]: Walmart - Minimise Total Rewards" />
+    <MESSAGE value="[revision]:added unit tests for 1st missing positive number" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]:added unit tests for 1st missing positive number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3437,6 +3455,11 @@
           <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.java</url>
           <line>94</line>
           <option name="timeStamp" value="946" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="948" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/practice/trees/SerializeAndDeserializeBinaryTreeTest.java</url>
