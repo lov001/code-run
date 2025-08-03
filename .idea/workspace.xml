@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]:added unit tests for 1st missing positive number">
+    <list default="true" id="74f6c8e3-21d9-4af3-8a61-8151df729f9f" name="Changes" comment="[revision]: brute force approach using hashset and same array iteration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/arrays/FirstMissingPositiveNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -896,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680432532408</updated>
     </task>
-    <option name="localTasksCounter" value="824" />
+    <option name="localTasksCounter" value="826" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -911,8 +910,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[revision]: search in a rotated array using binary search" />
-    <MESSAGE value="[revision]: intersection of two linked lists using hashing and two pointer approach" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length" />
     <MESSAGE value="[revision]: intersection of two linked lists using difference of length - added tests" />
     <MESSAGE value="[revision]: count number of islands in a grid using dfs" />
@@ -936,7 +933,9 @@
     <MESSAGE value="[revision]: first Missing positive number" />
     <MESSAGE value="[revision]: Walmart - Minimise Total Rewards" />
     <MESSAGE value="[revision]:added unit tests for 1st missing positive number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision]:added unit tests for 1st missing positive number" />
+    <MESSAGE value="[revision]: brute force approach using sorting for finding first missing positive number" />
+    <MESSAGE value="[revision]: brute force approach using hashset and same array iteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="[revision]: brute force approach using hashset and same array iteration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3458,7 +3457,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/arrays/FirstMissingPositiveNumber.java</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="948" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
